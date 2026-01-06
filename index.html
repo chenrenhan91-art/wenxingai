@@ -103,13 +103,13 @@
             right: 24px;
             width: 380px; 
             max-width: 90vw;
-            transform: translateX(120%); 
+            transform: translateX(120%); /* Initially hidden off-screen */
             border-right: 3px solid #ffb703;
             max-height: 85vh; 
             z-index: 20;
         }
         .info-panel.active {
-            transform: translateX(0);
+            transform: translateX(0); /* Slide in when active */
         }
 
         .info-panel.collapsed {
@@ -173,6 +173,47 @@
             outline: none;
             background: rgba(15, 23, 42, 0.8);
             box-shadow: 0 0 10px rgba(56, 189, 248, 0.2);
+        }
+
+        /* NEW AI HEX BUTTON STYLE (From Uiverse.io by Yaya12085) */
+        .ai-hex-btn {
+            width: fit-content;
+            display: flex;
+            padding: 1em 1.5rem; /* Adjusted padding slightly */
+            cursor: pointer;
+            gap: 0.4rem;
+            font-weight: bold;
+            border-radius: 30px;
+            text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+            background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
+            background-size: 300%;
+            color: #fff;
+            border: none;
+            background-position: left center;
+            box-shadow: 0 30px 10px -20px rgba(0,0,0,.2);
+            transition: background .3s ease;
+            margin: 15px auto; /* Center horizontally */
+            align-items: center;
+            font-size: 0.95rem;
+        }
+
+        .ai-hex-btn:hover {
+            background-size: 320%;
+            background-position: right center;
+        }
+
+        .ai-hex-btn:hover svg {
+            fill: #fff;
+        }
+
+        .ai-hex-btn svg {
+            width: 23px;
+            fill: #f09f33;
+            transition: .3s ease;
+        }
+        
+        .ai-hex-btn.hidden {
+            display: none;
         }
 
         /* Buttons & Animations */
@@ -364,6 +405,28 @@
         .coin.yang { background: radial-gradient(circle at 30% 30%, #ffd700, #daa520); box-shadow: 0 4px 10px rgba(0,0,0,0.5), inset 0 0 0 4px #ffd700; }
         .coin.yin { background: radial-gradient(circle at 30% 30%, #cd7f32, #8b4513); box-shadow: 0 4px 10px rgba(0,0,0,0.5), inset 0 0 0 4px #8b4513; }
         .shaking { animation: shake 0.6s ease-in-out; }
+        
+        /* Better Toss Animation - Enhanced Physics */
+        @keyframes toss1 {
+            0% { transform: translateY(0) rotateX(0) rotateZ(0); animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1); }
+            50% { transform: translateY(-300px) rotateX(1080deg) rotateZ(45deg); animation-timing-function: cubic-bezier(0.8, 0, 0.8, 0.2); }
+            100% { transform: translateY(0) rotateX(2160deg) rotateZ(0); }
+        }
+        @keyframes toss2 {
+            0% { transform: translateY(0) rotateX(0) rotateZ(0); animation-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1); }
+            45% { transform: translateY(-350px) rotateX(1260deg) rotateZ(-60deg); animation-timing-function: cubic-bezier(0.64, 0.04, 0.8, 0.4); }
+            100% { transform: translateY(0) rotateX(2520deg) rotateZ(0); }
+        }
+        @keyframes toss3 {
+            0% { transform: translateY(0) rotateX(0) rotateZ(0); animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28); }
+            55% { transform: translateY(-280px) rotateX(900deg) rotateZ(30deg); animation-timing-function: cubic-bezier(0.6, -0.28, 0.74, 0.05); }
+            100% { transform: translateY(0) rotateX(1800deg) rotateZ(0); }
+        }
+        
+        .coin.tossing-1 { animation: toss1 1.2s forwards; }
+        .coin.tossing-2 { animation: toss2 1.4s forwards; }
+        .coin.tossing-3 { animation: toss3 1.3s forwards; }
+
         .hexagram-display { width: 100%; margin-top: 15px; background: rgba(0,0,0,0.3); padding: 10px; border-radius: 8px; min-height: 180px; display: flex; flex-direction: column-reverse; gap: 8px; border: 1px solid #334155; }
         .hex-row { display: flex; align-items: center; justify-content: center; height: 20px; position: relative; }
         .hex-label { position: absolute; left: 0; font-size: 10px; color: #64748b; width: 20px; }
@@ -651,7 +714,12 @@
         </div>
 
         <button class="toss-btn" id="tossBtn" onclick="tossCoins()">🤲 摇一卦</button>
-        <button class="ai-btn hidden" id="interpretBtn" onclick="interpretHexagram()" style="padding: 6px; font-size: 0.85rem; margin-top: 10px;">✨ 问星 AI 解卦</button>
+        <button class="ai-hex-btn hidden" id="interpretBtn" onclick="interpretHexagram()">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+            问星 AI 解卦
+        </button>
         <button class="reset-btn" onclick="resetHexagram()">🔄 重置卦象</button>
     </div>
 </div>
@@ -684,18 +752,21 @@
 </div>
 
 <script>
-    // --- GEMINI/WORKER API CONFIG ---
-    // Replaced Gemini API with custom Worker API (Qwen)
+    // --- GEMINI API CONFIG ---
+    // Switched back to Google Gemini API
+    // ⚠️ 如果遇到 401 错误，请在此处双引号内填入您的 Google Gemini API Key
+    const apiKey = ""; 
     
     async function callAI(prompt, systemInstruction = "") {
-        const url = `https://yuzai.chenrenhan91.workers.dev/api/generate`;
-        
-        // Combine system instruction and prompt if both exist
-        const fullPrompt = systemInstruction ? `${systemInstruction}\n\n${prompt}` : prompt;
+        const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
         
         const payload = {
-            prompt: fullPrompt
+            contents: [{ parts: [{ text: prompt }] }]
         };
+
+        if (systemInstruction && systemInstruction.trim() !== "") {
+            payload.systemInstruction = { parts: [{ text: systemInstruction }] };
+        }
 
         const maxRetries = 3;
         let delay = 1000;
@@ -710,19 +781,19 @@
 
                 if (!response.ok) {
                     const status = response.status;
-                    console.error("AI API Error:", status);
+                    const errData = await response.json().catch(() => ({}));
+                    console.error("Gemini API Error:", status, errData);
+                    
+                    // Specific handling for Auth errors to give user feedback
+                    if (status === 401 || status === 403) {
+                        return `⚠️ **连接失败 (${status})**\n\nAPI Key 无效或未配置。\n由于设置面板已移除，请直接在代码中找到 \`const apiKey = "";\` (约第 1335 行) 并手动填入您的 Google API Key。`;
+                    }
+
                     throw new Error(`HTTP error! status: ${status}`);
                 }
                 
                 const data = await response.json();
-                
-                if (data && data.ok && data.text) {
-                    return data.text;
-                } else {
-                    console.error("Worker API returned error or invalid format", data);
-                    throw new Error("API returned invalid data format");
-                }
-                
+                return data.candidates?.[0]?.content?.parts?.[0]?.text || "星象模糊，无法解读。";
             } catch (error) {
                 console.error("Attempt", i+1, "failed:", error);
                 if (i === maxRetries - 1) return `连接宇宙能量失败 (API Error: ${error.message})。请稍后再试。`;
@@ -731,7 +802,7 @@
             }
         }
     }
-
+    
     // --- ZI WEI DOU SHU LOGIC ---
     const HEAVENLY_STEMS = ['甲', '乙', '丙', '丁', '戊', '己', '庚', '辛', '壬', '癸'];
     const EARTHLY_BRANCHES = ['子', '丑', '寅', '卯', '辰', '巳', '午', '未', '申', '酉', '戌', '亥'];
@@ -1222,9 +1293,26 @@
         if (isTossing || currentYaoLines.length >= 6) return;
         isTossing = true;
         const coins = document.querySelectorAll('.coin');
-        coins.forEach(c => c.classList.add('shaking'));
+        
+        // Remove any existing result classes (yang/yin) to show "neutral" state during toss? 
+        // Actually, usually you keep the previous state or reset. Let's keep it simple.
+        
+        // Apply random toss animations
+        const tossClasses = [];
+        coins.forEach((c, index) => {
+            // Randomly pick an animation variant 1, 2, or 3
+            const variant = Math.floor(Math.random() * 3) + 1;
+            const cls = `tossing-${variant}`;
+            c.classList.add(cls);
+            tossClasses[index] = cls;
+        });
+
+        // Timeout needs to match the longest animation (approx 1.4s)
         setTimeout(() => {
-            coins.forEach(c => c.classList.remove('shaking'));
+            coins.forEach((c, index) => {
+                c.classList.remove(tossClasses[index]);
+            });
+            
             let sum = 0;
             for(let i=0; i<3; i++) {
                 const isYang = Math.random() > 0.5;
@@ -1243,7 +1331,7 @@
                 document.getElementById('interpretBtn').classList.add('flex');
             }
             isTossing = false;
-        }, 600);
+        }, 1500); // 1.5s to be safe
     }
 
     function resetHexagram() {
@@ -1300,7 +1388,7 @@
                 <p class="text-xs text-gray-500 mt-2">正在以此卦问询天机</p>
             </div>
         `;
-        const systemPrompt = `你是一位精通《增删卜易》与传统纳甲筮法的六爻命理大师。你的任务是根据用户摇出的金钱课卦象（本卦、动爻、变卦）进行专业解读。解读要求：1. 准确分析卦名、五行、世应关系。2. 重点分析动爻（老阴/老阳）的吉凶变化，动爻是事情成败的关键。3. 结合变卦判断事情的最终走向。4. 语气专业、神秘但客观，给出具体的行动建议。5. 输出格式使用 Markdown，关键吉凶结论请加粗。`;
+        const systemPrompt = `你是一位精通《增删卜易》与传统纳甲筮法的六爻命理大师。你的任务是根据用户摇出的金钱课卦象（本卦、动爻、变卦）进行专业解读。解读要求：1. 准确分析卦名、五行、世应关系。2. 重点分析动爻（老阴/老阳）的吉凶变化，动爻是事情成败的关键。3. 结合变卦判断事情的最终走向。4. 语气专业、神秘但客观，给出具体的行动建议。5. 输出格式使用简单的 Markdown，关键吉凶结论请加粗。`;
         const userPrompt = `用户起卦结果如下：【本卦】: ${benGuaName} (结构: ${binStr}) 【动爻】: ${movingLinesDesc || "静卦无动爻"} 【变卦/之卦】: ${zhiGuaName} 请开始解卦。`;
         const result = await callAI(userPrompt, systemPrompt);
         contentDiv.innerHTML = marked.parse(result);
@@ -1368,12 +1456,78 @@
         chartObj.add(connectionGroup); scene.add(chartObj);
         raycaster = new THREE.Raycaster(); mouse = new THREE.Vector2();
         window.addEventListener('resize', onWindowResize, false);
-        window.addEventListener('click', onMouseClick, false);
         
         // Initial mobile camera check
         onWindowResize();
+        
+        // Setup new interaction logic
+        initCanvasInteraction();
 
         animate();
+    }
+    
+    // --- NEW: Mobile-Friendly Canvas Interaction Logic ---
+    function initCanvasInteraction() {
+        const canvas = renderer.domElement;
+        let downX = 0, downY = 0;
+        let downTime = 0;
+
+        // Use pointer events to handle both touch and mouse seamlessly
+        canvas.addEventListener('pointerdown', (e) => {
+            if (!e.isPrimary) return; // Ignore multi-touch
+            downX = e.clientX;
+            downY = e.clientY;
+            downTime = performance.now();
+        });
+
+        canvas.addEventListener('pointerup', (e) => {
+            if (!e.isPrimary) return;
+            const upX = e.clientX;
+            const upY = e.clientY;
+            
+            // Calculate distance moved
+            const moveDist = Math.sqrt(Math.pow(upX - downX, 2) + Math.pow(upY - downY, 2));
+            const timeDiff = performance.now() - downTime;
+
+            // If movement is small (< 10px) and duration is short (< 600ms), treat as tap
+            if (moveDist < 10 && timeDiff < 600) {
+                // Manually trigger raycast logic with the UP coordinates
+                handleRaycast(upX, upY);
+            }
+        });
+    }
+
+    // Refactored from onMouseClick to accept coordinates
+    function handleRaycast(clientX, clientY) {
+        if (!currentChart) return;
+        
+        // Get precise canvas position in viewport
+        const rect = renderer.domElement.getBoundingClientRect();
+        
+        // Calculate normalized device coordinates (-1 to +1) relative to canvas
+        mouse.x = ((clientX - rect.left) / rect.width) * 2 - 1;
+        mouse.y = -((clientY - rect.top) / rect.height) * 2 + 1;
+
+        raycaster.setFromCamera(mouse, camera);
+        const intersects = raycaster.intersectObjects(chartObj.children, true); 
+        
+        if (intersects.length > 0) {
+            let target = intersects[0].object;
+            // Traverse up to find the parent group with data
+            while(target.parent && target.parent !== chartObj && !target.userData.data) { target = target.parent; }
+
+            if (target.userData && target.userData.data) {
+                const centerIndex = target.userData.id;
+                const panel = document.getElementById('infoPanel');
+                
+                // Unified Logic: Open and expand panel on ALL devices
+                panel.classList.add('active'); // Bring into view
+                panel.classList.remove('collapsed'); // Expand content
+                
+                showInfoPanel(target.userData.data);
+                visualizeRelationships(centerIndex);
+            }
+        }
     }
 
     function addBackgroundStars() {
@@ -1416,10 +1570,34 @@
         const material = new THREE.MeshPhysicalMaterial({ color: baseColor, transparent: true, opacity: opacityVal, metalness: 0.8, roughness: 0.2, clearcoat: 1.0, clearcoatRoughness: 0.1, emissive: emissiveColor, emissiveIntensity: 0.5, side: THREE.DoubleSide });
         const mesh = new THREE.Mesh(geometry, material); mesh.userData = { id: index, data: data, originalColor: baseColor, originalEmissive: emissiveColor }; 
         const labelText = data.name + '\n' + data.stem + data.branch;
-        const sprite = createTextSprite(labelText, data.isMing ? 0xffd700 : 0xaaccff);
+        
+        let highlightType = 0; // 0: None, 1: Ming, 2: Shen
+        let textColor = 0xaaccff;
+        
+        if (data.isMing) {
+            highlightType = 1;
+            textColor = 0xffd700;
+        } else if (data.isShen) {
+            highlightType = 2;
+            textColor = 0x33ff33; // Bright green for Shen text
+        }
+        
+        const sprite = createTextSprite(labelText, textColor, highlightType);
+        
         const angle = thetaStart + thetaLength / 2; const r = (radiusInner + radiusOuter) / 2;
-        sprite.position.set(r * Math.cos(angle), r * Math.sin(angle), 5); mesh.add(sprite);
-        if (data.isMing) { const glow = createGlowSprite(0x0077ff, 12); glow.position.set(r * Math.cos(angle), r * Math.sin(angle), -2); mesh.add(glow); }
+        sprite.position.set(r * Math.cos(angle), r * Math.sin(angle), 15); mesh.add(sprite); // Changed z from 5 to 15 to clear planets
+        
+        if (data.isMing) { 
+            const glow = createGlowSprite(0x0077ff, 12); 
+            glow.position.set(r * Math.cos(angle), r * Math.sin(angle), -2); 
+            mesh.add(glow); 
+        } else if (data.isShen) {
+             // Green glow for Shen
+            const glow = createGlowSprite(0x00ff88, 12); 
+            glow.position.set(r * Math.cos(angle), r * Math.sin(angle), -2); 
+            mesh.add(glow); 
+        }
+        
         addStarsToSector(mesh, data.stars, angle, r);
         sectorMeshes[index] = mesh; return mesh;
     }
@@ -1454,14 +1632,51 @@
         });
     }
 
-    function createTextSprite(message, color) {
+    function createTextSprite(message, color, highlightType = 0) {
         const canvas = document.createElement('canvas'); const context = canvas.getContext('2d'); canvas.width = 512; canvas.height = 256;
         context.clearRect(0, 0, canvas.width, canvas.height); 
-        context.font = "Bold 50px 'Noto Sans SC'"; context.fillStyle = "rgba(255,255,255,1)"; context.textAlign = "center"; context.textBaseline = "middle"; context.shadowColor = "#000"; context.shadowBlur = 15; context.lineWidth = 4;
+        context.textAlign = "center"; context.textBaseline = "middle"; context.lineWidth = 4;
+        
         const lines = message.split('\n');
-        lines.forEach((line, i) => { if (i===0) { context.fillStyle = '#' + new THREE.Color(color).getHexString(); context.font = "Bold 60px 'Noto Sans SC'"; context.fillText(line, 256, 100); } else { context.fillStyle = "#cccccc"; context.font = "40px 'Noto Sans SC'"; context.fillText(line, 256, 160); } });
+        lines.forEach((line, i) => { 
+            if (i===0) { 
+                context.fillStyle = '#' + new THREE.Color(color).getHexString(); 
+                if (highlightType === 1) { // Ming (Gold, Large)
+                    context.font = "Bold 80px 'Noto Sans SC'"; 
+                    context.shadowColor = "rgba(255, 215, 0, 0.9)"; 
+                    context.shadowBlur = 25;
+                    context.fillText(line, 256, 90);
+                    context.shadowBlur = 10;
+                    context.fillText(line, 256, 90);
+                } else if (highlightType === 2) { // Shen (Green, Standard Size)
+                    context.font = "Bold 60px 'Noto Sans SC'"; // Standard size
+                    context.shadowColor = "rgba(50, 255, 50, 0.9)"; // Green glow
+                    context.shadowBlur = 20;
+                    context.fillText(line, 256, 100);
+                    context.shadowBlur = 8;
+                    context.fillText(line, 256, 100);
+                } else { // Normal
+                    context.font = "Bold 60px 'Noto Sans SC'"; 
+                    context.shadowColor = "#000"; 
+                    context.shadowBlur = 15; 
+                    context.fillText(line, 256, 100);
+                }
+            } else { 
+                // Subtext color
+                if (highlightType === 1) context.fillStyle = "#ffecb3";
+                else if (highlightType === 2) context.fillStyle = "#ccffcc";
+                else context.fillStyle = "#cccccc";
+                
+                context.font = "40px 'Noto Sans SC'"; 
+                context.shadowColor = "#000";
+                context.shadowBlur = 8;
+                context.fillText(line, 256, 170); 
+            } 
+        });
         const texture = new THREE.CanvasTexture(canvas); const spriteMaterial = new THREE.SpriteMaterial({ map: texture, transparent: true, depthWrite: false });
-        const sprite = new THREE.Sprite(spriteMaterial); sprite.scale.set(8, 4, 1); return sprite;
+        // Scale adjustment: Only Ming gets bigger scale
+        const scale = (highlightType === 1) ? 10 : 8; 
+        const sprite = new THREE.Sprite(spriteMaterial); sprite.scale.set(scale, scale * 0.5, 1); return sprite;
     }
 
     function createGlowSprite(color, scale) {
@@ -1537,35 +1752,8 @@
         if (controls) controls.update();
     }
 
-    function onMouseClick(event) {
-        if (!currentChart) return;
-        
-        // Critical for Mobile: Use event coordinates directly
-        // Use clientX/Y which works for both click and touch-simulated click
-        mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-        mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
-
-        raycaster.setFromCamera(mouse, camera);
-        const intersects = raycaster.intersectObjects(chartObj.children, true); 
-        
-        if (intersects.length > 0) {
-            let target = intersects[0].object;
-            while(target.parent && target.parent !== chartObj && !target.userData.data) { target = target.parent; }
-
-            if (target.userData && target.userData.data) {
-                const centerIndex = target.userData.id;
-                const panel = document.getElementById('infoPanel');
-                
-                // Mobile Logic: 
-                // 1. Open Info Panel (Slide up)
-                panel.classList.add('active');
-                panel.classList.remove('collapsed');
-                
-                showInfoPanel(target.userData.data);
-                visualizeRelationships(centerIndex);
-            }
-        }
-    }
+    // REMOVED old onMouseClick logic
+    // Now handled by initCanvasInteraction() and handleRaycast()
     
     function showInfoPanel(data) {
         selectedPalaceData = data; 
