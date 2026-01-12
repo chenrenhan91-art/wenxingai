@@ -15,7 +15,8 @@ workflows:
         BUNDLE_ID: "com.chenrenhan.wenxingai"
       node: v22.11.0
       xcode: latest
-      cocoapods: default
+      cocoapods:
+        working_directory: ios
     triggering:
       events:
         - push
