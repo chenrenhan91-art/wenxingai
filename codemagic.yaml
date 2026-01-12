@@ -58,10 +58,9 @@ workflows:
           fi
           pod install
 
-      - name: Fetch signing files
+      - name: Set up code signing
         script: |
-          app-store-connect fetch-signing-files "$BUNDLE_ID" \
-            --type IOS_APP_STORE
+          keychain initialize
 
       - name: Add certificates to keychain
         script: |
