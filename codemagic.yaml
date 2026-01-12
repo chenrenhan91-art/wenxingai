@@ -36,14 +36,34 @@ workflows:
         script: |
           npm run build
 
-      - name: Sync Capacitor
+      - name: Ensure iOS platform exists
+        script: |
+          npx cap add ios || true
+
+      - name: Sync Capacitor to iOS
         script: |
           npx cap sync ios
 
-      # 🔥 正确路径：Podfile 在 ios 根目录
-      - name: Install CocoaPods
+      - name: Install CocoaPods (auto-detect Podfile)
         script: |
-          cd ios
+          set -e
+          echo "Searching for Podfile..."
+          if [ -f "ios/Podfile" ]; then
+            echo "Found Podfile at ios/Podfile"
+            cd ios
+          elif [ -f "ios/App/Podfile" ]; then
+            echo "Found Podfile at ios/App/Podfile"
+            cd ios/App
+          elif [ -f "ios/App/App/Podfile" ]; then
+            echo "Found Podfile at ios/App/App/Podfile"
+            cd ios/App/App
+          else
+            echo "Podfile NOT found. Listing ios directory:"
+            ls -la ios || true
+            echo "Finding Podfile under project root:"
+            find . -maxdepth 5 -name Podfile -print || true
+            exit 1
+          fi
           pod install
 
       - name: Fetch signing files
@@ -60,20 +80,42 @@ workflows:
         script: |
           xcode-project use-profiles
 
-      - name: Increment build number
+      - name: Increment build number (auto-detect iOS project dir)
         script: |
-          cd ios
+          set -e
+          if [ -d "ios/App" ]; then
+            cd ios/App
+          elif [ -d "ios" ]; then
+            cd ios
+          else
+            echo "iOS directory not found"
+            exit 1
+          fi
           agvtool new-version -all $BUILD_NUMBER
 
-      - name: Build ipa
+      - name: Build ipa (auto-detect workspace location)
         script: |
-          cd ios
+          set -e
+          # Prefer the common Capacitor location: ios/App
+          if [ -f "ios/App/$XCODE_WORKSPACE" ]; then
+            cd ios/App
+          elif [ -f "ios/$XCODE_WORKSPACE" ]; then
+            cd ios
+          elif [ -f "ios/App/App.xcworkspace" ]; then
+            cd ios/App
+            export XCODE_WORKSPACE="App.xcworkspace"
+          else
+            echo "Workspace not found. Listing possible workspaces:"
+            find ios -maxdepth 4 -name "*.xcworkspace" -print || true
+            exit 1
+          fi
+
           xcode-project build-ipa \
             --workspace "$XCODE_WORKSPACE" \
             --scheme "$XCODE_SCHEME"
 
     artifacts:
-      - ios/build/ios/ipa/*.ipa
+      - ios/**/build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
 
     publishing:
