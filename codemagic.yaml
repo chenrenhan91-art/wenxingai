@@ -3,20 +3,26 @@ workflows:
     name: iOS App Store Build
     max_build_duration: 120
     instance_type: mac_mini_m2
+
     integrations:
       app_store_connect: codemagic
+
     environment:
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.chenrenhan.wenxingai
+
       vars:
         XCODE_WORKSPACE: "App.xcworkspace"
         XCODE_SCHEME: "App"
         BUNDLE_ID: "com.chenrenhan.wenxingai"
+
       node: v22.11.0
       xcode: latest
-      cocoapods:
-        working_directory: ios
+
+    cocoapods:
+      working_directory: ios/App
+
     triggering:
       events:
         - push
@@ -28,45 +34,52 @@ workflows:
         - pattern: master
           include: true
           source: true
+
     scripts:
       - name: Install npm dependencies
         script: |
           npm install
+
       - name: Build web assets
         script: |
           npm run build
-      - name: Update dependencies and copy web assets to native project
+
+      - name: Sync Capacitor to iOS
         script: |
           npx cap sync ios
-      - name: Install CocoaPods dependencies
-        script: |
-          cd ios/App && pod install
+
       - name: Fetch signing files
         script: |
           app-store-connect fetch-signing-files "$BUNDLE_ID" \
             --type IOS_APP_STORE \
             --create
+
       - name: Add certificates to keychain
         script: |
           keychain add-certificates
-      - name: Set up code signing settings on Xcode project
+
+      - name: Apply provisioning profiles
         script: |
           xcode-project use-profiles
+
       - name: Increment build number
         script: |
-          cd $CM_BUILD_DIR/ios/App
+          cd ios/App
           agvtool new-version -all $BUILD_NUMBER
-      - name: Build ipa for distribution
+
+      - name: Build IPA
         script: |
-          cd $CM_BUILD_DIR/ios/App
+          cd ios/App
           xcode-project build-ipa \
             --workspace "$XCODE_WORKSPACE" \
             --scheme "$XCODE_SCHEME"
+
     artifacts:
       - ios/App/build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+
     publishing:
       email:
         recipients:
@@ -74,6 +87,7 @@ workflows:
         notify:
           success: true
           failure: true
+
       app_store_connect:
         auth: integration
         submit_to_testflight: true
