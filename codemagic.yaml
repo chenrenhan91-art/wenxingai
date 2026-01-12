@@ -17,20 +17,15 @@ workflows:
         XCODE_SCHEME: "App"
         BUNDLE_ID: "com.chenrenhan.wenxingai"
 
-      node: v22.11.0
+      node: 22.11.0
       xcode: latest
 
     triggering:
       events:
         - push
-        - tag
       branch_patterns:
         - pattern: main
           include: true
-          source: true
-        - pattern: master
-          include: true
-          source: true
 
     scripts:
       - name: Install npm dependencies
@@ -41,13 +36,14 @@ workflows:
         script: |
           npm run build
 
-      - name: Sync Capacitor to iOS
+      - name: Sync Capacitor
         script: |
           npx cap sync ios
 
-      - name: Install CocoaPods dependencies (ios/App)
+      # 🔥 正确路径：Podfile 在 ios 根目录
+      - name: Install CocoaPods
         script: |
-          cd ios/App
+          cd ios
           pod install
 
       - name: Fetch signing files
@@ -60,36 +56,27 @@ workflows:
         script: |
           keychain add-certificates
 
-      - name: Apply provisioning profiles
+      - name: Use provisioning profiles
         script: |
           xcode-project use-profiles
 
       - name: Increment build number
         script: |
-          cd ios/App
+          cd ios
           agvtool new-version -all $BUILD_NUMBER
 
-      - name: Build IPA
+      - name: Build ipa
         script: |
-          cd ios/App
+          cd ios
           xcode-project build-ipa \
             --workspace "$XCODE_WORKSPACE" \
             --scheme "$XCODE_SCHEME"
 
     artifacts:
-      - ios/App/build/ios/ipa/*.ipa
+      - ios/build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
-      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
-      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
 
     publishing:
-      email:
-        recipients:
-          - chenrenhan91@gmail.com
-        notify:
-          success: true
-          failure: true
-
       app_store_connect:
         auth: integration
         submit_to_testflight: true
