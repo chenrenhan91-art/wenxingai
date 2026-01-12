@@ -28,6 +28,13 @@ workflows:
           include: true
 
     scripts:
+      - name: Show project root info
+        script: |
+          set -e
+          echo "CM_BUILD_DIR=$CM_BUILD_DIR"
+          pwd
+          ls -la
+
       - name: Install npm dependencies
         script: |
           npm install
@@ -36,34 +43,45 @@ workflows:
         script: |
           npm run build
 
-      - name: Ensure iOS platform exists
+      # 关键：如果 ios 目录不完整/没有 Podfile，就删掉重建，避免“空 ios 目录”卡死
+      - name: Recreate iOS platform if Podfile missing
         script: |
-          npx cap add ios || true
+          set -e
+          if [ -d "ios" ]; then
+            echo "ios directory exists. Checking for Podfile..."
+            if ! find ios -maxdepth 6 -iname Podfile | grep -q Podfile; then
+              echo "No Podfile under ios/. Recreating ios platform..."
+              rm -rf ios
+            fi
+          fi
+
+          if [ ! -d "ios" ]; then
+            echo "Adding iOS platform..."
+            npx cap add ios
+          fi
 
       - name: Sync Capacitor to iOS
         script: |
           npx cap sync ios
 
-      - name: Install CocoaPods (auto-detect Podfile)
+      - name: Install CocoaPods (find Podfile and run pod install)
         script: |
           set -e
-          echo "Searching for Podfile..."
-          if [ -f "ios/Podfile" ]; then
-            echo "Found Podfile at ios/Podfile"
-            cd ios
-          elif [ -f "ios/App/Podfile" ]; then
-            echo "Found Podfile at ios/App/Podfile"
-            cd ios/App
-          elif [ -f "ios/App/App/Podfile" ]; then
-            echo "Found Podfile at ios/App/App/Podfile"
-            cd ios/App/App
-          else
-            echo "Podfile NOT found. Listing ios directory:"
-            ls -la ios || true
-            echo "Finding Podfile under project root:"
-            find . -maxdepth 5 -name Podfile -print || true
+          echo "Listing ios folder:"
+          ls -la ios || true
+          echo "Searching Podfile under ios (case-insensitive):"
+          PODFILE_PATH="$(find ios -maxdepth 6 -iname Podfile -print | head -n 1 || true)"
+          echo "PODFILE_PATH=$PODFILE_PATH"
+
+          if [ -z "$PODFILE_PATH" ]; then
+            echo "Podfile STILL not found. Full search (maxdepth 8):"
+            find . -maxdepth 8 -iname Podfile -print || true
             exit 1
           fi
+
+          POD_DIR="$(dirname "$PODFILE_PATH")"
+          echo "Running pod install in: $POD_DIR"
+          cd "$POD_DIR"
           pod install
 
       - name: Fetch signing files
@@ -80,33 +98,28 @@ workflows:
         script: |
           xcode-project use-profiles
 
-      - name: Increment build number (auto-detect iOS project dir)
+      - name: Increment build number
         script: |
           set -e
+          # 常见路径：ios/App
           if [ -d "ios/App" ]; then
             cd ios/App
-          elif [ -d "ios" ]; then
-            cd ios
           else
-            echo "iOS directory not found"
-            exit 1
+            cd ios
           fi
           agvtool new-version -all $BUILD_NUMBER
 
-      - name: Build ipa (auto-detect workspace location)
+      - name: Build ipa
         script: |
           set -e
-          # Prefer the common Capacitor location: ios/App
+          # workspace 常见路径：ios/App/App.xcworkspace
           if [ -f "ios/App/$XCODE_WORKSPACE" ]; then
             cd ios/App
           elif [ -f "ios/$XCODE_WORKSPACE" ]; then
             cd ios
-          elif [ -f "ios/App/App.xcworkspace" ]; then
-            cd ios/App
-            export XCODE_WORKSPACE="App.xcworkspace"
           else
-            echo "Workspace not found. Listing possible workspaces:"
-            find ios -maxdepth 4 -name "*.xcworkspace" -print || true
+            echo "Workspace not found. Search xcworkspace:"
+            find ios -maxdepth 6 -name "*.xcworkspace" -print || true
             exit 1
           fi
 
