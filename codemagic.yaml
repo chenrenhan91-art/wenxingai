@@ -80,7 +80,7 @@ workflows:
         script: |
           set -e
           cd ios/App
-          if [ ! -f "App.xcworkspace" ]; then
+          if [ ! -d "App.xcworkspace" ]; then
             echo "App.xcworkspace not found. Listing:"
             ls -la
             echo "Workspaces found:"
