@@ -1,6 +1,6 @@
 {
-  "appId": "com.zwds.app",
-  "appName": "紫微斗数",
+  "appId": "com.chenrenhan.wenxingai",
+  "appName": "问星AI",
   "webDir": "www",
   "server": {
     "androidScheme": "https"

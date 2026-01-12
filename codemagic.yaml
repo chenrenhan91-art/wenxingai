@@ -4,11 +4,11 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m2
     integrations:
-      app_store_connect: codemagic  # 需要在 Codemagic 中配置 App Store Connect API 密钥
+      app_store_connect: codemagic
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.zwds.app  # 您的应用 Bundle ID
+        bundle_identifier: com.chenrenhan.wenxingai
       vars:
         XCODE_WORKSPACE: "App.xcworkspace"
         XCODE_SCHEME: "App"
@@ -65,7 +65,7 @@ workflows:
     publishing:
       email:
         recipients:
-          - your-email@example.com  # 替换为您的邮箱
+          - chenrenhan91@gmail.com
         notify:
           success: true
           failure: true
