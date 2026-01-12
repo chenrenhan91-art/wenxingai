@@ -13,7 +13,7 @@ workflows:
         XCODE_WORKSPACE: "App.xcworkspace"
         XCODE_SCHEME: "App"
         BUNDLE_ID: "com.chenrenhan.wenxingai"
-      node: v18.17.0
+      node: v22.11.0
       xcode: latest
       cocoapods: default
     triggering:
