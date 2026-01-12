@@ -1,0 +1,17 @@
+# Podfile for Capacitor iOS project (Codemagic compatible)
+# Place this file at: ios/Podfile
+
+require_relative '../node_modules/@capacitor/ios/scripts/pods_helpers'
+
+platform :ios, '13.0'
+use_frameworks!
+
+install! 'cocoapods', :disable_input_output_paths => true
+
+target 'App' do
+  capacitor_pods
+end
+
+post_install do |installer|
+  capacitor_post_install(installer)
+end
