@@ -20,9 +20,6 @@ workflows:
       node: v22.11.0
       xcode: latest
 
-    cocoapods:
-      working_directory: ios/App
-
     triggering:
       events:
         - push
@@ -47,6 +44,11 @@ workflows:
       - name: Sync Capacitor to iOS
         script: |
           npx cap sync ios
+
+      - name: Install CocoaPods dependencies (ios/App)
+        script: |
+          cd ios/App
+          pod install
 
       - name: Fetch signing files
         script: |
