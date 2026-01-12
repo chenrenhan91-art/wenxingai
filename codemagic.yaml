@@ -12,7 +12,7 @@ workflows:
       vars:
         XCODE_WORKSPACE: "App.xcworkspace"
         XCODE_SCHEME: "App"
-        # APP_STORE_APP_ID: 123456789  # 在 App Store Connect 创建应用后填入
+        BUNDLE_ID: "com.chenrenhan.wenxingai"
       node: v18.17.0
       xcode: latest
       cocoapods: default
@@ -40,16 +40,20 @@ workflows:
       - name: Install CocoaPods dependencies
         script: |
           cd ios/App && pod install
+      - name: Fetch signing files
+        script: |
+          app-store-connect fetch-signing-files "$BUNDLE_ID" \
+            --type IOS_APP_STORE \
+            --create
+      - name: Add certificates to keychain
+        script: |
+          keychain add-certificates
       - name: Set up code signing settings on Xcode project
         script: |
           xcode-project use-profiles
       - name: Increment build number
         script: |
           cd $CM_BUILD_DIR/ios/App
-          # 如果已有 App Store 应用，取消下面注释并填入 APP_STORE_APP_ID
-          # LATEST_BUILD_NUMBER=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APP_ID")
-          # agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
-          # 首次构建使用固定版本号
           agvtool new-version -all $BUILD_NUMBER
       - name: Build ipa for distribution
         script: |
@@ -72,6 +76,4 @@ workflows:
       app_store_connect:
         auth: integration
         submit_to_testflight: true
-        # beta_groups:
-        #   - Internal Testers  # TestFlight 测试组名称
-        submit_to_app_store: false  # 首次建议先发布到 TestFlight 测试
+        submit_to_app_store: false
