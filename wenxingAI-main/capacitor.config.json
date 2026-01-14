@@ -1,0 +1,11 @@
+{
+  "appId": "com.chenrenhan.wenxingai",
+  "appName": "问星AI",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "ios": {
+    "contentInset": "automatic"
+  }
+}

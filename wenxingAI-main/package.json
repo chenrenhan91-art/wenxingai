@@ -1,0 +1,27 @@
+{
+  "name": "zwds",
+  "version": "1.0.0",
+  "description": "紫微斗数 - 命运的全息宇宙",
+  "main": "index.js",
+  "scripts": {
+    "build": "cp index.html www/ && cp privacy.html www/",
+    "sync": "npx cap sync",
+    "ios": "npx cap open ios"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenrenhan91-art/zwds.git"
+  },
+  "keywords": ["紫微斗数", "命理", "占星"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenrenhan91-art/zwds/issues"
+  },
+  "homepage": "https://github.com/chenrenhan91-art/zwds#readme",
+  "dependencies": {
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/ios": "^8.0.0"
+  }
+}
