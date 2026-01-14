@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>问星AI - 你的AI心理伙伴</title>
+    <title>紫微斗数 - 命运的全息宇宙</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Three.js -->
@@ -561,7 +561,7 @@
         <div id="blackHoleDisk2"></div>
         <div id="planet"></div>
     </div>
-    <p style="margin-top: 55px; color: #38bdf8; font-size: 0.9rem; letter-spacing: 2px; text-transform: uppercase;">性格图谱生成中...</p>
+    <p style="margin-top: 55px; color: #38bdf8; font-size: 0.9rem; letter-spacing: 2px; text-transform: uppercase;">星盘排列中...</p>
 </div>
 
 <!-- Canvas -->
@@ -573,7 +573,7 @@
     <div class="panel input-panel" id="inputPanel">
         <!-- Header -->
         <div class="panel-header" onclick="toggleInputPanel()">
-            <h1 class="flex items-center gap-2">🌌 <span class="hidden sm:inline">性格星系</span><span class="sm:hidden text-sm">紫薇星系</span></h1>
+            <h1 class="flex items-center gap-2">🌌 <span class="hidden sm:inline">紫微星系</span><span class="sm:hidden text-sm">紫薇星系</span></h1>
             <div class="toggle-icon">▼</div>
         </div>
 
@@ -608,7 +608,7 @@
 
             <button class="uiverse" onclick="generateChart()">
                 <div class="wrapper">
-                    <span>🚀 开启性格分析</span>
+                    <span>🚀 开启星盘</span>
                     <div class="circle circle-12"></div>
                     <div class="circle circle-11"></div>
                     <div class="circle circle-10"></div>
@@ -651,9 +651,9 @@
                 <!-- Stars -->
             </div>
             
-            <button class="ai-text-btn" data-text="✨ AI 性格解析" onclick="analyzeCurrentPalace(); event.stopPropagation();">
-                <span class="actual-text">&nbsp;✨ AI 性格解析&nbsp;</span>
-                <span aria-hidden="true" class="hover-text">&nbsp;✨ AI 性格解析&nbsp;</span>
+            <button class="ai-text-btn" data-text="✨ 问星 AI 深度解析" onclick="analyzeCurrentPalace(); event.stopPropagation();">
+                <span class="actual-text">&nbsp;✨ 问星 AI 深度解析&nbsp;</span>
+                <span aria-hidden="true" class="hover-text">&nbsp;✨ 问星 AI 深度解析&nbsp;</span>
             </button>
         </div>
     </div>
@@ -661,10 +661,10 @@
 
 <!-- Floating Action Buttons -->
 <div class="fab-container">
-    <div class="fab liuyao-fab" onclick="toggleLiuYaoPanel()" title="决策启示卡">🐢</div>
-    <div class="fab calendar-fab" onclick="toggleDailyPanel()" title="今日启示">📅</div>
-    <div class="fab kline-fab" onclick="toggleLifePanel()" title="成长轨迹图">📈</div>
-    <div class="fab chat-fab" onclick="toggleChat()" title="AI心理伙伴">✨</div>
+    <div class="fab liuyao-fab" onclick="toggleLiuYaoPanel()" title="六爻起卦">🐢</div>
+    <div class="fab calendar-fab" onclick="toggleDailyPanel()" title="今日星历">📅</div>
+    <div class="fab kline-fab" onclick="toggleLifePanel()" title="人生大运K线">📈</div>
+    <div class="fab chat-fab" onclick="toggleChat()" title="命理咨询">✨</div>
 </div>
 
 <!-- Daily Calendar Panel -->
@@ -701,14 +701,14 @@
 <div class="floating-window life-panel" id="lifePanel">
     <div class="handle-bar"></div>
     <div class="life-header">
-        <div class="life-title">📈 人生成长轨迹图</div>
+        <div class="life-title">📈 人生大运 K 线图</div>
         <span class="cursor-pointer text-gray-400 hover:text-white" onclick="toggleLifePanel()">✕</span>
     </div>
     <div class="life-chart-container">
         <canvas id="lifeChart"></canvas>
     </div>
     <div class="life-analysis" id="lifeAnalysisText">
-        <div class="animate-pulse text-gray-500">请先生成性格图谱，系统将依据《渊海子平》与《子平真诠》的核心月份法，结合成长周期与年度节奏为您分析人生轨迹...</div>
+        <div class="animate-pulse text-gray-500">请先生成星盘，系统将依据《渊海子平》与《子平真诠》的月令提纲法，结合大运流年为您推演一生起伏...</div>
     </div>
 </div>
 
@@ -716,11 +716,11 @@
 <div class="floating-window liu-yao-panel" id="liuYaoPanel">
     <div class="handle-bar"></div>
     <div class="liu-yao-header">
-        <div class="life-title" style="color: #2dd4bf;">决策启示卡</div>
+        <div class="life-title" style="color: #2dd4bf;">六爻起卦</div>
         <span class="cursor-pointer text-gray-400 hover:text-white" onclick="toggleLiuYaoPanel()">✕</span>
     </div>
     <div class="liu-yao-content">
-        <div class="text-xs text-gray-400 mb-4 text-center">专注思考你的问题，点击下方符号获取启示。<br>(共需抽取六次，当前第 <span id="yaoCount" class="text-teal-400 font-bold">0</span>/6 爻)</div>
+        <div class="text-xs text-gray-400 mb-4 text-center">诚心默念所问之事，点击下方铜钱起卦。<br>(共需摇六次，当前第 <span id="yaoCount" class="text-teal-400 font-bold">0</span>/6 爻)</div>
         
         <div class="coins-container" onclick="tossCoins()">
             <div class="coin" id="coin1"><div class="coin-inner"></div></div>
@@ -729,7 +729,7 @@
         </div>
 
         <div class="hexagram-display" id="hexDisplay">
-            <div class="text-center text-gray-600 mt-10">等待启示...</div>
+            <div class="text-center text-gray-600 mt-10">等待起卦...</div>
         </div>
 
         <button class="toss-btn" id="tossBtn" onclick="tossCoins()">🤲 摇一卦</button>
@@ -737,9 +737,9 @@
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor">
                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
             </svg>
-            AI 智慧启发
+            问星 AI 解卦
         </button>
-        <button class="reset-btn" onclick="resetHexagram()">🔄 重置启示</button>
+        <button class="reset-btn" onclick="resetHexagram()">🔄 重置卦象</button>
     </div>
 </div>
 
@@ -747,11 +747,11 @@
 <div class="floating-window chat-window" id="chatWindow">
     <div class="handle-bar"></div>
     <div class="chat-header">
-        <span class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400">AI 心理伙伴对话</span>
+        <span class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400">AI 命理大师咨询室</span>
         <span class="cursor-pointer text-gray-400 hover:text-white" onclick="toggleChat()">✕</span>
     </div>
     <div class="chat-messages" id="chatMessages">
-        <div class="msg msg-ai">你好！我是你的 AI 心理伙伴。我已经了解了你的性格框架，你可以向我咨询任何关于自我成长、职业发展或人际关系的问题。</div>
+        <div class="msg msg-ai">你好！我是你的 AI 命理助手。我已经读取了你的全盘数据，你可以问我任何关于事业、感情或流年的问题。</div>
     </div>
     <div class="chat-input-area">
         <input type="text" class="chat-input" id="userQuery" placeholder="输入你的问题..." onkeypress="handleChatKey(event)">
@@ -828,7 +828,7 @@
     // --- ZI WEI DOU SHU LOGIC ---
     const HEAVENLY_STEMS = ['甲', '乙', '丙', '丁', '戊', '己', '庚', '辛', '壬', '癸'];
     const EARTHLY_BRANCHES = ['子', '丑', '寅', '卯', '辰', '巳', '午', '未', '申', '酉', '戌', '亥'];
-    const PALACE_NAMES = ['性格核心', '社交圈', '伴侣关系', '子女缘', '财富', '健康', '外出', '团队', '事业', '家庭', '福气', '长辈'];
+    const PALACE_NAMES = ['命宫', '兄弟', '夫妻', '子女', '财帛', '疾厄', '迁移', '仆役', '官禄', '田宅', '福德', '父母'];
     
     function getBureau(stemIdx, branchIdx) {
         const NAYIN_BUREAU = [
@@ -864,12 +864,12 @@
         '紫微': { type: '帝王', color: '#a020f0', desc: '尊贵、领导、解厄。全盘中枢。' },
         '天机': { type: '智慧', color: '#4caf50', desc: '机智、变动、谋略。' },
         '太阳': { type: '权贵', color: '#ff9800', desc: '博爱、名声、付出。' },
-        '武曲': { type: '决断', color: '#ffd700', desc: '刚毅、果断、执行力强。' },
+        '武曲': { type: '财富', color: '#ffd700', desc: '刚毅、决断、正财。' },
         '天同': { type: '福气', color: '#03a9f4', desc: '温顺、享乐、协调。' },
-        '廉贞': { type: '复杂', color: '#ff4444', desc: '多面性、行政能力。' },
-        '天府': { type: '稳重', color: '#d2b48c', desc: '包容、保守、掌控力。' },
-        '太阴': { type: '温柔', color: '#88ccff', desc: '细腻、内敛、感性。' },
-        '贪狼': { type: '多才', color: '#ff69b4', desc: '社交能力、多才多艺。' },
+        '廉贞': { type: '囚星', color: '#ff4444', desc: '次桃花、复杂、行政。' },
+        '天府': { type: '财库', color: '#d2b48c', desc: '包容、保守、掌财。' },
+        '太阴': { type: '母性', color: '#88ccff', desc: '温柔、田宅、财富。' },
+        '贪狼': { type: '欲望', color: '#ff69b4', desc: '桃花、投机、多才。' },
         '巨门': { type: '是非', color: '#708090', desc: '口才、暗昧、研究。' },
         '天相': { type: '印星', color: '#4682b4', desc: '辅佐、公正、爱美。' },
         '天梁': { type: '荫星', color: '#556b2f', desc: '老人、原则、医药。' },
@@ -1047,7 +1047,7 @@
         
         getSummary() {
             let summary = `用户性别: ${this.gender === 1 ? '男' : '女'}。\n`;
-            summary += `性格类型: ${this.bureau}局。\n`;
+            summary += `五行局: ${this.bureau}局。\n`;
             summary += `命盘结构:\n`;
             this.chartData.forEach(p => {
                 const starStr = p.stars.map(s => {
@@ -1207,7 +1207,7 @@
             const d = data[highlightIndex];
             const x = padding + highlightIndex * barW + barW/2;
             const y = 50; 
-            const tipText = `${d.age}岁 · ${d.year}年 (${d.ganZhi}) · 成长周期: ${d.daYun}`;
+            const tipText = `${d.age}岁 · ${d.year}年 (${d.ganZhi}) · 大运: ${d.daYun}`;
             ctx.font = "bold 14px sans-serif"; const textWidth = ctx.measureText(tipText).width;
             let tipX = x - textWidth/2; if (tipX < padding) tipX = padding; if (tipX + textWidth > w - padding) tipX = w - padding - textWidth;
             ctx.fillStyle = "rgba(0, 0, 0, 0.8)"; ctx.fillRect(tipX - 10, y - 20, textWidth + 20, 30);
@@ -1287,7 +1287,7 @@
         const currentData = data.find(d => d.age === currentAge) || data[data.length-1];
         const daYunStr = currentData ? currentData.daYun : "--";
         const analysisDiv = document.getElementById('lifeAnalysisText');
-        analysisDiv.innerHTML = `<div class="mb-2"><strong class="text-white">当前成长周期:</strong> <span class="text-yellow-400 text-lg">${daYunStr}</span> (约${currentAge}岁)</div><div class="mb-2"><strong class="text-white">核心月份:</strong> ${monthZhi}月 (格局核心)</div><div><strong class="text-blue-400">AI分析:</strong> 此造核心日期为<span class="text-white">${dayGan}</span>，生于${monthZhi}月。基于性格分析理论，核心月份反映性格形成的关键因素。当前行运至<span class="text-yellow-400">${daYunStr}</span>，需注意成长周期地支与月令的相互影响关系。若K线震荡剧烈（红绿交替频繁），代表年度节奏引动了局中隐患，名为“周期波动”或“关键转折期”，建议该阶段守成主静，顺势而为。</div>`;
+        analysisDiv.innerHTML = `<div class="mb-2"><strong class="text-white">当前大运:</strong> <span class="text-yellow-400 text-lg">${daYunStr}</span> (约${currentAge}岁)</div><div class="mb-2"><strong class="text-white">月令提纲:</strong> ${monthZhi}月 (格局核心)</div><div><strong class="text-blue-400">大师批注:</strong> 此造日元为<span class="text-white">${dayGan}</span>，生于${monthZhi}月。依据《子平真诠》，月令为提纲之府，决定人生格局上限。当前行运至<span class="text-yellow-400">${daYunStr}</span>，需注意大运地支与月令的刑冲合害关系。若K线震荡剧烈（红绿交替频繁），代表流年引动了局中隐患，名为“运冲提纲”或“岁运并临”，建议该阶段守成主静，顺应天时。</div>`;
     }
 
     // --- LIU YAO LOGIC ---
@@ -1359,7 +1359,7 @@
     function resetHexagram() {
         currentYaoLines = [];
         document.getElementById('yaoCount').innerText = '0';
-        document.getElementById('hexDisplay').innerHTML = '<div class="text-center text-gray-600 mt-10">等待启示...</div>';
+        document.getElementById('hexDisplay').innerHTML = '<div class="text-center text-gray-600 mt-10">等待起卦...</div>';
         document.getElementById('tossBtn').style.display = 'block';
         document.getElementById('interpretBtn').classList.add('hidden');
         document.getElementById('interpretBtn').classList.remove('flex');
@@ -1410,8 +1410,8 @@
                 <p class="text-xs text-gray-500 mt-2">正在以此卦问询天机</p>
             </div>
         `;
-        const systemPrompt = `你是一位结合东方智慧的AI决策辅助顾问。你的任务是根据用户通过随机方式生成的启示符号符号，提供一种启发性的思考角度和建议。解读要求：1. 分析启示符号的象征意义和隐喻。2. 重点分析变化的部分，这代表事情的动态发展。3. 结合启示符号提供建设性的行动建议，强调"你的选择决定结果"。4. 语气温和、启发性，避免宿命论，多用"可能"、"建议"等词汇。5. 输出格式使用简单的 Markdown。`;
-        const userPrompt = `用户启示抽取结果如下：【当前状态】: ${benGuaName} (结构: ${binStr}) 【变化要素】: ${movingLinesDesc || "静卦无动爻"} 【发展趋势】: ${zhiGuaName} 请开始启示解读。`;
+        const systemPrompt = `你是一位精通《增删卜易》与传统纳甲筮法的六爻命理大师。你的任务是根据用户摇出的金钱课卦象（本卦、动爻、变卦）进行专业解读。解读要求：1. 准确分析卦名、五行、世应关系。2. 重点分析动爻（老阴/老阳）的吉凶变化，动爻是事情成败的关键。3. 结合变卦判断事情的最终走向。4. 语气专业、神秘但客观，给出具体的行动建议。5. 输出格式使用简单的 Markdown，关键吉凶结论请加粗。`;
+        const userPrompt = `用户起卦结果如下：【本卦】: ${benGuaName} (结构: ${binStr}) 【动爻】: ${movingLinesDesc || "静卦无动爻"} 【变卦/之卦】: ${zhiGuaName} 请开始解卦。`;
         const result = await callAI(userPrompt, systemPrompt);
         contentDiv.innerHTML = marked.parse(result);
     }
@@ -1670,7 +1670,7 @@
             if (i===0) { 
                 context.fillStyle = '#' + new THREE.Color(color).getHexString(); 
                 
-                // Dynamic font size for longer titles (e.g. "性格核心(身宫)")
+                // Dynamic font size for longer titles (e.g. "命宫(身宫)")
                 let fontSize = 60;
                 if (highlightType === 1) fontSize = 80;
                 if (line.length > 3) fontSize *= 0.75; // Reduce size if text is long
@@ -1755,10 +1755,10 @@
                 let bIdx = -1; if(currentChart.bureau === 2) bIdx = 0; if(currentChart.bureau === 3) bIdx = 1; if(currentChart.bureau === 4) bIdx = 2; if(currentChart.bureau === 5) bIdx = 3; if(currentChart.bureau === 6) bIdx = 4;
                 const bText = bIdx >= 0 ? bureaus[bIdx] : '未知局';
                 const bDiv = document.getElementById('bureau-info');
-                bDiv.innerHTML = `<span>性格类型: <strong class="text-white">${bText}</strong></span> <span>核心特质: <strong class="text-white">${currentChart.chartData[0].stem}${currentChart.chartData[0].branch}</strong></span>`;
+                bDiv.innerHTML = `<span>五行: <strong class="text-white">${bText}</strong></span> <span>命主: <strong class="text-white">${currentChart.chartData[0].stem}${currentChart.chartData[0].branch}</strong></span>`;
                 bDiv.classList.remove('hidden');
                 // Always reset chat to avoid persisting old context in a fresh chart
-                document.getElementById('chatMessages').innerHTML = '<div class="msg msg-ai">你好！我是你的 AI 心理伙伴。我已经了解了你的性格框架，你可以向我咨询任何关于自我成长、职业发展或人际关系的问题。</div>';
+                document.getElementById('chatMessages').innerHTML = '<div class="msg msg-ai">你好！我是你的 AI 命理助手。我已经读取了你的全盘数据，你可以问我任何关于事业、感情或流年的问题。</div>';
                 
                 renderChart3D(currentChart);
             } catch (e) { console.error(e); alert("生成失败，请检查输入或控制台日志。"); }
@@ -1798,9 +1798,9 @@
         document.getElementById('panelTitle').innerText = panelTitleText + ' (' + data.stem + data.branch + ')';
         
         const PALACE_DESC_MAP = {
-            '性格核心': '核心人格 · 天赋特质 · 自我认知', '兄弟': '知心好友 · 合作伙伴 · 资源流动', '夫妻': '感情模式 · 伴侣特质 · 亲密关系', '子女': '亲子关系 · 晚辈互动 · 合作模式',
-            '财帛': '财务观念 · 收入模式 · 理财倾向', '疾厄': '身体健康 · 潜意识 · 情绪模式', '迁移': '对外形象 · 社交风格 · 变动倾向', '仆役': '人际圈子 · 社群影响 · 朋友互动',
-            '官禄': '事业发展 · 职场风格 · 目标追求', '田宅': '居住环境 · 家庭氛围 · 安全感', '福德': '精神追求 · 兴趣爱好 · 内在满足', '父母': '长辈关系 · 学习模式 · 权威互动'
+            '命宫': '核心人格 · 天赋特质 · 命运总览', '兄弟': '知心好友 · 合作伙伴 · 现金周转', '夫妻': '感情模式 · 伴侣特质 · 婚姻状况', '子女': '亲子关系 · 晚辈缘分 · 合伙事业',
+            '财帛': '赚钱能力 · 收入来源 · 理财观念', '疾厄': '身体健康 · 潜意识 · 情绪压力', '迁移': '对外形象 · 社交机遇 · 出行运势', '仆役': '人际圈子 · 粉丝受众 · 朋友助力',
+            '官禄': '事业发展 · 职场表现 · 创业方向', '田宅': '居住环境 · 房产运势 · 家庭氛围', '福德': '精神享受 · 兴趣嗜好 · 财源起伏', '父母': '长辈缘分 · 遗传基因 · 上司关系'
         };
         let subText = PALACE_DESC_MAP[data.name] || '未知领域';
         if (data.isMing) { subText = '【本命核心】 ' + subText; document.getElementById('panelSub').className = "text-xs text-yellow-300 font-mono font-bold"; } else if (data.isShen) { subText = '【后天身宫】 ' + subText; document.getElementById('panelSub').className = "text-xs text-green-300 font-mono font-bold"; } else { document.getElementById('panelSub').className = "text-xs text-blue-300 font-mono"; }
@@ -1812,7 +1812,7 @@
         if (data.isShen) {
             const shenInfo = document.createElement('div');
             shenInfo.className = 'shen-info-box';
-            shenInfo.innerHTML = `<span class="shen-label">✨ 行为模式解析</span>这个维度代表您后天形成的行为模式、关注重点和发展方向。它揭示了您在生活中会自然投入更多精力的领域。`;
+            shenInfo.innerHTML = `<span class="shen-label">✨ 后天身宫解析</span>身宫在紫微斗数中代表后天生活的发展方向、行为模式和中晚年运势。身宫所在的宫位，往往是您后天人生发展的重点舞台。`;
             list.appendChild(shenInfo);
         }
 
@@ -1886,11 +1886,11 @@
 
     async function generateDailyReport() {
         const aiTextDiv = document.getElementById('calAiText');
-        if (!currentChart) { aiTextDiv.innerText = "请先在左侧输入生日并生成性格框架，以便AI为您生成今日启示。"; return; }
-        aiTextDiv.innerHTML = '<span class="animate-pulse">AI正在生成启示...</span>';
+        if (!currentChart) { aiTextDiv.innerText = "请先在左侧输入生日并生成命盘，以便大师为您推算今日运势。"; return; }
+        aiTextDiv.innerHTML = '<span class="animate-pulse">大师正在掐指一算...</span>';
         const now = new Date(); const lunar = Lunar.fromDate(now);
         const todayInfo = { date: `${now.getFullYear()}-${now.getMonth()+1}-${now.getDate()}`, lunar: `${lunar.getMonthInChinese()}月${lunar.getDayInChinese()}`, ganzhi: `${lunar.getDayInGanZhi()}日`, yi: lunar.getDayYi().join(','), ji: lunar.getDayJi().join(',') };
-        const prompt = `今天是：${todayInfo.date} (农历${todayInfo.lunar}, ${todayInfo.ganzhi})。宜：${todayInfo.yi}。忌：${todayInfo.ji}。用户性格框架摘要：${currentChart.getSummary().substring(0, 500)}... 请结合今日的东方时间智慧（宜忌）和用户的性格特点，给出一小段（100字以内）的今日成长启示或行动建议。要求：简单易懂，有参考价值，口语化，像个老朋友的建议。避免宿命论，强调"你的选择很重要"。注意：直接输出内容即可，严禁在结尾显示“共xx字”或类似的字数统计。`;
+        const prompt = `今天是：${todayInfo.date} (农历${todayInfo.lunar}, ${todayInfo.ganzhi})。宜：${todayInfo.yi}。忌：${todayInfo.ji}。用户命盘摘要：${currentChart.getSummary().substring(0, 500)}... 请结合今日的日课（干支五行、宜忌）和用户的命盘结构，给出一小段（100字以内）的今日运势提醒。要求：简单易懂，有参考价值，口语化，像个老朋友的叮嘱。注意：直接输出运势内容即可，严禁在结尾显示“共xx字”或类似的字数统计。`;
         const result = await callAI(prompt); aiTextDiv.innerText = result;
     }
 
@@ -1910,7 +1910,7 @@
         `;
         const palaceName = selectedPalaceData.name;
         const starsDesc = selectedPalaceData.stars.map(s => { let desc = `${s.name}（亮度：${s.brightness}）`; if (s.sihua) desc += ` [化${s.sihua}]`; return desc; }).join('，') || "无主星";
-        const prompt = `请你扮演一位结合东方智慧的AI性格分析师。请根据以下信息，为用户解析【${palaceName}】这个性格维度：领域：${palaceName} 符号组合：${starsDesc} 要求：1. 语气温和、专业且富有启发性。2. 解释这个维度反映的性格特质、行为倾向和潜在优势。3. 如果有特殊标记，请说明其对性格的影响。4. 强调这些特质如何帮助用户更好地认识自己和做出选择。5. 避免宿命论，多用"倾向"、"可能"、"建议"等词汇。6. 输出格式使用简单的 Markdown。`;
+        const prompt = `请你扮演一位精通紫微斗数的命理大师。请根据以下信息，为用户解析【${palaceName}】的运势：宫位：${palaceName} 宫干支：${selectedPalaceData.stem}${selectedPalaceData.branch} 星曜组合：${starsDesc} 要求：1. 语气神秘、专业但富有现代感，带有鼓励性质。2. 解释主星的核心含义及其在该宫位的表现。3. 如果有四化（禄权科忌），请说明其含义。4. 如果有吉星或煞星，请说明其影响。5. 如果无主星，请解释借对宫星曜的含义（仅简述）。6. 输出格式使用简单的 Markdown。`;
         const result = await callAI(prompt); contentDiv.innerHTML = marked.parse(result);
     }
 
@@ -1918,12 +1918,12 @@
     function toggleChat() { const win = document.getElementById('chatWindow'); closeAllFloatingWindows(win); win.style.display = win.style.display === 'flex' ? 'none' : 'flex'; }
     function handleChatKey(e) { if (e.key === 'Enter') askMaster(); }
     async function askMaster() {
-        if (!currentChart) { alert("请先生成性格图谱！"); return; }
+        if (!currentChart) { alert("请先生成星盘！"); return; }
         const input = document.getElementById('userQuery'); const query = input.value.trim(); if (!query) return;
         const chatBox = document.getElementById('chatMessages');
         const userDiv = document.createElement('div'); userDiv.className = 'msg msg-user'; userDiv.innerText = query; chatBox.appendChild(userDiv); chatBox.scrollTop = chatBox.scrollHeight; input.value = '';
-        const loadingDiv = document.createElement('div'); loadingDiv.className = 'msg msg-ai animate-pulse'; loadingDiv.innerText = 'AI 正在分析中...'; chatBox.appendChild(loadingDiv);
-        const chartSummary = currentChart.getSummary(); const systemPrompt = `你是一位结合东方智慧的AI心理成长顾问。以下是用户的性格框架数据：\n${chartSummary}\n请根据此数据回答用户关于自我成长、职业发展或人际关系的问题。语气要温和、启发性、客观，强调"认识自己是改变的开始"，避免宿命论，多给建设性建议。强调用户的选择和行动才是决定未来的关键。`;
+        const loadingDiv = document.createElement('div'); loadingDiv.className = 'msg msg-ai animate-pulse'; loadingDiv.innerText = '大师正在推演中...'; chatBox.appendChild(loadingDiv);
+        const chartSummary = currentChart.getSummary(); const systemPrompt = `你是一位资深的紫微斗数命理大师。以下是用户的命盘数据：\n${chartSummary}\n请根据此数据回答用户的问题。语气要专业、温和、客观，避免过于宿命论，多给建设性建议。`;
         const response = await callAI(query, systemPrompt);
         chatBox.removeChild(loadingDiv);
         const aiDiv = document.createElement('div'); aiDiv.className = 'msg msg-ai'; aiDiv.innerHTML = marked.parse(response); chatBox.appendChild(aiDiv); chatBox.scrollTop = chatBox.scrollHeight;
@@ -1946,6 +1946,5 @@
 </script>
 </body>
 </html>
-
 
 
