@@ -1,0 +1,1957 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>紫微斗数 - 命运的全息宇宙</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <!-- Lunar Calendar Library -->
+    <script src="https://cdn.jsdelivr.net/npm/lunar-javascript@1.6.12/lunar.min.js"></script>
+    <!-- Marked for Markdown Parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
+    <style>
+        /* Base Reset & Fonts */
+        body { 
+            margin: 0; 
+            overflow: hidden; 
+            background-color: #050510; 
+            color: #fff; 
+            font-family: 'Noto Sans SC', sans-serif; 
+            -webkit-tap-highlight-color: transparent;
+            overscroll-behavior: none; /* Prevent pull-to-refresh */
+        }
+        
+        /* Canvas Layer */
+        #canvas-container { 
+            width: 100vw; 
+            height: 100vh; 
+            height: 100dvh; /* Dynamic viewport height for mobile */
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            z-index: 1; 
+            touch-action: none; /* Crucial for OrbitControls on mobile */
+        }
+        
+        /* UI Overlay Layer */
+        #ui-layer {
+            position: absolute;
+            z-index: 10;
+            pointer-events: none; 
+            width: 100%;
+            height: 100%;
+            height: 100dvh;
+            padding: 0;
+            overflow: hidden; 
+        }
+
+        /* Glassmorphism Panel Base */
+        .panel {
+            background: rgba(10, 15, 30, 0.75);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(100, 200, 255, 0.15);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            border-radius: 12px;
+            pointer-events: auto; 
+            transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* --- DESKTOP LAYOUT (Default) --- */
+        /* Input Panel (Top Left) */
+        .input-panel {
+            position: absolute;
+            top: 24px;
+            left: 24px;
+            width: 320px;
+            border-left: 3px solid #219ebc;
+            max-height: 90vh;
+            overflow: hidden; 
+            z-index: 20;
+        }
+
+        .input-panel.collapsed {
+            max-height: 64px;
+            background: rgba(10, 15, 30, 0.6);
+        }
+        
+        .input-panel.collapsed .input-content {
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        .input-content {
+            padding: 24px;
+            padding-top: 10px;
+            overflow-y: auto;
+            transition: opacity 0.3s ease;
+            scrollbar-width: none;
+            max-height: calc(90vh - 64px);
+        }
+
+        /* Info Panel (Right) */
+        .info-panel {
+            position: absolute;
+            top: 24px;
+            right: 24px;
+            width: 380px; 
+            max-width: 90vw;
+            transform: translateX(120%); /* Initially hidden off-screen */
+            border-right: 3px solid #ffb703;
+            max-height: 85vh; 
+            z-index: 20;
+        }
+        .info-panel.active {
+            transform: translateX(0); /* Slide in when active */
+        }
+
+        .info-panel.collapsed {
+            max-height: 64px; 
+            overflow: hidden;
+            border-bottom: none;
+        }
+        
+        /* Panel Headers */
+        .panel-header {
+            padding: 15px 20px;
+            background: rgba(255, 255, 255, 0.03);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            user-select: none;
+            min-height: 64px; 
+        }
+        .panel-header:active {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        .toggle-icon {
+            transition: transform 0.3s ease;
+            color: #94a3b8;
+        }
+        .input-panel.collapsed .toggle-icon,
+        .info-panel.collapsed .toggle-icon {
+            transform: rotate(-90deg);
+        }
+
+        .info-scroll {
+            padding: 20px;
+            overflow-y: auto;
+            flex: 1;
+            transition: opacity 0.3s ease;
+            scrollbar-width: thin;
+            scrollbar-color: #334155 transparent;
+        }
+
+        /* Typography & Inputs */
+        h1 { font-size: 1.4rem; color: #8ecae6; margin: 0; text-shadow: 0 0 15px rgba(33, 158, 188, 0.6); letter-spacing: 2px; }
+        h2 { font-size: 1.4rem; color: #ffb703; margin: 0; text-shadow: 0 0 10px rgba(255, 183, 3, 0.4); }
+        label { display: block; font-size: 0.75rem; color: #94a3b8; margin-top: 12px; text-transform: uppercase; letter-spacing: 1px; }
+        
+        input, select {
+            width: 100%;
+            background: rgba(0,0,0,0.4);
+            border: 1px solid #334455;
+            color: #e0f0ff;
+            padding: 10px;
+            border-radius: 6px;
+            margin-top: 5px;
+            font-size: 16px; 
+            transition: all 0.3s;
+            appearance: none;
+        }
+        input:focus, select:focus {
+            border-color: #38bdf8;
+            outline: none;
+            background: rgba(15, 23, 42, 0.8);
+            box-shadow: 0 0 10px rgba(56, 189, 248, 0.2);
+        }
+
+        /* NEW AI HEX BUTTON STYLE (From Uiverse.io by Yaya12085) */
+        .ai-hex-btn {
+            width: fit-content;
+            display: flex;
+            padding: 1em 1.5rem; /* Adjusted padding slightly */
+            cursor: pointer;
+            gap: 0.4rem;
+            font-weight: bold;
+            border-radius: 30px;
+            text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+            background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
+            background-size: 300%;
+            color: #fff;
+            border: none;
+            background-position: left center;
+            box-shadow: 0 30px 10px -20px rgba(0,0,0,.2);
+            transition: background .3s ease;
+            margin: 15px auto; /* Center horizontally */
+            align-items: center;
+            font-size: 0.95rem;
+        }
+
+        .ai-hex-btn:hover {
+            background-size: 320%;
+            background-position: right center;
+        }
+
+        .ai-hex-btn:hover svg {
+            fill: #fff;
+        }
+
+        .ai-hex-btn svg {
+            width: 23px;
+            fill: #f09f33;
+            transition: .3s ease;
+        }
+        
+        .ai-hex-btn.hidden {
+            display: none;
+        }
+
+        /* Buttons & Animations */
+        .uiverse {
+            --duration: 7s; --easing: linear; --c-color-1: rgba(56, 189, 248, 0.7); --c-color-2: #4361ee; --c-color-3: #c084fc; --c-color-4: rgba(34, 211, 238, 0.7);
+            --c-shadow: rgba(56, 189, 248, 0.4); --c-shadow-inset-top: rgba(56, 189, 248, 0.6); --c-shadow-inset-bottom: rgba(67, 97, 238, 0.6);
+            --c-radial-inner: #1e293b; --c-radial-outer: #0f172a; --c-color: #fff;
+            -webkit-tap-highlight-color: transparent; -webkit-appearance: none; outline: none; position: relative; cursor: pointer; border: none; display: table; border-radius: 24px; padding: 0; margin-top: 25px; width: 100%; text-align: center; font-weight: 600; font-size: 16px; letter-spacing: 0.02em; line-height: 1.5; color: var(--c-color); background: radial-gradient(circle, var(--c-radial-inner), var(--c-radial-outer) 80%); box-shadow: 0 0 14px var(--c-shadow);
+        }
+        .uiverse:before { content: ""; pointer-events: none; position: absolute; z-index: 3; left: 0; top: 0; right: 0; bottom: 0; border-radius: 24px; box-shadow: inset 0 3px 12px var(--c-shadow-inset-top), inset 0 -3px 4px var(--c-shadow-inset-bottom); }
+        .uiverse .wrapper { -webkit-mask-image: -webkit-radial-gradient(white, black); overflow: hidden; border-radius: 24px; min-width: 132px; padding: 12px 0; width: 100%; }
+        .uiverse .wrapper span { display: inline-block; position: relative; z-index: 1; }
+        .uiverse .wrapper .circle { position: absolute; left: 0; top: 0; width: 40px; height: 40px; border-radius: 50%; filter: blur(var(--blur, 8px)); background: var(--background, transparent); transform: translate(var(--x, 0), var(--y, 0)) translateZ(0); animation: var(--animation, none) var(--duration) var(--easing) infinite; }
+        .uiverse .wrapper .circle.circle-1, .uiverse .wrapper .circle.circle-9, .uiverse .wrapper .circle.circle-10 { --background: var(--c-color-4); }
+        .uiverse .wrapper .circle.circle-3, .uiverse .wrapper .circle.circle-4 { --background: var(--c-color-2); --blur: 14px; }
+        .uiverse .wrapper .circle.circle-5, .uiverse .wrapper .circle.circle-6 { --background: var(--c-color-3); --blur: 16px; }
+        .uiverse .wrapper .circle.circle-2, .uiverse .wrapper .circle.circle-7, .uiverse .wrapper .circle.circle-8, .uiverse .wrapper .circle.circle-11, .uiverse .wrapper .circle.circle-12 { --background: var(--c-color-1); --blur: 12px; }
+        .uiverse .wrapper .circle.circle-1 { --x: 0; --y: -40px; --animation: circle-1; }
+        .uiverse .wrapper .circle.circle-2 { --x: 92px; --y: 8px; --animation: circle-2; }
+        .uiverse .wrapper .circle.circle-3 { --x: -12px; --y: -12px; --animation: circle-3; }
+        .uiverse .wrapper .circle.circle-4 { --x: 80px; --y: -12px; --animation: circle-4; }
+        .uiverse .wrapper .circle.circle-5 { --x: 12px; --y: -4px; --animation: circle-5; }
+        .uiverse .wrapper .circle.circle-6 { --x: 56px; --y: 16px; --animation: circle-6; }
+        .uiverse .wrapper .circle.circle-7 { --x: 8px; --y: 28px; --animation: circle-7; }
+        .uiverse .wrapper .circle.circle-8 { --x: 28px; --y: -4px; --animation: circle-8; }
+        .uiverse .wrapper .circle.circle-9 { --x: 20px; --y: -12px; --animation: circle-9; }
+        .uiverse .wrapper .circle.circle-10 { --x: 64px; --y: 16px; --animation: circle-10; }
+        .uiverse .wrapper .circle.circle-11 { --x: 4px; --y: 4px; --animation: circle-11; }
+        .uiverse .wrapper .circle.circle-12 { --blur: 14px; --x: 52px; --y: 4px; --animation: circle-12; }
+        @keyframes circle-1 { 33% { transform: translate(0px, 16px) translateZ(0); } 66% { transform: translate(12px, 64px) translateZ(0); } }
+        @keyframes circle-2 { 33% { transform: translate(80px, -10px) translateZ(0); } 66% { transform: translate(72px, -48px) translateZ(0); } }
+        @keyframes circle-3 { 33% { transform: translate(20px, 12px) translateZ(0); } 66% { transform: translate(12px, 4px) translateZ(0); } }
+        @keyframes circle-4 { 33% { transform: translate(76px, -12px) translateZ(0); } 66% { transform: translate(112px, -8px) translateZ(0); } }
+        @keyframes circle-5 { 33% { transform: translate(84px, 28px) translateZ(0); } 66% { transform: translate(40px, -32px) translateZ(0); } }
+        @keyframes circle-6 { 33% { transform: translate(28px, -16px) translateZ(0); } 66% { transform: translate(76px, -56px) translateZ(0); } }
+        @keyframes circle-7 { 33% { transform: translate(8px, 28px) translateZ(0); } 66% { transform: translate(20px, -60px) translateZ(0); } }
+        @keyframes circle-8 { 33% { transform: translate(32px, -4px) translateZ(0); } 66% { transform: translate(56px, -20px) translateZ(0); } }
+        @keyframes circle-9 { 33% { transform: translate(20px, -12px) translateZ(0); } 66% { transform: translate(80px, -8px) translateZ(0); } }
+        @keyframes circle-10 { 33% { transform: translate(68px, 20px) translateZ(0); } 66% { transform: translate(100px, 28px) translateZ(0); } }
+        @keyframes circle-11 { 33% { transform: translate(4px, 4px) translateZ(0); } 66% { transform: translate(68px, 20px) translateZ(0); } }
+        @keyframes circle-12 { 33% { transform: translate(56px, 0px) translateZ(0); } 66% { transform: translate(60px, -32px) translateZ(0); } }
+
+        /* AI Text Button */
+        .ai-text-btn {
+            margin-top: 20px; width: 100%; height: auto; background: transparent; padding: 10px 0; border: none; cursor: pointer;
+            --border-right: 4px; --text-stroke-color: rgba(56, 189, 248, 0.5); --animation-color: #38bdf8; --fs-size: 1.1rem;
+            letter-spacing: 2px; font-size: var(--fs-size); font-family: 'Noto Sans SC', sans-serif; position: relative; text-transform: uppercase;
+            color: transparent; -webkit-text-stroke: 1px var(--text-stroke-color); display: flex; justify-content: center; align-items: center;
+        }
+        .ai-text-btn .actual-text { position: relative; color: transparent; -webkit-text-stroke: 1px var(--text-stroke-color); }
+        .ai-text-btn .hover-text {
+            position: absolute; box-sizing: border-box; content: attr(data-text); color: var(--animation-color);
+            width: 0%; inset: 0; border-right: var(--border-right) solid var(--animation-color); overflow: hidden; transition: 0.5s;
+            -webkit-text-stroke: 1px var(--animation-color); display: flex; justify-content: center; align-items: center; margin: auto;
+        }
+        .ai-text-btn:hover .hover-text { width: 100%; filter: drop-shadow(0 0 15px var(--animation-color)); }
+        
+        .ai-btn {
+            background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 100%); border: 1px solid rgba(139, 92, 246, 0.3); margin-top: 15px;
+            display: flex; align-items: center; justify-content: center; gap: 8px; box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
+            border-radius: 8px; padding: 12px; color: white; font-size: 1rem;
+        }
+        
+        /* Tags & Colors */
+        .star-tag { display: inline-block; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-right: 4px; margin-bottom: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.05); font-weight: bold; }
+        .star-miao { color: #ffd700; border-color: #ffd700; background: rgba(255, 215, 0, 0.15); box-shadow: 0 0 5px rgba(255, 215, 0, 0.3); } 
+        .star-wang { color: #ffad33; border-color: #ffad33; background: rgba(255, 173, 51, 0.1); } 
+        .star-de   { color: #4ade80; border-color: #4ade80; background: rgba(74, 222, 128, 0.1); }
+        .star-li   { color: #60a5fa; border-color: #60a5fa; background: rgba(96, 165, 250, 0.1); }
+        .star-ping { color: #94a3b8; border-color: #94a3b8; background: rgba(148, 163, 184, 0.1); }
+        .star-bu   { color: #94a3b8; border-color: #94a3b8; opacity: 0.7; } 
+        .star-xian { color: #f87171; border-color: #f87171; opacity: 0.8; background: rgba(248, 113, 113, 0.1); }
+        .sihua-lu { color: #4ade80; font-weight: bold; text-shadow: 0 0 5px rgba(74, 222, 128, 0.5); }
+        .sihua-quan { color: #60a5fa; font-weight: bold; text-shadow: 0 0 5px rgba(96, 165, 250, 0.5); }
+        .sihua-ke { color: #c084fc; font-weight: bold; text-shadow: 0 0 5px rgba(192, 132, 252, 0.5); }
+        .sihua-ji { color: #f43f5e; font-weight: bold; text-shadow: 0 0 5px rgba(244, 63, 94, 0.5); }
+        
+        /* Shen Gong Info Box Style */
+        .shen-info-box {
+            background: rgba(16, 185, 129, 0.15);
+            border: 1px solid rgba(16, 185, 129, 0.4);
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 15px;
+            font-size: 0.85rem;
+            color: #d1fae5;
+            box-shadow: 0 0 10px rgba(16, 185, 129, 0.1);
+        }
+        .shen-label {
+            color: #34d399;
+            font-weight: bold;
+            margin-bottom: 4px;
+            display: block;
+        }
+
+        /* Loader */
+        #loading { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #02040a; z-index: 100; display: flex; justify-content: center; align-items: center; flex-direction: column; transition: opacity 0.5s; }
+        .planets { position: relative; height: 100px; width: 100px; display: flex; justify-content: center; align-items: center; }
+        #planetTrail1, #planetTrail2, #planetTrail3 { outline: solid rgb(101, 101, 101) 1px; border-radius: 50%; position: absolute; inset: 0; margin: auto; }
+        #planetTrail1::after, #planetTrail2::after, #planetTrail3::after { content: ""; width: 10px; height: 10px; position: absolute; border-radius: 50%; top: -5px; left: 50%; transform: translateX(-50%); }
+        #planetTrail1::after { background-color: rgb(213, 213, 120); }
+        #planetTrail2::after { background-color: rgb(115, 174, 231); }
+        #planetTrail3::after { background-color: rgb(180, 73, 49); }
+        #planetTrail1 { width: 120px; height: 120px; animation: trails1 2s infinite; }
+        #planetTrail2 { width: 170px; height: 170px; animation: trails2 2s infinite; }
+        #planetTrail3 { width: 220px; height: 220px; animation: trails3 2s infinite; }
+        @keyframes trails1 { 0% { transform: rotate(0deg); } 40% { transform: rotate(360deg); width: 120px; height: 120px; } 50% { width: 0px; height: 0px; } 90% { width: 0px; height: 0px; } 100% { width: 120px; height: 120px; } }
+        @keyframes trails2 { 0% { transform: rotate(0deg); } 40% { transform: rotate(250deg); width: 170px; height: 170px; } 50% { width: 0px; height: 0px; } 90% { width: 0px; height: 0px; } 100% { width: 170px; height: 170px; } }
+        @keyframes trails3 { 0% { transform: rotate(0deg); } 40% { transform: rotate(170deg); width: 220px; height: 220px; } 50% { width: 0px; height: 0px; } 90% { width: 0px; height: 0px; } 100% { width: 220px; height: 220px; } }
+        #star { position: absolute; width: 50px; height: 50px; background-color: rgb(255, 170, 0); border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%); animation: bouncingStar 2s infinite; }
+        #starShadow { position: absolute; width: 50px; height: 20px; background-color: rgb(255, 170, 0); border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, 100%); filter: blur(5px); opacity: 0.3; animation: shadowAnimation 2s infinite; }
+        @keyframes bouncingStar { 0% { transform: translate(-50%, -50%); } 10% { transform: translate(-50%, -30%); } 20% { transform: translate(-50%, -50%); } 30% { transform: translate(-50%, -30%); } 40% { transform: translate(-50%, -50%); width: 50px; height: 50px; } 50% { width: 0px; height: 0px; } 90% { width: 0px; height: 0px; } 100% { width: 50px; height: 50px; } }
+        @keyframes shadowAnimation { 0% { opacity: 0.1; } 10% { opacity: 0.4; } 20% { opacity: 0.1; } 30% { opacity: 0.4; } 40% { opacity: 0.1; } 50% { opacity: 0; } 90% { opacity: 0; } 100% { opacity: 0.1; } }
+        #blackHole { position: absolute; width: 50px; height: 50px; background-color: rgb(0, 0, 0); outline: orange solid 5px; border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%); animation: bouncingBlackHole 2s infinite; }
+        @keyframes bouncingBlackHole { 0% { height: 0px; width: 0px; } 40% { width: 0px; height: 0px; } 50% { width: 50px; height: 50px; } 90% { width: 50px; height: 50px; } 100% { width: 0px; height: 0px; } }
+        #blackHoleDisk1 { position: absolute; width: 68px; height: 68px; clip-path: inset(50% 0 0 0); border: black 10px solid; border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%) rotateX(70deg); animation: diskAn 2s infinite; }
+        #blackHoleDisk2 { position: absolute; width: 70px; height: 70px; clip-path: inset(0 0 50% 0); border: rgb(245, 174, 8) 10px solid; border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%) rotateX(55deg); animation: diskAn 2s infinite; }
+        @keyframes diskAn { 0% { height: 0px; width: 0px; border: orange 0px solid; } 40% { width: 0px; height: 0px; border: orange 0px solid; } 50% { width: 88px; height: 88px; border: orange 18px solid; } 90% { width: 88px; height: 88px; border: orange 18px solid; } 100% { width: 0px; height: 0px; border: orange 0px solid; } }
+        #planet { position: absolute; width: 10px; height: 10px; background-color: rgb(255, 255, 255); border-radius: 50%; animation: planetAn 2s infinite; }
+        @keyframes planetAn { 0% { opacity: 0; transform: translate(0px, 0px); z-index: 1; } 50% { opacity: 0; transform: translate(0px, 0px); z-index: 1; } 58% { opacity: 1; } 70% { opacity: 1; transform: translate(100px, 40px); z-index: 1; } 71% { z-index: 0; } 90% { z-index: 0; opacity: 1; transform: translate(-10px, 70px); } 100% { transform: translate(-10px, 70px); opacity: 0; } }
+
+        /* Modal & Floating Common */
+        .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); backdrop-filter: blur(5px); z-index: 60; display: none; justify-content: center; align-items: center; pointer-events: auto; }
+        .ai-content { background: linear-gradient(145deg, #10141d, #1a1f2e); width: 90%; max-width: 600px; max-height: 80vh; border-radius: 12px; border: 1px solid #7c3aed; padding: 30px; overflow-y: auto; position: relative; box-shadow: 0 0 50px rgba(124, 58, 237, 0.2); }
+        .close-modal { position: absolute; top: 15px; right: 20px; font-size: 24px; cursor: pointer; color: #94a3b8; transition: color 0.2s; }
+        .close-modal:hover { color: #fff; }
+        .markdown-body h3 { color: #a78bfa; margin-top: 1.2em; font-size: 1.1em; font-weight: bold; border-bottom: 1px dashed rgba(167, 139, 250, 0.3); padding-bottom: 5px; }
+        .markdown-body p { line-height: 1.7; margin-bottom: 0.8em; color: #e2e8f0; }
+        .markdown-body strong { color: #fbbf24; }
+
+        /* AI Loading Spinner (xXJollyHAKERXx) */
+        .spinner {
+            background-image: linear-gradient(rgb(186, 66, 255) 35%,rgb(0, 225, 255));
+            width: 100px;
+            height: 100px;
+            animation: spinning82341 1.7s linear infinite;
+            text-align: center;
+            border-radius: 50px;
+            filter: blur(1px);
+            box-shadow: 0px -5px 20px 0px rgb(186, 66, 255), 0px 5px 20px 0px rgb(0, 225, 255);
+            /* Center the spinner1 inside */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .spinner1 {
+            background-color: rgb(36, 36, 36);
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            filter: blur(10px);
+        }
+
+        @keyframes spinning82341 {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Floating Panels (Desktop default) */
+        .floating-window { position: absolute; background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); display: none; flex-direction: column; pointer-events: auto; z-index: 45; box-shadow: 0 20px 60px rgba(0,0,0,0.8); transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1); }
+        .chat-window { bottom: 110px; right: 30px; width: 360px; height: 500px; border: 1px solid #334155; border-radius: 12px; }
+        .chat-header { padding: 15px; background: linear-gradient(90deg, #1e293b, #0f172a); border-bottom: 1px solid #334155; border-radius: 12px 12px 0 0; display: flex; justify-content: space-between; align-items: center; }
+        .chat-messages { flex: 1; padding: 20px; overflow-y: auto; font-size: 0.9rem; scrollbar-width: thin; scrollbar-color: #334155 transparent; }
+        .chat-input-area { padding: 15px; border-top: 1px solid #334155; display: flex; gap: 8px; background: #1e293b; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; }
+        .chat-input { flex: 1; background: #0f172a; border: 1px solid #334155; padding: 10px; border-radius: 6px; color: white; font-size: 16px; }
+        .msg { margin-bottom: 12px; padding: 10px 14px; border-radius: 10px; max-width: 85%; line-height: 1.5; }
+        .msg-user { background: linear-gradient(135deg, #4361ee, #3a0ca3); align-self: flex-end; margin-left: auto; color: white; border-bottom-right-radius: 2px; }
+        .msg-ai { background: #2a3b55; align-self: flex-start; color: #e2e8f0; border-bottom-left-radius: 2px; }
+
+        .calendar-panel { bottom: 110px; right: 30px; width: 340px; max-height: calc(100vh - 140px); border: 1px solid rgba(255, 215, 0, 0.2); font-family: 'Noto Sans SC', sans-serif; overflow: hidden; }
+        .cal-header { background: linear-gradient(to right, #2c1a00, #4a3500); padding: 20px; text-align: center; border-bottom: 2px solid #b8860b; position: relative; flex-shrink: 0; }
+        .cal-header::after { content: ''; position: absolute; bottom: -6px; left: 50%; transform: translateX(-50%); width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 6px solid #b8860b; }
+        .cal-date-big { font-size: 2.2rem; font-weight: bold; color: #fff; line-height: 1; margin-bottom: 5px; text-shadow: 0 2px 10px rgba(0,0,0,0.5); }
+        .cal-lunar { font-size: 1.2rem; color: #ffd700; letter-spacing: 4px; margin-bottom: 5px; }
+        .cal-ganzhi { font-size: 0.85rem; color: #aaa; font-family: 'Noto Sans SC', sans-serif; opacity: 0.8; }
+        .cal-body { padding: 20px; overflow-y: auto; flex: 1; min-height: 0; }
+        .yiji-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px; }
+        .yiji-box { padding: 10px; border-radius: 8px; position: relative; }
+        .yiji-box.yi { background: rgba(0, 100, 0, 0.2); border: 1px solid rgba(50, 205, 50, 0.3); }
+        .yiji-box.ji { background: rgba(100, 0, 0, 0.2); border: 1px solid rgba(255, 69, 0, 0.3); }
+        .circle-icon { width: 24px; height: 24px; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 14px; font-weight: bold; margin-bottom: 8px; }
+        .yi .circle-icon { background: #32cd32; color: #000; box-shadow: 0 0 10px rgba(50,205,50,0.4); }
+        .ji .circle-icon { background: #ff4500; color: #fff; box-shadow: 0 0 10px rgba(255,69,0,0.4); }
+        .yiji-text { font-size: 0.85rem; color: #ddd; line-height: 1.4; }
+        .ai-fortune-box { margin-top: 15px; background: linear-gradient(135deg, rgba(124, 58, 237, 0.1), rgba(67, 97, 238, 0.1)); border: 1px solid rgba(124, 58, 237, 0.3); border-radius: 8px; padding: 15px; }
+        .ai-title { font-size: 0.9rem; color: #a78bfa; margin-bottom: 8px; display: flex; align-items: center; gap: 6px; font-weight: bold; }
+        .ai-text { font-size: 0.85rem; color: #e2e8f0; line-height: 1.6; min-height: 40px; }
+        .refresh-btn { width: 100%; background: transparent; border: 1px solid #334155; color: #94a3b8; margin-top: 10px; padding: 8px; font-size: 0.8rem; }
+        .refresh-btn:hover { border-color: #a78bfa; color: #fff; }
+
+        .life-panel { bottom: 110px; right: 30px; width: 500px; height: 450px; border: 1px solid rgba(239, 68, 68, 0.3); font-family: 'Noto Sans SC', sans-serif; }
+        .life-header { padding: 15px; background: linear-gradient(90deg, #2b1212, #1a0f0f); border-bottom: 1px solid rgba(239, 68, 68, 0.3); border-radius: 16px 16px 0 0; display: flex; justify-content: space-between; align-items: center; }
+        .life-title { font-size: 1.1rem; font-weight: bold; color: #f87171; display: flex; align-items: center; gap: 8px; }
+        .life-chart-container { flex: 1; position: relative; padding: 15px; background: #0b0d12; overflow: hidden; cursor: crosshair; }
+        .life-analysis { height: 120px; padding: 15px; border-top: 1px solid #334155; overflow-y: auto; background: rgba(0,0,0,0.2); font-size: 0.8rem; color: #9ca3af; }
+        canvas#lifeChart { width: 100%; height: 100%; }
+
+        .liu-yao-panel { bottom: 110px; right: 30px; width: 340px; max-height: calc(100vh - 140px); border: 1px solid rgba(20, 184, 166, 0.3); overflow: hidden; }
+        .liu-yao-header { padding: 15px; background: linear-gradient(90deg, #0f2e2e, #041f1f); border-bottom: 1px solid rgba(20, 184, 166, 0.3); border-radius: 16px 16px 0 0; display: flex; justify-content: space-between; align-items: center; flex-shrink: 0; }
+        .liu-yao-content { padding: 20px; display: flex; flex-direction: column; align-items: center; overflow-y: auto; flex: 1; min-height: 0; }
+        .coins-container { display: flex; justify-content: center; gap: 15px; margin-bottom: 20px; perspective: 600px; }
+        .coin { width: 70px; height: 70px; border-radius: 50%; background: radial-gradient(circle at 30% 30%, #e6be8a, #b8860b); box-shadow: 0 4px 10px rgba(0,0,0,0.5), inset 0 0 0 4px rgba(184, 134, 11, 0.6); display: flex; justify-content: center; align-items: center; position: relative; transform-style: preserve-3d; transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275); cursor: pointer; }
+        .coin::before { content: ''; position: absolute; width: 100%; height: 100%; border-radius: 50%; box-shadow: inset 0 0 10px rgba(0,0,0,0.5); pointer-events: none; }
+        .coin-inner { width: 24px; height: 24px; background: #121926; border-radius: 2px; box-shadow: inset 2px 2px 2px rgba(0,0,0,0.5), 0 0 0 2px rgba(255,255,255,0.1); z-index: 2; }
+        .coin.yang { background: radial-gradient(circle at 30% 30%, #ffd700, #daa520); box-shadow: 0 4px 10px rgba(0,0,0,0.5), inset 0 0 0 4px #ffd700; }
+        .coin.yin { background: radial-gradient(circle at 30% 30%, #cd7f32, #8b4513); box-shadow: 0 4px 10px rgba(0,0,0,0.5), inset 0 0 0 4px #8b4513; }
+        .shaking { animation: shake 0.6s ease-in-out; }
+        
+        /* Better Toss Animation - Enhanced Physics */
+        @keyframes toss1 {
+            0% { transform: translateY(0) rotateX(0) rotateZ(0); animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1); }
+            50% { transform: translateY(-300px) rotateX(1080deg) rotateZ(45deg); animation-timing-function: cubic-bezier(0.8, 0, 0.8, 0.2); }
+            100% { transform: translateY(0) rotateX(2160deg) rotateZ(0); }
+        }
+        @keyframes toss2 {
+            0% { transform: translateY(0) rotateX(0) rotateZ(0); animation-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1); }
+            45% { transform: translateY(-350px) rotateX(1260deg) rotateZ(-60deg); animation-timing-function: cubic-bezier(0.64, 0.04, 0.8, 0.4); }
+            100% { transform: translateY(0) rotateX(2520deg) rotateZ(0); }
+        }
+        @keyframes toss3 {
+            0% { transform: translateY(0) rotateX(0) rotateZ(0); animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28); }
+            55% { transform: translateY(-280px) rotateX(900deg) rotateZ(30deg); animation-timing-function: cubic-bezier(0.6, -0.28, 0.74, 0.05); }
+            100% { transform: translateY(0) rotateX(1800deg) rotateZ(0); }
+        }
+        
+        .coin.tossing-1 { animation: toss1 1.2s forwards; }
+        .coin.tossing-2 { animation: toss2 1.4s forwards; }
+        .coin.tossing-3 { animation: toss3 1.3s forwards; }
+
+        .hexagram-display { width: 100%; margin-top: 15px; background: rgba(0,0,0,0.3); padding: 10px; border-radius: 8px; min-height: 180px; display: flex; flex-direction: column-reverse; gap: 8px; border: 1px solid #334155; }
+        .hex-row { display: flex; align-items: center; justify-content: center; height: 20px; position: relative; }
+        .hex-label { position: absolute; left: 0; font-size: 10px; color: #64748b; width: 20px; }
+        .hex-line { width: 120px; height: 12px; border-radius: 2px; display: flex; justify-content: space-between; }
+        .hex-line.yang { background: #38bdf8; }
+        .hex-line.yin { background: transparent; }
+        .hex-line.yin::before, .hex-line.yin::after { content: ''; display: block; width: 45%; height: 100%; background: #38bdf8; border-radius: 2px; }
+        .move-marker { position: absolute; right: 10px; font-size: 12px; font-weight: bold; }
+        .move-o { color: #ef4444; } .move-x { color: #ef4444; }
+        .toss-btn { background: linear-gradient(135deg, #d97706, #b45309); border-color: #f59e0b; margin-top: 15px; }
+        .reset-btn { width: 100%; margin-top: 10px; padding: 8px; background: transparent; border: 1px solid #334155; color: #94a3b8; border-radius: 4px; cursor: pointer; font-size: 0.8rem; transition: all 0.2s; }
+        .reset-btn:hover { border-color: #ef4444; color: #ef4444; }
+
+        .fab-container { position: absolute; bottom: 30px; right: 30px; display: flex; gap: 15px; z-index: 40; pointer-events: auto; transition: all 0.3s ease; }
+        .fab { width: 64px; height: 64px; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 28px; cursor: pointer; transition: transform 0.2s; border: 2px solid rgba(255,255,255,0.2); box-shadow: 0 5px 25px rgba(0,0,0,0.4); backdrop-filter: blur(5px); }
+        .fab:active { transform: scale(0.95); }
+        .fab:hover { transform: scale(1.1); }
+        .chat-fab { background: linear-gradient(135deg, #f72585, #4361ee); box-shadow: 0 5px 25px rgba(247, 37, 133, 0.4); }
+        .calendar-fab { background: linear-gradient(135deg, #ffd700, #ff8c00); box-shadow: 0 5px 25px rgba(255, 140, 0, 0.4); }
+        .kline-fab { background: linear-gradient(135deg, #ef4444, #b91c1c); box-shadow: 0 5px 25px rgba(220, 38, 38, 0.4); }
+        .liuyao-fab { background: linear-gradient(135deg, #14b8a6, #0d9488); box-shadow: 0 5px 25px rgba(20, 184, 166, 0.4); }
+        .handle-bar { width: 40px; height: 5px; background: rgba(255,255,255,0.2); border-radius: 5px; margin: 10px auto 5px auto; display: none; }
+
+        /* --- MOBILE RESPONSIVE TWEAKS --- */
+        @media (max-width: 768px) {
+            /* Input Panel - Top Navigation Style */
+            .input-panel {
+                width: calc(100% - 30px);
+                left: 15px; right: 15px; top: 15px;
+                max-height: 70dvh; /* Use dvh for mobile address bar adjustment */
+                z-index: 30;
+                transform: none; 
+                transition: max-height 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+                background: rgba(10, 15, 30, 0.9); /* More opaque */
+            }
+            .input-panel.collapsed {
+                max-height: 60px;
+                overflow: hidden;
+            }
+            
+            /* Info Panel - Bottom Sheet Style */
+            .info-panel {
+                width: 100%; max-width: 100%;
+                left: 0; right: 0; top: auto; bottom: 0;
+                border-right: none;
+                border-top: 1px solid rgba(255, 183, 3, 0.5); /* Gold top border */
+                border-radius: 20px 20px 0 0;
+                transform: translateY(110%);
+                max-height: 65dvh;
+                height: 65dvh;
+                z-index: 35;
+                box-shadow: 0 -10px 40px rgba(0,0,0,0.8);
+                padding-bottom: env(safe-area-inset-bottom); /* iPhone X Safe Area */
+            }
+            .info-panel.active {
+                transform: translateY(0);
+            }
+            .handle-bar { display: block; }
+
+            /* Floating Windows - Full Screen/Sheet Style */
+            .floating-window {
+                width: 100% !important;
+                max-width: 100% !important;
+                left: 0 !important;
+                right: 0 !important;
+                bottom: 0 !important;
+                border-radius: 20px 20px 0 0 !important;
+                border: none !important;
+                border-top: 1px solid rgba(255,255,255,0.2) !important;
+                box-shadow: 0 -10px 40px rgba(0,0,0,0.8) !important;
+                height: 80dvh !important; 
+                max-height: 85dvh !important;
+                z-index: 50 !important;
+                display: flex; 
+                padding-bottom: env(safe-area-inset-bottom);
+            }
+
+            /* FABs - Bottom Bar Style */
+            .fab-container {
+                bottom: 20px;
+                width: 100%;
+                justify-content: space-evenly;
+                right: 0;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: env(safe-area-inset-bottom);
+                /* KEY FIX: Reduced z-index to sit BELOW open panels (z:35) on mobile */
+                z-index: 18; 
+                background: linear-gradient(to top, rgba(5,5,16,0.9), transparent); /* Gradual background */
+            }
+            .fab { width: 50px; height: 50px; font-size: 22px; margin: 0 5px; border-width: 1px; }
+            
+            /* Typography Tweaks */
+            h1 { font-size: 1.1rem; }
+            .panel-header { min-height: 50px; padding: 10px 15px; }
+            
+            /* 3D Canvas Adjust */
+            #canvas-container { height: 100dvh; }
+        }
+    </style>
+</head>
+<body>
+
+<div id="loading">
+    <div class="planets">
+        <div id="planetTrail1"></div>
+        <div id="planetTrail2"></div>
+        <div id="planetTrail3"></div>
+        <div id="star"></div>
+        <div id="starShadow"></div>
+        <div id="blackHole"></div>
+        <div id="blackHoleDisk1"></div>
+        <div id="blackHoleDisk2"></div>
+        <div id="planet"></div>
+    </div>
+    <p style="margin-top: 55px; color: #38bdf8; font-size: 0.9rem; letter-spacing: 2px; text-transform: uppercase;">星盘排列中...</p>
+</div>
+
+<!-- Canvas -->
+<div id="canvas-container"></div>
+
+<!-- UI Layer -->
+<div id="ui-layer">
+    <!-- Input Panel (Top Left - Collapsible) -->
+    <div class="panel input-panel" id="inputPanel">
+        <!-- Header -->
+        <div class="panel-header" onclick="toggleInputPanel()">
+            <h1 class="flex items-center gap-2">🌌 <span class="hidden sm:inline">紫微星系</span><span class="sm:hidden text-sm">紫薇星系</span></h1>
+            <div class="toggle-icon">▼</div>
+        </div>
+
+        <!-- Content -->
+        <div class="input-content">
+            
+            <label>出生日期 (阳历)</label>
+            <input type="date" id="birthDate" value="1990-06-15">
+            
+            <label>出生时辰</label>
+            <select id="birthHour">
+                <option value="0">子时 (23:00-01:00)</option>
+                <option value="1">丑时 (01:00-03:00)</option>
+                <option value="2">寅时 (03:00-05:00)</option>
+                <option value="3">卯时 (05:00-07:00)</option>
+                <option value="4">辰时 (07:00-09:00)</option>
+                <option value="5">巳时 (09:00-11:00)</option>
+                <option value="6" selected>午时 (11:00-13:00)</option>
+                <option value="7">未时 (13:00-15:00)</option>
+                <option value="8">申时 (15:00-17:00)</option>
+                <option value="9">酉时 (17:00-19:00)</option>
+                <option value="10">戌时 (19:00-21:00)</option>
+                <option value="11">亥时 (21:00-23:00)</option>
+            </select>
+
+            <label>性别</label>
+            <select id="gender">
+                <option value="1">男 (乾造)</option>
+                <option value="0">女 (坤造)</option>
+            </select>
+
+            <button class="uiverse" onclick="generateChart()">
+                <div class="wrapper">
+                    <span>🚀 开启星盘</span>
+                    <div class="circle circle-12"></div>
+                    <div class="circle circle-11"></div>
+                    <div class="circle circle-10"></div>
+                    <div class="circle circle-9"></div>
+                    <div class="circle circle-8"></div>
+                    <div class="circle circle-7"></div>
+                    <div class="circle circle-6"></div>
+                    <div class="circle circle-5"></div>
+                    <div class="circle circle-4"></div>
+                    <div class="circle circle-3"></div>
+                    <div class="circle circle-2"></div>
+                    <div class="circle circle-1"></div>
+                </div>
+            </button>
+            
+            <div id="bureau-info" class="mt-6 text-xs text-blue-200 border-t border-blue-900 pt-3 hidden flex justify-between font-mono">
+                <!-- Bureau info -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Info Panel (Right or Bottom) -->
+    <div class="panel info-panel" id="infoPanel">
+        <!-- Handle for mobile swipe hint -->
+        <div class="handle-bar"></div>
+        
+        <!-- Header -->
+        <div class="panel-header" onclick="toggleInfoPanel()">
+            <div class="flex flex-col">
+                <h2 id="panelTitle">宫位名称</h2>
+                <div class="text-xs text-blue-300 font-mono" id="panelSub">点击星岛查看详情</div>
+            </div>
+            <div class="toggle-icon">▼</div>
+        </div>
+
+        <!-- Scrollable Content -->
+        <div class="info-scroll">
+            <div class="w-full h-px bg-gradient-to-r from-transparent via-blue-500 to-transparent mb-4"></div>
+            <div id="starList" class="space-y-2">
+                <!-- Stars -->
+            </div>
+            
+            <button class="ai-text-btn" data-text="✨ 问星 AI 深度解析" onclick="analyzeCurrentPalace(); event.stopPropagation();">
+                <span class="actual-text">&nbsp;✨ 问星 AI 深度解析&nbsp;</span>
+                <span aria-hidden="true" class="hover-text">&nbsp;✨ 问星 AI 深度解析&nbsp;</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Floating Action Buttons -->
+<div class="fab-container">
+    <div class="fab liuyao-fab" onclick="toggleLiuYaoPanel()" title="六爻起卦">🐢</div>
+    <div class="fab calendar-fab" onclick="toggleDailyPanel()" title="今日星历">📅</div>
+    <div class="fab kline-fab" onclick="toggleLifePanel()" title="人生大运K线">📈</div>
+    <div class="fab chat-fab" onclick="toggleChat()" title="命理咨询">✨</div>
+</div>
+
+<!-- Daily Calendar Panel -->
+<div class="floating-window calendar-panel" id="dailyPanel">
+    <div class="handle-bar"></div>
+    <div class="cal-header">
+        <span class="close-modal" style="top: 15px; right: 15px; font-size: 20px;" onclick="toggleDailyPanel()">✕</span>
+        <div class="cal-date-big" id="calSolarDate">--</div>
+        <div class="cal-lunar" id="calLunarDate">--</div>
+        <div class="cal-ganzhi" id="calGanzhi">--</div>
+    </div>
+    <div class="cal-body">
+        <div class="yiji-grid">
+            <div class="yiji-box yi">
+                <div class="circle-icon">宜</div>
+                <div class="yiji-text" id="calYi">...</div>
+            </div>
+            <div class="yiji-box ji">
+                <div class="circle-icon">忌</div>
+                <div class="yiji-text" id="calJi">...</div>
+            </div>
+        </div>
+        <div class="ai-fortune-box">
+            <div class="ai-title">
+                <span>🔮 今日运程参考</span>
+            </div>
+            <div class="ai-text" id="calAiText">点击下方按钮，结合您的命盘进行推演...</div>
+            <button class="refresh-btn" onclick="generateDailyReport()">✨ 推演今日运程</button>
+        </div>
+    </div>
+</div>
+
+<!-- Life K-Line Panel -->
+<div class="floating-window life-panel" id="lifePanel">
+    <div class="handle-bar"></div>
+    <div class="life-header">
+        <div class="life-title">📈 人生大运 K 线图</div>
+        <span class="cursor-pointer text-gray-400 hover:text-white" onclick="toggleLifePanel()">✕</span>
+    </div>
+    <div class="life-chart-container">
+        <canvas id="lifeChart"></canvas>
+    </div>
+    <div class="life-analysis" id="lifeAnalysisText">
+        <div class="animate-pulse text-gray-500">请先生成星盘，系统将依据《渊海子平》与《子平真诠》的月令提纲法，结合大运流年为您推演一生起伏...</div>
+    </div>
+</div>
+
+<!-- Liu Yao Panel -->
+<div class="floating-window liu-yao-panel" id="liuYaoPanel">
+    <div class="handle-bar"></div>
+    <div class="liu-yao-header">
+        <div class="life-title" style="color: #2dd4bf;">六爻起卦</div>
+        <span class="cursor-pointer text-gray-400 hover:text-white" onclick="toggleLiuYaoPanel()">✕</span>
+    </div>
+    <div class="liu-yao-content">
+        <div class="text-xs text-gray-400 mb-4 text-center">诚心默念所问之事，点击下方铜钱起卦。<br>(共需摇六次，当前第 <span id="yaoCount" class="text-teal-400 font-bold">0</span>/6 爻)</div>
+        
+        <div class="coins-container" onclick="tossCoins()">
+            <div class="coin" id="coin1"><div class="coin-inner"></div></div>
+            <div class="coin" id="coin2"><div class="coin-inner"></div></div>
+            <div class="coin" id="coin3"><div class="coin-inner"></div></div>
+        </div>
+
+        <div class="hexagram-display" id="hexDisplay">
+            <div class="text-center text-gray-600 mt-10">等待起卦...</div>
+        </div>
+
+        <button class="toss-btn" id="tossBtn" onclick="tossCoins()">🤲 摇一卦</button>
+        <button class="ai-hex-btn hidden" id="interpretBtn" onclick="interpretHexagram()">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+            问星 AI 解卦
+        </button>
+        <button class="reset-btn" onclick="resetHexagram()">🔄 重置卦象</button>
+    </div>
+</div>
+
+<!-- Chat Window -->
+<div class="floating-window chat-window" id="chatWindow">
+    <div class="handle-bar"></div>
+    <div class="chat-header">
+        <span class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400">AI 命理大师咨询室</span>
+        <span class="cursor-pointer text-gray-400 hover:text-white" onclick="toggleChat()">✕</span>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+        <div class="msg msg-ai">你好！我是你的 AI 命理助手。我已经读取了你的全盘数据，你可以问我任何关于事业、感情或流年的问题。</div>
+    </div>
+    <div class="chat-input-area">
+        <input type="text" class="chat-input" id="userQuery" placeholder="输入你的问题..." onkeypress="handleChatKey(event)">
+        <button style="margin:0; width:auto; padding: 8px 12px; background: #4361ee; color:white; border-radius:6px;" onclick="askMaster()">发送</button>
+    </div>
+</div>
+
+<!-- AI Result Modal -->
+<div id="ai-modal" class="modal-overlay">
+    <div class="ai-content">
+        <span class="close-modal" onclick="closeAiModal()">&times;</span>
+        <h2 class="text-xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">✨ 星曜启示</h2>
+        <div id="ai-result-text" class="markdown-body text-sm">
+            正在通过星际网络连接 AI 大师...
+        </div>
+    </div>
+</div>
+
+<script>
+    // --- SECURE API CONFIG (使用 Make.com 後端) ---
+    // ⚠️ 重要：API Key 和 Webhook 網址已安全地配置在後端
+    // 前端不再直接暴露任何敏感資訊
+    
+    const WEBHOOK_URL = "https://hook.us2.make.com/fls5awanvkl1x2eg8sb1hg8mbsb9tbz3";
+    const API_KEY = "qq1095188292";
+    
+    async function callAI(prompt, systemInstruction = "") {
+        // 構建完整的請求 URL（將問題作為查詢參數）
+        const url = new URL(WEBHOOK_URL);
+        
+        // 將 prompt 和 systemInstruction 組合成完整的問題
+        let fullQuestion = prompt;
+        if (systemInstruction && systemInstruction.trim() !== "") {
+            fullQuestion = `${systemInstruction}\n\n${prompt}`;
+        }
+        
+        url.searchParams.append('question', fullQuestion);
+        
+        const maxRetries = 3;
+        let delay = 1000;
+
+        for (let i = 0; i < maxRetries; i++) {
+            try {
+                const response = await fetch(url.toString(), {
+                    method: 'GET',
+                    headers: {
+                        'x-make-apikey': API_KEY
+                    }
+                });
+
+                if (!response.ok) {
+                    const status = response.status;
+                    console.error("Webhook API Error:", status);
+                    
+                    if (status === 401 || status === 403) {
+                        return `⚠️ **連接失敗 (${status})**\n\nAPI 驗證失敗，請聯繫開發者。`;
+                    }
+
+                    throw new Error(`HTTP error! status: ${status}`);
+                }
+                
+                // Make.com Webhook Response 直接返回文本
+                const aiResponse = await response.text();
+                return aiResponse || "星象模糊，無法解讀。";
+            } catch (error) {
+                console.error("Attempt", i+1, "failed:", error);
+                if (i === maxRetries - 1) return `連接宇宙能量失敗。請檢查網絡連接後再試。`;
+                await new Promise(r => setTimeout(r, delay));
+                delay *= 2;
+            }
+        }
+    }
+    
+    // --- ZI WEI DOU SHU LOGIC ---
+    const HEAVENLY_STEMS = ['甲', '乙', '丙', '丁', '戊', '己', '庚', '辛', '壬', '癸'];
+    const EARTHLY_BRANCHES = ['子', '丑', '寅', '卯', '辰', '巳', '午', '未', '申', '酉', '戌', '亥'];
+    const PALACE_NAMES = ['命宫', '兄弟', '夫妻', '子女', '财帛', '疾厄', '迁移', '仆役', '官禄', '田宅', '福德', '父母'];
+    
+    function getBureau(stemIdx, branchIdx) {
+        const NAYIN_BUREAU = [
+             4, 4, 6, 6, 3, 3, 5, 5, 4, 4, 6, 6, 
+             2, 2, 6, 6, 5, 5, 3, 3, 2, 2, 5, 5, 
+             6, 6, 5, 5, 3, 3, 2, 2, 4, 4, 6, 6, 
+             4, 4, 3, 3, 2, 2, 6, 6, 5, 5, 3, 3, 
+             3, 3, 4, 4, 6, 6, 2, 2, 3, 3, 2, 2 
+        ];
+        
+        for(let i=0; i<60; i++) {
+            if (i % 10 === stemIdx && i % 12 === branchIdx) {
+                return NAYIN_BUREAU[i];
+            }
+        }
+        return 2; 
+    }
+
+    const SI_HUA_RULES = {
+        0: { Lu:'廉贞', Quan:'破军', Ke:'武曲', Ji:'太阳' }, 
+        1: { Lu:'天机', Quan:'天梁', Ke:'紫微', Ji:'太阴' }, 
+        2: { Lu:'天同', Quan:'天机', Ke:'文昌', Ji:'廉贞' }, 
+        3: { Lu:'太阴', Quan:'天同', Ke:'天机', Ji:'巨门' }, 
+        4: { Lu:'贪狼', Quan:'太阴', Ke:'右弼', Ji:'天机' }, 
+        5: { Lu:'武曲', Quan:'贪狼', Ke:'天梁', Ji:'文曲' }, 
+        6: { Lu:'太阳', Quan:'武曲', Ke:'太阴', Ji:'天同' }, 
+        7: { Lu:'巨门', Quan:'太阳', Ke:'文曲', Ji:'文昌' }, 
+        8: { Lu:'天梁', Quan:'紫微', Ke:'左辅', Ji:'武曲' }, 
+        9: { Lu:'破军', Quan:'巨门', Ke:'太阴', Ji:'贪狼' } 
+    };
+
+    const MAIN_STARS_INFO = {
+        '紫微': { type: '帝王', color: '#a020f0', desc: '尊贵、领导、解厄。全盘中枢。' },
+        '天机': { type: '智慧', color: '#4caf50', desc: '机智、变动、谋略。' },
+        '太阳': { type: '权贵', color: '#ff9800', desc: '博爱、名声、付出。' },
+        '武曲': { type: '财富', color: '#ffd700', desc: '刚毅、决断、正财。' },
+        '天同': { type: '福气', color: '#03a9f4', desc: '温顺、享乐、协调。' },
+        '廉贞': { type: '囚星', color: '#ff4444', desc: '次桃花、复杂、行政。' },
+        '天府': { type: '财库', color: '#d2b48c', desc: '包容、保守、掌财。' },
+        '太阴': { type: '母性', color: '#88ccff', desc: '温柔、田宅、财富。' },
+        '贪狼': { type: '欲望', color: '#ff69b4', desc: '桃花、投机、多才。' },
+        '巨门': { type: '是非', color: '#708090', desc: '口才、暗昧、研究。' },
+        '天相': { type: '印星', color: '#4682b4', desc: '辅佐、公正、爱美。' },
+        '天梁': { type: '荫星', color: '#556b2f', desc: '老人、原则、医药。' },
+        '七杀': { type: '将星', color: '#cd5c5c', desc: '肃杀、变动、独立。' },
+        '破军': { type: '耗星', color: '#191970', desc: '破坏、先破后立。' }
+    };
+
+    const STAR_BRIGHTNESS_TABLE = {
+        '紫微': ['平', '庙', '庙', '旺', '得', '得', '庙', '庙', '旺', '平', '得', '旺'],
+        '天机': ['庙', '陷', '得', '旺', '利', '平', '庙', '陷', '得', '旺', '利', '平'],
+        '太阳': ['陷', '陷', '旺', '庙', '旺', '旺', '庙', '得', '得', '平', '陷', '陷'],
+        '武曲': ['旺', '庙', '得', '陷', '庙', '平', '旺', '庙', '得', '陷', '庙', '平'],
+        '天同': ['旺', '陷', '平', '庙', '平', '庙', '陷', '陷', '旺', '平', '平', '庙'],
+        '廉贞': ['平', '利', '庙', '平', '利', '陷', '平', '利', '庙', '平', '利', '陷'],
+        '天府': ['庙', '庙', '庙', '平', '庙', '得', '旺', '庙', '得', '平', '庙', '得'],
+        '太阴': ['庙', '庙', '陷', '陷', '陷', '陷', '陷', '平', '利', '旺', '旺', '庙'],
+        '贪狼': ['旺', '庙', '平', '平', '庙', '陷', '旺', '庙', '平', '平', '庙', '陷'],
+        '巨门': ['旺', '旺', '庙', '庙', '陷', '陷', '旺', '陷', '庙', '庙', '陷', '旺'], 
+        '天相': ['庙', '庙', '庙', '陷', '旺', '平', '庙', '得', '庙', '陷', '旺', '平'],
+        '天梁': ['庙', '旺', '庙', '庙', '旺', '陷', '庙', '旺', '陷', '得', '旺', '陷'],
+        '七杀': ['旺', '庙', '庙', '旺', '庙', '平', '旺', '庙', '庙', '旺', '旺', '平'],
+        '破军': ['庙', '旺', '陷', '陷', '旺', '平', '庙', '旺', '陷', '陷', '旺', '平']
+    };
+
+    class ZWDSChart {
+        constructor(dateStr, hourIdx, genderVal) {
+            this.gregorianDate = new Date(`${dateStr}T12:00:00`);
+            this.gender = parseInt(genderVal); 
+            const solar = Solar.fromDate(this.gregorianDate);
+            this.lunar = solar.getLunar();
+            this.lunarYear = this.lunar.getYear();
+            this.lunarMonth = this.lunar.getMonth();
+            this.lunarDay = this.lunar.getDay();
+            this.lunarHourIdx = parseInt(hourIdx);
+            this.yearStemIdx = this.lunar.getYearGanIndex(); 
+            this.yearBranchIdx = this.lunar.getYearZhiIndex(); 
+            this.chartData = [];
+            this.initChart();
+        }
+
+        initChart() {
+            let month = this.lunarMonth;
+            if (month < 0) month = -month; 
+            let hour = this.lunarHourIdx + 1; 
+            let mingIndex = (2 + (month - 1) - (hour - 1)) % 12;
+            if (mingIndex < 0) mingIndex += 12;
+            let shenIndex = (2 + (month - 1) + (hour - 1)) % 12;
+            
+            for (let i = 0; i < 12; i++) {
+                let offset = (mingIndex - i) % 12;
+                if (offset < 0) offset += 12;
+                let yinStemBase = (this.yearStemIdx % 5) * 2 + 2; 
+                if (yinStemBase > 9) yinStemBase -= 10;
+                let distFromYin = offset - 2;
+                if (distFromYin < 0) distFromYin += 12;
+                let palaceStem = (yinStemBase + distFromYin) % 10;
+                this.chartData[offset] = {
+                    name: PALACE_NAMES[i],
+                    branch: EARTHLY_BRANCHES[offset],
+                    stem: HEAVENLY_STEMS[palaceStem],
+                    stars: [],
+                    isMing: (i === 0),
+                    isShen: (offset === shenIndex),
+                    bureau: 0 
+                };
+            }
+            
+            const mingPalace = this.chartData[mingIndex];
+            const mingStemIdx = HEAVENLY_STEMS.indexOf(mingPalace.stem);
+            const mingBranchIdx = EARTHLY_BRANCHES.indexOf(mingPalace.branch);
+            this.bureau = getBureau(mingStemIdx, mingBranchIdx);
+            
+            let day = this.lunarDay;
+            let bureau = this.bureau;
+            let Q, pos;
+            if (day % bureau === 0) {
+                Q = day / bureau;
+                pos = 2 + Q - 1;
+            } else {
+                let rem = day % bureau;
+                let add = bureau - rem; 
+                Q = (day + add) / bureau;
+                if (add % 2 !== 0) {
+                    pos = 2 + Q - 1 - add; 
+                } else {
+                    pos = 2 + Q - 1 + add; 
+                }
+            }
+            while(pos < 0) pos += 12;
+            pos = pos % 12;
+            this.ziWeiIdx = pos;
+            this.tianFuIdx = (4 - this.ziWeiIdx + 12) % 12;
+            
+            this.placeStars();
+            this.placeSiHua();
+            this.calcBrightness();
+        }
+        
+        placeStars() {
+            const place = (star, offset) => {
+                let idx = (this.ziWeiIdx + offset + 120) % 12; 
+                this.addStar(idx, star, 'main');
+            };
+            place('紫微', 0);
+            place('天机', -1);
+            place('太阳', -3);
+            place('武曲', -4);
+            place('天同', -5);
+            place('廉贞', -8);
+            
+            const placeTF = (star, offset) => {
+                let idx = (this.tianFuIdx + offset + 120) % 12;
+                this.addStar(idx, star, 'main');
+            };
+            placeTF('天府', 0);
+            placeTF('太阴', 1);
+            placeTF('贪狼', 2);
+            placeTF('巨门', 3);
+            placeTF('天相', 4);
+            placeTF('天梁', 5);
+            placeTF('七杀', 6);
+            placeTF('破军', 10);
+            
+            let zuoFu = (4 + (this.lunarMonth - 1)) % 12;
+            if (zuoFu < 0) zuoFu += 12; 
+            this.addStar(zuoFu, '左辅', 'lucky');
+            let youBi = (10 - (this.lunarMonth - 1) + 12) % 12;
+            this.addStar(youBi, '右弼', 'lucky');
+            let wenChang = (10 - (this.lunarHourIdx) + 12) % 12;
+            this.addStar(wenChang, '文昌', 'lucky');
+            let wenQu = (4 + this.lunarHourIdx) % 12;
+            this.addStar(wenQu, '文曲', 'lucky');
+            
+            const luCunMap = {0:2, 1:3, 2:5, 3:6, 4:5, 5:6, 6:8, 7:9, 8:11, 9:0}; 
+            const luCunPos = luCunMap[this.yearStemIdx];
+            if (luCunPos !== undefined) {
+                this.addStar(luCunPos, '禄存', 'lucky');
+                this.addStar((luCunPos + 1) % 12, '擎羊', 'bad');
+                this.addStar((luCunPos - 1 + 12) % 12, '陀罗', 'bad');
+            }
+        }
+        
+        addStar(idx, name, category) {
+            if (!this.chartData[idx]) return; 
+            this.chartData[idx].stars.push({ name, category, brightness: '平' });
+        }
+        
+        placeSiHua() {
+            const rules = SI_HUA_RULES[this.yearStemIdx];
+            if (!rules) return;
+            this.chartData.forEach(palace => {
+                palace.stars.forEach(star => {
+                    if (star.name === rules.Lu) star.sihua = '禄';
+                    if (star.name === rules.Quan) star.sihua = '权';
+                    if (star.name === rules.Ke) star.sihua = '科';
+                    if (star.name === rules.Ji) star.sihua = '忌';
+                });
+            });
+        }
+        
+        calcBrightness() {
+            this.chartData.forEach((palace, pIdx) => {
+                const branchIdx = EARTHLY_BRANCHES.indexOf(palace.branch);
+                palace.stars.forEach(star => {
+                    if (star.category === 'main') {
+                        if (STAR_BRIGHTNESS_TABLE[star.name]) {
+                            star.brightness = STAR_BRIGHTNESS_TABLE[star.name][branchIdx];
+                        } else {
+                            star.brightness = '平'; 
+                        }
+                    }
+                });
+            });
+        }
+        
+        getSummary() {
+            let summary = `用户性别: ${this.gender === 1 ? '男' : '女'}。\n`;
+            summary += `五行局: ${this.bureau}局。\n`;
+            summary += `命盘结构:\n`;
+            this.chartData.forEach(p => {
+                const starStr = p.stars.map(s => {
+                    let info = `${s.name}(${s.brightness})`;
+                    if (s.sihua) info += `[化${s.sihua}]`;
+                    return info;
+                }).join(', ');
+                summary += `- ${p.name} (${p.stem}${p.branch}): ${starStr || '无主星'}\n`;
+            });
+            return summary;
+        }
+    }
+
+    // --- LIFE K-LINE ---
+    let latestLifeData = []; 
+    let currentDrawLimit = 0; 
+    let lifeAnimFrameId = null; 
+
+    function getBaZiInfo(date, hourIdx) {
+        const d = new Date(date);
+        const hrs = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22];
+        d.setHours(hrs[parseInt(hourIdx)] || 12);
+        const solar = Solar.fromDate(d);
+        const lunar = solar.getLunar();
+        const bazi = lunar.getEightChar();
+        return {
+            dayStem: bazi.getDayGan(),
+            monthBranch: bazi.getMonthZhi(),
+            monthStem: bazi.getMonthGan(),
+            yearBranch: bazi.getYearZhi(),
+            baziObj: bazi,
+            lunar: lunar
+        };
+    }
+
+    function calculateLifeTrendData(birthDateStr, hourIdx, gender) {
+        const d = new Date(birthDateStr);
+        const hrs = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22];
+        d.setHours(hrs[parseInt(hourIdx)]);
+        const solar = Solar.fromDate(d);
+        const lunar = solar.getLunar();
+        const eightChar = lunar.getEightChar();
+        const monthZhi = eightChar.getMonthZhi(); 
+        
+        const seasons = { '寅': 'Spring', '卯': 'Spring', '辰': 'Spring', '巳': 'Summer', '午': 'Summer', '未': 'Summer', '申': 'Autumn', '酉': 'Autumn', '戌': 'Autumn', '亥': 'Winter', '子': 'Winter', '丑': 'Winter' };
+        const season = seasons[monthZhi];
+        let favorElements = [];
+        if (season === 'Winter') favorElements = ['火', '木']; 
+        else if (season === 'Summer') favorElements = ['水', '金']; 
+        else if (season === 'Spring') favorElements = ['火', '金']; 
+        else if (season === 'Autumn') favorElements = ['水', '木']; 
+        
+        const yun = lunar.getEightChar().getYun(parseInt(gender));
+        const daYunArr = yun.getDaYun();
+        let qiYunAge = 0;
+        if (daYunArr.length > 0) {
+            qiYunAge = daYunArr[0].getStartAge();
+        }
+
+        let kLineData = [];
+        const elMap = { '甲':'木','乙':'木','寅':'木','卯':'木', '丙':'火','丁':'火','巳':'火','午':'火', '戊':'土','己':'土','辰':'土','戌':'土','丑':'土','未':'土', '庚':'金','辛':'金','申':'金','酉':'金', '壬':'水','癸':'水','亥':'水','子':'水' };
+
+        for (let i = 0; i < daYunArr.length; i++) { 
+            const dy = daYunArr[i]; 
+            if (!dy) continue; 
+            const daYunGanZhi = dy.getGanZhi();
+            const gan = daYunGanZhi.charAt(0);
+            const zhi = daYunGanZhi.charAt(1);
+            let daYunScore = 0;
+            const ganEl = elMap[gan];
+            const zhiEl = elMap[zhi];
+            if (favorElements.includes(ganEl)) daYunScore += 5; else daYunScore -= 2;
+            if (favorElements.includes(zhiEl)) daYunScore += 5; else daYunScore -= 2;
+            const clashes = { '子':'午', '午':'子', '丑':'未', '未':'丑', '寅':'申', '申':'寅', '卯':'酉', '酉':'卯', '辰':'戌', '戌':'辰', '巳':'亥', '亥':'巳' };
+            let isClash = (clashes[monthZhi] === zhi);
+            const liunians = dy.getLiuNian(); 
+            
+            for (let j = 0; j < liunians.length; j++) {
+                const liunian = liunians[j];
+                const a = liunian.getAge(); 
+                if (a < qiYunAge) continue;
+                if (a > 100) break;
+                const lnGanZhi = liunian.getGanZhi();
+                const lnGan = lnGanZhi.charAt(0);
+                const lnZhi = lnGanZhi.charAt(1);
+                let yearlyMod = 0;
+                if (favorElements.includes(elMap[lnGan])) yearlyMod += 5; else yearlyMod -= 2;
+                if (favorElements.includes(elMap[lnZhi])) yearlyMod += 5; else yearlyMod -= 2;
+                if (clashes[monthZhi] === lnZhi) yearlyMod -= 10;
+                if (isClash) yearlyMod += (Math.random() > 0.5 ? 8 : -8);
+                
+                let prevClose = kLineData.length > 0 ? kLineData[kLineData.length-1].close : 50;
+                let idealScore = 50 + (daYunScore * 2) + yearlyMod;
+                let open = prevClose;
+                let close = open + (idealScore - open) * 0.3; 
+                let volatility = 5;
+                if (isClash) volatility += 10;
+                if (clashes[lnZhi] === monthZhi) volatility += 10; 
+                let high = Math.max(open, close) + Math.random() * volatility;
+                let low = Math.min(open, close) - Math.random() * volatility;
+                if(high > 100) high = 100; if(low < 0) low = 0;
+                
+                kLineData.push({ age: a, year: liunian.getYear(), ganZhi: lnGanZhi, open: Math.floor(open), close: Math.floor(close), high: Math.floor(high), low: Math.floor(low), daYun: `${gan}${zhi}` });
+            }
+        }
+        latestLifeData = kLineData; 
+        return kLineData;
+    }
+
+    function renderLifeKLine(data, highlightIndex = -1, drawLimit = data.length) {
+        const canvas = document.getElementById('lifeChart');
+        const ctx = canvas.getContext('2d');
+        const dpr = window.devicePixelRatio || 1;
+        const rect = canvas.getBoundingClientRect();
+        canvas.width = rect.width * dpr; canvas.height = rect.height * dpr;
+        ctx.scale(dpr, dpr);
+        const w = rect.width; const h = rect.height;
+        ctx.fillStyle = "#0b0d12"; ctx.fillRect(0, 0, w, h);
+        const padding = 20; const paddingBottom = 40; 
+        const graphW = w - padding * 2; const graphH = h - padding - paddingBottom;
+        const barW = graphW / data.length;
+
+        ctx.strokeStyle = "#1e293b"; ctx.lineWidth = 1;
+        for(let i=0; i<=5; i++) { let y = padding + i * (graphH/5); ctx.beginPath(); ctx.moveTo(padding, y); ctx.lineTo(w - padding, y); ctx.stroke(); }
+        
+        for (let i = 0; i < drawLimit && i < data.length; i++) {
+            const d = data[i]; const x = padding + i * barW;
+            const mapY = (val) => h - paddingBottom - (val / 100 * graphH);
+            const yOpen = mapY(d.open); const yClose = mapY(d.close); const yHigh = mapY(d.high); const yLow = mapY(d.low);
+            const isRise = d.close >= d.open;
+            ctx.fillStyle = isRise ? "#ef4444" : "#10b981"; ctx.strokeStyle = isRise ? "#ef4444" : "#10b981";
+            
+            if (i === highlightIndex) {
+                ctx.save(); ctx.strokeStyle = "#ffffff"; ctx.setLineDash([5, 5]); ctx.lineWidth = 1;
+                ctx.beginPath(); ctx.moveTo(x + barW/2, padding); ctx.lineTo(x + barW/2, h - paddingBottom); ctx.stroke();
+                ctx.restore();
+            }
+            ctx.beginPath(); ctx.moveTo(x + barW/2, yHigh); ctx.lineTo(x + barW/2, yLow); ctx.stroke();
+            const bodyH = Math.abs(yClose - yOpen); const bodyY = Math.min(yOpen, yClose);
+            ctx.fillRect(x + 0.5, bodyY, Math.max(barW - 1, 0.5), Math.max(bodyH, 1)); 
+
+            if (d.age >= 10 && d.age <= 80 && d.age % 10 === 0) {
+                ctx.fillStyle = "#94a3b8"; ctx.font = "10px sans-serif"; ctx.textAlign = "center"; ctx.fillText(d.age + "岁", x + barW/2, h - 10);
+            }
+        }
+        
+        if (drawLimit > 0) {
+            ctx.beginPath(); ctx.strokeStyle = "#fbbf24"; ctx.lineWidth = 2;
+            for (let i = 0; i < drawLimit && i < data.length; i++) {
+                const d = data[i]; const x = padding + i * barW + barW/2; const mapY = (val) => h - paddingBottom - (val / 100 * graphH); const y = mapY(d.close);
+                if (i===0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+            }
+            ctx.stroke();
+        }
+
+        if (highlightIndex !== -1 && highlightIndex < drawLimit && data[highlightIndex]) {
+            const d = data[highlightIndex];
+            const x = padding + highlightIndex * barW + barW/2;
+            const y = 50; 
+            const tipText = `${d.age}岁 · ${d.year}年 (${d.ganZhi}) · 大运: ${d.daYun}`;
+            ctx.font = "bold 14px sans-serif"; const textWidth = ctx.measureText(tipText).width;
+            let tipX = x - textWidth/2; if (tipX < padding) tipX = padding; if (tipX + textWidth > w - padding) tipX = w - padding - textWidth;
+            ctx.fillStyle = "rgba(0, 0, 0, 0.8)"; ctx.fillRect(tipX - 10, y - 20, textWidth + 20, 30);
+            ctx.strokeStyle = "#fbbf24"; ctx.strokeRect(tipX - 10, y - 20, textWidth + 20, 30);
+            ctx.fillStyle = "#ffffff"; ctx.textAlign = "left"; ctx.fillText(tipText, tipX, y);
+        }
+    }
+
+    function startLifeChartAnimation(data) {
+        if (lifeAnimFrameId) cancelAnimationFrame(lifeAnimFrameId);
+        const duration = 2000; const startTime = performance.now(); currentDrawLimit = 0;
+        function loop(now) {
+            const elapsed = now - startTime; const progress = Math.min(elapsed / duration, 1);
+            currentDrawLimit = Math.floor(data.length * progress);
+            renderLifeKLine(data, -1, currentDrawLimit);
+            if (progress < 1) lifeAnimFrameId = requestAnimationFrame(loop);
+            else { currentDrawLimit = data.length; renderLifeKLine(data, -1, currentDrawLimit); }
+        }
+        lifeAnimFrameId = requestAnimationFrame(loop);
+    }
+
+    function setupChartInteraction() {
+        const canvas = document.getElementById('lifeChart');
+        canvas.addEventListener('mousemove', (e) => {
+            if (latestLifeData.length === 0) return;
+            const rect = canvas.getBoundingClientRect(); const x = e.clientX - rect.left; handleInteraction(x, rect.width);
+        });
+        canvas.addEventListener('mouseleave', () => { renderLifeKLine(latestLifeData, -1, currentDrawLimit); });
+        canvas.addEventListener('touchmove', (e) => {
+            if (latestLifeData.length === 0) return;
+            e.preventDefault();
+            const rect = canvas.getBoundingClientRect(); const x = e.touches[0].clientX - rect.left; handleInteraction(x, rect.width);
+        }, { passive: false });
+        canvas.addEventListener('touchend', () => { renderLifeKLine(latestLifeData, -1, currentDrawLimit); });
+        
+        function handleInteraction(x, width) {
+            const padding = 20; const graphW = width - padding * 2; const barW = graphW / latestLifeData.length;
+            let index = Math.floor((x - padding) / barW);
+            if (index < 0) index = 0; if (index >= latestLifeData.length) index = latestLifeData.length - 1;
+            renderLifeKLine(latestLifeData, index, currentDrawLimit);
+        }
+    }
+
+    function toggleLifePanel() {
+        const panel = document.getElementById('lifePanel');
+        closeAllFloatingWindows(panel);
+        
+        if (panel.style.display === 'flex') {
+            panel.style.display = 'none';
+        } else {
+            panel.style.display = 'flex';
+            generateLifeChartLogic();
+            setupChartInteraction();
+        }
+    }
+    
+    // Helper to close other windows
+    function closeAllFloatingWindows(except = null) {
+        const windows = ['dailyPanel', 'lifePanel', 'liuYaoPanel', 'chatWindow', 'settings-modal'];
+        windows.forEach(id => {
+            const el = document.getElementById(id);
+            if (el && el !== except && el.id !== 'ai-modal') el.style.display = 'none';
+        });
+    }
+
+    function generateLifeChartLogic() {
+        const dateStr = document.getElementById('birthDate').value;
+        const hourIdx = document.getElementById('birthHour').value;
+        const gender = document.getElementById('gender').value;
+        const data = calculateLifeTrendData(dateStr, hourIdx, gender);
+        startLifeChartAnimation(data);
+        const info = getBaZiInfo(dateStr, hourIdx);
+        const monthZhi = info.monthBranch; const dayGan = info.dayStem;
+        const nowYear = new Date().getFullYear();
+        const birthYear = new Date(dateStr).getFullYear();
+        const currentAge = nowYear - birthYear;
+        const currentData = data.find(d => d.age === currentAge) || data[data.length-1];
+        const daYunStr = currentData ? currentData.daYun : "--";
+        const analysisDiv = document.getElementById('lifeAnalysisText');
+        analysisDiv.innerHTML = `<div class="mb-2"><strong class="text-white">当前大运:</strong> <span class="text-yellow-400 text-lg">${daYunStr}</span> (约${currentAge}岁)</div><div class="mb-2"><strong class="text-white">月令提纲:</strong> ${monthZhi}月 (格局核心)</div><div><strong class="text-blue-400">大师批注:</strong> 此造日元为<span class="text-white">${dayGan}</span>，生于${monthZhi}月。依据《子平真诠》，月令为提纲之府，决定人生格局上限。当前行运至<span class="text-yellow-400">${daYunStr}</span>，需注意大运地支与月令的刑冲合害关系。若K线震荡剧烈（红绿交替频繁），代表流年引动了局中隐患，名为“运冲提纲”或“岁运并临”，建议该阶段守成主静，顺应天时。</div>`;
+    }
+
+    // --- LIU YAO LOGIC ---
+    let currentYaoLines = []; 
+    let isTossing = false;
+    const HEX_64 = {
+        '111111': '乾为天', '000000': '坤为地', '100010': '水雷屯', '010001': '山水蒙', '111010': '水天需', '010111': '天水讼', '010000': '地水师', '000010': '水地比',
+        '111011': '风天小畜', '110111': '天泽履', '111000': '地天泰', '000111': '天地否', '101111': '天火同人', '111101': '火天大有', '001000': '地山谦', '000100': '雷地豫',
+        '100110': '泽雷随', '011001': '山风蛊', '110000': '地泽临', '000011': '风地观', '100101': '火雷噬嗑', '101001': '山火贲', '000001': '山地剥', '100000': '地雷复',
+        '100111': '天雷无妄', '111001': '山天大畜', '100001': '山雷颐', '011110': '泽风大过', '010010': '坎为水', '101101': '离为火', '001110': '泽山咸', '011100': '雷风恒',
+        '001111': '天山遁', '111100': '雷天大壮', '000101': '火地晋', '101000': '地火明夷', '101010': '风火家人', '010101': '火泽睽', '001010': '水山蹇', '010100': '雷水解',
+        '110001': '山泽损', '100011': '风雷益', '111110': '泽天夬', '011111': '天风姤', '000110': '泽地萃', '011000': '地风升', '010110': '泽水困', '011010': '水风井',
+        '101110': '泽火革', '011101': '火风鼎', '100100': '震为雷', '001001': '艮为山', '001011': '风山渐', '110100': '雷泽归妹', '101100': '雷火丰', '001101': '火山旅',
+        '011011': '巽为风', '110110': '兑为泽', '010011': '风水涣', '110010': '水泽节', '110011': '风泽中孚', '001100': '雷山小过', '101011': '水火既济', '110101': '火水未济'
+    };
+
+    function toggleLiuYaoPanel() {
+        const panel = document.getElementById('liuYaoPanel');
+        closeAllFloatingWindows(panel);
+        if (panel.style.display === 'flex') panel.style.display = 'none';
+        else panel.style.display = 'flex';
+    }
+
+    function tossCoins() {
+        if (isTossing || currentYaoLines.length >= 6) return;
+        isTossing = true;
+        const coins = document.querySelectorAll('.coin');
+        
+        // Remove any existing result classes (yang/yin) to show "neutral" state during toss? 
+        // Actually, usually you keep the previous state or reset. Let's keep it simple.
+        
+        // Apply random toss animations
+        const tossClasses = [];
+        coins.forEach((c, index) => {
+            // Randomly pick an animation variant 1, 2, or 3
+            const variant = Math.floor(Math.random() * 3) + 1;
+            const cls = `tossing-${variant}`;
+            c.classList.add(cls);
+            tossClasses[index] = cls;
+        });
+
+        // Timeout needs to match the longest animation (approx 1.4s)
+        setTimeout(() => {
+            coins.forEach((c, index) => {
+                c.classList.remove(tossClasses[index]);
+            });
+            
+            let sum = 0;
+            for(let i=0; i<3; i++) {
+                const isYang = Math.random() > 0.5;
+                sum += isYang ? 3 : 2;
+                const coinEl = document.getElementById(`coin${i+1}`);
+                if (isYang) { coinEl.classList.remove('yin'); coinEl.classList.add('yang'); }
+                else { coinEl.classList.remove('yang'); coinEl.classList.add('yin'); }
+            }
+            let yao = { val: sum, isMoving: (sum===6 || sum===9), type: (sum%2!==0) ? 1 : 0 }; 
+            currentYaoLines.push(yao);
+            document.getElementById('yaoCount').innerText = currentYaoLines.length;
+            renderHexagramLines();
+            if (currentYaoLines.length === 6) {
+                document.getElementById('tossBtn').style.display = 'none';
+                document.getElementById('interpretBtn').classList.remove('hidden');
+                document.getElementById('interpretBtn').classList.add('flex');
+            }
+            isTossing = false;
+        }, 1500); // 1.5s to be safe
+    }
+
+    function resetHexagram() {
+        currentYaoLines = [];
+        document.getElementById('yaoCount').innerText = '0';
+        document.getElementById('hexDisplay').innerHTML = '<div class="text-center text-gray-600 mt-10">等待起卦...</div>';
+        document.getElementById('tossBtn').style.display = 'block';
+        document.getElementById('interpretBtn').classList.add('hidden');
+        document.getElementById('interpretBtn').classList.remove('flex');
+        const coins = document.querySelectorAll('.coin');
+        coins.forEach(c => { c.classList.remove('yang'); c.classList.remove('yin'); });
+        isTossing = false;
+    }
+
+    function renderHexagramLines() {
+        const container = document.getElementById('hexDisplay');
+        container.innerHTML = ''; 
+        currentYaoLines.forEach((yao, idx) => {
+            const row = document.createElement('div'); row.className = 'hex-row';
+            const label = document.createElement('div'); label.className = 'hex-label'; label.innerText = (idx + 1); 
+            const line = document.createElement('div'); line.className = 'hex-line ' + (yao.type === 1 ? 'yang' : 'yin');
+            row.appendChild(label); row.appendChild(line);
+            if (yao.isMoving) {
+                const marker = document.createElement('div'); marker.className = 'move-marker ' + (yao.val === 9 ? 'move-o' : 'move-x'); marker.innerText = (yao.val === 9 ? 'O' : 'X'); row.appendChild(marker);
+            }
+            container.appendChild(row);
+        });
+        if (currentYaoLines.length === 6) {
+            const binStr = [...currentYaoLines].reverse().map(y => y.type).join('');
+            const name = HEX_64[binStr] || "未知卦";
+            const infoDiv = document.createElement('div'); infoDiv.className = "text-center text-yellow-400 font-bold mt-2"; infoDiv.innerHTML = `<div>本卦: ${name}</div>`;
+            container.appendChild(infoDiv);
+        }
+    }
+
+    async function interpretHexagram() {
+        const binStr = [...currentYaoLines].reverse().map(y => y.type).join('');
+        const benGuaName = HEX_64[binStr] || "未知卦";
+        const zhiLines = currentYaoLines.map(y => { if (y.val === 6) return 1; if (y.val === 9) return 0; return y.type; });
+        const zhiBinStr = [...zhiLines].reverse().join('');
+        const zhiGuaName = HEX_64[zhiBinStr] || "未知卦";
+        const movingLinesDesc = currentYaoLines.map((y, i) => { if (!y.isMoving) return null; return `第${i+1}爻发动 (${y.val === 9 ? '老阳' : '老阴'})`; }).filter(x => x).join(', ');
+        const modal = document.getElementById('ai-modal');
+        const contentDiv = document.getElementById('ai-result-text');
+        modal.style.display = 'flex';
+        contentDiv.innerHTML = `
+            <div class="flex flex-col items-center justify-center py-10">
+                <div class="spinner">
+                    <div class="spinner1"></div>
+                </div>
+                <p class="mt-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400 animate-pulse font-bold tracking-widest">
+                    🌌 星辰连结中...
+                </p>
+                <p class="text-xs text-gray-500 mt-2">正在以此卦问询天机</p>
+            </div>
+        `;
+        const systemPrompt = `你是一位精通《增删卜易》与传统纳甲筮法的六爻命理大师。你的任务是根据用户摇出的金钱课卦象（本卦、动爻、变卦）进行专业解读。解读要求：1. 准确分析卦名、五行、世应关系。2. 重点分析动爻（老阴/老阳）的吉凶变化，动爻是事情成败的关键。3. 结合变卦判断事情的最终走向。4. 语气专业、神秘但客观，给出具体的行动建议。5. 输出格式使用简单的 Markdown，关键吉凶结论请加粗。`;
+        const userPrompt = `用户起卦结果如下：【本卦】: ${benGuaName} (结构: ${binStr}) 【动爻】: ${movingLinesDesc || "静卦无动爻"} 【变卦/之卦】: ${zhiGuaName} 请开始解卦。`;
+        const result = await callAI(userPrompt, systemPrompt);
+        contentDiv.innerHTML = marked.parse(result);
+    }
+
+    // --- THREE.JS ---
+    let scene, camera, renderer, controls, raycaster, mouse;
+    let chartObj = new THREE.Group();
+    let connectionGroup = new THREE.Group(); 
+    let coreMesh, coreUniforms, sectorMeshes = []; 
+
+    function init3D() {
+        const container = document.getElementById('canvas-container');
+        scene = new THREE.Scene();
+        scene.fog = new THREE.FogExp2(0x02040a, 0.0015);
+        camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 2000);
+        camera.position.set(0, -60, 45);
+        camera.lookAt(0, 0, 0);
+        renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+        renderer.toneMapping = THREE.ACESFilmicToneMapping;
+        renderer.toneMappingExposure = 1.2;
+        container.appendChild(renderer.domElement);
+        controls = new THREE.OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true; controls.dampingFactor = 0.05;
+        controls.maxDistance = 150; controls.minDistance = 20;
+        
+        const ambientLight = new THREE.AmbientLight(0x222244); scene.add(ambientLight);
+        const sunLight = new THREE.PointLight(0xffaa00, 2, 200); sunLight.position.set(0, 0, 0); scene.add(sunLight);
+        const blueLight = new THREE.PointLight(0x0088ff, 1.5, 100); blueLight.position.set(30, 30, 30); scene.add(blueLight);
+
+        // Particle System (Optimization: reduce count on mobile)
+        const isMobile = window.innerWidth < 768;
+        const particleCount = isMobile ? 8000 : 20000; 
+        const positions = new Float32Array(particleCount * 3); const randoms = new Float32Array(particleCount); const radius = 3.8; 
+        for (let i = 0; i < particleCount; i++) {
+            const k = i + 0.5; const phi = Math.acos(1 - 2 * k / particleCount); const theta = Math.PI * (1 + Math.sqrt(5)) * k;
+            const x = radius * Math.sin(phi) * Math.cos(theta); const y = radius * Math.sin(phi) * Math.sin(theta); const z = radius * Math.cos(phi);
+            positions[i * 3] = x; positions[i * 3 + 1] = y; positions[i * 3 + 2] = z; randoms[i] = Math.random();
+        }
+        const coreGeo = new THREE.BufferGeometry(); coreGeo.setAttribute('position', new THREE.BufferAttribute(positions, 3)); coreGeo.setAttribute('aRandom', new THREE.BufferAttribute(randoms, 1));
+        coreUniforms = { uTime: { value: 0 }, uColor1: { value: new THREE.Color(0x050505) }, uColor2: { value: new THREE.Color(0xffffff) } };
+        const vertexShader = `
+            uniform float uTime; attribute float aRandom; varying vec3 vPos; varying float vRandom;
+            vec3 mod289(vec3 x) { return x - floor(x * (1.0 / 289.0)) * 289.0; }
+            vec4 mod289(vec4 x) { return x - floor(x * (1.0 / 289.0)) * 289.0; }
+            vec4 permute(vec4 x) { return mod289(((x*34.0)+1.0)*x); }
+            vec4 taylorInvSqrt(vec4 r) { return 1.79284291400159 - 0.85373472095314 * r; }
+            float snoise(vec3 v) { const vec2 C = vec2(1.0/6.0, 1.0/3.0); const vec4 D = vec4(0.0, 0.5, 1.0, 2.0); vec3 i = floor(v + dot(v, C.yyy)); vec3 x0 = v - i + dot(i, C.xxx); vec3 g = step(x0.yzx, x0.xyz); vec3 l = 1.0 - g; vec3 i1 = min(g.xyz, l.zxy); vec3 i2 = max(g.xyz, l.zxy); vec3 x1 = x0 - i1 + C.xxx; vec3 x2 = x0 - i2 + C.yyy; vec3 x3 = x0 - D.yyy; i = mod289(i); vec4 p = permute(permute(permute(i.z + vec4(0.0, i1.z, i2.z, 1.0)) + i.y + vec4(0.0, i1.y, i2.y, 1.0)) + i.x + vec4(0.0, i1.x, i2.x, 1.0)); float n_ = 0.142857142857; vec3 ns = n_ * D.wyz - D.xzx; vec4 j = p - 49.0 * floor(p * ns.z * ns.z); vec4 x_ = floor(j * ns.z); vec4 y_ = floor(j - 7.0 * x_); vec4 x = x_ * ns.x + ns.yyyy; vec4 y = y_ * ns.x + ns.yyyy; vec4 h = 1.0 - abs(x) - abs(y); vec4 b0 = vec4(x.xy, y.xy); vec4 b1 = vec4(x.zw, y.zw); vec4 s0 = floor(b0) * 2.0 + 1.0; vec4 s1 = floor(b1) * 2.0 + 1.0; vec4 sh = -step(h, vec4(0.0)); vec4 a0 = b0.xzyw + s0.xzyw * sh.xxyy; vec4 a1 = b1.xzyw + s1.xzyw * sh.zzww; vec3 p0 = vec3(a0.xy, h.x); vec3 p1 = vec3(a0.zw, h.y); vec3 p2 = vec3(a1.xy, h.z); vec3 p3 = vec3(a1.zw, h.w); vec4 norm = taylorInvSqrt(vec4(dot(p0, p0), dot(p1, p1), dot(p2, p2), dot(p3, p3))); p0 *= norm.x; p1 *= norm.y; p2 *= norm.z; p3 *= norm.w; vec4 m = max(0.6 - vec4(dot(x0, x0), dot(x1, x1), dot(x2, x2), dot(x3, x3)), 0.0); m = m * m; return 42.0 * dot(m * m, vec4(dot(p0, x0), dot(p1, x1), dot(p2, x2), dot(p3, x3))); }
+            void main() { vRandom = aRandom; vec3 noisePos = position * 0.5 + vec3(0.0, uTime * 0.2, 0.0); float noiseVal = snoise(noisePos); vec3 newPos = position + normalize(position) * noiseVal * 0.2; vPos = newPos; vec4 mvPosition = modelViewMatrix * vec4(newPos, 1.0); gl_Position = projectionMatrix * mvPosition; float sizePulse = 1.0 + sin(uTime * 2.0 + aRandom * 10.0) * 0.3; gl_PointSize = (6.0 * sizePulse + aRandom * 2.0) * (30.0 / -mvPosition.z); }
+        `;
+        const fragmentShader = `
+            uniform float uTime; uniform vec3 uColor1; uniform vec3 uColor2; varying vec3 vPos; varying float vRandom;
+            float random(vec2 st) { return fract(sin(dot(st.xy, vec2(12.9898,78.233))) * 43758.5453123); }
+            vec3 mod289(vec3 x) { return x - floor(x * (1.0 / 289.0)) * 289.0; } vec2 mod289(vec2 x) { return x - floor(x * (1.0 / 289.0)) * 289.0; } vec3 permute(vec3 x) { return mod289(((x*34.0)+1.0)*x); }
+            float snoise(vec2 v) { const vec4 C = vec4(0.211324865405187, 0.366025403784439, -0.577350269189626, 0.024390243902439); vec2 i = floor(v + dot(v, C.yy)); vec2 x0 = v - i + dot(i, C.xx); vec2 i1; i1 = (x0.x > x0.y) ? vec2(1.0, 0.0) : vec2(0.0, 1.0); vec4 x12 = x0.xyxy + C.xxzz; x12.xy -= i1; i = mod289(i); vec3 p = permute(permute(i.y + vec3(0.0, i1.y, 1.0)) + i.x + vec3(0.0, i1.x, 1.0)); vec3 m = max(0.5 - vec3(dot(x0, x0), dot(x12.xy, x12.xy), dot(x12.zw, x12.zw)), 0.0); m = m * m; m = m * m; vec3 x = 2.0 * fract(p * C.www) - 1.0; vec3 h = abs(x) - 0.5; vec3 ox = floor(x + 0.5); vec3 a0 = x - ox; m *= 1.79284291400159 - 0.85373472095314 * (a0 * a0 + h * h); vec3 g; g.x = a0.x * x0.x + h.x * x0.y; g.yz = a0.yz * x12.xz + h.yz * x12.yw; return 130.0 * dot(m, g); }
+            void main() { vec2 coord = gl_PointCoord - vec2(0.5); float dist = length(coord); if(dist > 0.5) discard; vec3 normPos = normalize(vPos); float angle = -uTime * 0.2; float cosA = cos(angle); float sinA = sin(angle); vec2 rotated = vec2(normPos.x * cosA - normPos.y * sinA, normPos.x * sinA + normPos.y * cosA); float x = rotated.x; float y = rotated.y; float timeStep = floor(uTime * 15.0) / 15.0; float noise = snoise(vec2(y * 10.0, timeStep)) * 0.1; float blocky = floor(noise * 20.0) / 20.0; float curve = -sin(y * 3.14159) * 0.4; float boundary = curve + blocky; float mixVal = step(boundary, x); vec2 topEyePos = vec2(0.0, 0.5); vec2 botEyePos = vec2(0.0, -0.5); float eyeNoise = snoise(vec2(uTime * 2.0, 0.0)) * 0.005; float dTop = length(vec2(x, y) - topEyePos); float dBot = length(vec2(x, y) - botEyePos); float rEye = 0.12 + eyeNoise; float inTopEye = 1.0 - smoothstep(rEye - 0.02, rEye + 0.02, dTop); float inBotEye = 1.0 - smoothstep(rEye - 0.02, rEye + 0.02, dBot); float finalMix = clamp(mixVal - inTopEye + inBotEye, 0.0, 1.0); float alpha = 1.0 - smoothstep(0.3, 0.5, dist); vec3 col = vec3(0.0); if (finalMix > 0.5) { col = vec3(0.9, 0.95, 1.0) * 1.5; col += vec3(1.0) * smoothstep(0.0, 0.2, 0.5 - dist); alpha *= 0.8 + 0.2 * sin(uTime * 5.0 + vRandom * 10.0); } else { col = vec3(0.02, 0.02, 0.02); float gridX = step(0.95, fract(vPos.x * 2.0 + uTime * 0.1)); float gridY = step(0.95, fract(vPos.y * 2.0)); col += vec3(0.3) * (gridX + gridY) * 0.5; alpha = smoothstep(0.0, 0.2, alpha); alpha = 1.0; } float scan = sin(gl_FragCoord.y * 0.5 + uTime * 10.0); if(scan > 0.9) col *= 1.3; else col *= 0.9; gl_FragColor = vec4(col, alpha); }
+        `;
+        const coreMat = new THREE.ShaderMaterial({ uniforms: coreUniforms, vertexShader: vertexShader, fragmentShader: fragmentShader, transparent: true, depthWrite: false, blending: THREE.NormalBlending });
+        coreMesh = new THREE.Points(coreGeo, coreMat);
+        const coreGlow = createGlowSprite(0xaaccff, 18); coreGlow.material.opacity = 0.15; coreMesh.add(coreGlow); scene.add(coreMesh);
+        
+        addBackgroundStars(); addSpaceDust();
+        chartObj.add(connectionGroup); scene.add(chartObj);
+        raycaster = new THREE.Raycaster(); mouse = new THREE.Vector2();
+        window.addEventListener('resize', onWindowResize, false);
+        
+        // Initial mobile camera check
+        onWindowResize();
+        
+        // Setup new interaction logic
+        initCanvasInteraction();
+
+        animate();
+    }
+    
+    // --- NEW: Mobile-Friendly Canvas Interaction Logic ---
+    function initCanvasInteraction() {
+        const canvas = renderer.domElement;
+        let downX = 0, downY = 0;
+        let downTime = 0;
+
+        // Use pointer events to handle both touch and mouse seamlessly
+        canvas.addEventListener('pointerdown', (e) => {
+            if (!e.isPrimary) return; // Ignore multi-touch
+            downX = e.clientX;
+            downY = e.clientY;
+            downTime = performance.now();
+        });
+
+        canvas.addEventListener('pointerup', (e) => {
+            if (!e.isPrimary) return;
+            const upX = e.clientX;
+            const upY = e.clientY;
+            
+            // Calculate distance moved
+            const moveDist = Math.sqrt(Math.pow(upX - downX, 2) + Math.pow(upY - downY, 2));
+            const timeDiff = performance.now() - downTime;
+
+            // If movement is small (< 10px) and duration is short (< 600ms), treat as tap
+            if (moveDist < 10 && timeDiff < 600) {
+                // Manually trigger raycast logic with the UP coordinates
+                handleRaycast(upX, upY);
+            }
+        });
+    }
+
+    // Refactored from onMouseClick to accept coordinates
+    function handleRaycast(clientX, clientY) {
+        if (!currentChart) return;
+        
+        // Get precise canvas position in viewport
+        const rect = renderer.domElement.getBoundingClientRect();
+        
+        // Calculate normalized device coordinates (-1 to +1) relative to canvas
+        mouse.x = ((clientX - rect.left) / rect.width) * 2 - 1;
+        mouse.y = -((clientY - rect.top) / rect.height) * 2 + 1;
+
+        raycaster.setFromCamera(mouse, camera);
+        const intersects = raycaster.intersectObjects(chartObj.children, true); 
+        
+        if (intersects.length > 0) {
+            let target = intersects[0].object;
+            // Traverse up to find the parent group with data
+            while(target.parent && target.parent !== chartObj && !target.userData.data) { target = target.parent; }
+
+            if (target.userData && target.userData.data) {
+                const centerIndex = target.userData.id;
+                const panel = document.getElementById('infoPanel');
+                
+                // Unified Logic: Open and expand panel on ALL devices
+                panel.classList.add('active'); // Bring into view
+                panel.classList.remove('collapsed'); // Expand content
+                
+                showInfoPanel(target.userData.data);
+                visualizeRelationships(centerIndex);
+            }
+        }
+    }
+
+    function addBackgroundStars() {
+        const geometry = new THREE.BufferGeometry(); const vertices = []; const colors = []; const colorObj = new THREE.Color();
+        for (let i = 0; i < 3000; i++) {
+            vertices.push(THREE.MathUtils.randFloatSpread(400), THREE.MathUtils.randFloatSpread(400), THREE.MathUtils.randFloatSpread(400));
+            colorObj.setHSL(0.6 + Math.random() * 0.1, 0.8, 0.5 + Math.random() * 0.5); colors.push(colorObj.r, colorObj.g, colorObj.b);
+        }
+        geometry.setAttribute('position', new THREE.Float32BufferAttribute(vertices, 3)); geometry.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
+        const material = new THREE.PointsMaterial({ size: 0.6, vertexColors: true, transparent: true, opacity: 0.8 });
+        const stars = new THREE.Points(geometry, material); scene.add(stars);
+    }
+    
+    function addSpaceDust() {
+        const geometry = new THREE.BufferGeometry(); const vertices = [];
+        for (let i = 0; i < 1500; i++) {
+            const r = 30 + Math.random() * 60; const theta = Math.random() * Math.PI * 2;
+            const x = r * Math.cos(theta); const y = r * Math.sin(theta); const z = (Math.random() - 0.5) * 15; vertices.push(x, y, z);
+        }
+        geometry.setAttribute('position', new THREE.Float32BufferAttribute(vertices, 3));
+        const material = new THREE.PointsMaterial({ color: 0x4466aa, size: 0.4, transparent: true, opacity: 0.4 });
+        const dust = new THREE.Points(geometry, material); dust.name = "dust"; scene.add(dust);
+    }
+
+    function clearChart3D() {
+        while(chartObj.children.length > 0){ chartObj.remove(chartObj.children[0]); }
+        sectorMeshes = [];
+        while(connectionGroup.children.length > 0){ connectionGroup.remove(connectionGroup.children[0]); }
+        chartObj.add(connectionGroup); 
+    }
+
+    function createSectorMesh(index, data) {
+        const radiusInner = 16; const radiusOuter = 28; const segments = 12;
+        const thetaStart = (index * 2 * Math.PI) / segments; const thetaLength = (2 * Math.PI) / segments - 0.15;
+        const shape = new THREE.Shape(); shape.absarc(0, 0, radiusOuter, thetaStart, thetaStart + thetaLength, false); shape.absarc(0, 0, radiusInner, thetaStart + thetaLength, thetaStart, true);
+        const extrudeSettings = { depth: 1.5, bevelEnabled: true, bevelThickness: 0.2, bevelSize: 0.2, bevelSegments: 3 };
+        const geometry = new THREE.ExtrudeGeometry(shape, extrudeSettings);
+        let baseColor = data.isMing ? 0x0077ff : 0x223344; let emissiveColor = data.isMing ? 0x002244 : 0x000000; let opacityVal = 0.6;
+        if (data.isShen) { baseColor = 0x00aa88; opacityVal = 0.7; }
+        const material = new THREE.MeshPhysicalMaterial({ color: baseColor, transparent: true, opacity: opacityVal, metalness: 0.8, roughness: 0.2, clearcoat: 1.0, clearcoatRoughness: 0.1, emissive: emissiveColor, emissiveIntensity: 0.5, side: THREE.DoubleSide });
+        const mesh = new THREE.Mesh(geometry, material); mesh.userData = { id: index, data: data, originalColor: baseColor, originalEmissive: emissiveColor }; 
+        
+        // --- UPDATED LABEL GENERATION ---
+        let labelName = data.name;
+        if (data.isShen) {
+            labelName += "(身宫)";
+        }
+        const labelText = labelName + '\n' + data.stem + data.branch;
+        
+        let highlightType = 0; // 0: None, 1: Ming, 2: Shen
+        let textColor = 0xaaccff;
+        
+        if (data.isMing) {
+            highlightType = 1;
+            textColor = 0xffd700;
+        } else if (data.isShen) {
+            highlightType = 2;
+            textColor = 0x33ff33; // Bright green for Shen text
+        }
+        
+        const sprite = createTextSprite(labelText, textColor, highlightType);
+        
+        const angle = thetaStart + thetaLength / 2; const r = (radiusInner + radiusOuter) / 2;
+        sprite.position.set(r * Math.cos(angle), r * Math.sin(angle), 15); mesh.add(sprite); // Changed z from 5 to 15 to clear planets
+        
+        if (data.isMing) { 
+            const glow = createGlowSprite(0x0077ff, 12); 
+            glow.position.set(r * Math.cos(angle), r * Math.sin(angle), -2); 
+            mesh.add(glow); 
+        } else if (data.isShen) {
+             // Green glow for Shen
+            const glow = createGlowSprite(0x00ff88, 12); 
+            glow.position.set(r * Math.cos(angle), r * Math.sin(angle), -2); 
+            mesh.add(glow); 
+        }
+        
+        addStarsToSector(mesh, data.stars, angle, r);
+        sectorMeshes[index] = mesh; return mesh;
+    }
+
+    function addStarsToSector(parentMesh, stars, angle, radius) {
+        stars.forEach((star, i) => {
+            let size = 0.4; let color = 0xffffff; let intensity = 1.0;
+            if (star.category === 'main') {
+                size = 1.0; color = MAIN_STARS_INFO[star.name] ? MAIN_STARS_INFO[star.name].color : 0xffffff; intensity = 1.5;
+                switch (star.brightness) {
+                    case '庙': size = 1.6; intensity = 4.0; break;
+                    case '旺': size = 1.3; intensity = 2.5; break;
+                    case '得': case '利': size = 1.1; intensity = 1.8; break;
+                    case '平': size = 0.9; intensity = 1.0; break;
+                    case '陷': case '闲': size = 0.6; intensity = 0.4; const c = new THREE.Color(color); c.lerp(new THREE.Color(0x333333), 0.5); color = c.getHex(); break;
+                    default: size = 1.0; intensity = 1.0;
+                }
+            } else if (star.category === 'bad') { color = 0xff4444; size = 0.5; } else if (star.category === 'lucky') { color = 0x44ff88; size = 0.5; }
+            const geometry = new THREE.SphereGeometry(size, 32, 32); const material = new THREE.MeshStandardMaterial({ color: color, emissive: color, emissiveIntensity: intensity, roughness: 0.1 });
+            const starMesh = new THREE.Mesh(geometry, material);
+            let rOffset = (Math.random() - 0.5) * 6; let hOffset = 4 + Math.random() * 4; let aOffset = (Math.random() - 0.5) * 0.15;
+            let finalR = radius + rOffset; let finalA = angle + aOffset;
+            starMesh.position.set(finalR * Math.cos(finalA), finalR * Math.sin(finalA), hOffset);
+            const glow = createGlowSprite(color, size * 6); glow.position.copy(starMesh.position);
+            parentMesh.add(starMesh); parentMesh.add(glow);
+            if (star.sihua) {
+                const ringGeo = new THREE.RingGeometry(size * 1.5, size * 1.8, 32);
+                let ringColor = 0xffffff; if(star.sihua === '禄') ringColor = 0x4cc9f0; if(star.sihua === '权') ringColor = 0x4361ee; if(star.sihua === '科') ringColor = 0xb5179e; if(star.sihua === '忌') ringColor = 0xf72585;
+                const ringMat = new THREE.MeshBasicMaterial({ color: ringColor, side: THREE.DoubleSide, transparent: true, opacity: 0.8, depthWrite: false });
+                const ring = new THREE.Mesh(ringGeo, ringMat); ring.position.copy(starMesh.position); ring.lookAt(0,0,100); parentMesh.add(ring);
+            }
+        });
+    }
+
+    function createTextSprite(message, color, highlightType = 0) {
+        const canvas = document.createElement('canvas'); const context = canvas.getContext('2d'); canvas.width = 512; canvas.height = 256;
+        context.clearRect(0, 0, canvas.width, canvas.height); 
+        context.textAlign = "center"; context.textBaseline = "middle"; context.lineWidth = 4;
+        
+        const lines = message.split('\n');
+        lines.forEach((line, i) => { 
+            if (i===0) { 
+                context.fillStyle = '#' + new THREE.Color(color).getHexString(); 
+                
+                // Dynamic font size for longer titles (e.g. "命宫(身宫)")
+                let fontSize = 60;
+                if (highlightType === 1) fontSize = 80;
+                if (line.length > 3) fontSize *= 0.75; // Reduce size if text is long
+
+                if (highlightType === 1) { // Ming (Gold)
+                    context.font = `Bold ${fontSize}px 'Noto Sans SC'`; 
+                    context.shadowColor = "rgba(255, 215, 0, 0.9)"; 
+                    context.shadowBlur = 25;
+                    context.fillText(line, 256, 90);
+                    context.shadowBlur = 10;
+                    context.fillText(line, 256, 90);
+                } else if (highlightType === 2) { // Shen (Green)
+                    context.font = `Bold ${fontSize}px 'Noto Sans SC'`; 
+                    context.shadowColor = "rgba(50, 255, 50, 0.9)"; 
+                    context.shadowBlur = 20;
+                    context.fillText(line, 256, 100);
+                    context.shadowBlur = 8;
+                    context.fillText(line, 256, 100);
+                } else { // Normal
+                    context.font = `Bold ${fontSize}px 'Noto Sans SC'`; 
+                    context.shadowColor = "#000"; 
+                    context.shadowBlur = 15; 
+                    context.fillText(line, 256, 100);
+                }
+            } else { 
+                // Subtext color
+                if (highlightType === 1) context.fillStyle = "#ffecb3";
+                else if (highlightType === 2) context.fillStyle = "#ccffcc";
+                else context.fillStyle = "#cccccc";
+                
+                context.font = "40px 'Noto Sans SC'"; 
+                context.shadowColor = "#000";
+                context.shadowBlur = 8;
+                context.fillText(line, 256, 170); 
+            } 
+        });
+        const texture = new THREE.CanvasTexture(canvas); const spriteMaterial = new THREE.SpriteMaterial({ map: texture, transparent: true, depthWrite: false });
+        // Scale adjustment: Only Ming gets bigger scale
+        const scale = (highlightType === 1) ? 10 : 8; 
+        const sprite = new THREE.Sprite(spriteMaterial); sprite.scale.set(scale, scale * 0.5, 1); return sprite;
+    }
+
+    function createGlowSprite(color, scale) {
+        const canvas = document.createElement('canvas'); canvas.width = 64; canvas.height = 64; const ctx = canvas.getContext('2d');
+        const c = new THREE.Color(color); const r = Math.floor(c.r * 255); const g = Math.floor(c.g * 255); const b = Math.floor(c.b * 255);
+        const gradient = ctx.createRadialGradient(32, 32, 0, 32, 32, 32); gradient.addColorStop(0, `rgba(${r},${g},${b},1)`); gradient.addColorStop(0.4, `rgba(${r},${g},${b},0.5)`); gradient.addColorStop(1, `rgba(${r},${g},${b},0)`);
+        ctx.fillStyle = gradient; ctx.clearRect(0,0,64,64); ctx.fillRect(0, 0, 64, 64);
+        const texture = new THREE.CanvasTexture(canvas); const mat = new THREE.SpriteMaterial({ map: texture, transparent: true, blending: THREE.AdditiveBlending, depthWrite: false });
+        const sprite = new THREE.Sprite(mat); sprite.scale.set(scale, scale, 1); return sprite;
+    }
+    
+    function visualizeRelationships(centerIndex) {
+        while(connectionGroup.children.length > 0){ connectionGroup.remove(connectionGroup.children[0]); }
+        const trine1 = (centerIndex + 4) % 12; const trine2 = (centerIndex + 8) % 12; const opposite = (centerIndex + 6) % 12; const activeIndices = [centerIndex, trine1, trine2, opposite];
+        sectorMeshes.forEach((mesh, i) => {
+            if (activeIndices.includes(i)) {
+                mesh.material.opacity = 0.8; mesh.material.emissiveIntensity = 0.8;
+                if (i === centerIndex) mesh.material.emissive.setHex(0xffaa00); else if (i === opposite) mesh.material.emissive.setHex(0xff4444); else mesh.material.emissive.setHex(0x00aaff);
+            } else { mesh.material.opacity = 0.2; mesh.material.emissiveIntensity = 0.1; mesh.material.emissive.setHex(mesh.userData.originalEmissive); }
+        });
+        const getPos = (idx) => {
+            const segments = 12; const thetaStart = (idx * 2 * Math.PI) / segments; const thetaLength = (2 * Math.PI) / segments - 0.15; const angle = thetaStart + thetaLength / 2; const r = 22; return new THREE.Vector3(r * Math.cos(angle), r * Math.sin(angle), 3); 
+        };
+        const pCenter = getPos(centerIndex); const pTrine1 = getPos(trine1); const pTrine2 = getPos(trine2); const pOpposite = getPos(opposite);
+        const trianglePoints = [pCenter, pTrine1, pTrine2, pCenter]; const triGeo = new THREE.BufferGeometry().setFromPoints(trianglePoints); const triMat = new THREE.LineBasicMaterial({ color: 0x00aaff, linewidth: 2, transparent: true, opacity: 0.8 }); const triangle = new THREE.Line(triGeo, triMat); connectionGroup.add(triangle);
+        const oppPoints = [pCenter, pOpposite]; const oppGeo = new THREE.BufferGeometry().setFromPoints(oppPoints); const oppMat = new THREE.LineDashedMaterial({ color: 0xff4444, dashSize: 1, gapSize: 0.5, scale: 1, transparent: true, opacity: 0.8 }); const oppLine = new THREE.Line(oppGeo, oppMat); oppLine.computeLineDistances(); connectionGroup.add(oppLine);
+        [pCenter, pTrine1, pTrine2, pOpposite].forEach((pos, idx) => { const color = idx === 3 ? 0xff4444 : (idx === 0 ? 0xffaa00 : 0x00aaff); const node = createGlowSprite(color, 8); node.position.copy(pos); connectionGroup.add(node); });
+    }
+
+    let currentChart = null; let selectedPalaceData = null;
+
+    function generateChart() {
+        document.getElementById('loading').style.display = 'flex'; document.getElementById('loading').style.opacity = 1;
+        // Mobile UX: Collapse input panel automatically
+        if (window.innerWidth <= 768) { document.getElementById('inputPanel').classList.add('collapsed'); }
+        
+        setTimeout(() => {
+            const date = document.getElementById('birthDate').value; const hourIdx = document.getElementById('birthHour').value; const gender = document.getElementById('gender').value;
+            try {
+                currentChart = new ZWDSChart(date, hourIdx, gender);
+                const bureaus = ['水二局', '木三局', '金四局', '土五局', '火六局'];
+                let bIdx = -1; if(currentChart.bureau === 2) bIdx = 0; if(currentChart.bureau === 3) bIdx = 1; if(currentChart.bureau === 4) bIdx = 2; if(currentChart.bureau === 5) bIdx = 3; if(currentChart.bureau === 6) bIdx = 4;
+                const bText = bIdx >= 0 ? bureaus[bIdx] : '未知局';
+                const bDiv = document.getElementById('bureau-info');
+                bDiv.innerHTML = `<span>五行: <strong class="text-white">${bText}</strong></span> <span>命主: <strong class="text-white">${currentChart.chartData[0].stem}${currentChart.chartData[0].branch}</strong></span>`;
+                bDiv.classList.remove('hidden');
+                // Always reset chat to avoid persisting old context in a fresh chart
+                document.getElementById('chatMessages').innerHTML = '<div class="msg msg-ai">你好！我是你的 AI 命理助手。我已经读取了你的全盘数据，你可以问我任何关于事业、感情或流年的问题。</div>';
+                
+                renderChart3D(currentChart);
+            } catch (e) { console.error(e); alert("生成失败，请检查输入或控制台日志。"); }
+            document.getElementById('loading').style.opacity = 0; setTimeout(() => { document.getElementById('loading').style.display = 'none'; }, 500);
+        }, 2500); 
+    }
+
+    function renderChart3D(chart) {
+        clearChart3D();
+        chart.chartData.forEach((data, index) => { const sector = createSectorMesh(index, data); chartObj.add(sector); });
+    }
+
+    function onWindowResize() {
+        camera.aspect = window.innerWidth / window.innerHeight; camera.updateProjectionMatrix(); renderer.setSize(window.innerWidth, window.innerHeight);
+        
+        // --- MOBILE CAMERA ADJUSTMENT ---
+        if (window.innerWidth < 768) {
+            // Portrait/Mobile: Move camera back/up to fit the chart
+            // Adjusted for better visibility of 3D tilt
+            camera.position.set(0, -90, 80); // Adjusted for better viewing angle on mobile
+        } else {
+            // Desktop
+            camera.position.set(0, -60, 45);
+        }
+        if (controls) controls.update();
+    }
+
+    // REMOVED old onMouseClick logic
+    // Now handled by initCanvasInteraction() and handleRaycast()
+    
+    function showInfoPanel(data) {
+        selectedPalaceData = data; 
+        
+        // Update Title
+        let panelTitleText = data.name;
+        if (data.isShen) panelTitleText += " (身宫)";
+        document.getElementById('panelTitle').innerText = panelTitleText + ' (' + data.stem + data.branch + ')';
+        
+        const PALACE_DESC_MAP = {
+            '命宫': '核心人格 · 天赋特质 · 命运总览', '兄弟': '知心好友 · 合作伙伴 · 现金周转', '夫妻': '感情模式 · 伴侣特质 · 婚姻状况', '子女': '亲子关系 · 晚辈缘分 · 合伙事业',
+            '财帛': '赚钱能力 · 收入来源 · 理财观念', '疾厄': '身体健康 · 潜意识 · 情绪压力', '迁移': '对外形象 · 社交机遇 · 出行运势', '仆役': '人际圈子 · 粉丝受众 · 朋友助力',
+            '官禄': '事业发展 · 职场表现 · 创业方向', '田宅': '居住环境 · 房产运势 · 家庭氛围', '福德': '精神享受 · 兴趣嗜好 · 财源起伏', '父母': '长辈缘分 · 遗传基因 · 上司关系'
+        };
+        let subText = PALACE_DESC_MAP[data.name] || '未知领域';
+        if (data.isMing) { subText = '【本命核心】 ' + subText; document.getElementById('panelSub').className = "text-xs text-yellow-300 font-mono font-bold"; } else if (data.isShen) { subText = '【后天身宫】 ' + subText; document.getElementById('panelSub').className = "text-xs text-green-300 font-mono font-bold"; } else { document.getElementById('panelSub').className = "text-xs text-blue-300 font-mono"; }
+        document.getElementById('panelSub').innerText = subText;
+        
+        const list = document.getElementById('starList'); list.innerHTML = '';
+        
+        // --- NEW: Shen Gong Explanation Box ---
+        if (data.isShen) {
+            const shenInfo = document.createElement('div');
+            shenInfo.className = 'shen-info-box';
+            shenInfo.innerHTML = `<span class="shen-label">✨ 后天身宫解析</span>身宫在紫微斗数中代表后天生活的发展方向、行为模式和中晚年运势。身宫所在的宫位，往往是您后天人生发展的重点舞台。`;
+            list.appendChild(shenInfo);
+        }
+
+        if (data.stars.length === 0) { 
+            const noStar = document.createElement('div');
+            noStar.className = "text-gray-500 text-sm mt-4";
+            noStar.innerText = "此宫无主星 (借对宫星曜)";
+            list.appendChild(noStar);
+        } else {
+            data.stars.sort((a,b) => { const order = { 'main': 1, 'lucky': 2, 'bad': 3 }; return order[a.category] - order[b.category]; });
+            data.stars.forEach(star => {
+                const item = document.createElement('div'); item.className = 'flex items-center justify-between bg-white bg-opacity-10 p-2 rounded mb-2';
+                let sihuaTag = ''; if (star.sihua) { const cls = {'禄':'sihua-lu', '权':'sihua-quan', '科':'sihua-ke', '忌':'sihua-ji'}[star.sihua]; sihuaTag = `<span class="${cls} mr-1">[化${star.sihua}]</span>`; }
+                let brightCls = 'star-ping'; if (star.brightness === '庙') brightCls = 'star-miao'; else if (star.brightness === '旺') brightCls = 'star-wang'; else if (star.brightness === '得') brightCls = 'star-de'; else if (star.brightness === '利') brightCls = 'star-li'; else if (star.brightness === '平') brightCls = 'star-ping'; else if (star.brightness === '陷') brightCls = 'star-xian'; else if (star.brightness === '闲') brightCls = 'star-xian';
+                const starInfo = MAIN_STARS_INFO[star.name] || {}; const desc = starInfo.desc || '';
+                item.innerHTML = `<div><span class="font-bold text-base" style="color:${starInfo.color||'#fff'}">${star.name}</span>${sihuaTag}<div class="text-xs text-gray-400">${desc}</div></div><div class="flex flex-col items-end"><span class="star-tag ${brightCls}">${star.brightness}</span></div>`; list.appendChild(item);
+            });
+        }
+    }
+    
+    function toggleInputPanel() {
+        const panel = document.getElementById('inputPanel');
+        panel.classList.toggle('collapsed');
+        // Mobile Logic: Close Info Panel if Input Panel opens manually
+        if (window.innerWidth <= 768 && !panel.classList.contains('collapsed')) {
+            document.getElementById('infoPanel').classList.remove('active');
+        }
+    }
+
+    function toggleInfoPanel() {
+        const panel = document.getElementById('infoPanel');
+        // Mobile: Just toggle active class for bottom sheet slide
+        if (window.innerWidth <= 768) {
+            panel.classList.toggle('active');
+        } else {
+            panel.classList.toggle('collapsed');
+        }
+    }
+
+    // Daily Calendar Logic
+    function getModernYiJi(dateStr, chart) {
+        let hash = 0; for (let i = 0; i < dateStr.length; i++) { hash = ((hash << 5) - hash) + dateStr.charCodeAt(i); hash |= 0; }
+        let userOffset = 0; let starPersonality = "general"; 
+        if (chart) { userOffset = (chart.ziWeiIdx * 137) + (chart.bureau * 19); const mingPalace = chart.chartData.find(p => p.isMing); if (mingPalace) { const stars = mingPalace.stars.map(s => s.name); if (stars.includes('七杀') || stars.includes('破军') || stars.includes('贪狼')) { starPersonality = "aggressive"; } else if (stars.includes('天同') || stars.includes('太阴') || stars.includes('天梁')) { starPersonality = "gentle"; } } }
+        const personalizedSeed = hash + userOffset;
+        const commonYi = ["写代码", "重构", "提交PR", "摸鱼", "喝奶茶", "健身", "约会", "表白", "理财", "吸猫", "早睡", "阅读", "冥想", "大扫除", "听音乐", "看展", "学习新框架", "备份数据", "复盘", "断舍离", "做饭", "散步", "玩游戏", "睡懒觉"];
+        const commonJi = ["熬夜", "乱立Flag", "直接推产", "过度焦虑", "内耗", "吵架", "借钱", "暴饮暴食", "久坐", "盲目跟风", "冲动消费", "忘记保存", "拖延症", "八卦", "无意义会议", "剧透", "迟到", "冷战"];
+        const aggroYi = ["挑战权威", "极限运动", "创业", "大额投资", "通宵冲刺"]; const gentleYi = ["泡脚", "种花", "写日记", "做SPA", "听轻音乐"];
+        let finalYi = [...commonYi]; let finalJi = [...commonJi];
+        if (starPersonality === "aggressive") { finalYi.push(...aggroYi); } else if (starPersonality === "gentle") { finalYi.push(...gentleYi); }
+        const pickItems = (pool, count, seedVal) => { let result = []; let tempPool = [...pool]; for (let i = 0; i < count; i++) { const rnd = Math.abs(Math.sin(seedVal + i * 13)) * 10000; const idx = Math.floor((rnd - Math.floor(rnd)) * tempPool.length); result.push(tempPool[idx]); tempPool.splice(idx, 1); } return result; };
+        return { yi: pickItems(finalYi, 4, personalizedSeed), ji: pickItems(finalJi, 4, personalizedSeed + 42) };
+    }
+    
+    function initDailyCalendar() {
+        const now = new Date(); const lunar = Lunar.fromDate(now); const solar = Solar.fromDate(now);
+        const dateStr = `${solar.getYear()}-${solar.getMonth()}-${solar.getDay()}`;
+        document.getElementById('calSolarDate').innerText = `${solar.getYear()}年${solar.getMonth()}月${solar.getDay()}日`;
+        document.getElementById('calLunarDate').innerText = `${lunar.getMonthInChinese()}月${lunar.getDayInChinese()}`;
+        document.getElementById('calGanzhi').innerText = `${lunar.getYearInGanZhi()}年 · ${lunar.getMonthInGanZhi()}月 · ${lunar.getDayInGanZhi()}日`;
+        const modernData = getModernYiJi(dateStr, currentChart);
+        if (currentChart) { document.querySelector('.yiji-box.yi').style.border = "1px solid rgba(50, 205, 50, 0.6)"; document.querySelector('.yiji-box.ji').style.border = "1px solid rgba(255, 69, 0, 0.6)"; }
+        document.getElementById('calYi').innerText = modernData.yi.join(' · '); document.getElementById('calJi').innerText = modernData.ji.join(' · ');
+    }
+    
+    function toggleDailyPanel() {
+        const panel = document.getElementById('dailyPanel');
+        closeAllFloatingWindows(panel);
+        if (panel.style.display === 'flex') { panel.style.display = 'none'; } else { panel.style.display = 'flex'; initDailyCalendar(); }
+    }
+
+    async function generateDailyReport() {
+        const aiTextDiv = document.getElementById('calAiText');
+        if (!currentChart) { aiTextDiv.innerText = "请先在左侧输入生日并生成命盘，以便大师为您推算今日运势。"; return; }
+        aiTextDiv.innerHTML = '<span class="animate-pulse">大师正在掐指一算...</span>';
+        const now = new Date(); const lunar = Lunar.fromDate(now);
+        const todayInfo = { date: `${now.getFullYear()}-${now.getMonth()+1}-${now.getDate()}`, lunar: `${lunar.getMonthInChinese()}月${lunar.getDayInChinese()}`, ganzhi: `${lunar.getDayInGanZhi()}日`, yi: lunar.getDayYi().join(','), ji: lunar.getDayJi().join(',') };
+        const prompt = `今天是：${todayInfo.date} (农历${todayInfo.lunar}, ${todayInfo.ganzhi})。宜：${todayInfo.yi}。忌：${todayInfo.ji}。用户命盘摘要：${currentChart.getSummary().substring(0, 500)}... 请结合今日的日课（干支五行、宜忌）和用户的命盘结构，给出一小段（100字以内）的今日运势提醒。要求：简单易懂，有参考价值，口语化，像个老朋友的叮嘱。注意：直接输出运势内容即可，严禁在结尾显示“共xx字”或类似的字数统计。`;
+        const result = await callAI(prompt); aiTextDiv.innerText = result;
+    }
+
+    async function analyzeCurrentPalace() {
+        if (!selectedPalaceData) return;
+        const modal = document.getElementById('ai-modal'); const contentDiv = document.getElementById('ai-result-text');
+        modal.style.display = 'flex'; contentDiv.innerHTML = `
+            <div class="flex flex-col items-center justify-center py-10">
+                <div class="spinner">
+                    <div class="spinner1"></div>
+                </div>
+                <p class="mt-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400 animate-pulse font-bold tracking-widest">
+                    🌌 星辰连结中...
+                </p>
+                <p class="text-xs text-gray-500 mt-2">正在解析【${selectedPalaceData.name}】磁场</p>
+            </div>
+        `;
+        const palaceName = selectedPalaceData.name;
+        const starsDesc = selectedPalaceData.stars.map(s => { let desc = `${s.name}（亮度：${s.brightness}）`; if (s.sihua) desc += ` [化${s.sihua}]`; return desc; }).join('，') || "无主星";
+        const prompt = `请你扮演一位精通紫微斗数的命理大师。请根据以下信息，为用户解析【${palaceName}】的运势：宫位：${palaceName} 宫干支：${selectedPalaceData.stem}${selectedPalaceData.branch} 星曜组合：${starsDesc} 要求：1. 语气神秘、专业但富有现代感，带有鼓励性质。2. 解释主星的核心含义及其在该宫位的表现。3. 如果有四化（禄权科忌），请说明其含义。4. 如果有吉星或煞星，请说明其影响。5. 如果无主星，请解释借对宫星曜的含义（仅简述）。6. 输出格式使用简单的 Markdown。`;
+        const result = await callAI(prompt); contentDiv.innerHTML = marked.parse(result);
+    }
+
+    function closeAiModal() { document.getElementById('ai-modal').style.display = 'none'; }
+    function toggleChat() { const win = document.getElementById('chatWindow'); closeAllFloatingWindows(win); win.style.display = win.style.display === 'flex' ? 'none' : 'flex'; }
+    function handleChatKey(e) { if (e.key === 'Enter') askMaster(); }
+    async function askMaster() {
+        if (!currentChart) { alert("请先生成星盘！"); return; }
+        const input = document.getElementById('userQuery'); const query = input.value.trim(); if (!query) return;
+        const chatBox = document.getElementById('chatMessages');
+        const userDiv = document.createElement('div'); userDiv.className = 'msg msg-user'; userDiv.innerText = query; chatBox.appendChild(userDiv); chatBox.scrollTop = chatBox.scrollHeight; input.value = '';
+        const loadingDiv = document.createElement('div'); loadingDiv.className = 'msg msg-ai animate-pulse'; loadingDiv.innerText = '大师正在推演中...'; chatBox.appendChild(loadingDiv);
+        const chartSummary = currentChart.getSummary(); const systemPrompt = `你是一位资深的紫微斗数命理大师。以下是用户的命盘数据：\n${chartSummary}\n请根据此数据回答用户的问题。语气要专业、温和、客观，避免过于宿命论，多给建设性建议。`;
+        const response = await callAI(query, systemPrompt);
+        chatBox.removeChild(loadingDiv);
+        const aiDiv = document.createElement('div'); aiDiv.className = 'msg msg-ai'; aiDiv.innerHTML = marked.parse(response); chatBox.appendChild(aiDiv); chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    function animate() {
+        requestAnimationFrame(animate); controls.update(); renderer.render(scene, camera);
+        chartObj.rotation.z += 0.0003; if (coreMesh) { coreMesh.rotation.z += 0.005; }
+        if (coreUniforms) { coreUniforms.uTime.value = performance.now() / 1000; }
+        const dust = scene.getObjectByName('dust'); if (dust) dust.rotation.z -= 0.0002;
+    }
+
+    try { init3D(); } catch (e) { console.error("3D Init Failed", e); setTimeout(() => { document.getElementById('loading').style.display = 'none'; }, 1000); }
+    
+    // First run logic
+    setTimeout(() => { const loader = document.getElementById('loading'); if (loader && loader.style.display !== 'none') { loader.style.opacity = 0; setTimeout(() => { loader.style.display = 'none'; }, 500); } }, 2000);
+    
+    // Mobile initialization: Show input panel by default, not chat window
+    if (window.innerWidth <= 768) {
+        // Ensure input panel is expanded on mobile
+        document.getElementById('inputPanel').classList.remove('collapsed');
+        // Close chat window if it is open
+        document.getElementById('chatWindow').style.display = 'none';
+    }
+    
+    // Default chart to show something
+    generateChart(false); 
+
+</script>
+</body>
+</html>
+
