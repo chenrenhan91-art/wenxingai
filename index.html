@@ -777,46 +777,67 @@
     const WEBHOOK_URL = "https://hook.us2.make.com/fls5awanvkl1x2eg8sb1hg8mbsb9tbz3";
     const API_KEY = "qq1095188292";
     
-    async function callAI(prompt, systemInstruction = "") {
-        // 構建完整的請求 URL（將問題作為查詢參數）
-        const url = new URL(WEBHOOK_URL);
-        
-        // 將 prompt 和 systemInstruction 組合成完整的問題
-        let fullQuestion = prompt;
+    function buildFullQuestion(prompt, systemInstruction) {
         if (systemInstruction && systemInstruction.trim() !== "") {
-            fullQuestion = `${systemInstruction}\n\n${prompt}`;
+            return `${systemInstruction}\n\n${prompt}`;
         }
-        
+        return prompt;
+    }
+
+    function buildWebhookUrl(fullQuestion) {
+        const url = new URL(WEBHOOK_URL);
         url.searchParams.append('question', fullQuestion);
-        
+        return url.toString();
+    }
+
+    async function fetchWebhook(fullQuestion, usePost) {
+        const options = {
+            method: usePost ? 'POST' : 'GET',
+            headers: {
+                'x-make-apikey': API_KEY
+            },
+            credentials: 'omit',
+            referrerPolicy: 'no-referrer'
+        };
+
+        if (usePost) {
+            options.headers['Content-Type'] = 'application/json';
+            options.body = JSON.stringify({ question: fullQuestion });
+        }
+
+        const url = usePost ? WEBHOOK_URL : buildWebhookUrl(fullQuestion);
+        return fetch(url, options);
+    }
+
+    async function callAI(prompt, systemInstruction = "") {
+        const fullQuestion = buildFullQuestion(prompt, systemInstruction);
         const maxRetries = 3;
         let delay = 1000;
 
         for (let i = 0; i < maxRetries; i++) {
             try {
-                const response = await fetch(url.toString(), {
-                    method: 'GET',
-                    headers: {
-                        'x-make-apikey': API_KEY
-                    }
-                });
+                let response = await fetchWebhook(fullQuestion, true);
+
+                if (!response.ok && [400, 404, 405, 415].includes(response.status)) {
+                    response = await fetchWebhook(fullQuestion, false);
+                }
 
                 if (!response.ok) {
                     const status = response.status;
                     console.error("Webhook API Error:", status);
-                    
+
                     if (status === 401 || status === 403) {
                         return `⚠️ **連接失敗 (${status})**\n\nAPI 驗證失敗，請聯繫開發者。`;
                     }
 
                     throw new Error(`HTTP error! status: ${status}`);
                 }
-                
+
                 // Make.com Webhook Response 直接返回文本
                 const aiResponse = await response.text();
                 return aiResponse || "星象模糊，無法解讀。";
             } catch (error) {
-                console.error("Attempt", i+1, "failed:", error);
+                console.error("Attempt", i + 1, "failed:", error);
                 if (i === maxRetries - 1) return `連接宇宙能量失敗。請檢查網絡連接後再試。`;
                 await new Promise(r => setTimeout(r, delay));
                 delay *= 2;
@@ -1954,4 +1975,3 @@
 </script>
 </body>
 </html>
-
