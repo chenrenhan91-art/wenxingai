@@ -777,6 +777,13 @@
     
     const WEBHOOK_URL = "https://hook.us2.make.com/fls5awanvkl1x2eg8sb1hg8mbsb9tbz3";
     const API_KEY = "qq1095188292";
+
+    const safeMarkdownRenderer = new marked.Renderer();
+    safeMarkdownRenderer.html = () => '';
+
+    function renderMarkdownSafe(text) {
+        return marked.parse(text ?? '', { renderer: safeMarkdownRenderer, mangle: false, headerIds: false });
+    }
     
     async function callAI(prompt, systemInstruction = "") {
         // 構建完整的請求 URL（將問題作為查詢參數）
@@ -1086,7 +1093,8 @@
     function calculateLifeTrendData(birthDateStr, hourIdx, gender) {
         const d = new Date(birthDateStr);
         const hrs = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22];
-        d.setHours(hrs[parseInt(hourIdx)]);
+        const selectedHour = hrs[parseInt(hourIdx)];
+        d.setHours(selectedHour ?? 12);
         const solar = Solar.fromDate(d);
         const lunar = solar.getLunar();
         const eightChar = lunar.getEightChar();
@@ -1413,7 +1421,7 @@
         const systemPrompt = `你是一位精通《增删卜易》与传统纳甲筮法的六爻命理大师。你的任务是根据用户摇出的金钱课卦象（本卦、动爻、变卦）进行专业解读。解读要求：1. 准确分析卦名、五行、世应关系。2. 重点分析动爻（老阴/老阳）的吉凶变化，动爻是事情成败的关键。3. 结合变卦判断事情的最终走向。4. 语气专业、神秘但客观，给出具体的行动建议。5. 输出格式使用简单的 Markdown，关键吉凶结论请加粗。`;
         const userPrompt = `用户起卦结果如下：【本卦】: ${benGuaName} (结构: ${binStr}) 【动爻】: ${movingLinesDesc || "静卦无动爻"} 【变卦/之卦】: ${zhiGuaName} 请开始解卦。`;
         const result = await callAI(userPrompt, systemPrompt);
-        contentDiv.innerHTML = marked.parse(result);
+        contentDiv.innerHTML = renderMarkdownSafe(result);
     }
 
     // --- THREE.JS ---
@@ -1911,7 +1919,7 @@
         const palaceName = selectedPalaceData.name;
         const starsDesc = selectedPalaceData.stars.map(s => { let desc = `${s.name}（亮度：${s.brightness}）`; if (s.sihua) desc += ` [化${s.sihua}]`; return desc; }).join('，') || "无主星";
         const prompt = `请你扮演一位精通紫微斗数的命理大师。请根据以下信息，为用户解析【${palaceName}】的运势：宫位：${palaceName} 宫干支：${selectedPalaceData.stem}${selectedPalaceData.branch} 星曜组合：${starsDesc} 要求：1. 语气神秘、专业但富有现代感，带有鼓励性质。2. 解释主星的核心含义及其在该宫位的表现。3. 如果有四化（禄权科忌），请说明其含义。4. 如果有吉星或煞星，请说明其影响。5. 如果无主星，请解释借对宫星曜的含义（仅简述）。6. 输出格式使用简单的 Markdown。`;
-        const result = await callAI(prompt); contentDiv.innerHTML = marked.parse(result);
+        const result = await callAI(prompt); contentDiv.innerHTML = renderMarkdownSafe(result);
     }
 
     function closeAiModal() { document.getElementById('ai-modal').style.display = 'none'; }
@@ -1926,7 +1934,7 @@
         const chartSummary = currentChart.getSummary(); const systemPrompt = `你是一位资深的紫微斗数命理大师。以下是用户的命盘数据：\n${chartSummary}\n请根据此数据回答用户的问题。语气要专业、温和、客观，避免过于宿命论，多给建设性建议。`;
         const response = await callAI(query, systemPrompt);
         chatBox.removeChild(loadingDiv);
-        const aiDiv = document.createElement('div'); aiDiv.className = 'msg msg-ai'; aiDiv.innerHTML = marked.parse(response); chatBox.appendChild(aiDiv); chatBox.scrollTop = chatBox.scrollHeight;
+        const aiDiv = document.createElement('div'); aiDiv.className = 'msg msg-ai'; aiDiv.innerHTML = renderMarkdownSafe(response); chatBox.appendChild(aiDiv); chatBox.scrollTop = chatBox.scrollHeight;
     }
 
     function animate() {
