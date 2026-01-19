@@ -339,7 +339,7 @@
         /* Modal & Floating Common */
         .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); backdrop-filter: blur(5px); z-index: 60; display: none; justify-content: center; align-items: center; pointer-events: auto; }
         .ai-content { background: linear-gradient(145deg, #10141d, #1a1f2e); width: 90%; max-width: 600px; max-height: 80vh; border-radius: 12px; border: 1px solid #7c3aed; padding: 30px; overflow-y: auto; position: relative; box-shadow: 0 0 50px rgba(124, 58, 237, 0.2); }
-        .close-modal { position: absolute; top: 15px; right: 20px; font-size: 24px; cursor: pointer; color: #94a3b8; transition: color 0.2s; }
+        .close-modal { position: sticky; top: 0px; right: 0px; font-size: 24px; cursor: pointer; color: #94a3b8; transition: color 0.2s; z-index: 61; float: right; padding: 10px 15px; margin: 0; line-height: 1; }
         .close-modal:hover { color: #fff; }
         .markdown-body h3 { color: #a78bfa; margin-top: 1.2em; font-size: 1.1em; font-weight: bold; border-bottom: 1px dashed rgba(167, 139, 250, 0.3); padding-bottom: 5px; }
         .markdown-body p { line-height: 1.7; margin-bottom: 0.8em; color: #e2e8f0; }
@@ -486,6 +486,19 @@
                 overflow: hidden;
             }
             
+            /* Mobile: Records List Height Optimization */
+            #recordsList {
+                max-height: 150px !important;
+                scrollbar-width: thin;
+                scrollbar-color: #334155 transparent;
+            }
+            
+            /* Mobile: Input Panel Content Padding */
+            .input-content {
+                max-height: calc(70dvh - 64px) !important;
+                padding-bottom: 10px;
+            }
+            
             /* Info Panel - Bottom Sheet Style */
             .info-panel {
                 width: 100%; max-width: 100%;
@@ -537,6 +550,17 @@
                 background: linear-gradient(to top, rgba(5,5,16,0.9), transparent); /* Gradual background */
             }
             .fab { width: 50px; height: 50px; font-size: 22px; margin: 0 5px; border-width: 1px; }
+            
+            /* Fixed Close Button on Mobile */
+            .close-modal {
+                top: 0px !important;
+                right: 0px !important;
+                font-size: 20px !important;
+                z-index: 61 !important;
+                position: sticky !important;
+                float: right !important;
+                padding: 8px 12px !important;
+            }
             
             /* Typography Tweaks */
             h1 { font-size: 1.1rem; }
@@ -625,6 +649,24 @@
             
             <div id="bureau-info" class="mt-6 text-xs text-blue-200 border-t border-blue-900 pt-3 hidden flex justify-between font-mono">
                 <!-- Bureau info -->
+            </div>
+
+            <!-- Save Record Section -->
+            <div style="margin-top: 20px; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.1);">
+                <label style="font-size: 0.7rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 1px;">📋 星盘备注</label>
+                <input type="text" id="recordName" placeholder="输入星盘备注（名字/关系/昵称）" style="width: 100%; margin-top: 8px; background: rgba(0,0,0,0.4); border: 1px solid #334455; color: #e0f0ff; padding: 10px; border-radius: 6px; font-size: 14px;">
+                <button onclick="saveCurrentRecord()" style="width: 100%; margin-top: 10px; background: linear-gradient(135deg, #1e40af, #1e3a8a); border: 1px solid #3b82f6; color: #fff; padding: 10px; border-radius: 6px; cursor: pointer; font-size: 0.85rem; font-weight: bold;">💾 保存此星盘</button>
+            </div>
+
+            <!-- My Records Section -->
+            <div style="margin-top: 18px; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.1);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                    <label style="font-size: 0.7rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 1px; margin: 0;">📚 星盘记录</label>
+                    <span id="recordCount" style="font-size: 0.7rem; color: #64748b;">(0)</span>
+                </div>
+                <div id="recordsList" style="max-height: 200px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: #334155 transparent; word-break: break-word; overflow-x: hidden;">
+                    <div style="color: #64748b; font-size: 0.8rem; text-align: center; padding: 20px 0;">暂无保存的命例</div>
+                </div>
             </div>
         </div>
     </div>
@@ -1954,6 +1996,179 @@
     
     // Default chart to show something
     generateChart(false); 
+
+    // ===== MING LI RECORDS LOGIC =====
+    const RECORDS_STORAGE_KEY = 'zwds_mingLi_records';
+
+    function loadRecordsFromStorage() {
+        try {
+            const data = localStorage.getItem(RECORDS_STORAGE_KEY);
+            return data ? JSON.parse(data) : [];
+        } catch (e) {
+            console.error("Failed to load records:", e);
+            return [];
+        }
+    }
+
+    function saveRecordsToStorage(records) {
+        try {
+            localStorage.setItem(RECORDS_STORAGE_KEY, JSON.stringify(records));
+            return true;
+        } catch (e) {
+            console.error("Failed to save records:", e);
+            return false;
+        }
+    }
+
+    function saveCurrentRecord() {
+        const recordName = document.getElementById('recordName').value.trim();
+        if (!recordName) {
+            alert("请输入命例名称");
+            return;
+        }
+        
+        const dateStr = document.getElementById('birthDate').value;
+        const hourIdx = document.getElementById('birthHour').value;
+        const gender = document.getElementById('gender').value;
+        const hourText = document.getElementById('birthHour').options[document.getElementById('birthHour').selectedIndex].text;
+        
+        if (!dateStr) {
+            alert("请先选择出生日期");
+            return;
+        }
+
+        const record = {
+            id: Date.now(), // Unique ID using timestamp
+            name: recordName,
+            date: dateStr,
+            hourIdx: hourIdx,
+            hourText: hourText,
+            gender: gender === '1' ? '男' : '女',
+            savedTime: new Date().toLocaleString('zh-CN'),
+            summary: currentChart ? currentChart.getSummary().substring(0, 300) : ''
+        };
+
+        const records = loadRecordsFromStorage();
+        records.push(record);
+        
+        if (saveRecordsToStorage(records)) {
+            alert(`✨ 命例 "${recordName}" 已保存成功！`);
+            document.getElementById('recordName').value = '';
+            refreshRecordsList();
+        } else {
+            alert("保存失败，请检查浏览器存储空间");
+        }
+    }
+
+    function refreshRecordsList() {
+        const records = loadRecordsFromStorage();
+        const recordsList = document.getElementById('recordsList');
+        const recordCount = document.getElementById('recordCount');
+        const isMobile = window.innerWidth < 768;
+        
+        recordCount.innerText = `(${records.length})`;
+
+        if (records.length === 0) {
+            recordsList.innerHTML = '<div style="color: #64748b; font-size: 0.8rem; text-align: center; padding: 20px 0;">暂无保存的命例</div>';
+            return;
+        }
+
+        recordsList.innerHTML = records.map(record => `
+            <div data-record-id="${record.id}" style="background: rgba(30, 41, 59, 0.5); border: 1px solid rgba(148, 163, 184, 0.2); border-radius: 8px; padding: 12px; margin-bottom: 10px; font-size: 0.75rem; overflow: hidden;">
+                <div style="display: ${isMobile ? 'block' : 'flex'}; justify-content: space-between; align-items: flex-start; ${isMobile ? '' : 'margin-bottom: 8px;'}">
+                    <div style="flex: 1; margin-bottom: ${isMobile ? '10px' : '0px'}; min-width: 0;">
+                        <div style="color: #38bdf8; font-weight: bold; margin-bottom: 4px; word-break: break-word;">📌 ${record.name}</div>
+                        <div style="color: #94a3b8; font-size: 0.7rem; word-break: break-word;">📅 ${record.date} ${record.hourText} (${record.gender})</div>
+                        <div style="color: #64748b; font-size: 0.65rem;">💾 ${record.savedTime}</div>
+                    </div>
+                    <div style="display: flex; gap: 6px; flex-shrink: 0; ${isMobile ? 'margin-top: 8px;' : ''}">
+                        <button class="btn-load-record" data-record-id="${record.id}" style="background: #0f766e; border: 1px solid #14b8a6; color: #fff; padding: 6px 10px; border-radius: 4px; cursor: pointer; font-size: 0.65rem; font-weight: bold; white-space: nowrap;">📂 加载</button>
+                        <button class="btn-delete-record" data-record-id="${record.id}" style="background: #7c2d12; border: 1px solid #ea580c; color: #fff; padding: 6px 10px; border-radius: 4px; cursor: pointer; font-size: 0.65rem; font-weight: bold; white-space: nowrap;">🗑️ 删除</button>
+                    </div>
+                </div>
+                <div style="color: #cbd5e1; font-size: 0.7rem; max-height: 60px; overflow: hidden; text-overflow: ellipsis; border-top: 1px solid rgba(148, 163, 184, 0.1); padding-top: 8px; margin-top: 8px; line-height: 1.4; word-break: break-word;">
+                    ${record.summary.substring(0, 150)}${record.summary.length > 150 ? '...' : ''}
+                </div>
+            </div>
+        `).join('');
+
+        // 移除旧的事件监听器，避免多重绑定
+        const newRecordsList = recordsList.cloneNode(true);
+        recordsList.parentNode.replaceChild(newRecordsList, recordsList);
+        
+        // 给新元素添加单一的事件监听器
+        document.getElementById('recordsList').addEventListener('click', handleRecordButtonClick);
+    }
+
+    function handleRecordButtonClick(e) {
+        const button = e.target.closest('button');
+        if (!button) return;
+
+        const recordId = parseInt(button.dataset.recordId, 10);
+
+        if (button.classList.contains('btn-load-record')) {
+            loadRecord(recordId);
+        } else if (button.classList.contains('btn-delete-record')) {
+            deleteRecord(recordId);
+        }
+    }
+
+    function loadRecord(recordId) {
+        const records = loadRecordsFromStorage();
+        const record = records.find(r => r.id === recordId);
+        
+        if (!record) {
+            alert("记录不存在");
+            return;
+        }
+
+        // Set input values
+        document.getElementById('birthDate').value = record.date;
+        document.getElementById('birthHour').value = record.hourIdx;
+        document.getElementById('gender').value = record.gender === '男' ? '1' : '0';
+        document.getElementById('recordName').value = record.name;
+
+        // Generate chart
+        generateChart();
+        
+        alert(`✨ 已加载命例"${record.name}"`);
+    }
+
+    function deleteRecord(recordId) {
+        console.log('deleteRecord called with recordId:', recordId, 'type:', typeof recordId);
+        
+        if (!confirm("确定要删除这条命例记录吗？此操作无法撤销。")) {
+            return;
+        }
+
+        let records = loadRecordsFromStorage();
+        console.log('Loaded records:', records);
+        console.log('Looking for recordId:', recordId);
+        
+        const recordIndex = records.findIndex(r => {
+            console.log('Comparing:', r.id, 'with', recordId, 'Match:', r.id === recordId);
+            return r.id === recordId;
+        });
+        
+        console.log('Found recordIndex:', recordIndex);
+        
+        if (recordIndex !== -1) {
+            const removedRecord = records[recordIndex];
+            records.splice(recordIndex, 1);
+            
+            if (saveRecordsToStorage(records)) {
+                alert(`✓ 已删除命例"${removedRecord.name}"`);
+                refreshRecordsList();
+            } else {
+                alert("删除失败，请重试");
+            }
+        } else {
+            alert("找不到该记录");
+        }
+    }
+
+    // Initialize records list on page load
+    refreshRecordsList(); 
 
 </script>
 </body>
