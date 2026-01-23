@@ -848,9 +848,6 @@
         <div id="synastryResult" class="syn-result-card" style="color:#94a3b8; font-size:0.9rem;">
             输入双方生辰并点击上方按钮，即可查看三维度契合度（百分制）。
         </div>
-        <div id="synastryAiResult" class="syn-result-card" style="color:#cbd5e1; font-size:0.9rem;">
-            点击“问星AI分析合盘”，将结合三维度分数生成沟通与合作建议。
-        </div>
     </div>
 </div>
 
@@ -1463,10 +1460,16 @@
     function clampScore(val, min = 0, max = 100) {
         return Math.min(Math.max(val, min), max);
     }
-    
+
+    function getPalaceIndex(chart, palaceKey) {
+        if (typeof palaceKey === 'number') return palaceKey;
+        if (!chart || !chart.chartData) return -1;
+        return chart.chartData.findIndex(p => p && p.name === palaceKey);
+    }
+
     function getPalaceStrength(chart, palaceKey) {
-        const idx = typeof palaceKey === 'number' ? palaceKey : PALACE_NAMES.indexOf(palaceKey);
-        if (!chart || !chart.chartData[idx]) return 0;
+        const idx = getPalaceIndex(chart, palaceKey);
+        if (idx < 0 || !chart || !chart.chartData[idx]) return 0;
         const palace = chart.chartData[idx];
         const brightWeight = { '庙': 12, '旺': 10, '得': 9, '利': 9, '平': 7, '陷': 5, '闲': 5 };
         let score = 12;
@@ -1537,38 +1540,41 @@
     
     function calcSynastryScores(chartA, chartB, relationType) {
         const relPalaceName = RELATION_PALACE_MAP[relationType] || '仆役';
-        const relIdx = PALACE_NAMES.indexOf(relPalaceName);
+        const relIdxA = getPalaceIndex(chartA, relPalaceName);
+        const relIdxB = getPalaceIndex(chartB, relPalaceName);
+        const mingIdxA = chartA.chartData.findIndex(p => p.isMing);
+        const mingIdxB = chartB.chartData.findIndex(p => p.isMing);
         const shenIdxA = chartA.chartData.findIndex(p => p.isShen);
         const shenIdxB = chartB.chartData.findIndex(p => p.isShen);
         // 命格共振度
-        const coreMainA = getMainStars(chartA, [0, shenIdxA]);
-        const coreMainB = getMainStars(chartB, [0, shenIdxB]);
+        const coreMainA = getMainStars(chartA, [mingIdxA, shenIdxA]);
+        const coreMainB = getMainStars(chartB, [mingIdxB, shenIdxB]);
         const coreSynergy = getSynergyScore(coreMainA, coreMainB);
         const brightDiff = Math.abs(getAvgBrightness(coreMainA) - getAvgBrightness(coreMainB));
         const huaBonus = getFourHuaScore(coreMainA) + getFourHuaScore(coreMainB);
-        const coreStrengthGap = Math.abs(getPalaceStrength(chartA, 0) + getPalaceStrength(chartA, shenIdxA) - (getPalaceStrength(chartB, 0) + getPalaceStrength(chartB, shenIdxB)));
+        const coreStrengthGap = Math.abs(getPalaceStrength(chartA, mingIdxA) + getPalaceStrength(chartA, shenIdxA) - (getPalaceStrength(chartB, mingIdxB) + getPalaceStrength(chartB, shenIdxB)));
         const coreBase = 55 + coreSynergy * 1.25 + huaBonus * 1.1 - brightDiff * 4 - coreStrengthGap * 0.18;
         const coreScore = clampScore(coreBase, 10, 100);
         
         // 关系契合度
-        const relationMainA = getMainStars(chartA, [relIdx]);
-        const relationMainB = getMainStars(chartB, [relIdx]);
+        const relationMainA = getMainStars(chartA, [relIdxA]);
+        const relationMainB = getMainStars(chartB, [relIdxB]);
         const relSynergy = getSynergyScore(relationMainA, relationMainB);
-        const relationStrength = (getPalaceStrength(chartA, relIdx) + getPalaceStrength(chartB, relIdx)) / 2;
-        const crossSupport = (getPalaceStrength(chartA, 0) + getPalaceStrength(chartB, 0)) / 4;
-        const relStrengthGap = Math.abs(getPalaceStrength(chartA, relIdx) - getPalaceStrength(chartB, relIdx));
+        const relationStrength = (getPalaceStrength(chartA, relIdxA) + getPalaceStrength(chartB, relIdxB)) / 2;
+        const crossSupport = (getPalaceStrength(chartA, mingIdxA) + getPalaceStrength(chartB, mingIdxB)) / 4;
+        const relStrengthGap = Math.abs(getPalaceStrength(chartA, relIdxA) - getPalaceStrength(chartB, relIdxB));
         const relationScore = clampScore(50 + relSynergy * 1.2 + relationStrength / 3 + crossSupport / 5 - relStrengthGap * 0.3, 10, 100);
         
         // 相处顺畅度
-        const balanceA = getSupportRisk(chartA, [0, shenIdxA, relIdx]);
-        const balanceB = getSupportRisk(chartB, [0, shenIdxB, relIdx]);
+        const balanceA = getSupportRisk(chartA, [mingIdxA, shenIdxA, relIdxA]);
+        const balanceB = getSupportRisk(chartB, [mingIdxB, shenIdxB, relIdxB]);
         const netGood = (balanceA.good + balanceB.good) - (balanceA.bad + balanceB.bad);
-        const strengthGap = Math.abs(getPalaceStrength(chartA, relIdx) - getPalaceStrength(chartB, relIdx));
-        const mingGap = Math.abs(getPalaceStrength(chartA, 0) - getPalaceStrength(chartB, 0));
+        const strengthGap = Math.abs(getPalaceStrength(chartA, relIdxA) - getPalaceStrength(chartB, relIdxB));
+        const mingGap = Math.abs(getPalaceStrength(chartA, mingIdxA) - getPalaceStrength(chartB, mingIdxB));
         const tensionPairs = getSynergyScore(relationMainA, relationMainB) < 0 ? 1 : 0;
         const supportScore = clampScore(58 + netGood * 6 - strengthGap * 0.6 - mingGap * 0.35 - tensionPairs * 10, 5, 100);
         
-        return { coreScore, relationScore, supportScore, relPalaceName };
+        return { coreScore, relationScore, supportScore, relPalaceName, relIdxA, relIdxB, mingIdxA, mingIdxB, shenIdxA, shenIdxB };
     }
     
     function renderSynastryResult(scores) {
@@ -1676,12 +1682,14 @@
             renderSynastryResult(scores);
 
             const relPalaceName = RELATION_PALACE_MAP[relationType] || '仆役';
-            const relIdxRaw = PALACE_NAMES.indexOf(relPalaceName);
-            const relIdx = relIdxRaw === -1 ? 0 : relIdxRaw;
+            const relIdxA = getPalaceIndex(chartA, relPalaceName);
+            const relIdxB = getPalaceIndex(chartB, relPalaceName);
+            const mingIdxA = chartA.chartData.findIndex(p => p.isMing);
+            const mingIdxB = chartB.chartData.findIndex(p => p.isMing);
             const shenIdxA = chartA.chartData.findIndex(p => p.isShen);
             const shenIdxB = chartB.chartData.findIndex(p => p.isShen);
-            const safeShenA = shenIdxA === -1 ? 0 : shenIdxA;
-            const safeShenB = shenIdxB === -1 ? 0 : shenIdxB;
+            const safeShenA = shenIdxA === -1 ? mingIdxA : shenIdxA;
+            const safeShenB = shenIdxB === -1 ? mingIdxB : shenIdxB;
             const relationLabelMap = {
                 lover: '恋人 / 配偶（夫妻宫）',
                 friend: '朋友 / 社交（仆役宫）',
@@ -1700,14 +1708,14 @@
                 }).join('、');
             };
 
-            const coreStarsA = formatStars(getMainStars(chartA, [0, safeShenA]));
-            const coreStarsB = formatStars(getMainStars(chartB, [0, safeShenB]));
-            const relationStarsA = formatStars(getMainStars(chartA, [relIdx]));
-            const relationStarsB = formatStars(getMainStars(chartB, [relIdx]));
-            const mingStrengthA = getPalaceStrength(chartA, 0).toFixed(1);
-            const mingStrengthB = getPalaceStrength(chartB, 0).toFixed(1);
-            const relStrengthA = getPalaceStrength(chartA, relIdx).toFixed(1);
-            const relStrengthB = getPalaceStrength(chartB, relIdx).toFixed(1);
+            const coreStarsA = formatStars(getMainStars(chartA, [mingIdxA, safeShenA]));
+            const coreStarsB = formatStars(getMainStars(chartB, [mingIdxB, safeShenB]));
+            const relationStarsA = formatStars(getMainStars(chartA, [relIdxA]));
+            const relationStarsB = formatStars(getMainStars(chartB, [relIdxB]));
+            const mingStrengthA = getPalaceStrength(chartA, mingIdxA).toFixed(1);
+            const mingStrengthB = getPalaceStrength(chartB, mingIdxB).toFixed(1);
+            const relStrengthA = getPalaceStrength(chartA, relIdxA).toFixed(1);
+            const relStrengthB = getPalaceStrength(chartB, relIdxB).toFixed(1);
 
             const prompt = `双方合盘信息：\n- 关系定位：${relationLabel}，对应宫位：${relPalaceName}\n- 三维度分数：命格共振度 ${scores.coreScore.toFixed(1)}，关系契合度 ${scores.relationScore.toFixed(1)}，相处顺畅度 ${scores.supportScore.toFixed(1)}\n- 命/身主星：A ${coreStarsA}；B ${coreStarsB}\n- 关系宫主星：A ${relationStarsA}；B ${relationStarsB}\n- 力量对比：命宫 A ${mingStrengthA} vs B ${mingStrengthB}；关系宫 A ${relStrengthA} vs B ${relStrengthB}\n请用紫微斗数合盘视角输出：\n1) 一句话主题判词；\n2) 协同亮点；\n3) 潜在冲突与化解策略；\n4) 3 条可执行的相处/合作建议；\n任一分数低于 60 需提示风险与补救。保持精简、务实，用 Markdown 列表回答。`;
 
