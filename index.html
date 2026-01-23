@@ -467,7 +467,41 @@
         .calendar-fab { background: linear-gradient(135deg, #ffd700, #ff8c00); box-shadow: 0 5px 25px rgba(255, 140, 0, 0.4); }
         .kline-fab { background: linear-gradient(135deg, #ef4444, #b91c1c); box-shadow: 0 5px 25px rgba(220, 38, 38, 0.4); }
         .liuyao-fab { background: linear-gradient(135deg, #14b8a6, #0d9488); box-shadow: 0 5px 25px rgba(20, 184, 166, 0.4); }
+        .synastry-fab { background: linear-gradient(135deg, #38bdf8, #7c3aed); box-shadow: 0 5px 25px rgba(56, 189, 248, 0.35); font-size: 24px; }
         .handle-bar { width: 40px; height: 5px; background: rgba(255,255,255,0.2); border-radius: 5px; margin: 10px auto 5px auto; display: none; }
+
+        /* 合盘面板样式 */
+        .synastry-panel { bottom: 110px; right: 30px; width: 720px; max-width: calc(100vw - 40px); max-height: calc(100vh - 140px); border: 1px solid rgba(59, 130, 246, 0.35); overflow: hidden; }
+        .synastry-header { padding: 15px; background: linear-gradient(90deg, #0b1220, #0f172a); border-bottom: 1px solid rgba(59, 130, 246, 0.4); border-radius: 16px 16px 0 0; display: flex; justify-content: space-between; align-items: center; }
+        .synastry-title { font-size: 1.05rem; font-weight: bold; color: #38bdf8; display: flex; align-items: center; gap: 8px; }
+        .synastry-body { padding: 16px; display: flex; flex-direction: column; gap: 12px; overflow-y: auto; }
+        .synastry-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+        .syn-card { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(148, 163, 184, 0.25); border-radius: 12px; padding: 12px; box-shadow: inset 0 1px 0 rgba(255,255,255,0.04); }
+        .syn-card h4 { margin: 0 0 6px 0; font-size: 0.95rem; color: #e2e8f0; display: flex; align-items: center; gap: 6px; }
+        .syn-card p { margin: 0; font-size: 0.78rem; color: #94a3b8; line-height: 1.5; }
+        .syn-input { width: 100%; background: rgba(0,0,0,0.35); border: 1px solid #334155; color: #e0f0ff; padding: 10px; border-radius: 8px; font-size: 0.95rem; margin-top: 6px; transition: border-color 0.2s ease, background 0.2s ease; }
+        .syn-input:focus { border-color: #38bdf8; outline: none; background: rgba(15, 23, 42, 0.75); box-shadow: 0 0 12px rgba(56, 189, 248, 0.2); }
+        .syn-action { width: 100%; background: linear-gradient(135deg, #38bdf8, #7c3aed); border: none; color: #fff; padding: 12px; border-radius: 10px; font-weight: 700; cursor: pointer; letter-spacing: 1px; display: inline-flex; justify-content: center; align-items: center; gap: 8px; box-shadow: 0 10px 30px rgba(124, 58, 237, 0.3); transition: transform 0.15s ease, box-shadow 0.2s ease; }
+        .syn-action:hover { transform: translateY(-1px); box-shadow: 0 12px 32px rgba(56, 189, 248, 0.35); }
+        .syn-action:active { transform: translateY(0); }
+        .syn-actions { display: flex; flex-direction: column; gap: 10px; }
+        .syn-ai-btn { position: relative; width: 100%; height: 64px; padding: 12px 14px; border-radius: 12px; background: #262626; color: #f8fafc; border: 1px solid #374151; font-weight: 800; text-align: left; letter-spacing: 0.5px; cursor: pointer; overflow: hidden; text-decoration: underline; text-underline-offset: 4px; transition: all 0.5s ease; }
+        .syn-ai-btn::before { content: ''; position: absolute; width: 52px; height: 52px; right: 14px; top: 10px; background: #7c3aed; border-radius: 999px; filter: blur(10px); opacity: 0.85; transition: all 0.5s ease; }
+        .syn-ai-btn::after { content: ''; position: absolute; width: 84px; height: 84px; right: 40px; top: 4px; background: #f472b6; border-radius: 999px; filter: blur(16px); opacity: 0.7; transition: all 0.5s ease; }
+        .syn-ai-btn span { position: relative; z-index: 1; }
+        .syn-ai-btn:hover { color: #fb7185; border-color: #fb7185; box-shadow: 0 18px 40px rgba(251, 113, 133, 0.28); }
+        .syn-ai-btn:hover::before { right: 22px; top: 2px; filter: blur(14px); }
+        .syn-ai-btn:hover::after { right: 10px; top: -6px; filter: blur(20px); opacity: 0.9; }
+        .syn-ai-btn:disabled { opacity: 0.7; cursor: not-allowed; }
+        .syn-result-card { background: rgba(255,255,255,0.03); border: 1px solid rgba(59, 130, 246, 0.2); border-radius: 12px; padding: 12px; display: flex; flex-direction: column; gap: 8px; }
+        .score-row { display: flex; align-items: center; justify-content: space-between; color: #e2e8f0; font-weight: 700; font-size: 0.95rem; }
+        .score-bar { width: 100%; height: 10px; border-radius: 999px; background: rgba(51, 65, 85, 0.7); overflow: hidden; }
+        .score-bar span { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #38bdf8, #7c3aed); box-shadow: 0 0 12px rgba(56, 189, 248, 0.35); }
+        .score-desc { color: #94a3b8; font-size: 0.82rem; line-height: 1.5; }
+
+        @media (max-width: 768px) {
+            .synastry-panel { width: calc(100vw - 20px); right: 10px; left: 10px; bottom: 90px; max-height: 70dvh; }
+        }
 
         /* --- MOBILE RESPONSIVE TWEAKS --- */
         @media (max-width: 768px) {
@@ -702,6 +736,7 @@
 
 <!-- Floating Action Buttons -->
 <div class="fab-container">
+    <div class="fab synastry-fab" onclick="toggleSynastryPanel()" title="两人合盘">🤝</div>
     <div class="fab liuyao-fab" onclick="toggleLiuYaoPanel()" title="六爻起卦">🐢</div>
     <div class="fab calendar-fab" onclick="toggleDailyPanel()" title="今日星历">📅</div>
     <div class="fab kline-fab" onclick="toggleLifePanel()" title="人生大运K线">📈</div>
@@ -750,6 +785,72 @@
     </div>
     <div class="life-analysis" id="lifeAnalysisText">
         <div class="animate-pulse text-gray-500">请先生成星盘，系统将依据《渊海子平》与《子平真诠》的月令提纲法，结合大运流年为您推演一生起伏...</div>
+    </div>
+</div>
+
+<!-- Synastry Panel -->
+<div class="floating-window synastry-panel" id="synastryPanel">
+    <div class="handle-bar"></div>
+    <div class="synastry-header">
+        <div class="synastry-title">🤝 两人合盘契合度</div>
+        <span class="cursor-pointer text-gray-400 hover:text-white" onclick="toggleSynastryPanel()">✕</span>
+    </div>
+    <div class="synastry-body">
+        <div class="synastry-grid">
+            <div class="syn-card">
+                <h4>A方 · 当前命盘</h4>
+                <p>默认沿用左侧“星盘设置”的出生信息，点击“开启星盘”后自动更新。</p>
+                <p class="mt-2 text-cyan-300">命宫与身宫会用于共振度计算。</p>
+            </div>
+            <div class="syn-card">
+                <h4>🤝 B方 · 生辰</h4>
+                <label class="text-xs text-slate-400">出生日期 (阳历)</label>
+                <input type="date" id="birthDateB" class="syn-input" value="1992-08-08">
+                <label class="text-xs text-slate-400 mt-2 block">出生时辰</label>
+                <select id="birthHourB" class="syn-input">
+                    <option value="0">子时 (23:00-01:00)</option>
+                    <option value="1">丑时 (01:00-03:00)</option>
+                    <option value="2">寅时 (03:00-05:00)</option>
+                    <option value="3">卯时 (05:00-07:00)</option>
+                    <option value="4">辰时 (07:00-09:00)</option>
+                    <option value="5">巳时 (09:00-11:00)</option>
+                    <option value="6" selected>午时 (11:00-13:00)</option>
+                    <option value="7">未时 (13:00-15:00)</option>
+                    <option value="8">申时 (15:00-17:00)</option>
+                    <option value="9">酉时 (17:00-19:00)</option>
+                    <option value="10">戌时 (19:00-21:00)</option>
+                    <option value="11">亥时 (21:00-23:00)</option>
+                </select>
+                <label class="text-xs text-slate-400 mt-2 block">性别</label>
+                <select id="genderB" class="syn-input">
+                    <option value="1">男 (乾造)</option>
+                    <option value="0">女 (坤造)</option>
+                </select>
+            </div>
+            <div class="syn-card">
+                <h4>🔗 关系设定</h4>
+                <label class="text-xs text-slate-400">关系类型</label>
+                <select id="relationType" class="syn-input">
+                    <option value="lover">恋人 / 配偶（夫妻宫）</option>
+                    <option value="friend" selected>朋友 / 社交（仆役宫）</option>
+                    <option value="family">亲人 / 长辈（父母宫）</option>
+                    <option value="partner">事业搭档（官禄宫）</option>
+                </select>
+                <p class="mt-3">系统会把关系类型映射到对应宫位，结合双方命宫、身宫进行匹配评分。</p>
+            </div>
+        </div>
+
+        <div class="syn-actions">
+            <button class="syn-action" onclick="computeSynastry()">⚡ 计算合盘契合度</button>
+            <button class="syn-ai-btn" id="synAiBtn" onclick="analyzeSynastryAI()"><span>问星AI分析合盘</span></button>
+        </div>
+
+        <div id="synastryResult" class="syn-result-card" style="color:#94a3b8; font-size:0.9rem;">
+            输入双方生辰并点击上方按钮，即可查看三维度契合度（百分制）。
+        </div>
+        <div id="synastryAiResult" class="syn-result-card" style="color:#cbd5e1; font-size:0.9rem;">
+            点击“问星AI分析合盘”，将结合三维度分数生成沟通与合作建议。
+        </div>
     </div>
 </div>
 
@@ -1318,7 +1419,7 @@
     
     // Helper to close other windows
     function closeAllFloatingWindows(except = null) {
-        const windows = ['dailyPanel', 'lifePanel', 'liuYaoPanel', 'chatWindow', 'settings-modal'];
+        const windows = ['dailyPanel', 'lifePanel', 'liuYaoPanel', 'chatWindow', 'settings-modal', 'synastryPanel'];
         windows.forEach(id => {
             const el = document.getElementById(id);
             if (el && el !== except && el.id !== 'ai-modal') el.style.display = 'none';
@@ -1343,7 +1444,287 @@
         const analysisDiv = document.getElementById('lifeAnalysisText');
         analysisDiv.innerHTML = `<div class="mb-2"><strong class="text-white">当前大运:</strong> <span class="text-yellow-400 text-lg">${daYunStr}</span> (约${currentAge}岁)</div><div class="mb-2"><strong class="text-white">月令提纲:</strong> ${monthZhi}月 (格局核心)</div><div><strong class="text-blue-400">大师批注:</strong> 此造日元为<span class="text-white">${dayGan}</span>，生于${monthZhi}月。依据《子平真诠》，月令为提纲之府，决定人生格局上限。当前行运至<span class="text-yellow-400">${daYunStr}</span>，需注意大运地支与月令的刑冲合害关系。若K线震荡剧烈（红绿交替频繁），代表流年引动了局中隐患，名为“运冲提纲”或“岁运并临”，建议该阶段守成主静，顺应天时。</div>`;
     }
+    
+    // --- SYNASTRY LOGIC ---
+    const RELATION_PALACE_MAP = { lover: '夫妻', friend: '仆役', family: '父母', partner: '官禄' };
+    const BRIGHT_WEIGHT = { '庙': 5, '旺': 4.5, '得': 4, '利': 4, '平': 3, '闲': 2.5, '陷': 1.5 };
+    const FOUR_HUA_WEIGHT = { '禄': 4, '权': 3, '科': 3, '忌': -6 };
+    const STAR_SYNERGY = {
+        '紫微|天府': 10, '紫微|左辅': 8, '紫微|右弼': 8, '紫微|七杀': -12, '紫微|破军': -12,
+        '太阳|太阴': 8, '太阳|巨门': -10,
+        '武曲|贪狼': 6, '武曲|太阴': 6, '武曲|天同': -8,
+        '天机|文昌': 6, '天机|文曲': 6,
+        '天同|太阴': 8, '天同|天梁': 6,
+        '天相|紫微': 5, '天相|天府': 5,
+        '贪狼|破军': 4, '七杀|太阴': -9, '破军|太阴': -9,
+        '廉贞|武曲': 3, '廉贞|破军': -6
+    };
+    
+    function clampScore(val, min = 0, max = 100) {
+        return Math.min(Math.max(val, min), max);
+    }
+    
+    function getPalaceStrength(chart, palaceKey) {
+        const idx = typeof palaceKey === 'number' ? palaceKey : PALACE_NAMES.indexOf(palaceKey);
+        if (!chart || !chart.chartData[idx]) return 0;
+        const palace = chart.chartData[idx];
+        const brightWeight = { '庙': 12, '旺': 10, '得': 9, '利': 9, '平': 7, '陷': 5, '闲': 5 };
+        let score = 12;
+        if (palace.isMing) score += 8;
+        if (palace.isShen) score += 6;
+        palace.stars.forEach(star => {
+            const b = brightWeight[star.brightness] || 7;
+            let mult = 1;
+            if (star.category === 'main') mult = 1.2; else if (star.category === 'lucky') mult = 0.8; else if (star.category === 'bad') mult = -0.7;
+            let val = b * mult;
+            if (star.sihua === '禄' || star.sihua === '权' || star.sihua === '科') val += 3;
+            if (star.sihua === '忌') val -= 4;
+            score += val;
+        });
+        return Math.max(score, 5);
+    }
+    
+    function getMainStars(chart, indices) {
+        const list = [];
+        indices.forEach(idx => {
+            const p = chart.chartData[idx];
+            if (!p) return;
+            p.stars.forEach(s => { if (s.category === 'main') list.push(s); });
+        });
+        return list;
+    }
+    
+    function getSynergyScore(starsA, starsB) {
+        let total = 0;
+        starsA.forEach(a => {
+            starsB.forEach(b => {
+                const key = [a.name, b.name].sort().join('|');
+                total += (STAR_SYNERGY[key] || 0);
+            });
+        });
+        return total;
+    }
+    
+    function getAvgBrightness(stars) {
+        if (stars.length === 0) return 3;
+        let sum = 0;
+        stars.forEach(s => { sum += BRIGHT_WEIGHT[s.brightness] || 3; });
+        return sum / stars.length;
+    }
+    
+    function getFourHuaScore(stars) {
+        let val = 0;
+        stars.forEach(s => { if (s.sihua) val += (FOUR_HUA_WEIGHT[s.sihua] || 0); });
+        return val;
+    }
+    
+    function getSupportRisk(chart, palaceIndices) {
+        let good = 0, bad = 0;
+        palaceIndices.forEach(idx => {
+            const p = chart.chartData[idx];
+            if (!p) return;
+            p.stars.forEach(star => {
+                if (star.category === 'lucky') good += 1.5;
+                if (star.category === 'bad') bad += 1.5;
+                if (['庙', '旺', '得', '利'].includes(star.brightness)) good += 1;
+                if (star.brightness === '陷') bad += 1;
+                if (['禄', '权', '科'].includes(star.sihua)) good += 1.2;
+                if (star.sihua === '忌') bad += 1.2;
+            });
+        });
+        return { good, bad };
+    }
+    
+    function calcSynastryScores(chartA, chartB, relationType) {
+        const relPalaceName = RELATION_PALACE_MAP[relationType] || '仆役';
+        const relIdx = PALACE_NAMES.indexOf(relPalaceName);
+        const shenIdxA = chartA.chartData.findIndex(p => p.isShen);
+        const shenIdxB = chartB.chartData.findIndex(p => p.isShen);
+        // 命格共振度
+        const coreMainA = getMainStars(chartA, [0, shenIdxA]);
+        const coreMainB = getMainStars(chartB, [0, shenIdxB]);
+        const coreSynergy = getSynergyScore(coreMainA, coreMainB);
+        const brightDiff = Math.abs(getAvgBrightness(coreMainA) - getAvgBrightness(coreMainB));
+        const huaBonus = getFourHuaScore(coreMainA) + getFourHuaScore(coreMainB);
+        const coreStrengthGap = Math.abs(getPalaceStrength(chartA, 0) + getPalaceStrength(chartA, shenIdxA) - (getPalaceStrength(chartB, 0) + getPalaceStrength(chartB, shenIdxB)));
+        const coreBase = 55 + coreSynergy * 1.25 + huaBonus * 1.1 - brightDiff * 4 - coreStrengthGap * 0.18;
+        const coreScore = clampScore(coreBase, 10, 100);
+        
+        // 关系契合度
+        const relationMainA = getMainStars(chartA, [relIdx]);
+        const relationMainB = getMainStars(chartB, [relIdx]);
+        const relSynergy = getSynergyScore(relationMainA, relationMainB);
+        const relationStrength = (getPalaceStrength(chartA, relIdx) + getPalaceStrength(chartB, relIdx)) / 2;
+        const crossSupport = (getPalaceStrength(chartA, 0) + getPalaceStrength(chartB, 0)) / 4;
+        const relStrengthGap = Math.abs(getPalaceStrength(chartA, relIdx) - getPalaceStrength(chartB, relIdx));
+        const relationScore = clampScore(50 + relSynergy * 1.2 + relationStrength / 3 + crossSupport / 5 - relStrengthGap * 0.3, 10, 100);
+        
+        // 相处顺畅度
+        const balanceA = getSupportRisk(chartA, [0, shenIdxA, relIdx]);
+        const balanceB = getSupportRisk(chartB, [0, shenIdxB, relIdx]);
+        const netGood = (balanceA.good + balanceB.good) - (balanceA.bad + balanceB.bad);
+        const strengthGap = Math.abs(getPalaceStrength(chartA, relIdx) - getPalaceStrength(chartB, relIdx));
+        const mingGap = Math.abs(getPalaceStrength(chartA, 0) - getPalaceStrength(chartB, 0));
+        const tensionPairs = getSynergyScore(relationMainA, relationMainB) < 0 ? 1 : 0;
+        const supportScore = clampScore(58 + netGood * 6 - strengthGap * 0.6 - mingGap * 0.35 - tensionPairs * 10, 5, 100);
+        
+        return { coreScore, relationScore, supportScore, relPalaceName };
+    }
+    
+    function renderSynastryResult(scores) {
+        const resultEl = document.getElementById('synastryResult');
+        if (!resultEl) return;
+        const cards = [
+            { title: '命格共振度', score: scores.coreScore, desc: '对比双方命宫与身宫的力量与差异，分数越高说明气场更同频、沟通成本更低。' },
+            { title: '关系契合度', score: scores.relationScore, desc: `以${scores.relPalaceName}为主轴，评估角色分工与互补性，适合的关系越能发挥各自优势。` },
+            { title: '相处顺畅度', score: scores.supportScore, desc: '看关系宫/命宫的吉曜与煞曜占比，并考虑双方强弱差距和星曜差异，分数高代表阻力小、磨合成本低。' }
+        ];
+        resultEl.innerHTML = cards.map(c => `
+            <div class="syn-result-card">
+                <div class="score-row"><span>${c.title}</span><span>${Math.round(c.score)}%</span></div>
+                <div class="score-bar"><span style="width:${Math.round(c.score)}%"></span></div>
+                <div class="score-desc">${c.desc}</div>
+            </div>
+        `).join('');
+    }
+    
+    function toggleSynastryPanel() {
+        const panel = document.getElementById('synastryPanel');
+        closeAllFloatingWindows(panel);
+        if (panel.style.display === 'flex') {
+            panel.style.display = 'none';
+        } else {
+            panel.style.display = 'flex';
+            const dateA = document.getElementById('birthDate').value;
+            if (dateA && !document.getElementById('birthDateB').dataset.prefilled) {
+                document.getElementById('birthDateB').value = dateA;
+                document.getElementById('birthDateB').dataset.prefilled = '1';
+            }
+        }
+    }
+    
+    function computeSynastry() {
+        const dateA = document.getElementById('birthDate').value;
+        const hourA = document.getElementById('birthHour').value;
+        const genderA = document.getElementById('gender').value;
+        const dateB = document.getElementById('birthDateB').value;
+        const hourB = document.getElementById('birthHourB').value;
+        const genderB = document.getElementById('genderB').value;
+        const relationType = document.getElementById('relationType').value;
+        
+        if (!dateA || !dateB) {
+            alert('请完善双方的出生日期');
+            return;
+        }
+        
+        try {
+            const chartA = new ZWDSChart(dateA, hourA, genderA);
+            const chartB = new ZWDSChart(dateB, hourB, genderB);
+            const scores = calcSynastryScores(chartA, chartB, relationType);
+            renderSynastryResult(scores);
+        } catch (err) {
+            console.error('Synastry calculation failed:', err);
+            alert('合盘计算失败，请检查输入格式');
+        }
+    }
 
+    async function analyzeSynastryAI() {
+        const dateA = document.getElementById('birthDate').value;
+        const hourA = document.getElementById('birthHour').value;
+        const genderA = document.getElementById('gender').value;
+        const dateB = document.getElementById('birthDateB').value;
+        const hourB = document.getElementById('birthHourB').value;
+        const genderB = document.getElementById('genderB').value;
+        const relationType = document.getElementById('relationType').value;
+        const resultEl = document.getElementById('synastryAiResult');
+        const btn = document.getElementById('synAiBtn');
+        const modal = document.getElementById('ai-modal');
+        const modalContent = document.getElementById('ai-result-text');
+
+        if (!dateA || !dateB) {
+            alert('请完善双方的出生日期');
+            return;
+        }
+
+        const setLoading = (loading) => {
+            if (!btn) return;
+            btn.disabled = loading;
+            btn.innerText = loading ? '问星AI分析中...' : '问星AI分析合盘';
+        };
+
+        if (resultEl) resultEl.innerHTML = '<div style="color:#cbd5e1;">AI 正在分析合盘…</div>';
+        if (modal && modalContent) {
+            modal.style.display = 'flex';
+            modalContent.innerHTML = `
+                <div class="flex flex-col items-center justify-center py-10">
+                    <div class="spinner">
+                        <div class="spinner1"></div>
+                    </div>
+                    <p class="mt-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400 animate-pulse font-bold tracking-widest">
+                        🌌 星辰连结中...
+                    </p>
+                    <p class="text-xs text-gray-500 mt-2">正在解析合盘契合度</p>
+                </div>
+            `;
+        }
+
+        try {
+            setLoading(true);
+            const chartA = new ZWDSChart(dateA, hourA, genderA);
+            const chartB = new ZWDSChart(dateB, hourB, genderB);
+            const scores = calcSynastryScores(chartA, chartB, relationType);
+            renderSynastryResult(scores);
+
+            const relPalaceName = RELATION_PALACE_MAP[relationType] || '仆役';
+            const relIdxRaw = PALACE_NAMES.indexOf(relPalaceName);
+            const relIdx = relIdxRaw === -1 ? 0 : relIdxRaw;
+            const shenIdxA = chartA.chartData.findIndex(p => p.isShen);
+            const shenIdxB = chartB.chartData.findIndex(p => p.isShen);
+            const safeShenA = shenIdxA === -1 ? 0 : shenIdxA;
+            const safeShenB = shenIdxB === -1 ? 0 : shenIdxB;
+            const relationLabelMap = {
+                lover: '恋人 / 配偶（夫妻宫）',
+                friend: '朋友 / 社交（仆役宫）',
+                family: '亲人 / 长辈（父母宫）',
+                partner: '事业搭档（官禄宫）'
+            };
+            const relationLabel = relationLabelMap[relationType] || '朋友 / 社交（仆役宫）';
+
+            const formatStars = (stars) => {
+                if (!stars || stars.length === 0) return '无主星';
+                return stars.map(s => {
+                    const tags = [];
+                    if (s.sihua) tags.push(s.sihua);
+                    if (s.brightness) tags.push(s.brightness);
+                    return `${s.name}${tags.length ? '·' + tags.join('/') : ''}`;
+                }).join('、');
+            };
+
+            const coreStarsA = formatStars(getMainStars(chartA, [0, safeShenA]));
+            const coreStarsB = formatStars(getMainStars(chartB, [0, safeShenB]));
+            const relationStarsA = formatStars(getMainStars(chartA, [relIdx]));
+            const relationStarsB = formatStars(getMainStars(chartB, [relIdx]));
+            const mingStrengthA = getPalaceStrength(chartA, 0).toFixed(1);
+            const mingStrengthB = getPalaceStrength(chartB, 0).toFixed(1);
+            const relStrengthA = getPalaceStrength(chartA, relIdx).toFixed(1);
+            const relStrengthB = getPalaceStrength(chartB, relIdx).toFixed(1);
+
+            const prompt = `双方合盘信息：\n- 关系定位：${relationLabel}，对应宫位：${relPalaceName}\n- 三维度分数：命格共振度 ${scores.coreScore.toFixed(1)}，关系契合度 ${scores.relationScore.toFixed(1)}，相处顺畅度 ${scores.supportScore.toFixed(1)}\n- 命/身主星：A ${coreStarsA}；B ${coreStarsB}\n- 关系宫主星：A ${relationStarsA}；B ${relationStarsB}\n- 力量对比：命宫 A ${mingStrengthA} vs B ${mingStrengthB}；关系宫 A ${relStrengthA} vs B ${relStrengthB}\n请用紫微斗数合盘视角输出：\n1) 一句话主题判词；\n2) 协同亮点；\n3) 潜在冲突与化解策略；\n4) 3 条可执行的相处/合作建议；\n任一分数低于 60 需提示风险与补救。保持精简、务实，用 Markdown 列表回答。`;
+
+            const systemInstruction = '你是紫微斗数合盘分析师，给出简洁可执行的中文建议，避免空洞玄学堆砌。';
+            const aiText = await callAI(prompt, systemInstruction);
+            const finalText = aiText || '星象模糊，暂无法解读。';
+            if (resultEl) resultEl.innerHTML = finalText.replace(/\n/g, '<br>');
+            if (modalContent) modalContent.innerHTML = marked.parse(finalText);
+        } catch (err) {
+            console.error('AI synastry analysis failed:', err);
+            if (resultEl) resultEl.innerHTML = '<div style="color:#fca5a5;">AI 分析失败，请稍后再试。</div>';
+            if (modalContent) modalContent.innerHTML = '<div class="text-rose-300">AI 分析失败，请稍后再试。</div>';
+        } finally {
+            setLoading(false);
+        }
+    }
+    
     // --- LIU YAO LOGIC ---
     let currentYaoLines = []; 
     let isTossing = false;
@@ -1994,6 +2375,7 @@
     
     // First run logic
     setTimeout(() => { const loader = document.getElementById('loading'); if (loader && loader.style.display !== 'none') { loader.style.opacity = 0; setTimeout(() => { loader.style.display = 'none'; }, 500); } }, 2000);
+    ['dailyPanel','lifePanel','liuYaoPanel','chatWindow','synastryPanel'].forEach(id => { const el = document.getElementById(id); if (el) el.style.display = 'none'; });
     
     // Mobile initialization: Show input panel (紫微星系) by default on first load
     if (window.innerWidth <= 768) {
