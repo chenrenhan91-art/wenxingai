@@ -482,6 +482,79 @@
         .msg-user { background: linear-gradient(135deg, #4361ee, #3a0ca3); align-self: flex-end; margin-left: auto; color: white; border-bottom-right-radius: 2px; }
         .msg-ai { background: #2a3b55; align-self: flex-start; color: #e2e8f0; border-bottom-left-radius: 2px; }
 
+        /* Help / Tutorial Panel */
+        .help-panel { bottom: 110px; right: 30px; width: 420px; height: 520px; border: 1px solid rgba(56, 189, 248, 0.22); border-radius: 16px; overflow: hidden; }
+        .help-header { padding: 15px; background: linear-gradient(90deg, rgba(15, 23, 42, 0.95), rgba(2, 6, 23, 0.95)); border-bottom: 1px solid rgba(148, 163, 184, 0.25); border-radius: 16px 16px 0 0; display: flex; justify-content: space-between; align-items: center; }
+        .help-body { flex: 1; padding: 16px 16px 20px 16px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: #334155 transparent; }
+        .help-body h3 { margin: 14px 0 8px 0; font-size: 0.95rem; font-weight: 800; color: #38bdf8; letter-spacing: 0.5px; }
+        .help-body p, .help-body li { font-size: 0.85rem; color: #cbd5e1; line-height: 1.7; }
+        .help-body ul { margin: 0; padding-left: 18px; }
+        .help-badge { display: inline-flex; align-items: center; gap: 6px; padding: 2px 8px; border-radius: 999px; border: 1px solid rgba(56, 189, 248, 0.25); background: rgba(56, 189, 248, 0.08); color: #e2e8f0; font-size: 0.75rem; }
+        .help-muted { color: #94a3b8; }
+
+        /* Help button (Glitch) - From Uiverse.io by 212004ALJI (scoped) */
+        .help-glitch-btn,
+        .help-glitch-btn::after {
+            padding: 10px 50px;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            background-color: transparent;
+            position: relative;
+            line-height: 1.1;
+            cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
+        }
+
+        .help-glitch-btn::after {
+            --move1: inset(50% 50% 50% 50%);
+            --move2: inset(31% 0 40% 0);
+            --move3: inset(39% 0 15% 0);
+            --move4: inset(45% 0 40% 0);
+            --move5: inset(45% 0 6% 0);
+            --move6: inset(14% 0 61% 0);
+            clip-path: var(--move1);
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: block;
+            pointer-events: none;
+        }
+
+        .help-glitch-btn:hover::after {
+            animation: glitch_4011 1s;
+            animation-timing-function: steps(2, end);
+            text-shadow: -3px -3px 0px #1df2f0, 3px 3px 0px #E94BE8;
+            background-color: transparent;
+            border: 3px solid rgb(0, 255, 213);
+        }
+
+        .help-glitch-btn:hover {
+            text-shadow: -1px -1px 0px #1df2f0, 1px 1px 0px #E94BE8;
+            background-color: transparent;
+            border: 1px solid rgb(0, 255, 213);
+            box-shadow: 0px 10px 10px -10px rgb(0, 255, 213);
+        }
+
+        @keyframes glitch_4011 {
+            0% { clip-path: var(--move1); transform: translate(0px,-10px); }
+            10% { clip-path: var(--move2); transform: translate(-10px,10px); }
+            20% { clip-path: var(--move3); transform: translate(10px,0px); }
+            30% { clip-path: var(--move4); transform: translate(-10px,10px); }
+            40% { clip-path: var(--move5); transform: translate(10px,-10px); }
+            50% { clip-path: var(--move6); transform: translate(-10px,10px); }
+            60% { clip-path: var(--move1); transform: translate(10px,-10px); }
+            70% { clip-path: var(--move3); transform: translate(-10px,10px); }
+            80% { clip-path: var(--move2); transform: translate(10px,-10px); }
+            90% { clip-path: var(--move4); transform: translate(-10px,10px); }
+            100% { clip-path: var(--move1); transform: translate(0); }
+        }
+
         .calendar-panel { bottom: 110px; right: 30px; width: 340px; max-height: calc(100vh - 140px); border: 1px solid rgba(255, 215, 0, 0.2); font-family: 'Noto Sans SC', sans-serif; overflow: hidden; }
         .cal-header { background: linear-gradient(to right, #2c1a00, #4a3500); padding: 20px; text-align: center; border-bottom: 2px solid #b8860b; position: relative; flex-shrink: 0; }
         .cal-header::after { content: ''; position: absolute; bottom: -6px; left: 50%; transform: translateX(-50%); width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 6px solid #b8860b; }
@@ -718,6 +791,13 @@
             /* Typography Tweaks */
             h1 { font-size: 1.1rem; }
             .panel-header { min-height: 50px; padding: 10px 15px; }
+
+            /* Mobile: help glitch button fit */
+            .help-glitch-btn,
+            .help-glitch-btn::after {
+                padding: 8px 18px;
+                font-size: 14px;
+            }
             
             /* 3D Canvas Adjust */
             #canvas-container { height: 100dvh; }
@@ -806,7 +886,10 @@
         <!-- Header -->
         <div class="panel-header" onclick="toggleInputPanel()">
             <h1 class="flex items-center gap-2">🌌 <span class="hidden sm:inline">星盘设置</span><span class="sm:hidden text-sm">星盘设置</span></h1>
-            <div class="toggle-icon">▼</div>
+            <div style="display:flex; align-items:center; gap:10px;">
+                <button type="button" class="help-glitch-btn" data-text="使用指南" onclick="toggleHelpPanel(); event.stopPropagation();">使用指南</button>
+                <div class="toggle-icon">▼</div>
+            </div>
         </div>
 
         <!-- Content -->
@@ -1069,6 +1152,59 @@
     <div class="chat-input-area">
         <input type="text" class="chat-input" id="userQuery" placeholder="输入你的问题..." onkeypress="handleChatKey(event)">
         <button style="margin:0; width:auto; padding: 8px 12px; background: #4361ee; color:white; border-radius:6px;" onclick="askMaster()">发送</button>
+    </div>
+</div>
+
+<!-- Help / Tutorial Panel -->
+<div class="floating-window help-panel" id="helpPanel">
+    <div class="handle-bar"></div>
+    <div class="help-header">
+        <span class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-emerald-300">❓ 使用指南</span>
+        <span class="cursor-pointer text-gray-400 hover:text-white" onclick="toggleHelpPanel()">✕</span>
+    </div>
+    <div class="help-body">
+        <div class="help-badge">🌌 问星AI · 快速上手</div>
+        <p class="mt-3 help-muted">本指南根据当前页面功能编写：星盘生成、宫位查看、AI 解析、合盘/六爻/今日星历/大运K线/咨询与本地命例保存。</p>
+
+        <h3>1) 第一次使用（3 步）</h3>
+        <ul>
+            <li>在左上角 <strong>星盘设置</strong> 填写：出生日期（阳历）、出生时辰、性别。</li>
+            <li>点击 <strong>🚀 开启星盘</strong>，等待星盘刷新完成。</li>
+            <li>在星盘上点击任意“星岛/宫位”，右侧（手机为底部）会弹出详情面板。</li>
+        </ul>
+
+        <h3>2) 看宫位详情 & AI 深度解析</h3>
+        <ul>
+            <li>点击星盘里的某个宫位后，右侧会展示 <strong>星曜列表</strong> 与提示信息。</li>
+            <li>想要更深入的解释：点击面板底部的 <strong>✨ 问星 AI 深度解析</strong>。</li>
+            <li class="help-muted">提示：AI 输出支持 Markdown，会以更清晰的段落/列表展示。</li>
+        </ul>
+
+        <h3>3) 右下角功能按钮说明</h3>
+        <ul>
+            <li><strong>🤝 两人合盘</strong>：A 方沿用当前命盘，B 方填生日/时辰/性别，选择关系类型后计算契合度；可再点 AI 分析。</li>
+            <li><strong>🐢 六爻起卦</strong>：点击铜钱或“🤲 摇一卦”，共摇 6 次成卦；出现“问星 AI 解卦”后可一键解读。</li>
+            <li><strong>📅 今日星历</strong>：展示今日干支/宜忌；生成命盘后可“✨ 推演今日运程”。</li>
+            <li><strong>📈 人生大运 K 线</strong>：基于生辰推演大运起伏，并给出简要批注；可在图上滑动查看不同年龄段。</li>
+            <li><strong>✨ 命理咨询</strong>：像聊天一样提问（事业/感情/流年等），系统会结合你的命盘摘要回答。</li>
+        </ul>
+
+        <h3>4) 命例保存与管理（本地）</h3>
+        <ul>
+            <li>在左侧的 <strong>📋 星盘备注</strong> 输入名字/关系/昵称后，点 <strong>💾 保存此星盘</strong>。</li>
+            <li>在 <strong>📚 星盘记录</strong> 里可 <strong>📂 加载</strong> / <strong>🗑️ 删除</strong>。</li>
+            <li class="help-muted">保存使用浏览器本地存储（localStorage）。清理浏览器缓存/更换设备会导致记录丢失。</li>
+        </ul>
+
+        <h3>5) 常见问题</h3>
+        <ul>
+            <li><strong>星盘/3D 画面不显示</strong>：请尝试更换浏览器（Chrome/Edge），或开启硬件加速；部分旧设备可能不支持 WebGL。</li>
+            <li><strong>AI 分析失败</strong>：检查网络是否可访问外部接口；稍后重试。若长期失败，可能是后端接口或鉴权异常。</li>
+            <li><strong>出生时辰不确定</strong>：可以先选一个大致时段体验；需要严谨判断时建议自行校时后再使用。</li>
+        </ul>
+
+        <h3>6) 数据与隐私说明</h3>
+        <p>当你点击 AI 相关按钮时，页面会把你的提问与部分命盘摘要发送到远程接口进行生成式回答。若你用于真实个人信息，建议避免输入身份证号、住址等敏感内容。</p>
     </div>
 </div>
 
@@ -1590,7 +1726,7 @@
     
     // Helper to close other windows
     function closeAllFloatingWindows(except = null) {
-        const windows = ['dailyPanel', 'lifePanel', 'liuYaoPanel', 'chatWindow', 'settings-modal', 'synastryPanel'];
+        const windows = ['dailyPanel', 'lifePanel', 'liuYaoPanel', 'chatWindow', 'settings-modal', 'synastryPanel', 'helpPanel'];
         windows.forEach(id => {
             const el = document.getElementById(id);
             if (el && el !== except && el.id !== 'ai-modal') el.style.display = 'none';
@@ -2905,6 +3041,15 @@
 
     function closeAiModal() { document.getElementById('ai-modal').style.display = 'none'; }
     function toggleChat() { const win = document.getElementById('chatWindow'); closeAllFloatingWindows(win); win.style.display = win.style.display === 'flex' ? 'none' : 'flex'; }
+    function toggleHelpPanel() {
+        const panel = document.getElementById('helpPanel');
+        closeAllFloatingWindows(panel);
+        panel.style.display = panel.style.display === 'flex' ? 'none' : 'flex';
+        if (panel.style.display === 'flex') {
+            const body = panel.querySelector('.help-body');
+            if (body) body.scrollTop = 0;
+        }
+    }
     function handleChatKey(e) { if (e.key === 'Enter') askMaster(); }
     async function askMaster() {
         if (!currentChart) { alert("请先生成星盘！"); return; }
@@ -2941,7 +3086,7 @@
     
     // First run logic
     setTimeout(() => { const loader = document.getElementById('loading'); if (loader && loader.style.display !== 'none') { loader.style.opacity = 0; setTimeout(() => { loader.style.display = 'none'; }, 500); } }, 2000);
-    ['dailyPanel','lifePanel','liuYaoPanel','chatWindow','synastryPanel'].forEach(id => { const el = document.getElementById(id); if (el) el.style.display = 'none'; });
+    ['dailyPanel','lifePanel','liuYaoPanel','chatWindow','synastryPanel','helpPanel'].forEach(id => { const el = document.getElementById(id); if (el) el.style.display = 'none'; });
     
     // Mobile initialization: Show input panel (紫微星系) by default on first load
     if (window.innerWidth <= 768) {
