@@ -222,10 +222,10 @@
             --duration: 7s; --easing: linear; --c-color-1: rgba(56, 189, 248, 0.7); --c-color-2: #4361ee; --c-color-3: #c084fc; --c-color-4: rgba(34, 211, 238, 0.7);
             --c-shadow: rgba(56, 189, 248, 0.4); --c-shadow-inset-top: rgba(56, 189, 248, 0.6); --c-shadow-inset-bottom: rgba(67, 97, 238, 0.6);
             --c-radial-inner: #1e293b; --c-radial-outer: #0f172a; --c-color: #fff;
-            -webkit-tap-highlight-color: transparent; -webkit-appearance: none; outline: none; position: relative; cursor: pointer; border: none; display: table; border-radius: 24px; padding: 0; margin-top: 25px; width: 100%; text-align: center; font-weight: 600; font-size: 16px; letter-spacing: 0.02em; line-height: 1.5; color: var(--c-color); background: radial-gradient(circle, var(--c-radial-inner), var(--c-radial-outer) 80%); box-shadow: 0 0 14px var(--c-shadow);
+            -webkit-tap-highlight-color: transparent; -webkit-appearance: none; appearance: none; outline: none; position: relative; cursor: pointer; border: none; display: table; border-radius: 24px; padding: 0; margin-top: 25px; width: 100%; text-align: center; font-weight: 600; font-size: 16px; letter-spacing: 0.02em; line-height: 1.5; color: var(--c-color); background: radial-gradient(circle, var(--c-radial-inner), var(--c-radial-outer) 80%); box-shadow: 0 0 14px var(--c-shadow);
         }
         .uiverse:before { content: ""; pointer-events: none; position: absolute; z-index: 3; left: 0; top: 0; right: 0; bottom: 0; border-radius: 24px; box-shadow: inset 0 3px 12px var(--c-shadow-inset-top), inset 0 -3px 4px var(--c-shadow-inset-bottom); }
-        .uiverse .wrapper { -webkit-mask-image: -webkit-radial-gradient(white, black); overflow: hidden; border-radius: 24px; min-width: 132px; padding: 12px 0; width: 100%; }
+        .uiverse .wrapper { -webkit-mask-image: -webkit-radial-gradient(white, black); mask-image: radial-gradient(white, black); overflow: hidden; border-radius: 24px; min-width: 132px; padding: 12px 0; width: 100%; }
         .uiverse .wrapper span { display: inline-block; position: relative; z-index: 1; }
         .uiverse .wrapper .circle { position: absolute; left: 0; top: 0; width: 40px; height: 40px; border-radius: 50%; filter: blur(var(--blur, 8px)); background: var(--background, transparent); transform: translate(var(--x, 0), var(--y, 0)) translateZ(0); animation: var(--animation, none) var(--duration) var(--easing) infinite; }
         .uiverse .wrapper .circle.circle-1, .uiverse .wrapper .circle.circle-9, .uiverse .wrapper .circle.circle-10 { --background: var(--c-color-4); }
@@ -291,6 +291,102 @@
         .sihua-quan { color: #60a5fa; font-weight: bold; text-shadow: 0 0 5px rgba(96, 165, 250, 0.5); }
         .sihua-ke { color: #c084fc; font-weight: bold; text-shadow: 0 0 5px rgba(192, 132, 252, 0.5); }
         .sihua-ji { color: #f43f5e; font-weight: bold; text-shadow: 0 0 5px rgba(244, 63, 94, 0.5); }
+
+        /* Star Card (Info Panel) */
+        .star-card {
+            position: relative;
+            border-radius: 12px;
+            padding: 12px 12px 10px;
+            margin-bottom: 10px;
+            background: linear-gradient(180deg, rgba(56, 189, 248, 0.07), rgba(255, 255, 255, 0.04));
+            border: 1px solid rgba(56, 189, 248, 0.18);
+            box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.08) inset, 0 10px 26px rgba(0, 0, 0, 0.22);
+            backdrop-filter: blur(6px);
+        }
+        .star-card:before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: 12px;
+            pointer-events: none;
+            background: radial-gradient(120px 70px at 20% 0%, rgba(56, 189, 248, 0.18), transparent 60%),
+                        radial-gradient(160px 80px at 85% 20%, rgba(192, 132, 252, 0.10), transparent 65%);
+            opacity: 0.9;
+        }
+        .star-card-top {
+            position: relative;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        .star-name {
+            font-weight: 800;
+            font-size: 1rem;
+            letter-spacing: 0.02em;
+            text-shadow: 0 0 12px rgba(56, 189, 248, 0.18);
+        }
+        .star-badges { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px; }
+        .star-chip {
+            display: inline-flex;
+            align-items: center;
+            height: 20px;
+            padding: 0 8px;
+            border-radius: 999px;
+            font-size: 0.72rem;
+            line-height: 1;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            background: rgba(255, 255, 255, 0.06);
+            color: rgba(226, 232, 240, 0.92);
+            white-space: nowrap;
+        }
+        .star-cat-main { border-color: rgba(56, 189, 248, 0.35); background: rgba(56, 189, 248, 0.10); color: #bae6fd; }
+        .star-cat-lucky { border-color: rgba(74, 222, 128, 0.35); background: rgba(74, 222, 128, 0.10); color: #bbf7d0; }
+        .star-cat-bad { border-color: rgba(248, 113, 113, 0.35); background: rgba(248, 113, 113, 0.10); color: #fecaca; }
+        .star-sihua-lu { border-color: rgba(74, 222, 128, 0.45); background: rgba(74, 222, 128, 0.12); color: #86efac; }
+        .star-sihua-quan { border-color: rgba(96, 165, 250, 0.45); background: rgba(96, 165, 250, 0.12); color: #bfdbfe; }
+        .star-sihua-ke { border-color: rgba(192, 132, 252, 0.45); background: rgba(192, 132, 252, 0.12); color: #e9d5ff; }
+        .star-sihua-ji { border-color: rgba(244, 63, 94, 0.45); background: rgba(244, 63, 94, 0.12); color: #fecdd3; }
+        .star-desc {
+            position: relative;
+            margin-top: 6px;
+            font-size: 0.78rem;
+            color: rgba(148, 163, 184, 0.95);
+            line-height: 1.35;
+        }
+        .star-bright {
+            position: relative;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .star-bright-label { font-size: 0.72rem; color: rgba(148, 163, 184, 0.95); width: 34px; flex: 0 0 auto; }
+        .star-bright-bar {
+            height: 6px;
+            flex: 1 1 auto;
+            border-radius: 999px;
+            overflow: hidden;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(56, 189, 248, 0.12);
+        }
+        .star-bright-fill {
+            height: 100%;
+            width: 50%;
+            border-radius: 999px;
+            box-shadow: 0 0 12px rgba(56, 189, 248, 0.25);
+        }
+
+        /* Extra-small phones */
+        @media (max-width: 420px) {
+            .star-card { padding: 10px 10px 9px; border-radius: 10px; }
+            .star-name { font-size: 0.95rem; }
+            .star-badges { gap: 5px; }
+            .star-chip { height: 18px; padding: 0 6px; font-size: 0.68rem; }
+            .star-tag { font-size: 0.70rem; }
+            .star-desc { font-size: 0.74rem; }
+            .star-bright-label { width: 30px; }
+        }
         
         /* Shen Gong Info Box Style */
         .shen-info-box {
@@ -1950,6 +2046,14 @@
     let bgStars;
     let spaceDust;
 
+    // (C) Near-field depth dust
+    let nearDust;
+    let nearDustLayoutKey = '';
+
+    // (A) Halo: breathing ring + click pulse
+    let haloMesh, haloPulseMesh;
+    let haloPulse = { active: false, start: 0, duration: 850 };
+
     // 页面加载即固定为蓝图主题（仅保留这一套）
     (function bootstrapBlueprintTheme() {
         document.body.classList.add('theme-blueprint');
@@ -2007,7 +2111,7 @@
         coreMesh = new THREE.Points(coreGeo, coreMat);
         const coreGlow = createGlowSprite(0xaaccff, 18); coreGlow.material.opacity = 0.15; coreMesh.add(coreGlow); scene.add(coreMesh);
         
-        addBackgroundStars(); addSpaceDust();
+        addBackgroundStars(); addSpaceDust(); addNearDust(); initHalo();
         chartObj.add(connectionGroup); scene.add(chartObj);
         raycaster = new THREE.Raycaster(); mouse = new THREE.Vector2();
         window.addEventListener('resize', onWindowResize, false);
@@ -2227,6 +2331,7 @@
                 
                 showInfoPanel(target.userData.data);
                 visualizeRelationships(centerIndex);
+                triggerHaloPulse();
             }
         }
     }
@@ -2259,6 +2364,126 @@
         spaceDust.material.color.setHex(THEME.dust.color);
         spaceDust.material.opacity = THEME.dust.opacity;
         scene.add(spaceDust);
+    }
+
+    // (C) Near-field parallax dust - fewer, larger particles for depth
+    function addNearDust() {
+        if (!scene) return;
+        const key = `${Math.round(window.innerWidth / 40)}x${Math.round(window.innerHeight / 40)}`;
+        if (nearDust && key === nearDustLayoutKey) return;
+        nearDustLayoutKey = key;
+
+        const old = scene.getObjectByName('nearDust');
+        if (old) {
+            scene.remove(old);
+            if (old.geometry) old.geometry.dispose();
+            if (old.material) old.material.dispose();
+        }
+
+        const isMobile = window.innerWidth < 768;
+        const count = isMobile ? 160 : 420;
+        const geometry = new THREE.BufferGeometry();
+        const positions = new Float32Array(count * 3);
+        for (let i = 0; i < count; i++) {
+            // Keep it mostly outside the chart radius to avoid blocking the core
+            const r = 38 + Math.random() * 115;
+            const theta = Math.random() * Math.PI * 2;
+            const x = r * Math.cos(theta);
+            const y = r * Math.sin(theta);
+            const z = -10 + Math.random() * 35;
+            positions[i * 3] = x;
+            positions[i * 3 + 1] = y;
+            positions[i * 3 + 2] = z;
+        }
+        geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+        const material = new THREE.PointsMaterial({
+            color: 0x93c5fd,
+            size: isMobile ? 1.35 : 1.65,
+            transparent: true,
+            opacity: isMobile ? 0.12 : 0.16,
+            blending: THREE.AdditiveBlending,
+            depthWrite: false
+        });
+        nearDust = new THREE.Points(geometry, material);
+        nearDust.name = 'nearDust';
+        nearDust.renderOrder = 1;
+        scene.add(nearDust);
+    }
+
+    // (A) Halo ring around chart
+    function initHalo() {
+        if (!chartObj) return;
+
+        const oldHalo = chartObj.getObjectByName('haloRing');
+        if (oldHalo) {
+            chartObj.remove(oldHalo);
+            if (oldHalo.geometry) oldHalo.geometry.dispose();
+            if (oldHalo.material) oldHalo.material.dispose();
+        }
+        const oldPulse = chartObj.getObjectByName('haloPulse');
+        if (oldPulse) {
+            chartObj.remove(oldPulse);
+            if (oldPulse.geometry) oldPulse.geometry.dispose();
+            if (oldPulse.material) oldPulse.material.dispose();
+        }
+
+        const ringGeo = new THREE.RingGeometry(30.5, 33.2, 128);
+        const ringMat = new THREE.MeshBasicMaterial({
+            color: 0x38bdf8,
+            transparent: true,
+            opacity: 0.14,
+            blending: THREE.AdditiveBlending,
+            side: THREE.DoubleSide,
+            depthWrite: false
+        });
+        haloMesh = new THREE.Mesh(ringGeo, ringMat);
+        haloMesh.name = 'haloRing';
+        haloMesh.position.z = -6;
+        chartObj.add(haloMesh);
+
+        const pulseGeo = new THREE.RingGeometry(31.0, 33.8, 128);
+        const pulseMat = new THREE.MeshBasicMaterial({
+            color: 0x93c5fd,
+            transparent: true,
+            opacity: 0.0,
+            blending: THREE.AdditiveBlending,
+            side: THREE.DoubleSide,
+            depthWrite: false
+        });
+        haloPulseMesh = new THREE.Mesh(pulseGeo, pulseMat);
+        haloPulseMesh.name = 'haloPulse';
+        haloPulseMesh.position.z = -5.5;
+        chartObj.add(haloPulseMesh);
+    }
+
+    function triggerHaloPulse() {
+        if (!haloPulseMesh) return;
+        haloPulse.active = true;
+        haloPulse.start = performance.now();
+        haloPulseMesh.scale.set(1, 1, 1);
+        haloPulseMesh.material.opacity = 0.20;
+    }
+
+    function updateHalo(now) {
+        if (haloMesh) {
+            const t = now * 0.001;
+            const breathe = 0.5 + 0.5 * Math.sin(t * 0.85);
+            haloMesh.material.opacity = 0.10 + breathe * 0.07;
+            const s = 1.0 + breathe * 0.018;
+            haloMesh.scale.set(s, s, 1);
+        }
+        if (haloPulseMesh && haloPulse.active) {
+            const p = (now - haloPulse.start) / haloPulse.duration;
+            if (p >= 1) {
+                haloPulse.active = false;
+                haloPulseMesh.material.opacity = 0.0;
+            } else {
+                const ease = 1 - Math.pow(1 - p, 3);
+                const s = 1.0 + ease * 0.28;
+                haloPulseMesh.scale.set(s, s, 1);
+                haloPulseMesh.material.opacity = Math.pow(1 - p, 2) * 0.22;
+            }
+        }
     }
 
     function clearChart3D() {
@@ -2468,6 +2693,7 @@
     function onWindowResize() {
         camera.aspect = window.innerWidth / window.innerHeight; camera.updateProjectionMatrix(); renderer.setSize(window.innerWidth, window.innerHeight);
         resizeMeteorCanvas();
+        addNearDust();
         
         // --- MOBILE CAMERA ADJUSTMENT ---
         if (window.innerWidth < 768) {
@@ -2519,11 +2745,56 @@
         } else {
             data.stars.sort((a,b) => { const order = { 'main': 1, 'lucky': 2, 'bad': 3 }; return order[a.category] - order[b.category]; });
             data.stars.forEach(star => {
-                const item = document.createElement('div'); item.className = 'flex items-center justify-between bg-white bg-opacity-10 p-2 rounded mb-2';
-                let sihuaTag = ''; if (star.sihua) { const cls = {'禄':'sihua-lu', '权':'sihua-quan', '科':'sihua-ke', '忌':'sihua-ji'}[star.sihua]; sihuaTag = `<span class="${cls} mr-1">[化${star.sihua}]</span>`; }
-                let brightCls = 'star-ping'; if (star.brightness === '庙') brightCls = 'star-miao'; else if (star.brightness === '旺') brightCls = 'star-wang'; else if (star.brightness === '得') brightCls = 'star-de'; else if (star.brightness === '利') brightCls = 'star-li'; else if (star.brightness === '平') brightCls = 'star-ping'; else if (star.brightness === '陷') brightCls = 'star-xian'; else if (star.brightness === '闲') brightCls = 'star-xian';
-                const starInfo = MAIN_STARS_INFO[star.name] || {}; const desc = starInfo.desc || '';
-                item.innerHTML = `<div><span class="font-bold text-base" style="color:${starInfo.color||'#fff'}">${star.name}</span>${sihuaTag}<div class="text-xs text-gray-400">${desc}</div></div><div class="flex flex-col items-end"><span class="star-tag ${brightCls}">${star.brightness}</span></div>`; list.appendChild(item);
+                const card = document.createElement('div');
+                card.className = 'star-card';
+
+                const starInfo = MAIN_STARS_INFO[star.name] || {};
+                const desc = starInfo.desc || '';
+                const starColor = starInfo.color || '#ffffff';
+
+                const categoryMap = {
+                    main: { text: '主星', cls: 'star-cat-main' },
+                    lucky: { text: '吉星', cls: 'star-cat-lucky' },
+                    bad: { text: '煞星', cls: 'star-cat-bad' }
+                };
+                const cat = categoryMap[star.category] || { text: '星曜', cls: 'star-cat-main' };
+
+                const brightText = star.brightness || '平';
+                let brightCls = 'star-ping';
+                if (brightText === '庙') brightCls = 'star-miao';
+                else if (brightText === '旺') brightCls = 'star-wang';
+                else if (brightText === '得') brightCls = 'star-de';
+                else if (brightText === '利') brightCls = 'star-li';
+                else if (brightText === '平') brightCls = 'star-ping';
+                else if (brightText === '陷') brightCls = 'star-xian';
+                else if (brightText === '闲') brightCls = 'star-xian';
+
+                const brightScoreMap = { '庙': 100, '旺': 85, '得': 70, '利': 60, '平': 45, '陷': 25, '闲': 30 };
+                const brightScore = brightScoreMap[brightText] ?? 45;
+
+                let sihuaChip = '';
+                if (star.sihua) {
+                    const sihuaCls = { '禄': 'star-sihua-lu', '权': 'star-sihua-quan', '科': 'star-sihua-ke', '忌': 'star-sihua-ji' }[star.sihua];
+                    sihuaChip = `<span class="star-chip ${sihuaCls}">化${star.sihua}</span>`;
+                }
+
+                card.innerHTML = `
+                    <div class="star-card-top">
+                        <div class="star-name" style="color:${starColor}">${star.name}</div>
+                        <div class="star-badges">
+                            <span class="star-chip ${cat.cls}">${cat.text}</span>
+                            ${sihuaChip}
+                            <span class="star-tag ${brightCls}">${brightText}</span>
+                        </div>
+                    </div>
+                    ${desc ? `<div class="star-desc">${desc}</div>` : ''}
+                    <div class="star-bright">
+                        <div class="star-bright-label">亮度</div>
+                        <div class="star-bright-bar"><div class="star-bright-fill" style="width:${brightScore}%; background:${starColor}"></div></div>
+                    </div>
+                `;
+
+                list.appendChild(card);
             });
         }
     }
@@ -2629,6 +2900,15 @@
         chartObj.rotation.z += 0.0003; if (coreMesh) { coreMesh.rotation.z += 0.005; }
         if (coreUniforms) { coreUniforms.uTime.value = performance.now() / 1000; }
         const dust = scene.getObjectByName('dust'); if (dust) dust.rotation.z -= 0.0002;
+
+        // (C) near dust drift (subtle depth)
+        if (nearDust) {
+            nearDust.rotation.z += 0.00022;
+            nearDust.rotation.x += 0.00006;
+        }
+
+        // (A) halo breathe + click pulse
+        updateHalo(performance.now());
 
         // 流星层：低频、低成本
         updateAndDrawMeteors(performance.now());
