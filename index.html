@@ -603,6 +603,55 @@
             /* 3D Canvas Adjust */
             #canvas-container { height: 100dvh; }
         }
+
+        /* === 主题/视觉叠层（酷炫展示） === */
+        #vfx-overlay {
+            position: fixed;
+            inset: 0;
+            z-index: 5;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 400ms ease;
+        }
+
+        #vfx-overlay::before,
+        #vfx-overlay::after {
+            content: '';
+            position: absolute;
+            inset: -20%;
+            pointer-events: none;
+        }
+
+        /* 低频流星层（叠加在 3D 上，不影响交互） */
+        #meteor-canvas {
+            position: fixed;
+            inset: 0;
+            z-index: 4;
+            pointer-events: none;
+            opacity: 0.75;
+            mix-blend-mode: screen;
+        }
+
+        @keyframes vfx-drift {
+            0% { transform: translate3d(-2%, -1%, 0) scale(1.02) rotate(0deg); }
+            50% { transform: translate3d(2%, 1%, 0) scale(1.05) rotate(8deg); }
+            100% { transform: translate3d(-2%, -1%, 0) scale(1.02) rotate(0deg); }
+        }
+
+        @keyframes vfx-scan {
+            0% { transform: translateY(-60%); opacity: 0.0; }
+            20% { opacity: 0.35; }
+            60% { opacity: 0.2; }
+            100% { transform: translateY(60%); opacity: 0.0; }
+        }
+
+        body.theme-blueprint { background: radial-gradient(1200px 900px at 40% 30%, rgba(56, 189, 248, 0.08), transparent 55%), #030815; }
+        body.theme-blueprint #vfx-overlay { opacity: 0.9; }
+        body.theme-blueprint #vfx-overlay::before { background: repeating-linear-gradient(to right, rgba(56, 189, 248, 0.03) 0px, rgba(56, 189, 248, 0.03) 1px, rgba(0,0,0,0) 24px), repeating-linear-gradient(to bottom, rgba(56, 189, 248, 0.03) 0px, rgba(56, 189, 248, 0.03) 1px, rgba(0,0,0,0) 24px); filter: blur(0px); mix-blend-mode: screen; opacity: 0.55; }
+        body.theme-blueprint #vfx-overlay::after { background: radial-gradient(circle at 70% 40%, rgba(56, 189, 248, 0.10), transparent 55%); filter: blur(22px); mix-blend-mode: screen; animation: vfx-drift 18s ease-in-out infinite; }
+        body.theme-blueprint .panel { border-color: rgba(56, 189, 248, 0.22); }
+        body.theme-blueprint .input-panel { border-left-color: #38bdf8; }
+        body.theme-blueprint .info-panel { border-right-color: #38bdf8; }
     </style>
 </head>
 <body>
@@ -624,6 +673,12 @@
 
 <!-- Canvas -->
 <div id="canvas-container"></div>
+
+<!-- Meteors (低频流星，不影响交互) -->
+<canvas id="meteor-canvas" aria-hidden="true"></canvas>
+
+<!-- Visual FX Overlay (不拦截交互) -->
+<div id="vfx-overlay" aria-hidden="true"></div>
 
 <!-- UI Layer -->
 <div id="ui-layer">
@@ -1865,10 +1920,45 @@
     let connectionGroup = new THREE.Group(); 
     let coreMesh, coreUniforms, sectorMeshes = []; 
 
+    // --- Meteors (2D overlay) ---
+    let meteorCanvas, meteorCtx;
+    let meteors = [];
+    let meteorLastTs = 0;
+    let nextMeteorAt = 0;
+
+    // 固定主题：星图蓝图（仅保留蓝色方案）
+    const THEME = {
+        exposure: 1.05,
+        fogColor: 0x030815,
+        fogDensity: 0.00185,
+        ambient: { color: 0x0b1b2a, intensity: 1.1 },
+        sun: { color: 0x38bdf8, intensity: 1.9, distance: 220 },
+        blue: { color: 0x60a5fa, intensity: 1.3, distance: 150 },
+        bgStars: { size: 0.55, opacity: 0.85 },
+        dust: { color: 0x38bdf8, opacity: 0.35 },
+        sectors: {
+            normal: 0x0b1423,
+            ming: 0x38bdf8,
+            shen: 0x60a5fa,
+            emissiveNormal: 0x000000,
+            emissiveMing: 0x001e3a,
+            emissiveShen: 0x00162b,
+        },
+        label: { normal: 0x93c5fd, ming: 0xe0f2fe, shen: 0xbfdbfe }
+    };
+    let ambientLight, sunLight, blueLight;
+    let bgStars;
+    let spaceDust;
+
+    // 页面加载即固定为蓝图主题（仅保留这一套）
+    (function bootstrapBlueprintTheme() {
+        document.body.classList.add('theme-blueprint');
+    })();
+
     function init3D() {
         const container = document.getElementById('canvas-container');
         scene = new THREE.Scene();
-        scene.fog = new THREE.FogExp2(0x02040a, 0.0015);
+        scene.fog = new THREE.FogExp2(THEME.fogColor, THEME.fogDensity);
         camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 2000);
         camera.position.set(0, -60, 45);
         camera.lookAt(0, 0, 0);
@@ -1876,15 +1966,15 @@
         renderer.setSize(window.innerWidth, window.innerHeight);
         renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
         renderer.toneMapping = THREE.ACESFilmicToneMapping;
-        renderer.toneMappingExposure = 1.2;
+        renderer.toneMappingExposure = THEME.exposure;
         container.appendChild(renderer.domElement);
         controls = new THREE.OrbitControls(camera, renderer.domElement);
         controls.enableDamping = true; controls.dampingFactor = 0.05;
         controls.maxDistance = 150; controls.minDistance = 20;
         
-        const ambientLight = new THREE.AmbientLight(0x222244); scene.add(ambientLight);
-        const sunLight = new THREE.PointLight(0xffaa00, 2, 200); sunLight.position.set(0, 0, 0); scene.add(sunLight);
-        const blueLight = new THREE.PointLight(0x0088ff, 1.5, 100); blueLight.position.set(30, 30, 30); scene.add(blueLight);
+        ambientLight = new THREE.AmbientLight(THEME.ambient.color, THEME.ambient.intensity); scene.add(ambientLight);
+        sunLight = new THREE.PointLight(THEME.sun.color, THEME.sun.intensity, THEME.sun.distance); sunLight.position.set(0, 0, 0); scene.add(sunLight);
+        blueLight = new THREE.PointLight(THEME.blue.color, THEME.blue.intensity, THEME.blue.distance); blueLight.position.set(30, 30, 30); scene.add(blueLight);
 
         // Particle System (Optimization: reduce count on mobile)
         const isMobile = window.innerWidth < 768;
@@ -1928,7 +2018,153 @@
         // Setup new interaction logic
         initCanvasInteraction();
 
+        // Low-frequency meteor overlay
+        initMeteorLayer();
+
         animate();
+    }
+
+    function initMeteorLayer() {
+        meteorCanvas = document.getElementById('meteor-canvas');
+        if (!meteorCanvas) return;
+        meteorCtx = meteorCanvas.getContext('2d');
+        resizeMeteorCanvas();
+        // 中等频率：首次稍微延迟一点出现
+        const now = performance.now();
+        meteors = [];
+        meteorLastTs = now;
+        nextMeteorAt = now + randRange(1200, 2600);
+    }
+
+    function resizeMeteorCanvas() {
+        if (!meteorCanvas || !meteorCtx) return;
+        const dpr = window.devicePixelRatio || 1;
+        const w = Math.max(1, Math.floor(window.innerWidth));
+        const h = Math.max(1, Math.floor(window.innerHeight));
+        meteorCanvas.width = Math.floor(w * dpr);
+        meteorCanvas.height = Math.floor(h * dpr);
+        meteorCanvas.style.width = w + 'px';
+        meteorCanvas.style.height = h + 'px';
+        meteorCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+
+    function randRange(min, max) {
+        return min + Math.random() * (max - min);
+    }
+
+    function spawnMeteor(now) {
+        if (!meteorCanvas) return;
+        const w = window.innerWidth;
+        const h = window.innerHeight;
+        // 从顶部/左侧进入，斜向右下，尽量“擦边”通过，避免遮挡中心
+        const fromTop = Math.random() < 0.55;
+        let x, y;
+        if (fromTop) {
+            x = randRange(-80, w * 0.75);
+            y = randRange(-120, h * 0.25);
+        } else {
+            x = randRange(-160, -60);
+            y = randRange(-40, h * 0.65);
+        }
+
+        const angle = randRange(Math.PI * 0.15, Math.PI * 0.28); // ~27°-50°
+        const dirX = Math.cos(angle);
+        const dirY = Math.sin(angle);
+        const speed = randRange(820, 1180); // px/s
+        const length = randRange(200, 360);
+        const width = randRange(1.6, 2.8);
+        const ttl = randRange(0.85, 1.55);
+        const hueShift = randRange(-8, 10);
+
+        meteors.push({
+            x, y,
+            vx: dirX * speed,
+            vy: dirY * speed,
+            dirX, dirY,
+            length,
+            width,
+            ttl,
+            t: 0,
+            hueShift,
+        });
+
+        // 下一次出现：约 3 秒一次（带少量抖动，避免机械感）
+        nextMeteorAt = now + randRange(2400, 3600);
+    }
+
+    function updateAndDrawMeteors(now) {
+        if (!meteorCtx || !meteorCanvas) return;
+        const dt = Math.min(0.05, Math.max(0, (now - meteorLastTs) / 1000));
+        meteorLastTs = now;
+
+        if (now >= nextMeteorAt && meteors.length < 2) {
+            // 控制同时数量，避免干扰星盘
+            spawnMeteor(now);
+        }
+
+        const w = window.innerWidth;
+        const h = window.innerHeight;
+        meteorCtx.clearRect(0, 0, w, h);
+        meteorCtx.globalCompositeOperation = 'lighter';
+
+        const alive = [];
+        for (const m of meteors) {
+            m.t += dt;
+            m.x += m.vx * dt;
+            m.y += m.vy * dt;
+
+            const p = Math.min(1, m.t / m.ttl);
+            const fadeIn = Math.min(1, p / 0.12);
+            const fadeOut = 1 - Math.max(0, (p - 0.55) / 0.45);
+            const alpha = 0.46 * fadeIn * fadeOut; // 略更明显，但仍控制遮挡
+
+            const tailX = m.x - m.dirX * m.length;
+            const tailY = m.y - m.dirY * m.length;
+
+            // 颜色：蓝白为主，拖尾渐隐
+            const headCol = `rgba(235, 248, 255, ${alpha})`;
+            const tailCol = `rgba(56, 189, 248, ${alpha * 0.0})`;
+
+            const grad = meteorCtx.createLinearGradient(m.x, m.y, tailX, tailY);
+            grad.addColorStop(0, headCol);
+            grad.addColorStop(0.25, `rgba(147, 197, 253, ${alpha * 0.75})`);
+            grad.addColorStop(0.55, `rgba(96, 165, 250, ${alpha * 0.40})`);
+            grad.addColorStop(1, tailCol);
+
+            // 外发光描边（更明显但不刺眼）
+            meteorCtx.save();
+            meteorCtx.strokeStyle = `rgba(56, 189, 248, ${alpha * 0.28})`;
+            meteorCtx.lineWidth = m.width * 3.2;
+            meteorCtx.lineCap = 'round';
+            meteorCtx.shadowColor = 'rgba(56, 189, 248, 0.45)';
+            meteorCtx.shadowBlur = 10;
+            meteorCtx.beginPath();
+            meteorCtx.moveTo(m.x, m.y);
+            meteorCtx.lineTo(tailX, tailY);
+            meteorCtx.stroke();
+            meteorCtx.restore();
+
+            // 主拖尾
+            meteorCtx.strokeStyle = grad;
+            meteorCtx.lineWidth = m.width;
+            meteorCtx.lineCap = 'round';
+            meteorCtx.beginPath();
+            meteorCtx.moveTo(m.x, m.y);
+            meteorCtx.lineTo(tailX, tailY);
+            meteorCtx.stroke();
+
+            // 头部微光点
+            meteorCtx.fillStyle = `rgba(255, 255, 255, ${alpha * 0.75})`;
+            meteorCtx.beginPath();
+            meteorCtx.arc(m.x, m.y, Math.max(1.4, m.width * 1.6), 0, Math.PI * 2);
+            meteorCtx.fill();
+
+            const outMargin = 260;
+            const isOut = (m.x > w + outMargin) || (m.y > h + outMargin);
+            if (m.t < m.ttl && !isOut) alive.push(m);
+        }
+        meteors = alive;
+        meteorCtx.globalCompositeOperation = 'source-over';
     }
     
     // --- NEW: Mobile-Friendly Canvas Interaction Logic ---
@@ -2003,7 +2239,11 @@
         }
         geometry.setAttribute('position', new THREE.Float32BufferAttribute(vertices, 3)); geometry.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
         const material = new THREE.PointsMaterial({ size: 0.6, vertexColors: true, transparent: true, opacity: 0.8 });
-        const stars = new THREE.Points(geometry, material); scene.add(stars);
+        bgStars = new THREE.Points(geometry, material);
+        bgStars.name = 'bgStars';
+        bgStars.material.size = THEME.bgStars.size;
+        bgStars.material.opacity = THEME.bgStars.opacity;
+        scene.add(bgStars);
     }
     
     function addSpaceDust() {
@@ -2014,7 +2254,11 @@
         }
         geometry.setAttribute('position', new THREE.Float32BufferAttribute(vertices, 3));
         const material = new THREE.PointsMaterial({ color: 0x4466aa, size: 0.4, transparent: true, opacity: 0.4 });
-        const dust = new THREE.Points(geometry, material); dust.name = "dust"; scene.add(dust);
+        spaceDust = new THREE.Points(geometry, material);
+        spaceDust.name = "dust";
+        spaceDust.material.color.setHex(THEME.dust.color);
+        spaceDust.material.opacity = THEME.dust.opacity;
+        scene.add(spaceDust);
     }
 
     function clearChart3D() {
@@ -2030,8 +2274,14 @@
         const shape = new THREE.Shape(); shape.absarc(0, 0, radiusOuter, thetaStart, thetaStart + thetaLength, false); shape.absarc(0, 0, radiusInner, thetaStart + thetaLength, thetaStart, true);
         const extrudeSettings = { depth: 1.5, bevelEnabled: true, bevelThickness: 0.2, bevelSize: 0.2, bevelSegments: 3 };
         const geometry = new THREE.ExtrudeGeometry(shape, extrudeSettings);
-        let baseColor = data.isMing ? 0x0077ff : 0x223344; let emissiveColor = data.isMing ? 0x002244 : 0x000000; let opacityVal = 0.6;
-        if (data.isShen) { baseColor = 0x00aa88; opacityVal = 0.7; }
+        let baseColor = data.isMing ? THEME.sectors.ming : THEME.sectors.normal;
+        let emissiveColor = data.isMing ? THEME.sectors.emissiveMing : THEME.sectors.emissiveNormal;
+        let opacityVal = 0.6;
+        if (data.isShen) {
+            baseColor = THEME.sectors.shen;
+            emissiveColor = THEME.sectors.emissiveShen;
+            opacityVal = 0.7;
+        }
         const material = new THREE.MeshPhysicalMaterial({ color: baseColor, transparent: true, opacity: opacityVal, metalness: 0.8, roughness: 0.2, clearcoat: 1.0, clearcoatRoughness: 0.1, emissive: emissiveColor, emissiveIntensity: 0.5, side: THREE.DoubleSide });
         const mesh = new THREE.Mesh(geometry, material); mesh.userData = { id: index, data: data, originalColor: baseColor, originalEmissive: emissiveColor }; 
         
@@ -2043,14 +2293,14 @@
         const labelText = labelName + '\n' + data.stem + data.branch;
         
         let highlightType = 0; // 0: None, 1: Ming, 2: Shen
-        let textColor = 0xaaccff;
+        let textColor = THEME.label.normal;
         
         if (data.isMing) {
             highlightType = 1;
-            textColor = 0xffd700;
+            textColor = THEME.label.ming;
         } else if (data.isShen) {
             highlightType = 2;
-            textColor = 0x33ff33; // Bright green for Shen text
+            textColor = THEME.label.shen;
         }
         
         const sprite = createTextSprite(labelText, textColor, highlightType);
@@ -2161,7 +2411,8 @@
         const c = new THREE.Color(color); const r = Math.floor(c.r * 255); const g = Math.floor(c.g * 255); const b = Math.floor(c.b * 255);
         const gradient = ctx.createRadialGradient(32, 32, 0, 32, 32, 32); gradient.addColorStop(0, `rgba(${r},${g},${b},1)`); gradient.addColorStop(0.4, `rgba(${r},${g},${b},0.5)`); gradient.addColorStop(1, `rgba(${r},${g},${b},0)`);
         ctx.fillStyle = gradient; ctx.clearRect(0,0,64,64); ctx.fillRect(0, 0, 64, 64);
-        const texture = new THREE.CanvasTexture(canvas); const mat = new THREE.SpriteMaterial({ map: texture, transparent: true, blending: THREE.AdditiveBlending, depthWrite: false });
+        const texture = new THREE.CanvasTexture(canvas);
+        const mat = new THREE.SpriteMaterial({ map: texture, transparent: true, blending: THREE.AdditiveBlending, depthWrite: false, color: 0xffffff });
         const sprite = new THREE.Sprite(mat); sprite.scale.set(scale, scale, 1); return sprite;
     }
     
@@ -2216,6 +2467,7 @@
 
     function onWindowResize() {
         camera.aspect = window.innerWidth / window.innerHeight; camera.updateProjectionMatrix(); renderer.setSize(window.innerWidth, window.innerHeight);
+        resizeMeteorCanvas();
         
         // --- MOBILE CAMERA ADJUSTMENT ---
         if (window.innerWidth < 768) {
@@ -2377,6 +2629,9 @@
         chartObj.rotation.z += 0.0003; if (coreMesh) { coreMesh.rotation.z += 0.005; }
         if (coreUniforms) { coreUniforms.uTime.value = performance.now() / 1000; }
         const dust = scene.getObjectByName('dust'); if (dust) dust.rotation.z -= 0.0002;
+
+        // 流星层：低频、低成本
+        updateAndDrawMeteors(performance.now());
     }
 
     try { init3D(); } catch (e) { console.error("3D Init Failed", e); setTimeout(() => { document.getElementById('loading').style.display = 'none'; }, 1000); }
