@@ -176,44 +176,69 @@
             box-shadow: 0 0 10px rgba(56, 189, 248, 0.2);
         }
 
-        /* NEW AI HEX BUTTON STYLE (From Uiverse.io by Yaya12085) */
-        .ai-hex-btn {
-            width: fit-content;
-            display: flex;
-            padding: 1em 1.5rem; /* Adjusted padding slightly */
-            cursor: pointer;
-            gap: 0.4rem;
-            font-weight: bold;
-            border-radius: 30px;
-            text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
-            background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
-            background-size: 300%;
-            color: #fff;
-            border: none;
-            background-position: left center;
-            box-shadow: 0 30px 10px -20px rgba(0,0,0,.2);
-            transition: background .3s ease;
-            margin: 15px auto; /* Center horizontally */
+        /* Glow button for LiuYao: 问星AI解卦 (scoped, avoids global button styling) */
+        .glow-btn {
+            --glow-color: rgb(217, 176, 255);
+            --glow-spread-color: rgba(191, 123, 255, 0.781);
+            --enhanced-glow-color: rgb(231, 206, 255);
+            --btn-color: rgb(100, 61, 136);
+
+            width: 100%;
+            margin-top: 15px;
+            display: inline-flex;
             align-items: center;
-            font-size: 0.95rem;
+            justify-content: center;
+            gap: 0.5rem;
+
+            border: 0.25em solid var(--glow-color);
+            padding: 0.95em 1.2em;
+            color: var(--glow-color);
+            font-size: 15px;
+            font-weight: 800;
+            background-color: var(--btn-color);
+            border-radius: 1em;
+            outline: none;
+
+            box-shadow:
+                0 0 1em 0.25em var(--glow-color),
+                0 0 4em 1em var(--glow-spread-color),
+                inset 0 0 0.75em 0.25em var(--glow-color);
+            text-shadow: 0 0 0.5em var(--glow-color);
+            position: relative;
+            transition: all 0.3s ease;
         }
 
-        .ai-hex-btn:hover {
-            background-size: 320%;
-            background-position: right center;
+        .glow-btn::after {
+            pointer-events: none;
+            content: "";
+            position: absolute;
+            top: 120%;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: var(--glow-spread-color);
+            filter: blur(2em);
+            opacity: 0.7;
+            transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
         }
 
-        .ai-hex-btn:hover svg {
-            fill: #fff;
+        .glow-btn:hover {
+            color: var(--btn-color);
+            background-color: var(--glow-color);
+            box-shadow:
+                0 0 1em 0.25em var(--glow-color),
+                0 0 4em 2em var(--glow-spread-color),
+                inset 0 0 0.75em 0.25em var(--glow-color);
         }
 
-        .ai-hex-btn svg {
-            width: 23px;
-            fill: #f09f33;
-            transition: .3s ease;
+        .glow-btn:active {
+            box-shadow:
+                0 0 0.6em 0.25em var(--glow-color),
+                0 0 2.5em 2em var(--glow-spread-color),
+                inset 0 0 0.5em 0.25em var(--glow-color);
         }
-        
-        .ai-hex-btn.hidden {
+
+        .glow-btn.hidden {
             display: none;
         }
 
@@ -291,12 +316,6 @@
             .ai-text-btn .hover-text { display: none; }
         }
         
-        .ai-btn {
-            background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 100%); border: 1px solid rgba(139, 92, 246, 0.3); margin-top: 15px;
-            display: flex; align-items: center; justify-content: center; gap: 8px; box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
-            border-radius: 8px; padding: 12px; color: white; font-size: 1rem;
-        }
-        
         /* Tags & Colors */
         .star-tag { display: inline-block; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-right: 4px; margin-bottom: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.05); font-weight: bold; }
         .star-miao { color: #ffd700; border-color: #ffd700; background: rgba(255, 215, 0, 0.15); box-shadow: 0 0 5px rgba(255, 215, 0, 0.3); } 
@@ -306,10 +325,6 @@
         .star-ping { color: #94a3b8; border-color: #94a3b8; background: rgba(148, 163, 184, 0.1); }
         .star-bu   { color: #94a3b8; border-color: #94a3b8; opacity: 0.7; } 
         .star-xian { color: #f87171; border-color: #f87171; opacity: 0.8; background: rgba(248, 113, 113, 0.1); }
-        .sihua-lu { color: #4ade80; font-weight: bold; text-shadow: 0 0 5px rgba(74, 222, 128, 0.5); }
-        .sihua-quan { color: #60a5fa; font-weight: bold; text-shadow: 0 0 5px rgba(96, 165, 250, 0.5); }
-        .sihua-ke { color: #c084fc; font-weight: bold; text-shadow: 0 0 5px rgba(192, 132, 252, 0.5); }
-        .sihua-ji { color: #f43f5e; font-weight: bold; text-shadow: 0 0 5px rgba(244, 63, 94, 0.5); }
 
         /* Star Card (Info Panel) */
         .star-card {
@@ -611,7 +626,6 @@
         .coin-inner { width: 24px; height: 24px; background: #121926; border-radius: 2px; box-shadow: inset 2px 2px 2px rgba(0,0,0,0.5), 0 0 0 2px rgba(255,255,255,0.1); z-index: 2; }
         .coin.yang { background: radial-gradient(circle at 30% 30%, #ffd700, #daa520); box-shadow: 0 4px 10px rgba(0,0,0,0.5), inset 0 0 0 4px #ffd700; }
         .coin.yin { background: radial-gradient(circle at 30% 30%, #cd7f32, #8b4513); box-shadow: 0 4px 10px rgba(0,0,0,0.5), inset 0 0 0 4px #8b4513; }
-        .shaking { animation: shake 0.6s ease-in-out; }
         
         /* Better Toss Animation - Enhanced Physics */
         @keyframes toss1 {
@@ -630,9 +644,9 @@
             100% { transform: translateY(0) rotateX(1800deg) rotateZ(0); }
         }
         
-        .coin.tossing-1 { animation: toss1 1.2s forwards; }
-        .coin.tossing-2 { animation: toss2 1.4s forwards; }
-        .coin.tossing-3 { animation: toss3 1.3s forwards; }
+        .coin.tossing-1 { animation: toss1 0.6s forwards; }
+        .coin.tossing-2 { animation: toss2 0.7s forwards; }
+        .coin.tossing-3 { animation: toss3 0.65s forwards; }
 
         .hexagram-display { width: 100%; margin-top: 15px; background: rgba(0,0,0,0.3); padding: 10px; border-radius: 8px; min-height: 180px; display: flex; flex-direction: column-reverse; gap: 8px; border: 1px solid #334155; }
         .hex-row { display: flex; align-items: center; justify-content: center; height: 20px; position: relative; }
@@ -1147,12 +1161,7 @@
         </div>
 
         <button class="toss-btn" id="tossBtn" onclick="tossCoins()">🤲 摇一卦</button>
-        <button class="ai-hex-btn hidden" id="interpretBtn" onclick="interpretHexagram()">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor">
-                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-            </svg>
-            问星 AI 解卦
-        </button>
+        <button class="glow-btn hidden" id="interpretBtn" onclick="interpretHexagram()">问星AI解卦</button>
         <button class="reset-btn" onclick="resetHexagram()">🔄 重置卦象</button>
     </div>
 </div>
@@ -2100,7 +2109,7 @@
             tossClasses[index] = cls;
         });
 
-        // Timeout needs to match the longest animation (approx 1.4s)
+        // Timeout needs to match the longest animation (now ~0.7s)
         setTimeout(() => {
             coins.forEach((c, index) => {
                 c.classList.remove(tossClasses[index]);
@@ -2124,7 +2133,7 @@
                 document.getElementById('interpretBtn').classList.add('flex');
             }
             isTossing = false;
-        }, 1500); // 1.5s to be safe
+        }, 750); // ~0.75s to be safe
     }
 
     function resetHexagram() {
