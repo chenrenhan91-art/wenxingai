@@ -272,15 +272,10 @@
         }
         .ai-text-btn:hover .hover-text { width: 100%; filter: drop-shadow(0 0 15px var(--animation-color)); }
 
-        /* Info Panel Footer (keeps AI button stable across devices) */
-        .info-footer {
-            padding: 12px 20px 18px;
-            border-top: 1px solid rgba(255, 255, 255, 0.06);
-            background: rgba(2, 6, 23, 0.35);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
+        /* Ensure the last section isn't covered by FABs */
+        .info-panel .info-scroll {
+            padding-bottom: 160px;
         }
-        .info-footer .ai-text-btn { margin-top: 0; }
 
         /* Touch devices: disable hover-layer glitch and ensure readable text */
         @media (hover: none) and (pointer: coarse) {
@@ -749,12 +744,12 @@
                 overscroll-behavior: contain;
                 -webkit-overflow-scrolling: touch;
             }
-
-            .info-panel .info-footer {
-                padding-bottom: calc(12px + env(safe-area-inset-bottom));
+            .info-panel .info-scroll {
+                padding-bottom: calc(190px + env(safe-area-inset-bottom));
             }
-            .info-panel .info-footer .ai-text-btn {
-                margin-top: 10px;
+
+            .info-panel .ai-text-btn {
+                margin-top: 14px;
                 padding: 10px 0;
                 border-radius: 12px;
                 background: rgba(2, 6, 23, 0.55);
@@ -1005,10 +1000,7 @@
             <div id="starList" class="space-y-2">
                 <!-- Stars -->
             </div>
-        </div>
 
-        <!-- Fixed Footer (keeps AI button stable on mobile) -->
-        <div class="info-footer">
             <button class="ai-text-btn" data-text="✨ 问星 AI 深度解析" onclick="analyzeCurrentPalace(); event.stopPropagation();">
                 <span class="actual-text">&nbsp;✨ 问星 AI 深度解析&nbsp;</span>
                 <span aria-hidden="true" class="hover-text">&nbsp;✨ 问星 AI 深度解析&nbsp;</span>
