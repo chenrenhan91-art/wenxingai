@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -14,6 +13,8 @@
     <script src="https://cdn.jsdelivr.net/npm/lunar-javascript@1.6.12/lunar.min.js"></script>
     <!-- Marked for Markdown Parsing -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- Supabase JS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     
     <style>
         /* Base Reset & Fonts */
@@ -991,6 +992,47 @@
                     <div style="color: #64748b; font-size: 0.8rem; text-align: center; padding: 20px 0;">暂无保存的命例</div>
                 </div>
             </div>
+
+            <!-- 账号与支付 -->
+            <div style="margin-top: 20px; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.1);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                    <span style="font-size: 0.7rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 1px;">账号与支付</span>
+                    <button id="logoutBtn" onclick="handleLogout()" style="display:none; font-size: 0.75rem; color: #64748b; background: none; border: none; cursor: pointer;">退出</button>
+                </div>
+                
+                <!-- 未登录 -->
+                <div id="loginSection">
+                    <p style="color: #64748b; font-size: 0.85rem; margin-bottom: 10px;">未登录</p>
+                    <p id="guestCreditsHint" style="color: #a78bfa; font-size: 0.8rem; margin: -4px 0 12px;">新用户注册登录后赠送 3 次免费 AI 调用</p>
+                    <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+                        <button onclick="showAuthModal()" style="flex: 1; padding: 10px; background: linear-gradient(135deg, #4361ee, #3a0ca3); color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 0.9rem;">登录 / 注册</button>
+                        <button onclick="refreshCredits()" style="padding: 10px 15px; background: transparent; color: #94a3b8; border: 1px solid #334155; border-radius: 8px; cursor: pointer; font-size: 0.9rem;">刷新</button>
+                    </div>
+                </div>
+                
+                <!-- 已登录 -->
+                <div id="userSection" style="display:none; margin-bottom: 15px;">
+                    <span id="userEmail" style="display: block; font-size: 0.9rem; color: #8ecae6; margin-bottom: 5px;"></span>
+                    <span id="userCredits" style="font-size: 0.85rem; color: #a78bfa;">剩余 AI 调用额度: 0</span>
+                </div>
+                
+                <!-- 购买 -->
+                <div style="margin-top: 10px;">
+                    <div style="font-size: 0.7rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">购买</div>
+                    <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 15px;">
+                        <div id="creditsOption" onclick="selectProduct('credits')" style="display: flex; align-items: center; gap: 10px; padding: 12px; background: rgba(255,183,3,0.1); border: 1px solid #ffb703; border-radius: 8px; cursor: pointer;">
+                            <div style="width: 18px; height: 18px; border-radius: 50%; border: 2px solid #ffb703; display: flex; align-items: center; justify-content: center; color: #ffb703; font-size: 11px;">✓</div>
+                            <span style="font-size: 0.9rem; color: #e2e8f0;">点数包：20 次（¥6.6，仅限一次）</span>
+                        </div>
+                        <div id="subscriptionOption" onclick="selectProduct('subscription')" style="display: flex; align-items: center; gap: 10px; padding: 12px; background: rgba(0,0,0,0.3); border: 1px solid #334155; border-radius: 8px; cursor: pointer;">
+                            <div style="width: 18px; height: 18px; border-radius: 50%; border: 2px solid #64748b;"></div>
+                            <span style="font-size: 0.9rem; color: #e2e8f0;">订阅：每月 300 次（¥18.8）</span>
+                        </div>
+                    </div>
+                    <button id="payBtn" onclick="handlePayment()" style="width: 100%; padding: 14px; background: linear-gradient(135deg, #22c55e, #16a34a); color: white; border: none; border-radius: 10px; font-size: 1rem; font-weight: 600; cursor: pointer;">去支付（微信）</button>
+                    <p style="font-size: 0.75rem; color: #64748b; text-align: center; margin-top: 10px;">说明：支付会跳转到微信 H5 收银台。</p>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -1263,7 +1305,173 @@
         return new Date(y, m - 1, d);
     }
 
+    // 免费用户 AI 调用次数限制
+    const FREE_AI_CALLS_LIMIT = 3;
+
+    // 本地额度兜底（部署后 profiles 表可能因 RLS/权限不可写）
+    const LOCAL_CREDITS_PREFIX = 'wxai_credits_';
+
+    function getLocalCreditsKey() {
+        if (!currentAuthUser || !currentAuthUser.id) return null;
+        return `${LOCAL_CREDITS_PREFIX}${currentAuthUser.id}`;
+    }
+
+    function safeParseInt(value, fallback = 0) {
+        const n = parseInt(String(value), 10);
+        return Number.isFinite(n) ? n : fallback;
+    }
+
+    async function getLocalCredits() {
+        const key = getLocalCreditsKey();
+        if (!key) return 0;
+        try {
+            const raw = localStorage.getItem(key);
+            if (raw === null) {
+                localStorage.setItem(key, String(FREE_AI_CALLS_LIMIT));
+                return FREE_AI_CALLS_LIMIT;
+            }
+            return Math.max(0, safeParseInt(raw, 0));
+        } catch (e) {
+            console.warn('localStorage 不可用，无法读取本地额度:', e);
+            return 0;
+        }
+    }
+
+    async function setLocalCredits(credits) {
+        const key = getLocalCreditsKey();
+        if (!key) return;
+        try {
+            localStorage.setItem(key, String(Math.max(0, safeParseInt(credits, 0))));
+        } catch (e) {
+            console.warn('localStorage 不可用，无法写入本地额度:', e);
+        }
+    }
+    
+    // 获取当前用户剩余 AI 调用次数
+    async function getRemainingAICalls() {
+        // 如果未登录，返回 0
+        if (!currentAuthUser) return 0;
+        
+        try {
+            const { data, error } = await supabaseClient
+                .from('profiles')
+                .select('credits')
+                .eq('id', currentAuthUser.id)
+                .single();
+            
+            if (!error && data) return data.credits || 0;
+
+            // 新用户可能尚未写入 profiles（或触发器延迟），尝试创建并重试一次
+            if (typeof ensureUserProfileCredits === 'function') {
+                await ensureUserProfileCredits();
+                const { data: data2, error: error2 } = await supabaseClient
+                    .from('profiles')
+                    .select('credits')
+                    .eq('id', currentAuthUser.id)
+                    .single();
+                if (!error2 && data2) return data2.credits || 0;
+            }
+
+            // Supabase 不可用时，回退到本地额度
+            return await getLocalCredits();
+        } catch (err) {
+            console.error('获取用户点数失败:', err);
+            return await getLocalCredits();
+        }
+    }
+    
+    // 扣除用户 AI 调用次数
+    async function deductAICall() {
+        if (!currentAuthUser) return false;
+        
+        try {
+            // 先获取当前点数
+            const { data: profile, error: fetchError } = await supabaseClient
+                .from('profiles')
+                .select('credits')
+                .eq('id', currentAuthUser.id)
+                .single();
+
+            // 若 profile 不存在，尝试创建并重试一次
+            if ((fetchError || !profile) && typeof ensureUserProfileCredits === 'function') {
+                await ensureUserProfileCredits();
+                const { data: profile2, error: fetchError2 } = await supabaseClient
+                    .from('profiles')
+                    .select('credits')
+                    .eq('id', currentAuthUser.id)
+                    .single();
+                if (fetchError2 || !profile2 || profile2.credits <= 0) return false;
+
+                // 扣除 1 点
+                const { error: updateError2 } = await supabaseClient
+                    .from('profiles')
+                    .update({ credits: profile2.credits - 1 })
+                    .eq('id', currentAuthUser.id);
+                if (updateError2) {
+                    console.error('扣除点数失败:', updateError2);
+                    return false;
+                }
+
+                loadUserCredits();
+                return true;
+            }
+
+            // Supabase 不可用时，回退到本地扣减
+            if (fetchError || !profile) {
+                const localCredits = await getLocalCredits();
+                if (localCredits <= 0) return false;
+                await setLocalCredits(localCredits - 1);
+                loadUserCredits();
+                return true;
+            }
+
+            if (profile.credits <= 0) return false;
+            
+            // 扣除 1 点
+            const { error: updateError } = await supabaseClient
+                .from('profiles')
+                .update({ credits: profile.credits - 1 })
+                .eq('id', currentAuthUser.id);
+            
+            if (updateError) {
+                console.error('扣除点数失败:', updateError);
+                const localCredits = await getLocalCredits();
+                if (localCredits <= 0) return false;
+                await setLocalCredits(localCredits - 1);
+                loadUserCredits();
+                return true;
+            }
+            
+            // 更新 UI 显示
+            loadUserCredits();
+            return true;
+        } catch (err) {
+            console.error('扣除点数失败:', err);
+            const localCredits = await getLocalCredits();
+            if (localCredits <= 0) return false;
+            await setLocalCredits(localCredits - 1);
+            loadUserCredits();
+            return true;
+        }
+    }
+    
     async function callAI(prompt, systemInstruction = "") {
+        // ========== 用户认证和次数检查 ==========
+        
+        // 1. 检查是否登录
+        if (!currentAuthUser) {
+            showAuthModal();
+            return '⚠️ **请先登录**\n\n您需要登录后才能使用 AI 功能。新用户注册后可获得 3 次免费使用机会。';
+        }
+        
+        // 2. 检查剩余次数
+        const remaining = await getRemainingAICalls();
+        if (remaining <= 0) {
+            return '⚠️ **免费次数已用完**\n\n您的 3 次免费 AI 调用机会已用完。\n\n请购买点数包或订阅以继续使用。';
+        }
+        
+        // ========== 调用 AI ==========
+        
         // 構建完整的請求 URL（將問題作為查詢參數）
         const url = new URL(WEBHOOK_URL);
         
@@ -1300,6 +1508,10 @@
                 
                 // Make.com Webhook Response 直接返回文本
                 const aiResponse = await response.text();
+                
+                // ========== AI 调用成功，扣除次数 ==========
+                await deductAICall();
+                
                 return aiResponse || "星象模糊，無法解讀。";
             } catch (error) {
                 console.error("Attempt", i+1, "failed:", error);
@@ -3303,6 +3515,435 @@
     // Initialize records list on page load
     refreshRecordsList(); 
 
+</script>
+
+<!-- 认证模态框 -->
+<div id="authModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.85); z-index:1000; justify-content:center; align-items:center; padding:20px;">
+    <div style="background:linear-gradient(135deg, #0f172a, #1e293b); border:1px solid rgba(100,200,255,0.15); border-radius:16px; width:100%; max-width:380px; overflow:hidden; position:relative;">
+        <button onclick="closeAuthModal()" style="position:absolute; top:12px; right:15px; background:none; border:none; color:#64748b; font-size:24px; cursor:pointer; z-index:10;">&times;</button>
+        
+        <div style="display:flex; border-bottom:1px solid rgba(255,255,255,0.1);">
+            <button id="loginTab" onclick="switchToLogin()" style="flex:1; padding:15px; text-align:center; font-size:1rem; color:#8ecae6; cursor:pointer; background:rgba(142,202,230,0.1); border:none; border-bottom:2px solid #8ecae6;">登录</button>
+            <button id="registerTab" onclick="switchToRegister()" style="flex:1; padding:15px; text-align:center; font-size:1rem; color:#64748b; cursor:pointer; background:transparent; border:none;">注册</button>
+        </div>
+
+        <div id="authCreditsInfo" style="padding: 12px 25px; font-size: 0.85rem; color: #a78bfa; background: rgba(167, 139, 250, 0.08); border-bottom: 1px solid rgba(255,255,255,0.06);">
+            新用户注册登录后赠送 3 次免费 AI 调用
+        </div>
+        
+        <!-- 登录表单 -->
+        <div id="loginForm" style="padding:25px;">
+            <div id="loginError" style="display:none; color:#f87171; font-size:0.85rem; margin-bottom:15px; padding:10px; background:rgba(248,113,113,0.1); border-radius:6px;"></div>
+            <div style="margin-bottom:15px;">
+                <label style="display:block; font-size:0.8rem; color:#94a3b8; margin-bottom:6px; text-transform:uppercase; letter-spacing:1px;">邮箱</label>
+                <input type="email" id="loginEmail" placeholder="请输入邮箱" style="width:100%; padding:12px; background:rgba(0,0,0,0.4); border:1px solid #334155; border-radius:8px; color:#e2e8f0; font-size:16px;">
+            </div>
+            <div style="margin-bottom:15px;">
+                <label style="display:block; font-size:0.8rem; color:#94a3b8; margin-bottom:6px; text-transform:uppercase; letter-spacing:1px;">密码</label>
+                <input type="password" id="loginPassword" placeholder="请输入密码" style="width:100%; padding:12px; background:rgba(0,0,0,0.4); border:1px solid #334155; border-radius:8px; color:#e2e8f0; font-size:16px;">
+            </div>
+            <button id="loginBtn" onclick="handleLogin()" style="width:100%; padding:14px; background:linear-gradient(135deg, #4361ee, #3a0ca3); color:white; border:none; border-radius:10px; font-size:1rem; font-weight:600; cursor:pointer;">登录</button>
+        </div>
+        
+        <!-- 注册表单 -->
+        <div id="registerForm" style="display:none; padding:25px;">
+            <div id="registerError" style="display:none; color:#f87171; font-size:0.85rem; margin-bottom:15px; padding:10px; background:rgba(248,113,113,0.1); border-radius:6px;"></div>
+            <div style="margin-bottom:15px;">
+                <label style="display:block; font-size:0.8rem; color:#94a3b8; margin-bottom:6px; text-transform:uppercase; letter-spacing:1px;">邮箱</label>
+                <input type="email" id="registerEmail" placeholder="请输入邮箱" style="width:100%; padding:12px; background:rgba(0,0,0,0.4); border:1px solid #334155; border-radius:8px; color:#e2e8f0; font-size:16px;">
+            </div>
+            <div style="margin-bottom:15px;">
+                <label style="display:block; font-size:0.8rem; color:#94a3b8; margin-bottom:6px; text-transform:uppercase; letter-spacing:1px;">密码</label>
+                <input type="password" id="registerPassword" placeholder="请输入密码（至少6位）" style="width:100%; padding:12px; background:rgba(0,0,0,0.4); border:1px solid #334155; border-radius:8px; color:#e2e8f0; font-size:16px;">
+            </div>
+            <div style="margin-bottom:15px;">
+                <label style="display:block; font-size:0.8rem; color:#94a3b8; margin-bottom:6px; text-transform:uppercase; letter-spacing:1px;">确认密码</label>
+                <input type="password" id="confirmPassword" placeholder="请再次输入密码" style="width:100%; padding:12px; background:rgba(0,0,0,0.4); border:1px solid #334155; border-radius:8px; color:#e2e8f0; font-size:16px;">
+            </div>
+            <button id="registerBtn" onclick="handleRegister()" style="width:100%; padding:14px; background:linear-gradient(135deg, #4361ee, #3a0ca3); color:white; border:none; border-radius:10px; font-size:1rem; font-weight:600; cursor:pointer;">注册</button>
+        </div>
+    </div>
+</div>
+
+<script>
+// =============================================
+// 问星AI - 用户认证与支付模块 (使用 Supabase JS SDK)
+// =============================================
+
+// Supabase 配置
+const SUPABASE_URL = 'https://fbtohpvudvnetsageeyc.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_1KqQERDJ7u-Ho2MyJgpWpQ__bGXHM3_';
+
+// 初始化 Supabase 客户端
+const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+// Make.com Webhook URLs - 支付功能配置后填入
+const PAYMENT_WEBHOOK_URL = 'YOUR_CREATE_ORDER_WEBHOOK_URL';
+
+let currentAuthUser = null;
+let selectedProductType = 'credits';
+
+// 初始化认证状态
+async function initAuth() {
+    try {
+        const { data: { session } } = await supabaseClient.auth.getSession();
+        if (session && session.user) {
+            currentAuthUser = { id: session.user.id, email: session.user.email };
+            renderAuthUI(true);
+            await ensureUserProfileCredits();
+            loadUserCredits();
+        } else {
+            renderAuthUI(false);
+            updateAuthCreditsInfo();
+        }
+    } catch (e) {
+        console.error('初始化认证失败:', e);
+        renderAuthUI(false);
+        updateAuthCreditsInfo();
+    }
+    
+    // 监听认证状态变化
+    supabaseClient.auth.onAuthStateChange((event, session) => {
+        (async () => {
+            if (session && session.user) {
+                currentAuthUser = { id: session.user.id, email: session.user.email };
+                renderAuthUI(true);
+                await ensureUserProfileCredits();
+                loadUserCredits();
+                updateAuthCreditsInfo();
+            } else {
+                currentAuthUser = null;
+                renderAuthUI(false);
+                updateAuthCreditsInfo();
+            }
+        })().catch(err => console.error('认证状态变化处理失败:', err));
+    });
+}
+
+// 确保用户在 profiles 表中存在，并为新用户写入默认 3 次免费 AI 额度
+async function ensureUserProfileCredits() {
+    if (!currentAuthUser) return;
+
+    try {
+        const { data, error } = await supabaseClient
+            .from('profiles')
+            .select('credits')
+            .eq('id', currentAuthUser.id)
+            .single();
+
+        if (!error && data) {
+            return;
+        }
+
+        // 如果没有 profile，则尝试创建（若库里已有触发器，可能会重复键失败，忽略即可）
+        const { error: insertError } = await supabaseClient
+            .from('profiles')
+            .insert([{ id: currentAuthUser.id, credits: FREE_AI_CALLS_LIMIT }]);
+
+        if (insertError) {
+            const msg = String(insertError.message || '');
+            const lower = msg.toLowerCase();
+            if (!lower.includes('duplicate') && !lower.includes('already exists')) {
+                console.error('创建用户 profile 失败:', insertError);
+            }
+        }
+    } catch (err) {
+        console.error('确保用户 profile 失败:', err);
+    }
+}
+
+async function updateAuthCreditsInfo() {
+    const el = document.getElementById('authCreditsInfo');
+    if (!el) return;
+
+    if (!currentAuthUser) {
+        el.textContent = `新用户注册登录后赠送 ${FREE_AI_CALLS_LIMIT} 次免费 AI 调用`;
+        return;
+    }
+
+    try {
+        const remaining = await getRemainingAICalls();
+        el.textContent = `当前账号剩余 AI 调用额度：${remaining}`;
+    } catch {
+        el.textContent = '当前账号剩余 AI 调用额度：--';
+    }
+}
+
+function renderAuthUI(isLoggedIn) {
+    const loginSection = document.getElementById('loginSection');
+    const userSection = document.getElementById('userSection');
+    const logoutBtn = document.getElementById('logoutBtn');
+    
+    if (isLoggedIn && currentAuthUser) {
+        if (loginSection) loginSection.style.display = 'none';
+        if (userSection) {
+            userSection.style.display = 'block';
+            document.getElementById('userEmail').textContent = currentAuthUser.email;
+        }
+        if (logoutBtn) logoutBtn.style.display = 'block';
+    } else {
+        if (loginSection) loginSection.style.display = 'block';
+        if (userSection) userSection.style.display = 'none';
+        if (logoutBtn) logoutBtn.style.display = 'none';
+    }
+}
+
+// 模态框控制
+function showAuthModal() {
+    document.getElementById('authModal').style.display = 'flex';
+    switchToLogin();
+    updateAuthCreditsInfo();
+}
+
+function closeAuthModal() {
+    document.getElementById('authModal').style.display = 'none';
+}
+
+function switchToLogin() {
+    document.getElementById('loginForm').style.display = 'block';
+    document.getElementById('registerForm').style.display = 'none';
+    document.getElementById('loginTab').style.color = '#8ecae6';
+    document.getElementById('loginTab').style.background = 'rgba(142,202,230,0.1)';
+    document.getElementById('loginTab').style.borderBottom = '2px solid #8ecae6';
+    document.getElementById('registerTab').style.color = '#64748b';
+    document.getElementById('registerTab').style.background = 'transparent';
+    document.getElementById('registerTab').style.borderBottom = 'none';
+}
+
+function switchToRegister() {
+    document.getElementById('loginForm').style.display = 'none';
+    document.getElementById('registerForm').style.display = 'block';
+    document.getElementById('registerTab').style.color = '#8ecae6';
+    document.getElementById('registerTab').style.background = 'rgba(142,202,230,0.1)';
+    document.getElementById('registerTab').style.borderBottom = '2px solid #8ecae6';
+    document.getElementById('loginTab').style.color = '#64748b';
+    document.getElementById('loginTab').style.background = 'transparent';
+    document.getElementById('loginTab').style.borderBottom = 'none';
+}
+
+// 用户注册 (使用 Supabase SDK)
+async function handleRegister() {
+    const email = document.getElementById('registerEmail').value.trim();
+    const password = document.getElementById('registerPassword').value;
+    const confirmPwd = document.getElementById('confirmPassword').value;
+    const errorEl = document.getElementById('registerError');
+    const btn = document.getElementById('registerBtn');
+    
+    if (!email || !password) { showAuthError(errorEl, '请填写邮箱和密码'); return; }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { showAuthError(errorEl, '请输入有效的邮箱地址'); return; }
+    if (password.length < 6) { showAuthError(errorEl, '密码至少需要6位'); return; }
+    if (password !== confirmPwd) { showAuthError(errorEl, '两次密码输入不一致'); return; }
+    
+    btn.disabled = true;
+    btn.textContent = '注册中...';
+    
+    try {
+        const { data, error } = await supabaseClient.auth.signUp({
+            email: email,
+            password: password
+        });
+        
+        if (error) {
+            showAuthError(errorEl, error.message || '注册失败');
+        } else if (data.user) {
+            // 检查是否需要邮箱验证
+            if (data.user.identities && data.user.identities.length === 0) {
+                // 用户已存在
+                showAuthError(errorEl, '该邮箱已被注册，请直接登录');
+            } else if (data.session === null) {
+                // 需要邮箱验证
+                closeAuthModal();
+                showToast('注册成功！请查收邮箱并点击验证链接');
+                alert('注册成功！\n\n我们已向 ' + email + ' 发送了一封验证邮件。\n请查收邮箱并点击邮件中的链接完成验证。\n\n提示：如果没有收到，请检查垃圾邮件文件夹。');
+            } else {
+                // 直接登录成功（邮箱验证已关闭的情况）
+                currentAuthUser = { id: data.user.id, email: data.user.email };
+                closeAuthModal();
+                renderAuthUI(true);
+                showToast('注册成功！欢迎使用问星AI');
+                await ensureUserProfileCredits();
+                loadUserCredits();
+            }
+        }
+    } catch (err) {
+        console.error('注册错误:', err);
+        showAuthError(errorEl, '网络错误，请稍后重试');
+    } finally {
+        btn.disabled = false;
+        btn.textContent = '注册';
+    }
+}
+
+// 用户登录 (使用 Supabase SDK)
+async function handleLogin() {
+    const email = document.getElementById('loginEmail').value.trim();
+    const password = document.getElementById('loginPassword').value;
+    const errorEl = document.getElementById('loginError');
+    const btn = document.getElementById('loginBtn');
+    
+    if (!email || !password) { showAuthError(errorEl, '请填写邮箱和密码'); return; }
+    
+    btn.disabled = true;
+    btn.textContent = '登录中...';
+    
+    try {
+        const { data, error } = await supabaseClient.auth.signInWithPassword({
+            email: email,
+            password: password
+        });
+        
+        if (error) {
+            showAuthError(errorEl, error.message || '登录失败，请检查邮箱和密码');
+        } else if (data.user) {
+            currentAuthUser = { id: data.user.id, email: data.user.email };
+            closeAuthModal();
+            renderAuthUI(true);
+            showToast('登录成功！');
+            await ensureUserProfileCredits();
+            loadUserCredits();
+            updateAuthCreditsInfo();
+        }
+    } catch (err) {
+        console.error('登录错误:', err);
+        showAuthError(errorEl, '网络错误，请稍后重试');
+    } finally {
+        btn.disabled = false;
+        btn.textContent = '登录';
+    }
+}
+
+// 登出 (使用 Supabase SDK)
+async function handleLogout() {
+    try {
+        await supabaseClient.auth.signOut();
+        currentAuthUser = null;
+        renderAuthUI(false);
+        showToast('已退出登录');
+    } catch (err) {
+        console.error('登出错误:', err);
+        showToast('退出失败，请重试');
+    }
+}
+
+// 获取用户点数 (使用 Supabase SDK)
+async function loadUserCredits() {
+    if (!currentAuthUser) return;
+    
+    try {
+        const { data, error } = await supabaseClient
+            .from('profiles')
+            .select('credits')
+            .eq('id', currentAuthUser.id)
+            .single();
+        
+        if (error) {
+            console.error('获取点数失败:', error);
+            const credits = (typeof getLocalCredits === 'function') ? await getLocalCredits() : 0;
+            const creditsEl = document.getElementById('userCredits');
+            if (creditsEl) {
+                creditsEl.textContent = `剩余 AI 调用额度: ${credits}`;
+            }
+
+            const authCreditsEl = document.getElementById('authCreditsInfo');
+            if (authCreditsEl) {
+                authCreditsEl.textContent = `当前账号剩余 AI 调用额度：${credits}`;
+            }
+            return;
+        }
+        
+        const credits = data?.credits || 0;
+        const creditsEl = document.getElementById('userCredits');
+        if (creditsEl) {
+            creditsEl.textContent = `剩余 AI 调用额度: ${credits}`;
+        }
+
+        const authCreditsEl = document.getElementById('authCreditsInfo');
+        if (authCreditsEl) {
+            authCreditsEl.textContent = `当前账号剩余 AI 调用额度：${credits}`;
+        }
+    } catch (err) { 
+        console.error('获取点数失败:', err);
+        const credits = (typeof getLocalCredits === 'function') ? await getLocalCredits() : 0;
+        const creditsEl = document.getElementById('userCredits');
+        if (creditsEl) {
+            creditsEl.textContent = `剩余 AI 调用额度: ${credits}`;
+        }
+
+        const authCreditsEl = document.getElementById('authCreditsInfo');
+        if (authCreditsEl) {
+            authCreditsEl.textContent = `当前账号剩余 AI 调用额度：${credits}`;
+        }
+    }
+}
+
+function refreshCredits() {
+    loadUserCredits();
+    showToast('已刷新');
+}
+
+// 产品选择
+function selectProduct(type) {
+    selectedProductType = type;
+    const creditsOpt = document.getElementById('creditsOption');
+    const subOpt = document.getElementById('subscriptionOption');
+    
+    if (type === 'credits') {
+        creditsOpt.style.background = 'rgba(255,183,3,0.1)';
+        creditsOpt.style.borderColor = '#ffb703';
+        creditsOpt.querySelector('div').style.borderColor = '#ffb703';
+        creditsOpt.querySelector('div').style.color = '#ffb703';
+        creditsOpt.querySelector('div').textContent = '✓';
+        subOpt.style.background = 'rgba(0,0,0,0.3)';
+        subOpt.style.borderColor = '#334155';
+        subOpt.querySelector('div').style.borderColor = '#64748b';
+        subOpt.querySelector('div').textContent = '';
+    } else {
+        subOpt.style.background = 'rgba(255,183,3,0.1)';
+        subOpt.style.borderColor = '#ffb703';
+        subOpt.querySelector('div').style.borderColor = '#ffb703';
+        subOpt.querySelector('div').style.color = '#ffb703';
+        subOpt.querySelector('div').textContent = '✓';
+        creditsOpt.style.background = 'rgba(0,0,0,0.3)';
+        creditsOpt.style.borderColor = '#334155';
+        creditsOpt.querySelector('div').style.borderColor = '#64748b';
+        creditsOpt.querySelector('div').textContent = '';
+    }
+}
+
+// 支付
+async function handlePayment() {
+    if (!currentAuthUser) {
+        showAuthModal();
+        return;
+    }
+    
+    // 支付功能待配置 Make.com 后启用
+    showToast('支付功能即将上线，请联系管理员');
+}
+
+// 工具函数
+function showAuthError(el, msg) {
+    if (el) {
+        el.textContent = msg;
+        el.style.display = 'block';
+        setTimeout(() => { el.style.display = 'none'; }, 5000);
+    }
+}
+
+function showToast(msg) {
+    const toast = document.createElement('div');
+    toast.textContent = msg;
+    toast.style.cssText = 'position:fixed; bottom:100px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.85); color:white; padding:12px 24px; border-radius:8px; z-index:9999; font-size:14px;';
+    document.body.appendChild(toast);
+    setTimeout(() => document.body.removeChild(toast), 2500);
+}
+
+// 页面加载完成后初始化
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initAuth);
+} else {
+    initAuth();
+}
 </script>
 </body>
 </html>
