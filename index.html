@@ -1308,12 +1308,63 @@
     // 免费用户 AI 调用次数限制
     const FREE_AI_CALLS_LIMIT = 3;
 
+    // Supabase RPC（配合你提供的修正版 SQL）
+    const RPC_GET_MY_CREDITS = 'get_my_credits';
+    const RPC_DEDUCT_MY_CREDIT = 'deduct_my_credit';
+
     // 本地额度兜底（部署后 profiles 表可能因 RLS/权限不可写）
     const LOCAL_CREDITS_PREFIX = 'wxai_credits_';
+    const LOCAL_FREE_GRANTED_PREFIX = 'wxai_free_granted_';
+    const LOCAL_USE_LOCAL_CREDITS_PREFIX = 'wxai_use_local_credits_';
 
     function getLocalCreditsKey() {
         if (!currentAuthUser || !currentAuthUser.id) return null;
         return `${LOCAL_CREDITS_PREFIX}${currentAuthUser.id}`;
+    }
+
+    function getLocalFlagKey(prefix) {
+        if (!currentAuthUser || !currentAuthUser.id) return null;
+        return `${prefix}${currentAuthUser.id}`;
+    }
+
+    function shouldUseLocalCredits() {
+        const key = getLocalFlagKey(LOCAL_USE_LOCAL_CREDITS_PREFIX);
+        if (!key) return false;
+        try {
+            return localStorage.getItem(key) === '1';
+        } catch {
+            return false;
+        }
+    }
+
+    function setUseLocalCreditsFlag(value) {
+        const key = getLocalFlagKey(LOCAL_USE_LOCAL_CREDITS_PREFIX);
+        if (!key) return;
+        try {
+            localStorage.setItem(key, value ? '1' : '0');
+        } catch {
+            // ignore
+        }
+    }
+
+    function hasGrantedFreeCredits() {
+        const key = getLocalFlagKey(LOCAL_FREE_GRANTED_PREFIX);
+        if (!key) return false;
+        try {
+            return localStorage.getItem(key) === '1';
+        } catch {
+            return false;
+        }
+    }
+
+    function markFreeCreditsGranted() {
+        const key = getLocalFlagKey(LOCAL_FREE_GRANTED_PREFIX);
+        if (!key) return;
+        try {
+            localStorage.setItem(key, '1');
+        } catch {
+            // ignore
+        }
     }
 
     function safeParseInt(value, fallback = 0) {
@@ -1351,31 +1402,33 @@
     async function getRemainingAICalls() {
         // 如果未登录，返回 0
         if (!currentAuthUser) return 0;
+
+        // 若已进入“本地额度模式”，直接读本地额度
+        if (shouldUseLocalCredits()) {
+            return await getLocalCredits();
+        }
         
         try {
-            const { data, error } = await supabaseClient
-                .from('profiles')
-                .select('credits')
-                .eq('id', currentAuthUser.id)
-                .single();
-            
-            if (!error && data) return data.credits || 0;
-
-            // 新用户可能尚未写入 profiles（或触发器延迟），尝试创建并重试一次
-            if (typeof ensureUserProfileCredits === 'function') {
-                await ensureUserProfileCredits();
-                const { data: data2, error: error2 } = await supabaseClient
-                    .from('profiles')
-                    .select('credits')
-                    .eq('id', currentAuthUser.id)
-                    .single();
-                if (!error2 && data2) return data2.credits || 0;
+            const { data, error } = await supabaseClient.rpc(RPC_GET_MY_CREDITS);
+            if (!error && data !== null && data !== undefined) {
+                return Number(data) || 0;
             }
 
-            // Supabase 不可用时，回退到本地额度
+            // profiles 触发器可能尚未落库，稍等后重试一次
+            await new Promise(r => setTimeout(r, 250));
+            const { data: data2, error: error2 } = await supabaseClient.rpc(RPC_GET_MY_CREDITS);
+            if (!error2 && data2 !== null && data2 !== undefined) {
+                return Number(data2) || 0;
+            }
+
+            // RPC 不可用：切到本地额度模式兜底
+            if (error || error2) {
+                setUseLocalCreditsFlag(true);
+            }
             return await getLocalCredits();
         } catch (err) {
             console.error('获取用户点数失败:', err);
+            setUseLocalCreditsFlag(true);
             return await getLocalCredits();
         }
     }
@@ -1383,70 +1436,39 @@
     // 扣除用户 AI 调用次数
     async function deductAICall() {
         if (!currentAuthUser) return false;
+
+        // 若已进入“本地额度模式”，直接扣本地额度
+        if (shouldUseLocalCredits()) {
+            const localCredits = await getLocalCredits();
+            if (localCredits <= 0) return false;
+            await setLocalCredits(localCredits - 1);
+            loadUserCredits();
+            return true;
+        }
         
         try {
-            // 先获取当前点数
-            const { data: profile, error: fetchError } = await supabaseClient
-                .from('profiles')
-                .select('credits')
-                .eq('id', currentAuthUser.id)
-                .single();
-
-            // 若 profile 不存在，尝试创建并重试一次
-            if ((fetchError || !profile) && typeof ensureUserProfileCredits === 'function') {
-                await ensureUserProfileCredits();
-                const { data: profile2, error: fetchError2 } = await supabaseClient
-                    .from('profiles')
-                    .select('credits')
-                    .eq('id', currentAuthUser.id)
-                    .single();
-                if (fetchError2 || !profile2 || profile2.credits <= 0) return false;
-
-                // 扣除 1 点
-                const { error: updateError2 } = await supabaseClient
-                    .from('profiles')
-                    .update({ credits: profile2.credits - 1 })
-                    .eq('id', currentAuthUser.id);
-                if (updateError2) {
-                    console.error('扣除点数失败:', updateError2);
-                    return false;
-                }
-
+            const { data, error } = await supabaseClient.rpc(RPC_DEDUCT_MY_CREDIT);
+            if (!error) {
                 loadUserCredits();
                 return true;
             }
 
-            // Supabase 不可用时，回退到本地扣减
-            if (fetchError || !profile) {
-                const localCredits = await getLocalCredits();
-                if (localCredits <= 0) return false;
-                await setLocalCredits(localCredits - 1);
-                loadUserCredits();
-                return true;
+            // RPC 里我们会 raise 'NO_CREDITS'
+            if (String(error.message || '').includes('NO_CREDITS')) {
+                return false;
             }
 
-            if (profile.credits <= 0) return false;
-            
-            // 扣除 1 点
-            const { error: updateError } = await supabaseClient
-                .from('profiles')
-                .update({ credits: profile.credits - 1 })
-                .eq('id', currentAuthUser.id);
-            
-            if (updateError) {
-                console.error('扣除点数失败:', updateError);
-                const localCredits = await getLocalCredits();
-                if (localCredits <= 0) return false;
-                await setLocalCredits(localCredits - 1);
-                loadUserCredits();
-                return true;
-            }
-            
-            // 更新 UI 显示
+            // 其他错误（多半是 RLS/权限/网络）：切到本地额度模式兜底
+            console.error('扣除点数失败:', error);
+            setUseLocalCreditsFlag(true);
+            const localCredits = await getLocalCredits();
+            if (localCredits <= 0) return false;
+            await setLocalCredits(localCredits - 1);
             loadUserCredits();
             return true;
         } catch (err) {
             console.error('扣除点数失败:', err);
+            setUseLocalCreditsFlag(true);
             const localCredits = await getLocalCredits();
             if (localCredits <= 0) return false;
             await setLocalCredits(localCredits - 1);
@@ -3620,35 +3642,34 @@ async function initAuth() {
     });
 }
 
-// 确保用户在 profiles 表中存在，并为新用户写入默认 3 次免费 AI 额度
+// 确保额度机制可用：优先走 RPC（数据库为准），RPC 不可用则使用本地额度兜底
 async function ensureUserProfileCredits() {
     if (!currentAuthUser) return;
 
     try {
-        const { data, error } = await supabaseClient
-            .from('profiles')
-            .select('credits')
-            .eq('id', currentAuthUser.id)
-            .single();
-
-        if (!error && data) {
+        // 若明确进入本地额度模式，保证本地额度已初始化
+        if (shouldUseLocalCredits()) {
+            await getLocalCredits();
             return;
         }
 
-        // 如果没有 profile，则尝试创建（若库里已有触发器，可能会重复键失败，忽略即可）
-        const { error: insertError } = await supabaseClient
-            .from('profiles')
-            .insert([{ id: currentAuthUser.id, credits: FREE_AI_CALLS_LIMIT }]);
+        // 探测 RPC 是否可用（同时也能触发触发器落库后读取到额度）
+        const { data, error } = await supabaseClient.rpc(RPC_GET_MY_CREDITS);
+        if (!error && data !== null && data !== undefined) {
+            return;
+        }
 
-        if (insertError) {
-            const msg = String(insertError.message || '');
-            const lower = msg.toLowerCase();
-            if (!lower.includes('duplicate') && !lower.includes('already exists')) {
-                console.error('创建用户 profile 失败:', insertError);
-            }
+        // RPC 不可用：切本地兜底
+        if (error) {
+            console.error('额度 RPC 不可用，切本地兜底:', error);
+            setUseLocalCreditsFlag(true);
+            await getLocalCredits();
         }
     } catch (err) {
         console.error('确保用户 profile 失败:', err);
+        // Supabase/RPC 异常：切到本地额度模式兜底
+        setUseLocalCreditsFlag(true);
+        await getLocalCredits();
     }
 }
 
@@ -3828,16 +3849,28 @@ async function handleLogout() {
 // 获取用户点数 (使用 Supabase SDK)
 async function loadUserCredits() {
     if (!currentAuthUser) return;
+
+    // 本地额度模式：直接显示本地剩余额度
+    if (typeof shouldUseLocalCredits === 'function' && shouldUseLocalCredits()) {
+        const credits = (typeof getLocalCredits === 'function') ? await getLocalCredits() : 0;
+        const creditsEl = document.getElementById('userCredits');
+        if (creditsEl) {
+            creditsEl.textContent = `剩余 AI 调用额度: ${credits}`;
+        }
+
+        const authCreditsEl = document.getElementById('authCreditsInfo');
+        if (authCreditsEl) {
+            authCreditsEl.textContent = `当前账号剩余 AI 调用额度：${credits}`;
+        }
+        return;
+    }
     
     try {
-        const { data, error } = await supabaseClient
-            .from('profiles')
-            .select('credits')
-            .eq('id', currentAuthUser.id)
-            .single();
+        const { data, error } = await supabaseClient.rpc(RPC_GET_MY_CREDITS);
         
         if (error) {
             console.error('获取点数失败:', error);
+            setUseLocalCreditsFlag(true);
             const credits = (typeof getLocalCredits === 'function') ? await getLocalCredits() : 0;
             const creditsEl = document.getElementById('userCredits');
             if (creditsEl) {
@@ -3850,8 +3883,20 @@ async function loadUserCredits() {
             }
             return;
         }
-        
-        const credits = data?.credits || 0;
+
+        // data 可能为 null（触发器尚未写入），稍等后重试一次
+        let credits = (data !== null && data !== undefined) ? (Number(data) || 0) : null;
+        if (credits === null) {
+            await new Promise(r => setTimeout(r, 250));
+            const { data: data2, error: error2 } = await supabaseClient.rpc(RPC_GET_MY_CREDITS);
+            if (error2) {
+                console.error('获取点数失败:', error2);
+                setUseLocalCreditsFlag(true);
+                credits = (typeof getLocalCredits === 'function') ? await getLocalCredits() : 0;
+            } else {
+                credits = (data2 !== null && data2 !== undefined) ? (Number(data2) || 0) : 0;
+            }
+        }
         const creditsEl = document.getElementById('userCredits');
         if (creditsEl) {
             creditsEl.textContent = `剩余 AI 调用额度: ${credits}`;
@@ -3863,6 +3908,7 @@ async function loadUserCredits() {
         }
     } catch (err) { 
         console.error('获取点数失败:', err);
+        setUseLocalCreditsFlag(true);
         const credits = (typeof getLocalCredits === 'function') ? await getLocalCredits() : 0;
         const creditsEl = document.getElementById('userCredits');
         if (creditsEl) {
