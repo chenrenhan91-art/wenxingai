@@ -72,6 +72,9 @@
             color: #ffffff;
             overflow-x: hidden;
             margin: 0;
+            /* 微信端与移动端防回弹、防卡顿优化 */
+            overscroll-behavior-y: none;
+            -webkit-overflow-scrolling: touch;
         }
 
         /* 3D 背景容器 */
@@ -135,7 +138,12 @@
             animation: spin 20s linear infinite;
         }
         
-        /* 交互式发光按钮 */
+        /* 交互式发光按钮/元素 */
+        .interactive-trigger {
+            touch-action: manipulation; /* 移除移动端300ms点击延迟 */
+            -webkit-tap-highlight-color: transparent; /* 移除微信端默认的灰色点击高亮 */
+        }
+
         .btn-cyber {
             position: relative;
             overflow: hidden;
@@ -393,10 +401,14 @@
         const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 2000);
         camera.position.z = 800;
 
+        // 判断是否为移动端 (优化微信端性能核心逻辑)
+        const isMobile = window.innerWidth < 768;
+
         // 渲染器
-        const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+        const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: !isMobile }); // 移动端关闭抗锯齿提升帧率
         renderer.setSize(window.innerWidth, window.innerHeight);
-        renderer.setPixelRatio(window.devicePixelRatio);
+        // 限制移动端最高设备像素比为 1.5，极大地降低 GPU 压力防止发热卡顿
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, isMobile ? 1.5 : 2));
         container.appendChild(renderer.domElement);
 
         // 粒子系统：构建庞大星系
@@ -413,8 +425,8 @@
             new THREE.Color(0x4f46e5)
         ];
 
-        // 生成 8000 颗星星
-        const starCount = 8000;
+        // 动态计算星星数量：移动端大幅减少粒子数量以保证微信流畅运行
+        const starCount = isMobile ? 2500 : 8000;
         for (let i = 0; i < starCount; i++) {
             // 在3D空间中随机分布
             const x = (Math.random() - 0.5) * 3000;
@@ -461,10 +473,13 @@
             renderer.setSize(window.innerWidth, window.innerHeight);
         });
 
-        // 给所有卡片和按钮绑定“曲率引擎”加速事件
+        // 给所有卡片和按钮绑定“曲率引擎”加速事件 (增加微信端触摸支持)
         document.querySelectorAll('.interactive-trigger').forEach(el => {
             el.addEventListener('mouseenter', () => isWarping = true);
             el.addEventListener('mouseleave', () => isWarping = false);
+            // 移动端触摸按下时触发加速，松开后延迟恢复
+            el.addEventListener('touchstart', () => isWarping = true, { passive: true });
+            el.addEventListener('touchend', () => { setTimeout(() => isWarping = false, 300); }, { passive: true });
         });
 
         // --- 动画渲染循环 ---
@@ -515,41 +530,44 @@
         // ==========================================
         // 核心功能卡片：3D 悬浮倾斜与动态光晕追踪特效
         // ==========================================
-        const cards = document.querySelectorAll('.glass-card');
-        
-        cards.forEach(card => {
-            card.addEventListener('mousemove', (e) => {
-                // 获取卡片的位置和尺寸
-                const rect = card.getBoundingClientRect();
-                const x = e.clientX - rect.left;
-                const y = e.clientY - rect.top;
-                
-                // 注入光晕位置变量
-                card.style.setProperty('--mouse-x', `${x}px`);
-                card.style.setProperty('--mouse-y', `${y}px`);
-                
-                // 计算 3D 倾斜角度 (中心点为0，向边缘递增，最大倾斜10度)
-                const centerX = rect.width / 2;
-                const centerY = rect.height / 2;
-                const rotateX = ((y - centerY) / centerY) * -10;
-                const rotateY = ((x - centerX) / centerX) * 10;
-                
-                // 应用 3D 变换
-                card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
-                card.style.transition = 'none'; // 移除默认过渡以实现顺滑的实时追踪
-            });
+        // 仅在支持鼠标悬停的设备(PC)上开启卡片重力感应，避免移动端滚动时触发大量计算导致微信卡顿
+        if (window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
+            const cards = document.querySelectorAll('.glass-card');
             
-            card.addEventListener('mouseleave', () => {
-                // 移出时恢复原始状态，并加入弹性动画
-                card.style.transform = `perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`;
-                card.style.transition = 'transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+            cards.forEach(card => {
+                card.addEventListener('mousemove', (e) => {
+                    // 获取卡片的位置和尺寸
+                    const rect = card.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    
+                    // 注入光晕位置变量
+                    card.style.setProperty('--mouse-x', `${x}px`);
+                    card.style.setProperty('--mouse-y', `${y}px`);
+                    
+                    // 计算 3D 倾斜角度 (中心点为0，向边缘递增，最大倾斜10度)
+                    const centerX = rect.width / 2;
+                    const centerY = rect.height / 2;
+                    const rotateX = ((y - centerY) / centerY) * -10;
+                    const rotateY = ((x - centerX) / centerX) * 10;
+                    
+                    // 应用 3D 变换
+                    card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
+                    card.style.transition = 'none'; // 移除默认过渡以实现顺滑的实时追踪
+                });
+                
+                card.addEventListener('mouseleave', () => {
+                    // 移出时恢复原始状态，并加入弹性动画
+                    card.style.transform = `perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`;
+                    card.style.transition = 'transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+                });
+                
+                card.addEventListener('mouseenter', () => {
+                    // 进入时重置过渡
+                    card.style.transition = 'transform 0.1s';
+                });
             });
-            
-            card.addEventListener('mouseenter', () => {
-                // 进入时重置过渡
-                card.style.transition = 'transform 0.1s';
-            });
-        });
+        }
 
     </script>
 </body>
