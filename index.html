@@ -9,7 +9,7 @@
     <meta name="keywords" content="问星AI, AI算命, 玄学大模型, AI命理, 八字排盘软件, 智能解卦, 算命APP, 命运全息宇宙, AI合盘, AIcoding, 科技风水">
     <meta name="author" content="AIcoding">
     <meta name="robots" content="index, follow">
-    <!-- 规范化链接，防止权重分散 -->
+    <!-- 规范化链接，防止权重分散 -->   
     <link rel="canonical" href="https://karmaisacat.top/">
     
     <!-- Open Graph / 社交媒体分享增强 -->
@@ -455,10 +455,54 @@
         const particles = new THREE.Points(geometry, material);
         scene.add(particles);
 
+        // --- 增强：连续星辰穿梭光轨 (Warp Streaks) ---
+        const lineCount = isMobile ? 150 : 400; // 光轨数量
+        const lineGeo = new THREE.BufferGeometry();
+        const linePos = new Float32Array(lineCount * 6); // 每条线2个顶点，每个顶点3个坐标
+        const lineVels = new Float32Array(lineCount); // 存储每条光轨的独立飞行速度
+        
+        // 神秘宇宙光轨颜色池
+        const streakColors = [new THREE.Color(0x06b6d4), new THREE.Color(0xa855f7), new THREE.Color(0x38bdf8)];
+        const lineColors = new Float32Array(lineCount * 6);
+
+        for (let i = 0; i < lineCount; i++) {
+            const x = (Math.random() - 0.5) * 3000;
+            const y = (Math.random() - 0.5) * 3000;
+            const z = (Math.random() - 0.5) * 4000 - 1000;
+            const length = Math.random() * 100 + 50; // 拖尾长度
+            
+            // 起点
+            linePos[i * 6] = x;
+            linePos[i * 6 + 1] = y;
+            linePos[i * 6 + 2] = z;
+            // 终点
+            linePos[i * 6 + 3] = x;
+            linePos[i * 6 + 4] = y;
+            linePos[i * 6 + 5] = z + length;
+            
+            lineVels[i] = Math.random() * 25 + 15; // 持续的高速穿梭速度
+            
+            const color = streakColors[Math.floor(Math.random() * streakColors.length)];
+            lineColors[i * 6] = color.r; lineColors[i * 6 + 1] = color.g; lineColors[i * 6 + 2] = color.b;
+            lineColors[i * 6 + 3] = color.r; lineColors[i * 6 + 4] = color.g; lineColors[i * 6 + 5] = color.b;
+        }
+        
+        lineGeo.setAttribute('position', new THREE.BufferAttribute(linePos, 3));
+        lineGeo.setAttribute('color', new THREE.BufferAttribute(lineColors, 3));
+        
+        const lineMat = new THREE.LineBasicMaterial({
+            vertexColors: true,
+            transparent: true,
+            opacity: 0.6,
+            blending: THREE.AdditiveBlending,
+            depthWrite: false
+        });
+        const streaks = new THREE.LineSegments(lineGeo, lineMat);
+        scene.add(streaks);
+
         // --- 交互系统变量 ---
         let mouseX = 0;
         let mouseY = 0;
-        let isWarping = false; // 是否进入曲率加速（Hover 状态）
         
         // 监听鼠标移动产生 3D 视差
         document.addEventListener('mousemove', (event) => {
@@ -473,15 +517,6 @@
             renderer.setSize(window.innerWidth, window.innerHeight);
         });
 
-        // 给所有卡片和按钮绑定“曲率引擎”加速事件 (增加微信端触摸支持)
-        document.querySelectorAll('.interactive-trigger').forEach(el => {
-            el.addEventListener('mouseenter', () => isWarping = true);
-            el.addEventListener('mouseleave', () => isWarping = false);
-            // 移动端触摸按下时触发加速，松开后延迟恢复
-            el.addEventListener('touchstart', () => isWarping = true, { passive: true });
-            el.addEventListener('touchend', () => { setTimeout(() => isWarping = false, 300); }, { passive: true });
-        });
-
         // --- 动画渲染循环 ---
         function animate() {
             requestAnimationFrame(animate);
@@ -489,38 +524,45 @@
             // 1. 基础宇宙缓慢自转
             particles.rotation.y += 0.0005;
             particles.rotation.x += 0.0002;
+            
+            // 光轨跟随宇宙自转
+            streaks.rotation.y += 0.0005;
+            streaks.rotation.x += 0.0002;
 
             // 2. 鼠标视差：相机跟随鼠标平滑移动
             camera.position.x += (mouseX - camera.position.x) * 0.02;
             camera.position.y += (-mouseY - camera.position.y) * 0.02;
             camera.lookAt(scene.position);
 
-            // 3. 悬停“曲率加速 (Warp Drive)” 核心特效
+            // 3. 永久持续的“曲率穿梭”特效
+            // 固定较宽的 FOV（视野）来增强空间冲刺感
+            camera.fov = 95;
+            camera.updateProjectionMatrix();
+
+            // 基础点状星星 Z轴持续高速飞向相机
             const positions = particles.geometry.attributes.position.array;
-            
-            if (isWarping) {
-                // FOV（视野）拉伸，产生冲刺感
-                camera.fov += (110 - camera.fov) * 0.05;
-                camera.updateProjectionMatrix();
+            for(let i = 2; i < starCount * 3; i += 3) {
+                positions[i] += 10; 
+                if(positions[i] > 1000) positions[i] = -2000; // 穿出屏幕后重置到深空
+            }
+            particles.geometry.attributes.position.needsUpdate = true;
 
-                // 星星Z轴飞速冲向相机
-                for(let i = 2; i < starCount * 3; i += 3) {
-                    positions[i] += 15; 
-                    if(positions[i] > 1000) positions[i] = -1500; // 穿出屏幕后重置到深空
-                }
-            } else {
-                // 恢复正常 FOV
-                camera.fov += (75 - camera.fov) * 0.05;
-                camera.updateProjectionMatrix();
-
-                // 星星恢复平缓流动
-                for(let i = 2; i < starCount * 3; i += 3) {
-                    positions[i] += 0.5; 
-                    if(positions[i] > 1000) positions[i] = -1500;
+            // 光轨（Streaks）超高速穿梭动画
+            const linePositions = streaks.geometry.attributes.position.array;
+            for(let i = 0; i < lineCount; i++) {
+                // 同时更新线段的起点和终点 Z 坐标
+                linePositions[i * 6 + 2] += lineVels[i];
+                linePositions[i * 6 + 5] += lineVels[i];
+                
+                // 如果光轨飞出相机背后，则在极远处重新生成
+                if(linePositions[i * 6 + 2] > 1000) {
+                    const z = -2000 - Math.random() * 1000;
+                    const length = Math.random() * 100 + 50;
+                    linePositions[i * 6 + 2] = z;
+                    linePositions[i * 6 + 5] = z + length;
                 }
             }
-            // 通知 WebGL 更新粒子位置
-            particles.geometry.attributes.position.needsUpdate = true;
+            streaks.geometry.attributes.position.needsUpdate = true;
 
             renderer.render(scene, camera);
         }
