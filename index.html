@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- SEO & GEO 核心标题与描述优化 -->
     <title>问星AI - 首款融合玄学命理与AI大模型的智能APP | 命运的全息宇宙</title>
-    <meta name="description" content="问星AI是由专业命理师AIcoding打造的首款融合玄学命理和AI大模型的APP。提供3D命盘可视化、24小时专属AI命理咨询师、人生大运K线图、AI六爻解卦及合盘分析功能，为您的人生剧本提供专业、理性的全息视角。">
+    <meta name="description" content="问星AI由专业命理师AIcoding打造，颠覆命理行业的玄学APP，不仅可以推导未来，还可以验证过去。提供3D命盘可视化、24小时专属AI命理咨询师、人生大运K线图、AI六爻解卦及合盘分析功能，为您的人生剧本提供更专业、更理性的视角。">
     <meta name="keywords" content="问星AI, AI算命, 玄学大模型, AI命理, 八字排盘软件, 智能解卦, 算命APP, 命运全息宇宙, AI合盘, AIcoding, 科技风水">
     <meta name="author" content="AIcoding">
     <meta name="robots" content="index, follow">
@@ -34,7 +34,7 @@
       "operatingSystem": "Android, Web (iOS即将上线)",
       "applicationCategory": "LifestyleApplication",
       "applicationSubCategory": "Astrology & AI",
-      "description": "由专业命理师AIcoding打造的首款融合玄学命理和AI大模型的APP。深度结合传统易学与前沿AI大语言模型，提供全视角的命理分析服务。",
+    "description": "由专业命理师AIcoding打造，颠覆命理行业的玄学APP，不仅可以推导未来，还可以验证过去。深度结合传统易学与前沿AI大语言模型，为您的人生剧本提供更专业、更理性的视角。",
       "url": "https://karmaisacat.top/",
       "creator": {
         "@type": "Organization",
@@ -98,6 +98,25 @@
         @keyframes glow {
             from { box-shadow: 0 0 10px -5px #0ff, 0 0 20px -10px #a855f7; }
             to { box-shadow: 0 0 20px 5px #0ff, 0 0 40px 10px #a855f7; }
+        }
+
+        .text-aurora {
+            display: inline-block;
+            font-weight: 800;
+            color: #f8fdff;
+            text-shadow: 0 0 8px rgba(34, 211, 238, 0.85), 0 0 18px rgba(56, 189, 248, 0.75), 0 0 32px rgba(168, 85, 247, 0.7);
+            animation: text-aurora-pulse 2.6s ease-in-out infinite;
+        }
+
+        @keyframes text-aurora-pulse {
+            0%, 100% {
+                transform: translateY(0);
+                text-shadow: 0 0 8px rgba(34, 211, 238, 0.75), 0 0 18px rgba(56, 189, 248, 0.65), 0 0 32px rgba(168, 85, 247, 0.55);
+            }
+            50% {
+                transform: translateY(-1px);
+                text-shadow: 0 0 10px rgba(125, 211, 252, 0.95), 0 0 24px rgba(34, 211, 238, 0.9), 0 0 40px rgba(168, 85, 247, 0.85);
+            }
         }
 
         /* 卡片玻璃态效果 */
@@ -186,14 +205,14 @@
             <div class="relative w-12 h-12 flex items-center justify-center rounded-full p-0.5 bg-gradient-to-br from-cyan-400 to-purple-600 shadow-[0_0_15px_rgba(168,85,247,0.5)] overflow-hidden">
                 <img src="share-cover.jpg" alt="问星AI官方Logo - 智能命理大模型" class="w-full h-full object-cover rounded-full spin-slow hover:[animation-play-state:paused]" />
             </div>
-            <span class="text-2xl font-black tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-purple-300 to-cyan-300 drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]">问星AI</span>
+            <span class="text-3xl font-black tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-purple-300 to-cyan-300 drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]">问星AI</span>
         </div>
         
         <!-- 顶部介绍 (PC/平板端显示，紧跟在问星AI后面) -->
         <div class="hidden md:flex flex-col justify-center ml-6 pl-6 border-l border-white/20">
-            <div class="text-[14px] font-bold text-indigo-200 tracking-widest mb-1 drop-shadow-md">— 命运的全息宇宙 —</div>
+            <div class="text-[18px] font-bold text-indigo-200 tracking-widest mb-1 drop-shadow-md">— 命运的全息宇宙 —</div>
             <div class="text-[12px] text-gray-300 tracking-wider">
-                由专业命理师 <span class="text-cyan-400 font-medium">AIcoding</span> 打造的首款融合玄学命理和AI大模型的APP<span class="hidden lg:inline">，</span><br class="lg:hidden">为您的人生剧本提供更专业、更理性的视角
+                由专业命理师 <span class="text-cyan-400 font-medium">AIcoding</span> 打造，颠覆命理行业的玄学APP，不仅可以<span class="text-aurora">推导未来</span>，还可以<span class="text-aurora">验证过去</span><span class="hidden lg:inline">。</span><br class="lg:hidden">为您的人生剧本提供更专业、更理性的视角。
             </div>
         </div>
     </header>
@@ -209,12 +228,12 @@
 
         <!-- 移动端专享介绍显示 (PC端已移至顶部导航栏) -->
         <div class="md:hidden flex flex-col items-center mb-8">
-            <h2 class="text-lg font-medium mb-2 text-indigo-200 tracking-[0.2em] drop-shadow-md">
+            <h2 class="text-[1.4rem] font-medium mb-2 text-indigo-200 tracking-[0.2em] drop-shadow-md">
                 — 命运的全息宇宙 —
             </h2>
             <p class="text-[13px] text-gray-400 leading-relaxed max-w-[90%] font-light tracking-wide">
-                由专业命理师 <span class="text-cyan-400">AIcoding</span> 打造的首款融合玄学命理和AI大模型的APP<br>
-                为您的人生剧本提供更专业、更理性的视角
+                由专业命理师 <span class="text-cyan-400">AIcoding</span> 打造，颠覆命理行业的玄学APP，不仅可以<span class="text-aurora">推导未来</span>，还可以<span class="text-aurora">验证过去</span>。<br>
+                为您的人生剧本提供更专业、更理性的视角。
             </p>
         </div>
 
@@ -241,7 +260,7 @@
     <!-- 功能特性展示区 -->
     <section class="w-full max-w-7xl mx-auto px-4 py-16 z-10">
         <div class="text-center mb-16">
-            <h3 class="text-2xl md:text-4xl font-bold mb-4 flex items-center justify-center gap-3 drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">
+            <h3 class="text-3xl md:text-[2.8rem] font-bold mb-4 flex items-center justify-center gap-3 drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">
                 <i data-lucide="sparkles" class="text-cyan-400 w-6 h-6 md:w-8 md:h-8 animate-pulse"></i>
                 核心功能探索
                 <i data-lucide="sparkles" class="text-purple-400 w-6 h-6 md:w-8 md:h-8 animate-pulse"></i>
@@ -257,7 +276,7 @@
                 <div class="w-14 h-14 rounded-xl bg-blue-900/40 flex items-center justify-center mb-6 border border-blue-500/30 group-hover:scale-110 group-hover:bg-cyan-900/50 transition-all duration-300 shadow-[0_0_15px_rgba(59,130,246,0.3)]">
                     <i data-lucide="orbit" class="w-8 h-8 text-blue-400 group-hover:text-cyan-300"></i>
                 </div>
-                <h4 class="text-xl font-bold mb-2 text-white group-hover:text-cyan-300 transition-colors">3D 命盘可视化</h4>
+                <h4 class="text-2xl font-bold mb-2 text-white group-hover:text-cyan-300 transition-colors">3D 命盘可视化</h4>
                 <p class="text-gray-400 text-sm leading-relaxed group-hover:text-gray-200 transition-colors">
                     基于 Three.js 的全息 3D 星盘，十二宫位以立体球面呈现，星曜轨道动态旋转，可自由拖拽视角，一眼看透命局架构。
                 </p>
@@ -269,7 +288,7 @@
                 <div class="w-14 h-14 rounded-xl bg-cyan-900/40 flex items-center justify-center mb-6 border border-cyan-500/30 group-hover:scale-110 group-hover:bg-cyan-800/50 transition-all duration-300 shadow-[0_0_15px_rgba(6,182,212,0.3)]">
                     <i data-lucide="radar" class="w-8 h-8 text-cyan-400 group-hover:text-cyan-200"></i>
                 </div>
-                <h4 class="text-xl font-bold mb-2 text-white group-hover:text-cyan-300 transition-colors">五维运势雷达图</h4>
+                <h4 class="text-2xl font-bold mb-2 text-white group-hover:text-cyan-300 transition-colors">五维运势雷达图</h4>
                 <p class="text-gray-400 text-sm leading-relaxed group-hover:text-gray-200 transition-colors">
                     以动态五边形雷达图量化事业、财运、感情、健康、贵人五大维度，AI 综合宫位星曜计算评分，一览命局强弱分布。
                 </p>
@@ -281,7 +300,7 @@
                 <div class="w-14 h-14 rounded-xl bg-emerald-900/40 flex items-center justify-center mb-6 border border-emerald-500/30 group-hover:scale-110 group-hover:bg-emerald-800/50 transition-all duration-300 shadow-[0_0_15px_rgba(16,185,129,0.3)]">
                     <i data-lucide="trending-up" class="w-8 h-8 text-emerald-400 group-hover:text-emerald-300"></i>
                 </div>
-                <h4 class="text-xl font-bold mb-2 text-white group-hover:text-emerald-300 transition-colors">人生大运K线</h4>
+                <h4 class="text-2xl font-bold mb-2 text-white group-hover:text-emerald-300 transition-colors">人生大运K线</h4>
                 <p class="text-gray-400 text-sm leading-relaxed group-hover:text-gray-200 transition-colors">
                     创新引入金融 K 线图概念，将一生大运逐年走势动态绘制成波动曲线，悬停查看每个年份的运势评分与事件提示，把握人生节奏。
                 </p>
@@ -293,7 +312,7 @@
                 <div class="w-14 h-14 rounded-xl bg-rose-900/40 flex items-center justify-center mb-6 border border-rose-500/30 group-hover:scale-110 group-hover:bg-rose-800/50 transition-all duration-300 shadow-[0_0_15px_rgba(244,63,94,0.3)]">
                     <i data-lucide="coins" class="w-8 h-8 text-rose-400 group-hover:text-rose-300"></i>
                 </div>
-                <h4 class="text-xl font-bold mb-2 text-white group-hover:text-rose-300 transition-colors">🐢 六爻起卦</h4>
+                <h4 class="text-2xl font-bold mb-2 text-white group-hover:text-rose-300 transition-colors">🐢 六爻起卦</h4>
                 <p class="text-gray-400 text-sm leading-relaxed group-hover:text-gray-200 transition-colors">
                     真实物理抛掷动画模拟三枚铜钱落地，依次摇满六爻成卦；AI 自动识别动爻、变卦，结合你的问题给出吉凶分析与行动建议。
                 </p>
@@ -305,7 +324,7 @@
                 <div class="w-14 h-14 rounded-xl bg-purple-900/40 flex items-center justify-center mb-6 border border-purple-500/30 group-hover:scale-110 group-hover:bg-purple-800/50 transition-all duration-300 shadow-[0_0_15px_rgba(168,85,247,0.3)]">
                     <i data-lucide="scan-search" class="w-8 h-8 text-purple-400 group-hover:text-purple-300"></i>
                 </div>
-                <h4 class="text-xl font-bold mb-2 text-white group-hover:text-purple-300 transition-colors">AI 宫位深度解析</h4>
+                <h4 class="text-2xl font-bold mb-2 text-white group-hover:text-purple-300 transition-colors">AI 宫位深度解析</h4>
                 <p class="text-gray-400 text-sm leading-relaxed group-hover:text-gray-200 transition-colors">
                     点击 3D 星盘中任意宫位，右侧面板即刻展示该宫所有星曜、四化飞星与宫位特质；一键触发 AI 针对该宫进行深度命理分析。
                 </p>
@@ -317,7 +336,7 @@
                 <div class="w-14 h-14 rounded-xl bg-indigo-900/40 flex items-center justify-center mb-6 border border-indigo-500/30 group-hover:scale-110 group-hover:bg-indigo-800/50 transition-all duration-300 shadow-[0_0_15px_rgba(99,102,241,0.3)]">
                     <i data-lucide="bot-message-square" class="w-8 h-8 text-indigo-400 group-hover:text-indigo-300"></i>
                 </div>
-                <h4 class="text-xl font-bold mb-2 text-white group-hover:text-indigo-300 transition-colors">AI 命理咨询</h4>
+                <h4 class="text-2xl font-bold mb-2 text-white group-hover:text-indigo-300 transition-colors">AI 命理咨询</h4>
                 <p class="text-gray-400 text-sm leading-relaxed group-hover:text-gray-200 transition-colors">
                     基于你的完整命盘数据，与 AI 大师自由对话咨询事业、感情、财运等任意问题，获得有命理依据的直接回答与可执行建议。
                 </p>
@@ -329,7 +348,7 @@
                 <div class="w-14 h-14 rounded-xl bg-pink-900/40 flex items-center justify-center mb-6 border border-pink-500/30 group-hover:scale-110 group-hover:bg-pink-800/50 transition-all duration-300 shadow-[0_0_15px_rgba(236,72,153,0.3)]">
                     <i data-lucide="heart-handshake" class="w-8 h-8 text-pink-400 group-hover:text-pink-300"></i>
                 </div>
-                <h4 class="text-xl font-bold mb-2 text-white group-hover:text-pink-300 transition-colors">合盘分析</h4>
+                <h4 class="text-2xl font-bold mb-2 text-white group-hover:text-pink-300 transition-colors">合盘分析</h4>
                 <p class="text-gray-400 text-sm leading-relaxed group-hover:text-gray-200 transition-colors">
                     输入双方出生信息一键生成对比命盘，AI 深度剖析两人星曜冲合、宫位共振与气场契合度，给出感情、合作的最佳相处策略。
                 </p>
@@ -341,7 +360,7 @@
                 <div class="w-14 h-14 rounded-xl bg-amber-900/40 flex items-center justify-center mb-6 border border-amber-500/30 group-hover:scale-110 group-hover:bg-amber-800/50 transition-all duration-300 shadow-[0_0_15px_rgba(245,158,11,0.3)]">
                     <i data-lucide="calendar-days" class="w-8 h-8 text-amber-400 group-hover:text-amber-300"></i>
                 </div>
-                <h4 class="text-xl font-bold mb-2 text-white group-hover:text-amber-300 transition-colors">今日星历日历</h4>
+                <h4 class="text-2xl font-bold mb-2 text-white group-hover:text-amber-300 transition-colors">今日星历日历</h4>
                 <p class="text-gray-400 text-sm leading-relaxed group-hover:text-gray-200 transition-colors">
                     实时显示农历节气、今日流日星曜与紫微诸星位置，结合本命盘判断当日宜忌，为每一天的决策提供理性的命理参考坐标。
                 </p>
@@ -353,7 +372,7 @@
                 <div class="w-14 h-14 rounded-xl bg-slate-800/60 flex items-center justify-center mb-6 border border-slate-500/30 group-hover:scale-110 group-hover:bg-slate-700/60 transition-all duration-300 shadow-[0_0_15px_rgba(148,163,184,0.2)]">
                     <i data-lucide="library" class="w-8 h-8 text-slate-400 group-hover:text-slate-200"></i>
                 </div>
-                <h4 class="text-xl font-bold mb-2 text-white group-hover:text-slate-200 transition-colors">命例管理</h4>
+                <h4 class="text-2xl font-bold mb-2 text-white group-hover:text-slate-200 transition-colors">命例管理</h4>
                 <p class="text-gray-400 text-sm leading-relaxed group-hover:text-gray-200 transition-colors">
                     本地存储多份命例档案，随时切换查看不同人的命盘，支持保存分享卡片。家人、朋友的命局一并收录，轻松管理你的命理研究记录。
                 </p>
@@ -381,7 +400,7 @@
             <div class="mb-4 text-center">
                 <!-- 内部使用同样的logo强化品牌 -->
                 <img src="share-cover.jpg" alt="扫码下载问星AI内测版" class="w-16 h-16 mx-auto rounded-full mb-4 border-2 border-purple-500 shadow-[0_0_20px_rgba(168,85,247,0.5)] spin-slow">
-                <h3 class="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400 mb-1">内测会员版</h3>
+                <h3 class="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400 mb-1">内测会员版</h3>
                 <p class="text-sm text-indigo-200/80">扫码使用，开启专属全息宇宙</p>
             </div>
 
