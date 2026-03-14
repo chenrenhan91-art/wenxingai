@@ -4,7 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-transform">
     <meta name="format-detection" content="telephone=no,email=no,address=no">
+
+    <script>
+        // iOS/弱网代理链路下若发生错误转码，尝试在首屏阶段自动修复常见乱码。
+        (function () {
+            const mojibakePattern = /[ÃÂâæçð]/;
+
+            function hasCJK(str) {
+                return /[\u3400-\u9FFF]/.test(str);
+            }
+
+            function looksGarbled(str) {
+                if (!str || typeof str !== 'string') return false;
+                return str.includes('�') || mojibakePattern.test(str);
+            }
+
+            function repairUtf8Mojibake(input) {
+                if (!looksGarbled(input)) return input;
+                try {
+                    const bytes = new Uint8Array(input.length);
+                    for (let i = 0; i < input.length; i++) {
+                        bytes[i] = input.charCodeAt(i) & 0xff;
+                    }
+                    const decoded = new TextDecoder('utf-8', { fatal: false }).decode(bytes);
+                    if (!decoded) return input;
+
+                    const inputHasCJK = hasCJK(input);
+                    const decodedHasCJK = hasCJK(decoded);
+                    if (!inputHasCJK && decodedHasCJK) return decoded;
+                    if (input.includes('�') && !decoded.includes('�')) return decoded;
+                    if (decoded.length > 0 && decoded !== input && !decoded.includes('Ã') && !decoded.includes('â')) return decoded;
+                } catch (e) {
+                    return input;
+                }
+                return input;
+            }
+
+            function repairDocumentText() {
+                document.title = repairUtf8Mojibake(document.title);
+
+                const metas = document.querySelectorAll('meta[content]');
+                metas.forEach((meta) => {
+                    const content = meta.getAttribute('content');
+                    const fixed = repairUtf8Mojibake(content || '');
+                    if (fixed !== content) {
+                        meta.setAttribute('content', fixed);
+                    }
+                });
+
+                const walker = document.createTreeWalker(document.body || document.documentElement, NodeFilter.SHOW_TEXT);
+                let node = walker.nextNode();
+                while (node) {
+                    const source = node.nodeValue || '';
+                    const fixed = repairUtf8Mojibake(source);
+                    if (fixed !== source) {
+                        node.nodeValue = fixed;
+                    }
+                    node = walker.nextNode();
+                }
+
+                document.querySelectorAll('img[alt]').forEach((img) => {
+                    const alt = img.getAttribute('alt') || '';
+                    const fixed = repairUtf8Mojibake(alt);
+                    if (fixed !== alt) {
+                        img.setAttribute('alt', fixed);
+                    }
+                });
+            }
+
+            document.addEventListener('DOMContentLoaded', repairDocumentText, { once: true });
+        })();
+    </script>
     <!-- SEO & GEO 核心标题与描述优化 -->
     <title>问星AI - 首款融合玄学命理与AI大模型的智能APP | 命运的全息宇宙</title>
     <meta name="description" content="问星AI由专业命理师AIcoding打造，颠覆命理行业的玄学APP，不仅可以推导未来，还可以验证过去。提供3D命盘可视化、24小时专属AI命理咨询师、人生大运K线图、AI六爻解卦及合盘分析功能，为您的人生剧本提供更专业、更理性的视角。">
