@@ -1,0 +1,300 @@
+{
+  "updated_at": "2026-03-21",
+  "updated_at_display": "2026年3月21日 22:36",
+  "sources": [
+    {
+      "id": "google_news_mingli_tw",
+      "name": "Google News zh-TW · 命理",
+      "type": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "description": "台湾繁体媒体聚合，追踪命理相关新闻与讨论",
+      "source_group": "news",
+      "category_hint": "命理新闻",
+      "max_age_days": 30
+    },
+    {
+      "id": "google_news_xuanxue_tw",
+      "name": "Google News zh-TW · 玄學",
+      "type": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%E7%8E%84%E5%AD%B8+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "description": "台湾繁体媒体聚合，追踪玄学与风水相关新闻",
+      "source_group": "news",
+      "category_hint": "风水玄学",
+      "max_age_days": 30
+    },
+    {
+      "id": "google_news_taluo_tw",
+      "name": "Google News zh-TW · 塔羅",
+      "type": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "description": "台湾繁体媒体聚合，追踪塔罗、星象与占卜相关新闻",
+      "source_group": "news",
+      "category_hint": "塔罗星象",
+      "max_age_days": 30
+    },
+    {
+      "id": "google_news_fengshui_tw",
+      "name": "Google News zh-TW · 風水",
+      "type": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%E9%A2%A8%E6%B0%B4+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "description": "台湾繁体媒体聚合，追踪风水、空间布局与开运相关新闻",
+      "source_group": "news",
+      "category_hint": "风水玄学",
+      "max_age_days": 30
+    },
+    {
+      "id": "ptt_gossiping",
+      "name": "PTT Gossiping",
+      "type": "ptt_search",
+      "url": "https://www.ptt.cc/bbs/Gossiping/index.html",
+      "board": "Gossiping",
+      "queries": [
+        "命理",
+        "八字",
+        "紫微",
+        "玄學",
+        "塔羅"
+      ],
+      "description": "台湾综合讨论板，捕捉正在扩散的命理与玄学话题",
+      "source_group": "community",
+      "category_hint": "社区热议",
+      "max_age_days": 120
+    },
+    {
+      "id": "ptt_womentalk",
+      "name": "PTT WomenTalk",
+      "type": "ptt_search",
+      "url": "https://www.ptt.cc/bbs/WomenTalk/index.html",
+      "board": "WomenTalk",
+      "queries": [
+        "塔羅",
+        "玄學",
+        "星座",
+        "算命"
+      ],
+      "description": "台湾生活讨论板，适合观察塔罗、星座与日常玄学热议",
+      "source_group": "community",
+      "category_hint": "塔罗星象",
+      "max_age_days": 120
+    },
+    {
+      "id": "ptt_marvel",
+      "name": "PTT marvel",
+      "type": "ptt_search",
+      "url": "https://www.ptt.cc/bbs/marvel/index.html",
+      "board": "marvel",
+      "queries": [
+        "八字",
+        "玄學",
+        "風水"
+      ],
+      "description": "台湾经验讨论板，补充玄学与风水叙事型热帖",
+      "source_group": "community",
+      "category_hint": "风水玄学",
+      "max_age_days": 180
+    },
+    {
+      "id": "youtube_search",
+      "name": "YouTube Search",
+      "type": "youtube_search",
+      "url": "https://www.googleapis.com/youtube/v3/search",
+      "queries": [
+        "命理",
+        "玄學",
+        "塔羅",
+        "八字",
+        "紫微斗數"
+      ],
+      "description": "海外华人常用视频平台，需配置 YOUTUBE_API_KEY 后启用",
+      "source_group": "video",
+      "category_hint": "社区热议",
+      "max_age_days": 30
+    },
+    {
+      "id": "x_recent_search",
+      "name": "X Recent Search",
+      "type": "x_recent_search",
+      "url": "https://x.com/search?q=%E5%91%BD%E7%90%86&src=typed_query",
+      "queries": [
+        "(命理 OR 八字 OR 紫微 OR 玄學 OR 塔羅) lang:zh -is:retweet"
+      ],
+      "description": "海外华语即时讨论源，需配置 X_BEARER_TOKEN 后启用",
+      "source_group": "community",
+      "category_hint": "社区热议",
+      "max_age_days": 14
+    },
+    {
+      "id": "reddit_search",
+      "name": "Reddit Search",
+      "type": "reddit_search",
+      "url": "https://www.reddit.com/search/?q=%E5%91%BD%E7%90%86",
+      "queries": [
+        "命理 OR 玄學 OR 塔羅 OR 八字"
+      ],
+      "description": "海外社区讨论源，需配置 Reddit API 凭证后启用",
+      "source_group": "community",
+      "category_hint": "海外话题",
+      "max_age_days": 30
+    },
+    {
+      "id": "xiaohongshu_watch",
+      "name": "小红书关键词观察",
+      "type": "watch_urls",
+      "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%91%BD%E7%90%86",
+      "keywords": [
+        "命理",
+        "玄學",
+        "塔羅",
+        "八字"
+      ],
+      "description": "适合补充华语内容创作者热点，当前建议作为人工巡检来源",
+      "source_group": "watch"
+    }
+  ],
+  "items": [
+    {
+      "title": "[新聞] 柯文哲恐贏2028總統？命理師驚喊「有貴人",
+      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 39，作者 lolahjy。",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1773293802.A.004.html",
+      "source_id": "ptt_gossiping",
+      "source": "PTT Gossiping",
+      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
+      "source_group": "community",
+      "category": "命理新闻",
+      "published": "2026-03-12",
+      "published_display": "2026-03-12",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "热议"
+      ],
+      "score": 22.8
+    },
+    {
+      "title": "[新聞] 賴清德被噴嘔吐物！命理師卜出「空亡卦」",
+      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 24，作者 HTC92。",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1771756802.A.BC5.html",
+      "source_id": "ptt_gossiping",
+      "source": "PTT Gossiping",
+      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
+      "source_group": "community",
+      "category": "命理新闻",
+      "published": "2026-02-22",
+      "published_display": "2026-02-22",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "热议"
+      ],
+      "score": 17.8
+    },
+    {
+      "title": "血月元宵節! 命理師曝轉運秘訣 12生肖今晚許願用「這一招」 扭轉運勢",
+      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxNOUlsNlFPUktwUndIOWduT3hGYmhja2JxajQxaHQyamlaZFZDN0hETF9uMzJTa0NFVWtJU2Rya0dBNE4tZXFrX0dqR3hXbldIcDBjanNaX3dYMEtnVWp1ZkRaZkhHOTJmOHpiQ1lnQkIzdWhyUGE2YXFDS0gxWkNiNmNjRzlCOFJKbkx0R245VmR6OENmR0REQkNpUkt4SFdPa2l5TmEwdTNGNDUydGpXbkFqdWM1WWU1dEx6UjdqZThXaExDTEYxYUMzQlFNQ3pjeG84LVFrazlraS1RelFZd1ZrRTM5alFCUFZVZlZPTG14UGlEOTkyTjlOMzZQcXhSRVpIREdjTGNmN2R0eWc2UGFMcndvbTZpV0YtYW9nNDRCRW1iRm1CMDVMZktSSjFYcXg1VC0yV2ltdGZ1cXlOSmFPd0s2dGxEckVrXzdabE14S1dITVZEWGMwRnVadVlNR19Fc2VtR2MxaEVOa3BaQkpUVGJrS3NUTE1wSGFIdklXbXdKQ2RiVmktVEVQMm9vTm93VDFIWndoVW5zcUJTRnd1ZDNEVk5NTUFn?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "MSN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-03-21",
+      "published_display": "2026-03-21",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.4
+    },
+    {
+      "title": "討論牆 | 今春分！命理師點名4生肖運勢大翻盤",
+      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIX0F2Uzk0eDlJTE1CTkNUWk5PckNON1lIVTNCT0htcXMwUGxPLTdPYVFodXczNEdCNzE1bHhTNjVzUUNZWEVrbHFLOENGQU9sTUxCOElORkx4Q1dVRmlCMW1kWHo?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "LINE TODAY · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-03-21",
+      "published_display": "2026-03-21",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.4
+    },
+    {
+      "title": "春分＋頭牙＋龍抬頭！命理師曝「龍水補庫法」一招財運旺整年",
+      "summary": "来自 好房網News · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GRWxuNmY5MmduSUtCSUhFdDIxTHA2T2dhT3ZEcGVEV1Z4NWJGanUyS2s0SGFQVXh3T1Q0c3hNUTRGbG94aTZDcXZQQzE4UmVtMXJ0c2djY29Ub1dKM3llUkRBdkFRSWNqUURBZU9Xb1nSAXBBVV95cUxPRkVsbjZmOTJnbklLQklIRXQyMUxwNk9nYU92RHBlRFdWeDViRmp1MktrNEhhUFV4d09UNHN4TVE0RmxveGk2Q3F2UEMxOFJlbTFydHNnY2NvVG9XSjN5ZVJEQXZBUUljalFEQWVPV29Z?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "好房網News · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-03-20",
+      "published_display": "2026-03-20",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "補庫"
+      ],
+      "score": 14.4
+    },
+    {
+      "title": "今春分！命理師點名4生肖運勢大翻盤",
+      "summary": "来自 東森新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9FZU1GRjF4d3MzdGU3OTZ0ZWNGMmlNN2diMndscUFfd1QtMU5LaXdzaXRST1V4RkxscGpwUC1DRnNTTi0xQVZaQUtLczh5ay1QXzdZSQ?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "東森新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-03-20",
+      "published_display": "2026-03-20",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.4
+    },
+    {
+      "title": "今日春分！命理師曝7星座運勢最旺",
+      "summary": "来自 東森新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1fYzUyOWdTclN3OHVFNWEtMTktaHBrZ3A3UklKSEprcE5zOFdzWmd4Q19SZDVMTzhBY19yX0NsZjlUQ3JiZE9YdjRCUmVSRFFvbU53Sg?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "東森新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-03-20",
+      "published_display": "2026-03-20",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.4
+    },
+    {
+      "title": "春分開運！「7星座」財星入命正財偏財全面爆發、運勢飆升| 星座命理| 生活",
+      "summary": "来自 聯合新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUVfWHJlakN1aThnVDVSdlhsT3BSSmhoRVNDbXdudjBoZGcyWGFiTTJENGoxYVVnYy01WElSaVlseTZsRmdFZUxuTWVac3YzSUtqdFVFZzZpWk1FNE5OdWl2a1BHRUhKcFZMdEtrXzFSbURNbGsxMGVPZTJMVTdORA?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "聯合新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-03-20",
+      "published_display": "2026-03-20",
+      "matched_keywords": [
+        "命理",
+        "運勢",
+        "開運"
+      ],
+      "score": 14.4
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "timezone": "Asia/Shanghai",
+  "sources": [
+    {
+      "id": "google_news_mingli_tw",
+      "name": "Google News zh-TW · 命理",
+      "type": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "description": "台湾繁体媒体聚合，追踪命理相关新闻与讨论",
+      "source_group": "news",
+      "category_hint": "命理新闻",
+      "max_age_days": 30
+    },
+    {
+      "id": "google_news_xuanxue_tw",
+      "name": "Google News zh-TW · 玄學",
+      "type": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%E7%8E%84%E5%AD%B8+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "description": "台湾繁体媒体聚合，追踪玄学与风水相关新闻",
+      "source_group": "news",
+      "category_hint": "风水玄学",
+      "max_age_days": 30
+    },
+    {
+      "id": "google_news_taluo_tw",
+      "name": "Google News zh-TW · 塔羅",
+      "type": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "description": "台湾繁体媒体聚合，追踪塔罗、星象与占卜相关新闻",
+      "source_group": "news",
+      "category_hint": "塔罗星象",
+      "max_age_days": 30
+    },
+    {
+      "id": "google_news_fengshui_tw",
+      "name": "Google News zh-TW · 風水",
+      "type": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%E9%A2%A8%E6%B0%B4+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "description": "台湾繁体媒体聚合，追踪风水、空间布局与开运相关新闻",
+      "source_group": "news",
+      "category_hint": "风水玄学",
+      "max_age_days": 30
+    },
+    {
+      "id": "ptt_gossiping",
+      "name": "PTT Gossiping",
+      "type": "ptt_search",
+      "url": "https://www.ptt.cc/bbs/Gossiping/index.html",
+      "board": "Gossiping",
+      "queries": ["命理", "八字", "紫微", "玄學", "塔羅"],
+      "description": "台湾综合讨论板，捕捉正在扩散的命理与玄学话题",
+      "source_group": "community",
+      "category_hint": "社区热议",
+      "max_age_days": 120
+    },
+    {
+      "id": "ptt_womentalk",
+      "name": "PTT WomenTalk",
+      "type": "ptt_search",
+      "url": "https://www.ptt.cc/bbs/WomenTalk/index.html",
+      "board": "WomenTalk",
+      "queries": ["塔羅", "玄學", "星座", "算命"],
+      "description": "台湾生活讨论板，适合观察塔罗、星座与日常玄学热议",
+      "source_group": "community",
+      "category_hint": "塔罗星象",
+      "max_age_days": 120
+    },
+    {
+      "id": "ptt_marvel",
+      "name": "PTT marvel",
+      "type": "ptt_search",
+      "url": "https://www.ptt.cc/bbs/marvel/index.html",
+      "board": "marvel",
+      "queries": ["八字", "玄學", "風水"],
+      "description": "台湾经验讨论板，补充玄学与风水叙事型热帖",
+      "source_group": "community",
+      "category_hint": "风水玄学",
+      "max_age_days": 180
+    },
+    {
+      "id": "youtube_search",
+      "name": "YouTube Search",
+      "type": "youtube_search",
+      "url": "https://www.googleapis.com/youtube/v3/search",
+      "queries": [
+        "命理",
+        "玄學",
+        "塔羅",
+        "八字",
+        "紫微斗數"
+      ],
+      "description": "海外华人常用视频平台，需配置 YOUTUBE_API_KEY 后启用",
+      "source_group": "video",
+      "category_hint": "社区热议",
+      "max_age_days": 30
+    },
+    {
+      "id": "x_recent_search",
+      "name": "X Recent Search",
+      "type": "x_recent_search",
+      "url": "https://x.com/search?q=%E5%91%BD%E7%90%86&src=typed_query",
+      "queries": ["(命理 OR 八字 OR 紫微 OR 玄學 OR 塔羅) lang:zh -is:retweet"],
+      "description": "海外华语即时讨论源，需配置 X_BEARER_TOKEN 后启用",
+      "source_group": "community",
+      "category_hint": "社区热议",
+      "max_age_days": 14
+    },
+    {
+      "id": "reddit_search",
+      "name": "Reddit Search",
+      "type": "reddit_search",
+      "url": "https://www.reddit.com/search/?q=%E5%91%BD%E7%90%86",
+      "queries": ["命理 OR 玄學 OR 塔羅 OR 八字"],
+      "description": "海外社区讨论源，需配置 Reddit API 凭证后启用",
+      "source_group": "community",
+      "category_hint": "海外话题",
+      "max_age_days": 30
+    },
+    {
+      "id": "xiaohongshu_watch",
+      "name": "小红书关键词观察",
+      "type": "watch_urls",
+      "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%91%BD%E7%90%86",
+      "keywords": ["命理", "玄學", "塔羅", "八字"],
+      "description": "适合补充华语内容创作者热点，当前建议作为人工巡检来源",
+      "source_group": "watch"
+    }
+  ]
+}
