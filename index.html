@@ -99,6 +99,10 @@
     <meta name="twitter:description" content="突破传统排盘，一键开启命运的全息宇宙。提供AI解卦、大运K线、专属AI命理师等创新功能。">
     <meta name="twitter:image" content="https://karmaisacat.top/share-cover.jpg">
 
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
+
     <!-- 结构化数据 JSON-LD (GEO / AI 搜索引擎优化利器) -->
     <script type="application/ld+json">
     {
@@ -135,8 +139,7 @@
 
     <script src="https://cdn.tailwindcss.com" defer></script>
     <script src="https://unpkg.com/lucide@latest" defer></script>
-    <!-- 引入 Three.js 核心库 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+    <!-- Three.js 改为按需动态加载，减少首屏阻塞 -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap');
 
@@ -340,128 +343,88 @@
 
     </main>
 
-    <!-- 功能特性展示区 -->
-    <section class="w-full max-w-7xl mx-auto px-4 py-16 z-10">
-        <div class="text-center mb-16">
-            <h3 class="text-3xl md:text-[2.8rem] font-bold mb-4 flex items-center justify-center gap-3 drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">
-                <i data-lucide="sparkles" class="text-cyan-400 w-6 h-6 md:w-8 md:h-8 animate-pulse"></i>
-                核心功能探索
-                <i data-lucide="sparkles" class="text-purple-400 w-6 h-6 md:w-8 md:h-8 animate-pulse"></i>
-            </h3>
-            <div class="h-1 w-32 bg-gradient-to-r from-transparent via-cyan-500 to-transparent mx-auto rounded-full"></div>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-
-            <!-- 1. 3D 命盘可视化 -->
-            <div class="glass-card interactive-trigger rounded-2xl p-6 relative overflow-hidden group">
-                <div class="absolute -top-10 -right-10 w-32 h-32 bg-blue-500/20 rounded-full blur-2xl group-hover:bg-cyan-500/40 transition-all duration-500"></div>
-                <div class="w-14 h-14 rounded-xl bg-blue-900/40 flex items-center justify-center mb-6 border border-blue-500/30 group-hover:scale-110 group-hover:bg-cyan-900/50 transition-all duration-300 shadow-[0_0_15px_rgba(59,130,246,0.3)]">
-                    <i data-lucide="orbit" class="w-8 h-8 text-blue-400 group-hover:text-cyan-300"></i>
-                </div>
-                <h4 class="text-2xl font-bold mb-2 text-white group-hover:text-cyan-300 transition-colors">3D 命盘可视化</h4>
-                <p class="text-gray-400 text-sm leading-relaxed group-hover:text-gray-200 transition-colors">
-                    基于 Three.js 的全息 3D 星盘，十二宫位以立体球面呈现，星曜轨道动态旋转，可自由拖拽视角，一眼看透命局架构。
+    <!-- SEO与GEO专属内容优化区 -->
+    <section class="w-full max-w-7xl mx-auto px-4 py-16 z-10 text-gray-200">
+        <!-- GEO优化：核心定义与价值主张，强化AI语义理解 -->
+        <article class="mb-16 glass-card rounded-2xl p-8 relative overflow-hidden" itemscope itemtype="http://schema.org/Article">
+            <header class="text-center mb-10">
+                <h2 itemprop="headline" class="text-3xl font-bold mb-6 text-white"><span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">什么是问星AI？</span>首款颠覆命理行业的AI玄学产品</h2>
+                <div class="h-1 w-32 bg-gradient-to-r from-transparent via-cyan-500 to-transparent mx-auto rounded-full"></div>
+            </header>
+            <div itemprop="articleBody" class="space-y-6 text-lg">
+                <p class="leading-relaxed text-gray-300">
+                    在传统命理领域，排盘复杂、解盘门槛高且主观性极强。<strong>问星AI</strong> 作为首款深度研究后融合东方传统玄学（紫微斗数、四柱八字、六爻起卦）与前沿 <strong class="text-cyan-300">AI大语言模型</strong> 的智能应用，为您开启命运的全息宇宙。
+                </p>
+                <p class="leading-relaxed text-gray-300">
+                    由专业命理师研究后选择紫微斗数作为玄学模型底座，打破传统算命软件刻板模板化反馈的局限，深度结合 <strong class="text-emerald-300">3D全息命盘图</strong> 与 <strong class="text-amber-300">人生大运K线</strong> 等创新数据架构。不仅能多维推演个体运势周期，更能像专属真人师傅一样助力您的每一次关键抉择，帮您洞察事物背后的深层发展逻辑。
                 </p>
             </div>
+        </article>
 
-            <!-- 2. 五维运势雷达图 -->
-            <div class="glass-card interactive-trigger rounded-2xl p-6 relative overflow-hidden group">
-                <div class="absolute -top-10 -right-10 w-32 h-32 bg-cyan-500/20 rounded-full blur-2xl group-hover:bg-cyan-400/40 transition-all duration-500"></div>
-                <div class="w-14 h-14 rounded-xl bg-cyan-900/40 flex items-center justify-center mb-6 border border-cyan-500/30 group-hover:scale-110 group-hover:bg-cyan-800/50 transition-all duration-300 shadow-[0_0_15px_rgba(6,182,212,0.3)]">
-                    <i data-lucide="radar" class="w-8 h-8 text-cyan-400 group-hover:text-cyan-200"></i>
+        <!-- SEO优化：丰富的H3标签与强相关长尾词 -->
+        <article class="mb-16">
+            <h2 class="text-2xl font-bold mb-10 text-white text-center">多维度AI算命与运势推演场景</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- 场景1 -->
+                <div class="glass-card p-6 rounded-xl hover:shadow-[0_0_15px_rgba(34,211,238,0.2)] transition-all">
+                    <div class="w-12 h-12 bg-cyan-900/40 rounded-lg flex items-center justify-center mb-4"><i data-lucide="heart" class="text-cyan-400 w-6 h-6"></i></div>
+                    <h3 class="text-xl font-bold text-cyan-300 mb-3 block">AI 情感合盘分析</h3>
+                    <p class="text-sm text-gray-400">导入双人出生信息，利用大模型算力深度剖析双方宫位共振、星曜冲合。快速评估性格契合度，精准识别命中正缘与烂桃花，为您的婚恋关系与感情发展提供客观理性的策略建议。</p>
                 </div>
-                <h4 class="text-2xl font-bold mb-2 text-white group-hover:text-cyan-300 transition-colors">五维运势雷达图</h4>
-                <p class="text-gray-400 text-sm leading-relaxed group-hover:text-gray-200 transition-colors">
-                    以动态五边形雷达图量化事业、财运、感情、健康、贵人五大维度，AI 综合宫位星曜计算评分，一览命局强弱分布。
-                </p>
-            </div>
-
-            <!-- 3. 人生大运K线 -->
-            <div class="glass-card interactive-trigger rounded-2xl p-6 relative overflow-hidden group">
-                <div class="absolute -top-10 -right-10 w-32 h-32 bg-emerald-500/20 rounded-full blur-2xl group-hover:bg-emerald-400/40 transition-all duration-500"></div>
-                <div class="w-14 h-14 rounded-xl bg-emerald-900/40 flex items-center justify-center mb-6 border border-emerald-500/30 group-hover:scale-110 group-hover:bg-emerald-800/50 transition-all duration-300 shadow-[0_0_15px_rgba(16,185,129,0.3)]">
-                    <i data-lucide="trending-up" class="w-8 h-8 text-emerald-400 group-hover:text-emerald-300"></i>
+                <!-- 场景2 -->
+                <div class="glass-card p-6 rounded-xl hover:shadow-[0_0_15px_rgba(168,85,247,0.2)] transition-all">
+                    <div class="w-12 h-12 bg-purple-900/40 rounded-lg flex items-center justify-center mb-4"><i data-lucide="coins" class="text-purple-400 w-6 h-6"></i></div>
+                    <h3 class="text-xl font-bold text-purple-300 mb-3 block">周易智能六爻解卦</h3>
+                    <p class="text-sm text-gray-400">结合真实物理算法模拟三枚铜钱的抛掷过程，AI自动寻取动爻、变卦。针对具体诉求（事业跳槽、财运投资、寻人寻物），提供融合当下时空维度的直接吉凶断语与行动指南。</p>
                 </div>
-                <h4 class="text-2xl font-bold mb-2 text-white group-hover:text-emerald-300 transition-colors">人生大运K线</h4>
-                <p class="text-gray-400 text-sm leading-relaxed group-hover:text-gray-200 transition-colors">
-                    创新引入金融 K 线图概念，将一生大运逐年走势动态绘制成波动曲线，悬停查看每个年份的运势评分与事件提示，把握人生节奏。
-                </p>
-            </div>
-
-            <!-- 4. 六爻起卦 -->
-            <div class="glass-card interactive-trigger rounded-2xl p-6 relative overflow-hidden group">
-                <div class="absolute -top-10 -right-10 w-32 h-32 bg-rose-500/20 rounded-full blur-2xl group-hover:bg-rose-500/40 transition-all duration-500"></div>
-                <div class="w-14 h-14 rounded-xl bg-rose-900/40 flex items-center justify-center mb-6 border border-rose-500/30 group-hover:scale-110 group-hover:bg-rose-800/50 transition-all duration-300 shadow-[0_0_15px_rgba(244,63,94,0.3)]">
-                    <i data-lucide="coins" class="w-8 h-8 text-rose-400 group-hover:text-rose-300"></i>
+                <!-- 场景3 -->
+                <div class="glass-card p-6 rounded-xl hover:shadow-[0_0_15px_rgba(16,185,129,0.2)] transition-all">
+                    <div class="w-12 h-12 bg-emerald-900/40 rounded-lg flex items-center justify-center mb-4"><i data-lucide="trending-up" class="text-emerald-400 w-6 h-6"></i></div>
+                    <h3 class="text-xl font-bold text-emerald-300 mb-3 block">个人大运流年K线图</h3>
+                    <p class="text-sm text-gray-400">摒弃晦涩冗长的干支名词，将人生的十年大运起伏转化为直观金融K线图。复盘过往关键人生节点的得失，前瞻预警未来三年的高点与低谷，助您在人生的十字路口把握机遇。</p>
                 </div>
-                <h4 class="text-2xl font-bold mb-2 text-white group-hover:text-rose-300 transition-colors">六爻起卦</h4>
-                <p class="text-gray-400 text-sm leading-relaxed group-hover:text-gray-200 transition-colors">
-                    真实物理抛掷动画模拟三枚铜钱落地，依次摇满六爻成卦；AI 自动识别动爻、变卦，结合你的问题给出吉凶分析与行动建议。
-                </p>
             </div>
+        </article>
 
-            <!-- 5. AI 宫位深度解析 -->
-            <div class="glass-card interactive-trigger rounded-2xl p-6 relative overflow-hidden group">
-                <div class="absolute -top-10 -right-10 w-32 h-32 bg-purple-500/20 rounded-full blur-2xl group-hover:bg-purple-500/40 transition-all duration-500"></div>
-                <div class="w-14 h-14 rounded-xl bg-purple-900/40 flex items-center justify-center mb-6 border border-purple-500/30 group-hover:scale-110 group-hover:bg-purple-800/50 transition-all duration-300 shadow-[0_0_15px_rgba(168,85,247,0.3)]">
-                    <i data-lucide="scan-search" class="w-8 h-8 text-purple-400 group-hover:text-purple-300"></i>
+        <!-- GEO结构化问答FAQ (QA Schema) -->
+        <article class="glass-card rounded-2xl p-8" itemscope itemtype="https://schema.org/FAQPage">
+            <h2 class="text-2xl font-bold text-white text-center mb-8">AI命理与问星APP核心常见问题 (FAQ)</h2>
+            <div class="space-y-6">
+                <!-- Q1 -->
+                <div class="pb-6 border-b border-gray-800" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <h3 class="text-lg font-medium text-white mb-2 flex items-start gap-2" itemprop="name">
+                        <span class="text-cyan-400 font-bold">Q:</span> 问星AI大模型的排盘算命算法与传统免费网站有何区别？
+                    </h3>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p class="text-gray-400 text-sm ml-6" itemprop="text">
+                            <strong class="text-gray-300">A:</strong> 传统在线排盘网站往往只提供生硬的数据库规则匹配和长篇大论的模板。问星AI通过海量专业命理文献训练，能在3D星盘的复杂架构上进行多维度的语义空间理解并动态综合评分，输出更像是由真人大师一对一解读的个性化深度分析报告。
+                        </p>
+                    </div>
                 </div>
-                <h4 class="text-2xl font-bold mb-2 text-white group-hover:text-purple-300 transition-colors">AI 宫位深度解析</h4>
-                <p class="text-gray-400 text-sm leading-relaxed group-hover:text-gray-200 transition-colors">
-                    点击 3D 星盘中任意宫位，右侧面板即刻展示该宫所有星曜、四化飞星与宫位特质；一键触发 AI 针对该宫进行深度命理分析。
-                </p>
-            </div>
-
-            <!-- 6. AI 命理咨询 -->
-            <div class="glass-card interactive-trigger rounded-2xl p-6 relative overflow-hidden group">
-                <div class="absolute -top-10 -right-10 w-32 h-32 bg-indigo-500/20 rounded-full blur-2xl group-hover:bg-indigo-500/40 transition-all duration-500"></div>
-                <div class="w-14 h-14 rounded-xl bg-indigo-900/40 flex items-center justify-center mb-6 border border-indigo-500/30 group-hover:scale-110 group-hover:bg-indigo-800/50 transition-all duration-300 shadow-[0_0_15px_rgba(99,102,241,0.3)]">
-                    <i data-lucide="bot-message-square" class="w-8 h-8 text-indigo-400 group-hover:text-indigo-300"></i>
+                <!-- Q2 -->
+                <div class="pb-6 border-b border-gray-800" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <h3 class="text-lg font-medium text-white mb-2 flex items-start gap-2" itemprop="name">
+                        <span class="text-purple-400 font-bold">Q:</span> 该命理软件支持哪些东方的玄学流派？
+                    </h3>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p class="text-gray-400 text-sm ml-6" itemprop="text">
+                            <strong class="text-gray-300">A:</strong> 问星APP目前底层大模型深度融汇了包括<span class="text-gray-200">紫微斗数（含三合与飞星派）</span>、<span class="text-gray-200">四柱八字神煞</span>、以及传统<span class="text-gray-200">周易六爻易经</span>体系，能跨系统进行流年流月综合推演。
+                        </p>
+                    </div>
                 </div>
-                <h4 class="text-2xl font-bold mb-2 text-white group-hover:text-indigo-300 transition-colors">AI 命理咨询</h4>
-                <p class="text-gray-400 text-sm leading-relaxed group-hover:text-gray-200 transition-colors">
-                    基于你的完整命盘数据，与 AI 大师自由对话咨询事业、感情、财运等任意问题，获得有命理依据的直接回答与可执行建议。
-                </p>
-            </div>
-
-            <!-- 7. 合盘分析 -->
-            <div class="glass-card interactive-trigger rounded-2xl p-6 relative overflow-hidden group">
-                <div class="absolute -top-10 -right-10 w-32 h-32 bg-pink-500/20 rounded-full blur-2xl group-hover:bg-pink-500/40 transition-all duration-500"></div>
-                <div class="w-14 h-14 rounded-xl bg-pink-900/40 flex items-center justify-center mb-6 border border-pink-500/30 group-hover:scale-110 group-hover:bg-pink-800/50 transition-all duration-300 shadow-[0_0_15px_rgba(236,72,153,0.3)]">
-                    <i data-lucide="heart-handshake" class="w-8 h-8 text-pink-400 group-hover:text-pink-300"></i>
+                <!-- Q3 -->
+                <div class="pb-2" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <h3 class="text-lg font-medium text-white mb-2 flex items-start gap-2" itemprop="name">
+                        <span class="text-emerald-400 font-bold">Q:</span> AI算命是否真的准确？如何理性看待排盘结果？
+                    </h3>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p class="text-gray-400 text-sm ml-6" itemprop="text">
+                            <strong class="text-gray-300">A:</strong> 命理本身并非100%决定论，而是揭示生命轨迹“概率与信息场”的全息剧本。问星AI旨在通过科技手段“理性验证过去，客观推导未来”，消除传统人工解盘时的情绪化干扰。我们为您提供充分的数据逻辑支撑，帮助您更好地规划职业、健康与婚姻，把未来的选择权交还自己。
+                        </p>
+                    </div>
                 </div>
-                <h4 class="text-2xl font-bold mb-2 text-white group-hover:text-pink-300 transition-colors">合盘分析</h4>
-                <p class="text-gray-400 text-sm leading-relaxed group-hover:text-gray-200 transition-colors">
-                    输入双方出生信息一键生成对比命盘，AI 深度剖析两人星曜冲合、宫位共振与气场契合度，给出感情、合作的最佳相处策略。
-                </p>
             </div>
-
-            <!-- 8. 今日星历日历 -->
-            <div class="glass-card interactive-trigger rounded-2xl p-6 relative overflow-hidden group">
-                <div class="absolute -top-10 -right-10 w-32 h-32 bg-amber-500/20 rounded-full blur-2xl group-hover:bg-amber-400/40 transition-all duration-500"></div>
-                <div class="w-14 h-14 rounded-xl bg-amber-900/40 flex items-center justify-center mb-6 border border-amber-500/30 group-hover:scale-110 group-hover:bg-amber-800/50 transition-all duration-300 shadow-[0_0_15px_rgba(245,158,11,0.3)]">
-                    <i data-lucide="calendar-days" class="w-8 h-8 text-amber-400 group-hover:text-amber-300"></i>
-                </div>
-                <h4 class="text-2xl font-bold mb-2 text-white group-hover:text-amber-300 transition-colors">今日星历日历</h4>
-                <p class="text-gray-400 text-sm leading-relaxed group-hover:text-gray-200 transition-colors">
-                    实时显示农历节气、今日流日星曜与紫微诸星位置，结合本命盘判断当日宜忌，为每一天的决策提供理性的命理参考坐标。
-                </p>
-            </div>
-
-            <!-- 9. 命例管理 -->
-            <div class="glass-card interactive-trigger rounded-2xl p-6 relative overflow-hidden group">
-                <div class="absolute -top-10 -right-10 w-32 h-32 bg-slate-400/10 rounded-full blur-2xl group-hover:bg-slate-300/20 transition-all duration-500"></div>
-                <div class="w-14 h-14 rounded-xl bg-slate-800/60 flex items-center justify-center mb-6 border border-slate-500/30 group-hover:scale-110 group-hover:bg-slate-700/60 transition-all duration-300 shadow-[0_0_15px_rgba(148,163,184,0.2)]">
-                    <i data-lucide="library" class="w-8 h-8 text-slate-400 group-hover:text-slate-200"></i>
-                </div>
-                <h4 class="text-2xl font-bold mb-2 text-white group-hover:text-slate-200 transition-colors">命例管理</h4>
-                <p class="text-gray-400 text-sm leading-relaxed group-hover:text-gray-200 transition-colors">
-                    本地存储多份命例档案，随时切换查看不同人的命盘，支持保存分享卡片。家人、朋友的命局一并收录，轻松管理你的命理研究记录。
-                </p>
-            </div>
-
-        </div>
+        </article>
     </section>
 
     <!-- 底部信息 -->
@@ -490,7 +453,7 @@
             <div class="relative p-2 rounded-xl bg-white glow-effect mb-6">
                 <!-- 替换为真实二维码图片引用，默认读取 qrcode.png -->
                 <div class="w-48 h-48 bg-white flex flex-col items-center justify-center border border-gray-200 rounded-lg overflow-hidden">
-                    <img src="qrcode.png" alt="下载问星AI二维码" class="w-full h-full object-contain p-2" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23a5b4fc\' stroke-width=\'1\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\' ry=\'2\'></rect><rect x=\'7\' y=\'7\' width=\'3\' height=\'3\'></rect><rect x=\'14\' y=\'7\' width=\'3\' height=\'3\'></rect><rect x=\'7\' y=\'14\' width=\'3\' height=\'3\'></rect><rect x=\'14\' y=\'14\' width=\'3\' height=\'3\'></rect></svg>'"/>
+                    <img src="qrcode.png" loading="lazy" decoding="async" alt="下载问星AI二维码" class="w-full h-full object-contain p-2" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23a5b4fc\' stroke-width=\'1\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\' ry=\'2\'></rect><rect x=\'7\' y=\'7\' width=\'3\' height=\'3\'></rect><rect x=\'14\' y=\'7\' width=\'3\' height=\'3\'></rect><rect x=\'7\' y=\'14\' width=\'3\' height=\'3\'></rect><rect x=\'14\' y=\'14\' width=\'3\' height=\'3\'></rect></svg>'"/>
                 </div>
                 <!-- 科技感四个角标 -->
                 <div class="absolute top-0 left-0 w-4 h-4 border-t-4 border-l-4 border-cyan-500 -mt-2 -ml-2"></div>
@@ -509,6 +472,13 @@
     <script>
         // 在 DOM 就绪后再初始化，避免移动端网络抖动时出现脚本竞态。
         document.addEventListener('DOMContentLoaded', () => {
+            const isMobile = window.matchMedia('(max-width: 767px)').matches;
+            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            const hasFinePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+            const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+            const shouldSaveData = !!(connection && connection.saveData);
+            const isSlowNetwork = !!(connection && /2g/.test(connection.effectiveType || ''));
+
             // 初始化 Lucide 图标（CDN 失败时跳过，防止报错中断）
             if (window.lucide && typeof window.lucide.createIcons === 'function') {
                 window.lucide.createIcons();
@@ -535,193 +505,11 @@
 
             window.toggleModal = toggleModal;
 
-            // ==========================================
-            // Three.js 3D 星空宇宙与“曲率引擎”交互系统
-            // ==========================================
-            const container = document.getElementById('webgl-bg');
-            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-            const isMobile = window.innerWidth < 768;
-
-            // CDN 或 WebGL 不可用时直接降级，避免移动端加载失败/白屏。
-            if (!window.THREE || !container) {
-                document.body.classList.add('webgl-disabled');
-                return;
-            }
-
-            let renderer;
-            try {
-                renderer = new THREE.WebGLRenderer({ alpha: true, antialias: !isMobile });
-            } catch (error) {
-                document.body.classList.add('webgl-disabled');
-                return;
-            }
-
-            const scene = new THREE.Scene();
-            scene.fog = new THREE.FogExp2(0x030308, 0.0015);
-
-            const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 2000);
-            camera.position.z = 800;
-
-            renderer.setSize(window.innerWidth, window.innerHeight);
-            renderer.setPixelRatio(Math.min(window.devicePixelRatio, isMobile ? 1.25 : 2));
-            container.appendChild(renderer.domElement);
-
-            const geometry = new THREE.BufferGeometry();
-            const vertices = [];
-            const colors = [];
-
-            const colorPalette = [
-                new THREE.Color(0x06b6d4),
-                new THREE.Color(0xa855f7),
-                new THREE.Color(0xffffff),
-                new THREE.Color(0x4f46e5)
-            ];
-
-            const starCount = prefersReducedMotion ? 800 : (isMobile ? 1500 : 8000);
-            for (let i = 0; i < starCount; i++) {
-                const x = (Math.random() - 0.5) * 3000;
-                const y = (Math.random() - 0.5) * 3000;
-                const z = (Math.random() - 0.5) * 3000;
-                vertices.push(x, y, z);
-
-                const color = colorPalette[Math.floor(Math.random() * colorPalette.length)];
-                colors.push(color.r, color.g, color.b);
-            }
-
-            geometry.setAttribute('position', new THREE.Float32BufferAttribute(vertices, 3));
-            geometry.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
-
-            const material = new THREE.PointsMaterial({
-                size: 2.5,
-                vertexColors: true,
-                transparent: true,
-                opacity: 0.8,
-                sizeAttenuation: true,
-                blending: THREE.AdditiveBlending,
-                depthWrite: false
-            });
-
-            const particles = new THREE.Points(geometry, material);
-            scene.add(particles);
-
-            const lineCount = prefersReducedMotion ? 0 : (isMobile ? 90 : 400);
-            let streaks = null;
-            let linePositions = null;
-            let lineVels = null;
-            if (lineCount > 0) {
-                const lineGeo = new THREE.BufferGeometry();
-                const linePos = new Float32Array(lineCount * 6);
-                lineVels = new Float32Array(lineCount);
-
-                const streakColors = [new THREE.Color(0x06b6d4), new THREE.Color(0xa855f7), new THREE.Color(0x38bdf8)];
-                const lineColors = new Float32Array(lineCount * 6);
-
-                for (let i = 0; i < lineCount; i++) {
-                    const x = (Math.random() - 0.5) * 3000;
-                    const y = (Math.random() - 0.5) * 3000;
-                    const z = (Math.random() - 0.5) * 4000 - 1000;
-                    const length = Math.random() * 100 + 50;
-
-                    linePos[i * 6] = x;
-                    linePos[i * 6 + 1] = y;
-                    linePos[i * 6 + 2] = z;
-                    linePos[i * 6 + 3] = x;
-                    linePos[i * 6 + 4] = y;
-                    linePos[i * 6 + 5] = z + length;
-
-                    lineVels[i] = Math.random() * 25 + 15;
-
-                    const color = streakColors[Math.floor(Math.random() * streakColors.length)];
-                    lineColors[i * 6] = color.r;
-                    lineColors[i * 6 + 1] = color.g;
-                    lineColors[i * 6 + 2] = color.b;
-                    lineColors[i * 6 + 3] = color.r;
-                    lineColors[i * 6 + 4] = color.g;
-                    lineColors[i * 6 + 5] = color.b;
-                }
-
-                lineGeo.setAttribute('position', new THREE.BufferAttribute(linePos, 3));
-                lineGeo.setAttribute('color', new THREE.BufferAttribute(lineColors, 3));
-
-                const lineMat = new THREE.LineBasicMaterial({
-                    vertexColors: true,
-                    transparent: true,
-                    opacity: 0.6,
-                    blending: THREE.AdditiveBlending,
-                    depthWrite: false
-                });
-                streaks = new THREE.LineSegments(lineGeo, lineMat);
-                linePositions = streaks.geometry.attributes.position.array;
-                scene.add(streaks);
-            }
-
-            let mouseX = 0;
-            let mouseY = 0;
-
-            document.addEventListener('mousemove', (event) => {
-                mouseX = (event.clientX - window.innerWidth / 2) * 0.5;
-                mouseY = (event.clientY - window.innerHeight / 2) * 0.5;
-            }, { passive: true });
-
-            window.addEventListener('resize', () => {
-                camera.aspect = window.innerWidth / window.innerHeight;
-                camera.updateProjectionMatrix();
-                renderer.setSize(window.innerWidth, window.innerHeight);
-                renderer.setPixelRatio(Math.min(window.devicePixelRatio, window.innerWidth < 768 ? 1.25 : 2));
-            }, { passive: true });
-
-            function animate() {
-                requestAnimationFrame(animate);
-
-                particles.rotation.y += 0.0005;
-                particles.rotation.x += 0.0002;
-
-                if (streaks) {
-                    streaks.rotation.y += 0.0005;
-                    streaks.rotation.x += 0.0002;
-                }
-
-                camera.position.x += (mouseX - camera.position.x) * 0.02;
-                camera.position.y += (-mouseY - camera.position.y) * 0.02;
-                camera.lookAt(scene.position);
-
-                camera.fov = 95;
-                camera.updateProjectionMatrix();
-
-                const positions = particles.geometry.attributes.position.array;
-                for (let i = 2; i < starCount * 3; i += 3) {
-                    positions[i] += prefersReducedMotion ? 3 : 10;
-                    if (positions[i] > 1000) positions[i] = -2000;
-                }
-                particles.geometry.attributes.position.needsUpdate = true;
-
-                if (streaks && linePositions && lineVels) {
-                    for (let i = 0; i < lineCount; i++) {
-                        linePositions[i * 6 + 2] += lineVels[i];
-                        linePositions[i * 6 + 5] += lineVels[i];
-
-                        if (linePositions[i * 6 + 2] > 1000) {
-                            const z = -2000 - Math.random() * 1000;
-                            const length = Math.random() * 100 + 50;
-                            linePositions[i * 6 + 2] = z;
-                            linePositions[i * 6 + 5] = z + length;
-                        }
-                    }
-                    streaks.geometry.attributes.position.needsUpdate = true;
-                }
-
-                renderer.render(scene, camera);
-            }
-
-            animate();
-
-            // ==========================================
-            // 核心功能卡片：3D 悬浮倾斜与动态光晕追踪特效
-            // ==========================================
-            if (window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
+            function initCardHoverEffects() {
+                if (!hasFinePointer) return;
                 const cards = document.querySelectorAll('.glass-card');
 
-                cards.forEach(card => {
+                cards.forEach((card) => {
                     card.addEventListener('mousemove', (e) => {
                         const rect = card.getBoundingClientRect();
                         const x = e.clientX - rect.left;
@@ -748,6 +536,232 @@
                         card.style.transition = 'transform 0.1s';
                     });
                 });
+            }
+
+            function loadThreeScript() {
+                if (window.THREE) return Promise.resolve();
+
+                return new Promise((resolve, reject) => {
+                    const script = document.createElement('script');
+                    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js';
+                    script.async = true;
+                    script.onload = () => resolve();
+                    script.onerror = () => reject(new Error('Three.js load failed'));
+                    document.head.appendChild(script);
+                });
+            }
+
+            function initWebGLBackground() {
+                const container = document.getElementById('webgl-bg');
+
+                // 弱网、省流或无动画偏好时优先保证可用性。
+                if (!container || shouldSaveData || (isMobile && isSlowNetwork) || prefersReducedMotion) {
+                    document.body.classList.add('webgl-disabled');
+                    return;
+                }
+
+                if (!window.THREE) {
+                    document.body.classList.add('webgl-disabled');
+                    return;
+                }
+
+                let renderer;
+                try {
+                    renderer = new THREE.WebGLRenderer({ alpha: true, antialias: !isMobile });
+                } catch (error) {
+                    document.body.classList.add('webgl-disabled');
+                    return;
+                }
+
+                const scene = new THREE.Scene();
+                scene.fog = new THREE.FogExp2(0x030308, 0.0015);
+
+                const camera = new THREE.PerspectiveCamera(95, window.innerWidth / window.innerHeight, 0.1, 2000);
+                camera.position.z = 800;
+
+                renderer.setSize(window.innerWidth, window.innerHeight);
+                renderer.setPixelRatio(Math.min(window.devicePixelRatio, isMobile ? 1.25 : 2));
+                container.appendChild(renderer.domElement);
+
+                const geometry = new THREE.BufferGeometry();
+                const vertices = [];
+                const colors = [];
+
+                const colorPalette = [
+                    new THREE.Color(0x06b6d4),
+                    new THREE.Color(0xa855f7),
+                    new THREE.Color(0xffffff),
+                    new THREE.Color(0x4f46e5)
+                ];
+
+                const starCount = isMobile ? 1200 : 7000;
+                for (let i = 0; i < starCount; i++) {
+                    const x = (Math.random() - 0.5) * 3000;
+                    const y = (Math.random() - 0.5) * 3000;
+                    const z = (Math.random() - 0.5) * 3000;
+                    vertices.push(x, y, z);
+
+                    const color = colorPalette[Math.floor(Math.random() * colorPalette.length)];
+                    colors.push(color.r, color.g, color.b);
+                }
+
+                geometry.setAttribute('position', new THREE.Float32BufferAttribute(vertices, 3));
+                geometry.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
+
+                const material = new THREE.PointsMaterial({
+                    size: 2.5,
+                    vertexColors: true,
+                    transparent: true,
+                    opacity: 0.8,
+                    sizeAttenuation: true,
+                    blending: THREE.AdditiveBlending,
+                    depthWrite: false
+                });
+
+                const particles = new THREE.Points(geometry, material);
+                scene.add(particles);
+
+                const lineCount = isMobile ? 72 : 320;
+                let streaks = null;
+                let linePositions = null;
+                let lineVels = null;
+                if (lineCount > 0) {
+                    const lineGeo = new THREE.BufferGeometry();
+                    const linePos = new Float32Array(lineCount * 6);
+                    lineVels = new Float32Array(lineCount);
+
+                    const streakColors = [new THREE.Color(0x06b6d4), new THREE.Color(0xa855f7), new THREE.Color(0x38bdf8)];
+                    const lineColors = new Float32Array(lineCount * 6);
+
+                    for (let i = 0; i < lineCount; i++) {
+                        const x = (Math.random() - 0.5) * 3000;
+                        const y = (Math.random() - 0.5) * 3000;
+                        const z = (Math.random() - 0.5) * 4000 - 1000;
+                        const length = Math.random() * 100 + 50;
+
+                        linePos[i * 6] = x;
+                        linePos[i * 6 + 1] = y;
+                        linePos[i * 6 + 2] = z;
+                        linePos[i * 6 + 3] = x;
+                        linePos[i * 6 + 4] = y;
+                        linePos[i * 6 + 5] = z + length;
+
+                        lineVels[i] = Math.random() * 25 + 15;
+
+                        const color = streakColors[Math.floor(Math.random() * streakColors.length)];
+                        lineColors[i * 6] = color.r;
+                        lineColors[i * 6 + 1] = color.g;
+                        lineColors[i * 6 + 2] = color.b;
+                        lineColors[i * 6 + 3] = color.r;
+                        lineColors[i * 6 + 4] = color.g;
+                        lineColors[i * 6 + 5] = color.b;
+                    }
+
+                    lineGeo.setAttribute('position', new THREE.BufferAttribute(linePos, 3));
+                    lineGeo.setAttribute('color', new THREE.BufferAttribute(lineColors, 3));
+
+                    const lineMat = new THREE.LineBasicMaterial({
+                        vertexColors: true,
+                        transparent: true,
+                        opacity: 0.6,
+                        blending: THREE.AdditiveBlending,
+                        depthWrite: false
+                    });
+                    streaks = new THREE.LineSegments(lineGeo, lineMat);
+                    linePositions = streaks.geometry.attributes.position.array;
+                    scene.add(streaks);
+                }
+
+                let mouseX = 0;
+                let mouseY = 0;
+                if (hasFinePointer) {
+                    document.addEventListener('mousemove', (event) => {
+                        mouseX = (event.clientX - window.innerWidth / 2) * 0.5;
+                        mouseY = (event.clientY - window.innerHeight / 2) * 0.5;
+                    }, { passive: true });
+                }
+
+                let resizeTimer = null;
+                window.addEventListener('resize', () => {
+                    clearTimeout(resizeTimer);
+                    resizeTimer = setTimeout(() => {
+                        camera.aspect = window.innerWidth / window.innerHeight;
+                        camera.updateProjectionMatrix();
+                        renderer.setSize(window.innerWidth, window.innerHeight);
+                        renderer.setPixelRatio(Math.min(window.devicePixelRatio, window.innerWidth < 768 ? 1.25 : 2));
+                    }, 120);
+                }, { passive: true });
+
+                let lastFrameTime = 0;
+                const minFrameGap = isMobile ? 32 : 16;
+
+                function animate(now) {
+                    requestAnimationFrame(animate);
+                    if (document.hidden) return;
+                    if (now - lastFrameTime < minFrameGap) return;
+                    lastFrameTime = now;
+
+                    particles.rotation.y += 0.0005;
+                    particles.rotation.x += 0.0002;
+
+                    if (streaks) {
+                        streaks.rotation.y += 0.0005;
+                        streaks.rotation.x += 0.0002;
+                    }
+
+                    camera.position.x += (mouseX - camera.position.x) * 0.02;
+                    camera.position.y += (-mouseY - camera.position.y) * 0.02;
+                    camera.lookAt(scene.position);
+
+                    const positions = particles.geometry.attributes.position.array;
+                    for (let i = 2; i < starCount * 3; i += 3) {
+                        positions[i] += isMobile ? 8 : 10;
+                        if (positions[i] > 1000) positions[i] = -2000;
+                    }
+                    particles.geometry.attributes.position.needsUpdate = true;
+
+                    if (streaks && linePositions && lineVels) {
+                        for (let i = 0; i < lineCount; i++) {
+                            linePositions[i * 6 + 2] += lineVels[i];
+                            linePositions[i * 6 + 5] += lineVels[i];
+
+                            if (linePositions[i * 6 + 2] > 1000) {
+                                const z = -2000 - Math.random() * 1000;
+                                const length = Math.random() * 100 + 50;
+                                linePositions[i * 6 + 2] = z;
+                                linePositions[i * 6 + 5] = z + length;
+                            }
+                        }
+                        streaks.geometry.attributes.position.needsUpdate = true;
+                    }
+
+                    renderer.render(scene, camera);
+                }
+
+                requestAnimationFrame(animate);
+            }
+
+            // 默认先完成主内容渲染，再按设备条件加载3D背景。
+            function startBackgroundWhenIdle() {
+                const run = () => {
+                    loadThreeScript().then(initWebGLBackground).catch(() => {
+                        document.body.classList.add('webgl-disabled');
+                    });
+                };
+
+                if (typeof window.requestIdleCallback === 'function') {
+                    window.requestIdleCallback(run, { timeout: 1200 });
+                } else {
+                    setTimeout(run, isMobile ? 600 : 300);
+                }
+            }
+
+            initCardHoverEffects();
+
+            if (document.readyState === 'complete') {
+                startBackgroundWhenIdle();
+            } else {
+                window.addEventListener('load', startBackgroundWhenIdle, { once: true });
             }
         });
     </script>
