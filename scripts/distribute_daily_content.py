@@ -22,7 +22,8 @@ JOBS_PATH = OUTPUT_DIR / "distribution-jobs.json"
 PACKAGE_PATH = OUTPUT_DIR / "distribution-package.md"
 STATE_PATH = OUTPUT_DIR / "distribution-state.json"
 DEFAULT_LANDING_URL = "https://karmaisacat.top/"
-BUFFER_BASE_URL = "https://api.bufferapp.com/1"
+BUFFER_REST_BASE_URL = "https://api.bufferapp.com/1"
+BUFFER_GRAPHQL_URL = "https://api.buffer.com"
 
 DEFAULT_SCHEDULES = {
     "threads": "09:30",
@@ -240,7 +241,7 @@ def write_social_exports(jobs: list[dict[str, Any]]) -> None:
 
 
 def get_buffer_profiles(api_key: str) -> list[dict[str, Any]]:
-    url = f"{BUFFER_BASE_URL}/profiles.json?access_token={urllib.parse.quote(api_key)}"
+    url = f"{BUFFER_REST_BASE_URL}/profiles.json?access_token={urllib.parse.quote(api_key)}"
     data = fetch_json(url)
     return data if isinstance(data, list) else []
 
@@ -262,20 +263,48 @@ def resolve_profile_id(platform: str, profiles: list[dict[str, Any]]) -> tuple[s
 
 
 def create_buffer_update(api_key: str, profile_id: str, job: dict[str, Any]) -> dict[str, Any]:
-    payload = urllib.parse.urlencode(
-        [
-            ("access_token", api_key),
-            ("profile_ids[]", profile_id),
-            ("text", job["text"]),
-            ("scheduled_at", job["scheduled_at"]),
-            ("shorten", "false"),
-            ("attachment", "true"),
-        ]
+    query = """
+    mutation CreatePost($channelId: ID!, $text: String!, $dueAt: DateTime!) {
+      createPost(
+        input: {
+          channelId: $channelId
+          text: $text
+          schedulingType: automatic
+          mode: customSchedule
+          dueAt: $dueAt
+        }
+      ) {
+        __typename
+        ... on PostActionSuccess {
+          post {
+            id
+            text
+          }
+        }
+        ... on MutationError {
+          message
+        }
+      }
+    }
+    """
+    payload = json.dumps(
+        {
+            "query": query,
+            "variables": {
+                "channelId": profile_id,
+                "text": job["text"],
+                "dueAt": job["scheduled_at"],
+            },
+        },
+        ensure_ascii=False,
     ).encode("utf-8")
     response = fetch_json(
-        f"{BUFFER_BASE_URL}/updates/create.json",
+        BUFFER_GRAPHQL_URL,
         data=payload,
-        headers={"Content-Type": "application/x-www-form-urlencoded"},
+        headers={
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {api_key}",
+        },
     )
     if not isinstance(response, dict):
         raise RuntimeError("invalid Buffer create response")
@@ -321,10 +350,11 @@ def publish_jobs_to_buffer(jobs: list[dict[str, Any]], state: dict[str, Any]) ->
             continue
 
         response = create_buffer_update(api_key, profile_id, job)
-        updates = response.get("updates") or []
-        buffer_update_id = ""
-        if updates and isinstance(updates, list):
-            buffer_update_id = str(updates[0].get("id") or "")
+        create_post = ((response.get("data") or {}).get("createPost") or {})
+        if create_post.get("__typename") == "MutationError":
+            raise RuntimeError(create_post.get("message") or "unknown Buffer mutation error")
+        post = create_post.get("post") or {}
+        buffer_update_id = str(post.get("id") or "")
 
         job["status"] = "queued"
         slug_bucket[state_key] = {
