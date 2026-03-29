@@ -158,10 +158,10 @@ FALLBACK_ITEMS = [
     {
         "title": "台湾媒体与海外华语社区的命理热议，会优先整理在这里",
         "summary": "当可核验来源当天的高相关内容较少时，页面会保留最近一轮值得追踪的话题，保证阅读节奏与版面完整。",
-        "url": "https://karmaisacat.top/mingli-xuanxue-news.html",
+        "url": "https://wenxingai.top/mingli-xuanxue-news.html",
         "source_id": "fallback_watch",
         "source": "问星AI观察",
-        "source_url": "https://karmaisacat.top/mingli-xuanxue-news.html",
+        "source_url": "https://wenxingai.top/mingli-xuanxue-news.html",
         "source_group": "editorial",
         "category": "趋势观察",
         "published": None,
@@ -575,7 +575,7 @@ def get_reddit_access_token() -> tuple[str, str]:
 
 def parse_reddit_public_search(source: dict, timezone: ZoneInfo) -> Iterable[NewsItem]:
     headers = {
-        "User-Agent": "Mozilla/5.0 (compatible; WenxingBot/1.0; +https://karmaisacat.top)",
+        "User-Agent": "Mozilla/5.0 (compatible; WenxingBot/1.0; +https://wenxingai.top)",
         "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
     }
 

@@ -84,20 +84,28 @@
     <meta name="author" content="AIcoding">
     <meta name="robots" content="index, follow">
     <!-- 规范化链接，防止权重分散 -->   
-    <link rel="canonical" href="https://karmaisacat.top/">
+    <link rel="canonical" href="https://wenxingai.top/">
+    <link rel="icon" type="image/png" href="https://wenxingai.top/favicon.png">
+    <link rel="shortcut icon" href="https://wenxingai.top/favicon.png">
+    <link rel="apple-touch-icon" href="https://wenxingai.top/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#120a24">
     
     <!-- Open Graph / 社交媒体分享 -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://karmaisacat.top/">
+    <meta property="og:url" content="https://wenxingai.top/">
+    <meta property="og:site_name" content="问星AI">
     <meta property="og:title" content="问星AI - 首款融合玄学命理与AI大模型的智能APP">
     <meta property="og:description" content="提供3D命盘可视化、24小时专属AI咨询师、人生大运K线图等功能，一键开启您的专属全息宇宙。">
-    <meta property="og:image" content="https://karmaisacat.top/share-cover.jpg">
+    <meta property="og:image" content="https://wenxingai.top/share-cover.jpg">
+    <meta property="og:image:alt" content="问星AI网站品牌 Logo">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="问星AI - 首款融合玄学命理与AI大模型的智能APP">
     <meta name="twitter:description" content="突破传统排盘，一键开启命运的全息宇宙。提供AI解卦、大运K线、专属AI命理师等创新功能。">
-    <meta name="twitter:image" content="https://karmaisacat.top/share-cover.jpg">
+    <meta name="twitter:image" content="https://wenxingai.top/share-cover.jpg">
+    <meta name="twitter:image:alt" content="问星AI网站品牌 Logo">
 
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="preconnect" href="https://unpkg.com" crossorigin>
@@ -107,32 +115,64 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "问星AI",
-      "operatingSystem": "Android, Web (iOS即将上线)",
-      "applicationCategory": "LifestyleApplication",
-      "applicationSubCategory": "Astrology & AI",
-    "description": "由专业命理师AIcoding打造，颠覆命理行业的玄学APP，不仅可以推导未来，还可以验证过去。深度结合传统易学与前沿AI大语言模型，为您的人生剧本提供更专业、更理性的视角。",
-      "url": "https://karmaisacat.top/",
-      "creator": {
-        "@type": "Organization",
-        "name": "AIcoding"
-      },
-      "image": "https://karmaisacat.top/share-cover.jpg",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "CNY",
-        "availability": "https://schema.org/InStock",
-        "description": "内测体验版"
-      },
-      "featureList": [
-        "3D命盘全息可视化",
-        "24小时专属AI命理咨询师",
-        "人生大运K线图走势分析",
-        "个性化AI每日运势日历",
-        "易经AI六爻排盘解卦",
-        "双人关系AI合盘与气场分析"
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://wenxingai.top/#organization",
+          "name": "问星AI",
+          "alternateName": "AIcoding",
+          "url": "https://wenxingai.top/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://wenxingai.top/share-cover.jpg",
+            "width": 1024,
+            "height": 1024
+          },
+          "image": "https://wenxingai.top/share-cover.jpg"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://wenxingai.top/#website",
+          "url": "https://wenxingai.top/",
+          "name": "问星AI",
+          "inLanguage": "zh-CN",
+          "publisher": {
+            "@id": "https://wenxingai.top/#organization"
+          }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://wenxingai.top/#app",
+          "name": "问星AI",
+          "operatingSystem": "Android, Web (iOS即将上线)",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Astrology & AI",
+          "description": "由专业命理师AIcoding打造，颠覆命理行业的玄学APP，不仅可以推导未来，还可以验证过去。深度结合传统易学与前沿AI大语言模型，为您的人生剧本提供更专业、更理性的视角。",
+          "url": "https://wenxingai.top/",
+          "creator": {
+            "@id": "https://wenxingai.top/#organization"
+          },
+          "publisher": {
+            "@id": "https://wenxingai.top/#organization"
+          },
+          "image": "https://wenxingai.top/share-cover.jpg",
+          "screenshot": "https://wenxingai.top/share-cover.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "CNY",
+            "availability": "https://schema.org/InStock",
+            "description": "内测体验版"
+          },
+          "featureList": [
+            "3D命盘全息可视化",
+            "24小时专属AI命理咨询师",
+            "人生大运K线图走势分析",
+            "个性化AI每日运势日历",
+            "易经AI六爻排盘解卦",
+            "双人关系AI合盘与气场分析"
+          ]
+        }
       ]
     }
     </script>
@@ -330,7 +370,7 @@
         </div>
 
         <!-- 中间大 Logo -->
-        <div class="relative w-48 h-48 md:w-64 md:h-64 mb-12 interactive-trigger group cursor-pointer" onclick="window.location.href='https://karmaisacat.top'">
+        <div class="relative w-48 h-48 md:w-64 md:h-64 mb-12 interactive-trigger group cursor-pointer" onclick="window.location.href='https://wenxingai.top'">
             <!-- 动态光晕底座 -->
             <div class="absolute inset-0 rounded-full bg-gradient-to-tr from-cyan-400 via-indigo-500 to-purple-600 opacity-30 blur-3xl group-hover:opacity-60 transition-opacity duration-500 animate-pulse"></div>
             <!-- 双层星轨装饰 -->

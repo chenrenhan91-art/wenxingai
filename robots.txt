@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://karmaisacat.top/sitemap.xml
+Sitemap: https://wenxingai.top/sitemap.xml
