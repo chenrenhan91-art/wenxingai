@@ -7,8 +7,10 @@ on:
     paths:
       - "scripts/update_hot_news.py"
       - "scripts/generate_daily_content.py"
+      - "scripts/distribute_daily_content.py"
       - "hot-news-sources.json"
       - "prompts/gemini_daily_content_prompt.txt"
+      - "BUFFER_SETUP.md"
       - ".github/workflows/update-hot-news.yml"
   schedule:
     - cron: "17 1 * * *"
@@ -44,6 +46,16 @@ jobs:
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
         run: python3 scripts/generate_daily_content.py
 
+      - name: Prepare social distribution
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_THREADS_PROFILE_ID: ${{ vars.BUFFER_THREADS_PROFILE_ID }}
+          BUFFER_X_PROFILE_ID: ${{ vars.BUFFER_X_PROFILE_ID }}
+          BUFFER_FACEBOOK_PROFILE_ID: ${{ vars.BUFFER_FACEBOOK_PROFILE_ID }}
+          BUFFER_INSTAGRAM_PROFILE_ID: ${{ vars.BUFFER_INSTAGRAM_PROFILE_ID }}
+          SOCIAL_LANDING_URL: ${{ vars.SOCIAL_LANDING_URL }}
+        run: python3 scripts/distribute_daily_content.py
+
       - name: Commit changes
         run: |
           if git diff --quiet; then
@@ -55,5 +67,9 @@ jobs:
           git add hot-news-data.json index.html mingli-xuanxue-news.html sitemap.xml
           if [ -f generated/gemini-content-bundle.json ]; then git add generated/gemini-content-bundle.json; fi
           if [ -f generated/gemini-content-package.md ]; then git add generated/gemini-content-package.md; fi
+          if [ -f generated/distribution-jobs.json ]; then git add generated/distribution-jobs.json; fi
+          if [ -f generated/distribution-package.md ]; then git add generated/distribution-package.md; fi
+          if [ -f generated/distribution-state.json ]; then git add generated/distribution-state.json; fi
+          if [ -d generated/social-posts ]; then git add generated/social-posts; fi
           git commit -m "chore: update hot news"
           git push
