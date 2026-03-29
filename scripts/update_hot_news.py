@@ -346,6 +346,81 @@ def build_google_summary(title: str, description: str, source_name: str) -> str:
     return clean_description
 
 
+def build_public_platform_summary(platform_name: str) -> str:
+    return f"来自 {platform_name} 的公开收录内容，点击可查看原文。"
+
+
+def build_google_site_search_url(site: str, query: str, days: int) -> str:
+    effective_days = max(1, min(days, 30))
+    search_query = f"site:{site} {query} when:{effective_days}d"
+    return (
+        "https://news.google.com/rss/search?q="
+        f"{urllib.parse.quote(search_query)}&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
+    )
+
+
+def parse_google_site_search(
+    source: dict,
+    timezone: ZoneInfo,
+    *,
+    site: str,
+    platform_name: str,
+    queries: list[str],
+    require_explicit_match: bool = True,
+) -> Iterable[NewsItem]:
+    days = source.get("max_age_days", 14)
+    source_name = f"{platform_name} · Google News"
+
+    for query in queries:
+        feed_url = build_google_site_search_url(site, query, days)
+        root = ET.fromstring(fetch_bytes(feed_url))
+        items = root.findall("./channel/item")
+
+        for item in items:
+            raw_title = item.findtext("title") or ""
+            title, _publisher = split_google_news_title(raw_title)
+            if not title:
+                continue
+            if "Results on X | Live Posts & Updates" in title:
+                continue
+
+            description = item.findtext("description") or ""
+            summary = build_google_summary(title, description, source_name)
+            if not strip_tags(summary):
+                summary = build_public_platform_summary(platform_name)
+            if contains_excluded_terms(title, summary):
+                continue
+
+            published = parse_date(item.findtext("pubDate") or "", timezone)
+            date_iso, date_display = format_date(published, timezone)
+            category, matched_keywords, score, had_explicit_match = score_text(
+                title,
+                description,
+                source["id"],
+                source.get("category_hint"),
+            )
+            query_match = query in f"{title} {summary}"
+            if require_explicit_match and not (had_explicit_match or query_match):
+                continue
+            if query_match and query not in matched_keywords:
+                matched_keywords = [query, *matched_keywords][:3]
+
+            yield NewsItem(
+                title=title,
+                summary=truncate_text(summary, 112),
+                url=(item.findtext("link") or "").strip(),
+                source_id=source["id"],
+                source=source_name,
+                source_url=feed_url,
+                source_group=source.get("source_group", "news"),
+                category=category,
+                published=date_iso,
+                published_display=date_display,
+                matched_keywords=matched_keywords,
+                score=score + 0.2,
+            )
+
+
 def contains_excluded_terms(title: str, summary: str) -> bool:
     haystack = f"{title} {summary}"
     return any(keyword in haystack for keyword in EXCLUDED_KEYWORDS)
@@ -498,7 +573,60 @@ def get_reddit_access_token() -> tuple[str, str]:
     return token, user_agent
 
 
-def parse_reddit_search(source: dict, timezone: ZoneInfo) -> Iterable[NewsItem]:
+def parse_reddit_public_search(source: dict, timezone: ZoneInfo) -> Iterable[NewsItem]:
+    headers = {
+        "User-Agent": "Mozilla/5.0 (compatible; WenxingBot/1.0; +https://karmaisacat.top)",
+        "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+    }
+
+    for query in source.get("queries", []):
+        params = urllib.parse.urlencode(
+            {"q": query, "sort": "top", "limit": 15, "t": "month", "type": "link"}
+        )
+        payload = fetch_json(f"https://old.reddit.com/search.json?{params}", headers=headers)
+
+        for child in payload.get("data", {}).get("children", []):
+            data = child.get("data", {})
+            title = strip_tags(data.get("title") or "")
+            if not title:
+                continue
+
+            published_dt = datetime.fromtimestamp(data.get("created_utc", 0), tz=timezone)
+            date_iso, date_display = format_date(published_dt, timezone)
+            ups = int(data.get("ups", 0) or 0)
+            comments = int(data.get("num_comments", 0) or 0)
+            summary = strip_tags(data.get("selftext") or "")
+            summary = summary or (
+                f"Reddit 海外社区高热帖子，来自 r/{data.get('subreddit', '')}，"
+                f"当前赞成票 {ups}、评论 {comments}。"
+            )
+            if contains_excluded_terms(title, summary):
+                continue
+            category, matched_keywords, score, _ = score_text(
+                title,
+                f"{summary} {query}",
+                source["id"],
+                source.get("category_hint"),
+            )
+            metrics_score = ups * 0.05 + comments * 0.08
+
+            yield NewsItem(
+                title=title,
+                summary=truncate_text(summary, 112),
+                url=urljoin("https://old.reddit.com", data.get("permalink", "")),
+                source_id=source["id"],
+                source=f"Reddit r/{data.get('subreddit', '')}",
+                source_url=source["url"],
+                source_group=source.get("source_group", "community"),
+                category=category,
+                published=date_iso,
+                published_display=date_display,
+                matched_keywords=matched_keywords,
+                score=score + metrics_score,
+            )
+
+
+def parse_reddit_authenticated_search(source: dict, timezone: ZoneInfo) -> Iterable[NewsItem]:
     token, user_agent = get_reddit_access_token()
 
     for query in source.get("queries", []):
@@ -554,10 +682,28 @@ def parse_reddit_search(source: dict, timezone: ZoneInfo) -> Iterable[NewsItem]:
             )
 
 
+def parse_reddit_search(source: dict, timezone: ZoneInfo) -> Iterable[NewsItem]:
+    try:
+        yield from parse_reddit_public_search(source, timezone)
+        return
+    except Exception:
+        if not (os.getenv("REDDIT_CLIENT_ID") and os.getenv("REDDIT_CLIENT_SECRET")):
+            raise
+    yield from parse_reddit_authenticated_search(source, timezone)
+
+
 def parse_youtube_search(source: dict, timezone: ZoneInfo) -> Iterable[NewsItem]:
     api_key = os.getenv("YOUTUBE_API_KEY")
     if not api_key:
-        raise RuntimeError("missing YOUTUBE_API_KEY")
+        public_queries = source.get("public_queries") or source.get("queries", [])
+        yield from parse_google_site_search(
+            source,
+            timezone,
+            site="youtube.com",
+            platform_name="YouTube",
+            queries=public_queries,
+        )
+        return
 
     for query in source.get("queries", []):
         search_params = urllib.parse.urlencode(
@@ -644,7 +790,15 @@ def parse_youtube_search(source: dict, timezone: ZoneInfo) -> Iterable[NewsItem]
 def parse_x_recent_search(source: dict, timezone: ZoneInfo) -> Iterable[NewsItem]:
     token = os.getenv("X_BEARER_TOKEN")
     if not token:
-        raise RuntimeError("missing X_BEARER_TOKEN")
+        public_queries = source.get("fallback_queries") or ["命理師", "算命", "紫微", "塔羅"]
+        yield from parse_google_site_search(
+            source,
+            timezone,
+            site="x.com",
+            platform_name="X",
+            queries=public_queries,
+        )
+        return
 
     for query in source.get("queries", []):
         params = urllib.parse.urlencode(
@@ -762,10 +916,11 @@ def select_featured_items(items: list[NewsItem], limit: int = 8) -> list[NewsIte
             chosen.append(item)
             count -= 1
 
-    add_from((i for i in items if i.source_group == "video"), 1)
-    add_from((i for i in items if i.source_id in {"x_recent_search", "reddit_search"}), 1)
-    add_from((i for i in items if i.source_group == "community"), 2)
-    add_from((i for i in items if i.source_group == "news"), 4)
+    add_from((i for i in items if i.source_id == "youtube_search"), 1)
+    add_from((i for i in items if i.source_id == "x_recent_search"), 1)
+    add_from((i for i in items if i.source_id == "reddit_search"), 1)
+    add_from((i for i in items if i.source_group == "community"), 1)
+    add_from((i for i in items if i.source_group == "news"), 3)
     add_from((i for i in items if i.category in {"命理新闻", "八字紫微"}), 2)
     add_from(items, limit - len(chosen))
     return chosen[:limit]

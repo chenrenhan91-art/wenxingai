@@ -89,7 +89,7 @@
         "八字",
         "紫微斗數"
       ],
-      "description": "海外华人常用视频平台，需配置 YOUTUBE_API_KEY 后启用",
+      "description": "海外华人常用视频平台，默认尝试公开搜索回退；配置 YOUTUBE_API_KEY 后可切换官方 API",
       "source_group": "video",
       "category_hint": "社区热议",
       "max_age_days": 30
@@ -100,7 +100,8 @@
       "type": "x_recent_search",
       "url": "https://x.com/search?q=%E5%91%BD%E7%90%86&src=typed_query",
       "queries": ["(命理 OR 八字 OR 紫微 OR 玄學 OR 塔羅) lang:zh -is:retweet"],
-      "description": "海外华语即时讨论源，需配置 X_BEARER_TOKEN 后启用",
+      "fallback_queries": ["命理師", "算命", "紫微", "塔羅"],
+      "description": "海外华语即时讨论源，默认尝试公开搜索回退；配置 X_BEARER_TOKEN 后可切换官方 API",
       "source_group": "community",
       "category_hint": "社区热议",
       "max_age_days": 14
@@ -111,7 +112,7 @@
       "type": "reddit_search",
       "url": "https://www.reddit.com/search/?q=%E5%91%BD%E7%90%86",
       "queries": ["命理 OR 玄學 OR 塔羅 OR 八字"],
-      "description": "海外社区讨论源，需配置 Reddit API 凭证后启用",
+      "description": "海外社区讨论源，默认尝试 old.reddit.com 公开搜索；配置 Reddit API 凭证后可切换官方 API",
       "source_group": "community",
       "category_hint": "海外话题",
       "max_age_days": 30
