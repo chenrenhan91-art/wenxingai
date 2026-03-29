@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-03-29",
-  "updated_at_display": "2026年3月29日 16:54",
+  "updated_at_display": "2026年3月29日 18:32",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -164,15 +164,15 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1zVTBIRjNCeEdtdXFzTWVSVVdENFFQU2ZPTEJsLTRVeThqU3VCbHRfMHVFTE9IWVBxMGVKOUFWSmJ2UXExN0JjVjdLa0tYeUNEY0ItQmtR?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "八字紫微",
       "published": "2026-03-26",
       "published_display": "2026-03-26",
       "matched_keywords": [
+        "紫微斗數",
         "命理",
-        "流年",
-        "紫微"
+        "流年"
       ],
       "score": 14.4
     },
