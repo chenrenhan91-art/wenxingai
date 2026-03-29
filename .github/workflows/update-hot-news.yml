@@ -6,7 +6,9 @@ on:
       - main
     paths:
       - "scripts/update_hot_news.py"
+      - "scripts/generate_daily_content.py"
       - "hot-news-sources.json"
+      - "prompts/gemini_daily_content_prompt.txt"
       - ".github/workflows/update-hot-news.yml"
   schedule:
     - cron: "17 1 * * *"
@@ -36,6 +38,12 @@ jobs:
           REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
         run: python3 scripts/update_hot_news.py
 
+      - name: Generate Gemini content package
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: python3 scripts/generate_daily_content.py
+
       - name: Commit changes
         run: |
           if git diff --quiet; then
@@ -45,5 +53,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add hot-news-data.json index.html mingli-xuanxue-news.html sitemap.xml
+          if [ -f generated/gemini-content-bundle.json ]; then git add generated/gemini-content-bundle.json; fi
+          if [ -f generated/gemini-content-package.md ]; then git add generated/gemini-content-package.md; fi
           git commit -m "chore: update hot news"
           git push
