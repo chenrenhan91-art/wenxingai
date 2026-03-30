@@ -22,6 +22,13 @@ PIPELINE_REPORT_JSON_PATH = OUTPUT_DIR / "pipeline-report.json"
 PIPELINE_REPORT_MD_PATH = OUTPUT_DIR / "pipeline-report.md"
 
 
+def env_flag(name: str, default: bool = False) -> bool:
+    value = os.getenv(name, "").strip().lower()
+    if not value:
+        return default
+    return value in {"1", "true", "yes", "on"}
+
+
 def load_env_files() -> None:
     for filename in (".env.local", ".env"):
         env_path = ROOT / filename
@@ -108,6 +115,7 @@ def render_report(report: dict[str, Any]) -> str:
     lines = [
         f"# 问星AI 内容自动化运行报告 {report['ran_at_display']}",
         "",
+        f"- 本轮是否强制刷新：{'是' if report['force_refresh'] else '否'}",
         f"- 热点是否变化：{'是' if report['content_changed'] else '否'}",
         f"- 变更签名：{report['new_signature'] or '无'}",
         f"- Gemini 是否执行：{'是' if report['gemini_ran'] else '否'}",
@@ -139,6 +147,7 @@ def render_report(report: dict[str, Any]) -> str:
 def main() -> None:
     load_env_files()
     timezone = ZoneInfo(os.getenv("PIPELINE_TIMEZONE", "Asia/Shanghai"))
+    force_refresh = env_flag("PIPELINE_FORCE_REFRESH")
     now = datetime.now(timezone)
     previous_payload = read_json(DATA_PATH)
     previous_signature = build_snapshot_signature(previous_payload)
@@ -158,13 +167,14 @@ def main() -> None:
     pipeline_state = read_json(PIPELINE_STATE_PATH) or {}
     last_success_signature = str(pipeline_state.get("last_success_signature", ""))
     content_changed = bool(new_signature and new_signature != last_success_signature)
+    should_refresh_content = bool(new_signature) and (content_changed or force_refresh)
 
     gemini_ran = False
     review_ran = False
     audit_ran = False
     fresh_bundle_ready = False
     distribution_ran = False
-    if content_changed:
+    if should_refresh_content:
         gemini_step = run_step("generate_daily_content.py")
         steps.append(gemini_step)
         gemini_ran = True
@@ -207,6 +217,7 @@ def main() -> None:
     report = {
         "ran_at": now.isoformat(),
         "ran_at_display": f"{now.year}年{now.month}月{now.day}日 {now:%H:%M}",
+        "force_refresh": force_refresh,
         "previous_signature": previous_signature,
         "new_signature": new_signature,
         "content_changed": content_changed,
@@ -232,10 +243,16 @@ def main() -> None:
     if not all(step["ok"] for step in steps):
         raise SystemExit("pipeline finished with failures")
 
-    if content_changed and fresh_bundle_ready:
-        print("pipeline completed: content changed and distribution pipeline executed")
-    elif content_changed:
-        print("pipeline completed: content changed but no fresh Gemini bundle was available")
+    if should_refresh_content and fresh_bundle_ready:
+        if content_changed:
+            print("pipeline completed: content changed and distribution pipeline executed")
+        else:
+            print("pipeline completed: forced refresh executed and distribution pipeline ran")
+    elif should_refresh_content:
+        if content_changed:
+            print("pipeline completed: content changed but no fresh Gemini bundle was available")
+        else:
+            print("pipeline completed: forced refresh ran but no fresh Gemini bundle was available")
     else:
         print("pipeline completed: no meaningful content changes, skipped Gemini and Buffer")
 

@@ -21,6 +21,12 @@ on:
     - cron: "0 3 * * *"
     - cron: "0 13 * * *"
   workflow_dispatch:
+    inputs:
+      force_refresh:
+        description: "Force Gemini regeneration and Buffer distribution even if hot-news signature is unchanged"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -96,6 +102,7 @@ jobs:
           SOCIAL_THREADS_LANDING_URL: ${{ vars.SOCIAL_THREADS_LANDING_URL }}
           SOCIAL_X_LANDING_URL: ${{ vars.SOCIAL_X_LANDING_URL }}
           SOCIAL_INSTAGRAM_LANDING_URL: ${{ vars.SOCIAL_INSTAGRAM_LANDING_URL }}
+          PIPELINE_FORCE_REFRESH: ${{ github.event_name == 'schedule' || inputs.force_refresh }}
         run: python3 scripts/run_content_pipeline.py
 
       - name: Commit changes
