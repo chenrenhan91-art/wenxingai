@@ -37,6 +37,41 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Validate required configuration
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_REVIEW_MODEL: ${{ vars.GEMINI_REVIEW_MODEL }}
+          BUFFER_THREADS_PROFILE_ID: ${{ vars.BUFFER_THREADS_PROFILE_ID }}
+          BUFFER_X_PROFILE_ID: ${{ vars.BUFFER_X_PROFILE_ID }}
+          BUFFER_INSTAGRAM_PROFILE_ID: ${{ vars.BUFFER_INSTAGRAM_PROFILE_ID }}
+          SOCIAL_ENABLED_PLATFORMS: ${{ vars.SOCIAL_ENABLED_PLATFORMS }}
+          SOCIAL_THREADS_LOCALE: ${{ vars.SOCIAL_THREADS_LOCALE }}
+          SOCIAL_X_LOCALE: ${{ vars.SOCIAL_X_LOCALE }}
+          SOCIAL_INSTAGRAM_LOCALE: ${{ vars.SOCIAL_INSTAGRAM_LOCALE }}
+          SOCIAL_LANDING_URL: ${{ vars.SOCIAL_LANDING_URL }}
+        run: |
+          missing=()
+          [ -n "$GEMINI_API_KEY" ] || missing+=("secret:GEMINI_API_KEY")
+          [ -n "$BUFFER_API_KEY" ] || missing+=("secret:BUFFER_API_KEY")
+          [ -n "$GEMINI_MODEL" ] || missing+=("var:GEMINI_MODEL")
+          [ -n "$GEMINI_REVIEW_MODEL" ] || missing+=("var:GEMINI_REVIEW_MODEL")
+          [ -n "$BUFFER_THREADS_PROFILE_ID" ] || missing+=("var:BUFFER_THREADS_PROFILE_ID")
+          [ -n "$BUFFER_X_PROFILE_ID" ] || missing+=("var:BUFFER_X_PROFILE_ID")
+          [ -n "$BUFFER_INSTAGRAM_PROFILE_ID" ] || missing+=("var:BUFFER_INSTAGRAM_PROFILE_ID")
+          [ -n "$SOCIAL_ENABLED_PLATFORMS" ] || missing+=("var:SOCIAL_ENABLED_PLATFORMS")
+          [ -n "$SOCIAL_THREADS_LOCALE" ] || missing+=("var:SOCIAL_THREADS_LOCALE")
+          [ -n "$SOCIAL_X_LOCALE" ] || missing+=("var:SOCIAL_X_LOCALE")
+          [ -n "$SOCIAL_INSTAGRAM_LOCALE" ] || missing+=("var:SOCIAL_INSTAGRAM_LOCALE")
+          [ -n "$SOCIAL_LANDING_URL" ] || missing+=("var:SOCIAL_LANDING_URL")
+          if [ ${#missing[@]} -gt 0 ]; then
+            echo "Missing required GitHub Actions configuration:"
+            printf ' - %s\n' "${missing[@]}"
+            exit 1
+          fi
+          echo "GitHub Actions configuration looks complete."
+
       - name: Run content pipeline
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
