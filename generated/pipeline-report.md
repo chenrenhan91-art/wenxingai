@@ -1,12 +1,12 @@
-# 问星AI 内容自动化运行报告 2026年3月30日 13:44
+# 问星AI 内容自动化运行报告 2026年3月30日 14:15
 
-- 热点是否变化：是
+- 热点是否变化：否
 - 变更签名：406f307f1297b0ba007480b3c03dcd244955340c
-- Gemini 是否执行：是
-- Gemini 审校是否执行：是
-- 规则质检是否执行：是
-- Gemini 内容包是否匹配本轮热点：是
-- Buffer 是否执行：是
+- Gemini 是否执行：否
+- Gemini 审校是否执行：否
+- 规则质检是否执行：否
+- Gemini 内容包是否匹配本轮热点：否
+- Buffer 是否执行：否
 
 ## 本轮热点标题
 - 【偷窺一下】他在想你嗎？就現在！有多想？想你為什麼不找你？他對關係的計劃|曖昧|愛情|戀愛|桃花|塔羅占卜
@@ -15,14 +15,6 @@
 - 本週運勢出爐！「3生肖」財運噴發 命理師：快買刮刮樂
 - 【清明掃墓禁忌一次看！命理師提醒3件事少做 「別直接回家」】 （圖／記者王威智攝） 可能會影響運勢。(#起啵)
 
-## 新增标题
-- [新聞] 下葬61年祖母未腐反成蔭屍 命理師：
-- 【清明掃墓禁忌一次看！命理師提醒3件事少做 「別直接回家」】 （圖／記者王威智攝） 可能會影響運勢。(#起啵)
-
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年3月30日 13:44
-- generate_daily_content.py | ok | generated Gemini content bundle at 2026年3月30日 13:44 using gemini-2.5-flash
-- review_daily_content.py | ok | reviewed Gemini content bundle using gemini-2.5-pro
-- audit_daily_content.py | ok | content audit passed with 0 warnings
-- distribute_daily_content.py | ok | prepared 5 distribution jobs; skipped Buffer publishing: missing BUFFER_API_KEY
+updated 8 hot news items at 2026年3月30日 14:15
