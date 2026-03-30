@@ -18,7 +18,8 @@ on:
       - ".env.example"
       - ".github/workflows/update-hot-news.yml"
   schedule:
-    - cron: "17 1 * * *"
+    - cron: "0 3 * * *"
+    - cron: "0 13 * * *"
   workflow_dispatch:
 
 permissions:

@@ -83,7 +83,7 @@ SOCIAL_ENABLED_PLATFORMS=threads,x,instagram
 SOCIAL_THREADS_LOCALE=zh_hant
 SOCIAL_X_LOCALE=zh_cn
 SOCIAL_INSTAGRAM_LOCALE=zh_hant
-SOCIAL_LANDING_URL=https://wenxingai.top/mingli-xuanxue-news.html
+SOCIAL_LANDING_URL=https://wenxingai.top/
 ```
 
 推荐发布时间：
@@ -136,6 +136,15 @@ SOCIAL_LANDING_URL=https://wenxingai.top/mingli-xuanxue-news.html
 - 每周一次：看哪类热点最容易引发咨询
 - 每周一次：调整 Gemini 提示词，减少低转化话题
 - 每月一次：复盘平台语言配置是否需要调整
+
+## GitHub Actions 调度
+
+当前仓库工作流默认会在 GitHub Actions 上按北京时间每日运行两次：
+
+- `11:00`
+- `21:00`
+
+只要 GitHub 仓库里的 Secrets 和 Variables 配置完整，就不需要本地电脑开机。
 
 ## 本项目的默认假设
 

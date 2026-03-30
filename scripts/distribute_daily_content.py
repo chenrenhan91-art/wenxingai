@@ -22,7 +22,7 @@ SOCIAL_DIR = OUTPUT_DIR / "social-posts"
 JOBS_PATH = OUTPUT_DIR / "distribution-jobs.json"
 PACKAGE_PATH = OUTPUT_DIR / "distribution-package.md"
 STATE_PATH = OUTPUT_DIR / "distribution-state.json"
-DEFAULT_LANDING_URL = "https://wenxingai.top/mingli-xuanxue-news.html"
+DEFAULT_LANDING_URL = "https://wenxingai.top/"
 BUFFER_REST_BASE_URL = "https://api.bufferapp.com/1"
 BUFFER_GRAPHQL_URL = "https://api.buffer.com"
 

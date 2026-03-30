@@ -35,7 +35,7 @@
 
 如果不单独设置 `SOCIAL_LANDING_URL`，分发脚本会默认把社交流量引到：
 
-- `https://wenxingai.top/mingli-xuanxue-news.html`
+- `https://wenxingai.top/`
 
 并自动附加：
 
@@ -57,7 +57,7 @@ SOCIAL_ENABLED_PLATFORMS=threads,x,instagram
 SOCIAL_THREADS_LOCALE=zh_hant
 SOCIAL_X_LOCALE=zh_cn
 SOCIAL_INSTAGRAM_LOCALE=zh_hant
-SOCIAL_LANDING_URL=https://wenxingai.top/mingli-xuanxue-news.html
+SOCIAL_LANDING_URL=https://wenxingai.top/
 ```
 
 这套默认意味着：
