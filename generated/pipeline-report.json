@@ -1,14 +1,15 @@
 {
-  "ran_at": "2026-03-30T14:15:37.820402+08:00",
-  "ran_at_display": "2026年3月30日 14:15",
+  "ran_at": "2026-03-30T14:27:05.194327+08:00",
+  "ran_at_display": "2026年3月30日 14:27",
+  "force_refresh": false,
   "previous_signature": "406f307f1297b0ba007480b3c03dcd244955340c",
-  "new_signature": "406f307f1297b0ba007480b3c03dcd244955340c",
-  "content_changed": false,
-  "gemini_ran": false,
-  "review_ran": false,
-  "audit_ran": false,
-  "fresh_bundle_ready": false,
-  "distribution_ran": false,
+  "new_signature": "e1d88bc3b6f0d3bc7e2c4421a22623dc6523791c",
+  "content_changed": true,
+  "gemini_ran": true,
+  "review_ran": true,
+  "audit_ran": true,
+  "fresh_bundle_ready": true,
+  "distribution_ran": true,
   "new_titles": [
     "【偷窺一下】他在想你嗎？就現在！有多想？想你為什麼不找你？他對關係的計劃|曖昧|愛情|戀愛|桃花|塔羅占卜",
     "[ 易經６４卦算流年 初班0310 ] #天水訟 訟有孚窒惕中吉終凶 #易卦大成卦六十四卦 #坎卦命 #2026丙午馬年 #算流年唔駛用八字 #算流年唔駛用紫斗 #自己運程自己推算 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年",
@@ -22,7 +23,31 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年3月30日 14:15"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年3月30日 14:27"
+    },
+    {
+      "script": "generate_daily_content.py",
+      "returncode": 0,
+      "ok": true,
+      "output": "generated Gemini content bundle at 2026年3月30日 14:27 using gemini-2.5-pro"
+    },
+    {
+      "script": "review_daily_content.py",
+      "returncode": 0,
+      "ok": true,
+      "output": "reviewed Gemini content bundle using gemini-2.5-pro"
+    },
+    {
+      "script": "audit_daily_content.py",
+      "returncode": 0,
+      "ok": true,
+      "output": "content audit passed with 0 warnings"
+    },
+    {
+      "script": "distribute_daily_content.py",
+      "returncode": 0,
+      "ok": true,
+      "output": "prepared 5 distribution jobs; queued 5 jobs to Buffer"
     }
   ]
 }
