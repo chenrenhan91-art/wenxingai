@@ -1,25 +1,19 @@
 # threads
 
 ## Post 1
+- Locale: zh_hant
 - Scheduled At: 2026-03-30T15:00:00+08:00
-- Landing URL: https://karmaisacat.top/?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-03-30
+- Landing URL: https://wenxingai.top/mingli-xuanxue-news.html?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-03-30&utm_content=zh_hant
 
-今日命理圈話題不斷。有命理師因預測失準而公開道歉甚至宣佈封筆，引發關於「預測」與「責任」的深思。究竟是解讀偏差？還是人為干預的複雜？這不僅是單一個案，更是對整個命理行業公信力的考驗。期待未來能有更多理性且具建設性的探討。#命理 #預測 #玄學
+關於命理師預測失準的討論，其實暴露了一個核心問題：我們到底期待從玄學中得到什麼？是一個確切無疑的未來，還是一個理解當下可能性的工具？傳統命理依賴個人解讀，難免有主觀盲點。AI的優勢在於處理複雜模型，能呈現一種更客觀的趨勢分析。它不是要取代誰，而是提供一種新的輔助工具，幫助我們更理性地看待「命運」。這正是我們在問星AI努力的方向。
 
-完整解讀：https://karmaisacat.top/?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-03-30
+完整解讀：https://wenxingai.top/mingli-xuanxue-news.html?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-03-30&utm_content=zh_hant
 
 ## Post 2
+- Locale: zh_hant
 - Scheduled At: 2026-03-30T16:30:00+08:00
-- Landing URL: https://karmaisacat.top/?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-03-30
+- Landing URL: https://wenxingai.top/mingli-xuanxue-news.html?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-03-30&utm_content=zh_hant
 
-當AI遇上命理，是突破還是盲點？世界新聞網報導，有命理師實測AI算命，結果揭示了其「致命盲點」。AI或許能處理大數據，但對於人類情感的細膩、生命軌跡的獨特，以及複雜因果的解讀，仍難以取代人。科技再進步，玄學的智慧核心仍在於對「人」的理解與關懷。#AI算命 #玄學智慧 #科技與命理
+「AI 算命準嗎？」這是我們常被問到的問題。坦白說，任何工具的「準」，都取決於使用者如何看待它。如果「準」意味著 100% 命中未來，那無論是人還是 AI 都做不到。但如果「準」意味著能客觀、系統地梳理你的個人特質和運勢週期，提供一種超越主觀情緒的參考視角，那 AI 恰恰是目前最高效的工具之一。它讓你從「信則靈」的模糊地帶，走向「知其所以然」的清晰地帶。
 
-完整解讀：https://karmaisacat.top/?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-03-30
-
-## Post 3
-- Scheduled At: 2026-03-30T18:00:00+08:00
-- Landing URL: https://karmaisacat.top/?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-03-30
-
-感情中的「他在想你嗎？」這類塔羅占卜為何總能吸引目光？YouTube上的熱門內容反映了我們對愛情的渴望與不確定性。塔羅提供的不僅是預言，更是幫助我們梳理內心、看清關係動態的工具。有時，答案不在牌中，而在於你如何解讀並採取行動。#塔羅占卜 #感情諮詢 #曖昧
-
-完整解讀：https://karmaisacat.top/?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-03-30
+完整解讀：https://wenxingai.top/mingli-xuanxue-news.html?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-03-30&utm_content=zh_hant

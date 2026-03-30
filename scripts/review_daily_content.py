@@ -8,19 +8,18 @@ import re
 import socket
 import urllib.parse
 import urllib.request
-from datetime import datetime
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
-from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA_PATH = ROOT / "hot-news-data.json"
-PROMPT_PATH = ROOT / "prompts" / "gemini_daily_content_prompt.txt"
+PROMPT_PATH = ROOT / "prompts" / "gemini_content_review_prompt.txt"
 OUTPUT_DIR = ROOT / "generated"
-JSON_OUTPUT_PATH = OUTPUT_DIR / "gemini-content-bundle.json"
+BUNDLE_PATH = OUTPUT_DIR / "gemini-content-bundle.json"
 MARKDOWN_OUTPUT_PATH = OUTPUT_DIR / "gemini-content-package.md"
+REVIEW_REPORT_JSON_PATH = OUTPUT_DIR / "gemini-review-report.json"
+REVIEW_REPORT_MD_PATH = OUTPUT_DIR / "gemini-review-report.md"
 DEFAULT_MODEL = "gemini-2.5-pro"
 DEFAULT_TIMEOUT_SECONDS = 180
 USER_AGENT = (
@@ -122,9 +121,7 @@ def load_env_files() -> None:
             if not line or line.startswith("#") or "=" not in line:
                 continue
             key, value = line.split("=", 1)
-            key = key.strip()
-            value = value.strip().strip('"').strip("'")
-            os.environ.setdefault(key, value)
+            os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
 
 
 def strip_code_fences(value: str) -> str:
@@ -138,48 +135,38 @@ def strip_code_fences(value: str) -> str:
 def require_string(payload: dict[str, Any], key: str, context: str) -> str:
     value = payload.get(key)
     if not isinstance(value, str) or not value.strip():
-        raise RuntimeError(f"invalid Gemini response: missing {context}.{key}")
+        raise RuntimeError(f"invalid Gemini review response: missing {context}.{key}")
     return value.strip()
 
 
 def require_string_list(payload: dict[str, Any], key: str, context: str) -> list[str]:
     value = payload.get(key)
     if not isinstance(value, list):
-        raise RuntimeError(f"invalid Gemini response: missing {context}.{key}")
+        raise RuntimeError(f"invalid Gemini review response: missing {context}.{key}")
     result = [item.strip() for item in value if isinstance(item, str) and item.strip()]
     if not result:
-        raise RuntimeError(f"invalid Gemini response: empty {context}.{key}")
+        raise RuntimeError(f"invalid Gemini review response: empty {context}.{key}")
     return result
 
 
-def load_news_payload() -> tuple[dict[str, Any], list[dict[str, Any]]]:
-    payload = json.loads(DATA_PATH.read_text(encoding="utf-8"))
-    items = payload.get("items")
-    if not isinstance(items, list) or not items:
-        raise RuntimeError("hot-news-data.json does not contain any items")
-
-    selected: list[dict[str, Any]] = []
-    for item in items[:8]:
-        selected.append(
-            {
-                "title": item.get("title", ""),
-                "summary": item.get("summary", ""),
-                "source": item.get("source", ""),
-                "category": item.get("category", ""),
-                "published": item.get("published_display", ""),
-                "matched_keywords": item.get("matched_keywords", []),
-                "url": item.get("url", ""),
-            }
-        )
-    return payload, selected
+def load_bundle() -> dict[str, Any]:
+    if not BUNDLE_PATH.exists():
+        raise RuntimeError("missing generated/gemini-content-bundle.json")
+    return json.loads(BUNDLE_PATH.read_text(encoding="utf-8"))
 
 
-def build_prompt(news_payload: dict[str, Any], items: list[dict[str, Any]]) -> str:
+def build_prompt(bundle: dict[str, Any]) -> str:
     template = PROMPT_PATH.read_text(encoding="utf-8")
     return template.format(
-        date_iso=news_payload.get("updated_at", ""),
-        date_display=news_payload.get("updated_at_display", ""),
-        items_json=json.dumps(items, ensure_ascii=False, indent=2),
+        items_json=json.dumps(bundle.get("input_items") or [], ensure_ascii=False, indent=2),
+        bundle_json=json.dumps(
+            {
+                "campaign_summary": bundle.get("campaign_summary", {}),
+                "localizations": bundle.get("localizations", {}),
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
     )
 
 
@@ -221,7 +208,7 @@ def extract_candidate_text(response_payload: dict[str, Any]) -> str:
             if isinstance(text, str) and text.strip():
                 texts.append(text.strip())
     if not texts:
-        raise RuntimeError("Gemini returned no text candidates")
+        raise RuntimeError("Gemini review returned no text candidates")
     return "\n".join(texts).strip()
 
 
@@ -231,13 +218,13 @@ def validate_locale_content(locale_key: str, payload: dict[str, Any]) -> dict[st
     video_script = payload.get("video_script")
     distribution_plan = payload.get("distribution_plan")
     if not isinstance(site_article, dict):
-        raise RuntimeError(f"invalid Gemini response: missing {locale_key}.site_article")
+        raise RuntimeError(f"invalid review response: missing {locale_key}.site_article")
     if not isinstance(social_posts, dict):
-        raise RuntimeError(f"invalid Gemini response: missing {locale_key}.social_posts")
+        raise RuntimeError(f"invalid review response: missing {locale_key}.social_posts")
     if not isinstance(video_script, dict):
-        raise RuntimeError(f"invalid Gemini response: missing {locale_key}.video_script")
+        raise RuntimeError(f"invalid review response: missing {locale_key}.video_script")
     if not isinstance(distribution_plan, dict):
-        raise RuntimeError(f"invalid Gemini response: missing {locale_key}.distribution_plan")
+        raise RuntimeError(f"invalid review response: missing {locale_key}.distribution_plan")
 
     return {
         "site_article": {
@@ -292,13 +279,13 @@ def validate_locale_content(locale_key: str, payload: dict[str, Any]) -> dict[st
     }
 
 
-def validate_generated_content(content: dict[str, Any]) -> dict[str, Any]:
+def validate_reviewed_content(content: dict[str, Any]) -> dict[str, Any]:
     campaign_summary = content.get("campaign_summary")
     localizations = content.get("localizations")
     if not isinstance(campaign_summary, dict):
-        raise RuntimeError("invalid Gemini response: missing campaign_summary")
+        raise RuntimeError("invalid review response: missing campaign_summary")
     if not isinstance(localizations, dict):
-        raise RuntimeError("invalid Gemini response: missing localizations")
+        raise RuntimeError("invalid review response: missing localizations")
 
     return {
         "campaign_summary": {
@@ -317,91 +304,69 @@ def validate_generated_content(content: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def build_bundle(
-    validated_content: dict[str, Any],
-    news_payload: dict[str, Any],
-    items: list[dict[str, Any]],
-    model: str,
-) -> dict[str, Any]:
-    timezone = ZoneInfo(news_payload.get("timezone", "Asia/Shanghai"))
-    now = datetime.now(timezone)
-    date_iso = news_payload.get("updated_at") or now.strftime("%Y-%m-%d")
-    return {
-        "generated_at": now.isoformat(),
-        "generated_at_display": news_payload.get("updated_at_display", ""),
-        "source_snapshot_updated_at": date_iso,
-        "model": model,
-        "slug": f"daily-hot-news-{date_iso}",
-        "input_items": items,
-        **validated_content,
-    }
-
-
-def render_locale_section(locale_key: str, locale_content: dict[str, Any]) -> list[str]:
-    locale_label = "简体中文" if locale_key == "zh_cn" else "繁體中文"
-    article = locale_content["site_article"]
-    social = locale_content["social_posts"]
-    video = locale_content["video_script"]
-    plan = locale_content["distribution_plan"]
-
-    lines = [
-        f"## {locale_label}",
-        "",
-        "### 网站文章",
-        f"- 标题：{article['title']}",
-        f"- SEO 标题：{article['seo_title']}",
-        f"- SEO 描述：{article['seo_description']}",
-        f"- 摘要：{article['excerpt']}",
-        f"- CTA：{article['cta']}",
-        "",
-        article["body_markdown"],
-        "",
-        "### Threads 文案",
-    ]
-    lines.extend(f"{index}. {post}" for index, post in enumerate(social["threads"], start=1))
-    lines.extend(["", "### X 文案"])
-    lines.extend(f"{index}. {post}" for index, post in enumerate(social["x"], start=1))
-    lines.extend(["", "### Instagram 文案"])
-    lines.extend(
-        f"{index}. {post}" for index, post in enumerate(social["instagram"], start=1)
-    )
-    lines.extend(
-        [
-            "",
-            "### 短视频脚本",
-            f"- 标题：{video['title']}",
-            f"- Hook：{video['hook']}",
-            f"- CTA：{video['cta']}",
-            "",
-            video["script"],
-            "",
-            "### 建议排期",
-            f"- Threads：{plan['threads']}",
-            f"- X：{plan['x']}",
-            f"- Instagram：{plan['instagram']}",
-            f"- 备注：{plan['notes']}",
-            "",
-        ]
-    )
-    return lines
-
-
 def render_markdown(bundle: dict[str, Any]) -> str:
+    def render_locale_section(locale_key: str, locale_content: dict[str, Any]) -> list[str]:
+        locale_label = "简体中文" if locale_key == "zh_cn" else "繁體中文"
+        article = locale_content["site_article"]
+        social = locale_content["social_posts"]
+        video = locale_content["video_script"]
+        plan = locale_content["distribution_plan"]
+
+        lines = [
+            f"## {locale_label}",
+            "",
+            "### 网站文章",
+            f"- 标题：{article['title']}",
+            f"- SEO 标题：{article['seo_title']}",
+            f"- SEO 描述：{article['seo_description']}",
+            f"- 摘要：{article['excerpt']}",
+            f"- CTA：{article['cta']}",
+            "",
+            article["body_markdown"],
+            "",
+            "### Threads 文案",
+        ]
+        lines.extend(f"{index}. {post}" for index, post in enumerate(social["threads"], start=1))
+        lines.extend(["", "### X 文案"])
+        lines.extend(f"{index}. {post}" for index, post in enumerate(social["x"], start=1))
+        lines.extend(["", "### Instagram 文案"])
+        lines.extend(
+            f"{index}. {post}" for index, post in enumerate(social["instagram"], start=1)
+        )
+        lines.extend(
+            [
+                "",
+                "### 短视频脚本",
+                f"- 标题：{video['title']}",
+                f"- Hook：{video['hook']}",
+                f"- CTA：{video['cta']}",
+                "",
+                video["script"],
+                "",
+                "### 建议排期",
+                f"- Threads：{plan['threads']}",
+                f"- X：{plan['x']}",
+                f"- Instagram：{plan['instagram']}",
+                f"- 备注：{plan['notes']}",
+                "",
+            ]
+        )
+        return lines
+
     lines = [
         f"# 问星AI 每日内容包 {bundle['source_snapshot_updated_at']}",
         "",
         f"- 生成时间：{bundle['generated_at_display']}",
-        f"- Gemini 模型：{bundle['model']}",
+        f"- 生成模型：{bundle['model']}",
+        f"- 审校模型：{bundle.get('review_model', '')}",
         f"- 建议文章 slug：{bundle['slug']}",
         f"- 今日主题：{bundle['campaign_summary']['topic']}",
         f"- 今日切入角度：{bundle['campaign_summary']['angle']}",
         f"- 今日主 CTA：{bundle['campaign_summary']['primary_cta']}",
         "",
     ]
-
     for locale_key in ("zh_cn", "zh_hant"):
         lines.extend(render_locale_section(locale_key, bundle["localizations"][locale_key]))
-
     lines.extend(["## 输入来源"])
     for index, item in enumerate(bundle["input_items"], start=1):
         lines.append(
@@ -415,32 +380,51 @@ def main() -> None:
     load_env_files()
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
-        print("skipped Gemini content generation: missing GEMINI_API_KEY")
+        print("skipped Gemini review: missing GEMINI_API_KEY")
         return
 
-    model = os.getenv("GEMINI_MODEL", DEFAULT_MODEL).strip() or DEFAULT_MODEL
+    model = os.getenv("GEMINI_REVIEW_MODEL", DEFAULT_MODEL).strip() or DEFAULT_MODEL
     try:
-        news_payload, items = load_news_payload()
-        prompt = build_prompt(news_payload, items)
+        bundle = load_bundle()
+        prompt = build_prompt(bundle)
         response_payload = call_gemini(prompt, api_key, model)
         candidate_text = extract_candidate_text(response_payload)
-        content = json.loads(strip_code_fences(candidate_text))
-        bundle = build_bundle(validate_generated_content(content), news_payload, items, model)
+        reviewed_content = validate_reviewed_content(json.loads(strip_code_fences(candidate_text)))
 
-        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-        JSON_OUTPUT_PATH.write_text(
-            json.dumps(bundle, ensure_ascii=False, indent=2),
+        bundle["campaign_summary"] = reviewed_content["campaign_summary"]
+        bundle["localizations"] = reviewed_content["localizations"]
+        bundle["review_model"] = model
+        bundle["reviewed_at"] = bundle.get("generated_at")
+
+        BUNDLE_PATH.write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8")
+        MARKDOWN_OUTPUT_PATH.write_text(render_markdown(bundle), encoding="utf-8")
+
+        report = {
+            "review_model": model,
+            "source_snapshot_updated_at": bundle.get("source_snapshot_updated_at", ""),
+            "status": "reviewed",
+        }
+        REVIEW_REPORT_JSON_PATH.write_text(
+            json.dumps(report, ensure_ascii=False, indent=2),
             encoding="utf-8",
         )
-        MARKDOWN_OUTPUT_PATH.write_text(render_markdown(bundle), encoding="utf-8")
-        print(
-            "generated Gemini content bundle at "
-            f"{bundle['generated_at_display']} using {bundle['model']}"
+        REVIEW_REPORT_MD_PATH.write_text(
+            "\n".join(
+                [
+                    f"# 问星AI 内容审校报告 {bundle.get('source_snapshot_updated_at', '')}",
+                    "",
+                    f"- 审校状态：{report['status']}",
+                    f"- 审校模型：{report['review_model']}",
+                    "",
+                ]
+            ),
+            encoding="utf-8",
         )
+        print(f"reviewed Gemini content bundle using {model}")
     except (HTTPError, URLError, socket.timeout, TimeoutError) as exc:
-        print(f"skipped Gemini content generation: network or API error: {exc}")
+        print(f"skipped Gemini review: network or API error: {exc}")
     except Exception as exc:
-        print(f"skipped Gemini content generation: {exc}")
+        print(f"skipped Gemini review: {exc}")
 
 
 if __name__ == "__main__":

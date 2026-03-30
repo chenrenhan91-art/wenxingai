@@ -8,9 +8,10 @@ import os
 import re
 import urllib.parse
 import urllib.request
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
+from urllib.error import HTTPError
 from zoneinfo import ZoneInfo
 
 
@@ -21,15 +22,23 @@ SOCIAL_DIR = OUTPUT_DIR / "social-posts"
 JOBS_PATH = OUTPUT_DIR / "distribution-jobs.json"
 PACKAGE_PATH = OUTPUT_DIR / "distribution-package.md"
 STATE_PATH = OUTPUT_DIR / "distribution-state.json"
-DEFAULT_LANDING_URL = "https://karmaisacat.top/"
+DEFAULT_LANDING_URL = "https://wenxingai.top/mingli-xuanxue-news.html"
 BUFFER_REST_BASE_URL = "https://api.bufferapp.com/1"
 BUFFER_GRAPHQL_URL = "https://api.buffer.com"
 
+SUPPORTED_PLATFORMS = ("threads", "x", "instagram", "facebook")
+DEFAULT_ENABLED_PLATFORMS = ("threads", "x", "instagram")
 DEFAULT_SCHEDULES = {
     "threads": "09:30",
     "x": "12:30",
+    "instagram": "20:30",
     "facebook": "19:30",
-    "instagram": "21:00",
+}
+DEFAULT_PLATFORM_LOCALES = {
+    "threads": "zh_hant",
+    "x": "zh_cn",
+    "instagram": "zh_hant",
+    "facebook": "zh_hant",
 }
 
 PLATFORM_TO_SERVICE = {
@@ -38,19 +47,11 @@ PLATFORM_TO_SERVICE = {
     "facebook": {"facebook"},
     "instagram": {"instagram"},
 }
-
 PLATFORM_TO_ENV = {
     "threads": "BUFFER_THREADS_PROFILE_ID",
     "x": "BUFFER_X_PROFILE_ID",
     "facebook": "BUFFER_FACEBOOK_PROFILE_ID",
     "instagram": "BUFFER_INSTAGRAM_PROFILE_ID",
-}
-
-PLATFORM_TO_BUNDLE_KEY = {
-    "threads": "threads",
-    "x": "x",
-    "facebook": "facebook",
-    "instagram": "instagram",
 }
 
 
@@ -68,12 +69,16 @@ def load_env_files() -> None:
 
 
 def fetch_json(url: str, *, data: bytes | None = None, headers: dict[str, str] | None = None) -> Any:
-    req_headers = {"User-Agent": "WenxingAI/1.0 (+https://karmaisacat.top)"}
+    req_headers = {"User-Agent": "WenxingAI/1.0 (+https://wenxingai.top)"}
     if headers:
         req_headers.update(headers)
     request = urllib.request.Request(url, data=data, headers=req_headers)
-    with urllib.request.urlopen(request, timeout=45) as response:
-        return json.loads(response.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(request, timeout=45) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except HTTPError as exc:
+        body = exc.read().decode("utf-8", "ignore")
+        raise RuntimeError(f"HTTP {exc.code} from {url}: {body}") from exc
 
 
 def write_json(path: Path, payload: Any) -> None:
@@ -84,7 +89,33 @@ def write_json(path: Path, payload: Any) -> None:
 def load_bundle() -> dict[str, Any]:
     if not BUNDLE_PATH.exists():
         raise RuntimeError("missing generated/gemini-content-bundle.json")
-    return json.loads(BUNDLE_PATH.read_text(encoding="utf-8"))
+    bundle = json.loads(BUNDLE_PATH.read_text(encoding="utf-8"))
+    return normalize_bundle(bundle)
+
+
+def normalize_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
+    if "localizations" in bundle:
+        return bundle
+
+    legacy_payload = {
+        "site_article": bundle.get("site_article", {}),
+        "social_posts": bundle.get("social_posts", {}),
+        "video_script": bundle.get("video_script", {}),
+        "distribution_plan": bundle.get("distribution_plan", {}),
+    }
+    bundle = dict(bundle)
+    bundle["campaign_summary"] = bundle.get("campaign_summary") or {
+        "topic": legacy_payload["site_article"].get("title", "每日热点内容包"),
+        "angle": legacy_payload["site_article"].get("excerpt", ""),
+        "primary_cta": legacy_payload["site_article"].get("cta", ""),
+    }
+    bundle["localizations"] = {
+        "zh_cn": legacy_payload,
+        "zh_hant": legacy_payload,
+    }
+    for key in ("site_article", "social_posts", "video_script", "distribution_plan"):
+        bundle.pop(key, None)
+    return bundle
 
 
 def load_state() -> dict[str, Any]:
@@ -97,7 +128,7 @@ def save_state(state: dict[str, Any]) -> None:
     write_json(STATE_PATH, state)
 
 
-def normalize_landing_url(base_url: str, platform: str, slug: str) -> str:
+def normalize_landing_url(base_url: str, platform: str, slug: str, locale: str) -> str:
     parsed = urllib.parse.urlparse(base_url)
     query = urllib.parse.parse_qsl(parsed.query, keep_blank_values=True)
     query.extend(
@@ -105,6 +136,7 @@ def normalize_landing_url(base_url: str, platform: str, slug: str) -> str:
             ("utm_source", platform),
             ("utm_medium", "social"),
             ("utm_campaign", slug),
+            ("utm_content", locale),
         ]
     )
     return urllib.parse.urlunparse(parsed._replace(query=urllib.parse.urlencode(query)))
@@ -124,7 +156,7 @@ def parse_time_string(value: str, fallback: str) -> tuple[int, int]:
     lowered = text.lower()
     if any(token in lowered for token in ("下午", "晚上", "pm", "p.m")) and hour < 12:
         hour += 12
-    if any(token in lowered for token in ("凌晨",)) and hour == 12:
+    if "凌晨" in lowered and hour == 12:
         hour = 0
     return hour, minute
 
@@ -141,15 +173,43 @@ def ensure_future_schedule(base_dt: datetime, now: datetime, offset_minutes: int
     return rounded
 
 
-def build_post_text(platform: str, raw_text: str, landing_url: str) -> str:
+def get_enabled_platforms() -> list[str]:
+    raw = (os.getenv("SOCIAL_ENABLED_PLATFORMS") or ",".join(DEFAULT_ENABLED_PLATFORMS)).strip()
+    values = [item.strip().lower() for item in raw.split(",") if item.strip()]
+    filtered = [item for item in values if item in SUPPORTED_PLATFORMS]
+    return filtered or list(DEFAULT_ENABLED_PLATFORMS)
+
+
+def get_platform_locale(platform: str) -> str:
+    specific = os.getenv(f"SOCIAL_{platform.upper()}_LOCALE", "").strip().lower()
+    if specific in {"zh_cn", "zh_hant"}:
+        return specific
+    default_locale = os.getenv("SOCIAL_DEFAULT_LOCALE", "").strip().lower()
+    if default_locale in {"zh_cn", "zh_hant"}:
+        return default_locale
+    return DEFAULT_PLATFORM_LOCALES.get(platform, "zh_hant")
+
+
+def get_platform_landing_url(platform: str) -> str:
+    specific = os.getenv(f"SOCIAL_{platform.upper()}_LANDING_URL", "").strip()
+    if specific:
+        return specific
+    shared = (os.getenv("SOCIAL_LANDING_URL") or DEFAULT_LANDING_URL).strip()
+    return shared or DEFAULT_LANDING_URL
+
+
+def locale_suffix(platform: str, locale: str) -> str:
+    if locale == "zh_cn":
+        return "完整解读与咨询" if platform == "instagram" else "完整解读"
+    return "完整解讀與諮詢" if platform == "instagram" else "完整解讀"
+
+
+def build_post_text(platform: str, raw_text: str, landing_url: str, locale: str) -> str:
     text = (raw_text or "").strip()
     if landing_url in text:
         return text
-    if platform == "instagram":
-        suffix = f"完整解讀與諮詢：{landing_url}"
-    else:
-        suffix = f"完整解讀：{landing_url}"
-    return f"{text}\n\n{suffix}"
+    suffix = locale_suffix(platform, locale)
+    return f"{text}\n\n{suffix}：{landing_url}"
 
 
 def build_jobs(bundle: dict[str, Any]) -> list[dict[str, Any]]:
@@ -157,30 +217,34 @@ def build_jobs(bundle: dict[str, Any]) -> list[dict[str, Any]]:
     now = datetime.now(timezone)
     source_date = bundle.get("source_snapshot_updated_at") or now.strftime("%Y-%m-%d")
     slug = bundle.get("slug") or f"daily-hot-news-{source_date}"
-    social_posts = bundle.get("social_posts") or {}
-    distribution_plan = bundle.get("distribution_plan") or {}
-    landing_base = (os.getenv("SOCIAL_LANDING_URL") or DEFAULT_LANDING_URL).strip() or DEFAULT_LANDING_URL
     schedule_date = datetime.strptime(source_date, "%Y-%m-%d").replace(tzinfo=timezone)
+    localizations = bundle.get("localizations") or {}
 
     jobs: list[dict[str, Any]] = []
-    for platform, bundle_key in PLATFORM_TO_BUNDLE_KEY.items():
-        posts = social_posts.get(bundle_key) or []
+    for platform in get_enabled_platforms():
+        locale = get_platform_locale(platform)
+        localized_bundle = localizations.get(locale) or {}
+        social_posts = localized_bundle.get("social_posts") or {}
+        distribution_plan = localized_bundle.get("distribution_plan") or {}
+        posts = social_posts.get(platform) or []
         if not isinstance(posts, list) or not posts:
             continue
 
-        fallback_time = DEFAULT_SCHEDULES[platform]
+        fallback_time = DEFAULT_SCHEDULES.get(platform, "12:00")
         hour, minute = parse_time_string(str(distribution_plan.get(platform, "")), fallback_time)
         base_dt = schedule_date.replace(hour=hour, minute=minute, second=0, microsecond=0)
+        landing_base = get_platform_landing_url(platform)
 
         for index, raw_text in enumerate(posts, start=1):
-            landing_url = normalize_landing_url(landing_base, platform, slug)
+            landing_url = normalize_landing_url(landing_base, platform, slug, locale)
             scheduled_at = ensure_future_schedule(base_dt, now, offset_minutes=(index - 1) * 90)
-            text = build_post_text(platform, str(raw_text), landing_url)
+            text = build_post_text(platform, str(raw_text), landing_url, locale)
             text_hash = hashlib.sha1(text.encode("utf-8")).hexdigest()
             jobs.append(
                 {
                     "slug": slug,
                     "platform": platform,
+                    "locale": locale,
                     "position": index,
                     "scheduled_at": scheduled_at.isoformat(),
                     "landing_url": landing_url,
@@ -198,13 +262,14 @@ def render_package(bundle: dict[str, Any], jobs: list[dict[str, Any]], results: 
         "",
         f"- 内容包：{bundle.get('slug', '')}",
         f"- LLM：{bundle.get('model', '')}",
-        f"- 站外落地页：{os.getenv('SOCIAL_LANDING_URL') or DEFAULT_LANDING_URL}",
+        f"- 今日主题：{bundle.get('campaign_summary', {}).get('topic', '')}",
+        f"- 平台：{', '.join(get_enabled_platforms())}",
         "",
         "## 分发任务",
     ]
     for job in jobs:
         lines.append(
-            f"- {job['platform']} #{job['position']} | {job['scheduled_at']} | {job['status']}"
+            f"- {job['platform']} ({job['locale']}) #{job['position']} | {job['scheduled_at']} | {job['status']}"
         )
     lines.extend(["", "## 发布结果"])
     if not results:
@@ -212,7 +277,8 @@ def render_package(bundle: dict[str, Any], jobs: list[dict[str, Any]], results: 
     else:
         for result in results:
             lines.append(
-                f"- {result['platform']} #{result['position']} | {result['status']} | {result.get('message', '')}"
+                f"- {result['platform']} ({result['locale']}) #{result['position']} | "
+                f"{result['status']} | {result.get('message', '')}"
             )
     lines.append("")
     return "\n".join(lines)
@@ -224,6 +290,11 @@ def write_social_exports(jobs: list[dict[str, Any]]) -> None:
     for job in jobs:
         by_platform.setdefault(job["platform"], []).append(job)
 
+    for platform in SUPPORTED_PLATFORMS:
+        export_path = SOCIAL_DIR / f"{platform}.md"
+        if export_path.exists() and platform not in by_platform:
+            export_path.unlink()
+
     for platform, items in by_platform.items():
         lines = [f"# {platform}"]
         for item in items:
@@ -231,6 +302,7 @@ def write_social_exports(jobs: list[dict[str, Any]]) -> None:
                 [
                     "",
                     f"## Post {item['position']}",
+                    f"- Locale: {item['locale']}",
                     f"- Scheduled At: {item['scheduled_at']}",
                     f"- Landing URL: {item['landing_url']}",
                     "",
@@ -252,7 +324,8 @@ def resolve_profile_id(platform: str, profiles: list[dict[str, Any]]) -> tuple[s
         return explicit_profile_id, None
 
     matched = [
-        profile for profile in profiles
+        profile
+        for profile in profiles
         if str(profile.get("service", "")).lower() in PLATFORM_TO_SERVICE[platform]
     ]
     if not matched:
@@ -263,14 +336,16 @@ def resolve_profile_id(platform: str, profiles: list[dict[str, Any]]) -> tuple[s
 
 
 def create_buffer_update(api_key: str, profile_id: str, job: dict[str, Any]) -> dict[str, Any]:
+    due_at = datetime.fromisoformat(job["scheduled_at"]).astimezone(timezone.utc)
+    due_at_buffer = due_at.strftime("%Y-%m-%dT%H:%M:%S.000Z")
     query = """
-    mutation CreatePost($channelId: ID!, $text: String!, $dueAt: DateTime!) {
+    mutation CreatePost($channelId: ChannelId!, $text: String!, $dueAt: DateTime!) {
       createPost(
         input: {
           channelId: $channelId
           text: $text
           schedulingType: automatic
-          mode: customSchedule
+          mode: customScheduled
           dueAt: $dueAt
         }
       ) {
@@ -293,7 +368,7 @@ def create_buffer_update(api_key: str, profile_id: str, job: dict[str, Any]) -> 
             "variables": {
                 "channelId": profile_id,
                 "text": job["text"],
-                "dueAt": job["scheduled_at"],
+                "dueAt": due_at_buffer,
             },
         },
         ensure_ascii=False,
@@ -315,6 +390,7 @@ def publish_jobs_to_buffer(jobs: list[dict[str, Any]], state: dict[str, Any]) ->
     api_key = os.getenv("BUFFER_API_KEY", "").strip()
     if not api_key:
         return []
+    dry_run = os.getenv("BUFFER_DRY_RUN", "").strip().lower() in {"1", "true", "yes", "on"}
 
     profiles = get_buffer_profiles(api_key)
     published = state.setdefault("published", {})
@@ -322,13 +398,14 @@ def publish_jobs_to_buffer(jobs: list[dict[str, Any]], state: dict[str, Any]) ->
 
     for job in jobs:
         slug_bucket = published.setdefault(job["slug"], {})
-        state_key = f"{job['platform']}:{job['position']}"
+        state_key = f"{job['platform']}:{job['locale']}:{job['position']}"
         existing = slug_bucket.get(state_key)
         if existing and existing.get("text_hash") == job["text_hash"]:
             job["status"] = "already_published"
             results.append(
                 {
                     "platform": job["platform"],
+                    "locale": job["locale"],
                     "position": job["position"],
                     "status": "already_published",
                     "message": existing.get("buffer_update_id", ""),
@@ -342,9 +419,23 @@ def publish_jobs_to_buffer(jobs: list[dict[str, Any]], state: dict[str, Any]) ->
             results.append(
                 {
                     "platform": job["platform"],
+                    "locale": job["locale"],
                     "position": job["position"],
                     "status": "skipped",
                     "message": error,
+                }
+            )
+            continue
+
+        if dry_run:
+            job["status"] = "dry_run"
+            results.append(
+                {
+                    "platform": job["platform"],
+                    "locale": job["locale"],
+                    "position": job["position"],
+                    "status": "dry_run",
+                    "message": f"would queue to profile {profile_id}",
                 }
             )
             continue
@@ -362,11 +453,14 @@ def publish_jobs_to_buffer(jobs: list[dict[str, Any]], state: dict[str, Any]) ->
             "buffer_update_id": buffer_update_id,
             "scheduled_at": job["scheduled_at"],
             "profile_id": profile_id,
+            "locale": job["locale"],
+            "landing_url": job["landing_url"],
             "queued_at": datetime.now(ZoneInfo("Asia/Shanghai")).isoformat(),
         }
         results.append(
             {
                 "platform": job["platform"],
+                "locale": job["locale"],
                 "position": job["position"],
                 "status": "queued",
                 "message": buffer_update_id or "queued in Buffer",
@@ -395,7 +489,12 @@ def main() -> None:
 
     if os.getenv("BUFFER_API_KEY", "").strip():
         queued = len([result for result in results if result["status"] == "queued"])
-        print(f"prepared {len(jobs)} distribution jobs; queued {queued} jobs to Buffer")
+        dry_run = os.getenv("BUFFER_DRY_RUN", "").strip().lower() in {"1", "true", "yes", "on"}
+        if dry_run:
+            simulated = len([result for result in results if result["status"] == "dry_run"])
+            print(f"prepared {len(jobs)} distribution jobs; dry-run matched {simulated} Buffer jobs")
+        else:
+            print(f"prepared {len(jobs)} distribution jobs; queued {queued} jobs to Buffer")
     else:
         print(f"prepared {len(jobs)} distribution jobs; skipped Buffer publishing: missing BUFFER_API_KEY")
 

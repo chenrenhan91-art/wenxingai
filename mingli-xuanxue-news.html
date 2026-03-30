@@ -828,11 +828,92 @@
             }
         }
     </style>
+    <script>
+        (function () {
+            const STORAGE_KEY = 'wenxing_social_attribution';
+
+            function readCurrentAttribution() {
+                const params = new URLSearchParams(window.location.search);
+                const payload = {
+                    utm_source: params.get('utm_source') || '',
+                    utm_medium: params.get('utm_medium') || '',
+                    utm_campaign: params.get('utm_campaign') || '',
+                    utm_content: params.get('utm_content') || '',
+                    landing_path: window.location.pathname,
+                    captured_at: new Date().toISOString(),
+                };
+                return payload.utm_source ? payload : null;
+            }
+
+            function saveAttribution(payload) {
+                if (!payload) return;
+                try {
+                    localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+                } catch (error) {
+                    return;
+                }
+            }
+
+            function loadStoredAttribution() {
+                try {
+                    const raw = localStorage.getItem(STORAGE_KEY);
+                    return raw ? JSON.parse(raw) : null;
+                } catch (error) {
+                    return null;
+                }
+            }
+
+            function appendAttribution(url, mode) {
+                const payload = loadStoredAttribution();
+                if (!payload || !payload.utm_source) return url;
+                const target = new URL(url, window.location.href);
+                if (mode === 'utm') {
+                    target.searchParams.set('utm_source', payload.utm_source);
+                    target.searchParams.set('utm_medium', payload.utm_medium || 'social');
+                    target.searchParams.set('utm_campaign', payload.utm_campaign || 'social-campaign');
+                    if (payload.utm_content) {
+                        target.searchParams.set('utm_content', payload.utm_content);
+                    }
+                    return target.toString();
+                }
+
+                target.searchParams.set('ref_source', payload.utm_source);
+                target.searchParams.set('ref_medium', payload.utm_medium || 'social');
+                target.searchParams.set('ref_campaign', payload.utm_campaign || 'social-campaign');
+                if (payload.utm_content) {
+                    target.searchParams.set('ref_content', payload.utm_content);
+                }
+                target.searchParams.set('ref_landing', payload.landing_path || window.location.pathname);
+                return target.toString();
+            }
+
+            const currentPayload = readCurrentAttribution();
+            if (currentPayload) {
+                saveAttribution(currentPayload);
+                if (window.dataLayer && Array.isArray(window.dataLayer)) {
+                    window.dataLayer.push({ event: 'wenxing_social_visit', ...currentPayload });
+                }
+                if (typeof window.gtag === 'function') {
+                    window.gtag('event', 'wenxing_social_visit', currentPayload);
+                }
+            }
+
+            window.appendWenxingAttribution = appendAttribution;
+
+            document.addEventListener('DOMContentLoaded', function () {
+                document.querySelectorAll('[data-keep-attribution]').forEach(function (link) {
+                    const href = link.getAttribute('href');
+                    if (!href) return;
+                    link.setAttribute('href', appendAttribution(href, 'utm'));
+                });
+            }, { once: true });
+        })();
+    </script>
 </head>
 <body>
     <div class="page-shell">
         <header class="topbar" id="top">
-            <a class="brand" href="index.html" aria-label="返回问星AI首页">
+            <a class="brand" href="index.html" data-keep-attribution="true" aria-label="返回问星AI首页">
                 <div class="brand-mark">
                     <img src="share-cover.jpg" alt="问星AI品牌图标">
                 </div>
@@ -842,7 +923,7 @@
                 </div>
             </a>
             <nav class="nav-links" aria-label="页面导航">
-                <a class="nav-link" href="index.html#hot-news-section">返回首页</a>
+                <a class="nav-link" href="index.html#hot-news-section" data-keep-attribution="true">返回首页</a>
             </nav>
         </header>
 
@@ -854,7 +935,7 @@
                         <h1>命理 / 玄学热点资讯</h1>
                     </div>
                     <div class="hero-meta">
-                        <span id="hot-news-updated">最近更新：2026年3月30日 12:17</span>
+                        <span id="hot-news-updated">最近更新：2026年3月30日 11:42</span>
                     </div>
                 </div>
                 <div class="stream-grid">
@@ -888,6 +969,21 @@
                             <span>流年</span>
                         </div>
                         <a class="inline-link" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE5nWUlENmRGYkNTSEJnNkw3cGZwR0xPQ0JKSmQyM01BVjFEVGM2d0NDQ1BkVkppVktMT25aSlB6d3VldDFrdi05SnRrUExxa1hlM1ZoREdERUlCMlNOclBFT2daTQ?oc=5" target="_blank" rel="noopener noreferrer">查看原文</a>
+                    </article>
+                    <article class="stream-card" itemscope itemtype="https://schema.org/Article">
+                        <div class="meta-line">
+                            <span class="tag">八字紫微</span>
+                            <span itemprop="datePublished" content="2026-03-12">2026-03-12</span>
+                            <span>Reddit r/ChineseZodiac</span>
+                        </div>
+                        <h3 itemprop="headline">Zi Wei Dou Shu 紫微斗数 ｜ 八字</h3>
+                        <p itemprop="description">紫微斗数 Chinese Astrology Reading can show you the major events in your life. Get a reading to uncover the meaning…</p>
+                        <div class="keyword-row">
+                            <span>命理</span>
+                            <span>八字</span>
+                            <span>紫微</span>
+                        </div>
+                        <a class="inline-link" href="https://old.reddit.com/r/ChineseZodiac/comments/1rrj4ip/zi_wei_dou_shu_紫微斗数_八字/" target="_blank" rel="noopener noreferrer">查看原文</a>
                     </article>
                     <article class="stream-card" itemscope itemtype="https://schema.org/Article">
                         <div class="meta-line">
@@ -938,10 +1034,10 @@
                         <div class="meta-line">
                             <span class="tag">命理新闻</span>
                             <span itemprop="datePublished" content="2026-03-26">2026-03-26</span>
-                            <span>ETtoday新聞雲 · Google News</span>
+                            <span>ettoday.net · Google News</span>
                         </div>
                         <h3 itemprop="headline">1年前喊柯文哲66歲「運勢空亡」衰17年！再度神預言 命理師全說了</h3>
-                        <p itemprop="description">来自 ETtoday新聞雲 · Google News 的台湾繁体媒体报道，点击可查看原文。</p>
+                        <p itemprop="description">来自 ettoday.net · Google News 的台湾繁体媒体报道，点击可查看原文。</p>
                         <div class="keyword-row">
                             <span>命理</span>
                             <span>命理師</span>
@@ -963,21 +1059,6 @@
                             <span>算命</span>
                         </div>
                         <a class="inline-link" href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9FaldVVWpscWMyZnRsRm5UeWVLZ1N3OTBiRHN0MWRzNzEybnlLVVdUcnNmTmJIeHphUl9jeGszdDVqZ1NrTEkyeWZnZENlbmF1Ni1WT2RsZkJ2cDhWS1FhTTB30gFnQVVfeXFMUHhIMk1wVTNNZ1NkZUE0Z0dnbklFU0MyVUlybHNYVGVONVVlNWplTjdxTVktWnBYZ1VtYmQxOXBMOVNmcTBRLXo4OUlqQnBCUXV1VzlTLXBJN3BlUllyQ3JCYVhGcFJDSQ?oc=5" target="_blank" rel="noopener noreferrer">查看原文</a>
-                    </article>
-                    <article class="stream-card" itemscope itemtype="https://schema.org/Article">
-                        <div class="meta-line">
-                            <span class="tag">命理新闻</span>
-                            <span itemprop="datePublished" content="2026-03-26">2026-03-26</span>
-                            <span>三立娛樂星聞 · Google News</span>
-                        </div>
-                        <h3 itemprop="headline">預言柯文哲「空亡17年」成真！律師狂喊：我要找「這命理師」算命</h3>
-                        <p itemprop="description">来自 三立娛樂星聞 · Google News 的台湾繁体媒体报道，点击可查看原文。</p>
-                        <div class="keyword-row">
-                            <span>命理</span>
-                            <span>命理師</span>
-                            <span>算命</span>
-                        </div>
-                        <a class="inline-link" href="https://news.google.com/rss/articles/CBMiSkFVX3lxTE1HMzBRMmxtM19WaUJCWXRmaHYxYVlUc0dpWFMxX1VjRjU2RGN1UFhPYTI5T09jSUVoZ3gyMy1CRG1NQ0tyUW9QSkh30gFfQVVfeXFMTXpDWS1HTDRiTnVnc194UzhvcFJ5TVBlX1NzMmtNNHEzRnRzWm8yNjY5WTFOVlVsa1J5NG4xRGk3ZmJQaURoTDlLWVVleWl0Q0Y5YXFfNUhHUUxVWVZKYjA?oc=5" target="_blank" rel="noopener noreferrer">查看原文</a>
                     </article>
                     <!-- HOT_NEWS_STREAM_END -->
                 </div>

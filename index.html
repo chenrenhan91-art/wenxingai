@@ -77,6 +77,87 @@
             document.addEventListener('DOMContentLoaded', repairDocumentText, { once: true });
         })();
     </script>
+    <script>
+        (function () {
+            const STORAGE_KEY = 'wenxing_social_attribution';
+
+            function readCurrentAttribution() {
+                const params = new URLSearchParams(window.location.search);
+                const payload = {
+                    utm_source: params.get('utm_source') || '',
+                    utm_medium: params.get('utm_medium') || '',
+                    utm_campaign: params.get('utm_campaign') || '',
+                    utm_content: params.get('utm_content') || '',
+                    landing_path: window.location.pathname,
+                    captured_at: new Date().toISOString(),
+                };
+                return payload.utm_source ? payload : null;
+            }
+
+            function saveAttribution(payload) {
+                if (!payload) return;
+                try {
+                    localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+                } catch (error) {
+                    return;
+                }
+            }
+
+            function loadStoredAttribution() {
+                try {
+                    const raw = localStorage.getItem(STORAGE_KEY);
+                    return raw ? JSON.parse(raw) : null;
+                } catch (error) {
+                    return null;
+                }
+            }
+
+            function appendAttribution(url, mode) {
+                const payload = loadStoredAttribution();
+                if (!payload || !payload.utm_source) return url;
+                const target = new URL(url, window.location.href);
+                if (mode === 'utm') {
+                    target.searchParams.set('utm_source', payload.utm_source);
+                    target.searchParams.set('utm_medium', payload.utm_medium || 'social');
+                    target.searchParams.set('utm_campaign', payload.utm_campaign || 'social-campaign');
+                    if (payload.utm_content) {
+                        target.searchParams.set('utm_content', payload.utm_content);
+                    }
+                    return target.toString();
+                }
+
+                target.searchParams.set('ref_source', payload.utm_source);
+                target.searchParams.set('ref_medium', payload.utm_medium || 'social');
+                target.searchParams.set('ref_campaign', payload.utm_campaign || 'social-campaign');
+                if (payload.utm_content) {
+                    target.searchParams.set('ref_content', payload.utm_content);
+                }
+                target.searchParams.set('ref_landing', payload.landing_path || window.location.pathname);
+                return target.toString();
+            }
+
+            const currentPayload = readCurrentAttribution();
+            if (currentPayload) {
+                saveAttribution(currentPayload);
+                if (window.dataLayer && Array.isArray(window.dataLayer)) {
+                    window.dataLayer.push({ event: 'wenxing_social_visit', ...currentPayload });
+                }
+                if (typeof window.gtag === 'function') {
+                    window.gtag('event', 'wenxing_social_visit', currentPayload);
+                }
+            }
+
+            window.appendWenxingAttribution = appendAttribution;
+
+            document.addEventListener('DOMContentLoaded', function () {
+                document.querySelectorAll('[data-keep-attribution]').forEach(function (link) {
+                    const href = link.getAttribute('href');
+                    if (!href) return;
+                    link.setAttribute('href', appendAttribution(href, 'utm'));
+                });
+            }, { once: true });
+        })();
+    </script>
     <!-- 页面标题与描述 -->
     <title>问星AI - 首款融合玄学命理与AI大模型的智能APP | 命运的全息宇宙</title>
     <meta name="description" content="问星AI由专业命理师AIcoding打造，颠覆命理行业的玄学APP，不仅可以推导未来，还可以验证过去。提供3D命盘可视化、24小时专属AI命理咨询师、人生大运K线图、AI六爻解卦及合盘分析功能，为您的人生剧本提供更专业、更理性的视角。">
@@ -343,7 +424,7 @@
         </div>
 
         <nav class="ml-auto flex items-center gap-3" aria-label="站点导航">
-            <a href="mingli-xuanxue-news.html" class="inline-flex items-center rounded-full border border-amber-300/30 bg-amber-400/10 px-4 py-2 text-xs md:text-sm font-semibold tracking-[0.18em] text-amber-100 shadow-[0_0_20px_rgba(251,191,36,0.08)] transition-all hover:-translate-y-0.5 hover:border-amber-200/60 hover:bg-amber-300/15 hover:text-white">
+            <a href="mingli-xuanxue-news.html" data-keep-attribution="true" class="inline-flex items-center rounded-full border border-amber-300/30 bg-amber-400/10 px-4 py-2 text-xs md:text-sm font-semibold tracking-[0.18em] text-amber-100 shadow-[0_0_20px_rgba(251,191,36,0.08)] transition-all hover:-translate-y-0.5 hover:border-amber-200/60 hover:bg-amber-300/15 hover:text-white">
                 查看热点
             </a>
         </nav>
@@ -370,7 +451,7 @@
         </div>
 
         <!-- 中间大 Logo -->
-        <div class="relative w-48 h-48 md:w-64 md:h-64 mb-12 interactive-trigger group cursor-pointer" onclick="window.location.href='https://karmaisacat.top/'">
+        <div class="relative w-48 h-48 md:w-64 md:h-64 mb-12 interactive-trigger group cursor-pointer" onclick="window.location.href=window.appendWenxingAttribution('https://karmaisacat.top/', 'ref')">
             <!-- 动态光晕底座 -->
             <div class="absolute inset-0 rounded-full bg-gradient-to-tr from-cyan-400 via-indigo-500 to-purple-600 opacity-30 blur-3xl group-hover:opacity-60 transition-opacity duration-500 animate-pulse"></div>
             <!-- 双层星轨装饰 -->
@@ -414,7 +495,7 @@
                     </div>
                     <h2 id="hot-news-heading" class="text-2xl md:text-3xl font-bold text-white">命理 / 玄学 / 海外华语热点资讯</h2>
                 </div>
-                <a href="mingli-xuanxue-news.html" class="inline-flex items-center justify-center rounded-full border border-cyan-300/40 bg-cyan-400/10 px-5 py-3 text-sm font-semibold tracking-[0.18em] text-cyan-200 transition-all hover:-translate-y-0.5 hover:border-cyan-200/70 hover:bg-cyan-300/15 hover:text-white">
+                <a href="mingli-xuanxue-news.html" data-keep-attribution="true" class="inline-flex items-center justify-center rounded-full border border-cyan-300/40 bg-cyan-400/10 px-5 py-3 text-sm font-semibold tracking-[0.18em] text-cyan-200 transition-all hover:-translate-y-0.5 hover:border-cyan-200/70 hover:bg-cyan-300/15 hover:text-white">
                     查看热点
                 </a>
             </div>
@@ -423,7 +504,7 @@
                     <ul class="space-y-3 text-sm md:text-base text-gray-300">
                         <li class="flex items-start gap-3"><span class="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-cyan-300/80"></span><span>本週運勢出爐！「3生肖」財運噴發 命理師：快買刮刮樂<span class="ml-2 text-xs text-cyan-200/70">TVBS新聞網 · Google News · 2026-03-29</span></span></li>
                         <li class="flex items-start gap-3"><span class="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-cyan-300/80"></span><span>【清明掃墓禁忌一次看！命理師提醒3件事少做 「別直接回家」】 （圖／記者王威智攝） 可能會影響運勢。(#起啵)<span class="ml-2 text-xs text-cyan-200/70">facebook.com · Google News · 2026-03-27</span></span></li>
-                        <li class="flex items-start gap-3"><span class="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-cyan-300/80"></span><span>1年前喊柯文哲66歲「運勢空亡」衰17年！再度神預言 命理師全說了<span class="ml-2 text-xs text-cyan-200/70">ETtoday新聞雲 · Google News · 2026-03-26</span></span></li>
+                        <li class="flex items-start gap-3"><span class="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-cyan-300/80"></span><span>1年前喊柯文哲66歲「運勢空亡」衰17年！再度神預言 命理師全說了<span class="ml-2 text-xs text-cyan-200/70">ettoday.net · Google News · 2026-03-26</span></span></li>
                     </ul>
                     <!-- HOT_NEWS_HOME_END -->
             </div>
