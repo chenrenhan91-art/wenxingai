@@ -1,9 +1,9 @@
 {
-  "ran_at": "2026-03-30T14:27:05.194327+08:00",
-  "ran_at_display": "2026年3月30日 14:27",
-  "force_refresh": false,
-  "previous_signature": "406f307f1297b0ba007480b3c03dcd244955340c",
-  "new_signature": "e1d88bc3b6f0d3bc7e2c4421a22623dc6523791c",
+  "ran_at": "2026-03-30T22:42:19.902157+08:00",
+  "ran_at_display": "2026年3月30日 22:42",
+  "force_refresh": true,
+  "previous_signature": "e1d88bc3b6f0d3bc7e2c4421a22623dc6523791c",
+  "new_signature": "ec1d30ec19e8b7d6d98c7849b0bdc973f7f2df86",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
@@ -23,13 +23,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年3月30日 14:27"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年3月30日 22:42"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年3月30日 14:27 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年3月30日 22:42 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
