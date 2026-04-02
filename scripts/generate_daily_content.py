@@ -6,6 +6,7 @@ import json
 import os
 import re
 import socket
+import time
 import urllib.parse
 import urllib.request
 from datetime import datetime
@@ -23,6 +24,7 @@ JSON_OUTPUT_PATH = OUTPUT_DIR / "gemini-content-bundle.json"
 MARKDOWN_OUTPUT_PATH = OUTPUT_DIR / "gemini-content-package.md"
 DEFAULT_MODEL = "gemini-2.5-pro"
 DEFAULT_TIMEOUT_SECONDS = 180
+DEFAULT_RETRY_ATTEMPTS = 3
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -208,8 +210,18 @@ def call_gemini(prompt: str, api_key: str, model: str) -> dict[str, Any]:
     timeout_seconds = int(
         os.getenv("GEMINI_TIMEOUT_SECONDS", str(DEFAULT_TIMEOUT_SECONDS)) or DEFAULT_TIMEOUT_SECONDS
     )
-    with urllib.request.urlopen(request, timeout=timeout_seconds) as response:
-        return json.loads(response.read().decode("utf-8"))
+    last_exc: Exception | None = None
+    for attempt in range(1, DEFAULT_RETRY_ATTEMPTS + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=timeout_seconds) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except (HTTPError, URLError, socket.timeout, TimeoutError) as exc:
+            last_exc = exc
+            if attempt >= DEFAULT_RETRY_ATTEMPTS:
+                break
+            time.sleep(min(2 * attempt, 6))
+    assert last_exc is not None
+    raise last_exc
 
 
 def extract_candidate_text(response_payload: dict[str, Any]) -> str:
@@ -415,8 +427,7 @@ def main() -> None:
     load_env_files()
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
-        print("skipped Gemini content generation: missing GEMINI_API_KEY")
-        return
+        raise SystemExit("Gemini content generation failed: missing GEMINI_API_KEY")
 
     model = os.getenv("GEMINI_MODEL", DEFAULT_MODEL).strip() or DEFAULT_MODEL
     try:
@@ -438,9 +449,9 @@ def main() -> None:
             f"{bundle['generated_at_display']} using {bundle['model']}"
         )
     except (HTTPError, URLError, socket.timeout, TimeoutError) as exc:
-        print(f"skipped Gemini content generation: network or API error: {exc}")
+        raise SystemExit(f"Gemini content generation failed: network or API error: {exc}")
     except Exception as exc:
-        print(f"skipped Gemini content generation: {exc}")
+        raise SystemExit(f"Gemini content generation failed: {exc}")
 
 
 if __name__ == "__main__":

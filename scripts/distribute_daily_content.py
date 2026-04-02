@@ -6,12 +6,13 @@ import hashlib
 import json
 import os
 import re
+import time
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from zoneinfo import ZoneInfo
 
 
@@ -25,6 +26,7 @@ STATE_PATH = OUTPUT_DIR / "distribution-state.json"
 DEFAULT_LANDING_URL = "https://wenxingai.top/"
 BUFFER_REST_BASE_URL = "https://api.bufferapp.com/1"
 BUFFER_GRAPHQL_URL = "https://api.buffer.com"
+DEFAULT_RETRY_ATTEMPTS = 3
 
 SUPPORTED_PLATFORMS = ("threads", "x", "instagram", "facebook")
 DEFAULT_ENABLED_PLATFORMS = ("threads", "x", "instagram")
@@ -73,12 +75,27 @@ def fetch_json(url: str, *, data: bytes | None = None, headers: dict[str, str] |
     if headers:
         req_headers.update(headers)
     request = urllib.request.Request(url, data=data, headers=req_headers)
-    try:
-        with urllib.request.urlopen(request, timeout=45) as response:
-            return json.loads(response.read().decode("utf-8"))
-    except HTTPError as exc:
-        body = exc.read().decode("utf-8", "ignore")
-        raise RuntimeError(f"HTTP {exc.code} from {url}: {body}") from exc
+    last_exc: Exception | None = None
+    for attempt in range(1, DEFAULT_RETRY_ATTEMPTS + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=45) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except HTTPError as exc:
+            body = exc.read().decode("utf-8", "ignore")
+            if 500 <= exc.code < 600 and attempt < DEFAULT_RETRY_ATTEMPTS:
+                last_exc = RuntimeError(f"HTTP {exc.code} from {url}: {body}")
+                time.sleep(min(2 * attempt, 6))
+                continue
+            raise RuntimeError(f"HTTP {exc.code} from {url}: {body}") from exc
+        except URLError as exc:
+            last_exc = exc
+            if attempt < DEFAULT_RETRY_ATTEMPTS:
+                time.sleep(min(2 * attempt, 6))
+                continue
+            raise RuntimeError(f"network error from {url}: {exc}") from exc
+    if last_exc:
+        raise RuntimeError(f"network error from {url}: {last_exc}")
+    raise RuntimeError(f"unexpected fetch failure from {url}")
 
 
 def write_json(path: Path, payload: Any) -> None:
@@ -386,15 +403,16 @@ def create_buffer_update(api_key: str, profile_id: str, job: dict[str, Any]) -> 
     return response
 
 
-def publish_jobs_to_buffer(jobs: list[dict[str, Any]], state: dict[str, Any]) -> list[dict[str, Any]]:
+def publish_jobs_to_buffer(jobs: list[dict[str, Any]], state: dict[str, Any]) -> tuple[list[dict[str, Any]], int]:
     api_key = os.getenv("BUFFER_API_KEY", "").strip()
     if not api_key:
-        return []
+        return [], 0
     dry_run = os.getenv("BUFFER_DRY_RUN", "").strip().lower() in {"1", "true", "yes", "on"}
 
     profiles = get_buffer_profiles(api_key)
     published = state.setdefault("published", {})
     results: list[dict[str, Any]] = []
+    failed_count = 0
 
     for job in jobs:
         slug_bucket = published.setdefault(job["slug"], {})
@@ -440,12 +458,26 @@ def publish_jobs_to_buffer(jobs: list[dict[str, Any]], state: dict[str, Any]) ->
             )
             continue
 
-        response = create_buffer_update(api_key, profile_id, job)
-        create_post = ((response.get("data") or {}).get("createPost") or {})
-        if create_post.get("__typename") == "MutationError":
-            raise RuntimeError(create_post.get("message") or "unknown Buffer mutation error")
-        post = create_post.get("post") or {}
-        buffer_update_id = str(post.get("id") or "")
+        try:
+            response = create_buffer_update(api_key, profile_id, job)
+            create_post = ((response.get("data") or {}).get("createPost") or {})
+            if create_post.get("__typename") == "MutationError":
+                raise RuntimeError(create_post.get("message") or "unknown Buffer mutation error")
+            post = create_post.get("post") or {}
+            buffer_update_id = str(post.get("id") or "")
+        except Exception as exc:
+            failed_count += 1
+            job["status"] = "failed"
+            results.append(
+                {
+                    "platform": job["platform"],
+                    "locale": job["locale"],
+                    "position": job["position"],
+                    "status": "failed",
+                    "message": str(exc),
+                }
+            )
+            continue
 
         job["status"] = "queued"
         slug_bucket[state_key] = {
@@ -466,7 +498,7 @@ def publish_jobs_to_buffer(jobs: list[dict[str, Any]], state: dict[str, Any]) ->
                 "message": buffer_update_id or "queued in Buffer",
             }
         )
-    return results
+    return results, failed_count
 
 
 def main() -> None:
@@ -481,7 +513,7 @@ def main() -> None:
     write_json(JOBS_PATH, jobs)
 
     state = load_state()
-    results = publish_jobs_to_buffer(jobs, state)
+    results, failed_count = publish_jobs_to_buffer(jobs, state)
     if results:
         save_state(state)
         write_json(JOBS_PATH, jobs)
@@ -494,9 +526,15 @@ def main() -> None:
             simulated = len([result for result in results if result["status"] == "dry_run"])
             print(f"prepared {len(jobs)} distribution jobs; dry-run matched {simulated} Buffer jobs")
         else:
-            print(f"prepared {len(jobs)} distribution jobs; queued {queued} jobs to Buffer")
+            print(
+                f"prepared {len(jobs)} distribution jobs; queued {queued} jobs to Buffer"
+                + (f"; {failed_count} jobs failed" if failed_count else "")
+            )
     else:
         print(f"prepared {len(jobs)} distribution jobs; skipped Buffer publishing: missing BUFFER_API_KEY")
+
+    if failed_count:
+        raise SystemExit(f"distribution completed with {failed_count} publishing failures")
 
 
 if __name__ == "__main__":

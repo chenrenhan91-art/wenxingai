@@ -115,6 +115,7 @@ def render_report(report: dict[str, Any]) -> str:
     lines = [
         f"# 问星AI 内容自动化运行报告 {report['ran_at_display']}",
         "",
+        f"- 总体状态：{report['overall_status']}",
         f"- 本轮是否强制刷新：{'是' if report['force_refresh'] else '否'}",
         f"- 热点是否变化：{'是' if report['content_changed'] else '否'}",
         f"- 变更签名：{report['new_signature'] or '无'}",
@@ -134,6 +135,10 @@ def render_report(report: dict[str, Any]) -> str:
     if report["added_titles"]:
         lines.extend(["", "## 新增标题"])
         lines.extend(f"- {title}" for title in report["added_titles"])
+
+    if report["failed_scripts"]:
+        lines.extend(["", "## 失败脚本"])
+        lines.extend(f"- {title}" for title in report["failed_scripts"])
 
     lines.extend(["", "## 脚本结果"])
     for step in report["steps"]:
@@ -156,8 +161,6 @@ def main() -> None:
     steps: list[dict[str, Any]] = []
     updater_step = run_step("update_hot_news.py")
     steps.append(updater_step)
-    if not updater_step["ok"]:
-        raise SystemExit(updater_step["output"] or "update_hot_news.py failed")
 
     current_payload = read_json(DATA_PATH)
     new_signature = build_snapshot_signature(current_payload)
@@ -214,9 +217,13 @@ def main() -> None:
         audit_step = None
         distribution_step = None
 
+    failed_steps = [step for step in steps if not step["ok"]]
+    overall_status = "failed" if not updater_step["ok"] else ("partial_failure" if failed_steps else "success")
+
     report = {
         "ran_at": now.isoformat(),
         "ran_at_display": f"{now.year}年{now.month}月{now.day}日 {now:%H:%M}",
+        "overall_status": overall_status,
         "force_refresh": force_refresh,
         "previous_signature": previous_signature,
         "new_signature": new_signature,
@@ -228,10 +235,11 @@ def main() -> None:
         "distribution_ran": distribution_ran,
         "new_titles": new_titles,
         "added_titles": added_titles,
+        "failed_scripts": [step["script"] for step in failed_steps],
         "steps": steps,
     }
 
-    if content_changed and fresh_bundle_ready and all(step["ok"] for step in steps):
+    if content_changed and fresh_bundle_ready and not failed_steps:
         pipeline_state["last_success_signature"] = new_signature
         pipeline_state["last_success_run_at"] = now.isoformat()
         pipeline_state["last_titles"] = new_titles
@@ -240,10 +248,15 @@ def main() -> None:
     write_json(PIPELINE_REPORT_JSON_PATH, report)
     PIPELINE_REPORT_MD_PATH.write_text(render_report(report), encoding="utf-8")
 
-    if not all(step["ok"] for step in steps):
-        raise SystemExit("pipeline finished with failures")
+    if not updater_step["ok"]:
+        raise SystemExit("pipeline failed during hot news update")
 
-    if should_refresh_content and fresh_bundle_ready:
+    if failed_steps:
+        print(
+            "pipeline completed with partial failures: "
+            + ", ".join(step["script"] for step in failed_steps)
+        )
+    elif should_refresh_content and fresh_bundle_ready:
         if content_changed:
             print("pipeline completed: content changed and distribution pipeline executed")
         else:
