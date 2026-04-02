@@ -124,49 +124,49 @@
     },
     "daily-hot-news-2026-04-02": {
       "threads:zh_hant:1": {
-        "text_hash": "d8d0e1e37298770218f9d2ce061d91b3d699945f",
-        "buffer_update_id": "69ce496b30da85af1fe0894a",
-        "scheduled_at": "2026-04-02T19:00:00+08:00",
+        "text_hash": "7adae02af273d2c3f39ad413f7a1eb108d3c651f",
+        "buffer_update_id": "69ce7c6f90e64050479e324e",
+        "scheduled_at": "2026-04-02T22:35:00+08:00",
         "profile_id": "69b12ed27be9f8b171444849",
         "locale": "zh_hant",
         "landing_url": "https://wenxingai.top/?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-04-02&utm_content=zh_hant",
-        "queued_at": "2026-04-02T18:48:11.973647+08:00"
+        "queued_at": "2026-04-02T22:25:51.626927+08:00"
       },
       "threads:zh_hant:2": {
-        "text_hash": "71401f2d9e9c67b001d2fda25dc21e6dcfb134a8",
-        "buffer_update_id": "69ce496c30da85af1fe08970",
-        "scheduled_at": "2026-04-02T20:30:00+08:00",
+        "text_hash": "1d3794e009c111854673e780981c3dff012e4e88",
+        "buffer_update_id": "69ce7c6f5ee647d945e37862",
+        "scheduled_at": "2026-04-03T00:05:00+08:00",
         "profile_id": "69b12ed27be9f8b171444849",
         "locale": "zh_hant",
         "landing_url": "https://wenxingai.top/?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-04-02&utm_content=zh_hant",
-        "queued_at": "2026-04-02T18:48:12.240389+08:00"
+        "queued_at": "2026-04-02T22:25:51.949805+08:00"
       },
       "x:zh_cn:1": {
-        "text_hash": "470f8a03f358b081c3f0c77aea3430e9db2e5395",
-        "buffer_update_id": "69ce496ca1c38d0c37bf6869",
-        "scheduled_at": "2026-04-02T19:00:00+08:00",
+        "text_hash": "b03f43baf785f356633dc5ff61b33ecb1cee5764",
+        "buffer_update_id": "69ce7c7090e64050479e3274",
+        "scheduled_at": "2026-04-02T22:35:00+08:00",
         "profile_id": "69b11cdc7be9f8b171440e78",
         "locale": "zh_cn",
         "landing_url": "https://wenxingai.top/?utm_source=x&utm_medium=social&utm_campaign=daily-hot-news-2026-04-02&utm_content=zh_cn",
-        "queued_at": "2026-04-02T18:48:12.572088+08:00"
+        "queued_at": "2026-04-02T22:25:52.242635+08:00"
       },
       "x:zh_cn:2": {
-        "text_hash": "fa8b27f2dac1a6619f77afc537c07673478801ca",
-        "buffer_update_id": "69ce496ca1c38d0c37bf688f",
-        "scheduled_at": "2026-04-02T20:30:00+08:00",
+        "text_hash": "573879a29be459812fed36c367f024f4ee74722a",
+        "buffer_update_id": "69ce7c7090e64050479e329a",
+        "scheduled_at": "2026-04-03T00:05:00+08:00",
         "profile_id": "69b11cdc7be9f8b171440e78",
         "locale": "zh_cn",
         "landing_url": "https://wenxingai.top/?utm_source=x&utm_medium=social&utm_campaign=daily-hot-news-2026-04-02&utm_content=zh_cn",
-        "queued_at": "2026-04-02T18:48:12.917540+08:00"
+        "queued_at": "2026-04-02T22:25:52.536605+08:00"
       },
       "instagram:zh_hant:1": {
-        "text_hash": "7eca6ec9aec7e3a64270e3ee3759887bc9cc40bb",
+        "text_hash": "38f8ddac40c80b8583fc75a912c898b04a2e2b11",
         "buffer_update_id": "",
-        "scheduled_at": "2026-04-02T20:00:00+08:00",
+        "scheduled_at": "2026-04-02T22:35:00+08:00",
         "profile_id": "69b12ea47be9f8b1714447ee",
         "locale": "zh_hant",
         "landing_url": "https://wenxingai.top/?utm_source=instagram&utm_medium=social&utm_campaign=daily-hot-news-2026-04-02&utm_content=zh_hant",
-        "queued_at": "2026-04-02T18:48:13.066730+08:00"
+        "queued_at": "2026-04-02T22:25:52.723440+08:00"
       }
     }
   }

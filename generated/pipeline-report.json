@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-04-02T18:45:41.683719+08:00",
-  "ran_at_display": "2026年4月2日 18:45",
+  "ran_at": "2026-04-02T22:23:31.351324+08:00",
+  "ran_at_display": "2026年4月2日 22:23",
   "overall_status": "success",
-  "force_refresh": false,
-  "previous_signature": "de63a63aa9b09cd29849dd12075463927d575499",
-  "new_signature": "59f11f4965f3dcaa0dfe66f0332d9abd8f6016f4",
+  "force_refresh": true,
+  "previous_signature": "59f11f4965f3dcaa0dfe66f0332d9abd8f6016f4",
+  "new_signature": "957c310d062de043a186dae1cc4a18a2869dc18d",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
@@ -12,26 +12,30 @@
   "fresh_bundle_ready": true,
   "distribution_ran": true,
   "new_titles": [
-    "【暗戀專場】他發現你喜歡他嗎？以及他喜歡你嗎？愚人節拆盲盒了！|曖昧|暗戀|戀愛|桃花|塔羅占卜",
-    "[ 易經６４卦算流年 初班0310 ] #天水訟 天與水違行訟君子以作事謀始 #易卦大成卦六十四卦 #坎卦命 #2026丙午馬年 #算流年唔駛用八字 #算流年唔駛用紫斗 #自己運程自己推算 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算",
+    "你們是雙向喜歡嗎？他是真的喜歡還是你的錯覺？他會如何評價你？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+    "[ 易經６４卦算流年 初班0310 ] #天水訟 訟有孚窒惕中吉終凶 #易卦大成卦六十四卦 #坎卦命 #2026丙午馬年 #算流年唔駛用八字 #算流年唔駛用紫斗 #自己運程自己推算 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年",
     "[新聞] 下葬61年祖母未腐反成蔭屍 命理師：",
-    "ATM也能補財庫！命理師教1招清明「開運存錢法」…財庫補好補滿",
-    "4/6觀音生！命理師曝3大禁忌習俗與開運時辰，加碼3生肖財運爆棚，屬羊正財運旺"
+    "命理師潘智航:清明節氣可開運",
+    "ATM也能補財庫！命理師教1招清明「開運存錢法」…財庫補好補滿"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "你們是雙向喜歡嗎？他是真的喜歡還是你的錯覺？他會如何評價你？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+    "[ 易經６４卦算流年 初班0310 ] #天水訟 訟有孚窒惕中吉終凶 #易卦大成卦六十四卦 #坎卦命 #2026丙午馬年 #算流年唔駛用八字 #算流年唔駛用紫斗 #自己運程自己推算 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年",
+    "命理師潘智航:清明節氣可開運"
+  ],
   "failed_scripts": [],
   "steps": [
     {
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月2日 18:45"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月2日 22:23"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年4月2日 18:45 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年4月2日 22:23 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
