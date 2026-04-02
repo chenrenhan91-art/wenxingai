@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-31",
-  "updated_at_display": "2026年3月31日 13:10",
+  "updated_at": "2026-04-02",
+  "updated_at_display": "2026年4月2日 18:12",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -159,16 +159,16 @@
   ],
   "items": [
     {
-      "title": "【偷窺一下】他在想你嗎？就現在！有多想？想你為什麼不找你？他對關係的計劃|曖昧|愛情|戀愛|桃花|塔羅占卜",
+      "title": "【暗戀專場】他發現你喜歡他嗎？以及他喜歡你嗎？愚人節拆盲盒了！|曖昧|暗戀|戀愛|桃花|塔羅占卜",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wdFVwVkpBZ21rY1pUeWxqSzBaQ3hielhyVVU1NTVuMFZqMUhVR2lyOFN1MHlIV1JZTWk4b21QVEVEeEc4Sk1UWmozRDRSdi1ycWdKTmd3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1IaDljNWhRS1paOGRMellocGtGbE4xTFFnYXcxUXpOb09raUNOWlVSRnEzVngxMUl6SzZSeW1waENuLTV4WTBNZ3ZadFIwT2FEMHo0Zl9n?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-03-26",
-      "published_display": "2026-03-26",
+      "published": "2026-04-01",
+      "published_display": "2026-04-01",
       "matched_keywords": [
         "塔羅",
         "占卜",
@@ -213,6 +213,24 @@
       "score": 12.8
     },
     {
+      "title": "ATM也能補財庫！命理師教1招清明「開運存錢法」…財庫補好補滿",
+      "summary": "来自 四季線上4gTV · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE53QzhYUzVoOGdPY0dTU1pmVThiUGRtSWt2QjB0QzFUdWQ2eG1IOEFaeWJZUWFCLUlJOHBCd0RNLTlsa1FDX1JkbUdPQWo1eUtiVDJJTlhvWQ?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "四季線上4gTV · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-04-02",
+      "published_display": "2026-04-02",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.4
+    },
+    {
       "title": "4/6觀音生！命理師曝3大禁忌習俗與開運時辰，加碼3生肖財運爆棚，屬羊正財運旺",
       "summary": "来自 TVBS 女人我最大 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9lNEl2MzFXcjZ2ZzdvUVlOMFV6V2Q1SUFmMEt4OUNtZVgtLWxQUkI5eFQzUlIyanA0aFhUZXhzcFFpSy15M3l4XzNTOE1yYzRWQ3hZRnJEM2Q?oc=5",
@@ -232,10 +250,10 @@
     },
     {
       "title": "【清明掃墓禁忌一次看！命理師提醒3件事少做 「別直接回家」】 （圖／記者王威智攝） 可能會影響運勢。(#起啵)",
-      "summary": "来自 facebook.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 Facebook · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTWotbThxd1BFQ0p6WHM4WVlGY0kwUEEtTWtGcldMTEVsLVhQckhpYXpKb2FfSFFmMVRMZGd5N000RDE4RTZCdk9WM1dwQ0J0Mm9hOWY0WjA4TG1xQ1V2VS1xZWphYUhfdmk0dFQ0c2tBd0NtZHkwUnFvbDhLNWo4enFMOTBKN1FJUkRBYzQ3WGFVaGY0WGZuaXdvY1BvZw?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "facebook.com · Google News",
+      "source": "Facebook · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -245,42 +263,6 @@
         "命理",
         "命理師",
         "運勢"
-      ],
-      "score": 14.4
-    },
-    {
-      "title": "用AI算命準嗎？命理師實測揭致命盲點",
-      "summary": "来自 世界新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9FaldVVWpscWMyZnRsRm5UeWVLZ1N3OTBiRHN0MWRzNzEybnlLVVdUcnNmTmJIeHphUl9jeGszdDVqZ1NrTEkyeWZnZENlbmF1Ni1WT2RsZkJ2cDhWS1FhTTB30gFnQVVfeXFMUHhIMk1wVTNNZ1NkZUE0Z0dnbklFU0MyVUlybHNYVGVONVVlNWplTjdxTVktWnBYZ1VtYmQxOXBMOVNmcTBRLXo4OUlqQnBCUXV1VzlTLXBJN3BlUllyQ3JCYVhGcFJDSQ?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "世界新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-03-26",
-      "published_display": "2026-03-26",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "算命"
-      ],
-      "score": 14.4
-    },
-    {
-      "title": "塔羅「吊人」流年 命理師預判民心：會出現憂國的領導人",
-      "summary": "来自 tw.news.yahoo.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOa0tVT1FFcVpmSWJBTThmS1RoMlE5aml1eVhvTkZjd19oZVJETlRBU1AzRjMxek9sM0Q5Y00wTlQ2Y1JYZkNMLU1lQlNrcGdrel9vaUVpN1hrZFptNjRoTTlxcFZNQmlhd1hkYVBkbXNIc0pSN2cwaW1OdTBJdWlQbFVlYmRMS2VXXzI3UzBkY205ZHVabE8ycV9BaXhzbmZFNFktVUQ4cG12N0R2VXFHWG44NEZWdjNvR1MxMThBM0MxcVBhX1BCZ0htWm1TbWl5VHptdzFyYmFKaUhGb0R4bDhWa0RlYVhXQXZ1SDlqeU5pUEI1SXdQV3Z1c210TFJZTzUzbEc0T2cyS0kyblBscXZ4dDVhMjdwTldpT2x4TGhSa1FrV1gyVzJIcjV5ZDZGbVdIbWZ1ekVKYXE4aGotS1NpSWNuWVoza1VfYXduSXNMTjhIc0RiTFh3blRIS09y?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "tw.news.yahoo.com · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-03-25",
-      "published_display": "2026-03-25",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "流年"
       ],
       "score": 14.4
     },
@@ -301,6 +283,24 @@
         "流年"
       ],
       "score": 14.4
+    },
+    {
+      "title": "3月9日壬午日必看！#每日易點通#3月9日運勢#壬午日#五行穿衣#12生肖運程#水火既濟#老黃曆#開運指南#命理風水#趨吉避凶#改運智慧#生肖運程#曾仕強智慧#積德行善[3c361a]",
+      "summary": "来自 fathomjournal.org · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5USURMbWVDdHJRcS04X3d3QXJ3ZHI2TTdDYUt0WWdlQl9sNW9yT3B4SWVKVHpNcDhHbU9vVTBVdkdzTVpBd1pWTVNfaHR5R0hwMW1NS0w1X0ExaWxVZVhlaVU0ZUZ1WFVqOGxqTGpsY0U?oc=5",
+      "source_id": "google_news_fengshui_tw",
+      "source": "fathomjournal.org · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E9%A2%A8%E6%B0%B4+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-03-29",
+      "published_display": "2026-03-29",
+      "matched_keywords": [
+        "命理",
+        "運勢",
+        "開運"
+      ],
+      "score": 12.8
     }
   ]
 }
