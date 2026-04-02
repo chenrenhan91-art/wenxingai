@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-04-02T18:31:21.562643+08:00",
-  "ran_at_display": "2026年4月2日 18:31",
-  "overall_status": "partial_failure",
+  "ran_at": "2026-04-02T18:45:41.683719+08:00",
+  "ran_at_display": "2026年4月2日 18:45",
+  "overall_status": "success",
   "force_refresh": false,
-  "previous_signature": "3d128f74372d8918f2af25e0ae91a3b45ec39b57",
-  "new_signature": "de63a63aa9b09cd29849dd12075463927d575499",
+  "previous_signature": "de63a63aa9b09cd29849dd12075463927d575499",
+  "new_signature": "59f11f4965f3dcaa0dfe66f0332d9abd8f6016f4",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
@@ -18,24 +18,20 @@
     "ATM也能補財庫！命理師教1招清明「開運存錢法」…財庫補好補滿",
     "4/6觀音生！命理師曝3大禁忌習俗與開運時辰，加碼3生肖財運爆棚，屬羊正財運旺"
   ],
-  "added_titles": [
-    "[ 易經６４卦算流年 初班0310 ] #天水訟 天與水違行訟君子以作事謀始 #易卦大成卦六十四卦 #坎卦命 #2026丙午馬年 #算流年唔駛用八字 #算流年唔駛用紫斗 #自己運程自己推算 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算"
-  ],
-  "failed_scripts": [
-    "distribute_daily_content.py"
-  ],
+  "added_titles": [],
+  "failed_scripts": [],
   "steps": [
     {
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月2日 18:31"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月2日 18:45"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年4月2日 18:31 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年4月2日 18:45 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
@@ -51,9 +47,9 @@
     },
     {
       "script": "distribute_daily_content.py",
-      "returncode": 1,
-      "ok": false,
-      "output": "File \"/home/runner/work/wenxingai/wenxingai/scripts/distribute_daily_content.py\", line 1\n    ycm9yKGYibmV0d29yayBlcnJvciBmcm9tIHtzYWZlX3VybH06IHtleGN9IikgZnJvbSBleGMKICAgIGlmIGxhc3RfZXhjOgogICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcigi\"network error from {safe_url}: {last_exc}\"\n                                                                                                                                                                                    ^\nSyntaxError: invalid syntax"
+      "returncode": 0,
+      "ok": true,
+      "output": "prepared 5 distribution jobs; queued 5 jobs to Buffer"
     }
   ]
 }
