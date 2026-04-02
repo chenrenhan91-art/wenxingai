@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-04-02T18:12:17.048578+08:00",
-  "ran_at_display": "2026年4月2日 18:12",
+  "ran_at": "2026-04-02T18:31:21.562643+08:00",
+  "ran_at_display": "2026年4月2日 18:31",
   "overall_status": "partial_failure",
   "force_refresh": false,
-  "previous_signature": "2e4e0daf38b8f3b042bb4c19a8c7791ec3ae1436",
-  "new_signature": "3d128f74372d8918f2af25e0ae91a3b45ec39b57",
+  "previous_signature": "3d128f74372d8918f2af25e0ae91a3b45ec39b57",
+  "new_signature": "de63a63aa9b09cd29849dd12075463927d575499",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
@@ -13,14 +13,13 @@
   "distribution_ran": true,
   "new_titles": [
     "【暗戀專場】他發現你喜歡他嗎？以及他喜歡你嗎？愚人節拆盲盒了！|曖昧|暗戀|戀愛|桃花|塔羅占卜",
-    "[ 易經６４卦算流年 初班0310 ] #天水訟 訟有孚窒惕中吉終凶 #易卦大成卦六十四卦 #坎卦命 #2026丙午馬年 #算流年唔駛用八字 #算流年唔駛用紫斗 #自己運程自己推算 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年",
+    "[ 易經６４卦算流年 初班0310 ] #天水訟 天與水違行訟君子以作事謀始 #易卦大成卦六十四卦 #坎卦命 #2026丙午馬年 #算流年唔駛用八字 #算流年唔駛用紫斗 #自己運程自己推算 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算",
     "[新聞] 下葬61年祖母未腐反成蔭屍 命理師：",
     "ATM也能補財庫！命理師教1招清明「開運存錢法」…財庫補好補滿",
     "4/6觀音生！命理師曝3大禁忌習俗與開運時辰，加碼3生肖財運爆棚，屬羊正財運旺"
   ],
   "added_titles": [
-    "【暗戀專場】他發現你喜歡他嗎？以及他喜歡你嗎？愚人節拆盲盒了！|曖昧|暗戀|戀愛|桃花|塔羅占卜",
-    "ATM也能補財庫！命理師教1招清明「開運存錢法」…財庫補好補滿"
+    "[ 易經６４卦算流年 初班0310 ] #天水訟 天與水違行訟君子以作事謀始 #易卦大成卦六十四卦 #坎卦命 #2026丙午馬年 #算流年唔駛用八字 #算流年唔駛用紫斗 #自己運程自己推算 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算"
   ],
   "failed_scripts": [
     "distribute_daily_content.py"
@@ -30,13 +29,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月2日 18:12"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月2日 18:31"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年4月2日 18:12 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年4月2日 18:31 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
@@ -54,7 +53,7 @@
       "script": "distribute_daily_content.py",
       "returncode": 1,
       "ok": false,
-      "output": "Traceback (most recent call last):\n  File \"/home/runner/work/wenxingai/wenxingai/scripts/distribute_daily_content.py\", line 81, in fetch_json\n    with urllib.request.urlopen(request, timeout=45) as response:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/urllib/request.py\", line 216, in urlopen\n    return opener.open(url, data, timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/urllib/request.py\", line 525, in open\n    response = meth(req, response)\n               ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/urllib/request.py\", line 634, in http_response\n    response = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/urllib/request.py\", line 563, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/urllib/request.py\", line 496, in _call_chain\n    result = func(*args)\n             ^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/urllib/request.py\", line 643, in http_error_default\n    raise HTTPError(req.full_url, code, msg, hdrs, fp)\nurllib.error.HTTPError: HTTP Error 401: Unauthorized\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/wenxingai/wenxingai/scripts/distribute_daily_content.py\", line 541, in <module>\n    main()\n  File \"/home/runner/work/wenxingai/wenxingai/scripts/distribute_daily_content.py\", line 516, in main\n    results, failed_count = publish_jobs_to_buffer(jobs, state)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/wenxingai/wenxingai/scripts/distribute_daily_content.py\", line 412, in publish_jobs_to_buffer\n    profiles = get_buffer_profiles(api_key)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/wenxingai/wenxingai/scripts/distribute_daily_content.py\", line 334, in get_buffer_profiles\n    data = fetch_json(url)\n           ^^^^^^^^^^^^^^^\n  File \"/home/runner/work/wenxingai/wenxingai/scripts/distribute_daily_content.py\", line 89, in fetch_json\n    raise RuntimeError(f\"HTTP {exc.code} from {url}: {body}\") from exc\nRuntimeError: HTTP 401 from https://api.bufferapp.com/1/profiles.json?access_token=zXgwmR8Dg6WNvILjN99vMQbf3UfmsZPrmG5M9b7abh7: {\"error\":\"OIDC tokens are not accepted for direct API access\",\"code\":401}"
+      "output": "File \"/home/runner/work/wenxingai/wenxingai/scripts/distribute_daily_content.py\", line 1\n    ycm9yKGYibmV0d29yayBlcnJvciBmcm9tIHtzYWZlX3VybH06IHtleGN9IikgZnJvbSBleGMKICAgIGlmIGxhc3RfZXhjOgogICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcigi\"network error from {safe_url}: {last_exc}\"\n                                                                                                                                                                                    ^\nSyntaxError: invalid syntax"
     }
   ]
 }
