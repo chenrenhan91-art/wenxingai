@@ -1,40 +1,41 @@
 {
-  "ran_at": "2026-04-04T12:51:14.746628+08:00",
-  "ran_at_display": "2026年4月4日 12:51",
-  "overall_status": "success",
+  "ran_at": "2026-04-04T21:55:23.040675+08:00",
+  "ran_at_display": "2026年4月4日 21:55",
+  "overall_status": "partial_failure",
   "force_refresh": true,
-  "previous_signature": "8263f36e1a32185136c7b716b0c1e3f789809963",
-  "new_signature": "feafe864c8660aadbdef65c5cf9ebf5725719232",
+  "previous_signature": "feafe864c8660aadbdef65c5cf9ebf5725719232",
+  "new_signature": "132383b71f95bb7435839eceef52f0fc9937cbf2",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
   "audit_ran": true,
   "fresh_bundle_ready": true,
-  "distribution_ran": true,
+  "distribution_ran": false,
   "new_titles": [
     "他最想對你做的事：聽聽她內心深處不敢說出口的那個秘密幻想|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "[ 風水布局實戰班0312 ] 乾坤國寶 庫池水 #庫池水 #乾坤國寶 #正三元水法 #三天水法 #先後天水法 #龍門八局 #正局水法 #揀樓為主布局為輔 #宅命相配 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇",
     "[新聞] 下葬61年祖母未腐反成蔭屍 命理師：",
-    "血月元宵節! 命理師曝轉運秘訣 12生肖今晚許願用「這一招」 扭轉運勢",
-    "命理師潘智航:清明節氣可開運"
+    "週日清明節！命理師：水瓶天蠍運勢旺「重新洗牌看清5事」",
+    "血月元宵節! 命理師曝轉運秘訣 12生肖今晚許願用「這一招」 扭轉運勢"
   ],
   "added_titles": [
-    "他最想對你做的事：聽聽她內心深處不敢說出口的那個秘密幻想|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "[ 風水布局實戰班0312 ] 乾坤國寶 庫池水 #庫池水 #乾坤國寶 #正三元水法 #三天水法 #先後天水法 #龍門八局 #正局水法 #揀樓為主布局為輔 #宅命相配 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇"
+    "週日清明節！命理師：水瓶天蠍運勢旺「重新洗牌看清5事」"
   ],
-  "failed_scripts": [],
+  "failed_scripts": [
+    "audit_daily_content.py"
+  ],
   "steps": [
     {
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月4日 12:51"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月4日 21:55"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年4月4日 12:51 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年4月4日 21:55 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
@@ -44,15 +45,9 @@
     },
     {
       "script": "audit_daily_content.py",
-      "returncode": 0,
-      "ok": true,
-      "output": "content audit passed with 0 warnings"
-    },
-    {
-      "script": "distribute_daily_content.py",
-      "returncode": 0,
-      "ok": true,
-      "output": "prepared 5 distribution jobs; queued 5 jobs to Buffer"
+      "returncode": 1,
+      "ok": false,
+      "output": "content audit failed"
     }
   ]
 }

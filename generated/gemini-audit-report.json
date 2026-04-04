@@ -1,5 +1,8 @@
 {
-  "status": "passed",
+  "status": "failed",
   "warnings": [],
-  "blocking_issues": []
+  "blocking_issues": [
+    "zh_cn.site_article 含模型措辞：绝对准确",
+    "zh_hant.site_article 含模型措辞：絕對準確"
+  ]
 }
