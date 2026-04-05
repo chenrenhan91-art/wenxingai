@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-04",
-  "updated_at_display": "2026年4月4日 21:55",
+  "updated_at": "2026-04-05",
+  "updated_at_display": "2026年4月5日 13:13",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -213,6 +213,24 @@
       "score": 12.8
     },
     {
+      "title": "討論牆 | 命理師潘智航:清明節氣可開運",
+      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1EeWRfTHhvTFpoemhJeDVZamlEaDNJZVB6X3ROVlU5Qk1ycU5rNlYxUHpuSWJaZjJva3J6QUtqMlFtREpaUWl2dlRfVEducHRjSjhZTXdVQ2QyeGF1VE9scnRrUTU?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "LINE TODAY · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-04-05",
+      "published_display": "2026-04-05",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.4
+    },
+    {
       "title": "週日清明節！命理師：水瓶天蠍運勢旺「重新洗牌看清5事」",
       "summary": "来自 三立新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tcjV6aUs1QkF3WVM1UVJPSjFrU2dpQUxvUzh5cWROdkJLOTQ3R1ZuYXI3X3hia2duZlQ3RHZURTJSY3NsU2g0LW9GWW4tUzdfWUlxSUFKdDDSAV9BVV95cUxNNnM0LWJRVy04Q21CTkVUeVFtSjJqQWJlUG5SWEYxNTRSa1lOdkhsOThJRzJFVXoxMUptSHU0cF91b290LUtDODZJVk5nRWZmc1dSV2xOMjV2ekhTal8zdw?oc=5",
@@ -245,24 +263,6 @@
         "命理",
         "命理師",
         "運勢"
-      ],
-      "score": 14.4
-    },
-    {
-      "title": "命理師潘智航:清明節氣可開運",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbVFJUVl6aVo2dGVMaGp6cDVNRV9VcU9HaTljR1k2ckZhQW5YeEZkeEpsTWNBYS04cElTZ1RqMHp0ZzNXVjhOLU1DaGxTTXg5c19RSlV3dGUxSXNHU2E4WktkczgxWHVRMGxIN25fYnZVRHB0MkJQTFpMa2hUbnFPVFR5VXFZbkFiOE8yTFk1WkpIQUVZbmx6SUFGSm9yZHlJbnQ4d3NNdVpxU2NDbmVlS3BaS2VQS0xMbWxKbDQwY2MtcGQ2dVZrdERIMlR0bFZHOWNkWU5Cbkk4QzViSUY3cHQwSXJQbDdSMzEyemZNZ0s?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-04-02",
-      "published_display": "2026-04-02",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
       ],
       "score": 14.4
     },
