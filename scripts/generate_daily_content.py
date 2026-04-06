@@ -154,6 +154,123 @@ def require_string_list(payload: dict[str, Any], key: str, context: str) -> list
     return result
 
 
+def env_int(name: str, default: int) -> int:
+    raw = (os.getenv(name) or "").strip()
+    if not raw:
+        return default
+    try:
+        value = int(raw)
+    except ValueError:
+        return default
+    return value if value >= 0 else default
+
+
+def clamp_text(text: str, limit: int) -> str:
+    value = re.sub(r"\s+", " ", text).strip()
+    if len(value) <= limit:
+        return value
+    return value[: max(0, limit - 1)].rstrip() + "…"
+
+
+def sanitize_text(text: str) -> str:
+    value = str(text)
+    replacements = {
+        "命中注定": "并非固定结论",
+        "命中注定。": "并非固定结论。",
+        "注定": "并非固定结论",
+        "作为AI": "作为工具",
+        "作為AI": "作為工具",
+        "身为AI": "作为工具",
+        "身為AI": "作為工具",
+        "我无法确认": "目前不宜直接下结论",
+        "語言模型": "工具",
+        "语言模型": "工具",
+    }
+    for old, new in replacements.items():
+        value = value.replace(old, new)
+    return value
+
+
+def sanitize_content(payload: Any) -> Any:
+    if isinstance(payload, str):
+        return sanitize_text(payload)
+    if isinstance(payload, list):
+        return [sanitize_content(item) for item in payload]
+    if isinstance(payload, dict):
+        return {key: sanitize_content(value) for key, value in payload.items()}
+    return payload
+
+
+def build_social_fallback(
+    locale_key: str,
+    platform: str,
+    article: dict[str, Any],
+    campaign_summary: dict[str, Any],
+    existing_posts: list[str],
+) -> str:
+    title = str(article.get("title", "")).strip()
+    excerpt = str(article.get("excerpt", "")).strip()
+    topic = str(campaign_summary.get("topic", "")).strip()
+    angle = str(campaign_summary.get("angle", "")).strip()
+    lead = title or topic or angle or excerpt
+
+    if platform == "x":
+        return clamp_text(
+            f"大家以为是在看热点，其实更该看自己怎么被同一类节气话题反复牵动。问星AI把这类趋势拆开看，帮你少一点跟风，多一点判断。",
+            120,
+        )
+
+    if platform == "threads":
+        return clamp_text(
+            f"最近这类玄学热点之所以容易刷屏，是因为它把‘通用判断’包装成了‘个人答案’。真正值得看的不是谁说中了，而是这些说法为什么会被不断传播。问星AI把这种趋势拆开，让你先看懂变化，再决定怎么回应。",
+            180,
+        )
+
+    if platform == "instagram":
+        base = lead if lead else excerpt
+        if existing_posts:
+            base = existing_posts[0]
+        fallback = (
+            f"从这类热点里抽离出来，先看见自己的状态变化，再谈下一步。问星AI不替你下结论，"
+            f"而是把趋势和节奏整理出来，让你用更冷静的方式理解自己。"
+        )
+        if base and locale_key == "zh_hant":
+            fallback = (
+                f"從這類熱點裡抽離出來，先看見自己的狀態變化，再談下一步。問星AI不替你下結論，"
+                f"而是把趨勢和節奏整理出來，讓你用更冷靜的方式理解自己。"
+            )
+        return clamp_text(fallback, 220)
+
+    return clamp_text(excerpt or lead, 180)
+
+
+def normalize_social_posts(
+    locale_key: str,
+    article: dict[str, Any],
+    campaign_summary: dict[str, Any],
+    social_posts: dict[str, list[str]],
+) -> dict[str, list[str]]:
+    expected_counts = {
+        "threads": env_int("SOCIAL_THREADS_POST_COUNT", 2),
+        "x": env_int("SOCIAL_X_POST_COUNT", 2),
+        "instagram": env_int("SOCIAL_INSTAGRAM_POST_COUNT", 2),
+    }
+    normalized: dict[str, list[str]] = {}
+
+    for platform, expected in expected_counts.items():
+        posts = [str(post).strip() for post in social_posts.get(platform, []) if str(post).strip()]
+        if len(posts) > expected:
+            posts = posts[:expected]
+        while len(posts) < expected:
+            fallback = build_social_fallback(locale_key, platform, article, campaign_summary, posts)
+            if fallback in posts:
+                fallback = clamp_text(fallback + " " + str(len(posts) + 1), 220 if platform == "instagram" else 180)
+            posts.append(fallback)
+        normalized[platform] = posts
+
+    return normalized
+
+
 def load_news_payload() -> tuple[dict[str, Any], list[dict[str, Any]]]:
     payload = json.loads(DATA_PATH.read_text(encoding="utf-8"))
     items = payload.get("items")
@@ -167,7 +284,9 @@ def load_news_payload() -> tuple[dict[str, Any], list[dict[str, Any]]]:
                 "title": item.get("title", ""),
                 "summary": item.get("summary", ""),
                 "source": item.get("source", ""),
+                "source_group": item.get("source_group", ""),
                 "category": item.get("category", ""),
+                "event_cluster": item.get("event_cluster", ""),
                 "published": item.get("published_display", ""),
                 "matched_keywords": item.get("matched_keywords", []),
                 "url": item.get("url", ""),
@@ -237,7 +356,11 @@ def extract_candidate_text(response_payload: dict[str, Any]) -> str:
     return "\n".join(texts).strip()
 
 
-def validate_locale_content(locale_key: str, payload: dict[str, Any]) -> dict[str, Any]:
+def validate_locale_content(
+    locale_key: str,
+    payload: dict[str, Any],
+    campaign_summary: dict[str, Any],
+) -> dict[str, Any]:
     site_article = payload.get("site_article")
     social_posts = payload.get("social_posts")
     video_script = payload.get("video_script")
@@ -251,32 +374,41 @@ def validate_locale_content(locale_key: str, payload: dict[str, Any]) -> dict[st
     if not isinstance(distribution_plan, dict):
         raise RuntimeError(f"invalid Gemini response: missing {locale_key}.distribution_plan")
 
+    site_article_payload = {
+        "title": require_string(site_article, "title", f"{locale_key}.site_article"),
+        "seo_title": require_string(site_article, "seo_title", f"{locale_key}.site_article"),
+        "seo_description": require_string(
+            site_article,
+            "seo_description",
+            f"{locale_key}.site_article",
+        ),
+        "excerpt": require_string(site_article, "excerpt", f"{locale_key}.site_article"),
+        "body_markdown": require_string(
+            site_article,
+            "body_markdown",
+            f"{locale_key}.site_article",
+        ),
+        "cta": require_string(site_article, "cta", f"{locale_key}.site_article"),
+    }
+    social_posts_payload = {
+        "threads": require_string_list(social_posts, "threads", f"{locale_key}.social_posts"),
+        "x": require_string_list(social_posts, "x", f"{locale_key}.social_posts"),
+        "instagram": require_string_list(
+            social_posts,
+            "instagram",
+            f"{locale_key}.social_posts",
+        ),
+    }
+    social_posts_payload = normalize_social_posts(
+        locale_key,
+        site_article_payload,
+        campaign_summary,
+        social_posts_payload,
+    )
+
     return {
-        "site_article": {
-            "title": require_string(site_article, "title", f"{locale_key}.site_article"),
-            "seo_title": require_string(site_article, "seo_title", f"{locale_key}.site_article"),
-            "seo_description": require_string(
-                site_article,
-                "seo_description",
-                f"{locale_key}.site_article",
-            ),
-            "excerpt": require_string(site_article, "excerpt", f"{locale_key}.site_article"),
-            "body_markdown": require_string(
-                site_article,
-                "body_markdown",
-                f"{locale_key}.site_article",
-            ),
-            "cta": require_string(site_article, "cta", f"{locale_key}.site_article"),
-        },
-        "social_posts": {
-            "threads": require_string_list(social_posts, "threads", f"{locale_key}.social_posts"),
-            "x": require_string_list(social_posts, "x", f"{locale_key}.social_posts"),
-            "instagram": require_string_list(
-                social_posts,
-                "instagram",
-                f"{locale_key}.social_posts",
-            ),
-        },
+        "site_article": site_article_payload,
+        "social_posts": social_posts_payload,
         "video_script": {
             "title": require_string(video_script, "title", f"{locale_key}.video_script"),
             "hook": require_string(video_script, "hook", f"{locale_key}.video_script"),
@@ -312,21 +444,33 @@ def validate_generated_content(content: dict[str, Any]) -> dict[str, Any]:
     if not isinstance(localizations, dict):
         raise RuntimeError("invalid Gemini response: missing localizations")
 
-    return {
-        "campaign_summary": {
-            "topic": require_string(campaign_summary, "topic", "campaign_summary"),
-            "angle": require_string(campaign_summary, "angle", "campaign_summary"),
-            "primary_cta": require_string(
-                campaign_summary,
-                "primary_cta",
-                "campaign_summary",
+    validated_campaign_summary = {
+        "topic": require_string(campaign_summary, "topic", "campaign_summary"),
+        "angle": require_string(campaign_summary, "angle", "campaign_summary"),
+        "primary_cta": require_string(
+            campaign_summary,
+            "primary_cta",
+            "campaign_summary",
+        ),
+    }
+
+    validated = {
+        "campaign_summary": validated_campaign_summary,
+        "localizations": {
+            "zh_cn": validate_locale_content(
+                "zh_cn",
+                localizations.get("zh_cn") or {},
+                validated_campaign_summary,
+            ),
+            "zh_hant": validate_locale_content(
+                "zh_hant",
+                localizations.get("zh_hant") or {},
+                validated_campaign_summary,
             ),
         },
-        "localizations": {
-            "zh_cn": validate_locale_content("zh_cn", localizations.get("zh_cn") or {}),
-            "zh_hant": validate_locale_content("zh_hant", localizations.get("zh_hant") or {}),
-        },
     }
+
+    return sanitize_content(validated)
 
 
 def build_bundle(

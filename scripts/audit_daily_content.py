@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from collections import Counter
 from pathlib import Path
 
@@ -146,6 +147,11 @@ def main() -> None:
             for item in input_items
             if isinstance(item, dict) and item.get("category")
         )
+        event_counter = Counter(
+            str(item.get("event_cluster") or re.sub(r"[\W_]+", "", str(item.get("title", "")))[:18])
+            for item in input_items
+            if isinstance(item, dict)
+        )
 
         distinct_source_groups = len(source_group_counter)
         distinct_categories = len(category_counter)
@@ -156,6 +162,12 @@ def main() -> None:
         if distinct_categories < 3:
             blocking.append(
                 f"热点类别多样性不足：当前 category {distinct_categories} 类，至少需要 3 类"
+            )
+
+        distinct_events = len([key for key in event_counter if key])
+        if distinct_events < 4:
+            blocking.append(
+                f"热点事件覆盖不足：当前事件簇 {distinct_events} 个，至少需要 4 个"
             )
 
         if source_group_counter.get("community", 0) == 0:

@@ -1,15 +1,15 @@
-# 问星AI 内容自动化运行报告 2026年4月6日 12:20
+# 问星AI 内容自动化运行报告 2026年4月6日 12:45
 
 - 总体状态：success
-- 本轮是否强制刷新：否
-- 热点是否变化：否
-- 变更签名：6194c097505d9aa94aae548223d5b1685a043524
-- Gemini 是否执行：否
-- Gemini 审校是否执行：否
-- 规则质检是否执行：否
-- Gemini 内容包是否匹配本轮热点：否
-- Buffer 是否执行：否
-- 阶段状态：抓取=ok, 生成=skipped, 审校=skipped, 质检=skipped, 分发=skipped
+- 本轮是否强制刷新：是
+- 热点是否变化：是
+- 变更签名：d59b95d99ed8d4498f107e5d5cc7c1bc10e9cd51
+- Gemini 是否执行：是
+- Gemini 审校是否执行：是
+- 规则质检是否执行：是
+- Gemini 内容包是否匹配本轮热点：是
+- Buffer 是否执行：是
+- 阶段状态：抓取=ok, 生成=ok, 审校=ok, 质检=ok, 分发=ok
 
 ## 本轮热点标题
 - 周秀娜捲入李家誠誹謗官非，十年虛構傳聞終上法庭？2026流年太歲衝擊下是否逢凶化吉？周秀娜紫微斗數命盤分析︱洪宗玉師傅︱洪宗玉風水命理EP142
@@ -19,8 +19,12 @@
 - 清明運勢來了！命理師曝「財運最旺星座」 獅子有望加薪
 
 ## 次日运营建议
-- 明日优先延展「命理新闻」相关选题（当前占比 6/8）。
+- 明日优先延展「命理新闻」相关选题（当前占比 5/8）。
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年4月6日 12:20
+updated 8 hot news items at 2026年4月6日 12:45
+- generate_daily_content.py | ok | generated Gemini content bundle at 2026年4月6日 12:45 using gemini-2.5-pro
+- review_daily_content.py | ok | reviewed Gemini content bundle using gemini-2.5-pro
+- audit_daily_content.py | ok | content audit passed with 0 warnings
+- distribute_daily_content.py | ok | prepared 6 distribution jobs; skipped Buffer publishing: missing BUFFER_API_KEY

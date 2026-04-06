@@ -172,6 +172,7 @@ SOURCE_WEIGHTS = {
     "x_recent_search": 5.2,
     "reddit_search": 4.8,
 }
+SOURCE_WEIGHTS_RUNTIME = dict(SOURCE_WEIGHTS)
 
 FALLBACK_ITEMS = [
     {
@@ -205,6 +206,7 @@ class NewsItem:
     published_display: str
     matched_keywords: list[str]
     score: float
+    event_cluster: str = ""
 
 
 def fetch_text(url: str, headers: dict[str, str] | None = None) -> str:
@@ -346,7 +348,7 @@ def score_text(
         category_scores[category_hint] = category_scores.get(category_hint, 0.0) + 1.2
 
     category = max(category_scores, key=category_scores.get) if category_scores else "趋势观察"
-    total_score = category_scores.get(category, 0.0) + SOURCE_WEIGHTS.get(source_id, 0.0)
+    total_score = category_scores.get(category, 0.0) + SOURCE_WEIGHTS_RUNTIME.get(source_id, SOURCE_WEIGHTS.get(source_id, 5.0))
 
     unique_keywords: list[str] = []
     for keyword in matched_keywords:
@@ -949,7 +951,85 @@ def dedupe_and_sort(
         return (item.score + freshness_bonus, dt)
 
     candidates = [entry[2] for entry in semantic_entries]
-    return sorted(candidates, key=sort_key, reverse=True)
+    sorted_items = sorted(candidates, key=sort_key, reverse=True)
+    return assign_event_clusters(sorted_items)
+
+
+def assign_event_clusters(items: list[NewsItem]) -> list[NewsItem]:
+    clusters: list[dict[str, object]] = []
+    cluster_index = 0
+    for item in items:
+        fp = build_semantic_fingerprint(item.title, item.summary)
+        best_idx = -1
+        best_score = 0.0
+        for idx, cluster in enumerate(clusters):
+            cluster_fp = cluster.get("fingerprint")
+            if not isinstance(cluster_fp, set):
+                continue
+            similarity = token_jaccard(fp, cluster_fp)
+            if similarity > best_score:
+                best_score = similarity
+                best_idx = idx
+
+        if best_idx >= 0 and best_score >= 0.58:
+            cluster = clusters[best_idx]
+            cluster_id = str(cluster.get("id"))
+            merged_fp = set(cluster.get("fingerprint", set()))
+            merged_fp.update(fp)
+            cluster["fingerprint"] = merged_fp
+            item.event_cluster = cluster_id
+            continue
+
+        cluster_index += 1
+        cluster_id = f"event-{cluster_index:02d}"
+        clusters.append({"id": cluster_id, "fingerprint": set(fp)})
+        item.event_cluster = cluster_id
+
+    return items
+
+
+def normalize_featured_categories(items: list[NewsItem]) -> list[NewsItem]:
+    for item in items:
+        title = item.title
+        if any(keyword in title for keyword in ("風水", "风水")):
+            item.category = "风水玄学"
+        elif any(keyword in title for keyword in ("塔羅", "塔罗", "占卜", "星座")):
+            item.category = "塔罗星象"
+        elif any(keyword in title for keyword in ("紫微", "八字")):
+            item.category = "八字紫微"
+        elif any(keyword in title for keyword in ("命理", "命理師", "运势", "運勢")):
+            item.category = "命理新闻"
+    return items
+
+
+def build_runtime_source_weights(config: dict, previous_payload: dict | None) -> dict[str, float]:
+    runtime = dict(SOURCE_WEIGHTS)
+    previous_health = ((previous_payload or {}).get("source_health") or {}).get("by_source") or {}
+
+    for source in config.get("sources", []):
+        source_id = source.get("id")
+        if not source_id:
+            continue
+        base_weight = float(source.get("base_weight", SOURCE_WEIGHTS.get(source_id, 5.0)))
+        health_payload = previous_health.get(source_id) if isinstance(previous_health, dict) else None
+        status = str((health_payload or {}).get("status", ""))
+        picked_items = int((health_payload or {}).get("picked_items", 0) or 0)
+
+        adjustment = 0.0
+        if status == "failed":
+            adjustment -= 0.8
+        elif status == "degraded":
+            adjustment -= 0.3
+        elif status == "ok":
+            adjustment += 0.15
+
+        if picked_items >= 3:
+            adjustment += 0.2
+        elif status == "ok" and picked_items == 0:
+            adjustment -= 0.1
+
+        runtime[source_id] = round(min(8.5, max(3.0, base_weight + adjustment)), 2)
+    return runtime
 
 
 def build_source_health(config: dict, featured_items: list[NewsItem], fetch_failures: list[dict[str, str]]) -> dict:
@@ -971,6 +1051,7 @@ def build_source_health(config: dict, featured_items: list[NewsItem], fetch_fail
     return {
         "fetched_at": datetime.now(ZoneInfo(config.get("timezone", "Asia/Shanghai"))).isoformat(),
         "failed_sources": fetch_failures,
+        "source_weights": SOURCE_WEIGHTS_RUNTIME,
         "by_source": status_by_source,
     }
 
@@ -978,6 +1059,7 @@ def build_source_health(config: dict, featured_items: list[NewsItem], fetch_fail
 def build_ops_hints(featured_items: list[NewsItem]) -> list[str]:
     category_counter = Counter(item.category for item in featured_items)
     source_group_counter = Counter(item.source_group for item in featured_items)
+    cluster_counter = Counter(item.event_cluster for item in featured_items if item.event_cluster)
     hints: list[str] = []
 
     if category_counter:
@@ -987,14 +1069,17 @@ def build_ops_hints(featured_items: list[NewsItem]) -> list[str]:
         hints.append("社区类信号偏少，建议明日增加社区热议切口以提升互动。")
     if source_group_counter.get("news", 0) < 2:
         hints.append("媒体新闻信号偏少，建议补充权威媒体来源以稳定可信度。")
+    if len(cluster_counter) < 4:
+        hints.append("事件覆盖偏集中，建议明日扩大话题面，避免单一事件反复刷屏。")
     if not hints:
         hints.append("当前来源与类别分布较均衡，明日可围绕高互动题材做角度微创新。")
     return hints
 
 
-def select_featured_items(items: list[NewsItem], limit: int = 8) -> list[NewsItem]:
+def select_featured_items(items: list[NewsItem], limit: int = 8, max_per_cluster: int = 2) -> list[NewsItem]:
     chosen: list[NewsItem] = []
     seen: set[str] = set()
+    cluster_counts: Counter[str] = Counter()
 
     def add_from(pool: Iterable[NewsItem], count: int) -> None:
         for item in pool:
@@ -1003,8 +1088,12 @@ def select_featured_items(items: list[NewsItem], limit: int = 8) -> list[NewsIte
             key = normalize_title(item.title)
             if key in seen:
                 continue
+            cluster_key = item.event_cluster or key
+            if cluster_counts[cluster_key] >= max_per_cluster:
+                continue
             seen.add(key)
             chosen.append(item)
+            cluster_counts[cluster_key] += 1
             count -= 1
 
     add_from((i for i in items if i.source_id == "youtube_search"), 1)
@@ -1156,6 +1245,9 @@ def main() -> None:
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     timezone = ZoneInfo(config.get("timezone", "Asia/Shanghai"))
     source_settings = {source["id"]: source for source in config["sources"]}
+    previous_payload = json.loads(DATA_PATH.read_text(encoding="utf-8")) if DATA_PATH.exists() else {}
+    global SOURCE_WEIGHTS_RUNTIME
+    SOURCE_WEIGHTS_RUNTIME = build_runtime_source_weights(config, previous_payload)
     collected: list[NewsItem] = []
     fetch_failures: list[dict[str, str]] = []
 
@@ -1171,6 +1263,7 @@ def main() -> None:
         for fallback in FALLBACK_ITEMS:
             items.append(NewsItem(**fallback))
     featured_items = select_featured_items(items)
+    featured_items = normalize_featured_categories(featured_items)
     home_items = select_home_items(items, timezone)
 
     now = datetime.now(timezone)

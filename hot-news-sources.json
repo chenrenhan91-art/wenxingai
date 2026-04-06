@@ -9,6 +9,7 @@
       "description": "台湾繁体媒体聚合，追踪命理相关新闻与讨论",
       "source_group": "news",
       "category_hint": "命理新闻",
+      "base_weight": 6.2,
       "max_age_days": 30
     },
     {
@@ -19,6 +20,7 @@
       "description": "台湾繁体媒体聚合，追踪玄学与风水相关新闻",
       "source_group": "news",
       "category_hint": "风水玄学",
+      "base_weight": 6.0,
       "max_age_days": 30
     },
     {
@@ -29,6 +31,7 @@
       "description": "台湾繁体媒体聚合，追踪塔罗、星象与占卜相关新闻",
       "source_group": "news",
       "category_hint": "塔罗星象",
+      "base_weight": 5.8,
       "max_age_days": 30
     },
     {
@@ -39,6 +42,7 @@
       "description": "台湾繁体媒体聚合，追踪风水、空间布局与开运相关新闻",
       "source_group": "news",
       "category_hint": "风水玄学",
+      "base_weight": 5.8,
       "max_age_days": 30
     },
     {
@@ -51,6 +55,7 @@
       "description": "台湾综合讨论板，捕捉正在扩散的命理与玄学话题",
       "source_group": "community",
       "category_hint": "社区热议",
+      "base_weight": 5.4,
       "max_age_days": 120
     },
     {
@@ -63,6 +68,7 @@
       "description": "台湾生活讨论板，适合观察塔罗、星座与日常玄学热议",
       "source_group": "community",
       "category_hint": "塔罗星象",
+      "base_weight": 5.1,
       "max_age_days": 120
     },
     {
@@ -75,6 +81,7 @@
       "description": "台湾经验讨论板，补充玄学与风水叙事型热帖",
       "source_group": "community",
       "category_hint": "风水玄学",
+      "base_weight": 4.6,
       "max_age_days": 180
     },
     {
@@ -92,6 +99,7 @@
       "description": "海外华人常用视频平台，默认尝试公开搜索回退；配置 YOUTUBE_API_KEY 后可切换官方 API",
       "source_group": "video",
       "category_hint": "社区热议",
+      "base_weight": 5.4,
       "max_age_days": 30
     },
     {
@@ -104,6 +112,7 @@
       "description": "海外华语即时讨论源，默认尝试公开搜索回退；配置 X_BEARER_TOKEN 后可切换官方 API",
       "source_group": "community",
       "category_hint": "社区热议",
+      "base_weight": 5.2,
       "max_age_days": 14
     },
     {
@@ -115,6 +124,7 @@
       "description": "海外社区讨论源，默认尝试 old.reddit.com 公开搜索；配置 Reddit API 凭证后可切换官方 API",
       "source_group": "community",
       "category_hint": "海外话题",
+      "base_weight": 4.8,
       "max_age_days": 30
     },
     {
