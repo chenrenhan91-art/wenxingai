@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-04-06T13:07:36.836991+08:00",
-  "ran_at_display": "2026年4月6日 13:07",
+  "ran_at": "2026-04-06T13:26:06.847124+08:00",
+  "ran_at_display": "2026年4月6日 13:26",
   "overall_status": "failed_distribution",
-  "force_refresh": false,
-  "previous_signature": "47522417d66e0ef3b0a6f6a182ccb904f7f27cf9",
-  "new_signature": "65725fd94d80f6e78b5d8df0dd623fc35abcbf9d",
+  "force_refresh": true,
+  "previous_signature": "65725fd94d80f6e78b5d8df0dd623fc35abcbf9d",
+  "new_signature": "6dfe6f2ea9d7a572002a70875b31f052af0b139c",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
@@ -21,14 +21,14 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "想打通紫微斗數［任督二脈］，參加斗數高級解盤班啦！︱#紫微斗數#命盤分析#算命 #斗數教學#八字命理#算命進階#命理︱#三元易學坊EP203",
+    "錯過大運轉換，比低潮更可怕！ #張盛舒 #紫微斗數 #紫微命盤",
     "[ 風水布局實戰班0312 ] 乾坤國寶 庫池水 #庫池水 #乾坤國寶 #正三元水法 #三天水法 #先後天水法 #龍門八局 #正局水法 #揀樓為主布局為輔 #宅命相配 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇",
     "[新聞] 下葬61年祖母未腐反成蔭屍 命理師：",
     "清明「能量爆發」轉運時機來了！命理師曝12生肖「開運儀式」方法一次看",
     "清明運勢來了！命理師曝「財運最旺星座」 獅子有望加薪"
   ],
   "added_titles": [
-    "想打通紫微斗數［任督二脈］，參加斗數高級解盤班啦！︱#紫微斗數#命盤分析#算命 #斗數教學#八字命理#算命進階#命理︱#三元易學坊EP203"
+    "錯過大運轉換，比低潮更可怕！ #張盛舒 #紫微斗數 #紫微命盤"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -41,13 +41,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月6日 13:07"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月6日 13:26"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年4月6日 13:07 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年4月6日 13:26 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",

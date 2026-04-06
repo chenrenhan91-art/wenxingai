@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-06",
-  "updated_at_display": "2026年4月6日 13:07",
+  "updated_at_display": "2026年4月6日 13:26",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-06T13:07:53.059263+08:00",
+    "fetched_at": "2026-04-06T13:26:24.402518+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,20 +252,20 @@
   ],
   "items": [
     {
-      "title": "想打通紫微斗數［任督二脈］，參加斗數高級解盤班啦！︱#紫微斗數#命盤分析#算命 #斗數教學#八字命理#算命進階#命理︱#三元易學坊EP203",
+      "title": "錯過大運轉換，比低潮更可怕！ #張盛舒 #紫微斗數 #紫微命盤",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93Qm5QNmpsYmtXWEhtbENqY3czWm5CMFdVU3NKUFZjdXRLRXJwdGZqR2NZdlAxWnZUVldtQlRjYkZIOFk2NFpFaFN0aVVzUjFEY1R5ZGl3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBGekprNjZDWnhQVFJnOGdyTWhjTTJyVXVELXdGelRLUmNQLUFCZmdMcmVBeURyeGVDT1RnME5QTnVRUkw2UzdNZFVQV3J4S21TT3FpaA?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "八字紫微",
       "published": "2026-04-03",
       "published_display": "2026-04-03",
       "matched_keywords": [
-        "命理",
-        "算命",
-        "八字"
+        "紫微斗數",
+        "紫微",
+        "斗數"
       ],
       "score": 14.55,
       "event_cluster": "event-07"
@@ -287,7 +287,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-64"
+      "event_cluster": "event-60"
     },
     {
       "title": "[新聞] 下葬61年祖母未腐反成蔭屍 命理師：",
@@ -306,7 +306,7 @@
         "热议"
       ],
       "score": 12.95,
-      "event_cluster": "event-72"
+      "event_cluster": "event-66"
     },
     {
       "title": "清明「能量爆發」轉運時機來了！命理師曝12生肖「開運儀式」方法一次看",
