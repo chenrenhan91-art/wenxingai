@@ -124,6 +124,7 @@ def render_report(report: dict[str, Any]) -> str:
         f"- 规则质检是否执行：{'是' if report['audit_ran'] else '否'}",
         f"- Gemini 内容包是否匹配本轮热点：{'是' if report['fresh_bundle_ready'] else '否'}",
         f"- Buffer 是否执行：{'是' if report['distribution_ran'] else '否'}",
+        f"- 阶段状态：抓取={report['stage_status'].get('update')}, 生成={report['stage_status'].get('generate')}, 审校={report['stage_status'].get('review')}, 质检={report['stage_status'].get('audit')}, 分发={report['stage_status'].get('distribution')}",
         "",
         "## 本轮热点标题",
     ]
@@ -135,6 +136,10 @@ def render_report(report: dict[str, Any]) -> str:
     if report["added_titles"]:
         lines.extend(["", "## 新增标题"])
         lines.extend(f"- {title}" for title in report["added_titles"])
+
+    if report.get("ops_hints"):
+        lines.extend(["", "## 次日运营建议"])
+        lines.extend(f"- {hint}" for hint in report["ops_hints"])
 
     if report["failed_scripts"]:
         lines.extend(["", "## 失败脚本"])
@@ -159,13 +164,22 @@ def main() -> None:
     previous_titles = summarize_titles(previous_payload)
 
     steps: list[dict[str, Any]] = []
+    stage_status = {
+        "update": "skipped",
+        "generate": "skipped",
+        "review": "skipped",
+        "audit": "skipped",
+        "distribution": "skipped",
+    }
     updater_step = run_step("update_hot_news.py")
     steps.append(updater_step)
+    stage_status["update"] = "ok" if updater_step["ok"] else "failed"
 
     current_payload = read_json(DATA_PATH)
     new_signature = build_snapshot_signature(current_payload)
     new_titles = summarize_titles(current_payload)
     added_titles = [title for title in new_titles if title not in previous_titles]
+    ops_hints = [str(hint).strip() for hint in (current_payload or {}).get("ops_hints") or [] if str(hint).strip()]
 
     pipeline_state = read_json(PIPELINE_STATE_PATH) or {}
     last_success_signature = str(pipeline_state.get("last_success_signature", ""))
@@ -181,13 +195,16 @@ def main() -> None:
         gemini_step = run_step("generate_daily_content.py")
         steps.append(gemini_step)
         gemini_ran = True
+        stage_status["generate"] = "ok" if gemini_step["ok"] else "failed"
 
         if gemini_step["ok"]:
             review_step = run_step("review_daily_content.py")
             steps.append(review_step)
             review_ran = True
+            stage_status["review"] = "ok" if review_step["ok"] else "failed"
         else:
             review_step = None
+            stage_status["review"] = "blocked"
 
         bundle_payload = read_json(GEMINI_BUNDLE_PATH)
         fresh_bundle_ready = build_bundle_signature(bundle_payload) == new_signature and bool(new_signature)
@@ -196,8 +213,10 @@ def main() -> None:
             audit_step = run_step("audit_daily_content.py")
             steps.append(audit_step)
             audit_ran = True
+            stage_status["audit"] = "ok" if audit_step["ok"] else "failed"
         else:
             audit_step = None
+            stage_status["audit"] = "blocked"
 
         if (
             gemini_step["ok"]
@@ -210,15 +229,34 @@ def main() -> None:
             distribution_step = run_step("distribute_daily_content.py")
             steps.append(distribution_step)
             distribution_ran = True
+            stage_status["distribution"] = "ok" if distribution_step["ok"] else "failed"
         else:
             distribution_step = None
+            stage_status["distribution"] = "blocked"
     else:
         review_step = None
         audit_step = None
         distribution_step = None
+        stage_status["generate"] = "skipped"
+        stage_status["review"] = "skipped"
+        stage_status["audit"] = "skipped"
+        stage_status["distribution"] = "skipped"
 
     failed_steps = [step for step in steps if not step["ok"]]
-    overall_status = "failed" if not updater_step["ok"] else ("partial_failure" if failed_steps else "success")
+    if not updater_step["ok"]:
+        overall_status = "failed_update"
+    elif stage_status["generate"] == "failed":
+        overall_status = "failed_generate"
+    elif stage_status["review"] == "failed":
+        overall_status = "failed_review"
+    elif stage_status["audit"] == "failed":
+        overall_status = "failed_audit"
+    elif stage_status["distribution"] == "failed":
+        overall_status = "failed_distribution"
+    elif failed_steps:
+        overall_status = "partial_failure"
+    else:
+        overall_status = "success"
 
     report = {
         "ran_at": now.isoformat(),
@@ -233,8 +271,10 @@ def main() -> None:
         "audit_ran": audit_ran,
         "fresh_bundle_ready": fresh_bundle_ready,
         "distribution_ran": distribution_ran,
+        "stage_status": stage_status,
         "new_titles": new_titles,
         "added_titles": added_titles,
+        "ops_hints": ops_hints,
         "failed_scripts": [step["script"] for step in failed_steps],
         "steps": steps,
     }

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import os
+from collections import Counter
 from pathlib import Path
 
 
@@ -132,6 +133,35 @@ def main() -> None:
         locale_warnings, locale_blocking = audit_locale(locale_key, locale_payload)
         warnings.extend(locale_warnings)
         blocking.extend(locale_blocking)
+
+    input_items = bundle.get("input_items") or []
+    if isinstance(input_items, list) and input_items:
+        source_group_counter = Counter(
+            str(item.get("source_group", ""))
+            for item in input_items
+            if isinstance(item, dict) and item.get("source_group")
+        )
+        category_counter = Counter(
+            str(item.get("category", ""))
+            for item in input_items
+            if isinstance(item, dict) and item.get("category")
+        )
+
+        distinct_source_groups = len(source_group_counter)
+        distinct_categories = len(category_counter)
+        if distinct_source_groups < 3:
+            blocking.append(
+                f"热点来源多样性不足：当前 source_group {distinct_source_groups} 类，至少需要 3 类"
+            )
+        if distinct_categories < 3:
+            blocking.append(
+                f"热点类别多样性不足：当前 category {distinct_categories} 类，至少需要 3 类"
+            )
+
+        if source_group_counter.get("community", 0) == 0:
+            warnings.append("本轮缺少社区来源话题，可能影响互动率")
+        if source_group_counter.get("news", 0) == 0:
+            warnings.append("本轮缺少新闻来源话题，可能影响可信度")
 
     status = "passed" if not blocking else "failed"
     report = {

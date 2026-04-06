@@ -14,6 +14,7 @@ from dataclasses import asdict, dataclass
 from datetime import datetime, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from collections import Counter
 from typing import Iterable
 from urllib.parse import urljoin
 from zoneinfo import ZoneInfo
@@ -253,6 +254,21 @@ def strip_tags(value: str) -> str:
 
 def normalize_title(value: str) -> str:
     return re.sub(r"[\W_]+", "", value)
+
+
+def build_semantic_fingerprint(title: str, summary: str) -> set[str]:
+    text = f"{title} {summary}".lower()
+    text = re.sub(r"[^\w\u4e00-\u9fff]+", " ", text)
+    tokens = [token for token in text.split() if len(token) >= 2]
+    return set(tokens)
+
+
+def token_jaccard(a: set[str], b: set[str]) -> float:
+    if not a or not b:
+        return 0.0
+    inter = len(a & b)
+    union = len(a | b)
+    return inter / union if union else 0.0
 
 
 def truncate_text(value: str, limit: int = 92) -> str:
@@ -894,6 +910,7 @@ def dedupe_and_sort(
 ) -> list[NewsItem]:
     now = datetime.now(timezone)
     deduped: dict[str, NewsItem] = {}
+    semantic_entries: list[tuple[set[str], str, NewsItem]] = []
 
     for item in items:
         key = normalize_title(item.title)
@@ -910,13 +927,69 @@ def dedupe_and_sort(
         if existing is None or item.score > existing.score:
             deduped[key] = item
 
+        candidate_fp = build_semantic_fingerprint(item.title, item.summary)
+        replaced = False
+        for idx, (existing_fp, _existing_key, existing_item) in enumerate(semantic_entries):
+            # Same source + high overlap is typically duplicated rewrites of one story.
+            if item.source_group != existing_item.source_group:
+                continue
+            if token_jaccard(candidate_fp, existing_fp) < 0.72:
+                continue
+            if item.score > existing_item.score:
+                semantic_entries[idx] = (candidate_fp, key, item)
+            replaced = True
+            break
+        if not replaced:
+            semantic_entries.append((candidate_fp, key, item))
+
     def sort_key(item: NewsItem) -> tuple[float, datetime]:
         dt = parse_date(item.published or "", timezone) or datetime(2000, 1, 1, tzinfo=timezone)
         age_days = max(0, (now - dt).days)
         freshness_bonus = max(0.0, 45.0 - age_days) / 9.0
         return (item.score + freshness_bonus, dt)
 
-    return sorted(deduped.values(), key=sort_key, reverse=True)
+    candidates = [entry[2] for entry in semantic_entries]
+    return sorted(candidates, key=sort_key, reverse=True)
+
+
+def build_source_health(config: dict, featured_items: list[NewsItem], fetch_failures: list[dict[str, str]]) -> dict:
+    all_sources = [source.get("id") for source in config.get("sources", []) if source.get("id")]
+    item_counter = Counter(item.source_id for item in featured_items)
+    failure_counter = Counter(failure["source_id"] for failure in fetch_failures)
+    status_by_source: dict[str, dict[str, int | str]] = {}
+
+    for source_id in all_sources:
+        picked = int(item_counter.get(source_id, 0))
+        failures = int(failure_counter.get(source_id, 0))
+        status = "ok" if failures == 0 else ("degraded" if picked > 0 else "failed")
+        status_by_source[source_id] = {
+            "status": status,
+            "picked_items": picked,
+            "failures": failures,
+        }
+
+    return {
+        "fetched_at": datetime.now(ZoneInfo(config.get("timezone", "Asia/Shanghai"))).isoformat(),
+        "failed_sources": fetch_failures,
+        "by_source": status_by_source,
+    }
+
+
+def build_ops_hints(featured_items: list[NewsItem]) -> list[str]:
+    category_counter = Counter(item.category for item in featured_items)
+    source_group_counter = Counter(item.source_group for item in featured_items)
+    hints: list[str] = []
+
+    if category_counter:
+        top_category, top_count = category_counter.most_common(1)[0]
+        hints.append(f"明日优先延展「{top_category}」相关选题（当前占比 {top_count}/{len(featured_items)}）。")
+    if source_group_counter.get("community", 0) < 2:
+        hints.append("社区类信号偏少，建议明日增加社区热议切口以提升互动。")
+    if source_group_counter.get("news", 0) < 2:
+        hints.append("媒体新闻信号偏少，建议补充权威媒体来源以稳定可信度。")
+    if not hints:
+        hints.append("当前来源与类别分布较均衡，明日可围绕高互动题材做角度微创新。")
+    return hints
 
 
 def select_featured_items(items: list[NewsItem], limit: int = 8) -> list[NewsItem]:
@@ -1042,11 +1115,20 @@ def update_sitemap(date_iso: str) -> None:
     SITEMAP_PATH.write_text(content, encoding="utf-8")
 
 
-def write_data(items: list[NewsItem], date_display: str, date_iso: str, config: dict) -> None:
+def write_data(
+    items: list[NewsItem],
+    date_display: str,
+    date_iso: str,
+    config: dict,
+    source_health: dict,
+    ops_hints: list[str],
+) -> None:
     payload = {
         "updated_at": date_iso,
         "updated_at_display": date_display,
         "sources": config["sources"],
+        "source_health": source_health,
+        "ops_hints": ops_hints,
         "items": [asdict(item) for item in items],
     }
     DATA_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -1075,11 +1157,13 @@ def main() -> None:
     timezone = ZoneInfo(config.get("timezone", "Asia/Shanghai"))
     source_settings = {source["id"]: source for source in config["sources"]}
     collected: list[NewsItem] = []
+    fetch_failures: list[dict[str, str]] = []
 
     for source in config["sources"]:
         try:
             collected.extend(collect_from_source(source, timezone))
         except Exception as exc:
+            fetch_failures.append({"source_id": source["id"], "name": source.get("name", source["id"]), "error": str(exc)})
             print(f"[warn] failed to fetch {source['name']}: {exc}")
 
     items = dedupe_and_sort(collected, timezone, source_settings)
@@ -1092,8 +1176,10 @@ def main() -> None:
     now = datetime.now(timezone)
     date_iso = now.strftime("%Y-%m-%d")
     date_display = f"{now.year}年{now.month}月{now.day}日 {now:%H:%M}"
+    source_health = build_source_health(config, featured_items, fetch_failures)
+    ops_hints = build_ops_hints(featured_items)
 
-    write_data(featured_items, date_display, date_iso, config)
+    write_data(featured_items, date_display, date_iso, config, source_health, ops_hints)
 
     page = PAGE_PATH.read_text(encoding="utf-8")
     page = replace_between_markers(

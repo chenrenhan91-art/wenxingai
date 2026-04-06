@@ -584,6 +584,14 @@ def create_buffer_update(api_key: str, profile_id: str, job: dict[str, Any]) -> 
 
 
 def get_instagram_media_url(job: dict[str, Any]) -> str:
+    pool_raw = (os.getenv("SOCIAL_INSTAGRAM_MEDIA_URLS") or "").strip()
+    if pool_raw:
+        candidates = [item.strip() for item in pool_raw.split(",") if item.strip()]
+        if candidates:
+            stable_key = f"{job.get('slug','')}:{job.get('position', 0)}"
+            bucket = int(hashlib.sha1(stable_key.encode("utf-8")).hexdigest(), 16)
+            return candidates[bucket % len(candidates)]
+
     override = (os.getenv("SOCIAL_INSTAGRAM_MEDIA_URL") or "").strip()
     if override:
         return override
