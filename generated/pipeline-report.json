@@ -1,53 +1,54 @@
 {
-  "ran_at": "2026-04-06T13:26:06.847124+08:00",
-  "ran_at_display": "2026年4月6日 13:26",
-  "overall_status": "failed_distribution",
+  "ran_at": "2026-04-06T22:12:14.694892+08:00",
+  "ran_at_display": "2026年4月6日 22:12",
+  "overall_status": "failed_audit",
   "force_refresh": true,
-  "previous_signature": "65725fd94d80f6e78b5d8df0dd623fc35abcbf9d",
-  "new_signature": "6dfe6f2ea9d7a572002a70875b31f052af0b139c",
+  "previous_signature": "6dfe6f2ea9d7a572002a70875b31f052af0b139c",
+  "new_signature": "44b742f81d1ed5d76224ad5b43371e2b20c37fdd",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
   "audit_ran": true,
   "fresh_bundle_ready": true,
-  "distribution_ran": true,
+  "distribution_ran": false,
   "articles_ran": false,
   "stage_status": {
     "update": "ok",
     "generate": "ok",
     "review": "ok",
-    "audit": "ok",
-    "distribution": "failed",
+    "audit": "failed",
+    "distribution": "blocked",
     "articles": "skipped"
   },
   "new_titles": [
-    "錯過大運轉換，比低潮更可怕！ #張盛舒 #紫微斗數 #紫微命盤",
+    "你的姻緣什麼時候來，下一段戀情在哪裡？ta出現了嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "[ 易經６４卦算流年 初班0317 ] #火風鼎 木上有火鼎君子以正位凝命 #易卦大成卦六十四卦 #巽卦命 #2026丙午馬年 #算流年唔駛用八字 #算流年唔駛用紫斗 #自己運程自己推算 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流",
     "[ 風水布局實戰班0312 ] 乾坤國寶 庫池水 #庫池水 #乾坤國寶 #正三元水法 #三天水法 #先後天水法 #龍門八局 #正局水法 #揀樓為主布局為輔 #宅命相配 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇",
-    "[新聞] 下葬61年祖母未腐反成蔭屍 命理師：",
     "清明「能量爆發」轉運時機來了！命理師曝12生肖「開運儀式」方法一次看",
     "清明運勢來了！命理師曝「財運最旺星座」 獅子有望加薪"
   ],
   "added_titles": [
-    "錯過大運轉換，比低潮更可怕！ #張盛舒 #紫微斗數 #紫微命盤"
+    "你的姻緣什麼時候來，下一段戀情在哪裡？ta出現了嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "[ 易經６４卦算流年 初班0317 ] #火風鼎 木上有火鼎君子以正位凝命 #易卦大成卦六十四卦 #巽卦命 #2026丙午馬年 #算流年唔駛用八字 #算流年唔駛用紫斗 #自己運程自己推算 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "failed_scripts": [
-    "distribute_daily_content.py"
+    "audit_daily_content.py"
   ],
   "steps": [
     {
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月6日 13:26"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月6日 22:12"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年4月6日 13:26 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年4月6日 22:12 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
@@ -57,15 +58,9 @@
     },
     {
       "script": "audit_daily_content.py",
-      "returncode": 0,
-      "ok": true,
-      "output": "content audit passed with 0 warnings"
-    },
-    {
-      "script": "distribute_daily_content.py",
       "returncode": 1,
       "ok": false,
-      "output": "prepared 6 distribution jobs; queued 4 jobs to Buffer; 2 jobs failed\ndistribution completed with 2 publishing failures"
+      "output": "content audit failed"
     }
   ]
 }
