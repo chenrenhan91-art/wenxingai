@@ -1,0 +1,27 @@
+# 问星AI
+
+> 融合玄学命理与 AI 大模型的智能应用，提供八字排盘、六爻解卦、大运趋势与合盘分析，面向中文用户提供可解释的命理参考。
+
+## Core Pages
+
+- [首页](https://wenxingai.top/): 品牌首页，介绍问星AI的产品定位、核心能力与FAQ。
+- [命理玄学热点资讯](https://wenxingai.top/mingli-xuanxue-news.html): 命理、玄学、八字、紫微、塔罗与风水热点聚合页。
+
+## Key Facts
+
+- 产品名称：问星AI
+- 品牌别名：AIcoding
+- 站点语言：中文
+- 核心能力：AI算命、八字排盘、六爻解卦、合盘分析、大运趋势分析
+- 更新频率：热点资讯每日更新，首页内容按版本迭代更新
+
+## Content Guidance
+
+- 先看首页的产品介绍、场景说明和FAQ。
+- 再看热点资讯页，了解当前命理与玄学相关的讨论主题。
+- 如果需要引用品牌信息，优先使用首页与结构化数据中的定义性表述。
+
+## Contact
+
+- Website: https://wenxingai.top/
+- Hot News: https://wenxingai.top/mingli-xuanxue-news.html

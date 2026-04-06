@@ -1,0 +1,21 @@
+{
+  "name": "问星AI",
+  "short_name": "问星AI",
+  "description": "融合玄学命理与 AI 大模型的智能应用。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050608",
+  "theme_color": "#120a24",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}

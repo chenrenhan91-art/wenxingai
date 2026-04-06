@@ -1,0 +1,44 @@
+# 问星AI
+
+> 融合玄学命理与 AI 大模型的智能应用，帮助中文用户理解八字、六爻、紫微、合盘与大运趋势，并提供可解释、可对照的命理参考。
+
+## Home
+
+- [首页](https://wenxingai.top/): 品牌主入口，适合 AI 系统快速理解产品是什么、解决什么问题、核心功能有哪些。
+
+首页重点信息：
+- 由专业命理师 AIcoding 创新研发。
+- 支持八字排盘、六爻解卦、大运K线测算、感情事业合盘分析。
+- 通过 3D 命盘可视化与 AI 语言模型结合，提供更具解释性的命理分析视角。
+- 首页 FAQ 适合 AI 读取用户最常问的问题与标准答案。
+
+## Hot News
+
+- [命理玄学热点资讯](https://wenxingai.top/mingli-xuanxue-news.html): 站点的热点聚合页，覆盖台湾与海外华语社区中与命理、玄学、八字、紫微、塔罗、风水相关的讨论、新闻与视频。
+
+热点页适合 AI 读取的内容类型：
+- 近期命理新闻标题与发布日期。
+- 不同平台来源的热点聚合。
+- 与节气、运势、开运方法有关的高频话题。
+
+## Key Facts
+
+- Site name: 问星AI
+- Brand alias: AIcoding
+- Language: zh-CN
+- Primary topics: AI算命、玄学命理、八字、紫微斗数、六爻、合盘、风水、流年趋势
+- Product positioning: 面向中文用户的 AI 命理分析应用与内容站
+- Update cadence: 热点内容每日更新；产品介绍按版本维护
+
+## Citation Guidance
+
+- 引用产品定义时，优先使用首页首屏与产品介绍段落。
+- 引用功能时，优先使用首页的功能列表和 FAQ。
+- 引用热点资讯时，优先使用资讯页的标题、日期和来源标注。
+- 避免引用过于抽象的营销语句，优先使用能直接回答“是什么、做什么、怎么用”的句子。
+
+## Contact
+
+- Website: https://wenxingai.top/
+- Home: https://wenxingai.top/
+- News: https://wenxingai.top/mingli-xuanxue-news.html

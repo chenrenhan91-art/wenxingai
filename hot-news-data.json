@@ -1,0 +1,306 @@
+{
+  "updated_at": "2026-04-05",
+  "updated_at_display": "2026年4月5日 21:56",
+  "sources": [
+    {
+      "id": "google_news_mingli_tw",
+      "name": "Google News zh-TW · 命理",
+      "type": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "description": "台湾繁体媒体聚合，追踪命理相关新闻与讨论",
+      "source_group": "news",
+      "category_hint": "命理新闻",
+      "max_age_days": 30
+    },
+    {
+      "id": "google_news_xuanxue_tw",
+      "name": "Google News zh-TW · 玄學",
+      "type": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%E7%8E%84%E5%AD%B8+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "description": "台湾繁体媒体聚合，追踪玄学与风水相关新闻",
+      "source_group": "news",
+      "category_hint": "风水玄学",
+      "max_age_days": 30
+    },
+    {
+      "id": "google_news_taluo_tw",
+      "name": "Google News zh-TW · 塔羅",
+      "type": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "description": "台湾繁体媒体聚合，追踪塔罗、星象与占卜相关新闻",
+      "source_group": "news",
+      "category_hint": "塔罗星象",
+      "max_age_days": 30
+    },
+    {
+      "id": "google_news_fengshui_tw",
+      "name": "Google News zh-TW · 風水",
+      "type": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%E9%A2%A8%E6%B0%B4+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "description": "台湾繁体媒体聚合，追踪风水、空间布局与开运相关新闻",
+      "source_group": "news",
+      "category_hint": "风水玄学",
+      "max_age_days": 30
+    },
+    {
+      "id": "ptt_gossiping",
+      "name": "PTT Gossiping",
+      "type": "ptt_search",
+      "url": "https://www.ptt.cc/bbs/Gossiping/index.html",
+      "board": "Gossiping",
+      "queries": [
+        "命理",
+        "八字",
+        "紫微",
+        "玄學",
+        "塔羅"
+      ],
+      "description": "台湾综合讨论板，捕捉正在扩散的命理与玄学话题",
+      "source_group": "community",
+      "category_hint": "社区热议",
+      "max_age_days": 120
+    },
+    {
+      "id": "ptt_womentalk",
+      "name": "PTT WomenTalk",
+      "type": "ptt_search",
+      "url": "https://www.ptt.cc/bbs/WomenTalk/index.html",
+      "board": "WomenTalk",
+      "queries": [
+        "塔羅",
+        "玄學",
+        "星座",
+        "算命"
+      ],
+      "description": "台湾生活讨论板，适合观察塔罗、星座与日常玄学热议",
+      "source_group": "community",
+      "category_hint": "塔罗星象",
+      "max_age_days": 120
+    },
+    {
+      "id": "ptt_marvel",
+      "name": "PTT marvel",
+      "type": "ptt_search",
+      "url": "https://www.ptt.cc/bbs/marvel/index.html",
+      "board": "marvel",
+      "queries": [
+        "八字",
+        "玄學",
+        "風水"
+      ],
+      "description": "台湾经验讨论板，补充玄学与风水叙事型热帖",
+      "source_group": "community",
+      "category_hint": "风水玄学",
+      "max_age_days": 180
+    },
+    {
+      "id": "youtube_search",
+      "name": "YouTube Search",
+      "type": "youtube_search",
+      "url": "https://www.googleapis.com/youtube/v3/search",
+      "queries": [
+        "命理",
+        "玄學",
+        "塔羅",
+        "八字",
+        "紫微斗數"
+      ],
+      "description": "海外华人常用视频平台，默认尝试公开搜索回退；配置 YOUTUBE_API_KEY 后可切换官方 API",
+      "source_group": "video",
+      "category_hint": "社区热议",
+      "max_age_days": 30
+    },
+    {
+      "id": "x_recent_search",
+      "name": "X Recent Search",
+      "type": "x_recent_search",
+      "url": "https://x.com/search?q=%E5%91%BD%E7%90%86&src=typed_query",
+      "queries": [
+        "(命理 OR 八字 OR 紫微 OR 玄學 OR 塔羅) lang:zh -is:retweet"
+      ],
+      "fallback_queries": [
+        "命理師",
+        "算命",
+        "紫微",
+        "塔羅"
+      ],
+      "description": "海外华语即时讨论源，默认尝试公开搜索回退；配置 X_BEARER_TOKEN 后可切换官方 API",
+      "source_group": "community",
+      "category_hint": "社区热议",
+      "max_age_days": 14
+    },
+    {
+      "id": "reddit_search",
+      "name": "Reddit Search",
+      "type": "reddit_search",
+      "url": "https://www.reddit.com/search/?q=%E5%91%BD%E7%90%86",
+      "queries": [
+        "命理 OR 玄學 OR 塔羅 OR 八字"
+      ],
+      "description": "海外社区讨论源，默认尝试 old.reddit.com 公开搜索；配置 Reddit API 凭证后可切换官方 API",
+      "source_group": "community",
+      "category_hint": "海外话题",
+      "max_age_days": 30
+    },
+    {
+      "id": "xiaohongshu_watch",
+      "name": "小红书关键词观察",
+      "type": "watch_urls",
+      "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%91%BD%E7%90%86",
+      "keywords": [
+        "命理",
+        "玄學",
+        "塔羅",
+        "八字"
+      ],
+      "description": "适合补充华语内容创作者热点，当前建议作为人工巡检来源",
+      "source_group": "watch"
+    }
+  ],
+  "items": [
+    {
+      "title": "周秀娜捲入李家誠誹謗官非，十年虛構傳聞終上法庭？2026流年太歲衝擊下是否逢凶化吉？周秀娜紫微斗數命盤分析︱洪宗玉師傅︱洪宗玉風水命理EP142",
+      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1zVTBIRjNCeEdtdXFzTWVSVVdENFFQU2ZPTEJsLTRVeThqU3VCbHRfMHVFTE9IWVBxMGVKOUFWSmJ2UXExN0JjVjdLa0tYeUNEY0ItQmtR?oc=5",
+      "source_id": "youtube_search",
+      "source": "YouTube · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "video",
+      "category": "八字紫微",
+      "published": "2026-04-05",
+      "published_display": "2026-04-05",
+      "matched_keywords": [
+        "紫微斗數",
+        "命理",
+        "流年"
+      ],
+      "score": 14.4
+    },
+    {
+      "title": "[ 風水布局實戰班0312 ] 乾坤國寶 庫池水 #庫池水 #乾坤國寶 #正三元水法 #三天水法 #先後天水法 #龍門八局 #正局水法 #揀樓為主布局為輔 #宅命相配 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇",
+      "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9FbkdPYnhhQ2MzS3JkLWFad1o3Um00aEVfRXNpN2YyT3Rod2NHRUNNZUxuYTVrTDA0QlFUSmMxN0J3aFdKNjg2SHN3dHlyMzlSZVpZeTZiMGljNm1KY3o0c3Bmaw?oc=5",
+      "source_id": "x_recent_search",
+      "source": "X · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E7%AE%97%E5%91%BD%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "community",
+      "category": "命理新闻",
+      "published": "2026-04-03",
+      "published_display": "2026-04-03",
+      "matched_keywords": [
+        "命理",
+        "算命",
+        "流年"
+      ],
+      "score": 12.0
+    },
+    {
+      "title": "[新聞] 下葬61年祖母未腐反成蔭屍 命理師：",
+      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 9，作者 Scorpio。",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1774440373.A.9AD.html",
+      "source_id": "ptt_gossiping",
+      "source": "PTT Gossiping",
+      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
+      "source_group": "community",
+      "category": "命理新闻",
+      "published": "2026-03-25",
+      "published_display": "2026-03-25",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "热议"
+      ],
+      "score": 12.8
+    },
+    {
+      "title": "清明「能量爆發」轉運時機來了！命理師曝12生肖「開運儀式」方法一次看",
+      "summary": "来自 民視新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5pNGlHbDBPR18zZjZ1WlY3SVU2OXFkSGRYM1JTNjFGYkJYa29MUXkwVWl0WG9zeWZ2QVl3X1B2WElPbUVUMzhyeDNUSkQwWExhRWdGaUVubFF1b0JMb0lPdg?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "民視新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-04-05",
+      "published_display": "2026-04-05",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.4
+    },
+    {
+      "title": "清明運勢來了！命理師曝「財運最旺星座」 獅子有望加薪",
+      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE50N21hRzQ3VzhhRWNqTi1FWTd2d2tqZFJSbGFIYVN6QV8ycDYzQm5KV3hWdTZxT2F2UmNPYjN5VVdOM1BGZDFtaVZFRm1BUQ?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "TVBS新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-04-05",
+      "published_display": "2026-04-05",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.4
+    },
+    {
+      "title": "討論牆 | 命理師潘智航:清明節氣可開運",
+      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1EeWRfTHhvTFpoemhJeDVZamlEaDNJZVB6X3ROVlU5Qk1ycU5rNlYxUHpuSWJaZjJva3J6QUtqMlFtREpaUWl2dlRfVEducHRjSjhZTXdVQ2QyeGF1VE9scnRrUTU?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "LINE TODAY · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-04-05",
+      "published_display": "2026-04-05",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.4
+    },
+    {
+      "title": "週日清明節！命理師：水瓶天蠍運勢旺「重新洗牌看清5事」",
+      "summary": "来自 三立新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tcjV6aUs1QkF3WVM1UVJPSjFrU2dpQUxvUzh5cWROdkJLOTQ3R1ZuYXI3X3hia2duZlQ3RHZURTJSY3NsU2g0LW9GWW4tUzdfWUlxSUFKdDDSAV9BVV95cUxNNnM0LWJRVy04Q21CTkVUeVFtSjJqQWJlUG5SWEYxNTRSa1lOdkhsOThJRzJFVXoxMUptSHU0cF91b290LUtDODZJVk5nRWZmc1dSV2xOMjV2ekhTal8zdw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-04-04",
+      "published_display": "2026-04-04",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.4
+    },
+    {
+      "title": "想打通紫微斗數［任督二脈］，參加斗數高級解盤班啦！︱#紫微斗數#命盤分析#算命 #斗數教學#八字命理#算命進階#命理︱#三元易學坊EP203",
+      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93Qm5QNmpsYmtXWEhtbENqY3czWm5CMFdVU3NKUFZjdXRLRXJwdGZqR2NZdlAxWnZUVldtQlRjYkZIOFk2NFpFaFN0aVVzUjFEY1R5ZGl3?oc=5",
+      "source_id": "youtube_search",
+      "source": "YouTube · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "video",
+      "category": "八字紫微",
+      "published": "2026-04-03",
+      "published_display": "2026-04-03",
+      "matched_keywords": [
+        "命理",
+        "算命",
+        "八字"
+      ],
+      "score": 14.4
+    }
+  ]
+}
