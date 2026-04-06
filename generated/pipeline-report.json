@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-04-06T12:45:05.782219+08:00",
-  "ran_at_display": "2026年4月6日 12:45",
-  "overall_status": "success",
-  "force_refresh": true,
+  "ran_at": "2026-04-06T12:50:28.024881+08:00",
+  "ran_at_display": "2026年4月6日 12:50",
+  "overall_status": "failed_distribution",
+  "force_refresh": false,
   "previous_signature": "d59b95d99ed8d4498f107e5d5cc7c1bc10e9cd51",
-  "new_signature": "d59b95d99ed8d4498f107e5d5cc7c1bc10e9cd51",
+  "new_signature": "47522417d66e0ef3b0a6f6a182ccb904f7f27cf9",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
@@ -16,7 +16,7 @@
     "generate": "ok",
     "review": "ok",
     "audit": "ok",
-    "distribution": "ok"
+    "distribution": "failed"
   },
   "new_titles": [
     "周秀娜捲入李家誠誹謗官非，十年虛構傳聞終上法庭？2026流年太歲衝擊下是否逢凶化吉？周秀娜紫微斗數命盤分析︱洪宗玉師傅︱洪宗玉風水命理EP142",
@@ -29,19 +29,21 @@
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
-  "failed_scripts": [],
+  "failed_scripts": [
+    "distribute_daily_content.py"
+  ],
   "steps": [
     {
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月6日 12:45"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月6日 12:50"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年4月6日 12:45 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年4月6日 12:50 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
@@ -57,9 +59,9 @@
     },
     {
       "script": "distribute_daily_content.py",
-      "returncode": 0,
-      "ok": true,
-      "output": "prepared 6 distribution jobs; skipped Buffer publishing: missing BUFFER_API_KEY"
+      "returncode": 1,
+      "ok": false,
+      "output": "prepared 6 distribution jobs; queued 4 jobs to Buffer; 2 jobs failed\ndistribution completed with 2 publishing failures"
     }
   ]
 }
