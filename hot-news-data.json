@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-06",
-  "updated_at_display": "2026年4月6日 12:08",
+  "updated_at_display": "2026年4月6日 12:20",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -156,6 +156,76 @@
       "description": "适合补充华语内容创作者热点，当前建议作为人工巡检来源",
       "source_group": "watch"
     }
+  ],
+  "source_health": {
+    "fetched_at": "2026-04-06T12:20:53.027257+08:00",
+    "failed_sources": [
+      {
+        "source_id": "reddit_search",
+        "name": "Reddit Search",
+        "error": "HTTP Error 403: Blocked"
+      }
+    ],
+    "by_source": {
+      "google_news_mingli_tw": {
+        "status": "ok",
+        "picked_items": 4,
+        "failures": 0
+      },
+      "google_news_xuanxue_tw": {
+        "status": "ok",
+        "picked_items": 0,
+        "failures": 0
+      },
+      "google_news_taluo_tw": {
+        "status": "ok",
+        "picked_items": 0,
+        "failures": 0
+      },
+      "google_news_fengshui_tw": {
+        "status": "ok",
+        "picked_items": 0,
+        "failures": 0
+      },
+      "ptt_gossiping": {
+        "status": "ok",
+        "picked_items": 1,
+        "failures": 0
+      },
+      "ptt_womentalk": {
+        "status": "ok",
+        "picked_items": 0,
+        "failures": 0
+      },
+      "ptt_marvel": {
+        "status": "ok",
+        "picked_items": 0,
+        "failures": 0
+      },
+      "youtube_search": {
+        "status": "ok",
+        "picked_items": 2,
+        "failures": 0
+      },
+      "x_recent_search": {
+        "status": "ok",
+        "picked_items": 1,
+        "failures": 0
+      },
+      "reddit_search": {
+        "status": "failed",
+        "picked_items": 0,
+        "failures": 1
+      },
+      "xiaohongshu_watch": {
+        "status": "ok",
+        "picked_items": 0,
+        "failures": 0
+      }
+    }
+  },
+  "ops_hints": [
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "items": [
     {
