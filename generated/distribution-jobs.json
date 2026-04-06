@@ -1,57 +1,68 @@
 [
   {
-    "slug": "daily-hot-news-2026-04-05",
+    "slug": "daily-hot-news-2026-04-06",
     "platform": "threads",
     "locale": "zh_hant",
     "position": 1,
-    "scheduled_at": "2026-04-05T22:10:00+08:00",
-    "landing_url": "https://wenxingai.top/?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-04-05&utm_content=zh_hant",
-    "text": "清明一到，各種『開運儀式』和『轉運秘笈』就開始洗版。這背後是一種集體性的期待，希望在特殊節點抓住好運。但運勢更像連續的波浪，而非一個開關。看懂自己的波峰與波谷，可能比執行任何儀式都更重要。\n\n完整解讀：https://wenxingai.top/?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-04-05&utm_content=zh_hant",
-    "text_hash": "687432081df41ecfb48e77fa7be2a01e299fa83c",
-    "status": "queued"
+    "scheduled_at": "2026-04-06T13:00:00+08:00",
+    "landing_url": "https://wenxingai.top/?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-04-06&utm_content=zh_hant",
+    "text": "每到清明，命理師們就會發布各種生肖、星座運勢指南。這種「一刀切」的預測模式，忽略了最重要的變數：個體。一個節氣對每個人的影響千差萬別，取決於你所處的個人流年週期。與其聽宏觀判斷，不如借助工具看清自己的具體趨勢。問星AI就是為此設計的，它不給標準答案，而是呈現你個人生命週期的動態圖景。\n\n完整解讀：https://wenxingai.top/?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-04-06&utm_content=zh_hant",
+    "text_hash": "25e5ab30020d044c5de1eedcecb2784eacc161ff",
+    "status": "ready"
   },
   {
-    "slug": "daily-hot-news-2026-04-05",
+    "slug": "daily-hot-news-2026-04-06",
     "platform": "threads",
     "locale": "zh_hant",
     "position": 2,
-    "scheduled_at": "2026-04-05T23:40:00+08:00",
-    "landing_url": "https://wenxingai.top/?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-04-05&utm_content=zh_hant",
-    "text": "最近看到有命理師分析名人官非與流年太歲的關係。這其實提醒我們，『流年』不是簡單的吉凶標籤，而是複雜的能量交織。傳統解讀很依賴個人經驗，而問星AI能助你將這些複雜趨勢數據化、視覺化，用更中立的視角審視個人處境。重點不是預測，而是更好地準備。\n\n完整解讀：https://wenxingai.top/?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-04-05&utm_content=zh_hant",
-    "text_hash": "a311f833391c1c3497227aad712a24512398edb6",
-    "status": "queued"
+    "scheduled_at": "2026-04-06T13:00:00+08:00",
+    "landing_url": "https://wenxingai.top/?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-04-06&utm_content=zh_hant",
+    "text": "最近PTT上關於「蔭屍」的討論，顯示了大眾對傳統風水和命理的好奇與敬畏。但很多時候，命理師的解讀充滿了神秘主義色彩，難以驗證。這恰恰是AI可以介入的領域。問星AI透過演算法分析，將那些模糊的「氣場」和「能量」轉化為可被觀察的趨勢和週期。它不是要取代傳統，而是提供一個更理性、更透明的輔助視角。\n\n完整解讀：https://wenxingai.top/?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-04-06&utm_content=zh_hant",
+    "text_hash": "a4362225472a79ef14cffccccc7d8cb853ad7660",
+    "status": "ready"
   },
   {
-    "slug": "daily-hot-news-2026-04-05",
+    "slug": "daily-hot-news-2026-04-06",
     "platform": "x",
     "locale": "zh_cn",
     "position": 1,
-    "scheduled_at": "2026-04-05T22:10:00+08:00",
-    "landing_url": "https://wenxingai.top/?utm_source=x&utm_medium=social&utm_campaign=daily-hot-news-2026-04-05&utm_content=zh_cn",
-    "text": "别再忙着跟风清明转运了。真正的变化，源于对自身周期的认知，而非外部仪式。命理师给的是通用指南，问星AI让你看到专属于你的个人趋势。先认知，再行动。来问星AI看看你的状态吧。\n\n完整解读：https://wenxingai.top/?utm_source=x&utm_medium=social&utm_campaign=daily-hot-news-2026-04-05&utm_content=zh_cn",
-    "text_hash": "cfb6d4bb48c10537f992e151bb4a5a7ae7048419",
-    "status": "queued"
+    "scheduled_at": "2026-04-06T13:00:00+08:00",
+    "landing_url": "https://wenxingai.top/?utm_source=x&utm_medium=social&utm_campaign=daily-hot-news-2026-04-06&utm_content=zh_cn",
+    "text": "大家都在关心周秀娜的官非八卦，但玄学上真正值得看的是‘流年’如何精准作用于个人，而非生肖。你的流年信号是什么？问星AI能帮你看到别人看不到的周期细节。\n\n完整解读：https://wenxingai.top/?utm_source=x&utm_medium=social&utm_campaign=daily-hot-news-2026-04-06&utm_content=zh_cn",
+    "text_hash": "cb6c6b948b24657f6f74eb4adc951d2ec14195aa",
+    "status": "ready"
   },
   {
-    "slug": "daily-hot-news-2026-04-05",
+    "slug": "daily-hot-news-2026-04-06",
     "platform": "x",
     "locale": "zh_cn",
     "position": 2,
-    "scheduled_at": "2026-04-05T23:40:00+08:00",
-    "landing_url": "https://wenxingai.top/?utm_source=x&utm_medium=social&utm_campaign=daily-hot-news-2026-04-05&utm_content=zh_cn",
-    "text": "与其围观名人流年，不如花三分钟解读自己的。每个人的年度趋势都值得被精细审视。问星AI用数据可视化的新方式，帮你清晰地看懂自己的年度节奏，告别笼统的运势解读。\n\n完整解读：https://wenxingai.top/?utm_source=x&utm_medium=social&utm_campaign=daily-hot-news-2026-04-05&utm_content=zh_cn",
-    "text_hash": "25e98b48513619412232507021f3be593e29e5a6",
-    "status": "queued"
+    "scheduled_at": "2026-04-06T14:30:00+08:00",
+    "landing_url": "https://wenxingai.top/?utm_source=x&utm_medium=social&utm_campaign=daily-hot-news-2026-04-06&utm_content=zh_cn",
+    "text": "清明开运仪式铺天盖地，但大部分只是心理安慰。真正的‘转运’，是看清并利用你个人周期的能量转换节点。AI能帮你标出这些关键时机，比笼统的开运仪式更具参考价值。\n\n完整解读：https://wenxingai.top/?utm_source=x&utm_medium=social&utm_campaign=daily-hot-news-2026-04-06&utm_content=zh_cn",
+    "text_hash": "e01345e288828b79ef0a644081f385da918c5b49",
+    "status": "ready"
   },
   {
-    "slug": "daily-hot-news-2026-04-05",
+    "slug": "daily-hot-news-2026-04-06",
     "platform": "instagram",
     "locale": "zh_hant",
     "position": 1,
-    "scheduled_at": "2026-04-05T22:10:00+08:00",
-    "landing_url": "https://wenxingai.top/?utm_source=instagram&utm_medium=social&utm_campaign=daily-hot-news-2026-04-05&utm_content=zh_hant",
-    "text": "清明，一個連結過往與未來的節氣。此刻，許多人會向外尋求指引，關心所謂的『能量爆發』。但真正的力量，或許源於向內的觀察。你是否感受到內在節奏的細微變化？與其在紛繁的運勢資訊中迷失，不如嘗試一種更冷靜、更聚焦於自我的方式。問星AI不提供絕對斷言，而是呈現趨勢，邀請你一同探索和解讀屬於自己的生命地圖。這是一種關於『認知』而非『迷信』的全新體驗。\n\n完整解讀與諮詢：https://wenxingai.top/?utm_source=instagram&utm_medium=social&utm_campaign=daily-hot-news-2026-04-05&utm_content=zh_hant",
-    "text_hash": "ed233002a37d31e55e1daee42876b38507b5ee09",
-    "status": "queued"
+    "scheduled_at": "2026-04-06T20:00:00+08:00",
+    "landing_url": "https://wenxingai.top/?utm_source=instagram&utm_medium=social&utm_campaign=daily-hot-news-2026-04-06&utm_content=zh_hant",
+    "text": "清明，不只是掃墓祭祖，也是一個能量轉換的強大節點。最近新聞裡充滿了各種開運儀式，但向外求索，不如向內觀察。你是否感覺到近期思緒、狀態的細微變化？這可能就是節氣與你個人週期共振的訊號。問星AI提供了一個新奇的工具，它能將這種內在的、模糊的感覺，透過可視化的方式呈現出來。讓你第一次「看見」自己的運勢流動。這不是算命，這是更深層的自我認知。來體驗一下，看看AI眼中的你正處於怎樣的週期裡。\n\n完整解讀與諮詢：https://wenxingai.top/?utm_source=instagram&utm_medium=social&utm_campaign=daily-hot-news-2026-04-06&utm_content=zh_hant",
+    "text_hash": "73a493ea13d314f946b68279b860c4a7bfa041e0",
+    "status": "ready"
+  },
+  {
+    "slug": "daily-hot-news-2026-04-06",
+    "platform": "instagram",
+    "locale": "zh_hant",
+    "position": 2,
+    "scheduled_at": "2026-04-06T21:30:00+08:00",
+    "landing_url": "https://wenxingai.top/?utm_source=instagram&utm_medium=social&utm_campaign=daily-hot-news-2026-04-06&utm_content=zh_hant",
+    "text": "我們常常從新聞裡看到名人的起落，比如近期周秀娜捲入的舊聞官非，並將其歸於所謂的「命運」。但命運並非一條既定的軌道。它更像一張複雜的趨勢圖，充滿了高峰、低谷與轉折點。傳統命理嘗試解讀它，而問星AI則用一種全新的方式讓你親自觀察它。透過分析你的個人數據，AI能幫你識別出當前所處的「流年」階段，提示潛在的機遇和挑戰。這種體驗，是幫助你成為自己人生的觀察者，而不是被動接受一個結論。\n\n完整解讀與諮詢：https://wenxingai.top/?utm_source=instagram&utm_medium=social&utm_campaign=daily-hot-news-2026-04-06&utm_content=zh_hant",
+    "text_hash": "88ab73280d116b25e9bea7d5924e4e8a0ce2bc71",
+    "status": "ready"
   }
 ]
