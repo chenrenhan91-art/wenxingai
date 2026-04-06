@@ -124,7 +124,8 @@ def render_report(report: dict[str, Any]) -> str:
         f"- 规则质检是否执行：{'是' if report['audit_ran'] else '否'}",
         f"- Gemini 内容包是否匹配本轮热点：{'是' if report['fresh_bundle_ready'] else '否'}",
         f"- Buffer 是否执行：{'是' if report['distribution_ran'] else '否'}",
-        f"- 阶段状态：抓取={report['stage_status'].get('update')}, 生成={report['stage_status'].get('generate')}, 审校={report['stage_status'].get('review')}, 质检={report['stage_status'].get('audit')}, 分发={report['stage_status'].get('distribution')}",
+        f"- 深度文章是否生成：{'是' if report['articles_ran'] else '否'}",
+        f"- 阶段状态：抓取={report['stage_status'].get('update')}, 生成={report['stage_status'].get('generate')}, 审校={report['stage_status'].get('review')}, 质检={report['stage_status'].get('audit')}, 分发={report['stage_status'].get('distribution')}, 文章={report['stage_status'].get('articles')}",
         "",
         "## 本轮热点标题",
     ]
@@ -170,6 +171,7 @@ def main() -> None:
         "review": "skipped",
         "audit": "skipped",
         "distribution": "skipped",
+        "articles": "skipped",
     }
     updater_step = run_step("update_hot_news.py")
     steps.append(updater_step)
@@ -191,6 +193,7 @@ def main() -> None:
     audit_ran = False
     fresh_bundle_ready = False
     distribution_ran = False
+    articles_ran = False
     if should_refresh_content:
         gemini_step = run_step("generate_daily_content.py")
         steps.append(gemini_step)
@@ -230,6 +233,13 @@ def main() -> None:
             steps.append(distribution_step)
             distribution_ran = True
             stage_status["distribution"] = "ok" if distribution_step["ok"] else "failed"
+            
+            # 分发成功后，生成深度文章（可选但推荐）
+            if distribution_step["ok"]:
+                article_step = run_step("generate_article_from_snippets.py")
+                steps.append(article_step)
+                articles_ran = True
+                stage_status["articles"] = "ok" if article_step["ok"] else "failed"
         else:
             distribution_step = None
             stage_status["distribution"] = "blocked"
@@ -271,6 +281,7 @@ def main() -> None:
         "audit_ran": audit_ran,
         "fresh_bundle_ready": fresh_bundle_ready,
         "distribution_ran": distribution_ran,
+        "articles_ran": articles_ran,
         "stage_status": stage_status,
         "new_titles": new_titles,
         "added_titles": added_titles,
