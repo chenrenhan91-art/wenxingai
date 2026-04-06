@@ -25,14 +25,16 @@ PACKAGE_PATH = OUTPUT_DIR / "distribution-package.md"
 STATE_PATH = OUTPUT_DIR / "distribution-state.json"
 DEFAULT_LANDING_URL = "https://wenxingai.top/"
 BUFFER_GRAPHQL_URL = "https://api.buffer.com"
+BUFFER_REST_BASE_URL = "https://api.bufferapp.com/1"
 DEFAULT_RETRY_ATTEMPTS = 3
+DEFAULT_STATE_RETENTION_DAYS = 60
 
 SUPPORTED_PLATFORMS = ("threads", "x", "instagram", "facebook")
 DEFAULT_ENABLED_PLATFORMS = ("threads", "x", "instagram")
 DEFAULT_SCHEDULES = {
-    "threads": "09:30",
-    "x": "12:30",
-    "instagram": "20:30",
+    "threads": "08:40",
+    "x": "12:20",
+    "instagram": "19:40",
     "facebook": "19:30",
 }
 DEFAULT_PLATFORM_LOCALES = {
@@ -54,6 +56,17 @@ PLATFORM_TO_ENV = {
     "facebook": "BUFFER_FACEBOOK_PROFILE_ID",
     "instagram": "BUFFER_INSTAGRAM_PROFILE_ID",
 }
+
+
+def env_int(name: str, default: int) -> int:
+    raw = (os.getenv(name) or "").strip()
+    if not raw:
+        return default
+    try:
+        value = int(raw)
+    except ValueError:
+        return default
+    return value if value >= 0 else default
 
 
 def load_env_files() -> None:
@@ -141,6 +154,47 @@ def fetch_graphql(api_key: str, query: str, variables: dict[str, Any] | None = N
     return data
 
 
+def fetch_rest_json(
+    url: str,
+    *,
+    method: str = "GET",
+    form_data: dict[str, Any] | None = None,
+    headers: dict[str, str] | None = None,
+) -> Any:
+    req_headers = {"User-Agent": "WenxingAI/1.0 (+https://wenxingai.top)"}
+    if headers:
+        req_headers.update(headers)
+
+    payload: bytes | None = None
+    if form_data is not None:
+        payload = urllib.parse.urlencode(form_data, doseq=True).encode("utf-8")
+        req_headers.setdefault("Content-Type", "application/x-www-form-urlencoded")
+
+    request = urllib.request.Request(url, data=payload, headers=req_headers, method=method)
+    safe_url = redact_url(url)
+    last_exc: Exception | None = None
+    for attempt in range(1, DEFAULT_RETRY_ATTEMPTS + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=45) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except HTTPError as exc:
+            body = exc.read().decode("utf-8", "ignore")
+            if 500 <= exc.code < 600 and attempt < DEFAULT_RETRY_ATTEMPTS:
+                last_exc = RuntimeError(f"HTTP {exc.code} from {safe_url}: {body}")
+                time.sleep(min(2 * attempt, 6))
+                continue
+            raise RuntimeError(f"HTTP {exc.code} from {safe_url}: {body}") from exc
+        except URLError as exc:
+            last_exc = exc
+            if attempt < DEFAULT_RETRY_ATTEMPTS:
+                time.sleep(min(2 * attempt, 6))
+                continue
+            raise RuntimeError(f"network error from {safe_url}: {exc}") from exc
+    if last_exc:
+        raise RuntimeError(f"network error from {safe_url}: {last_exc}")
+    raise RuntimeError(f"unexpected fetch failure from {safe_url}")
+
+
 def write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -186,6 +240,45 @@ def load_state() -> dict[str, Any]:
 
 def save_state(state: dict[str, Any]) -> None:
     write_json(STATE_PATH, state)
+
+
+def parse_slug_date(slug: str) -> datetime | None:
+    match = re.search(r"(\d{4}-\d{2}-\d{2})$", slug or "")
+    if not match:
+        return None
+    try:
+        return datetime.strptime(match.group(1), "%Y-%m-%d")
+    except ValueError:
+        return None
+
+
+def prune_state(state: dict[str, Any], now: datetime) -> int:
+    retention_days = env_int("DISTRIBUTION_STATE_RETENTION_DAYS", DEFAULT_STATE_RETENTION_DAYS)
+    if retention_days <= 0:
+        return 0
+
+    published = state.get("published")
+    if not isinstance(published, dict):
+        state["published"] = {}
+        return 0
+
+    cutoff_date = (now - timedelta(days=retention_days)).date()
+    removed = 0
+    for slug in list(published.keys()):
+        slug_date = parse_slug_date(str(slug))
+        if slug_date and slug_date.date() < cutoff_date:
+            published.pop(slug, None)
+            removed += 1
+            continue
+        bucket = published.get(slug)
+        if isinstance(bucket, dict) and not bucket:
+            published.pop(slug, None)
+            removed += 1
+
+    state["state_maintained_at"] = now.isoformat()
+    state["state_retention_days"] = retention_days
+    state["pruned_slug_count"] = removed
+    return removed
 
 
 def normalize_landing_url(base_url: str, platform: str, slug: str, locale: str) -> str:
@@ -490,6 +583,50 @@ def create_buffer_update(api_key: str, profile_id: str, job: dict[str, Any]) -> 
     return create_post
 
 
+def get_instagram_media_url(job: dict[str, Any]) -> str:
+    override = (os.getenv("SOCIAL_INSTAGRAM_MEDIA_URL") or "").strip()
+    if override:
+        return override
+    landing = str(job.get("landing_url") or DEFAULT_LANDING_URL).strip()
+    parsed = urllib.parse.urlparse(landing)
+    base = f"{parsed.scheme}://{parsed.netloc}" if parsed.scheme and parsed.netloc else "https://wenxingai.top"
+    return f"{base}/share-cover.jpg"
+
+
+def create_buffer_instagram_update(api_key: str, profile_id: str, job: dict[str, Any]) -> str:
+    media_url = get_instagram_media_url(job)
+    due_at = datetime.fromisoformat(job["scheduled_at"]).astimezone(timezone.utc)
+    due_at_buffer = due_at.strftime("%Y-%m-%dT%H:%M:%S.000Z")
+    endpoint = f"{BUFFER_REST_BASE_URL}/updates/create.json"
+    response = fetch_rest_json(
+        endpoint,
+        method="POST",
+        form_data={
+            "access_token": api_key,
+            "profile_ids[]": profile_id,
+            "text": job["text"],
+            "scheduled_at": due_at_buffer,
+            "media[photo]": media_url,
+            "now": "false",
+        },
+    )
+
+    if not isinstance(response, dict):
+        raise RuntimeError("invalid Buffer REST create response")
+    if response.get("success") is False:
+        message = response.get("message") or response.get("error") or "unknown Buffer REST error"
+        raise RuntimeError(str(message))
+
+    updates = response.get("updates")
+    if isinstance(updates, list) and updates:
+        update_id = str((updates[0] or {}).get("id") or "")
+        return update_id
+    update = response.get("update")
+    if isinstance(update, dict):
+        return str(update.get("id") or "")
+    return ""
+
+
 def publish_jobs_to_buffer(jobs: list[dict[str, Any]], state: dict[str, Any]) -> tuple[list[dict[str, Any]], int]:
     api_key = os.getenv("BUFFER_API_KEY", "").strip()
     if not api_key:
@@ -550,11 +687,14 @@ def publish_jobs_to_buffer(jobs: list[dict[str, Any]], state: dict[str, Any]) ->
             continue
 
         try:
-            create_post = create_buffer_update(api_key, profile_id, job)
-            if create_post.get("__typename") == "MutationError":
-                raise RuntimeError(create_post.get("message") or "unknown Buffer mutation error")
-            post = create_post.get("post") or {}
-            buffer_update_id = str(post.get("id") or "")
+            if job["platform"] == "instagram":
+                buffer_update_id = create_buffer_instagram_update(api_key, profile_id, job)
+            else:
+                create_post = create_buffer_update(api_key, profile_id, job)
+                if create_post.get("__typename") == "MutationError":
+                    raise RuntimeError(create_post.get("message") or "unknown Buffer mutation error")
+                post = create_post.get("post") or {}
+                buffer_update_id = str(post.get("id") or "")
         except Exception as exc:
             failed_count += 1
             job["status"] = "failed"
@@ -569,7 +709,13 @@ def publish_jobs_to_buffer(jobs: list[dict[str, Any]], state: dict[str, Any]) ->
             )
             continue
 
-        job["status"] = "queued"
+        result_status = "queued"
+        result_message = buffer_update_id or "queued in Buffer"
+        if not buffer_update_id and job["platform"] == "instagram":
+            result_status = "accepted_without_id"
+            result_message = "Buffer accepted Instagram post without update id"
+
+        job["status"] = result_status
         slug_bucket[state_key] = {
             "text_hash": job["text_hash"],
             "buffer_update_id": buffer_update_id,
@@ -577,6 +723,7 @@ def publish_jobs_to_buffer(jobs: list[dict[str, Any]], state: dict[str, Any]) ->
             "profile_id": profile_id,
             "locale": job["locale"],
             "landing_url": job["landing_url"],
+            "result_status": result_status,
             "queued_at": datetime.now(ZoneInfo("Asia/Shanghai")).isoformat(),
         }
         results.append(
@@ -584,8 +731,8 @@ def publish_jobs_to_buffer(jobs: list[dict[str, Any]], state: dict[str, Any]) ->
                 "platform": job["platform"],
                 "locale": job["locale"],
                 "position": job["position"],
-                "status": "queued",
-                "message": buffer_update_id or "queued in Buffer",
+                "status": result_status,
+                "message": result_message,
             }
         )
     return results, failed_count
@@ -603,6 +750,8 @@ def main() -> None:
     write_json(JOBS_PATH, jobs)
 
     state = load_state()
+    now = datetime.now(ZoneInfo("Asia/Shanghai"))
+    prune_state(state, now)
     results, failed_count = publish_jobs_to_buffer(jobs, state)
     if results:
         save_state(state)
@@ -610,7 +759,13 @@ def main() -> None:
     PACKAGE_PATH.write_text(render_package(bundle, jobs, results), encoding="utf-8")
 
     if os.getenv("BUFFER_API_KEY", "").strip():
-        queued = len([result for result in results if result["status"] == "queued"])
+        queued = len(
+            [
+                result
+                for result in results
+                if result["status"] in {"queued", "accepted_without_id"}
+            ]
+        )
         dry_run = os.getenv("BUFFER_DRY_RUN", "").strip().lower() in {"1", "true", "yes", "on"}
         if dry_run:
             simulated = len([result for result in results if result["status"] == "dry_run"])

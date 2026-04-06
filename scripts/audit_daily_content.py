@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 
@@ -11,6 +12,17 @@ OUTPUT_DIR = ROOT / "generated"
 BUNDLE_PATH = OUTPUT_DIR / "gemini-content-bundle.json"
 AUDIT_REPORT_JSON_PATH = OUTPUT_DIR / "gemini-audit-report.json"
 AUDIT_REPORT_MD_PATH = OUTPUT_DIR / "gemini-audit-report.md"
+
+
+def env_int(name: str, default: int) -> int:
+    raw = (os.getenv(name) or "").strip()
+    if not raw:
+        return default
+    try:
+        value = int(raw)
+    except ValueError:
+        return default
+    return value if value >= 0 else default
 
 FORBIDDEN_PHRASES = [
     "我无法确认",
@@ -51,11 +63,21 @@ def audit_locale(locale_key: str, payload: dict) -> tuple[list[str], list[str]]:
     warnings: list[str] = []
     blocking: list[str] = []
     social_posts = (payload.get("social_posts") or {})
+    expected_counts = {
+        "threads": env_int("SOCIAL_THREADS_POST_COUNT", 2),
+        "x": env_int("SOCIAL_X_POST_COUNT", 2),
+        "instagram": env_int("SOCIAL_INSTAGRAM_POST_COUNT", 2),
+    }
 
     for platform in ("threads", "x", "instagram"):
         posts = social_posts.get(platform) or []
+        expected = expected_counts.get(platform, 0)
+        actual = len(posts)
+        if actual != expected:
+            blocking.append(
+                f"{locale_key}.{platform} 文案数量不符合要求：当前 {actual}，期望 {expected}"
+            )
         if not posts:
-            blocking.append(f"{locale_key}.{platform} 没有生成文案")
             continue
         for index, post in enumerate(posts, start=1):
             text = str(post).strip()
