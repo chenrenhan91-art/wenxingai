@@ -1,7 +1,5 @@
 {
-  "status": "failed",
+  "status": "passed",
   "warnings": [],
-  "blocking_issues": [
-    "zh_hant.threads 第 2 条文案含模型措辞：注定"
-  ]
+  "blocking_issues": []
 }
