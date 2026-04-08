@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-07",
-  "updated_at_display": "2026年4月7日 22:47",
+  "updated_at": "2026-04-08",
+  "updated_at_display": "2026年4月8日 13:12",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-07T22:47:24.382949+08:00",
+    "fetched_at": "2026-04-08T13:12:32.157036+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "你在他腦海裡的頻率，想到你的心情感受，他對你們關係的期待|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "你們之間，還有沒說完的話嗎？他什麼時候會說？會怎麼表達？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5IWDNCbFhzNWNxMTFBVldrM3oyY21qUEZfRy03WW5iR08zV2ZFR0tVbGVNTzB4a3VaN0tNSXNJeG45RnJ0NXlHeFZEOWhISlhSOXpqdnhB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwei1iY3Jzc3FOMDFKMDczVWhPWUstTGVTcWdaR1J3M3BUdXVvTkxjQ05pVW1TejMxX3ludmcyT3hvQm94STFNWmhHa3BKeXdLdm1XUTFB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-04-06",
-      "published_display": "2026-04-06",
+      "published": "2026-04-07",
+      "published_display": "2026-04-07",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-04"
+      "event_cluster": "event-01"
     },
     {
       "title": "掌相學 Chirology #掌相學 #Palmistry #PalmReading #Chirology #Palmist #Chirologists #LifeLine #HeadLine #HeartLine #FateLine #SunLine #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名",
@@ -287,7 +287,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-41"
+      "event_cluster": "event-44"
     },
     {
       "title": "[ 玄學 ☯ 歌訣 ] 桃花歌訣 寅午戌桃花兔裡出 巳酉丑騎馬浪漫走 亥卯未 子鼠當頭忌 申子辰雞叫亂淫倫 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名 #占卜問事 #揀電話號碼揀冧巴 #FOH #",
@@ -306,26 +306,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-42"
-    },
-    {
-      "title": "清明「能量爆發」轉運時機來了！命理師曝12生肖「開運儀式」方法一次看",
-      "summary": "来自 四季線上4gTV · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBIOTFoNU9BTmx4eXJOd0o2RjlsWXVMQndaX1I4RXRNMkFpZzkyZ3VmSU9NdUNZZmhleTNma3owVy03dDBZSjU5aWp2VVJCNHRDd3BzMVhKZw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "四季線上4gTV · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-04-05",
-      "published_display": "2026-04-05",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-01"
+      "event_cluster": "event-45"
     },
     {
       "title": "清明運勢來了！命理師曝「財運最旺星座」 獅子有望加薪",
@@ -344,7 +325,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "討論牆 | 命理師潘智航:清明節氣可開運",
@@ -363,14 +344,14 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "週日清明節！命理師：水瓶天蠍運勢旺「重新洗牌看清5事」",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 setn.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tcjV6aUs1QkF3WVM1UVJPSjFrU2dpQUxvUzh5cWROdkJLOTQ3R1ZuYXI3X3hia2duZlQ3RHZURTJSY3NsU2g0LW9GWW4tUzdfWUlxSUFKdDDSAV9BVV95cUxNNnM0LWJRVy04Q21CTkVUeVFtSjJqQWJlUG5SWEYxNTRSa1lOdkhsOThJRzJFVXoxMUptSHU0cF91b290LUtDODZJVk5nRWZmc1dSV2xOMjV2ekhTal8zdw?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
+      "source": "setn.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -382,7 +363,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
       "title": "清明節開運招財法！台命理師教指定時間用櫃員機存錢 再做1步即補滿全年財庫",
@@ -401,7 +382,26 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
+    },
+    {
+      "title": "命理師潘智航:清明節氣可開運",
+      "summary": "来自 中華日報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kZ3VBNnh2eVV4X21CbnRtd0lUWDRrQ1FSYkpXcVdOVkhkdVZOMlA4UEVyTG83RzRFYlFTdG02ZzlwWW9mOUZuNTFqZnptS1NrT0E?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "中華日報 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-04-02",
+      "published_display": "2026-04-02",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
     }
   ]
 }

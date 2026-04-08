@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-04-07T22:47:08.039130+08:00",
-  "ran_at_display": "2026年4月7日 22:47",
+  "ran_at": "2026-04-08T13:12:18.204471+08:00",
+  "ran_at_display": "2026年4月8日 13:12",
   "overall_status": "failed_distribution",
   "force_refresh": true,
-  "previous_signature": "3f29e4c2213f0ac4cfb6f3e667ed5130b8744f03",
-  "new_signature": "30e3eead489abde7bcb35284095e0ea713fdbd5d",
+  "previous_signature": "30e3eead489abde7bcb35284095e0ea713fdbd5d",
+  "new_signature": "5c59e9166ca7816f94872ac67c0dc3029482f762",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
@@ -21,15 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "你在他腦海裡的頻率，想到你的心情感受，他對你們關係的期待|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "你們之間，還有沒說完的話嗎？他什麼時候會說？會怎麼表達？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "掌相學 Chirology #掌相學 #Palmistry #PalmReading #Chirology #Palmist #Chirologists #LifeLine #HeadLine #HeartLine #FateLine #SunLine #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名",
     "[ 玄學 ☯ 歌訣 ] 桃花歌訣 寅午戌桃花兔裡出 巳酉丑騎馬浪漫走 亥卯未 子鼠當頭忌 申子辰雞叫亂淫倫 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名 #占卜問事 #揀電話號碼揀冧巴 #FOH #",
-    "清明「能量爆發」轉運時機來了！命理師曝12生肖「開運儀式」方法一次看",
-    "清明運勢來了！命理師曝「財運最旺星座」 獅子有望加薪"
+    "清明運勢來了！命理師曝「財運最旺星座」 獅子有望加薪",
+    "討論牆 | 命理師潘智航:清明節氣可開運"
   ],
   "added_titles": [
-    "掌相學 Chirology #掌相學 #Palmistry #PalmReading #Chirology #Palmist #Chirologists #LifeLine #HeadLine #HeartLine #FateLine #SunLine #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名",
-    "[ 玄學 ☯ 歌訣 ] 桃花歌訣 寅午戌桃花兔裡出 巳酉丑騎馬浪漫走 亥卯未 子鼠當頭忌 申子辰雞叫亂淫倫 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名 #占卜問事 #揀電話號碼揀冧巴 #FOH #"
+    "你們之間，還有沒說完的話嗎？他什麼時候會說？會怎麼表達？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "討論牆 | 命理師潘智航:清明節氣可開運"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
@@ -42,13 +42,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月7日 22:47"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月8日 13:12"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年4月7日 22:47 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年4月8日 13:12 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
