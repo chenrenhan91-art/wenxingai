@@ -2,21 +2,21 @@
 
 - 内容包：daily-hot-news-2026-04-08
 - LLM：gemini-2.5-pro
-- 今日主题：清明节气后的个人运势观察
+- 今日主题：Seasonal Luck Predictions vs. Personal Trend Analysis
 - 平台：threads, x, instagram
 
 ## 分发任务
-- threads (zh_hant) #1 | 2026-04-08T14:00:00+08:00 | queued
-- threads (zh_hant) #2 | 2026-04-08T15:30:00+08:00 | queued
-- x (zh_cn) #1 | 2026-04-08T13:25:00+08:00 | queued
-- x (zh_cn) #2 | 2026-04-08T14:55:00+08:00 | queued
-- instagram (zh_hant) #1 | 2026-04-08T20:00:00+08:00 | failed
-- instagram (zh_hant) #2 | 2026-04-08T21:30:00+08:00 | failed
+- threads (zh_hant) #1 | 2026-04-08T23:00:00+08:00 | queued
+- threads (zh_hant) #2 | 2026-04-09T00:30:00+08:00 | queued
+- x (zh_cn) #1 | 2026-04-08T23:00:00+08:00 | queued
+- x (zh_cn) #2 | 2026-04-09T00:30:00+08:00 | queued
+- instagram (zh_hant) #1 | 2026-04-08T23:00:00+08:00 | failed
+- instagram (zh_hant) #2 | 2026-04-09T00:30:00+08:00 | failed
 
 ## 发布结果
-- threads (zh_hant) #1 | queued | 69d5e43b114d232c096c2d1b
-- threads (zh_hant) #2 | queued | 69d5e43b114d232c096c2d41
-- x (zh_cn) #1 | queued | 69d5e43c183959944f4f57bd
-- x (zh_cn) #2 | queued | 69d5e43c183959944f4f57e3
+- threads (zh_hant) #1 | queued | 69d66af0381714b6fc58513f
+- threads (zh_hant) #2 | queued | 69d66af0bb3d3d40e94dd0ea
+- x (zh_cn) #1 | queued | 69d66af1bb3d3d40e94dd110
+- x (zh_cn) #2 | queued | 69d66af1381714b6fc585165
 - instagram (zh_hant) #1 | failed | HTTP 401 from https://api.bufferapp.com/1/updates/create.json: {"error":"OIDC tokens are not accepted for direct API access","code":401}
 - instagram (zh_hant) #2 | failed | HTTP 401 from https://api.bufferapp.com/1/updates/create.json: {"error":"OIDC tokens are not accepted for direct API access","code":401}
