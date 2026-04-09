@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-09",
-  "updated_at_display": "2026年4月9日 13:10",
+  "updated_at_display": "2026年4月9日 22:57",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-09T13:10:48.893872+08:00",
+    "fetched_at": "2026-04-09T22:57:06.192479+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,20 +252,20 @@
   ],
   "items": [
     {
-      "title": "他如何定義你們的關係？在他眼中你是戀人/朋友/曖昧對象？他對關係有哪些預設？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+      "title": "最愛的不止一個！一生桃花暢旺的男人命盤！#命運好好玩#何篤霖 #陳亞蘭 #李玉珮 #命格#桃花運 #紫微斗數#八字",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9hVjRkVFZVaUNLeFQ3MDZTV0hOR1FQaFh2dUc2TDRkMVdwX1R0Q3pVek5HQ1BUbFFZZmZDTW5PNG50TklWU05UYmN1SVRieU96NUlyRWtR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LWlZnTWlhV0xDMGlGekt5LTRyZFBFa01ocE1YYS1kZEd2X0hRNkxzOVE1R3BNSDlkWjFUcGh1ODhhM1VsVmNHaTBKM0Q5X3ZNR2h6bw?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "塔罗星象",
-      "published": "2026-04-07",
-      "published_display": "2026-04-07",
+      "category": "八字紫微",
+      "published": "2026-04-09",
+      "published_display": "2026-04-09",
       "matched_keywords": [
-        "塔羅",
-        "占卜",
-        "桃花"
+        "八字",
+        "紫微",
+        "斗數"
       ],
       "score": 14.55,
       "event_cluster": "event-01"
@@ -325,7 +325,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "討論牆 | 命理師潘智航:清明節氣可開運",
@@ -344,7 +344,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "清明掃墓注意事項！命理師列10大禁忌 犯了小心影響整年運勢",
@@ -363,7 +363,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
       "title": "週日清明節！命理師：水瓶天蠍運勢旺「重新洗牌看清5事」",
@@ -382,7 +382,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     },
     {
       "title": "清明節開運招財法！台命理師教指定時間用櫃員機存錢 再做1步即補滿全年財庫",
@@ -401,7 +401,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-08"
     }
   ]
 }
