@@ -1,9 +1,9 @@
 {
-  "ran_at": "2026-04-08T22:47:02.577963+08:00",
-  "ran_at_display": "2026年4月8日 22:47",
+  "ran_at": "2026-04-09T13:10:32.727398+08:00",
+  "ran_at_display": "2026年4月9日 13:10",
   "overall_status": "failed_distribution",
   "force_refresh": true,
-  "previous_signature": "5c59e9166ca7816f94872ac67c0dc3029482f762",
+  "previous_signature": "09a5da78faed5b943ff72f203842a24bdb06f45e",
   "new_signature": "09a5da78faed5b943ff72f203842a24bdb06f45e",
   "content_changed": true,
   "gemini_ran": true,
@@ -27,9 +27,7 @@
     "清明運勢來了！命理師曝「財運最旺星座」 獅子有望加薪",
     "討論牆 | 命理師潘智航:清明節氣可開運"
   ],
-  "added_titles": [
-    "他如何定義你們的關係？在他眼中你是戀人/朋友/曖昧對象？他對關係有哪些預設？|曖昧|愛情|戀愛|桃花|塔羅占卜"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
@@ -41,13 +39,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月8日 22:47"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月9日 13:10"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年4月8日 22:47 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年4月9日 13:10 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",

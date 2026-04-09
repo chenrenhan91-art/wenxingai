@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-08",
-  "updated_at_display": "2026年4月8日 22:47",
+  "updated_at": "2026-04-09",
+  "updated_at_display": "2026年4月9日 13:10",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-08T22:47:19.734686+08:00",
+    "fetched_at": "2026-04-09T13:10:48.893872+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-48"
+      "event_cluster": "event-49"
     },
     {
       "title": "[ 玄學 ☯ 歌訣 ] 桃花歌訣 寅午戌桃花兔裡出 巳酉丑騎馬浪漫走 亥卯未 子鼠當頭忌 申子辰雞叫亂淫倫 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名 #占卜問事 #揀電話號碼揀冧巴 #FOH #",
@@ -306,7 +306,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-49"
+      "event_cluster": "event-50"
     },
     {
       "title": "清明運勢來了！命理師曝「財運最旺星座」 獅子有望加薪",
@@ -382,7 +382,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-06"
     },
     {
       "title": "清明節開運招財法！台命理師教指定時間用櫃員機存錢 再做1步即補滿全年財庫",
@@ -401,7 +401,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-08"
+      "event_cluster": "event-07"
     }
   ]
 }
