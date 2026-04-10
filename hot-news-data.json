@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-10",
-  "updated_at_display": "2026年4月10日 13:26",
+  "updated_at_display": "2026年4月10日 22:18",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-10T13:26:24.395019+08:00",
+    "fetched_at": "2026-04-10T22:18:48.455429+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -192,7 +192,7 @@
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 5,
+        "picked_items": 4,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -227,7 +227,7 @@
       },
       "youtube_search": {
         "status": "ok",
-        "picked_items": 1,
+        "picked_items": 2,
         "failures": 0
       },
       "x_recent_search": {
@@ -248,24 +248,24 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 3/8）。"
   ],
   "items": [
     {
-      "title": "最愛的不止一個！一生桃花暢旺的男人命盤！#命運好好玩#何篤霖 #陳亞蘭 #李玉珮 #命格#桃花運 #紫微斗數#八字",
+      "title": "你們之間，還有沒說完的話嗎？他什麼時候會說？會怎麼表達？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LWlZnTWlhV0xDMGlGekt5LTRyZFBFa01ocE1YYS1kZEd2X0hRNkxzOVE1R3BNSDlkWjFUcGh1ODhhM1VsVmNHaTBKM0Q5X3ZNR2h6bw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwei1iY3Jzc3FOMDFKMDczVWhPWUstTGVTcWdaR1J3M3BUdXVvTkxjQ05pVW1TejMxX3ludmcyT3hvQm94STFNWmhHa3BKeXdLdm1XUTFB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "八字紫微",
-      "published": "2026-04-09",
-      "published_display": "2026-04-09",
+      "category": "塔罗星象",
+      "published": "2026-04-07",
+      "published_display": "2026-04-07",
       "matched_keywords": [
-        "八字",
-        "紫微",
-        "斗數"
+        "塔羅",
+        "占卜",
+        "桃花"
       ],
       "score": 14.55,
       "event_cluster": "event-01"
@@ -287,7 +287,7 @@
         "斗數"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-26"
+      "event_cluster": "event-32"
     },
     {
       "title": "掌相學 Chirology #掌相學 #Palmistry #PalmReading #Chirology #Palmist #Chirologists #LifeLine #HeadLine #HeartLine #FateLine #SunLine #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名",
@@ -306,7 +306,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-49"
+      "event_cluster": "event-56"
     },
     {
       "title": "清明運勢來了！命理師曝「財運最旺星座」 獅子有望加薪",
@@ -325,7 +325,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-02"
     },
     {
       "title": "討論牆 | 命理師潘智航:清明節氣可開運",
@@ -344,26 +344,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "清明掃墓注意事項！命理師列10大禁忌 犯了小心影響整年運勢",
-      "summary": "来自 鉅聞天下 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1zMk9jeEZGNU9pWnB6bUlVS2pVLUxmczhCSGl4WExrMFU1TnVLVldaRWFSeWZuelA4OXp1VXFCa0Y2QjdzSHctOG9mUl9hMm1BbUM1WVVRWHlwN1U2S2c?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "鉅聞天下 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-04-05",
-      "published_display": "2026-04-05",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-03"
     },
     {
       "title": "週日清明節！命理師：水瓶天蠍運勢旺「重新洗牌看清5事」",
@@ -382,7 +363,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-05"
     },
     {
       "title": "清明節開運招財法！台命理師教指定時間用櫃員機存錢 再做1步即補滿全年財庫",
@@ -401,7 +382,26 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-08"
+      "event_cluster": "event-06"
+    },
+    {
+      "title": "錯過大運轉換，比低潮更可怕！ #張盛舒 #紫微斗數 #紫微命盤",
+      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBGekprNjZDWnhQVFJnOGdyTWhjTTJyVXVELXdGelRLUmNQLUFCZmdMcmVBeURyeGVDT1RnME5QTnVRUkw2UzdNZFVQV3J4S21TT3FpaA?oc=5",
+      "source_id": "youtube_search",
+      "source": "YouTube · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "video",
+      "category": "八字紫微",
+      "published": "2026-04-03",
+      "published_display": "2026-04-03",
+      "matched_keywords": [
+        "紫微斗數",
+        "紫微",
+        "斗數"
+      ],
+      "score": 14.55,
+      "event_cluster": "event-07"
     }
   ]
 }
