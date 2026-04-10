@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-09",
-  "updated_at_display": "2026年4月9日 22:57",
+  "updated_at": "2026-04-10",
+  "updated_at_display": "2026年4月10日 13:26",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-09T22:57:06.192479+08:00",
+    "fetched_at": "2026-04-10T13:26:24.395019+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -271,6 +271,25 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "有喜歡紫微斗數的捧油嗎！ 有一位親戚跟命理相性&紫微造詣很高，但不喜歡細說，只在重要事件發生前會提一下，補給部隊也有排命盤問過他，他也只說他們（小孩）命都比你好，你先顧好晚年健康吧。 雖然我不是迷信的人，但看看這些參考一下還是蠻有意思的對吧！",
+      "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vLUFRTXFYSGZoOGp5b1dSZFlleDVSN2xVekg2Ui1pb0R5TTZKdVJxYnFEZ3BwdUhUblNGYTJ0M3N0aXNuNUNLLXU2Y0tnN0tGN3NHTmpleVg5V2ZpSEFHaXZLVl9ocTg?oc=5",
+      "source_id": "x_recent_search",
+      "source": "X · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E7%B4%AB%E5%BE%AE%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "community",
+      "category": "八字紫微",
+      "published": "2026-04-10",
+      "published_display": "2026-04-10",
+      "matched_keywords": [
+        "命理",
+        "紫微",
+        "斗數"
+      ],
+      "score": 12.149999999999999,
+      "event_cluster": "event-26"
+    },
+    {
       "title": "掌相學 Chirology #掌相學 #Palmistry #PalmReading #Chirology #Palmist #Chirologists #LifeLine #HeadLine #HeartLine #FateLine #SunLine #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1UQUNMZWE0R1kzM1hmWTRJdk1CQ05ZSUJ2OC1xMGVHc3RHR0ROMUhtTmplS0JieVN2bWpqVUFnTUxXakRuUVE4eEMwS21hd0pMT0FKUGl0OTJLQ01QNU5kNHlTcw?oc=5",
@@ -288,25 +307,6 @@
       ],
       "score": 12.149999999999999,
       "event_cluster": "event-49"
-    },
-    {
-      "title": "[ 玄學 ☯ 歌訣 ] 桃花歌訣 寅午戌桃花兔裡出 巳酉丑騎馬浪漫走 亥卯未 子鼠當頭忌 申子辰雞叫亂淫倫 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名 #占卜問事 #揀電話號碼揀冧巴 #FOH #",
-      "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9LcU5kSDdfZ1FhWFZadjVxMTJNRzIzdjdaV3JBS3I5U2NWUl9XcGxMMjBIQjNKR2lubFRmTURtdEVPZEZkQWFXWE1uZW5Eak5GS1B0ZFVlTkVzT2hiQ0NaQWV4NA?oc=5",
-      "source_id": "x_recent_search",
-      "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E7%AE%97%E5%91%BD%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "community",
-      "category": "风水玄学",
-      "published": "2026-04-07",
-      "published_display": "2026-04-07",
-      "matched_keywords": [
-        "命理",
-        "算命",
-        "流年"
-      ],
-      "score": 12.149999999999999,
-      "event_cluster": "event-50"
     },
     {
       "title": "清明運勢來了！命理師曝「財運最旺星座」 獅子有望加薪",

@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-04-09T22:56:48.701468+08:00",
-  "ran_at_display": "2026年4月9日 22:56",
+  "ran_at": "2026-04-10T13:26:06.705278+08:00",
+  "ran_at_display": "2026年4月10日 13:26",
   "overall_status": "failed_distribution",
   "force_refresh": true,
-  "previous_signature": "09a5da78faed5b943ff72f203842a24bdb06f45e",
-  "new_signature": "0d2fad533b5d939ca11be5806225d4f5610baf19",
+  "previous_signature": "0d2fad533b5d939ca11be5806225d4f5610baf19",
+  "new_signature": "50543b304de1ccc82c613e8e8de0c13e8286ba47",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
@@ -22,13 +22,13 @@
   },
   "new_titles": [
     "最愛的不止一個！一生桃花暢旺的男人命盤！#命運好好玩#何篤霖 #陳亞蘭 #李玉珮 #命格#桃花運 #紫微斗數#八字",
+    "有喜歡紫微斗數的捧油嗎！ 有一位親戚跟命理相性&紫微造詣很高，但不喜歡細說，只在重要事件發生前會提一下，補給部隊也有排命盤問過他，他也只說他們（小孩）命都比你好，你先顧好晚年健康吧。 雖然我不是迷信的人，但看看這些參考一下還是蠻有意思的對吧！",
     "掌相學 Chirology #掌相學 #Palmistry #PalmReading #Chirology #Palmist #Chirologists #LifeLine #HeadLine #HeartLine #FateLine #SunLine #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名",
-    "[ 玄學 ☯ 歌訣 ] 桃花歌訣 寅午戌桃花兔裡出 巳酉丑騎馬浪漫走 亥卯未 子鼠當頭忌 申子辰雞叫亂淫倫 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名 #占卜問事 #揀電話號碼揀冧巴 #FOH #",
     "清明運勢來了！命理師曝「財運最旺星座」 獅子有望加薪",
     "討論牆 | 命理師潘智航:清明節氣可開運"
   ],
   "added_titles": [
-    "最愛的不止一個！一生桃花暢旺的男人命盤！#命運好好玩#何篤霖 #陳亞蘭 #李玉珮 #命格#桃花運 #紫微斗數#八字"
+    "有喜歡紫微斗數的捧油嗎！ 有一位親戚跟命理相性&紫微造詣很高，但不喜歡細說，只在重要事件發生前會提一下，補給部隊也有排命盤問過他，他也只說他們（小孩）命都比你好，你先顧好晚年健康吧。 雖然我不是迷信的人，但看看這些參考一下還是蠻有意思的對吧！"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
@@ -41,13 +41,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月9日 22:57"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月10日 13:26"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年4月9日 22:57 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年4月10日 13:26 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
