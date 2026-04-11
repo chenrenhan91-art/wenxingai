@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-04-11T12:56:20.981838+08:00",
-  "ran_at_display": "2026年4月11日 12:56",
+  "ran_at": "2026-04-11T21:57:48.075610+08:00",
+  "ran_at_display": "2026年4月11日 21:57",
   "overall_status": "failed_distribution",
   "force_refresh": true,
-  "previous_signature": "77d49e1395d59555aea33caff98589f6f15271d8",
-  "new_signature": "93b58792d782b26ed54287520c14f431035df803",
+  "previous_signature": "93b58792d782b26ed54287520c14f431035df803",
+  "new_signature": "34785ddfc99c504ecc32b5b8e8788b525c540300",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
@@ -24,12 +24,11 @@
     "這兩天他想你了嗎？此刻對你的感覺，你給他的印象，想跟你做什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜",
     "有喜歡紫微斗數的捧油嗎！ 有一位親戚跟命理相性&紫微造詣很高，但不喜歡細說，只在重要事件發生前會提一下，補給部隊也有排命盤問過他，他也只說他們（小孩）命都比你好，你先顧好晚年健康吧。 雖然我不是迷信的人，但看看這些參考一下還是蠻有意思的對吧！",
     "［路娜塔羅占卜］三選一：測驗你的戀愛腦指數喔",
-    "清明運勢來了！命理師曝「財運最旺星座」 獅子有望加薪",
-    "討論牆 | 命理師潘智航:清明節氣可開運"
+    "週日清明節! 命理師：水瓶天蠍運勢旺「重新洗牌看清5事」",
+    "清明運勢來了！命理師曝「財運最旺星座」 獅子有望加薪"
   ],
   "added_titles": [
-    "這兩天他想你了嗎？此刻對你的感覺，你給他的印象，想跟你做什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜",
-    "［路娜塔羅占卜］三選一：測驗你的戀愛腦指數喔"
+    "週日清明節! 命理師：水瓶天蠍運勢旺「重新洗牌看清5事」"
   ],
   "ops_hints": [
     "明日优先延展「塔罗星象」相关选题（当前占比 3/8）。"
@@ -42,13 +41,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月11日 12:56"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月11日 21:58"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年4月11日 12:56 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年4月11日 21:58 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",

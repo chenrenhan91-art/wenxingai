@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-11",
-  "updated_at_display": "2026年4月11日 12:56",
+  "updated_at_display": "2026年4月11日 21:58",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-11T12:56:36.528951+08:00",
+    "fetched_at": "2026-04-11T21:58:04.423724+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -184,7 +184,7 @@
       "ptt_gossiping": 5.45,
       "ptt_womentalk": 5.15,
       "ptt_marvel": 4.65,
-      "youtube_search": 5.55,
+      "youtube_search": 5.75,
       "x_recent_search": 5.35,
       "reddit_search": 4.0,
       "xiaohongshu_watch": 5.05
@@ -267,7 +267,7 @@
         "占卜",
         "桃花"
       ],
-      "score": 14.55,
+      "score": 14.75,
       "event_cluster": "event-01"
     },
     {
@@ -287,7 +287,7 @@
         "斗數"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-33"
+      "event_cluster": "event-37"
     },
     {
       "title": "［路娜塔羅占卜］三選一：測驗你的戀愛腦指數喔",
@@ -306,7 +306,26 @@
         "戀愛"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-55"
+      "event_cluster": "event-59"
+    },
+    {
+      "title": "週日清明節! 命理師：水瓶天蠍運勢旺「重新洗牌看清5事」",
+      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxNWGtrcFZyUUlIcGpRdkRMbVRpLWQ1cTdFVkRqSHdEd3B0TkdNbXllSmp5NVM4YktsakFFd0NzSDRfbURwZDdMS29FSmNBRGdwZFpMcEh0RUhodHk3QnotNGFIRmc5TFhYT2w4UFpJWVJidHdFVnkxYVpEbFE1WDdNLUwxeWszdUNYaDBFUUFFZnJ2eWdEZE9tS3FsZzh6UnhkMjZ5OFhUdmYzak9kdjV6TklUU1BFVnlub2xPUnVKRFlLRTNCeVZ0RVQ1Uk01Y2hNVDdJR1o4Qm5uTU0zU2FmQ1YxcHZsdTUxT2VReGxYLUxHYmlFcFFLNkswNFg2TXYxZXNmckFQY2stMk5vVUhJUHYxdW5zYWxiM0EzT0NFZmZjOERpU2tYd29RVXRpQ3Y2eGxjOHA0QkFVWHQxd1dTQUZodHYwcHljeXRtSG5MUUtSb01vcWdVWnRIa18xLU9iZU5UUzRKb29NVG5y?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "MSN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-04-05",
+      "published_display": "2026-04-05",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
     },
     {
       "title": "清明運勢來了！命理師曝「財運最旺星座」 獅子有望加薪",
@@ -325,7 +344,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "討論牆 | 命理師潘智航:清明節氣可開運",
@@ -344,25 +363,6 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "週日清明節！命理師：水瓶天蠍運勢旺「重新洗牌看清5事」",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tcjV6aUs1QkF3WVM1UVJPSjFrU2dpQUxvUzh5cWROdkJLOTQ3R1ZuYXI3X3hia2duZlQ3RHZURTJSY3NsU2g0LW9GWW4tUzdfWUlxSUFKdDDSAV9BVV95cUxNNnM0LWJRVy04Q21CTkVUeVFtSjJqQWJlUG5SWEYxNTRSa1lOdkhsOThJRzJFVXoxMUptSHU0cF91b290LUtDODZJVk5nRWZmc1dSV2xOMjV2ekhTal8zdw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-04-04",
-      "published_display": "2026-04-04",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
       "event_cluster": "event-05"
     },
     {
@@ -371,36 +371,36 @@
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LWlZnTWlhV0xDMGlGekt5LTRyZFBFa01ocE1YYS1kZEd2X0hRNkxzOVE1R3BNSDlkWjFUcGh1ODhhM1VsVmNHaTBKM0Q5X3ZNR2h6bw?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "八字紫微",
       "published": "2026-04-09",
       "published_display": "2026-04-09",
       "matched_keywords": [
+        "紫微斗數",
         "八字",
-        "紫微",
-        "斗數"
+        "紫微"
       ],
-      "score": 14.55,
+      "score": 14.75,
       "event_cluster": "event-02"
     },
     {
-      "title": "周秀娜捲入李家誠誹謗官非，十年虛構傳聞終上法庭？2026流年太歲衝擊下是否逢凶化吉？周秀娜紫微斗數命盤分析︱洪宗玉師傅︱洪宗玉風水命理EP142",
+      "title": "錯過大運轉換，比低潮更可怕！ #張盛舒 #紫微斗數 #紫微命盤",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1zVTBIRjNCeEdtdXFzTWVSVVdENFFQU2ZPTEJsLTRVeThqU3VCbHRfMHVFTE9IWVBxMGVKOUFWSmJ2UXExN0JjVjdLa0tYeUNEY0ItQmtR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBGekprNjZDWnhQVFJnOGdyTWhjTTJyVXVELXdGelRLUmNQLUFCZmdMcmVBeURyeGVDT1RnME5QTnVRUkw2UzdNZFVQV3J4S21TT3FpaA?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "风水玄学",
-      "published": "2026-04-05",
-      "published_display": "2026-04-05",
+      "category": "八字紫微",
+      "published": "2026-04-03",
+      "published_display": "2026-04-03",
       "matched_keywords": [
         "紫微斗數",
-        "命理",
-        "流年"
+        "紫微",
+        "斗數"
       ],
-      "score": 14.55,
+      "score": 14.75,
       "event_cluster": "event-06"
     }
   ]
