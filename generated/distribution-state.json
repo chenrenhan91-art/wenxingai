@@ -527,9 +527,51 @@
         "result_status": "queued",
         "queued_at": "2026-04-10T13:28:28.407380+08:00"
       }
+    },
+    "daily-hot-news-2026-04-11": {
+      "threads:zh_hant:1": {
+        "text_hash": "955305fd1a1ee85a3fd195ab4f217f4b3e62d11a",
+        "buffer_update_id": "69d9d51b772b80f4ce1cd2ed",
+        "scheduled_at": "2026-04-11T13:10:00+08:00",
+        "profile_id": "69b12ed27be9f8b171444849",
+        "locale": "zh_hant",
+        "landing_url": "https://wenxingai.top/?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-04-11&utm_content=zh_hant",
+        "result_status": "queued",
+        "queued_at": "2026-04-11T12:59:07.137862+08:00"
+      },
+      "threads:zh_hant:2": {
+        "text_hash": "d2edae748bc91e976695a9a82aa40f16294c461a",
+        "buffer_update_id": "69d9d51b3a4890ca51684fad",
+        "scheduled_at": "2026-04-11T14:40:00+08:00",
+        "profile_id": "69b12ed27be9f8b171444849",
+        "locale": "zh_hant",
+        "landing_url": "https://wenxingai.top/?utm_source=threads&utm_medium=social&utm_campaign=daily-hot-news-2026-04-11&utm_content=zh_hant",
+        "result_status": "queued",
+        "queued_at": "2026-04-11T12:59:07.377603+08:00"
+      },
+      "x:zh_cn:1": {
+        "text_hash": "0923f53b2b9060ca8b00c1198a93e0ccd2c764d7",
+        "buffer_update_id": "69d9d51b772b80f4ce1cd313",
+        "scheduled_at": "2026-04-11T15:00:00+08:00",
+        "profile_id": "69b11cdc7be9f8b171440e78",
+        "locale": "zh_cn",
+        "landing_url": "https://wenxingai.top/?utm_source=x&utm_medium=social&utm_campaign=daily-hot-news-2026-04-11&utm_content=zh_cn",
+        "result_status": "queued",
+        "queued_at": "2026-04-11T12:59:07.650310+08:00"
+      },
+      "x:zh_cn:2": {
+        "text_hash": "9f11b9a3e2576011d1ef7a9899e6b07f8e211a73",
+        "buffer_update_id": "69d9d51b3a4890ca51684fd3",
+        "scheduled_at": "2026-04-11T16:30:00+08:00",
+        "profile_id": "69b11cdc7be9f8b171440e78",
+        "locale": "zh_cn",
+        "landing_url": "https://wenxingai.top/?utm_source=x&utm_medium=social&utm_campaign=daily-hot-news-2026-04-11&utm_content=zh_cn",
+        "result_status": "queued",
+        "queued_at": "2026-04-11T12:59:07.906900+08:00"
+      }
     }
   },
-  "state_maintained_at": "2026-04-10T13:28:26.583446+08:00",
+  "state_maintained_at": "2026-04-11T12:59:06.750893+08:00",
   "state_retention_days": 60,
   "pruned_slug_count": 0
 }
