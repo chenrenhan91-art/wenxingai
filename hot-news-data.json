@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-12",
-  "updated_at_display": "2026年4月12日 22:01",
+  "updated_at": "2026-04-13",
+  "updated_at_display": "2026年4月13日 13:43",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-12T22:01:19.297081+08:00",
+    "fetched_at": "2026-04-13T13:43:52.449306+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,16 +252,16 @@
   ],
   "items": [
     {
-      "title": "他如何定義你們的關係？在他眼中你是戀人/朋友/曖昧對象？他對關係有哪些預設？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+      "title": "這兩天他想你了嗎？此刻對你的感覺，你給他的印象，想跟你做什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9hVjRkVFZVaUNLeFQ3MDZTV0hOR1FQaFh2dUc2TDRkMVdwX1R0Q3pVek5HQ1BUbFFZZmZDTW5PNG50TklWU05UYmN1SVRieU96NUlyRWtR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE82cnNwdnl6UzgtTUhPUHhGWTNiYTJLemQ5QXkxSFoyem4tdUluaUJURTZCUm9QamM2UmtVbW5KZ2ljN2hPblBobVVvWV95Y3d1VEl3VVZ3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-04-07",
-      "published_display": "2026-04-07",
+      "published": "2026-04-09",
+      "published_display": "2026-04-09",
       "matched_keywords": [
         "塔羅",
         "占卜",
@@ -287,7 +287,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-37"
+      "event_cluster": "event-36"
     },
     {
       "title": "[ 玄學 ☯ 歌訣 ] 五虎遁歌訣 甲己之年丙作首乙庚之歲戊為頭 丙辛歲首尋庚上丁壬壬水順水流 試問戊癸何方發甲寅之上好追求 #五虎遁元 #五虎遁月 #五虎遁 #天天背口訣 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流",
@@ -306,7 +306,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-38"
+      "event_cluster": "event-37"
     },
     {
       "title": "你如果要給命理師幫你算命，他會不會問你一年出生的年月日？😜",
@@ -328,6 +328,24 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "赤馬紅羊年要注意什麼？九運離火加劇火災頻發社會易動盪命理師警告4個生肖最危險！【附化解教學】",
+      "summary": "来自 U Lifestyle · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiogRBVV95cUxQOUNmdGo4WWFSclFRdTJ1V21UVGdVQmYxekxSNmdCZVdEWXVVcGpaSjktWHJjb0dMeExtWFVHaFFoQzlXMFFDN3ZJMTkwNmdna2hUc3k4UG0zUC1TdTh3MjVmd0FmZlpSeEJwbVMyeWtCdkNSaGN6N2UtZVJzdk5NMjU3eGdhWmZGSmlOd3hHeUw4QVRkY25KbW5PcGo2aGdOZkxjSGV4ajQwOG1ZN05tYUZwdWxGaEtIQnZnM0h3SnFkVm9UYThwRGlaRXdjUTU3ZkhKOTJPLXltSTVISUJwQllRb05idGpqRGRQWUxxVkRqTTdVZUZiUk8tUm1TWTZUaFBxaFZZZUlfNkFUcjVqeVhpalVzMXVYMGZQSEUxXzRqUEtON0pyaDc0NWRMZVV3SjFSeXBUV0h2Zk90QjlBb1BienFtMGtSWGhsV0R1SGpwTzhIUFlLeXJTaWpzNnlEYzBiQmdPRTczdHlNa2p2SWg4NlVpMzVvMVpXYWx3SEE1a3Z1SHI0cDVQM0czdFozQ3hadkZKUUJQWFRvZzFyU0M3SEtZaGh5SDRBazA1RmRlamN1OVV1N1pMZnRaRGItaFFFLVhLMk9fbkZwUmVPNERBdUpKYUdqNXBIV0VtX1ZlaUUxZnpiOWtkNE1yVG5pR0NKN19rX0QzOWFab0pDQ3V3LTNvREdEY2F2T0VwTGFPOUJTRHRpLUZQaXJoNzZfV0E?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "U Lifestyle · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-04-13",
+      "published_display": "2026-04-13",
+      "matched_keywords": [
+        "命理",
+        "命理師"
+      ],
+      "score": 12.55,
+      "event_cluster": "event-05"
+    },
+    {
       "title": "電影《死亡之握：鬼牽手》驚傳「血光之災」！命理師預言成真？",
       "summary": "来自 信傳媒 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uellkYUFwNUJPa0FSYzhpcGFOeGs5cE15eXVaV0RKbWFXd28za21MTDh3cFhsNC1YWFVCWWJzdDRYTUc2UHdLQlZLUUh5U2dXV2pXQk1FU1V5QQ?oc=5",
@@ -343,25 +361,7 @@
         "命理師"
       ],
       "score": 12.55,
-      "event_cluster": "event-07"
-    },
-    {
-      "title": "命理師點名3生肖 「這天」拜媽祖財運噴發",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQcXZZYVVkekg1N3hVcVFHa2RyTVVjNzBCczVJNWlVaHpCWlM5RjhfaURqbjNsY01vX0dQbmxXTlV6WDRjZGVOOWExYzU1VThkVlcwbmdrZXd0TVplV2xlM0hHVXVRU2xFWlZ2c1RhamlZbFpLSFI0RlFUZXlaSGVlRGlMTU1XQnhUbE9YemVvWmFHN3U5Sks1TUlVdEVjOXZTN0E2QTJNTEhFUzRaM2trcFFvd01jVTdVYVNXajFYRzE1SElhSHZPWE5WMUV2TWhZVUdTWGpJWXNqMmpyZlNUZ3NtM3RrMG5PYllBV2VBcEFGTzF3QlVIMGdNblYwYXRBTEU5by1tUEFIM01IRmE0ZFpjTlY3YVk?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-04-12",
-      "published_display": "2026-04-12",
-      "matched_keywords": [
-        "命理",
-        "命理師"
-      ],
-      "score": 12.55,
-      "event_cluster": "event-08"
+      "event_cluster": "event-06"
     },
     {
       "title": "錯過大運轉換，比低潮更可怕！ #張盛舒 #紫微斗數 #紫微命盤",
@@ -380,7 +380,7 @@
         "斗數"
       ],
       "score": 14.75,
-      "event_cluster": "event-04"
+      "event_cluster": "event-03"
     },
     {
       "title": "想打通紫微斗數［任督二脈］，參加斗數高級解盤班啦！︱#紫微斗數#命盤分析#算命 #斗數教學#八字命理#算命進階#命理︱#三元易學坊EP203",
@@ -399,7 +399,7 @@
         "算命"
       ],
       "score": 14.75,
-      "event_cluster": "event-05"
+      "event_cluster": "event-04"
     }
   ]
 }
