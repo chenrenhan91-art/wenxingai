@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-13",
-  "updated_at_display": "2026年4月13日 13:43",
+  "updated_at_display": "2026年4月13日 22:53",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-13T13:43:52.449306+08:00",
+    "fetched_at": "2026-04-13T22:53:14.149600+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-36"
+      "event_cluster": "event-39"
     },
     {
       "title": "[ 玄學 ☯ 歌訣 ] 五虎遁歌訣 甲己之年丙作首乙庚之歲戊為頭 丙辛歲首尋庚上丁壬壬水順水流 試問戊癸何方發甲寅之上好追求 #五虎遁元 #五虎遁月 #五虎遁 #天天背口訣 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流",
@@ -306,7 +306,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-37"
+      "event_cluster": "event-40"
     },
     {
       "title": "你如果要給命理師幫你算命，他會不會問你一年出生的年月日？😜",
@@ -328,6 +328,24 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "下月媽祖生日！命理師點名「3生肖」一定要拜 財運大爆發",
+      "summary": "来自 鏡週刊Mirror Media · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pbVhsQU9vUDhMVmlxVTAtdnZ0bDVpMWgtRTdmOTFHM3hCYm1iTi1iVXFtWHdkRWdLOU5HRzBlTUhaMzcybjR5X2NtVkpGYzNlb2RqcG93a24zWE3SAWBBVV95cUxQS2NmLVNwMy1GQ2kzU0VaU0VqRF9VUmpuZHZKQXc3OXAyRU8xNGY5b1hLRUUxdFBOLUtQSXI4Z0lLZWdlSmEyWE1tUE5VUXJuUnd3c1ItVkczLXVQQXU4OGo?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "鏡週刊Mirror Media · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-04-13",
+      "published_display": "2026-04-13",
+      "matched_keywords": [
+        "命理",
+        "命理師"
+      ],
+      "score": 12.55,
+      "event_cluster": "event-05"
+    },
+    {
       "title": "赤馬紅羊年要注意什麼？九運離火加劇火災頻發社會易動盪命理師警告4個生肖最危險！【附化解教學】",
       "summary": "来自 U Lifestyle · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiogRBVV95cUxQOUNmdGo4WWFSclFRdTJ1V21UVGdVQmYxekxSNmdCZVdEWXVVcGpaSjktWHJjb0dMeExtWFVHaFFoQzlXMFFDN3ZJMTkwNmdna2hUc3k4UG0zUC1TdTh3MjVmd0FmZlpSeEJwbVMyeWtCdkNSaGN6N2UtZVJzdk5NMjU3eGdhWmZGSmlOd3hHeUw4QVRkY25KbW5PcGo2aGdOZkxjSGV4ajQwOG1ZN05tYUZwdWxGaEtIQnZnM0h3SnFkVm9UYThwRGlaRXdjUTU3ZkhKOTJPLXltSTVISUJwQllRb05idGpqRGRQWUxxVkRqTTdVZUZiUk8tUm1TWTZUaFBxaFZZZUlfNkFUcjVqeVhpalVzMXVYMGZQSEUxXzRqUEtON0pyaDc0NWRMZVV3SjFSeXBUV0h2Zk90QjlBb1BienFtMGtSWGhsV0R1SGpwTzhIUFlLeXJTaWpzNnlEYzBiQmdPRTczdHlNa2p2SWg4NlVpMzVvMVpXYWx3SEE1a3Z1SHI0cDVQM0czdFozQ3hadkZKUUJQWFRvZzFyU0M3SEtZaGh5SDRBazA1RmRlamN1OVV1N1pMZnRaRGItaFFFLVhLMk9fbkZwUmVPNERBdUpKYUdqNXBIV0VtX1ZlaUUxZnpiOWtkNE1yVG5pR0NKN19rX0QzOWFab0pDQ3V3LTNvREdEY2F2T0VwTGFPOUJTRHRpLUZQaXJoNzZfV0E?oc=5",
@@ -343,25 +361,26 @@
         "命理師"
       ],
       "score": 12.55,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
-      "title": "電影《死亡之握：鬼牽手》驚傳「血光之災」！命理師預言成真？",
-      "summary": "来自 信傳媒 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uellkYUFwNUJPa0FSYzhpcGFOeGs5cE15eXVaV0RKbWFXd28za21MTDh3cFhsNC1YWFVCWWJzdDRYTUc2UHdLQlZLUUh5U2dXV2pXQk1FU1V5QQ?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "信傳媒 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-04-12",
-      "published_display": "2026-04-12",
+      "title": "想打通紫微斗數［任督二脈］，參加斗數高級解盤班啦！︱#紫微斗數#命盤分析#算命 #斗數教學#八字命理#算命進階#命理︱#三元易學坊EP203",
+      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93Qm5QNmpsYmtXWEhtbENqY3czWm5CMFdVU3NKUFZjdXRLRXJwdGZqR2NZdlAxWnZUVldtQlRjYkZIOFk2NFpFaFN0aVVzUjFEY1R5ZGl3?oc=5",
+      "source_id": "youtube_search",
+      "source": "YouTube · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "video",
+      "category": "八字紫微",
+      "published": "2026-04-03",
+      "published_display": "2026-04-03",
       "matched_keywords": [
         "命理",
-        "命理師"
+        "算命",
+        "八字"
       ],
-      "score": 12.55,
-      "event_cluster": "event-06"
+      "score": 14.75,
+      "event_cluster": "event-03"
     },
     {
       "title": "錯過大運轉換，比低潮更可怕！ #張盛舒 #紫微斗數 #紫微命盤",
@@ -378,25 +397,6 @@
         "紫微斗數",
         "紫微",
         "斗數"
-      ],
-      "score": 14.75,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "想打通紫微斗數［任督二脈］，參加斗數高級解盤班啦！︱#紫微斗數#命盤分析#算命 #斗數教學#八字命理#算命進階#命理︱#三元易學坊EP203",
-      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93Qm5QNmpsYmtXWEhtbENqY3czWm5CMFdVU3NKUFZjdXRLRXJwdGZqR2NZdlAxWnZUVldtQlRjYkZIOFk2NFpFaFN0aVVzUjFEY1R5ZGl3?oc=5",
-      "source_id": "youtube_search",
-      "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "video",
-      "category": "八字紫微",
-      "published": "2026-04-03",
-      "published_display": "2026-04-03",
-      "matched_keywords": [
-        "紫微斗數",
-        "命理",
-        "算命"
       ],
       "score": 14.75,
       "event_cluster": "event-04"
