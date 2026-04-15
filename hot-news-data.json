@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-15",
-  "updated_at_display": "2026年4月15日 13:25",
+  "updated_at_display": "2026年4月15日 22:48",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-15T13:25:44.162546+08:00",
+    "fetched_at": "2026-04-15T22:48:12.553495+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,20 +252,20 @@
   ],
   "items": [
     {
-      "title": "他最想對你做的事：聽聽她內心深處不敢說出口的那個秘密幻想|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "最愛的不止一個！一生桃花暢旺的男人命盤！#命運好好玩#何篤霖 #陳亞蘭 #李玉珮 #命格#桃花運 #紫微斗數#八字",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40LWRJc0RfTjRMNW9DTlowaGlWVlNvN1lMeFJTRUZDemVPOE90UlU2UnpoUUxwamktRnhpMExheF9Wcm5Id29feW5vM2RJVUkyZnNCajBR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LWlZnTWlhV0xDMGlGekt5LTRyZFBFa01ocE1YYS1kZEd2X0hRNkxzOVE1R3BNSDlkWjFUcGh1ODhhM1VsVmNHaTBKM0Q5X3ZNR2h6bw?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "塔罗星象",
-      "published": "2026-04-03",
-      "published_display": "2026-04-03",
+      "category": "八字紫微",
+      "published": "2026-04-09",
+      "published_display": "2026-04-09",
       "matched_keywords": [
-        "塔羅",
-        "占卜",
-        "桃花"
+        "紫微斗數",
+        "八字",
+        "紫微"
       ],
       "score": 14.55,
       "event_cluster": "event-05"
@@ -287,7 +287,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-50"
+      "event_cluster": "event-62"
     },
     {
       "title": "[ 玄學 ☯ 歌訣 ] 文昌歌訣 甲乙巳午文昌位丙戊申宮丁己雞 庚豬辛鼠壬逢虎癸人見卯上雲梯 #天天背口訣 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名 #占卜問事 #揀電話號碼揀冧巴 #FOH",
@@ -306,7 +306,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-58"
+      "event_cluster": "event-67"
     },
     {
       "title": "媽祖生日運勢大爆發！命理師點名3生肖財運暴衝",
@@ -328,25 +328,6 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "4／20迎穀雨！命理師揭7大禁忌超簡易開運法公開| 生活",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1yaUs3TGVoMWoxbENHcWMySVF2VnUxWEZQb08xenZFcFhhMUQtMURrcEc1ZF84VFN2M3R0d3ZoQ2FLcXhacmJkUVA3c2dqcGgzQ2tCanlSLXY?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-04-14",
-      "published_display": "2026-04-14",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-02"
-    },
-    {
       "title": "4／20迎穀雨！命理師揭7大禁忌 超簡易開運法公開 | 生活 | CTWANT",
       "summary": "来自 CTWANT · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Lam1rd0FqLTdWYzRRMlJrV0s3X0ZXa29VbW9LM3VlZnR5bnQ3Z01xVUh5dU5sNGJpQmpKWFF0MEVvR1V3eUdIcUZnTFpvYmpRTDdKMdIBVEFVX3lxTE1Lam1rd0FqLTdWYzRRMlJrV0s3X0ZXa29VbW9LM3VlZnR5bnQ3Z01xVUh5dU5sNGJpQmpKWFF0MEVvR1V3eUdIcUZnTFpvYmpRTDdKMQ?oc=5",
@@ -363,14 +344,33 @@
         "開運"
       ],
       "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
+      "title": "4／20迎穀雨！命理師揭7大禁忌超簡易開運法公開| 生活",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42LV9XcWJUQ1FUMVhQaWFDYmlTMWUxdjVNSFp2SDVqUWVTdk1RU1NBWFBnWkdhZWVmaGVkdjJ4RmxNRlo3cWlONVZvcUpmSk5tbVZKVUhCS1RSZWlBNU1KcFZaZklNM3lybVFQM05KRDBjZ1hmUFJldmJn?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞網SETN.com · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-04-14",
+      "published_display": "2026-04-14",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
       "event_cluster": "event-03"
     },
     {
       "title": "你如果要給命理師幫你算命，他會不會問你一年出生的年月日？😜",
-      "summary": "来自 理財寶 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 CMoney · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Ybmg1czZhb0diWE9KUnBqQXhnRmQ1SlZCdkM1Qjh5LUlkMTA1SnVEVU13d2pCd2ItcUowM08xWFY1ZzJVcG5VTk5YZWFfUDQ4b29UZjR4S1E?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "理財寶 · Google News",
+      "source": "CMoney · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -401,7 +401,7 @@
         "八字"
       ],
       "score": 14.55,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     }
   ]
 }
