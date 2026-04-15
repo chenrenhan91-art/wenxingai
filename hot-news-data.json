@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-14",
-  "updated_at_display": "2026年4月14日 22:52",
+  "updated_at": "2026-04-15",
+  "updated_at_display": "2026年4月15日 13:25",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-14T22:52:39.160045+08:00",
+    "fetched_at": "2026-04-15T13:25:44.162546+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -184,7 +184,7 @@
       "ptt_gossiping": 5.45,
       "ptt_womentalk": 5.15,
       "ptt_marvel": 4.65,
-      "youtube_search": 5.75,
+      "youtube_search": 5.55,
       "x_recent_search": 5.35,
       "reddit_search": 4.0,
       "xiaohongshu_watch": 5.05
@@ -252,22 +252,22 @@
   ],
   "items": [
     {
-      "title": "他(曾經)喜歡你嗎？對你的真心程度，他當下如何面對這段關係？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "他最想對你做的事：聽聽她內心深處不敢說出口的那個秘密幻想|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CREU3R2VScnVJa1d6RWpOV2hTT2tpR1JSaU15R0w4bXFhOVBzSG1PYzEtVjRkRmJRbkFzdVZYamRMcUE5c0RYeG5uZVg0Wms5Tl9LNzF3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40LWRJc0RfTjRMNW9DTlowaGlWVlNvN1lMeFJTRUZDemVPOE90UlU2UnpoUUxwamktRnhpMExheF9Wcm5Id29feW5vM2RJVUkyZnNCajBR?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-04-11",
-      "published_display": "2026-04-11",
+      "published": "2026-04-03",
+      "published_display": "2026-04-03",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
-      "score": 14.75,
+      "score": 14.55,
       "event_cluster": "event-05"
     },
     {
@@ -306,7 +306,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-61"
+      "event_cluster": "event-58"
     },
     {
       "title": "媽祖生日運勢大爆發！命理師點名3生肖財運暴衝",
@@ -367,10 +367,10 @@
     },
     {
       "title": "你如果要給命理師幫你算命，他會不會問你一年出生的年月日？😜",
-      "summary": "来自 CMoney · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 理財寶 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Ybmg1czZhb0diWE9KUnBqQXhnRmQ1SlZCdkM1Qjh5LUlkMTA1SnVEVU13d2pCd2ItcUowM08xWFY1ZzJVcG5VTk5YZWFfUDQ4b29UZjR4S1E?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "CMoney · Google News",
+      "source": "理財寶 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -385,22 +385,22 @@
       "event_cluster": "event-04"
     },
     {
-      "title": "最愛的不止一個！一生桃花暢旺的男人命盤！#命運好好玩#何篤霖 #陳亞蘭 #李玉珮 #命格#桃花運 #紫微斗數#八字",
+      "title": "想打通紫微斗數［任督二脈］，參加斗數高級解盤班啦！︱#紫微斗數#命盤分析#算命 #斗數教學#八字命理#算命進階#命理︱#三元易學坊EP203",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LWlZnTWlhV0xDMGlGekt5LTRyZFBFa01ocE1YYS1kZEd2X0hRNkxzOVE1R3BNSDlkWjFUcGh1ODhhM1VsVmNHaTBKM0Q5X3ZNR2h6bw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93Qm5QNmpsYmtXWEhtbENqY3czWm5CMFdVU3NKUFZjdXRLRXJwdGZqR2NZdlAxWnZUVldtQlRjYkZIOFk2NFpFaFN0aVVzUjFEY1R5ZGl3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "八字紫微",
-      "published": "2026-04-09",
-      "published_display": "2026-04-09",
+      "published": "2026-04-03",
+      "published_display": "2026-04-03",
       "matched_keywords": [
-        "紫微斗數",
-        "八字",
-        "紫微"
+        "命理",
+        "算命",
+        "八字"
       ],
-      "score": 14.75,
+      "score": 14.55,
       "event_cluster": "event-06"
     }
   ]
