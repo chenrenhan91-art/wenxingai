@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-17",
-  "updated_at_display": "2026年4月17日 13:29",
+  "updated_at_display": "2026年4月17日 22:22",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-17T13:29:26.591977+08:00",
+    "fetched_at": "2026-04-17T22:22:40.909755+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "玄學"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-55"
+      "event_cluster": "event-64"
     },
     {
       "title": "【 挑戰 \"生鐵鑊\" 系列 】 本人成功用生鐵鑊薑蔥煎金蠔 唔黐底 #生鐵鑊唔黐底 #薑蔥煎金蠔 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名 #占卜問事 #揀電話號碼揀冧巴 #FOH #FutureOnH",
@@ -306,7 +306,26 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-73"
+      "event_cluster": "event-75"
+    },
+    {
+      "title": "玄天上帝生日8注意事項！命理師曝「開運、化解小人」祭拜秘訣",
+      "summary": "来自 Bella.tw儂儂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBOYng0UG1yTUFxTnc1TDRfTlNvQWhWUUMtNG1nU2hzc3drOFBKanc0RTEzRVZvZGY5eXF3d2ZJRkFKTDJzM0JSUkpPbzBkZmVsbkpfd3NyZmRQeHloUjhuTkFEWXlhNTEwYWM4?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Bella.tw儂儂 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-04-17",
+      "published_display": "2026-04-17",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-01"
     },
     {
       "title": "土地婆聖誕巧遇天赦日！ 命理師揭供品與祈願開運方式",
@@ -325,7 +344,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-01"
+      "event_cluster": "event-02"
     },
     {
       "title": "天赦日遇土地婆聖誕! 命理師曝「穩定財庫」 開運秘法",
@@ -344,7 +363,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "穀雨一到運勢大洗牌「7大禁忌曝光」 命理師警告：做錯恐衰整季",
@@ -361,25 +380,6 @@
         "命理",
         "命理師",
         "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "今上帝公聖誕！開運攻略一次看 命理師曝4招打小人：1狀況恐反噬",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qV1oxOC1OMlBmUTZPNU40YWZ3T3JoUFFfYmV1cTJGSnE3LWZ2S0pnSU80NDNRMkNhS2RYQ1RLbWo2WHhiVDA1QXRJUEpoeTUzQ1IwU0JmdDnSAV9BVV95cUxNRF9JWl9UcFZfM3JDS2lTa0U5c25wMEYyYTdDTWxackFTc2EwQnRBM1BIaUtFRXJBbE5HeU5iY2dPUmdNdXpRQm5QT2l0R3RTc1pVT01LdkxTOFBCWlR1RQ?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-04-16",
-      "published_display": "2026-04-16",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-04"
