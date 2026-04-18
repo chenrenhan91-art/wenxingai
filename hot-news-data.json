@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-18",
-  "updated_at_display": "2026年4月18日 13:07",
+  "updated_at_display": "2026年4月18日 22:02",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-18T13:07:59.152924+08:00",
+    "fetched_at": "2026-04-18T22:02:35.825041+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -257,15 +257,15 @@
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAwdUNiajVJanNaTGdBU2NCdVA5aFZLVVEyRUw0cllwTGp6d1djX3hHa3Z5ZFdxeThhWGZHNkVLeTNxLU9WbWJ1blRabHZUWWYtdzJKaA?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "风水玄学",
       "published": "2026-04-17",
       "published_display": "2026-04-17",
       "matched_keywords": [
-        "紫微斗數",
         "命理",
-        "命理師"
+        "命理師",
+        "算命"
       ],
       "score": 18.95,
       "event_cluster": "event-01"
@@ -287,7 +287,7 @@
         "玄學"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-74"
+      "event_cluster": "event-76"
     },
     {
       "title": "[ 玄學 ☯ 歌訣 ] 五虎遁歌訣 甲己之年丙作首乙庚之歲戊為頭 丙辛歲首尋庚上丁壬壬水順水流 試問戊癸何方發甲寅之上好追求 #五虎遁元 #五虎遁月 #五虎遁 #天天背口訣 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流",
@@ -306,7 +306,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-85"
+      "event_cluster": "event-84"
     },
     {
       "title": "玄天上帝生日7注意事項！命理師曝「開運、化解小人」祭拜秘訣",
