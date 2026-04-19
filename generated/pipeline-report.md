@@ -1,9 +1,9 @@
-# 问星AI 内容自动化运行报告 2026年4月18日 22:02
+# 问星AI 内容自动化运行报告 2026年4月19日 13:30
 
 - 总体状态：failed_audit
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：3713fbf78b2c06633721081a1de32e33af2f8881
+- 变更签名：d77f254f7866867fd35203fdd831f26a01226d32
 - Gemini 是否执行：是
 - Gemini 审校是否执行：是
 - 规则质检是否执行：是
@@ -27,7 +27,7 @@
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年4月18日 22:02
-- generate_daily_content.py | ok | generated Gemini content bundle at 2026年4月18日 22:02 using gemini-2.5-pro
+updated 8 hot news items at 2026年4月19日 13:30
+- generate_daily_content.py | ok | generated Gemini content bundle at 2026年4月19日 13:30 using gemini-2.5-pro
 - review_daily_content.py | ok | reviewed Gemini content bundle using gemini-2.5-pro
 - audit_daily_content.py | failed | content audit failed
