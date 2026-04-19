@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-19",
-  "updated_at_display": "2026年4月19日 13:30",
+  "updated_at_display": "2026年4月19日 22:01",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-19T13:30:45.095881+08:00",
+    "fetched_at": "2026-04-19T22:01:28.703417+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "玄學"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-73"
+      "event_cluster": "event-75"
     },
     {
       "title": "[ 玄學 ☯ 歌訣 ] 五虎遁歌訣 甲己之年丙作首乙庚之歲戊為頭 丙辛歲首尋庚上丁壬壬水順水流 試問戊癸何方發甲寅之上好追求 #五虎遁元 #五虎遁月 #五虎遁 #天天背口訣 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流",
@@ -306,7 +306,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-78"
+      "event_cluster": "event-83"
     },
     {
       "title": "玄天上帝生日7注意事項！命理師曝「開運、化解小人」祭拜秘訣",
