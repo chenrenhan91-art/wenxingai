@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-20",
-  "updated_at_display": "2026年4月20日 13:43",
+  "updated_at_display": "2026年4月20日 22:54",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-20T13:43:13.262003+08:00",
+    "fetched_at": "2026-04-20T22:54:35.587693+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "items": [
     {
@@ -287,7 +287,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-79"
+      "event_cluster": "event-83"
     },
     {
       "title": "揭開玄學秘密! 想了解: 數字能量學、電話號碼、流年運程、風水布局、改名方法、占卜、解卦、擇日要訣..... 多個課程等你選擇: 【數字能量學：電話號碼及算流年綜合課程】【流年算命＋流年風水布局班】【實用改名班】【擇日實戰班】【玄空大卦擇日班】【玄空風水班】【揀樓風水班",
@@ -306,26 +306,7 @@
         "玄學"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-81"
-    },
-    {
-      "title": "12星座本周運勢曝光！命理師教「1招聚財法」洗舊黴運、強化財富",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxOdW44djdzcGY1TkluZTFZS1ZfalJhZXRmM24zS3dxX2gwanFScVJfU3FkU3NHckNrZ1p1WW84SWdlLWtOSVNBdHZ6UVhGRHFBLUNmN2tGNWFnR0R4Y1NZVWZObGxreXZRdFliRUQtNkFIZEp3a2xWWnFxU3ZuTUhKQ3RaN01ONDlKWmlZQm1xZlIxRXVnTHRJZnBrMWtROFdaRENBNWVRT3JoUFNldVpEVkRDT210ZXU2WDdVRXg1MHJMbXIzYUo4ckZEcXZpQ2FwTmtnQzVqSlBqUkNockU0a2RHUEN6Z1R0TC1HYUJmTE13U3h2SjVmZC1KOExvbTYyS2RPWU1FSjlCUU9VbVc5LXRvMm9UN0NFSUpxNEk3VzgxY091WEZCeTViZGtvMjh3N0hGa0xvYTBfbGlPaEdKRllEUHN3NFRBLXpicHp6VmN4RlBObzBXUzFxZE9jRkdoWU5nT0xZbDFLMWx6NlYySDhhTmNDRHdlMXYzZw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-04-20",
-      "published_display": "2026-04-20",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-87"
     },
     {
       "title": "4/20迎穀雨！命理師點名「4生肖」運勢迎來大爆發 轉運必做5件事",
@@ -344,7 +325,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-02"
     },
     {
       "title": "大甲媽暴力搶轎害偵查隊長斷鼻梁 命理師：損聖駕威嚴、壞個人運勢",
@@ -363,7 +344,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-03"
     },
     {
       "title": "天赦日遇土地婆聖誕! 命理師曝「穩定財庫」 開運秘法",
@@ -382,7 +363,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-04"
     },
     {
       "title": "玄天上帝生日7注意事項！命理師曝「開運、化解小人」祭拜秘訣",
@@ -401,7 +382,26 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-05"
+    },
+    {
+      "title": "土地婆聖誕巧遇天赦日！ 命理師揭供品與祈願開運方式",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQZHFzeEp2bldxYk1zTzFIdEVTN3FUSUxaSTIwVE1qZW40d0ZLQmlmaGt5UWMwNmJTMnpIMWlXeW5CRWR2RTJpdi0xT0xRSWp1OHcybEdueHltTEo0eXJVVXRJOTZsVHRLdXFHeTJacjZBUXhOMm51R2lsSHZmTVg2MGNxZ185ZURkMUtkOGQxLXVWYjF4Nk9zUWRXVDZONXZMQVo1dWFsaG9yb1ZaU1MyVUYtajIwVVppUWwtdlhSSlFzRUtxclBGdEpGODRFYVpyOWJ2WkVxNXJWUTlCZVA1UnY3UkJrWDFkNjlJRUpfWDVPV210VFFtSm1jdVNyYlh3Z0xMMjFFX2Y5SlJTTXZrLXU2bU44MzctWkFCOVpKV0NlbnNGTG12VUhsREQ3RWJKUE9vd3VTaTRlXzFmaHd3UnNNNTdvQWYxb3B5MzNZeENrSjZEOHlreHg0WWRndEtPR1Z2MWxRN1A?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-04-16",
+      "published_display": "2026-04-16",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-07"
     }
   ]
 }
