@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-21",
-  "updated_at_display": "2026年4月21日 22:49",
+  "updated_at": "2026-04-22",
+  "updated_at_display": "2026年4月22日 13:27",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-21T22:49:14.516561+08:00",
+    "fetched_at": "2026-04-22T13:27:11.016546+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -257,15 +257,15 @@
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAwdUNiajVJanNaTGdBU2NCdVA5aFZLVVEyRUw0cllwTGp6d1djX3hHa3Z5ZFdxeThhWGZHNkVLeTNxLU9WbWJ1blRabHZUWWYtdzJKaA?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "风水玄学",
       "published": "2026-04-17",
       "published_display": "2026-04-17",
       "matched_keywords": [
+        "紫微斗數",
         "命理",
-        "命理師",
-        "算命"
+        "命理師"
       ],
       "score": 18.95,
       "event_cluster": "event-02"
@@ -291,7 +291,7 @@
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 47，作者 emuless。",
+      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 51，作者 emuless。",
       "url": "https://www.ptt.cc/bbs/Gossiping/M.1776605418.A.FD7.html",
       "source_id": "ptt_gossiping",
       "source": "PTT Gossiping",
@@ -305,7 +305,7 @@
         "命理師",
         "热议"
       ],
-      "score": 25.616666666666667,
+      "score": 26.95,
       "event_cluster": "event-01"
     },
     {
