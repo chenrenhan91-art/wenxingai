@@ -3,6 +3,8 @@
 - 状态：failed
 
 ## 阻断问题
+- zh_cn.threads 第 2 条文案含模型措辞：绝对准确
+- zh_hant.threads 第 2 条文案含模型措辞：絕對準確
 - 热点类别多样性不足：当前 category 2 类，至少需要 3 类
 
 ## 提醒项

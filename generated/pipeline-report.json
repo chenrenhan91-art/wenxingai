@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-04-23T13:31:25.103446+08:00",
-  "ran_at_display": "2026年4月23日 13:31",
+  "ran_at": "2026-04-23T23:16:30.532480+08:00",
+  "ran_at_display": "2026年4月23日 23:16",
   "overall_status": "failed_audit",
   "force_refresh": true,
-  "previous_signature": "b0dd2034271de1b521dcba0581018bf74999bc7e",
-  "new_signature": "4215383299d6ac46fcd9c8b2ee8b6db4bccbc387",
+  "previous_signature": "4215383299d6ac46fcd9c8b2ee8b6db4bccbc387",
+  "new_signature": "a319852ff021547b19a6c2ab6667b7c80ae67072",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
@@ -24,11 +24,12 @@
     "流年運勢你算了嗎? #開運軍師尹森#風水尹森#流年 #算命 #紫微斗數#八字 #命盤#尹森老師#尹森#命理師#命理師推薦#風水師推薦#2026運勢 #https #家居風水宜忌",
     "[ 玄學 ☯ 歌訣 ] 喜神安在訣 甲己在艮乙庚日乾 丙辛西南喜神安 丁壬喜神南方坐 戊癸原來在東南 #喜神安在訣 #天天背口訣 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名 #占卜問事 #揀電",
     "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
-    "天赦日遇土地婆聖誕! 命理師曝「穩定財庫」 開運秘法",
-    "大甲媽暴力搶轎害偵查隊長斷鼻梁 命理師：損聖駕威嚴、壞個人運勢"
+    "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢",
+    "命理師邱彥龍：大年初二做對5件事、拜對人 2026運勢直接飛上天"
   ],
   "added_titles": [
-    "大甲媽暴力搶轎害偵查隊長斷鼻梁 命理師：損聖駕威嚴、壞個人運勢"
+    "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢",
+    "命理師邱彥龍：大年初二做對5件事、拜對人 2026運勢直接飛上天"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -41,13 +42,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月23日 13:31"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月23日 23:16"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年4月23日 13:31 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年4月23日 23:16 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
