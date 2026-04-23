@@ -1,9 +1,9 @@
-# 问星AI 内容自动化运行报告 2026年4月22日 22:48
+# 问星AI 内容自动化运行报告 2026年4月23日 13:31
 
 - 总体状态：failed_audit
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：b0dd2034271de1b521dcba0581018bf74999bc7e
+- 变更签名：4215383299d6ac46fcd9c8b2ee8b6db4bccbc387
 - Gemini 是否执行：是
 - Gemini 审校是否执行：是
 - 规则质检是否执行：是
@@ -17,10 +17,10 @@
 - [ 玄學 ☯ 歌訣 ] 喜神安在訣 甲己在艮乙庚日乾 丙辛西南喜神安 丁壬喜神南方坐 戊癸原來在東南 #喜神安在訣 #天天背口訣 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名 #占卜問事 #揀電
 - [新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預
 - 天赦日遇土地婆聖誕! 命理師曝「穩定財庫」 開運秘法
-- 4/20迎穀雨！命理師點名「4生肖」運勢迎來大爆發 轉運必做5件事
+- 大甲媽暴力搶轎害偵查隊長斷鼻梁 命理師：損聖駕威嚴、壞個人運勢
 
 ## 新增标题
-- 天赦日遇土地婆聖誕! 命理師曝「穩定財庫」 開運秘法
+- 大甲媽暴力搶轎害偵查隊長斷鼻梁 命理師：損聖駕威嚴、壞個人運勢
 
 ## 次日运营建议
 - 明日优先延展「命理新闻」相关选题（当前占比 6/8）。
@@ -30,7 +30,7 @@
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年4月22日 22:49
-- generate_daily_content.py | ok | generated Gemini content bundle at 2026年4月22日 22:49 using gemini-2.5-pro
+updated 8 hot news items at 2026年4月23日 13:31
+- generate_daily_content.py | ok | generated Gemini content bundle at 2026年4月23日 13:31 using gemini-2.5-pro
 - review_daily_content.py | ok | reviewed Gemini content bundle using gemini-2.5-pro
 - audit_daily_content.py | failed | content audit failed

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-22",
-  "updated_at_display": "2026年4月22日 22:49",
+  "updated_at": "2026-04-23",
+  "updated_at_display": "2026年4月23日 13:31",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-22T22:49:15.686954+08:00",
+    "fetched_at": "2026-04-23T13:31:38.536228+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-86"
+      "event_cluster": "event-94"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -317,8 +317,8 @@
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-04-21",
-      "published_display": "2026-04-21",
+      "published": "2026-04-22",
+      "published_display": "2026-04-22",
       "matched_keywords": [
         "命理",
         "命理師",
@@ -326,25 +326,6 @@
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-03"
-    },
-    {
-      "title": "4/20迎穀雨！命理師點名「4生肖」運勢迎來大爆發 轉運必做5件事",
-      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBXcTJNRC1XcUVmbGxVQjBJSkhFTWhZLW1BdV8zZUNXMXJDYmNPSTN0cHo3TEZsZGtOazBiZGJmWlJzYUFqR1NESHkzdFNxaktMbUHSAVJBVV95cUxQV3EyTUQtV3FFZmxsVUIwSUpIRU1oWS1tQXVfM2VDVzFyQ2JjT0kzdHB6N0xGbGRrTmswYmRiZlpSc2FBakdTREh5M3RTcWpLTG1B?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "NOWnews今日新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-04-20",
-      "published_display": "2026-04-20",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
     },
     {
       "title": "大甲媽暴力搶轎害偵查隊長斷鼻梁 命理師：損聖駕威嚴、壞個人運勢",
@@ -363,26 +344,26 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-04"
     },
     {
-      "title": "週日上帝公聖誕！開運攻略一次看 命理師曝4招打小人：1狀況恐反噬",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxOS1BSY0p0aWRwd3RPTWNQVTV6YjhpYy1EaW02ZWRCZGpjX1RrU0xEbkVlbzRYODBKR3ZMdVp3MzVRbmlCYVRCUHlVdDNtVHlCSkl5bEZwUFFnOVV4ZUc0cndqMzd1YlJzazBfelYxdEZzYml6c0lLbVB4ck9LOTdodG01R0lXWjhpSFBvRnRPSkwyOU04Vm1GZ1pFM3otckp2Y19QZU10OEJrQm9ocWFTU01JRjd2czF6eUpyQnk2ZW1CcTFUVWFOUDAwMHpRZjJEUHJDdW9wdXNFV0l4UEdjWWQ0eENmM0tTRndoSDhONUFXbUZJdk9mLXdReW1Rd1VRMDI0Qmw4N0ZBR2hnVjNFalpkT0tRbDlkMWJtWTllR1RwR3pYVktnYUIyUzJpNER2SnVoZjF1VVh0VmxMdzZYbUh4czQ3RnU4VGFTdjRnbFBPYWR6ZXJiTDZFX2lrT19SN2NMSlh1cWlmenozVEZEakhYdTZWME5KdHJSRjRtVG0zSjQzZGdz?oc=5",
+      "title": "4/20迎穀雨！命理師點名「4生肖」運勢迎來大爆發 轉運必做5件事",
+      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9vcnhaVUQyWDlGX2RDT1lhVTZHNkJqWHV5dmxOZGFWT0wxWDhfWWZ3ZE5qb0pncmpPbkNfZnk1R2d5dnRhQ05ySnltcDXSAVJBVV95cUxQV3EyTUQtV3FFZmxsVUIwSUpIRU1oWS1tQXVfM2VDVzFyQ2JjT0kzdHB6N0xGbGRrTmswYmRiZlpSc2FBakdTREh5M3RTcWpLTG1B?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
+      "source": "NOWnews今日新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-04-18",
-      "published_display": "2026-04-18",
+      "published": "2026-04-20",
+      "published_display": "2026-04-20",
       "matched_keywords": [
         "命理",
         "命理師",
-        "開運"
+        "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-05"
     },
     {
       "title": "玄天上帝生日7注意事項！命理師曝「開運、化解小人」祭拜秘訣",
@@ -401,7 +382,26 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-08"
+      "event_cluster": "event-09"
+    },
+    {
+      "title": "土地婆聖誕巧遇天赦日！ 命理師揭供品與祈願開運方式",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQZHFzeEp2bldxYk1zTzFIdEVTN3FUSUxaSTIwVE1qZW40d0ZLQmlmaGt5UWMwNmJTMnpIMWlXeW5CRWR2RTJpdi0xT0xRSWp1OHcybEdueHltTEo0eXJVVXRJOTZsVHRLdXFHeTJacjZBUXhOMm51R2lsSHZmTVg2MGNxZ185ZURkMUtkOGQxLXVWYjF4Nk9zUWRXVDZONXZMQVo1dWFsaG9yb1ZaU1MyVUYtajIwVVppUWwtdlhSSlFzRUtxclBGdEpGODRFYVpyOWJ2WkVxNXJWUTlCZVA1UnY3UkJrWDFkNjlJRUpfWDVPV210VFFtSm1jdVNyYlh3Z0xMMjFFX2Y5SlJTTXZrLXU2bU44MzctWkFCOVpKV0NlbnNGTG12VUhsREQ3RWJKUE9vd3VTaTRlXzFmaHd3UnNNNTdvQWYxb3B5MzNZeENrSjZEOHlreHg0WWRndEtPR1Z2MWxRN1A?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-04-16",
+      "published_display": "2026-04-16",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-11"
     }
   ]
 }
