@@ -1,9 +1,9 @@
-# 问星AI 内容自动化运行报告 2026年4月23日 23:16
+# 问星AI 内容自动化运行报告 2026年4月24日 13:36
 
 - 总体状态：failed_audit
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：a319852ff021547b19a6c2ab6667b7c80ae67072
+- 变更签名：0bdf2e74458490d2fbac113ccd8dd6c4ec1bfcd4
 - Gemini 是否执行：是
 - Gemini 审校是否执行：是
 - 规则质检是否执行：是
@@ -19,10 +19,6 @@
 - 赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢
 - 命理師邱彥龍：大年初二做對5件事、拜對人 2026運勢直接飛上天
 
-## 新增标题
-- 赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢
-- 命理師邱彥龍：大年初二做對5件事、拜對人 2026運勢直接飛上天
-
 ## 次日运营建议
 - 明日优先延展「命理新闻」相关选题（当前占比 6/8）。
 
@@ -31,7 +27,7 @@
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年4月23日 23:16
-- generate_daily_content.py | ok | generated Gemini content bundle at 2026年4月23日 23:16 using gemini-2.5-pro
+updated 8 hot news items at 2026年4月24日 13:36
+- generate_daily_content.py | ok | generated Gemini content bundle at 2026年4月24日 13:36 using gemini-2.5-pro
 - review_daily_content.py | ok | reviewed Gemini content bundle using gemini-2.5-pro
 - audit_daily_content.py | failed | content audit failed

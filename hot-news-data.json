@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-23",
-  "updated_at_display": "2026年4月23日 23:16",
+  "updated_at": "2026-04-24",
+  "updated_at_display": "2026年4月24日 13:36",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-23T23:16:44.155227+08:00",
+    "fetched_at": "2026-04-24T13:36:28.964331+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-95"
+      "event_cluster": "event-97"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -348,10 +348,10 @@
     },
     {
       "title": "加強版開運吉日，斬爛桃花！(#01J) 【最特別天赦日「能趕走小三、小王」婆媳也能求！命理師：特別靈驗】 （資料照／記者蔡佩旻翻攝）",
-      "summary": "来自 facebook.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 Facebook · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMilAVBVV95cUxNSWZMc0NVM2hVT0JCRXFiWFdSZnpkRGp2aFlfMjhqVXpseFFtMzdpbjRIYTIzSy02c1pvRWpOTDNSZ1RYMmtsTUJmRFpGVG5kaXFqQmdnT1lpODhHdkh3NXJwYjBwdFVXcjZnT3BSbHlKMTl6U1NKTkdWV09mbTZ3NkxKbWlYUUlQS05NQzF6eWZ2SVhnc01mbTJETzRJemRSU2RLci10eVJGT3FhMTNmYjNYVmpURzFyY2YwUElkZkh5SnB0S2VWX3R0Um8zNHpYOXRUYWQ1MTkxaGFRV2llaGFtVUg3NGxNSGpEMEJXNzhBVUwxTEQ2WG12RjR4eFBmQzE4TEZCNUxXTGtyQWxSOUE2NmVHZkFQc2NaeUZWMS1NanFLTDk5R3ZHRnY3Z204YjZIOE5rOUhQdGpvaDlOT1R1dHRNZlVDNVQ1NUgzLWRKRGRZZGhQZVhKSXNmRTZwVHNBcGdDU3dncWV4Q1ZPVGNBS19xaXdnWW1kY3NnbmtpYWowYnFCVGtITTM0NS1vMEpnTWJFVVplTjYyWmx4WktzU0dmSmNZX0dPYW9ENlFJZTBNcUFpanA0b2Fsck96OTNzYlhxenp3eXJZaktkOGJKRzVXY2lEdHY1d3pNY3lfNVl1TzdaZWpvRjRHYlZEVVVWcmR1bll4dnpwQWo3aW9EY1RUWkRSZHYxYnNZcGZleTg1Zmh3T05JUE1pN1BVRVZDdWdCVkpJYjY0VldFQXhNV1NuZWtCSDJScjZXS0N0YnI1NzBwcWFoT3lucklmV3VQNjZoOFJvaTFNS21lb1B5Y1JaelI5TFlaZHR4dm5Va0lJT2lUd1BIWlhYRmlZc3VYLXExZS1hRU5WQWpYNHU1bXo?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "facebook.com · Google News",
+      "source": "Facebook · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",

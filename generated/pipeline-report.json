@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-04-23T23:16:30.532480+08:00",
-  "ran_at_display": "2026年4月23日 23:16",
+  "ran_at": "2026-04-24T13:36:12.496995+08:00",
+  "ran_at_display": "2026年4月24日 13:36",
   "overall_status": "failed_audit",
   "force_refresh": true,
-  "previous_signature": "4215383299d6ac46fcd9c8b2ee8b6db4bccbc387",
-  "new_signature": "a319852ff021547b19a6c2ab6667b7c80ae67072",
+  "previous_signature": "a319852ff021547b19a6c2ab6667b7c80ae67072",
+  "new_signature": "0bdf2e74458490d2fbac113ccd8dd6c4ec1bfcd4",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
@@ -27,10 +27,7 @@
     "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢",
     "命理師邱彥龍：大年初二做對5件事、拜對人 2026運勢直接飛上天"
   ],
-  "added_titles": [
-    "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢",
-    "命理師邱彥龍：大年初二做對5件事、拜對人 2026運勢直接飛上天"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
@@ -42,13 +39,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月23日 23:16"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月24日 13:36"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年4月23日 23:16 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年4月24日 13:36 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
