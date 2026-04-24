@@ -1,9 +1,9 @@
-# 问星AI 内容自动化运行报告 2026年4月24日 13:36
+# 问星AI 内容自动化运行报告 2026年4月24日 22:46
 
 - 总体状态：failed_audit
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：0bdf2e74458490d2fbac113ccd8dd6c4ec1bfcd4
+- 变更签名：e9de135216c59505a0b2f4bc87a9ae56865b9601
 - Gemini 是否执行：是
 - Gemini 审校是否执行：是
 - 规则质检是否执行：是
@@ -14,10 +14,15 @@
 
 ## 本轮热点标题
 - 流年運勢你算了嗎? #開運軍師尹森#風水尹森#流年 #算命 #紫微斗數#八字 #命盤#尹森老師#尹森#命理師#命理師推薦#風水師推薦#2026運勢 #https #家居風水宜忌
-- [ 玄學 ☯ 歌訣 ] 喜神安在訣 甲己在艮乙庚日乾 丙辛西南喜神安 丁壬喜神南方坐 戊癸原來在東南 #喜神安在訣 #天天背口訣 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名 #占卜問事 #揀電
+- 如何區別是人是鬼？ #八字 #算命 #五行 #財運 #事業 #運勢 #玄學 #命理 #易經 #易經風水 #面相 #聚財 #福氣 #八字故事 youtu.be/wtQ6dkyYVVg?si… 来自 @YouTube
 - [新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預
-- 赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢
-- 命理師邱彥龍：大年初二做對5件事、拜對人 2026運勢直接飛上天
+- 血月元宵節! 命理師曝轉運秘訣 12生肖今晚許願用「這一招」扭轉運勢
+- 2026武財神生日發財預兆曝光！命理師揭「5大徵兆」財神進門 5開運法財運旺
+
+## 新增标题
+- 如何區別是人是鬼？ #八字 #算命 #五行 #財運 #事業 #運勢 #玄學 #命理 #易經 #易經風水 #面相 #聚財 #福氣 #八字故事 youtu.be/wtQ6dkyYVVg?si… 来自 @YouTube
+- 血月元宵節! 命理師曝轉運秘訣 12生肖今晚許願用「這一招」扭轉運勢
+- 2026武財神生日發財預兆曝光！命理師揭「5大徵兆」財神進門 5開運法財運旺
 
 ## 次日运营建议
 - 明日优先延展「命理新闻」相关选题（当前占比 6/8）。
@@ -27,7 +32,7 @@
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年4月24日 13:36
-- generate_daily_content.py | ok | generated Gemini content bundle at 2026年4月24日 13:36 using gemini-2.5-pro
+updated 8 hot news items at 2026年4月24日 22:46
+- generate_daily_content.py | ok | generated Gemini content bundle at 2026年4月24日 22:46 using gemini-2.5-pro
 - review_daily_content.py | ok | reviewed Gemini content bundle using gemini-2.5-pro
 - audit_daily_content.py | failed | content audit failed

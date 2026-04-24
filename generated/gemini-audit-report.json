@@ -2,6 +2,8 @@
   "status": "failed",
   "warnings": [],
   "blocking_issues": [
+    "zh_cn.instagram 第 2 条文案含模型措辞：注定",
+    "zh_cn.instagram 第 2 条文案含模型措辞：命中注定",
     "热点类别多样性不足：当前 category 2 类，至少需要 3 类"
   ]
 }
