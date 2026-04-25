@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-04-24T22:46:23.945845+08:00",
-  "ran_at_display": "2026年4月24日 22:46",
+  "ran_at": "2026-04-25T13:12:33.302207+08:00",
+  "ran_at_display": "2026年4月25日 13:12",
   "overall_status": "failed_audit",
   "force_refresh": true,
-  "previous_signature": "0bdf2e74458490d2fbac113ccd8dd6c4ec1bfcd4",
-  "new_signature": "e9de135216c59505a0b2f4bc87a9ae56865b9601",
+  "previous_signature": "e9de135216c59505a0b2f4bc87a9ae56865b9601",
+  "new_signature": "c02223e0af663c56bb8c756434badb955d94bf9c",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
@@ -27,11 +27,7 @@
     "血月元宵節! 命理師曝轉運秘訣 12生肖今晚許願用「這一招」扭轉運勢",
     "2026武財神生日發財預兆曝光！命理師揭「5大徵兆」財神進門 5開運法財運旺"
   ],
-  "added_titles": [
-    "如何區別是人是鬼？ #八字 #算命 #五行 #財運 #事業 #運勢 #玄學 #命理 #易經 #易經風水 #面相 #聚財 #福氣 #八字故事 youtu.be/wtQ6dkyYVVg?si… 来自 @YouTube",
-    "血月元宵節! 命理師曝轉運秘訣 12生肖今晚許願用「這一招」扭轉運勢",
-    "2026武財神生日發財預兆曝光！命理師揭「5大徵兆」財神進門 5開運法財運旺"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
@@ -43,13 +39,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月24日 22:46"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月25日 13:12"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年4月24日 22:46 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年4月25日 13:12 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
