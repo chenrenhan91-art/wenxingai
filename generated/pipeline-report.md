@@ -1,9 +1,9 @@
-# 问星AI 内容自动化运行报告 2026年4月25日 13:12
+# 问星AI 内容自动化运行报告 2026年4月25日 22:04
 
 - 总体状态：failed_audit
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：c02223e0af663c56bb8c756434badb955d94bf9c
+- 变更签名：235cbcce1363b5e165ab6e8faacc027c87b27c27
 - Gemini 是否执行：是
 - Gemini 审校是否执行：是
 - 规则质检是否执行：是
@@ -16,8 +16,12 @@
 - 流年運勢你算了嗎? #開運軍師尹森#風水尹森#流年 #算命 #紫微斗數#八字 #命盤#尹森老師#尹森#命理師#命理師推薦#風水師推薦#2026運勢 #https #家居風水宜忌
 - 如何區別是人是鬼？ #八字 #算命 #五行 #財運 #事業 #運勢 #玄學 #命理 #易經 #易經風水 #面相 #聚財 #福氣 #八字故事 youtu.be/wtQ6dkyYVVg?si… 来自 @YouTube
 - [新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預
-- 血月元宵節! 命理師曝轉運秘訣 12生肖今晚許願用「這一招」扭轉運勢
-- 2026武財神生日發財預兆曝光！命理師揭「5大徵兆」財神進門 5開運法財運旺
+- 天赦日遇土地婆聖誕! 命理師曝「穩定財庫」 開運秘法
+- 命理師直接要他「休息10年」！吳青峰算命結果曝光
+
+## 新增标题
+- 天赦日遇土地婆聖誕! 命理師曝「穩定財庫」 開運秘法
+- 命理師直接要他「休息10年」！吳青峰算命結果曝光
 
 ## 次日运营建议
 - 明日优先延展「命理新闻」相关选题（当前占比 6/8）。
@@ -27,7 +31,7 @@
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年4月25日 13:12
-- generate_daily_content.py | ok | generated Gemini content bundle at 2026年4月25日 13:12 using gemini-2.5-pro
+updated 8 hot news items at 2026年4月25日 22:04
+- generate_daily_content.py | ok | generated Gemini content bundle at 2026年4月25日 22:04 using gemini-2.5-pro
 - review_daily_content.py | ok | reviewed Gemini content bundle using gemini-2.5-pro
 - audit_daily_content.py | failed | content audit failed

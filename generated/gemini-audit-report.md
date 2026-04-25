@@ -3,6 +3,7 @@
 - 状态：failed
 
 ## 阻断问题
+- zh_hant.site_article 含模型措辞：注定
 - 热点类别多样性不足：当前 category 2 类，至少需要 3 类
 
 ## 提醒项

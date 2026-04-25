@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-25",
-  "updated_at_display": "2026年4月25日 13:12",
+  "updated_at_display": "2026年4月25日 22:04",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-25T13:12:48.754620+08:00",
+    "fetched_at": "2026-04-25T22:04:51.663431+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -309,6 +309,44 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "天赦日遇土地婆聖誕! 命理師曝「穩定財庫」 開運秘法",
+      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMikwRBVV95cUxQay1nWFRMTkotRXVyVG5xeE8yTzdsdE1PdmFCNmQ0b1hMVExISDNlMVVXbUNLY3dLZUFMamRzVDBodGVzSTNhRFl6NWxhQkZEcDI1SWF4SFRqZkwxRHZRMGVveGw2VlA1WHFvSUVUTzhWNzE0ZmpNQ0tVR085OUJXNnZzRUZHeVhDRGpydjVfVDlLYnJWSEo5U1VNRHpPanRWXzhjOUFuZ2pDWXhFSWMwNGhvS0NwNnMzamhfaGxBNG1xdDB0M2Y3WFM2UUc0MkFKOUpSR2dyVEZVWU9uRXNlc0ZPX3VQUVpESnl0b0R6M3lDSXVkeEdHUVBaM1FPXzFOMXM1QTNLd1doYkN1dVNJMjZZUTdaLXI5UVBDV1dUYVZhcXhWUF9CbGwwUzgtWVZBRmVYUERpVk9RbGI2ZlZnYnRFQnVxQUZQV0luanJNQlVJVUxwSERBMVBScTRod1hZWUxYUkpKZDRtRzk5N25wTXZFYm83R3N5NWlYaWFOUlYwY0V4c19TRl8yVm5Mc0pQbmNqTFZJZXFsaWo3Ykg4X010REdCME9JTURoVG5ES0VzWHgtNy1CLWtwamtzS3ZuTktxWGlVNndUc3ZLNkFmZjhzOVlYZDJ4N3Y1NUw5OVpWWTJOTjBWc0ktSFhBZENHSlBGQW9UaDRxQVpWV3JUaDdka1FUMDJUdHNSb0QteEFxanM?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "MSN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-04-25",
+      "published_display": "2026-04-25",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
+      "title": "命理師直接要他「休息10年」！吳青峰算命結果曝光",
+      "summary": "来自 噓！星聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9IZFRPNEJ5bG1SaDJzMU41ZExXZVRGOU5MNkJIRUpRTEt6QkFLRkc2WFBFcllMcEVYb05SNmpUMVpFTGhReFpGWlBDMWdwVnlzNF9xbVZ0TnIzOFF5N0pv0gFfQVVfeXFMT0hkVE80QnlsbVJoMnMxTjVkTFdlVEY5Tkw2QkhFSlFMS3pCQUtGRzZYUEVyWUxwRVhvTlI2alQxWkVMaFF4WkZaUEMxZ3BWeXM0X3FtVnROcjM4UXk3Sm8?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "噓！星聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-04-25",
+      "published_display": "2026-04-25",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "算命"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
+    },
+    {
       "title": "血月元宵節! 命理師曝轉運秘訣 12生肖今晚許願用「這一招」扭轉運勢",
       "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxNRG1GX3ZjbVBQcHFaTHFxWlFna1I4a1VvNnF6QUJaRTg4a08xS1pzSjhKWVozNEk3U1lSQ3lvb1Z5SU9WblBXNjlKQ1h4dHpuNDNVSTVKZktiUXJvVElWSmpwS0dDSzZ5Q25TcUVFaXkwOEpQcXlKSVlwdnRDczVMdy1LUE5YOXdFMVhvWk5aajRhOVpMZ2ZaYU1ScUE0eFZFZzJvUGpRUmJFZU1DTUNOQWtTYzhNSjh0WU53SVdicDRUcEQ1Wkt3WlRqcXNNQ3l2Q0FhU1pjcXR6UGs2UTQxSGQ2cTFTaUxSRnlGN0ctdE1vdkZQcHh4QjRaWmNlZGV1Y3FBbWFOMVY4dnpPaldpYXF2TnFaTU14WTBiRWluSlhCdWtPSHlNN3hnUVVCY2NXTjBocUNnZ2hnd2ZNeEwwMUlBVndMWVFUX3VuRXlDcDh4WVBqRHFvaWdlZXJCdW96QXYzai02ZGoxS2VBSGJiVlBCMm1kWENzR2Nua1BjRE80RE0xZzRuTEppdEtsTGpCRThrb2NFeDYtZE53R3o1dWwxQUV0enBtR1d6TG1pS3VEb0Z5UHE2cUtNLWNRaXIzMTlHenp0UWVVb0oxT2wzcm1PYzUxeWpGLWpKWHd5UGZ0NlUwMHpsYVJ6dGVEdWFZeV9HMTA0czJ5WC14Zm10ekJsSnZuR2lwZDNZMDJIWFR4RVJBU3dFS0NJS21KRE1LYm9IXzlnY1ZKa0UxLUYzOEVGY0tXN0otNmRFMEgxSTNsRkdzRGUxdVRnY1FWSFBDLWxLTDA2QWdtTEpRbDRN?oc=5",
@@ -325,7 +363,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-05"
     },
     {
       "title": "2026武財神生日發財預兆曝光！命理師揭「5大徵兆」財神進門 5開運法財運旺",
@@ -344,7 +382,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-06"
     },
     {
       "title": "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢",
@@ -363,45 +401,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "命理師邱彥龍：大年初二做對5件事、拜對人 2026運勢直接飛上天",
-      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMivARBVV95cUxOY1JQYTcxVDRObl9Xd2V5U3VXeGlFRUM1VHN0allyMHY5LVZDaU5KRkhySk9XMGFZbmFRdS1iUERPd2VVbEp2c1p1Y0x5MnBJeXlmZF9fNjdvSENteUFTamsyampUWU9rb0pKSXBTVDJfbDViNklIZUxabUVQdk1QSWV5S28zUjc4Zm5PUXRsZlpLOHVLWUwyNy0zSXl6UzhaQk1wX3BWNkhtYlNlVWFIeEtDNTNnZTVUR28zMVFyNTlmeE9WSnotSW5ZWGRQT2Z3c2ZDMFIxcU9Fd3BhYzk3NHoxNUc0SEpDSnFPVFBuS1JQcm81b08waFc2RjV6YWlBVFZfdHg1QjJJWTdWQVFINjE2Q0FCcjJVeHdxLXUtbXlvVENsTVdJR1R2TDdwY3pjWXdiUFBueU1wTWJPMWZDTks3SmNiclJVbDBQdnk4dkZVTVlKdy1YSnhFYk9BanRtbXNiV2FqYnhmVU5wdzJWOE5JY3VCcTFqQ3hfakpkV1IzNTFmSzZkeHJrMGxKbTh5YjhON1g2U0pPS211TGc1WmxEaDVJX3VXY2plSm9pdTVqa3EtWkxtaTZ4RHU0aVl4QWJLakVxYlRrSVhMeDU1YkxremVPNERFUnFRN293M0NEdHRpUURBYkRnNlk4Q2pxOVVWZlRCeU9HbVZITHptU2x5ZDFBVFJZUXRGdk0zZ0pCVTluY0RERmgyaGM0X3owRVE4YkZHMElESGhWa3l6LVYybVJlZWc5M0hRVQ?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "MSN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-04-23",
-      "published_display": "2026-04-23",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "加強版開運吉日，斬爛桃花！(#01J) 【最特別天赦日「能趕走小三、小王」婆媳也能求！命理師：特別靈驗】 （資料照／記者蔡佩旻翻攝）",
-      "summary": "来自 facebook.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMilAVBVV95cUxNSWZMc0NVM2hVT0JCRXFiWFdSZnpkRGp2aFlfMjhqVXpseFFtMzdpbjRIYTIzSy02c1pvRWpOTDNSZ1RYMmtsTUJmRFpGVG5kaXFqQmdnT1lpODhHdkh3NXJwYjBwdFVXcjZnT3BSbHlKMTl6U1NKTkdWV09mbTZ3NkxKbWlYUUlQS05NQzF6eWZ2SVhnc01mbTJETzRJemRSU2RLci10eVJGT3FhMTNmYjNYVmpURzFyY2YwUElkZkh5SnB0S2VWX3R0Um8zNHpYOXRUYWQ1MTkxaGFRV2llaGFtVUg3NGxNSGpEMEJXNzhBVUwxTEQ2WG12RjR4eFBmQzE4TEZCNUxXTGtyQWxSOUE2NmVHZkFQc2NaeUZWMS1NanFLTDk5R3ZHRnY3Z204YjZIOE5rOUhQdGpvaDlOT1R1dHRNZlVDNVQ1NUgzLWRKRGRZZGhQZVhKSXNmRTZwVHNBcGdDU3dncWV4Q1ZPVGNBS19xaXdnWW1kY3NnbmtpYWowYnFCVGtITTM0NS1vMEpnTWJFVVplTjYyWmx4WktzU0dmSmNZX0dPYW9ENlFJZTBNcUFpanA0b2Fsck96OTNzYlhxenp3eXJZaktkOGJKRzVXY2lEdHY1d3pNY3lfNVl1TzdaZWpvRjRHYlZEVVVWcmR1bll4dnpwQWo3aW9EY1RUWkRSZHYxYnNZcGZleTg1Zmh3T05JUE1pN1BVRVZDdWdCVkpJYjY0VldFQXhNV1NuZWtCSDJScjZXS0N0YnI1NzBwcWFoT3lucklmV3VQNjZoOFJvaTFNS21lb1B5Y1JaelI5TFlaZHR4dm5Va0lJT2lUd1BIWlhYRmlZc3VYLXExZS1hRU5WQWpYNHU1bXo?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "facebook.com · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-04-23",
-      "published_display": "2026-04-23",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     }
   ]
 }
