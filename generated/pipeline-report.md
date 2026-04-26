@@ -1,4 +1,4 @@
-# 问星AI 内容自动化运行报告 2026年4月25日 22:04
+# 问星AI 内容自动化运行报告 2026年4月26日 13:41
 
 - 总体状态：failed_audit
 - 本轮是否强制刷新：是
@@ -19,10 +19,6 @@
 - 天赦日遇土地婆聖誕! 命理師曝「穩定財庫」 開運秘法
 - 命理師直接要他「休息10年」！吳青峰算命結果曝光
 
-## 新增标题
-- 天赦日遇土地婆聖誕! 命理師曝「穩定財庫」 開運秘法
-- 命理師直接要他「休息10年」！吳青峰算命結果曝光
-
 ## 次日运营建议
 - 明日优先延展「命理新闻」相关选题（当前占比 6/8）。
 
@@ -31,7 +27,7 @@
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年4月25日 22:04
-- generate_daily_content.py | ok | generated Gemini content bundle at 2026年4月25日 22:04 using gemini-2.5-pro
+updated 8 hot news items at 2026年4月26日 13:41
+- generate_daily_content.py | ok | generated Gemini content bundle at 2026年4月26日 13:41 using gemini-2.5-pro
 - review_daily_content.py | ok | reviewed Gemini content bundle using gemini-2.5-pro
 - audit_daily_content.py | failed | content audit failed
