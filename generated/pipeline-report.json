@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-04-26T22:05:42.905193+08:00",
-  "ran_at_display": "2026年4月26日 22:05",
+  "ran_at": "2026-04-27T13:55:58.927262+08:00",
+  "ran_at_display": "2026年4月27日 13:55",
   "overall_status": "failed_audit",
   "force_refresh": true,
-  "previous_signature": "235cbcce1363b5e165ab6e8faacc027c87b27c27",
-  "new_signature": "fa6f55f7b17195262fd35346850c900c6552779f",
+  "previous_signature": "fa6f55f7b17195262fd35346850c900c6552779f",
+  "new_signature": "bef15c5798d66623929b89189d65c5b8ef58977a",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
@@ -24,10 +24,12 @@
     "流年運勢你算了嗎? #開運軍師尹森#風水尹森#流年 #算命 #紫微斗數#八字 #命盤#尹森老師#尹森#命理師#命理師推薦#風水師推薦#2026運勢 #https #家居風水宜忌",
     "如何區別是人是鬼？ #八字 #算命 #五行 #財運 #事業 #運勢 #玄學 #命理 #易經 #易經風水 #面相 #聚財 #福氣 #八字故事 youtu.be/wtQ6dkyYVVg?si… 来自 @YouTube",
     "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
-    "天赦日遇土地婆聖誕! 命理師曝「穩定財庫」 開運秘法",
+    "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢",
     "命理師直接要他「休息10年」！吳青峰算命結果曝光"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢"
+  ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
@@ -39,13 +41,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月26日 22:05"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月27日 13:56"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年4月26日 22:05 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年4月27日 13:56 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
