@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-04-29T13:55:33.241313+08:00",
-  "ran_at_display": "2026年4月29日 13:55",
+  "ran_at": "2026-04-29T23:20:22.527256+08:00",
+  "ran_at_display": "2026年4月29日 23:20",
   "overall_status": "failed_distribution",
   "force_refresh": true,
-  "previous_signature": "e3df20cdd1e9783e521f8c4f524bb006206dc78c",
-  "new_signature": "c61f93b5bf41e2c21c7726eac21c30704209f716",
+  "previous_signature": "c61f93b5bf41e2c21c7726eac21c30704209f716",
+  "new_signature": "eadf2c9e72eb33446dfb5cccd46db063ac0328fe",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
@@ -27,10 +27,7 @@
     "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作",
     "快看今日運勢！命理師：「這星座」正偏財旺翻 滑手機就有錢"
   ],
-  "added_titles": [
-    "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作",
-    "快看今日運勢！命理師：「這星座」正偏財旺翻 滑手機就有錢"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
@@ -42,13 +39,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月29日 13:55"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月29日 23:20"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年4月29日 13:55 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年4月29日 23:20 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
