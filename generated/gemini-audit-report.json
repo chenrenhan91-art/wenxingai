@@ -1,7 +1,5 @@
 {
-  "status": "failed",
+  "status": "passed",
   "warnings": [],
-  "blocking_issues": [
-    "热点类别多样性不足：当前 category 2 类，至少需要 3 类"
-  ]
+  "blocking_issues": []
 }
