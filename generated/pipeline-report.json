@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-04-30T14:06:15.820637+08:00",
-  "ran_at_display": "2026年4月30日 14:06",
+  "ran_at": "2026-04-30T23:13:58.167685+08:00",
+  "ran_at_display": "2026年4月30日 23:13",
   "overall_status": "failed_distribution",
   "force_refresh": true,
-  "previous_signature": "eadf2c9e72eb33446dfb5cccd46db063ac0328fe",
-  "new_signature": "7ca0852d432865d5053438a98faf30076166140a",
+  "previous_signature": "7ca0852d432865d5053438a98faf30076166140a",
+  "new_signature": "79f4ac8343244f67c6ed3caf52e1f492dbdfdd77",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
@@ -27,9 +27,7 @@
     "5/1明天記得拜財神！ 命理師曝「3招最強求財步驟」， 正財偏財開運旺整年",
     "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作"
   ],
-  "added_titles": [
-    "5/1明天記得拜財神！ 命理師曝「3招最強求財步驟」， 正財偏財開運旺整年"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
@@ -41,13 +39,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月30日 14:06"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年4月30日 23:14"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年4月30日 14:06 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年4月30日 23:14 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",

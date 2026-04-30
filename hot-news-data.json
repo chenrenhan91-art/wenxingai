@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-30",
-  "updated_at_display": "2026年4月30日 14:06",
+  "updated_at_display": "2026年4月30日 23:14",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-30T14:06:31.674439+08:00",
+    "fetched_at": "2026-04-30T23:14:13.624042+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "算命"
       ],
       "score": 18.95,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "【 挑戰 \"生鐵鑊\" 系列 】 碧玉內子命令本人蒜蓉炒呢堆嘢 本人成功用生鐵鑊炒靚呢堆嘢唔燶唔黐底 完美避免犯太座 #生鐵鑊炒嘢唔燶唔黐底 #犯太座 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰",
@@ -287,7 +287,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-66"
+      "event_cluster": "event-68"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -325,7 +325,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作",
@@ -344,7 +344,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢",
@@ -363,7 +363,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
       "title": "快看今日運勢！命理師：「這星座」正偏財旺翻 滑手機就有錢",
@@ -382,12 +382,12 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     },
     {
-      "title": "命理師直接要他「休息10年」！吳青峰算命結果曝光",
+      "title": "命理師直接要他「休息10年」！吳青峰算命結果曝光| 音樂",
       "summary": "来自 噓！星聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBreXJOMnJhNWhFenE4SkNJbUZVOXE0ZUZJN1FoQjZMS2h4WEllc0ZZUGNpS1FBVy04ZTN3OEVpcVNDYTFpemlKV0FJdEtCZnY5emV6TDBsbGpKZ9IBX0FVX3lxTE9IZFRPNEJ5bG1SaDJzMU41ZExXZVRGOU5MNkJIRUpRTEt6QkFLRkc2WFBFcllMcEVYb05SNmpUMVpFTGhReFpGWlBDMWdwVnlzNF9xbVZ0TnIzOFF5N0pv?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBreXJOMnJhNWhFenE4SkNJbUZVOXE0ZUZJN1FoQjZMS2h4WEllc0ZZUGNpS1FBVy04ZTN3OEVpcVNDYTFpemlKV0FJdEtCZnY5emV6TDBsbGpKZw?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "噓！星聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -401,7 +401,7 @@
         "算命"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-09"
+      "event_cluster": "event-10"
     }
   ]
 }
