@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-29",
-  "updated_at_display": "2026年4月29日 23:20",
+  "updated_at": "2026-04-30",
+  "updated_at_display": "2026年4月30日 14:06",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-04-29T23:20:37.050102+08:00",
+    "fetched_at": "2026-04-30T14:06:31.674439+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-60"
+      "event_cluster": "event-66"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -309,6 +309,25 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "5/1明天記得拜財神！ 命理師曝「3招最強求財步驟」， 正財偏財開運旺整年",
+      "summary": "来自 風傳媒 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9UaWM3emREcFJ2dmJYM3AxbVhlX2x1eEZSZFJ3enRUSGlzUVdETW9QR3JDanJ2d2hkNHdZR25RYVg4TDNKRFJWUmVMSXIydjNM?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "風傳媒 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-04-30",
+      "published_display": "2026-04-30",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
       "title": "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作",
       "summary": "来自 聯合新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBvbnA1SzJSRHBWY0RCeDFYbVRwR1BJbGllSjJxeVh2NnFieFcyWWw1WnRTM3p6X2xTNzJYUDNVR2VKWlNhc3hqLXE0bGdFVXcz0gFWQVVfeXFMUDM4ZGlyY1dqb09naVZpM1U0Snl3aTlvYnl4NGdVUl9URjRLYWdicEhmVnpUWDBvcVdTc2VnRlBseDdEdExMeGNXaUg0dzg3RlBta2NZMXc?oc=5",
@@ -317,25 +336,6 @@
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-04-29",
-      "published_display": "2026-04-29",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "快看今日運勢！命理師：「這星座」正偏財旺翻 滑手機就有錢",
-      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxObFBqSFVSd0M1Qng3c3RMc2oyMHZuX1N4a01HS1VUR0JKcXRVZy1BM3MwcTVrTDVndTlQY2Zia085Q3R2RzFEdnJySHFMaXE5d0lxQXNkMkIwY05wVy1UbTRzUkJWZTk0aW5iNkFzOHprVUNEcWRDZ2dHRUloVDRMQUFKcjZNODVJZllLUGI1Y1RlWUhLbjJJMnNlT1NKVWQwb3pjNUdhNHVPZzl0QUxHS2o2Y1IzSjBxT1l0TGVMbVYzdjRkb0tneGV6Um9xR05RXzhXMDdmLUZWenlXeTlaQVdGWldzR2wtS240aUYwc01qOThSY0RfazQ1azE2TDcxNl9JaUNYSlVRcy1jWW9ZRWtWN0pDSHZZNkRjOUNPVkwtY1Z5dEhLbm5Pcm5RVnEwTU45QmNuRS1tNm5BZmlhdTZRNTlBd1JWWDBwUVlRTDZfSE5uUDBmdTl6V250ZWFzRzN1OFRIeVR6bnpSQXU0M0FzUGNZTzVhcFZyV2pvVnBPOHg0c0tOUlI4RGtCbEJHNGZKZE1vTjVmclN1RVdtQlU4T1RZSHNaeHQ1dVNkQWNOYWtfbC1LR0NaQVB4V2E2Z0U1OHh6SEN2OGFDdGhhSE0xdXNCc21BYy1B?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "TVBS新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
       "published": "2026-04-29",
       "published_display": "2026-04-29",
       "matched_keywords": [
@@ -355,8 +355,8 @@
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-04-28",
-      "published_display": "2026-04-28",
+      "published": "2026-04-29",
+      "published_display": "2026-04-29",
       "matched_keywords": [
         "命理",
         "命理師",
@@ -366,16 +366,16 @@
       "event_cluster": "event-05"
     },
     {
-      "title": "血月元宵節! 命理師曝轉運秘訣 12生肖今晚許願用「這一招」 扭轉運勢",
-      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxNRG1GX3ZjbVBQcHFaTHFxWlFna1I4a1VvNnF6QUJaRTg4a08xS1pzSjhKWVozNEk3U1lSQ3lvb1Z5SU9WblBXNjlKQ1h4dHpuNDNVSTVKZktiUXJvVElWSmpwS0dDSzZ5Q25TcUVFaXkwOEpQcXlKSVlwdnRDczVMdy1LUE5YOXdFMVhvWk5aajRhOVpMZ2ZaYU1ScUE0eFZFZzJvUGpRUmJFZU1DTUNOQWtTYzhNSjh0WU53SVdicDRUcEQ1Wkt3WlRqcXNNQ3l2Q0FhU1pjcXR6UGs2UTQxSGQ2cTFTaUxSRnlGN0ctdE1vdkZQcHh4QjRaWmNlZGV1Y3FBbWFOMVY4dnpPaldpYXF2TnFaTU14WTBiRWluSlhCdWtPSHlNN3hnUVVCY2NXTjBocUNnZ2hnd2ZNeEwwMUlBVndMWVFUX3VuRXlDcDh4WVBqRHFvaWdlZXJCdW96QXYzai02ZGoxS2VBSGJiVlBCMm1kWENzR2Nua1BjRE80RE0xZzRuTEppdEtsTGpCRThrb2NFeDYtZE53R3o1dWwxQUV0enBtR1d6TG1pS3VEb0Z5UHE2cUtNLWNRaXIzMTlHenp0UWVVb0oxT2wzcm1PYzUxeWpGLWpKWHd5UGZ0NlUwMHpsYVJ6dGVEdWFZeV9HMTA0czJ5WC14Zm10ekJsSnZuR2lwZDNZMDJIWFR4RVJBU3dFS0NJS21KRE1LYm9IXzlnY1ZKa0UxLUYzOEVGY0tXN0otNmRFMEgxSTNsRkdzRGUxdVRnY1FWSFBDLWxLTDA2QWdtTEpRbDRN?oc=5",
+      "title": "快看今日運勢！命理師：「這星座」正偏財旺翻 滑手機就有錢",
+      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxObFBqSFVSd0M1Qng3c3RMc2oyMHZuX1N4a01HS1VUR0JKcXRVZy1BM3MwcTVrTDVndTlQY2Zia085Q3R2RzFEdnJySHFMaXE5d0lxQXNkMkIwY05wVy1UbTRzUkJWZTk0aW5iNkFzOHprVUNEcWRDZ2dHRUloVDRMQUFKcjZNODVJZllLUGI1Y1RlWUhLbjJJMnNlT1NKVWQwb3pjNUdhNHVPZzl0QUxHS2o2Y1IzSjBxT1l0TGVMbVYzdjRkb0tneGV6Um9xR05RXzhXMDdmLUZWenlXeTlaQVdGWldzR2wtS240aUYwc01qOThSY0RfazQ1azE2TDcxNl9JaUNYSlVRcy1jWW9ZRWtWN0pDSHZZNkRjOUNPVkwtY1Z5dEhLbm5Pcm5RVnEwTU45QmNuRS1tNm5BZmlhdTZRNTlBd1JWWDBwUVlRTDZfSE5uUDBmdTl6V250ZWFzRzN1OFRIeVR6bnpSQXU0M0FzUGNZTzVhcFZyV2pvVnBPOHg0c0tOUlI4RGtCbEJHNGZKZE1vTjVmclN1RVdtQlU4T1RZSHNaeHQ1dVNkQWNOYWtfbC1LR0NaQVB4V2E2Z0U1OHh6SEN2OGFDdGhhSE0xdXNCc21BYy1B?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "MSN · Google News",
+      "source": "TVBS新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-04-27",
-      "published_display": "2026-04-27",
+      "category": "塔罗星象",
+      "published": "2026-04-29",
+      "published_display": "2026-04-29",
       "matched_keywords": [
         "命理",
         "命理師",
