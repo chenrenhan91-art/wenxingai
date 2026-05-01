@@ -1,23 +1,23 @@
 {
-  "ran_at": "2026-05-01T14:17:07.717276+08:00",
-  "ran_at_display": "2026年5月1日 14:17",
-  "overall_status": "failed_distribution",
+  "ran_at": "2026-05-01T22:18:05.524662+08:00",
+  "ran_at_display": "2026年5月1日 22:18",
+  "overall_status": "failed_review",
   "force_refresh": true,
-  "previous_signature": "79f4ac8343244f67c6ed3caf52e1f492dbdfdd77",
-  "new_signature": "691df7b44e796e8f2f5085cc77456e41fe5439c3",
+  "previous_signature": "691df7b44e796e8f2f5085cc77456e41fe5439c3",
+  "new_signature": "58b4ee36a205e964d75f2f6f86412c3f9d5ed88e",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
-  "audit_ran": true,
+  "audit_ran": false,
   "fresh_bundle_ready": true,
-  "distribution_ran": true,
+  "distribution_ran": false,
   "articles_ran": false,
   "stage_status": {
     "update": "ok",
     "generate": "ok",
-    "review": "ok",
-    "audit": "ok",
-    "distribution": "failed",
+    "review": "failed",
+    "audit": "blocked",
+    "distribution": "blocked",
     "articles": "skipped"
   },
   "new_titles": [
@@ -27,45 +27,31 @@
     "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作",
     "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢"
   ],
-  "added_titles": [
-    "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "failed_scripts": [
-    "distribute_daily_content.py"
+    "review_daily_content.py"
   ],
   "steps": [
     {
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月1日 14:17"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月1日 22:18"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年5月1日 14:17 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年5月1日 22:18 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
-      "returncode": 0,
-      "ok": true,
-      "output": "reviewed Gemini content bundle using gemini-2.5-pro"
-    },
-    {
-      "script": "audit_daily_content.py",
-      "returncode": 0,
-      "ok": true,
-      "output": "content audit passed with 0 warnings"
-    },
-    {
-      "script": "distribute_daily_content.py",
       "returncode": 1,
       "ok": false,
-      "output": "prepared 6 distribution jobs; queued 4 jobs to Buffer; 2 jobs failed\ndistribution completed with 2 publishing failures"
+      "output": "Gemini review failed: network or API error: HTTP Error 503: Service Unavailable"
     }
   ]
 }
