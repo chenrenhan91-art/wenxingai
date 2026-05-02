@@ -1,21 +1,21 @@
 {
-  "ran_at": "2026-05-02T13:38:13.212871+08:00",
-  "ran_at_display": "2026年5月2日 13:38",
-  "overall_status": "failed_generate",
+  "ran_at": "2026-05-02T22:11:33.864548+08:00",
+  "ran_at_display": "2026年5月2日 22:11",
+  "overall_status": "failed_review",
   "force_refresh": true,
-  "previous_signature": "58b4ee36a205e964d75f2f6f86412c3f9d5ed88e",
-  "new_signature": "67f78c0d0f7e5c53277c5cfa0f67e3d9ff6b07f2",
+  "previous_signature": "67f78c0d0f7e5c53277c5cfa0f67e3d9ff6b07f2",
+  "new_signature": "5e0f8eea2e3eb122b2c3cfef8d2727883e324814",
   "content_changed": true,
   "gemini_ran": true,
-  "review_ran": false,
+  "review_ran": true,
   "audit_ran": false,
-  "fresh_bundle_ready": false,
+  "fresh_bundle_ready": true,
   "distribution_ran": false,
   "articles_ran": false,
   "stage_status": {
     "update": "ok",
-    "generate": "failed",
-    "review": "blocked",
+    "generate": "ok",
+    "review": "failed",
     "audit": "blocked",
     "distribution": "blocked",
     "articles": "skipped"
@@ -25,27 +25,35 @@
     "【 挑戰 \"生鐵鑊\" 系列 】 碧玉內子命令本人蒜蓉炒呢堆嘢 本人成功用生鐵鑊炒靚呢堆嘢唔燶唔黐底 完美避免犯太座 #生鐵鑊炒嘢唔燶唔黐底 #犯太座 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰",
     "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
     "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢",
-    "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作"
+    "5/1明天記得拜財神！ 命理師曝「3招最強求財步驟」， 正財偏財開運旺整年"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "5/1明天記得拜財神！ 命理師曝「3招最強求財步驟」， 正財偏財開運旺整年"
+  ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "failed_scripts": [
-    "generate_daily_content.py"
+    "review_daily_content.py"
   ],
   "steps": [
     {
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月2日 13:38"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月2日 22:11"
     },
     {
       "script": "generate_daily_content.py",
+      "returncode": 0,
+      "ok": true,
+      "output": "generated Gemini content bundle at 2026年5月2日 22:11 using gemini-2.5-pro"
+    },
+    {
+      "script": "review_daily_content.py",
       "returncode": 1,
       "ok": false,
-      "output": "Gemini content generation failed: network or API error: HTTP Error 503: Service Unavailable"
+      "output": "Gemini review failed: network or API error: HTTP Error 503: Service Unavailable"
     }
   ]
 }

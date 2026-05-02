@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-05-02",
-  "updated_at_display": "2026年5月2日 13:38",
+  "updated_at_display": "2026年5月2日 22:11",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-02T13:38:29.278076+08:00",
+    "fetched_at": "2026-05-02T22:11:49.573266+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-75"
+      "event_cluster": "event-76"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -328,6 +328,25 @@
       "event_cluster": "event-04"
     },
     {
+      "title": "5/1明天記得拜財神！ 命理師曝「3招最強求財步驟」， 正財偏財開運旺整年",
+      "summary": "来自 風傳媒 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9UaWM3emREcFJ2dmJYM3AxbVhlX2x1eEZSZFJ3enRUSGlzUVdETW9QR3JDanJ2d2hkNHdZR25RYVg4TDNKRFJWUmVMSXIydjNM?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "風傳媒 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-04-30",
+      "published_display": "2026-04-30",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-06"
+    },
+    {
       "title": "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作",
       "summary": "来自 聯合新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBvbnA1SzJSRHBWY0RCeDFYbVRwR1BJbGllSjJxeVh2NnFieFcyWWw1WnRTM3p6X2xTNzJYUDNVR2VKWlNhc3hqLXE0bGdFVXcz0gFWQVVfeXFMUDM4ZGlyY1dqb09naVZpM1U0Snl3aTlvYnl4NGdVUl9URjRLYWdicEhmVnpUWDBvcVdTc2VnRlBseDdEdExMeGNXaUg0dzg3RlBta2NZMXc?oc=5",
@@ -344,26 +363,25 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-07"
     },
     {
-      "title": "命理師直接要他「休息10年」！吳青峰算命結果曝光",
-      "summary": "来自 stars.udn.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBreXJOMnJhNWhFenE4SkNJbUZVOXE0ZUZJN1FoQjZMS2h4WEllc0ZZUGNpS1FBVy04ZTN3OEVpcVNDYTFpemlKV0FJdEtCZnY5emV6TDBsbGpKZ9IBX0FVX3lxTE9IZFRPNEJ5bG1SaDJzMU41ZExXZVRGOU5MNkJIRUpRTEt6QkFLRkc2WFBFcllMcEVYb05SNmpUMVpFTGhReFpGWlBDMWdwVnlzNF9xbVZ0TnIzOFF5N0pv?oc=5",
+      "title": "雙滿月引爆全球危機？命理師警告：5月恐掀6大災難、中東戰火再升溫| 國際",
+      "summary": "来自 Newtalk新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBULXNRRkZsSThFVEYtMWdaTElSZWxvczZQbXdqUXVINHVSVThFd3RzdDZzTW9SM3lvbDF4elhXZXF5ZWMtM0FUeVVZSHBKekxPVm12Zng3bHFUclE?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "stars.udn.com · Google News",
+      "source": "Newtalk新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-04-25",
-      "published_display": "2026-04-25",
+      "published": "2026-05-02",
+      "published_display": "2026-05-02",
       "matched_keywords": [
         "命理",
-        "命理師",
-        "算命"
+        "命理師"
       ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "score": 12.55,
+      "event_cluster": "event-10"
     },
     {
       "title": "5/1武財神生日! 命理師曝「先補財庫再求財」做錯恐越補越窮",
@@ -381,25 +399,7 @@
         "命理師"
       ],
       "score": 12.55,
-      "event_cluster": "event-09"
-    },
-    {
-      "title": "周五武財神生…命理師曝求財關鍵 點名鼠、羊滿足1條件偏財運爆棚",
-      "summary": "来自 聯合新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9RenJHa1JDa2ozSE1Cdkd4TDZrZi1RSzFGRXRpZWs4OUVTdXg4T2xweUpIZXlGc21pdDlrZ2pjb2RVV3pTR0NUVWZ1cnM3ZHYw0gFWQVVfeXFMUFdoMHNOUUdQOXpKSHdEcUxLSml4SlhIM1NxcEliZ2ZKQ2dkNFVTVk5JblRvMVlCb2ROaDZsR1ZaeE1YTDYxMzNCeDRQWGNCWTNOM21paXc?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "聯合新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-05-01",
-      "published_display": "2026-05-01",
-      "matched_keywords": [
-        "命理",
-        "命理師"
-      ],
-      "score": 12.55,
-      "event_cluster": "event-10"
+      "event_cluster": "event-11"
     }
   ]
 }
