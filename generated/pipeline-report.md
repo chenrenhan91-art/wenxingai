@@ -1,32 +1,31 @@
-# 问星AI 内容自动化运行报告 2026年5月1日 22:18
+# 问星AI 内容自动化运行报告 2026年5月2日 13:38
 
-- 总体状态：failed_review
+- 总体状态：failed_generate
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：58b4ee36a205e964d75f2f6f86412c3f9d5ed88e
+- 变更签名：67f78c0d0f7e5c53277c5cfa0f67e3d9ff6b07f2
 - Gemini 是否执行：是
-- Gemini 审校是否执行：是
+- Gemini 审校是否执行：否
 - 规则质检是否执行：否
-- Gemini 内容包是否匹配本轮热点：是
+- Gemini 内容包是否匹配本轮热点：否
 - Buffer 是否执行：否
 - 深度文章是否生成：否
-- 阶段状态：抓取=ok, 生成=ok, 审校=failed, 质检=blocked, 分发=blocked, 文章=skipped
+- 阶段状态：抓取=ok, 生成=failed, 审校=blocked, 质检=blocked, 分发=blocked, 文章=skipped
 
 ## 本轮热点标题
 - 流年運勢你算了嗎? #開運軍師尹森#風水尹森#流年 #算命 #紫微斗數#八字 #命盤#尹森老師#尹森#命理師#命理師推薦#風水師推薦#2026運勢 #https #家居風水宜忌
 - 【 挑戰 "生鐵鑊" 系列 】 碧玉內子命令本人蒜蓉炒呢堆嘢 本人成功用生鐵鑊炒靚呢堆嘢唔燶唔黐底 完美避免犯太座 #生鐵鑊炒嘢唔燶唔黐底 #犯太座 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰
 - [新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預
-- 立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作
 - 赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢
+- 立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作
 
 ## 次日运营建议
-- 明日优先延展「命理新闻」相关选题（当前占比 5/8）。
+- 明日优先延展「命理新闻」相关选题（当前占比 6/8）。
 
 ## 失败脚本
-- review_daily_content.py
+- generate_daily_content.py
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年5月1日 22:18
-- generate_daily_content.py | ok | generated Gemini content bundle at 2026年5月1日 22:18 using gemini-2.5-pro
-- review_daily_content.py | failed | Gemini review failed: network or API error: HTTP Error 503: Service Unavailable
+updated 8 hot news items at 2026年5月2日 13:38
+- generate_daily_content.py | failed | Gemini content generation failed: network or API error: HTTP Error 503: Service Unavailable
