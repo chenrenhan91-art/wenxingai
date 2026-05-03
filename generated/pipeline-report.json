@@ -1,21 +1,21 @@
 {
-  "ran_at": "2026-05-02T22:11:33.864548+08:00",
-  "ran_at_display": "2026年5月2日 22:11",
-  "overall_status": "failed_review",
+  "ran_at": "2026-05-03T14:06:06.246008+08:00",
+  "ran_at_display": "2026年5月3日 14:06",
+  "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "67f78c0d0f7e5c53277c5cfa0f67e3d9ff6b07f2",
-  "new_signature": "5e0f8eea2e3eb122b2c3cfef8d2727883e324814",
+  "previous_signature": "5e0f8eea2e3eb122b2c3cfef8d2727883e324814",
+  "new_signature": "014112617d0dd25e0046b333dd07138314f15975",
   "content_changed": true,
   "gemini_ran": true,
-  "review_ran": true,
+  "review_ran": false,
   "audit_ran": false,
-  "fresh_bundle_ready": true,
+  "fresh_bundle_ready": false,
   "distribution_ran": false,
   "articles_ran": false,
   "stage_status": {
     "update": "ok",
-    "generate": "ok",
-    "review": "failed",
+    "generate": "failed",
+    "review": "blocked",
     "audit": "blocked",
     "distribution": "blocked",
     "articles": "skipped"
@@ -27,33 +27,25 @@
     "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢",
     "5/1明天記得拜財神！ 命理師曝「3招最強求財步驟」， 正財偏財開運旺整年"
   ],
-  "added_titles": [
-    "5/1明天記得拜財神！ 命理師曝「3招最強求財步驟」， 正財偏財開運旺整年"
-  ],
+  "added_titles": [],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "failed_scripts": [
-    "review_daily_content.py"
+    "generate_daily_content.py"
   ],
   "steps": [
     {
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月2日 22:11"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月3日 14:06"
     },
     {
       "script": "generate_daily_content.py",
-      "returncode": 0,
-      "ok": true,
-      "output": "generated Gemini content bundle at 2026年5月2日 22:11 using gemini-2.5-pro"
-    },
-    {
-      "script": "review_daily_content.py",
       "returncode": 1,
       "ok": false,
-      "output": "Gemini review failed: network or API error: HTTP Error 503: Service Unavailable"
+      "output": "Gemini content generation failed: network or API error: HTTP Error 503: Service Unavailable"
     }
   ]
 }
