@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-05-03",
-  "updated_at_display": "2026年5月3日 14:06",
+  "updated_at_display": "2026年5月3日 22:12",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-03T14:06:22.361878+08:00",
+    "fetched_at": "2026-05-03T22:12:42.453689+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 7/8）。"
   ],
   "items": [
     {
@@ -271,23 +271,23 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "【 挑戰 \"生鐵鑊\" 系列 】 碧玉內子命令本人蒜蓉炒呢堆嘢 本人成功用生鐵鑊炒靚呢堆嘢唔燶唔黐底 完美避免犯太座 #生鐵鑊炒嘢唔燶唔黐底 #犯太座 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰",
+      "title": "🔥習近平運勢終結?! 三個命理師同樣預言",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1vdTZQcDN6M2NGNGx1SzU2SVFYeVBrZHNjUzhkeFFMY3dKeG9rRnUyVGhmTWRWaG9hSlRWNzdLNi1FM2JuQm0wQzdNTlBNb0g2b3V5djc1SHpmVzdiV3ptc05vTVkzS2Y0ZDBPcVR3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01UGhiVVEteE9oQkRUQ1RlRi1fSTJwZW9HOWZ6b2Q3RWhuV0NsX2tVQXo4c2IyUUhydmpRYjIxdzZjUFVDU29UVndMaDk5SEdiVG1RN3JKMDROc3g5Z0ZQNlNfdXlacTg?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E7%AE%97%E5%91%BD%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "风水玄学",
-      "published": "2026-04-28",
-      "published_display": "2026-04-28",
+      "category": "命理新闻",
+      "published": "2026-05-03",
+      "published_display": "2026-05-03",
       "matched_keywords": [
         "命理",
-        "算命",
-        "流年"
+        "命理師",
+        "運勢"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-77"
+      "event_cluster": "event-46"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -325,7 +325,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "5/1明天記得拜財神！ 命理師曝「3招最強求財步驟」， 正財偏財開運旺整年",
@@ -366,30 +366,29 @@
       "event_cluster": "event-07"
     },
     {
-      "title": "快看今日運勢！命理師：「這星座」正偏財旺翻 滑手機就有錢",
-      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5fMnR3bXl5RUJZNnotV1Jya0VHYThyRE1POXVKcjVOYUpUdllIMEdtVkYwT3JCWjk4dk11ZTA5dVlSLTlCUmNWMGZXN0JYQQ?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "TVBS新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-04-29",
-      "published_display": "2026-04-29",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-08"
-    },
-    {
       "title": "夏季財運誰最旺？ 命理師點名「4生肖」：把握黃金轉運期",
       "summary": "来自 聯合新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB3akFObGJCVlI4Nk1lc1c0amhSYTB5VEJPaXZhMHdydkNyampqSExIUjFLT3NDakg3azUzVjQ4UkdKWWdsRXFPWTlHN2p5cFVR0gFWQVVfeXFMT1pFUGFWTnBmbkFqcjN3bkRwSk1xZEhVbkJ5ZDNSZVQta1NvT1YwQnhPa1VxemJKOVk5TlB5WmRiTF9RYTBsdENESm1jWUJRbHhGVUNpUkE?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "聯合新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-05-03",
+      "published_display": "2026-05-03",
+      "matched_keywords": [
+        "命理",
+        "命理師"
+      ],
+      "score": 12.55,
+      "event_cluster": "event-11"
+    },
+    {
+      "title": "「立夏」將至！命理師：當天最忌「1事」 否則病整年",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TSWhPaXdMZklwelNfSGZHbVRwYjBjaTFaVFR1LVY3QjJ4SXFDVmhjamJLSU1jQm5XTDA1aE5FNXM1eDAwMTE1YkhfWjFCSm4yWGozSkJlWFfSAV9BVV95cUxNRHBMLXJDNDBsSUxXOVM4NGlDeEFDN3dHaEREMUJOeUlocGM0UHB4ZzJ2LXpyaWRFYlRqZ2xJNzJfTkFPZ0NZdjdMVV8wR3U4TDlxcFdLU3B1ZVFDOWV5OA?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞網SETN.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
