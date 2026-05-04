@@ -1,23 +1,23 @@
 {
-  "ran_at": "2026-05-04T14:14:42.836582+08:00",
-  "ran_at_display": "2026年5月4日 14:14",
-  "overall_status": "failed_audit",
+  "ran_at": "2026-05-04T23:11:47.687741+08:00",
+  "ran_at_display": "2026年5月4日 23:11",
+  "overall_status": "failed_distribution",
   "force_refresh": true,
-  "previous_signature": "42e239cf2a174c34ca66a00a38dba91afd72ee89",
-  "new_signature": "643631e1b5d8737c32a159f0da10db03849709b6",
+  "previous_signature": "643631e1b5d8737c32a159f0da10db03849709b6",
+  "new_signature": "13b6616beb6ba21ad2479cd5c78a2692de52da36",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
   "audit_ran": true,
   "fresh_bundle_ready": true,
-  "distribution_ran": false,
+  "distribution_ran": true,
   "articles_ran": false,
   "stage_status": {
     "update": "ok",
     "generate": "ok",
     "review": "ok",
-    "audit": "failed",
-    "distribution": "blocked",
+    "audit": "ok",
+    "distribution": "failed",
     "articles": "skipped"
   },
   "new_titles": [
@@ -25,27 +25,29 @@
     "🔥習近平運勢終結?! 三個命理師同樣預言",
     "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
     "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢",
-    "5/1明天記得拜財神！ 命理師曝「3招最強求財步驟」， 正財偏財開運旺整年"
+    "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作"
+  ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 7/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "failed_scripts": [
-    "audit_daily_content.py"
+    "distribute_daily_content.py"
   ],
   "steps": [
     {
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月4日 14:14"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月4日 23:12"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年5月4日 14:14 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年5月4日 23:12 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
@@ -55,9 +57,15 @@
     },
     {
       "script": "audit_daily_content.py",
+      "returncode": 0,
+      "ok": true,
+      "output": "content audit passed with 0 warnings"
+    },
+    {
+      "script": "distribute_daily_content.py",
       "returncode": 1,
       "ok": false,
-      "output": "content audit failed"
+      "output": "prepared 6 distribution jobs; queued 4 jobs to Buffer; 2 jobs failed\ndistribution completed with 2 publishing failures"
     }
   ]
 }

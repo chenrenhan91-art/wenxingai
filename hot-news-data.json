@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-05-04",
-  "updated_at_display": "2026年5月4日 14:14",
+  "updated_at_display": "2026年5月4日 23:12",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-04T14:14:58.235103+08:00",
+    "fetched_at": "2026-05-04T23:12:04.757192+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 7/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "items": [
     {
@@ -287,7 +287,7 @@
         "運勢"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-46"
+      "event_cluster": "event-50"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -328,25 +328,6 @@
       "event_cluster": "event-05"
     },
     {
-      "title": "5/1明天記得拜財神！ 命理師曝「3招最強求財步驟」， 正財偏財開運旺整年",
-      "summary": "来自 風傳媒 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9UaWM3emREcFJ2dmJYM3AxbVhlX2x1eEZSZFJ3enRUSGlzUVdETW9QR3JDanJ2d2hkNHdZR25RYVg4TDNKRFJWUmVMSXIydjNM?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "風傳媒 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-04-30",
-      "published_display": "2026-04-30",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-06"
-    },
-    {
       "title": "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作",
       "summary": "来自 聯合新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBvbnA1SzJSRHBWY0RCeDFYbVRwR1BJbGllSjJxeVh2NnFieFcyWWw1WnRTM3p6X2xTNzJYUDNVR2VKWlNhc3hqLXE0bGdFVXcz0gFWQVVfeXFMUDM4ZGlyY1dqb09naVZpM1U0Snl3aTlvYnl4NGdVUl9URjRLYWdicEhmVnpUWDBvcVdTc2VnRlBseDdEdExMeGNXaUg0dzg3RlBta2NZMXc?oc=5",
@@ -363,25 +344,26 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-06"
     },
     {
-      "title": "天赦日遇土地婆聖誕！3禁忌曝 命理師：做錯福氣跑光",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxOd3Noa3pPVU5hZjQtMm44VXBWYThRSG9KQ1l1cVBMMVBUeFdsZ25oTFd2cWVGN1p6VEJOLVFFSEN4dXVaTzVmZGdleV9sWGpFU0E3WmxTdHlPZWhfelF3cktibGVJRzlEQlhwZnZCand6Zm01cHAwelNUdjZqSE1iWEJYRjlWZ0s0V0xwaWwzeW5pUF9MRTJPUkFibXMtdXMyQl9qQ3g2RlRheFRQMWU5MFBmUzNzT0RybHB5Nnhab2hHRDJvb1FueUJMQnlXc2VPaFZuYTNFSk1VNkZiV3pDRTB0UHRrMjNYZGdFeVpQdnJFaEo1VHNHTHYxMXk5QnAycEYxV19hRTdPdUhvSVpkYjNOMDdvVlNrZTRyT2I3WTdjLTYzeUIxd1RadmZaR2FjWGJlcmpwYVUtV0l2U0VMeGlxY3d4a2p3alZqWGI0cUxjeFV6?oc=5",
+      "title": "【塔羅5月運勢占卜】你的運勢要往上走了嗎？一件好事正在發生| 星座命理| 生活",
+      "summary": "来自 聯合新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1tUTZBcDRLdVBNNUdHNy1hUkppR3B3dW5rSTRCQnozcjl4UDJuVXJER2tCWWRydHRDZHpORmNFLVhaRDEzSHRLMWg3S19xZnlN?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
+      "source": "聯合新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-05-04",
-      "published_display": "2026-05-04",
+      "category": "塔罗星象",
+      "published": "2026-04-29",
+      "published_display": "2026-04-29",
       "matched_keywords": [
         "命理",
-        "命理師"
+        "運勢",
+        "塔羅"
       ],
-      "score": 12.55,
-      "event_cluster": "event-08"
+      "score": 13.55,
+      "event_cluster": "event-07"
     },
     {
       "title": "天赦日＋土地婆生日！命理師曝3大禁忌 恐讓下半年財運全跑光",
@@ -400,6 +382,25 @@
       ],
       "score": 12.55,
       "event_cluster": "event-09"
+    },
+    {
+      "title": "明天立夏 命理師：回到現實不空談 這5星座走好運",
+      "summary": "来自 東森新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5cmdjamFLOXZ0YjVoZWRPWU00S1BIb194V2FsQVhrT2h5eVNCLVhOUE8yVFFWNDZYYkJneEt1NWJJa2Z2ZXdGb0ZuZVpCOEVxVF9ZZw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "東森新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-05-04",
+      "published_display": "2026-05-04",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "星座"
+      ],
+      "score": 12.55,
+      "event_cluster": "event-10"
     }
   ]
 }
