@@ -1,22 +1,22 @@
 {
-  "ran_at": "2026-05-03T22:12:26.285791+08:00",
-  "ran_at_display": "2026年5月3日 22:12",
-  "overall_status": "failed_review",
+  "ran_at": "2026-05-04T14:14:42.836582+08:00",
+  "ran_at_display": "2026年5月4日 14:14",
+  "overall_status": "failed_audit",
   "force_refresh": true,
-  "previous_signature": "014112617d0dd25e0046b333dd07138314f15975",
-  "new_signature": "42e239cf2a174c34ca66a00a38dba91afd72ee89",
+  "previous_signature": "42e239cf2a174c34ca66a00a38dba91afd72ee89",
+  "new_signature": "643631e1b5d8737c32a159f0da10db03849709b6",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
-  "audit_ran": false,
+  "audit_ran": true,
   "fresh_bundle_ready": true,
   "distribution_ran": false,
   "articles_ran": false,
   "stage_status": {
     "update": "ok",
     "generate": "ok",
-    "review": "failed",
-    "audit": "blocked",
+    "review": "ok",
+    "audit": "failed",
     "distribution": "blocked",
     "articles": "skipped"
   },
@@ -27,33 +27,37 @@
     "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢",
     "5/1明天記得拜財神！ 命理師曝「3招最強求財步驟」， 正財偏財開運旺整年"
   ],
-  "added_titles": [
-    "🔥習近平運勢終結?! 三個命理師同樣預言"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 7/8）。"
   ],
   "failed_scripts": [
-    "review_daily_content.py"
+    "audit_daily_content.py"
   ],
   "steps": [
     {
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月3日 22:12"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月4日 14:14"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年5月3日 22:12 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年5月4日 14:14 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
+      "returncode": 0,
+      "ok": true,
+      "output": "reviewed Gemini content bundle using gemini-2.5-pro"
+    },
+    {
+      "script": "audit_daily_content.py",
       "returncode": 1,
       "ok": false,
-      "output": "Gemini review failed: network or API error: HTTP Error 503: Service Unavailable"
+      "output": "content audit failed"
     }
   ]
 }

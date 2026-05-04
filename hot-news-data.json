@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-03",
-  "updated_at_display": "2026年5月3日 22:12",
+  "updated_at": "2026-05-04",
+  "updated_at_display": "2026年5月4日 14:14",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-03T22:12:42.453689+08:00",
+    "fetched_at": "2026-05-04T14:14:58.235103+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -366,40 +366,40 @@
       "event_cluster": "event-07"
     },
     {
-      "title": "夏季財運誰最旺？ 命理師點名「4生肖」：把握黃金轉運期",
-      "summary": "来自 聯合新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB3akFObGJCVlI4Nk1lc1c0amhSYTB5VEJPaXZhMHdydkNyampqSExIUjFLT3NDakg3azUzVjQ4UkdKWWdsRXFPWTlHN2p5cFVR0gFWQVVfeXFMT1pFUGFWTnBmbkFqcjN3bkRwSk1xZEhVbkJ5ZDNSZVQta1NvT1YwQnhPa1VxemJKOVk5TlB5WmRiTF9RYTBsdENESm1jWUJRbHhGVUNpUkE?oc=5",
+      "title": "天赦日遇土地婆聖誕！3禁忌曝 命理師：做錯福氣跑光",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxOd3Noa3pPVU5hZjQtMm44VXBWYThRSG9KQ1l1cVBMMVBUeFdsZ25oTFd2cWVGN1p6VEJOLVFFSEN4dXVaTzVmZGdleV9sWGpFU0E3WmxTdHlPZWhfelF3cktibGVJRzlEQlhwZnZCand6Zm01cHAwelNUdjZqSE1iWEJYRjlWZ0s0V0xwaWwzeW5pUF9MRTJPUkFibXMtdXMyQl9qQ3g2RlRheFRQMWU5MFBmUzNzT0RybHB5Nnhab2hHRDJvb1FueUJMQnlXc2VPaFZuYTNFSk1VNkZiV3pDRTB0UHRrMjNYZGdFeVpQdnJFaEo1VHNHTHYxMXk5QnAycEYxV19hRTdPdUhvSVpkYjNOMDdvVlNrZTRyT2I3WTdjLTYzeUIxd1RadmZaR2FjWGJlcmpwYVUtV0l2U0VMeGlxY3d4a2p3alZqWGI0cUxjeFV6?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "聯合新聞網 · Google News",
+      "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-05-03",
-      "published_display": "2026-05-03",
+      "published": "2026-05-04",
+      "published_display": "2026-05-04",
       "matched_keywords": [
         "命理",
         "命理師"
       ],
       "score": 12.55,
-      "event_cluster": "event-11"
+      "event_cluster": "event-08"
     },
     {
-      "title": "「立夏」將至！命理師：當天最忌「1事」 否則病整年",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TSWhPaXdMZklwelNfSGZHbVRwYjBjaTFaVFR1LVY3QjJ4SXFDVmhjamJLSU1jQm5XTDA1aE5FNXM1eDAwMTE1YkhfWjFCSm4yWGozSkJlWFfSAV9BVV95cUxNRHBMLXJDNDBsSUxXOVM4NGlDeEFDN3dHaEREMUJOeUlocGM0UHB4ZzJ2LXpyaWRFYlRqZ2xJNzJfTkFPZ0NZdjdMVV8wR3U4TDlxcFdLU3B1ZVFDOWV5OA?oc=5",
+      "title": "天赦日＋土地婆生日！命理師曝3大禁忌 恐讓下半年財運全跑光",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMihANBVV95cUxQWWFmbC1mdXdpNHBRY3FrRmpmWTJfTHZXMUlZemJ5M0ZYTFJ5LTF5YlQzeTVpRTJYTVJETzhUWnJ1WGpQd0k2WnRrWExUbWJNcE1QcGRHRjN3SjNWaG5PSFBqeVZtMXVWWmZWUWVwMTdMNFBUd1NqSWdRNW1Cd3V4SU9TNGl0VThJc1V1N2NOOEEyZUwyQ2VwdXRzNkh4aWtfNUVqV1czSHpwMmc2VDIwbmVqVHFmMmpVMmlYQnVSc2R0SnNVVmdrdndYZWJ6NFRoeXcwalR5WXk0OFUyQWwxY3pkMlFieGd1V1Zvbzh5Uy1FUXRFSzYxdjBqQ0JnSkpGVDZxdDZTcE9qRmsxMk1tdEJpYTNGZU1zTjJFTktxUFFMU0FCb1Q1OU9rNVFTYkpXU2hiaW9OQTN3TjBoWTU0MVljMzNsTDJ5UXhnTFJob3h5Z3FvdkZBa2syMnZfblFXWGpWWHdhSjVZLUhadWJhbmM0TjBtVU9XMENfLXJQMUxwS0E1?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
+      "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-05-03",
-      "published_display": "2026-05-03",
+      "published": "2026-05-04",
+      "published_display": "2026-05-04",
       "matched_keywords": [
         "命理",
         "命理師"
       ],
       "score": 12.55,
-      "event_cluster": "event-12"
+      "event_cluster": "event-09"
     }
   ]
 }
