@@ -1,53 +1,54 @@
 {
-  "ran_at": "2026-05-04T23:11:47.687741+08:00",
-  "ran_at_display": "2026年5月4日 23:11",
-  "overall_status": "failed_distribution",
+  "ran_at": "2026-05-05T13:44:26.978669+08:00",
+  "ran_at_display": "2026年5月5日 13:44",
+  "overall_status": "failed_audit",
   "force_refresh": true,
-  "previous_signature": "643631e1b5d8737c32a159f0da10db03849709b6",
-  "new_signature": "13b6616beb6ba21ad2479cd5c78a2692de52da36",
+  "previous_signature": "13b6616beb6ba21ad2479cd5c78a2692de52da36",
+  "new_signature": "f9f1da6b70e27df4ebe1ceba82566ef422bdcd1a",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
   "audit_ran": true,
   "fresh_bundle_ready": true,
-  "distribution_ran": true,
+  "distribution_ran": false,
   "articles_ran": false,
   "stage_status": {
     "update": "ok",
     "generate": "ok",
     "review": "ok",
-    "audit": "ok",
-    "distribution": "failed",
+    "audit": "failed",
+    "distribution": "blocked",
     "articles": "skipped"
   },
   "new_titles": [
     "流年運勢你算了嗎? #開運軍師尹森#風水尹森#流年 #算命 #紫微斗數#八字 #命盤#尹森老師#尹森#命理師#命理師推薦#風水師推薦#2026運勢 #https #家居風水宜忌",
     "🔥習近平運勢終結?! 三個命理師同樣預言",
     "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
-    "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢",
-    "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作"
+    "今天立夏小心破財！命理師警告：這個動作恐讓財運流失，「2做4不做」開運關鍵一次看",
+    "立夏將至!12生肖運勢一次看 命理師：6類人氣場全面升溫"
   ],
   "added_titles": [
-    "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作"
+    "今天立夏小心破財！命理師警告：這個動作恐讓財運流失，「2做4不做」開運關鍵一次看",
+    "立夏將至!12生肖運勢一次看 命理師：6類人氣場全面升溫"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 7/8）。"
   ],
   "failed_scripts": [
-    "distribute_daily_content.py"
+    "audit_daily_content.py"
   ],
   "steps": [
     {
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月4日 23:12"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月5日 13:44"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年5月4日 23:12 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年5月5日 13:44 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
@@ -57,15 +58,9 @@
     },
     {
       "script": "audit_daily_content.py",
-      "returncode": 0,
-      "ok": true,
-      "output": "content audit passed with 0 warnings"
-    },
-    {
-      "script": "distribute_daily_content.py",
       "returncode": 1,
       "ok": false,
-      "output": "prepared 6 distribution jobs; queued 4 jobs to Buffer; 2 jobs failed\ndistribution completed with 2 publishing failures"
+      "output": "content audit failed"
     }
   ]
 }
