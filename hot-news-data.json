@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-05-06",
-  "updated_at_display": "2026年5月6日 14:06",
+  "updated_at_display": "2026年5月6日 23:28",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-06T14:06:59.594404+08:00",
+    "fetched_at": "2026-05-06T23:28:24.742364+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "items": [
     {
@@ -287,7 +287,7 @@
         "運勢"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-64"
+      "event_cluster": "event-69"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -309,25 +309,6 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "立夏來了！命理師揭運勢加速期「5大星座」迎財運、桃花雙旺",
-      "summary": "来自 聯合新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1HQlJLamxBeE5GOUstTHdWTWhFQU5vSzRXSFBaYXBFVHBhZVJycV9LcVRuSTFqUGJUUThWY2hEbmU5ZTNUM3VCZmZVYldocUQ50gFWQVVfeXFMTnBsOE5oTGJfNlhsTlg3OUFORFJDX0laM1ZfWDk3aU01bkRpSUQyLVQ0bFFHbVZjQ1UyZ0tkbXRXUDRjT0tZU3ptZHVqNDlxNnN3V2tlWmc?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "聯合新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-05-05",
-      "published_display": "2026-05-05",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
       "title": "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作",
       "summary": "来自 聯合新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBvbnA1SzJSRHBWY0RCeDFYbVRwR1BJbGllSjJxeVh2NnFieFcyWWw1WnRTM3p6X2xTNzJYUDNVR2VKWlNhc3hqLXE0bGdFVXcz0gFWQVVfeXFMUDM4ZGlyY1dqb09naVZpM1U0Snl3aTlvYnl4NGdVUl9URjRLYWdicEhmVnpUWDBvcVdTc2VnRlBseDdEdExMeGNXaUg0dzg3RlBta2NZMXc?oc=5",
@@ -344,7 +325,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-04"
     },
     {
       "title": "立夏後16天運勢起飛！命理師曝「6大生肖」氣場升溫率先翻盤登頂| 星座命理| 生活",
@@ -363,7 +344,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-05"
     },
     {
       "title": "今天立夏小心破財！命理師警告：這個動作恐讓財運流失，「2做4不做」開運關鍵一次看",
@@ -382,7 +363,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-06"
     },
     {
       "title": "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢",
@@ -401,6 +382,24 @@
         "運勢"
       ],
       "score": 14.750000000000002,
+      "event_cluster": "event-08"
+    },
+    {
+      "title": "謝國樑病情加重! 命理師早預言基隆首長出事",
+      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPZkNQLTh2STZCQkNFekZjbGNIRkFHQWRPa2hKQXh0NjBSTmxaNVRpY2xaeEJHQnFRMlNDd1NRZ1pLT2Q1cV84YnlUWm9TR0NMbU9xb0hOTDA0TFZCMm1TTUVnVlo4X0xBYV9RaFhhT3luWWYyLWdXV2NCV0NhcmtDVjhOanNDYzB6MjVHdERJVjRTSTlKQ0JrZkhKM3ZETzQ4VjQ0TjhQV19hWDkzRUUtbDdXSG4wVzRRU2dhc2lzTXgxR21NblpEcFNHSm1pVlF0UUZJeklOX3ktZGYzSU9xOXRSZmhHRkVwLXNVbXM4LWdxVERPR3BrQlFocFFKZWVnSndUaS1Ec0djVlBLQ05veGg5Vlh0LVNITnpSTFd0bGt6MkhoUExLaVRxb1QxaUJ6eFVEaTB6QmxUUzE4VEs1ZmJrTWlIajg?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "MSN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-05-06",
+      "published_display": "2026-05-06",
+      "matched_keywords": [
+        "命理",
+        "命理師"
+      ],
+      "score": 12.55,
       "event_cluster": "event-09"
     }
   ]
