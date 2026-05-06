@@ -1,0 +1,141 @@
+name: Update Hot News
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/update_hot_news.py"
+      - "scripts/generate_daily_content.py"
+      - "scripts/review_daily_content.py"
+      - "scripts/audit_daily_content.py"
+      - "scripts/distribute_daily_content.py"
+      - "scripts/run_content_pipeline.py"
+      - "hot-news-sources.json"
+      - "prompts/gemini_daily_content_prompt.txt"
+      - "prompts/gemini_content_review_prompt.txt"
+      - "BUFFER_SETUP.md"
+      - ".env.example"
+      - ".github/workflows/update-hot-news.yml"
+  schedule:
+    - cron: "0 3 * * *"
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+    inputs:
+      force_refresh:
+        description: "Force Gemini regeneration and Buffer distribution even if hot-news signature is unchanged"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  update-hot-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate required configuration
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_REVIEW_MODEL: ${{ vars.GEMINI_REVIEW_MODEL }}
+          BUFFER_THREADS_PROFILE_ID: ${{ vars.BUFFER_THREADS_PROFILE_ID }}
+          BUFFER_X_PROFILE_ID: ${{ vars.BUFFER_X_PROFILE_ID }}
+          BUFFER_INSTAGRAM_PROFILE_ID: ${{ vars.BUFFER_INSTAGRAM_PROFILE_ID }}
+          SOCIAL_ENABLED_PLATFORMS: ${{ vars.SOCIAL_ENABLED_PLATFORMS }}
+          SOCIAL_THREADS_LOCALE: ${{ vars.SOCIAL_THREADS_LOCALE }}
+          SOCIAL_X_LOCALE: ${{ vars.SOCIAL_X_LOCALE }}
+          SOCIAL_INSTAGRAM_LOCALE: ${{ vars.SOCIAL_INSTAGRAM_LOCALE }}
+          SOCIAL_LANDING_URL: ${{ vars.SOCIAL_LANDING_URL }}
+        run: |
+          missing=()
+          [ -n "$GEMINI_API_KEY" ] || missing+=("secret:GEMINI_API_KEY")
+          [ -n "$BUFFER_API_KEY" ] || missing+=("secret:BUFFER_API_KEY")
+          [ -n "$GEMINI_MODEL" ] || missing+=("var:GEMINI_MODEL")
+          [ -n "$GEMINI_REVIEW_MODEL" ] || missing+=("var:GEMINI_REVIEW_MODEL")
+          [ -n "$BUFFER_THREADS_PROFILE_ID" ] || missing+=("var:BUFFER_THREADS_PROFILE_ID")
+          [ -n "$BUFFER_X_PROFILE_ID" ] || missing+=("var:BUFFER_X_PROFILE_ID")
+          [ -n "$BUFFER_INSTAGRAM_PROFILE_ID" ] || missing+=("var:BUFFER_INSTAGRAM_PROFILE_ID")
+          [ -n "$SOCIAL_ENABLED_PLATFORMS" ] || missing+=("var:SOCIAL_ENABLED_PLATFORMS")
+          [ -n "$SOCIAL_THREADS_LOCALE" ] || missing+=("var:SOCIAL_THREADS_LOCALE")
+          [ -n "$SOCIAL_X_LOCALE" ] || missing+=("var:SOCIAL_X_LOCALE")
+          [ -n "$SOCIAL_INSTAGRAM_LOCALE" ] || missing+=("var:SOCIAL_INSTAGRAM_LOCALE")
+          [ -n "$SOCIAL_LANDING_URL" ] || missing+=("var:SOCIAL_LANDING_URL")
+          if [ ${#missing[@]} -gt 0 ]; then
+            echo "Missing required GitHub Actions configuration:"
+            printf ' - %s\n' "${missing[@]}"
+            exit 1
+          fi
+          echo "GitHub Actions configuration looks complete."
+
+      - name: Run content pipeline
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_REVIEW_MODEL: ${{ vars.GEMINI_REVIEW_MODEL }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_THREADS_PROFILE_ID: ${{ vars.BUFFER_THREADS_PROFILE_ID }}
+          BUFFER_X_PROFILE_ID: ${{ vars.BUFFER_X_PROFILE_ID }}
+          BUFFER_FACEBOOK_PROFILE_ID: ${{ vars.BUFFER_FACEBOOK_PROFILE_ID }}
+          BUFFER_INSTAGRAM_PROFILE_ID: ${{ vars.BUFFER_INSTAGRAM_PROFILE_ID }}
+          SOCIAL_LANDING_URL: ${{ vars.SOCIAL_LANDING_URL }}
+          SOCIAL_ENABLED_PLATFORMS: ${{ vars.SOCIAL_ENABLED_PLATFORMS }}
+          SOCIAL_DEFAULT_LOCALE: ${{ vars.SOCIAL_DEFAULT_LOCALE }}
+          SOCIAL_THREADS_LOCALE: ${{ vars.SOCIAL_THREADS_LOCALE }}
+          SOCIAL_X_LOCALE: ${{ vars.SOCIAL_X_LOCALE }}
+          SOCIAL_INSTAGRAM_LOCALE: ${{ vars.SOCIAL_INSTAGRAM_LOCALE }}
+          SOCIAL_THREADS_LANDING_URL: ${{ vars.SOCIAL_THREADS_LANDING_URL }}
+          SOCIAL_X_LANDING_URL: ${{ vars.SOCIAL_X_LANDING_URL }}
+          SOCIAL_INSTAGRAM_LANDING_URL: ${{ vars.SOCIAL_INSTAGRAM_LANDING_URL }}
+          PIPELINE_FORCE_REFRESH: ${{ github.event_name == 'schedule' || inputs.force_refresh }}
+        run: python3 scripts/run_content_pipeline.py
+
+      - name: Weekly llms-full.txt update (Mondays only)
+        run: |
+          DAY=$(date -u '+%u')
+          if [ "$DAY" = "1" ]; then
+            echo "Monday — running weekly llms update"
+            python3 scripts/update_llms_weekly.py
+          else
+            echo "Day=$DAY — skipping weekly llms update"
+          fi
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add hot-news-data.json index.html mingli-xuanxue-news.html sitemap.xml llms-full.txt llms.txt
+          if [ -f generated/gemini-content-bundle.json ]; then git add generated/gemini-content-bundle.json; fi
+          if [ -f generated/gemini-content-package.md ]; then git add generated/gemini-content-package.md; fi
+          if [ -f generated/gemini-review-report.json ]; then git add generated/gemini-review-report.json; fi
+          if [ -f generated/gemini-review-report.md ]; then git add generated/gemini-review-report.md; fi
+          if [ -f generated/gemini-audit-report.json ]; then git add generated/gemini-audit-report.json; fi
+          if [ -f generated/gemini-audit-report.md ]; then git add generated/gemini-audit-report.md; fi
+          if [ -f generated/distribution-jobs.json ]; then git add generated/distribution-jobs.json; fi
+          if [ -f generated/distribution-package.md ]; then git add generated/distribution-package.md; fi
+          if [ -f generated/distribution-state.json ]; then git add generated/distribution-state.json; fi
+          if [ -f generated/pipeline-state.json ]; then git add generated/pipeline-state.json; fi
+          if [ -f generated/pipeline-report.json ]; then git add generated/pipeline-report.json; fi
+          if [ -f generated/pipeline-report.md ]; then git add generated/pipeline-report.md; fi
+          if [ -d generated/social-posts ]; then git add generated/social-posts; fi
+          git commit -m "chore: update hot news"
+          git push

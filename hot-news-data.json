@@ -1,0 +1,407 @@
+{
+  "updated_at": "2026-05-06",
+  "updated_at_display": "2026年5月6日 14:06",
+  "sources": [
+    {
+      "id": "google_news_mingli_tw",
+      "name": "Google News zh-TW · 命理",
+      "type": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "description": "台湾繁体媒体聚合，追踪命理相关新闻与讨论",
+      "source_group": "news",
+      "category_hint": "命理新闻",
+      "base_weight": 6.2,
+      "max_age_days": 30
+    },
+    {
+      "id": "google_news_xuanxue_tw",
+      "name": "Google News zh-TW · 玄學",
+      "type": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%E7%8E%84%E5%AD%B8+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "description": "台湾繁体媒体聚合，追踪玄学与风水相关新闻",
+      "source_group": "news",
+      "category_hint": "风水玄学",
+      "base_weight": 6.0,
+      "max_age_days": 30
+    },
+    {
+      "id": "google_news_taluo_tw",
+      "name": "Google News zh-TW · 塔羅",
+      "type": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "description": "台湾繁体媒体聚合，追踪塔罗、星象与占卜相关新闻",
+      "source_group": "news",
+      "category_hint": "塔罗星象",
+      "base_weight": 5.8,
+      "max_age_days": 30
+    },
+    {
+      "id": "google_news_fengshui_tw",
+      "name": "Google News zh-TW · 風水",
+      "type": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%E9%A2%A8%E6%B0%B4+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "description": "台湾繁体媒体聚合，追踪风水、空间布局与开运相关新闻",
+      "source_group": "news",
+      "category_hint": "风水玄学",
+      "base_weight": 5.8,
+      "max_age_days": 30
+    },
+    {
+      "id": "ptt_gossiping",
+      "name": "PTT Gossiping",
+      "type": "ptt_search",
+      "url": "https://www.ptt.cc/bbs/Gossiping/index.html",
+      "board": "Gossiping",
+      "queries": [
+        "命理",
+        "八字",
+        "紫微",
+        "玄學",
+        "塔羅"
+      ],
+      "description": "台湾综合讨论板，捕捉正在扩散的命理与玄学话题",
+      "source_group": "community",
+      "category_hint": "社区热议",
+      "base_weight": 5.4,
+      "max_age_days": 120
+    },
+    {
+      "id": "ptt_womentalk",
+      "name": "PTT WomenTalk",
+      "type": "ptt_search",
+      "url": "https://www.ptt.cc/bbs/WomenTalk/index.html",
+      "board": "WomenTalk",
+      "queries": [
+        "塔羅",
+        "玄學",
+        "星座",
+        "算命"
+      ],
+      "description": "台湾生活讨论板，适合观察塔罗、星座与日常玄学热议",
+      "source_group": "community",
+      "category_hint": "塔罗星象",
+      "base_weight": 5.1,
+      "max_age_days": 120
+    },
+    {
+      "id": "ptt_marvel",
+      "name": "PTT marvel",
+      "type": "ptt_search",
+      "url": "https://www.ptt.cc/bbs/marvel/index.html",
+      "board": "marvel",
+      "queries": [
+        "八字",
+        "玄學",
+        "風水"
+      ],
+      "description": "台湾经验讨论板，补充玄学与风水叙事型热帖",
+      "source_group": "community",
+      "category_hint": "风水玄学",
+      "base_weight": 4.6,
+      "max_age_days": 180
+    },
+    {
+      "id": "youtube_search",
+      "name": "YouTube Search",
+      "type": "youtube_search",
+      "url": "https://www.googleapis.com/youtube/v3/search",
+      "queries": [
+        "命理",
+        "玄學",
+        "塔羅",
+        "八字",
+        "紫微斗數"
+      ],
+      "description": "海外华人常用视频平台，默认尝试公开搜索回退；配置 YOUTUBE_API_KEY 后可切换官方 API",
+      "source_group": "video",
+      "category_hint": "社区热议",
+      "base_weight": 5.4,
+      "max_age_days": 30
+    },
+    {
+      "id": "x_recent_search",
+      "name": "X Recent Search",
+      "type": "x_recent_search",
+      "url": "https://x.com/search?q=%E5%91%BD%E7%90%86&src=typed_query",
+      "queries": [
+        "(命理 OR 八字 OR 紫微 OR 玄學 OR 塔羅) lang:zh -is:retweet"
+      ],
+      "fallback_queries": [
+        "命理師",
+        "算命",
+        "紫微",
+        "塔羅"
+      ],
+      "description": "海外华语即时讨论源，默认尝试公开搜索回退；配置 X_BEARER_TOKEN 后可切换官方 API",
+      "source_group": "community",
+      "category_hint": "社区热议",
+      "base_weight": 5.2,
+      "max_age_days": 14
+    },
+    {
+      "id": "reddit_search",
+      "name": "Reddit Search",
+      "type": "reddit_search",
+      "url": "https://www.reddit.com/search/?q=%E5%91%BD%E7%90%86",
+      "queries": [
+        "命理 OR 玄學 OR 塔羅 OR 八字"
+      ],
+      "description": "海外社区讨论源，默认尝试 old.reddit.com 公开搜索；配置 Reddit API 凭证后可切换官方 API",
+      "source_group": "community",
+      "category_hint": "海外话题",
+      "base_weight": 4.8,
+      "max_age_days": 30
+    },
+    {
+      "id": "xiaohongshu_watch",
+      "name": "小红书关键词观察",
+      "type": "watch_urls",
+      "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%91%BD%E7%90%86",
+      "keywords": [
+        "命理",
+        "玄學",
+        "塔羅",
+        "八字"
+      ],
+      "description": "适合补充华语内容创作者热点，当前建议作为人工巡检来源",
+      "source_group": "watch"
+    }
+  ],
+  "source_health": {
+    "fetched_at": "2026-05-06T14:06:59.594404+08:00",
+    "failed_sources": [
+      {
+        "source_id": "reddit_search",
+        "name": "Reddit Search",
+        "error": "HTTP Error 403: Blocked"
+      }
+    ],
+    "source_weights": {
+      "google_news_mingli_tw": 6.55,
+      "google_news_xuanxue_tw": 6.05,
+      "google_news_taluo_tw": 5.85,
+      "google_news_fengshui_tw": 5.85,
+      "ptt_gossiping": 5.55,
+      "ptt_womentalk": 5.15,
+      "ptt_marvel": 4.65,
+      "youtube_search": 5.55,
+      "x_recent_search": 5.35,
+      "reddit_search": 4.0,
+      "xiaohongshu_watch": 5.05
+    },
+    "by_source": {
+      "google_news_mingli_tw": {
+        "status": "ok",
+        "picked_items": 5,
+        "failures": 0
+      },
+      "google_news_xuanxue_tw": {
+        "status": "ok",
+        "picked_items": 0,
+        "failures": 0
+      },
+      "google_news_taluo_tw": {
+        "status": "ok",
+        "picked_items": 0,
+        "failures": 0
+      },
+      "google_news_fengshui_tw": {
+        "status": "ok",
+        "picked_items": 0,
+        "failures": 0
+      },
+      "ptt_gossiping": {
+        "status": "ok",
+        "picked_items": 1,
+        "failures": 0
+      },
+      "ptt_womentalk": {
+        "status": "ok",
+        "picked_items": 0,
+        "failures": 0
+      },
+      "ptt_marvel": {
+        "status": "ok",
+        "picked_items": 0,
+        "failures": 0
+      },
+      "youtube_search": {
+        "status": "ok",
+        "picked_items": 1,
+        "failures": 0
+      },
+      "x_recent_search": {
+        "status": "ok",
+        "picked_items": 1,
+        "failures": 0
+      },
+      "reddit_search": {
+        "status": "failed",
+        "picked_items": 0,
+        "failures": 1
+      },
+      "xiaohongshu_watch": {
+        "status": "ok",
+        "picked_items": 0,
+        "failures": 0
+      }
+    }
+  },
+  "ops_hints": [
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+  ],
+  "items": [
+    {
+      "title": "流年運勢你算了嗎? #開運軍師尹森#風水尹森#流年 #算命 #紫微斗數#八字 #命盤#尹森老師#尹森#命理師#命理師推薦#風水師推薦#2026運勢 #https #家居風水宜忌",
+      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAwdUNiajVJanNaTGdBU2NCdVA5aFZLVVEyRUw0cllwTGp6d1djX3hHa3Z5ZFdxeThhWGZHNkVLeTNxLU9WbWJ1blRabHZUWWYtdzJKaA?oc=5",
+      "source_id": "youtube_search",
+      "source": "YouTube · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "video",
+      "category": "风水玄学",
+      "published": "2026-04-16",
+      "published_display": "2026-04-16",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "算命"
+      ],
+      "score": 18.95,
+      "event_cluster": "event-03"
+    },
+    {
+      "title": "🔥習近平運勢終結?! 三個命理師同樣預言",
+      "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01UGhiVVEteE9oQkRUQ1RlRi1fSTJwZW9HOWZ6b2Q3RWhuV0NsX2tVQXo4c2IyUUhydmpRYjIxdzZjUFVDU29UVndMaDk5SEdiVG1RN3JKMDROc3g5Z0ZQNlNfdXlacTg?oc=5",
+      "source_id": "x_recent_search",
+      "source": "X · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "community",
+      "category": "命理新闻",
+      "published": "2026-05-03",
+      "published_display": "2026-05-03",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 12.149999999999999,
+      "event_cluster": "event-64"
+    },
+    {
+      "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
+      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 51，作者 emuless。",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1776605418.A.FD7.html",
+      "source_id": "ptt_gossiping",
+      "source": "PTT Gossiping",
+      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
+      "source_group": "community",
+      "category": "命理新闻",
+      "published": "2026-04-19",
+      "published_display": "2026-04-19",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "热议"
+      ],
+      "score": 26.95,
+      "event_cluster": "event-01"
+    },
+    {
+      "title": "立夏來了！命理師揭運勢加速期「5大星座」迎財運、桃花雙旺",
+      "summary": "来自 聯合新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1HQlJLamxBeE5GOUstTHdWTWhFQU5vSzRXSFBaYXBFVHBhZVJycV9LcVRuSTFqUGJUUThWY2hEbmU5ZTNUM3VCZmZVYldocUQ50gFWQVVfeXFMTnBsOE5oTGJfNlhsTlg3OUFORFJDX0laM1ZfWDk3aU01bkRpSUQyLVQ0bFFHbVZjQ1UyZ0tkbXRXUDRjT0tZU3ptZHVqNDlxNnN3V2tlWmc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "聯合新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-05-05",
+      "published_display": "2026-05-05",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
+    },
+    {
+      "title": "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作",
+      "summary": "来自 聯合新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBvbnA1SzJSRHBWY0RCeDFYbVRwR1BJbGllSjJxeVh2NnFieFcyWWw1WnRTM3p6X2xTNzJYUDNVR2VKWlNhc3hqLXE0bGdFVXcz0gFWQVVfeXFMUDM4ZGlyY1dqb09naVZpM1U0Snl3aTlvYnl4NGdVUl9URjRLYWdicEhmVnpUWDBvcVdTc2VnRlBseDdEdExMeGNXaUg0dzg3RlBta2NZMXc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "聯合新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-05-05",
+      "published_display": "2026-05-05",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-05"
+    },
+    {
+      "title": "立夏後16天運勢起飛！命理師曝「6大生肖」氣場升溫率先翻盤登頂| 星座命理| 生活",
+      "summary": "来自 聯合新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpajBsZXl4dFA3T2Y3b2d0bEwwdlU3TmRKVlMtUVRFOUVObWZJVS1naUUzeWt5bFZ1ejdHbVVmeHhrZnh0YnM0VVktSmhGMDdCUC16blozVGtCX2hXWEJnY3dCVUxROTN0c0dhSmhKSjg3ZlRWSUNsMnF3Zw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "聯合新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-05-05",
+      "published_display": "2026-05-05",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-06"
+    },
+    {
+      "title": "今天立夏小心破財！命理師警告：這個動作恐讓財運流失，「2做4不做」開運關鍵一次看",
+      "summary": "来自 ELLE · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTDZzSExmQk01Mm5VekJTTy1qeTNZRFNNMGhoTlRVdFNqbS1yWW8yVnp0M1JwR2owRXFabXE4Zi1Wd1FlcjZRQkJjRktIMGZ3VDRzbHdhOWQwZ0dTc3U4VjA2cXhvbHFIZS1iNVRCaHFpeW5zU3lINTVrd2g0YTVmNVpncw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "ELLE · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-05-05",
+      "published_display": "2026-05-05",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-07"
+    },
+    {
+      "title": "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢",
+      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi_ARBVV95cUxQaXk0bnYxTE1NM1FfcGdrVWstWkhKalczeDZOenRyTWgycHpnZlF1cEhpbUJIOERnRGZqWkhidDRRVms3Z1l5ZXBjakE5Y0JhbHl6Q1R4SjN0SFRwaTdRa2hJNEpSTnpwNWFkTkEwSkdOY05iWXlpSWM0c2FLNDAzS09nMXJMek1ZeDJISHVLVldVeVFHWk4yQzZjSENJeUNFLVdHaVVwbTRUNjZGTTc4MXE4ekpfY3NZbWthRnpwV3hfendnSTEzenhvcVMzenVXYUxsYTMwa2JUZjRHanhJWUhMd212SkhPQlM3bi02OEtqal9fQkF5UmVjWjZIczVEbmt6MUtubHd4ZHFxdHNfUlpWUkZKUUJpS21pbl9aWnJZOWJmVjVSYXRCNmtTQWpMeE9uRU9CT3lPeEFKSGgzMEI4NUY4RWF0eTI1WUVZSU50bzRYM2tSUlZRUU1BTi1idkZKS2xIekM3MlNHbjdCbmRkVndyYk5yUlFUZVJZMEZTLVMxS3RyVldweUpUTHZLVkkydmQ2aWNDdDRTa3drR1V4cWIySWVBLXYtQnp2bVpZTWJNYWd3MmdEdmdjTEZCb09sRFdfWDdRUkhIejJEdG1nVE1fZXk2U1B2UDVLTlUzM21rTGVaMkFfUDlzRC1OTmUwWXBJWWhoc3NuNVN1anE5ZHVxSUxPV1FabnZGSjc2aEFVNHJiT2dLV0podkQ5YlZmUHgxLUdVRTlRTWZRM18ybVAyZkNsZGpocG1XbmM1bENnZUszRXN2cFU2ZWFzaFVYdzFqaXNmLUdQc0pqNmtuNW9mOVNIN0RLeWgyLThfcFQzbkxQdUpXRkk?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "MSN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-05-01",
+      "published_display": "2026-05-01",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-09"
+    }
+  ]
+}

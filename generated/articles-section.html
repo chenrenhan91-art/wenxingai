@@ -1,0 +1,231 @@
+<!--
+深度文章导航片段
+可以嵌入到 index.html 的合适位置（例如在"热点新闻"部分之后）
+
+用法:
+1. 在 index.html 中找到合适位置（比如 <section id="news"> 之后）
+2. 添加下面的 HTML 和 JavaScript
+3. 文章列表会自动从 articles-index.json 加载
+-->
+
+<section id="articles" class="articles-section">
+    <div class="section-header">
+        <h2>深度解读</h2>
+        <p>由问星AI自动生成的命理热点深度分析文章</p>
+    </div>
+    
+    <div id="articles-container" class="articles-grid">
+        <div class="loading-state">
+            <p>正在加载文章列表...</p>
+        </div>
+    </div>
+    
+    <div class="section-footer">
+        <a href="/mingli-xuanxue-news.html" class="link-button">查看所有热点新闻</a>
+    </div>
+</section>
+
+<style>
+    .articles-section {
+        margin: 60px 0;
+        padding: 40px 20px;
+        background: linear-gradient(135deg, rgba(114, 14, 83, 0.05), rgba(160, 21, 102, 0.05));
+        border-radius: 12px;
+    }
+    
+    .section-header {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    .section-header h2 {
+        font-size: 2em;
+        color: #1a1a1a;
+        margin-bottom: 10px;
+    }
+    
+    .section-header p {
+        color: #666;
+        font-size: 1em;
+    }
+    
+    .articles-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .article-card {
+        background: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .article-card:hover {
+        box-shadow: 0 4px 16px rgba(114, 14, 83, 0.15);
+        transform: translateY(-2px);
+    }
+    
+    .article-card-header {
+        padding: 20px;
+        background: linear-gradient(135deg, #720e53, #a01566);
+        color: white;
+    }
+    
+    .article-card-title {
+        font-size: 1.1em;
+        font-weight: 600;
+        margin: 0;
+        line-height: 1.4;
+    }
+    
+    .article-card-meta {
+        font-size: 0.85em;
+        opacity: 0.9;
+        margin-top: 8px;
+    }
+    
+    .article-card-content {
+        padding: 20px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .article-card-excerpt {
+        color: #666;
+        font-size: 0.95em;
+        line-height: 1.6;
+        margin-bottom: 15px;
+        flex-grow: 1;
+    }
+    
+    .article-card-footer {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    
+    .article-card-keyword {
+        display: inline-block;
+        background: #f0f0f0;
+        color: #666;
+        padding: 4px 10px;
+        border-radius: 4px;
+        font-size: 0.85em;
+    }
+    
+    .article-card-link {
+        display: inline-block;
+        color: #0066cc;
+        text-decoration: none;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    
+    .article-card-link:hover {
+        text-decoration: underline;
+    }
+    
+    .loading-state {
+        text-align: center;
+        padding: 40px 20px;
+        color: #999;
+    }
+    
+    .empty-state {
+        text-align: center;
+        padding: 40px 20px;
+        color: #999;
+    }
+    
+    .section-footer {
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .link-button {
+        display: inline-block;
+        background: #720e53;
+        color: white;
+        padding: 12px 30px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s;
+    }
+    
+    .link-button:hover {
+        background: #a01566;
+        transform: scale(1.05);
+    }
+    
+    @media (max-width: 768px) {
+        .articles-grid {
+            grid-template-columns: 1fr;
+        }
+        
+        .section-header h2 {
+            font-size: 1.5em;
+        }
+    }
+</style>
+
+<script>
+    (function loadArticles() {
+        const container = document.getElementById('articles-container');
+        
+        // 尝试从生成的索引加载文章列表
+        fetch('/generated/articles-index.json')
+            .then(response => {
+                if (!response.ok) throw new Error('Failed to load articles index');
+                return response.json();
+            })
+            .then(data => {
+                const articles = data.articles || [];
+                
+                if (articles.length === 0) {
+                    container.innerHTML = '<div class="empty-state"><p>暂时没有新的深度文章，敬请期待。</p></div>';
+                    return;
+                }
+                
+                // 取最新的 6 篇文章
+                const recentArticles = articles.slice(0, 6);
+                
+                const html = recentArticles.map(article => `
+                    <article class="article-card">
+                        <div class="article-card-header">
+                            <h3 class="article-card-title">${article.title}</h3>
+                            <div class="article-card-meta">
+                                发布于 ${article.published_at} | 语言: ${article.locale === 'zh_cn' ? '简体中文' : '繁体中文'}
+                            </div>
+                        </div>
+                        <div class="article-card-content">
+                            <p class="article-card-excerpt">
+                                ${article.seo_title || ''}
+                            </p>
+                            <div class="article-card-footer">
+                                ${(article.keywords || []).slice(0, 3).map(kw => 
+                                    `<span class="article-card-keyword">${kw}</span>`
+                                ).join('')}
+                            </div>
+                        </div>
+                        <div style="padding: 20px; padding-top: 0;">
+                            <a href="${article.html_path}" class="article-card-link">阅读全文 →</a>
+                        </div>
+                    </article>
+                `).join('');
+                
+                container.innerHTML = html;
+            })
+            .catch(error => {
+                console.log('Articles not yet generated:', error);
+                container.innerHTML = '<div class="empty-state"><p>深度文章功能已启用，首篇文章将在本周内发布。</p></div>';
+            });
+    })();
+</script>

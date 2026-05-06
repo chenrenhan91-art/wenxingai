@@ -1,0 +1,1247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta name="format-detection" content="telephone=no,email=no,address=no">
+    <meta http-equiv="content-language" content="zh-CN">
+    <meta name="geo.region" content="CN">
+    <meta name="geo.placename" content="全球华语地区">
+    <link rel="alternate" hreflang="zh-CN" href="https://wenxingai.top/">
+    <link rel="alternate" hreflang="zh-TW" href="https://wenxingai.top/">
+    <link rel="alternate" hreflang="x-default" href="https://wenxingai.top/">
+
+    <script>
+        // iOS/弱网代理链路下若发生错误转码，尝试在首屏阶段自动修复常见乱码。
+        (function () {
+            const mojibakePattern = /[ÃÂâæçð]/;
+
+            function hasCJK(str) {
+                return /[\u3400-\u9FFF]/.test(str);
+            }
+
+            function looksGarbled(str) {
+                if (!str || typeof str !== 'string') return false;
+                return str.includes('�') || mojibakePattern.test(str);
+            }
+
+            function repairUtf8Mojibake(input) {
+                if (!looksGarbled(input)) return input;
+                try {
+                    const bytes = new Uint8Array(input.length);
+                    for (let i = 0; i < input.length; i++) {
+                        bytes[i] = input.charCodeAt(i) & 0xff;
+                    }
+                    const decoded = new TextDecoder('utf-8', { fatal: false }).decode(bytes);
+                    if (!decoded) return input;
+
+                    const inputHasCJK = hasCJK(input);
+                    const decodedHasCJK = hasCJK(decoded);
+                    if (!inputHasCJK && decodedHasCJK) return decoded;
+                    if (input.includes('�') && !decoded.includes('�')) return decoded;
+                    if (decoded.length > 0 && decoded !== input && !decoded.includes('Ã') && !decoded.includes('â')) return decoded;
+                } catch (e) {
+                    return input;
+                }
+                return input;
+            }
+
+            function repairDocumentText() {
+                document.title = repairUtf8Mojibake(document.title);
+
+                const metas = document.querySelectorAll('meta[content]');
+                metas.forEach((meta) => {
+                    const content = meta.getAttribute('content');
+                    const fixed = repairUtf8Mojibake(content || '');
+                    if (fixed !== content) {
+                        meta.setAttribute('content', fixed);
+                    }
+                });
+
+                const walker = document.createTreeWalker(document.body || document.documentElement, NodeFilter.SHOW_TEXT);
+                let node = walker.nextNode();
+                while (node) {
+                    const source = node.nodeValue || '';
+                    const fixed = repairUtf8Mojibake(source);
+                    if (fixed !== source) {
+                        node.nodeValue = fixed;
+                    }
+                    node = walker.nextNode();
+                }
+
+                document.querySelectorAll('img[alt]').forEach((img) => {
+                    const alt = img.getAttribute('alt') || '';
+                    const fixed = repairUtf8Mojibake(alt);
+                    if (fixed !== alt) {
+                        img.setAttribute('alt', fixed);
+                    }
+                });
+            }
+
+            document.addEventListener('DOMContentLoaded', repairDocumentText, { once: true });
+        })();
+    </script>
+    <script>
+        (function () {
+            const STORAGE_KEY = 'wenxing_social_attribution';
+
+            function readCurrentAttribution() {
+                const params = new URLSearchParams(window.location.search);
+                const payload = {
+                    utm_source: params.get('utm_source') || '',
+                    utm_medium: params.get('utm_medium') || '',
+                    utm_campaign: params.get('utm_campaign') || '',
+                    utm_content: params.get('utm_content') || '',
+                    landing_path: window.location.pathname,
+                    captured_at: new Date().toISOString(),
+                };
+                return payload.utm_source ? payload : null;
+            }
+
+            function saveAttribution(payload) {
+                if (!payload) return;
+                try {
+                    localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+                } catch (error) {
+                    return;
+                }
+            }
+
+            function loadStoredAttribution() {
+                try {
+                    const raw = localStorage.getItem(STORAGE_KEY);
+                    return raw ? JSON.parse(raw) : null;
+                } catch (error) {
+                    return null;
+                }
+            }
+
+            function appendAttribution(url, mode) {
+                const payload = loadStoredAttribution();
+                if (!payload || !payload.utm_source) return url;
+                const target = new URL(url, window.location.href);
+                if (mode === 'utm') {
+                    target.searchParams.set('utm_source', payload.utm_source);
+                    target.searchParams.set('utm_medium', payload.utm_medium || 'social');
+                    target.searchParams.set('utm_campaign', payload.utm_campaign || 'social-campaign');
+                    if (payload.utm_content) {
+                        target.searchParams.set('utm_content', payload.utm_content);
+                    }
+                    return target.toString();
+                }
+
+                target.searchParams.set('ref_source', payload.utm_source);
+                target.searchParams.set('ref_medium', payload.utm_medium || 'social');
+                target.searchParams.set('ref_campaign', payload.utm_campaign || 'social-campaign');
+                if (payload.utm_content) {
+                    target.searchParams.set('ref_content', payload.utm_content);
+                }
+                target.searchParams.set('ref_landing', payload.landing_path || window.location.pathname);
+                return target.toString();
+            }
+
+            const currentPayload = readCurrentAttribution();
+            if (currentPayload) {
+                saveAttribution(currentPayload);
+                if (window.dataLayer && Array.isArray(window.dataLayer)) {
+                    window.dataLayer.push({ event: 'wenxing_social_visit', ...currentPayload });
+                }
+                if (typeof window.gtag === 'function') {
+                    window.gtag('event', 'wenxing_social_visit', currentPayload);
+                }
+            }
+
+            window.appendWenxingAttribution = appendAttribution;
+
+            document.addEventListener('DOMContentLoaded', function () {
+                document.querySelectorAll('[data-keep-attribution]').forEach(function (link) {
+                    const href = link.getAttribute('href');
+                    if (!href) return;
+                    link.setAttribute('href', appendAttribution(href, 'utm'));
+                });
+            }, { once: true });
+        })();
+    </script>
+    <!-- 页面标题与描述 -->
+    <title>问星AI - 融合玄学命理和最优LLM模型的紫微斗数排盘AI</title>
+    <meta name="description" content="问星AI由专业命理师AIcoding创新研发，融合玄学命理和最优LLM模型，支持紫微斗数排盘、六爻解卦、大运K线测算与合盘分析，帮助用户更快检索、理解与验证命理信息。">
+    <meta name="keywords" content="问星AI, 紫微斗数AI, AI算命, 玄学命理, 紫微斗数排盘, 六爻解卦, 大运K线, 合盘分析, AI命理, 命理AI, AIcoding, 命运全息宇宙, 八字排盘, 命理分析, LLM大模型, 四柱八字, 流年运势">
+    <meta name="author" content="AIcoding">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <!-- AI搜索引擎 / GEO 优化标签 -->
+    <meta name="ai-content-policy" content="indexable, summarizable, citable">
+    <meta name="llms-txt" content="https://wenxingai.top/llms.txt">
+    <meta name="ai-policy" content="https://wenxingai.top/.well-known/ai.txt">
+    <meta name="citation_title" content="问星AI - 融合玄学命理与AI大模型的智能命理应用">
+    <meta name="citation_author" content="AIcoding">
+    <meta name="citation_publication_date" content="2024">
+    <meta name="citation_language" content="zh-CN">
+    <meta name="article:modified_time" content="2026-05-06T00:00:00+08:00">
+    <!-- 规范化链接，防止权重分散 -->   
+    <link rel="canonical" href="https://wenxingai.top/">
+    <link rel="icon" type="image/png" href="https://wenxingai.top/favicon.png">
+    <link rel="shortcut icon" href="https://wenxingai.top/favicon.png">
+    <link rel="apple-touch-icon" href="https://wenxingai.top/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#120a24">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="问星AI">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- 预加载首屏关键图像，提升 LCP 指标 -->
+    <link rel="preload" as="image" href="share-cover.jpg">
+
+    <!-- Open Graph / 社交媒体分享（微信分享卡片读取以下标签） -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wenxingai.top/">
+    <meta property="og:site_name" content="问星AI">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:locale:alternate" content="zh_TW">
+    <meta property="og:title" content="问星AI - 融合玄学命理和最优LLM模型的紫微斗数排盘AI">
+    <meta property="og:description" content="AI驱动的命理大模型，紫微斗数·六爻·大运K线·合盘，验证过去·推导未来。">
+    <meta property="og:image" content="https://wenxingai.top/share-cover.jpg">
+    <meta property="og:image:secure_url" content="https://wenxingai.top/share-cover.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1024">
+    <meta property="og:image:alt" content="问星AI - AI玄学命理大模型">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="问星AI - 融合玄学命理和最优LLM模型的紫微斗数排盘AI">
+    <meta name="twitter:description" content="由专业命理师AIcoding创新研发，融合玄学命理与最优LLM模型，支持紫微斗数排盘、六爻解卦、大运K线测算与合盘分析。开启命运的全息宇宙。">
+    <meta name="twitter:image" content="https://wenxingai.top/share-cover.jpg">
+    <meta name="twitter:image:alt" content="问星AI网站品牌 Logo">
+
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
+
+    <!-- 结构化数据 JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://wenxingai.top/#creator",
+          "name": "AIcoding",
+          "url": "https://wenxingai.top/",
+          "jobTitle": "专业命理师 · AI产品研发者",
+          "knowsAbout": [
+            "紫微斗数", "四柱八字", "六爻易经", "命理学", "人工智能", "大语言模型",
+            "AI命理", "合盘分析", "大运趋势", "玄学"
+          ],
+          "sameAs": [
+            "https://www.instagram.com/yuzai0430/",
+            "https://www.threads.com/@yuzai0430"
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://wenxingai.top/#organization",
+          "name": "问星AI",
+          "alternateName": ["AIcoding", "WenXing AI", "问星人工智能"],
+          "description": "融合东方传统玄学命理与前沿AI大语言模型的智能命理应用，由专业命理师AIcoding研发，提供紫微斗数排盘、六爻解卦、大运K线与合盘分析服务。",
+          "url": "https://wenxingai.top/",
+          "foundingDate": "2024",
+          "knowsAbout": [
+            "紫微斗数", "四柱八字", "周易六爻", "命理分析", "AI大模型",
+            "合盘分析", "流年运势", "大运K线", "玄学", "风水"
+          ],
+          "areaServed": {
+            "@type": "AdministrativeArea",
+            "name": "全球华语地区"
+          },
+          "founder": {
+            "@id": "https://wenxingai.top/#creator"
+          },
+          "sameAs": [
+            "https://wenxingai.top/",
+            "https://wenxingai.top/mingli-xuanxue-news.html",
+            "https://wenxingai.top/llms.txt",
+            "https://wenxingai.top/llms-full.txt",
+            "https://www.instagram.com/yuzai0430/",
+            "https://www.threads.com/@yuzai0430"
+          ],
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://wenxingai.top/share-cover.jpg",
+            "width": 1024,
+            "height": 1024
+          },
+          "image": "https://wenxingai.top/share-cover.jpg"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://wenxingai.top/#webpage",
+          "url": "https://wenxingai.top/",
+          "name": "问星AI首页 - 融合玄学命理与AI大模型的智能应用",
+          "description": "问星AI官方首页，介绍产品定位、紫微斗数排盘、六爻解卦、大运K线、合盘分析等核心功能与常见问题解答。",
+          "dateModified": "2026-05-06",
+          "isPartOf": { "@id": "https://wenxingai.top/#website" },
+          "about": { "@id": "https://wenxingai.top/#app" },
+          "breadcrumb": { "@id": "https://wenxingai.top/#breadcrumb" },
+          "inLanguage": "zh-CN",
+          "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": ["h1", "#product-intro h2", "#site-faq h2", ".glass-card h3"]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://wenxingai.top/#website",
+          "url": "https://wenxingai.top/",
+          "name": "问星AI",
+          "description": "面向全球华语用户的AI命理分析平台，融合紫微斗数、四柱八字、周易六爻与AI大语言模型。",
+          "inLanguage": "zh-CN",
+          "publisher": { "@id": "https://wenxingai.top/#organization" },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://wenxingai.top/mingli-xuanxue-news.html?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://wenxingai.top/#app",
+          "name": "问星AI",
+          "alternateName": "WenXing AI",
+          "operatingSystem": "Android, Web, iOS即将上线",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Astrology & AI",
+          "description": "由专业命理师AIcoding创新研发，融合东方玄学命理与最优LLM大语言模型，支持紫微斗数3D排盘、六爻解卦、大运K线测算与双人合盘分析，提供可解释、可验证的AI命理分析。",
+          "url": "https://wenxingai.top/",
+          "creator": { "@id": "https://wenxingai.top/#creator" },
+          "publisher": { "@id": "https://wenxingai.top/#organization" },
+          "image": "https://wenxingai.top/share-cover.jpg",
+          "screenshot": "https://wenxingai.top/share-cover.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "CNY",
+            "availability": "https://schema.org/InStock",
+            "description": "免费内测体验版"
+          },
+          "featureList": [
+            "3D命盘全息可视化",
+            "24小时专属AI命理咨询师",
+            "人生大运K线图走势分析",
+            "个性化AI每日运势日历",
+            "易经AI六爻排盘解卦",
+            "双人关系AI合盘与气场分析",
+            "紫微斗数（三合派+飞星派）",
+            "四柱八字神煞推演",
+            "流年流月综合运势预测"
+          ],
+          "keywords": "AI算命,紫微斗数,八字排盘,六爻解卦,合盘分析,大运K线,AI命理,玄学AI"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://wenxingai.top/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "问星AI首页",
+              "item": "https://wenxingai.top/"
+            }
+          ]
+        },
+        {
+          "@type": "HowTo",
+          "@id": "https://wenxingai.top/#howto",
+          "name": "如何使用问星AI进行紫微斗数排盘",
+          "description": "通过问星AI快速完成紫微斗数排盘并获得AI深度解读的步骤说明。",
+          "step": [
+            {
+              "@type": "HowToStep",
+              "position": 1,
+              "name": "输入出生信息",
+              "text": "在问星AI应用中输入您的出生年月日时与出生地，系统将自动生成精准紫微斗数命盘。"
+            },
+            {
+              "@type": "HowToStep",
+              "position": 2,
+              "name": "查看3D全息命盘",
+              "text": "命盘以3D可视化形式呈现十二宫位与主星、辅星分布，直观展示您的命局格局。"
+            },
+            {
+              "@type": "HowToStep",
+              "position": 3,
+              "name": "获取AI深度解读",
+              "text": "AI大模型对命盘进行多维度综合分析，输出个性化的性格、事业、感情与大运趋势解读报告。"
+            },
+            {
+              "@type": "HowToStep",
+              "position": 4,
+              "name": "查看大运K线图",
+              "text": "人生大运以金融K线图形式呈现，复盘过往关键节点，前瞻未来三年运势高低。"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://wenxingai.top/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "问星AI是什么？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "问星AI是由专业命理师AIcoding研发的AI玄学命理应用，融合紫微斗数、四柱八字、周易六爻与前沿大语言模型，为中文用户提供可解释、可验证的智能命理分析服务。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "问星AI大模型的排盘算命算法与传统免费网站有何区别？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "传统排盘网站只提供模板化数据库匹配，问星AI通过海量专业命理文献训练大模型，能在3D星盘的复杂架构上进行多维度语义空间理解与动态综合评分，输出更接近真人大师一对一深度解读的个性化报告。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "问星AI支持哪些东方玄学流派？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "问星AI底层大模型深度融汇了紫微斗数（三合派与飞星派）、四柱八字神煞，以及传统周易六爻易经体系，支持跨系统进行流年流月综合推演。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "AI算命是否真的准确？如何理性看待排盘结果？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "命理揭示的是生命轨迹的概率与信息场，并非100%决定论。问星AI通过科技手段理性验证过去、客观推导未来，消除传统人工解盘的情绪化干扰，为职业、健康与婚姻决策提供数据逻辑支撑，把选择权交还给用户。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "问星AI的大运K线图是什么功能？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "大运K线图是问星AI的创新功能，将传统命理中晦涩的干支大运周期转化为类似金融K线的直观图表，帮助用户以数据化视角复盘过往人生关键节点、预判未来三年的运势高低与转折时机。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "如何使用问星AI进行感情合盘分析？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "在问星AI中输入双方出生信息后，AI将深度剖析两人的宫位共振与星曜冲合关系，评估性格契合度，识别命中正缘与潜在矛盾点，为婚恋关系提供客观理性的策略建议。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "问星AI目前支持哪些平台？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "问星AI目前提供安卓APP（内测版）以及网页版（karmaisacat.top），iOS版即将上线。用户可扫描首页二维码下载安卓内测版，或直接访问网页版体验。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "问星AI与其他AI算命软件有什么不同？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "问星AI的核心差异在于：1）以3D全息命盘可视化替代平面排盘；2）创新的大运K线图让运势走向一目了然；3）由真实专业命理师主导模型训练与优化，而非纯技术团队；4）支持跨流派（紫微斗数、八字、六爻）综合推演，而非单一流派。"
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com" defer></script>
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+    <!-- Three.js 改为按需动态加载，减少首屏阻塞 -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap');
+
+        body {
+            font-family: 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Source Han Sans SC', sans-serif;
+            background-color: #030308;
+            color: #ffffff;
+            overflow-x: hidden;
+            margin: 0;
+            /* 微信端与移动端防回弹、防卡顿 */
+            overscroll-behavior-y: none;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* 3D 背景容器 */
+        #webgl-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+            /* 防止阻挡 HTML 元素的点击事件 */
+            pointer-events: none; 
+            background: radial-gradient(circle at center, #130b29 0%, #030308 100%);
+        }
+
+        /* 当 WebGL 不可用时，启用轻量静态背景，避免移动端白屏或卡住 */
+        .webgl-disabled #webgl-bg {
+            background:
+                radial-gradient(circle at 20% 20%, rgba(34, 211, 238, 0.14), transparent 35%),
+                radial-gradient(circle at 80% 30%, rgba(168, 85, 247, 0.12), transparent 40%),
+                radial-gradient(circle at 50% 80%, rgba(56, 189, 248, 0.1), transparent 45%),
+                linear-gradient(180deg, #120a24 0%, #030308 100%);
+        }
+
+        /* 呼吸发光动画 */
+        .glow-effect {
+            animation: glow 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from { box-shadow: 0 0 10px -5px #0ff, 0 0 20px -10px #a855f7; }
+            to { box-shadow: 0 0 20px 5px #0ff, 0 0 40px 10px #a855f7; }
+        }
+
+        .text-aurora {
+            display: inline-block;
+            font-weight: 800;
+            color: #f8fdff;
+            text-shadow: 0 0 8px rgba(34, 211, 238, 0.85), 0 0 18px rgba(56, 189, 248, 0.75), 0 0 32px rgba(168, 85, 247, 0.7);
+            animation: text-aurora-pulse 2.6s ease-in-out infinite;
+        }
+
+        @keyframes text-aurora-pulse {
+            0%, 100% {
+                transform: translateY(0);
+                text-shadow: 0 0 8px rgba(34, 211, 238, 0.75), 0 0 18px rgba(56, 189, 248, 0.65), 0 0 32px rgba(168, 85, 247, 0.55);
+            }
+            50% {
+                transform: translateY(-1px);
+                text-shadow: 0 0 10px rgba(125, 211, 252, 0.95), 0 0 24px rgba(34, 211, 238, 0.9), 0 0 40px rgba(168, 85, 247, 0.85);
+            }
+        }
+
+        /* 卡片玻璃态效果 */
+        .glass-card {
+            background: rgba(20, 15, 40, 0.4);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(168, 85, 247, 0.15);
+            transition: background 0.4s, border-color 0.4s, box-shadow 0.4s;
+            transform-style: preserve-3d;
+            will-change: transform;
+        }
+        
+        /* 卡片内发光追踪特效 */
+        .glass-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(800px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(255, 255, 255, 0.08), transparent 40%);
+            opacity: 0;
+            transition: opacity 0.5s;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .glass-card:hover {
+            background: rgba(30, 20, 60, 0.6);
+            border-color: rgba(6, 182, 212, 0.5);
+            box-shadow: 0 15px 35px -10px rgba(6, 182, 212, 0.4), inset 0 0 20px rgba(168, 85, 247, 0.2);
+        }
+
+        .glass-card:hover::before {
+            opacity: 1;
+        }
+
+        /* 太极缓慢旋转 */
+        .spin-slow {
+            animation: spin 20s linear infinite;
+        }
+        
+        /* 交互式发光按钮/元素 */
+        .interactive-trigger {
+            touch-action: manipulation; /* 移除移动端300ms点击延迟 */
+            -webkit-tap-highlight-color: transparent; /* 移除微信端默认的灰色点击高亮 */
+        }
+
+        .btn-cyber {
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s;
+            z-index: 1;
+        }
+        .btn-cyber::before {
+            content: '';
+            position: absolute;
+            top: 0; left: -100%; width: 100%; height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: all 0.5s;
+            z-index: -1;
+        }
+        .btn-cyber:hover::before {
+            left: 100%;
+        }
+
+        /* 模态框渐入动画 */
+        .modal-enter {
+            opacity: 0;
+            transform: scale(0.9);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .modal-enter-active {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* 滚动渐显动画 */
+        .reveal {
+            opacity: 0;
+            transform: translateY(28px);
+            transition: opacity 0.7s ease, transform 0.7s ease;
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .reveal { opacity: 1; transform: none; transition: none; }
+        }
+
+        /* 悬浮行动号召按钮 */
+        .floating-cta {
+            position: fixed;
+            bottom: 2rem;
+            right: 1.5rem;
+            z-index: 30;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.4rem;
+            border-radius: 9999px;
+            background: linear-gradient(135deg, #06b6d4 0%, #7c3aed 100%);
+            color: #ffffff;
+            font-size: 0.875rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            box-shadow: 0 0 24px rgba(6,182,212,0.45), 0 4px 16px rgba(0,0,0,0.5);
+            transition: opacity 0.4s, transform 0.4s, box-shadow 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+            opacity: 0;
+            transform: translateY(16px);
+            pointer-events: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .floating-cta.shown {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+        .floating-cta:hover {
+            box-shadow: 0 0 32px rgba(6,182,212,0.8), 0 8px 24px rgba(0,0,0,0.6);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col relative">
+
+    <!-- Three.js 3D 宇宙背景 -->
+    <div id="webgl-bg"></div>
+
+    <!-- 导航栏 / Logo -->
+    <header class="w-full py-5 px-4 md:px-8 flex items-center fixed top-0 z-40 bg-black/30 backdrop-blur-lg border-b border-indigo-500/20">
+        <div class="flex items-center gap-3 interactive-trigger cursor-pointer shrink-0" onclick="window.scrollTo(0,0)" aria-label="返回页面顶部" role="button">
+            <!-- 替换为新 Logo -->
+            <div class="relative w-12 h-12 flex items-center justify-center rounded-full p-0.5 bg-gradient-to-br from-cyan-400 to-purple-600 shadow-[0_0_15px_rgba(168,85,247,0.5)] overflow-hidden">
+                <img src="share-cover.jpg" alt="问星AI官方Logo - 智能AI命理大模型" class="w-full h-full object-cover rounded-full spin-slow hover:[animation-play-state:paused]" loading="eager" fetchpriority="high" />
+            </div>
+            <span class="text-3xl font-black tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-purple-300 to-cyan-300 drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]">问星AI</span>
+        </div>
+        
+        <!-- 顶部介绍 (PC/平板端显示，紧跟在问星AI后面) -->
+        <div class="hidden md:flex flex-col justify-center ml-6 pl-6 border-l border-white/20">
+            <div class="text-[18px] font-bold text-indigo-200 tracking-widest mb-1 drop-shadow-md">— 命运的全息宇宙 —</div>
+            <div class="text-[12px] text-gray-300 tracking-wider">
+                由专业命理师 <span class="text-cyan-400 font-medium">AIcoding</span> 打造，颠覆命理行业的玄学APP，不仅可以<span class="text-aurora">推导未来</span>，还可以<span class="text-aurora">验证过去</span><span class="hidden lg:inline">。</span><br class="lg:hidden">为您的人生剧本提供更专业、更理性的视角。
+            </div>
+        </div>
+
+        <nav class="ml-auto flex items-center gap-3" aria-label="站点导航">
+            <a href="mingli-xuanxue-news.html" data-keep-attribution="true" class="inline-flex items-center rounded-full border border-amber-300/30 bg-amber-400/10 px-4 py-2 text-xs md:text-sm font-semibold tracking-[0.18em] text-amber-100 shadow-[0_0_20px_rgba(251,191,36,0.08)] transition-all hover:-translate-y-0.5 hover:border-amber-200/60 hover:bg-amber-300/15 hover:text-white">
+                查看热点
+            </a>
+            <a href="https://karmaisacat.top/" onclick="event.preventDefault(); window.location.href=window.appendWenxingAttribution('https://karmaisacat.top/', 'ref')" class="hidden md:inline-flex items-center rounded-full border border-cyan-400/40 bg-cyan-500/15 px-4 py-2 text-xs md:text-sm font-semibold tracking-[0.18em] text-cyan-100 transition-all hover:-translate-y-0.5 hover:border-cyan-300/70 hover:bg-cyan-400/20 hover:text-white">
+                体验APP
+            </a>
+        </nav>
+    </header>
+
+    <!-- 主视觉 / Hero 区 -->
+    <main class="flex-grow flex flex-col items-center justify-center pt-36 pb-16 px-4 z-10 text-center">
+        <div class="mb-8 max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-black tracking-[0.06em] text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-white to-purple-300 drop-shadow-[0_0_20px_rgba(34,211,238,0.25)]">
+                问星AI：融合玄学命理和最优AI模型
+            </h1>
+            <p class="mt-4 text-sm md:text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto">
+                由专业命理师 AIcoding 创新研发，支持紫微斗数排盘、六爻解卦、大运K线测算与合盘分析，为用户提供可验证、可对照、可解释的命理分析视角。
+            </p>
+        </div>
+
+        <!-- 移动端专享介绍显示 (PC端已移至顶部导航栏) -->
+        <div class="md:hidden flex flex-col items-center mb-8">
+            <h2 class="text-[1.4rem] font-medium mb-2 text-indigo-200 tracking-[0.2em] drop-shadow-md">
+                — 命运的全息宇宙 —
+            </h2>
+            <p class="text-[13px] text-gray-400 leading-relaxed max-w-[90%] font-light tracking-wide">
+                由专业命理师 <span class="text-cyan-400">AIcoding</span> 打造，颠覆命理行业的玄学APP，不仅可以<span class="text-aurora">推导未来</span>，还可以<span class="text-aurora">验证过去</span>。<br>
+                为您的人生剧本提供更专业、更理性的视角。
+            </p>
+        </div>
+
+        <!-- 中间大 Logo -->
+        <div class="relative w-48 h-48 md:w-64 md:h-64 mb-12 interactive-trigger group cursor-pointer" onclick="window.location.href=window.appendWenxingAttribution('https://karmaisacat.top/', 'ref')">
+            <!-- 动态光晕底座 -->
+            <div class="absolute inset-0 rounded-full bg-gradient-to-tr from-cyan-400 via-indigo-500 to-purple-600 opacity-30 blur-3xl group-hover:opacity-60 transition-opacity duration-500 animate-pulse"></div>
+            <!-- 双层星轨装饰 -->
+            <div class="absolute inset-[-10px] rounded-full border border-cyan-400/20 spin-slow" style="animation-direction: reverse;"></div>
+            <div class="absolute inset-[-20px] rounded-full border border-purple-500/10 spin-slow" style="animation-duration: 30s;"></div>
+            
+            <!-- 核心图像 -->
+            <img src="share-cover.jpg" alt="问星AI产品主视觉 - 融合玄学与AI技术的全息宇宙入口" class="relative w-full h-full object-cover rounded-full border-2 border-indigo-400/50 shadow-[0_0_40px_rgba(168,85,247,0.6)] group-hover:shadow-[0_0_60px_rgba(6,182,212,0.8)] transition-all duration-500 z-10 group-hover:scale-[1.02]" />
+            
+            <!-- 网页版入口引导标志 (科技感悬浮胶囊) -->
+            <div class="absolute -bottom-5 left-1/2 -translate-x-1/2 flex items-center justify-center gap-2 whitespace-nowrap px-6 py-2.5 rounded-full bg-[#030308]/80 border border-cyan-400/60 text-sm text-cyan-300 backdrop-blur-md shadow-[0_0_20px_rgba(6,182,212,0.4)] group-hover:bg-cyan-900/80 group-hover:text-white group-hover:border-cyan-300 group-hover:shadow-[0_0_30px_rgba(6,182,212,0.8)] group-hover:-translate-y-1 transition-all duration-300 z-20">
+                <i data-lucide="mouse-pointer-click" class="w-[18px] h-[18px] animate-pulse"></i>
+                <span class="tracking-widest font-bold">点击进入网页版</span>
+            </div>
+        </div>
+    </main>
+
+    <!-- 内容介绍区 -->
+    <section class="w-full max-w-7xl mx-auto px-4 py-16 z-10 text-gray-200">
+        <!-- 核心介绍 -->
+        <article id="product-intro" class="mb-16 glass-card rounded-2xl p-8 relative overflow-hidden reveal" itemscope itemtype="http://schema.org/Article">
+            <header class="text-center mb-10">
+                <h2 itemprop="headline" class="text-3xl font-bold mb-6 text-white"><span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">什么是问星AI？</span>首款颠覆命理行业的AI玄学产品</h2>
+                <div class="h-1 w-32 bg-gradient-to-r from-transparent via-cyan-500 to-transparent mx-auto rounded-full"></div>
+            </header>
+            <div itemprop="articleBody" class="space-y-6 text-lg">
+                <p class="leading-relaxed text-gray-300">
+                    在传统命理领域，排盘复杂、解盘门槛高且主观性极强。<strong>问星AI</strong> 作为首款深度研究后融合东方传统玄学（紫微斗数、四柱八字、六爻起卦）与前沿 <strong class="text-cyan-300">AI大语言模型</strong> 的智能应用，为您开启命运的全息宇宙。
+                </p>
+                <p class="leading-relaxed text-gray-300">
+                    由专业命理师研究后选择紫微斗数作为玄学模型底座，打破传统算命软件刻板模板化反馈的局限，深度结合 <strong class="text-emerald-300">3D全息命盘图</strong> 与 <strong class="text-amber-300">人生大运K线</strong> 等创新数据架构。不仅能多维推演个体运势周期，更能像专属真人师傅一样助力您的每一次关键抉择，帮您洞察事物背后的深层发展逻辑。
+                </p>
+            </div>
+        </article>
+
+        <section id="hot-news-section" class="mb-16 reveal" aria-labelledby="hot-news-heading">
+            <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-8">
+                <div>
+                    <div class="inline-flex items-center rounded-full border border-amber-300/25 bg-amber-400/10 px-3 py-1 text-xs font-semibold tracking-[0.18em] text-amber-100 mb-4">
+                        最新热点
+                    </div>
+                    <h2 id="hot-news-heading" class="text-2xl md:text-3xl font-bold text-white">命理 / 玄学 / 海外华语热点资讯</h2>
+                </div>
+                <a href="mingli-xuanxue-news.html" data-keep-attribution="true" class="inline-flex items-center justify-center rounded-full border border-cyan-300/40 bg-cyan-400/10 px-5 py-3 text-sm font-semibold tracking-[0.18em] text-cyan-200 transition-all hover:-translate-y-0.5 hover:border-cyan-200/70 hover:bg-cyan-300/15 hover:text-white">
+                    查看热点
+                </a>
+            </div>
+            <div class="glass-card rounded-2xl p-6 md:p-8">
+                <!-- HOT_NEWS_HOME_START -->
+                    <ul class="space-y-3 text-sm md:text-base text-gray-300">
+                        <li class="flex items-start gap-3"><span class="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-cyan-300/80"></span><span>[問卦] 戶田惠梨香:命理師說我38歲會死掉<span class="ml-2 text-xs text-cyan-200/70">PTT Gossiping · 2026-04-27</span></span></li>
+                        <li class="flex items-start gap-3"><span class="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-cyan-300/80"></span><span>立夏來了！命理師揭運勢加速期「5大星座」迎財運、桃花雙旺<span class="ml-2 text-xs text-cyan-200/70">聯合新聞網 · Google News · 2026-05-05</span></span></li>
+                        <li class="flex items-start gap-3"><span class="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-cyan-300/80"></span><span>立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作<span class="ml-2 text-xs text-cyan-200/70">聯合新聞網 · Google News · 2026-05-05</span></span></li>
+                    </ul>
+                    <!-- HOT_NEWS_HOME_END -->
+            </div>
+        </section>
+
+        <!-- 使用场景 -->
+        <article id="scene-features" class="mb-16 reveal">
+            <h2 class="text-2xl font-bold mb-10 text-white text-center">多维度AI算命与运势推演场景</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- 场景1 -->
+                <div class="glass-card p-6 rounded-xl hover:shadow-[0_0_15px_rgba(34,211,238,0.2)] transition-all">
+                    <div class="w-12 h-12 bg-cyan-900/40 rounded-lg flex items-center justify-center mb-4"><i data-lucide="heart" class="text-cyan-400 w-6 h-6"></i></div>
+                    <h3 class="text-xl font-bold text-cyan-300 mb-3 block">AI 情感合盘分析</h3>
+                    <p class="text-sm text-gray-400">导入双人出生信息，利用大模型算力深度剖析双方宫位共振、星曜冲合。快速评估性格契合度，精准识别命中正缘与烂桃花，为您的婚恋关系与感情发展提供客观理性的策略建议。</p>
+                </div>
+                <!-- 场景2 -->
+                <div class="glass-card p-6 rounded-xl hover:shadow-[0_0_15px_rgba(168,85,247,0.2)] transition-all">
+                    <div class="w-12 h-12 bg-purple-900/40 rounded-lg flex items-center justify-center mb-4"><i data-lucide="coins" class="text-purple-400 w-6 h-6"></i></div>
+                    <h3 class="text-xl font-bold text-purple-300 mb-3 block">周易智能六爻解卦</h3>
+                    <p class="text-sm text-gray-400">结合真实物理算法模拟三枚铜钱的抛掷过程，AI自动寻取动爻、变卦。针对具体诉求（事业跳槽、财运投资、寻人寻物），提供融合当下时空维度的直接吉凶断语与行动指南。</p>
+                </div>
+                <!-- 场景3 -->
+                <div class="glass-card p-6 rounded-xl hover:shadow-[0_0_15px_rgba(16,185,129,0.2)] transition-all">
+                    <div class="w-12 h-12 bg-emerald-900/40 rounded-lg flex items-center justify-center mb-4"><i data-lucide="trending-up" class="text-emerald-400 w-6 h-6"></i></div>
+                    <h3 class="text-xl font-bold text-emerald-300 mb-3 block">个人大运流年K线图</h3>
+                    <p class="text-sm text-gray-400">摒弃晦涩冗长的干支名词，将人生的十年大运起伏转化为直观金融K线图。复盘过往关键人生节点的得失，前瞻预警未来三年的高点与低谷，助您在人生的十字路口把握机遇。</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- 常见问题 -->
+        <article id="site-faq" class="glass-card rounded-2xl p-8 reveal" itemscope itemtype="https://schema.org/FAQPage">
+            <h2 class="text-2xl font-bold text-white text-center mb-8">AI命理与问星APP核心常见问题 (FAQ)</h2>
+            <div class="space-y-6">
+                <!-- Q1 -->
+                <div class="pb-6 border-b border-gray-800" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <h3 class="text-lg font-medium text-white mb-2 flex items-start gap-2" itemprop="name">
+                        <span class="text-cyan-400 font-bold">Q:</span> 问星AI大模型的排盘算命算法与传统免费网站有何区别？
+                    </h3>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p class="text-gray-400 text-sm ml-6" itemprop="text">
+                            <strong class="text-gray-300">A:</strong> 传统在线排盘网站往往只提供生硬的数据库规则匹配和长篇大论的模板。问星AI通过海量专业命理文献训练，能在3D星盘的复杂架构上进行多维度的语义空间理解并动态综合评分，输出更像是由真人大师一对一解读的个性化深度分析报告。
+                        </p>
+                    </div>
+                </div>
+                <!-- Q2 -->
+                <div class="pb-6 border-b border-gray-800" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <h3 class="text-lg font-medium text-white mb-2 flex items-start gap-2" itemprop="name">
+                        <span class="text-purple-400 font-bold">Q:</span> 该命理软件支持哪些东方的玄学流派？
+                    </h3>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p class="text-gray-400 text-sm ml-6" itemprop="text">
+                            <strong class="text-gray-300">A:</strong> 问星APP目前底层大模型深度融汇了包括<span class="text-gray-200">紫微斗数（含三合与飞星派）</span>、<span class="text-gray-200">四柱八字神煞</span>、以及传统<span class="text-gray-200">周易六爻易经</span>体系，能跨系统进行流年流月综合推演。
+                        </p>
+                    </div>
+                </div>
+                <!-- Q3 -->
+                <div class="pb-2" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <h3 class="text-lg font-medium text-white mb-2 flex items-start gap-2" itemprop="name">
+                        <span class="text-emerald-400 font-bold">Q:</span> AI算命是否真的准确？如何理性看待排盘结果？
+                    </h3>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p class="text-gray-400 text-sm ml-6" itemprop="text">
+                            <strong class="text-gray-300">A:</strong> 命理本身并非100%决定论，而是揭示生命轨迹“概率与信息场”的全息剧本。问星AI旨在通过科技手段“理性验证过去，客观推导未来”，消除传统人工解盘时的情绪化干扰。我们为您提供充分的数据逻辑支撑，帮助您更好地规划职业、健康与婚姻，把未来的选择权交还自己。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </section>
+
+    <!-- GEO实体信息区块：供AI爬虫结构化抽取，页面视觉隐藏 -->
+    <aside aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <span itemprop="name">问星AI</span>
+        <span itemprop="alternateName">AIcoding</span>
+        <span itemprop="alternateName">WenXing AI</span>
+        <span itemprop="description">由专业命理师AIcoding研发，融合紫微斗数、四柱八字、周易六爻与前沿大语言模型，提供3D全息命盘排盘、人生大运K线图、双人合盘分析与AI六爻解卦，面向全球华语用户。</span>
+        <span itemprop="url">https://wenxingai.top/</span>
+        <span itemprop="applicationCategory">AI命理应用</span>
+        <span itemprop="inLanguage">zh-CN</span>
+        <span itemprop="keywords">AI算命,紫微斗数,八字排盘,六爻解卦,合盘分析,大运K线,玄学,命理AI,问星AI</span>
+        <link itemprop="sameAs" href="https://www.instagram.com/yuzai0430/"/>
+        <link itemprop="sameAs" href="https://www.threads.com/@yuzai0430"/>
+    </aside>
+
+    <!-- 底部信息 -->
+    <footer class="w-full text-center py-8 z-10 border-t border-white/10 mt-auto bg-black/40 backdrop-blur-sm">
+        <div class="mb-4 flex flex-wrap items-center justify-center gap-3 text-sm text-cyan-200/90">
+            <a href="https://www.instagram.com/yuzai0430/" target="_blank" rel="noopener noreferrer" class="underline decoration-cyan-400/50 underline-offset-4 hover:text-white">Instagram</a>
+            <span class="text-white/30">·</span>
+            <a href="https://www.threads.com/@yuzai0430?xmt=AQF0Vynln-DdtEjOHOpc5w_06Bvk6Ym0qfqzsTa98Knhra4" target="_blank" rel="noopener noreferrer" class="underline decoration-cyan-400/50 underline-offset-4 hover:text-white">Threads</a>
+            <span class="text-white/30">·</span>
+            <a href="https://www.instagram.com/p/DXJi62ZEgO1/" target="_blank" rel="noopener noreferrer" class="underline decoration-cyan-400/50 underline-offset-4 hover:text-white">产品采访影片</a>
+        </div>
+        <p class="text-gray-400 text-sm font-bold tracking-widest">© 2026 问星AI. All Rights Reserved.</p>
+        <p class="text-indigo-300/60 text-xs mt-2">命运掌握在自己手中，本应用提供理性的视角与参考。</p>
+        <nav class="mt-4 flex flex-wrap items-center justify-center gap-3 text-xs text-gray-500" aria-label="AI文档与站点地图">
+            <a href="/llms.txt" class="hover:text-gray-300 transition-colors">AI摘要文档</a>
+            <span class="text-white/20">·</span>
+            <a href="/llms-full.txt" class="hover:text-gray-300 transition-colors">完整知识库</a>
+            <span class="text-white/20">·</span>
+            <a href="/sitemap.xml" class="hover:text-gray-300 transition-colors">站点地图</a>
+            <span class="text-white/20">·</span>
+            <a href="/mingli-xuanxue-news.html" class="hover:text-gray-300 transition-colors">命理热点资讯</a>
+        </nav>
+    </footer>
+
+    <!-- 下载/扫码 模态框 (Modal) -->
+    <div id="qrModal" class="fixed inset-0 z-50 flex items-center justify-center hidden">
+        <div class="absolute inset-0 bg-black/90 backdrop-blur-md" onclick="toggleModal(false)"></div>
+        
+        <div id="modalContent" class="relative bg-gradient-to-b from-[#130b29] to-[#030308] border border-cyan-500/50 rounded-2xl p-8 md:p-12 shadow-[0_0_80px_rgba(6,182,212,0.2)] max-w-sm w-[90%] mx-auto modal-enter flex flex-col items-center">
+            
+            <button onclick="toggleModal(false)" aria-label="关闭下载弹窗" class="absolute top-4 right-4 text-gray-400 hover:text-cyan-400 transition-colors bg-white/5 p-2 rounded-full">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+
+            <div class="mb-4 text-center">
+                <!-- 内部使用同样的logo强化品牌 -->
+                <img src="share-cover.jpg" alt="扫码下载问星AI内测版" class="w-16 h-16 mx-auto rounded-full mb-4 border-2 border-purple-500 shadow-[0_0_20px_rgba(168,85,247,0.5)] spin-slow">
+                <h3 class="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400 mb-1">内测会员版</h3>
+                <p class="text-sm text-indigo-200/80">扫码使用，开启专属全息宇宙</p>
+            </div>
+
+            <div class="relative p-2 rounded-xl bg-white glow-effect mb-6">
+                <!-- 替换为真实二维码图片引用，默认读取 qrcode.png -->
+                <div class="w-48 h-48 bg-white flex flex-col items-center justify-center border border-gray-200 rounded-lg overflow-hidden">
+                    <img src="qrcode.png" loading="lazy" decoding="async" alt="下载问星AI二维码" class="w-full h-full object-contain p-2" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23a5b4fc\' stroke-width=\'1\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\' ry=\'2\'></rect><rect x=\'7\' y=\'7\' width=\'3\' height=\'3\'></rect><rect x=\'14\' y=\'7\' width=\'3\' height=\'3\'></rect><rect x=\'7\' y=\'14\' width=\'3\' height=\'3\'></rect><rect x=\'14\' y=\'14\' width=\'3\' height=\'3\'></rect></svg>'"/>
+                </div>
+                <!-- 科技感四个角标 -->
+                <div class="absolute top-0 left-0 w-4 h-4 border-t-4 border-l-4 border-cyan-500 -mt-2 -ml-2"></div>
+                <div class="absolute top-0 right-0 w-4 h-4 border-t-4 border-r-4 border-cyan-500 -mt-2 -mr-2"></div>
+                <div class="absolute bottom-0 left-0 w-4 h-4 border-b-4 border-l-4 border-cyan-500 -mb-2 -ml-2"></div>
+                <div class="absolute bottom-0 right-0 w-4 h-4 border-b-4 border-r-4 border-cyan-500 -mb-2 -mr-2"></div>
+            </div>
+
+            <p class="text-xs text-cyan-400/80 text-center w-full tracking-wide leading-relaxed">
+                目前只支持安卓用户下载<br>
+                <span class="text-indigo-300/70 text-[11px]">iOS端马上上线，敬请期待</span>
+            </p>
+        </div>
+    </div>
+
+    <!-- 悬浮行动号召按鈕 -->
+    <a id="floatingCta" href="https://karmaisacat.top/" onclick="event.preventDefault(); window.location.href=window.appendWenxingAttribution('https://karmaisacat.top/', 'ref')" class="floating-cta interactive-trigger" aria-label="体验问星AI - 进入应用">
+        <i data-lucide="sparkles" class="w-4 h-4"></i>
+        <span>体验问星AI</span>
+    </a>
+
+    <script>
+        // 在 DOM 就绪后再初始化，避免移动端网络抖动时出现脚本竞态。
+        document.addEventListener('DOMContentLoaded', () => {
+            const isMobile = window.matchMedia('(max-width: 767px)').matches;
+            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            const hasFinePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+            const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+            const shouldSaveData = !!(connection && connection.saveData);
+            const isSlowNetwork = !!(connection && /2g/.test(connection.effectiveType || ''));
+
+            // 初始化 Lucide 图标（CDN 失败时跳过，防止报错中断）
+            if (window.lucide && typeof window.lucide.createIcons === 'function') {
+                window.lucide.createIcons();
+            }
+
+            // 模态框逻辑
+            function toggleModal(show) {
+                const modal = document.getElementById('qrModal');
+                const content = document.getElementById('modalContent');
+
+                if (!modal || !content) return;
+
+                if (show) {
+                    modal.classList.remove('hidden');
+                    void content.offsetWidth;
+                    content.classList.add('modal-enter-active');
+                } else {
+                    content.classList.remove('modal-enter-active');
+                    setTimeout(() => {
+                        modal.classList.add('hidden');
+                    }, 300);
+                }
+            }
+
+            window.toggleModal = toggleModal;
+
+            function initCardHoverEffects() {
+                if (!hasFinePointer) return;
+                const cards = document.querySelectorAll('.glass-card');
+
+                cards.forEach((card) => {
+                    card.addEventListener('mousemove', (e) => {
+                        const rect = card.getBoundingClientRect();
+                        const x = e.clientX - rect.left;
+                        const y = e.clientY - rect.top;
+
+                        card.style.setProperty('--mouse-x', `${x}px`);
+                        card.style.setProperty('--mouse-y', `${y}px`);
+
+                        const centerX = rect.width / 2;
+                        const centerY = rect.height / 2;
+                        const rotateX = ((y - centerY) / centerY) * -10;
+                        const rotateY = ((x - centerX) / centerX) * 10;
+
+                        card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
+                        card.style.transition = 'none';
+                    });
+
+                    card.addEventListener('mouseleave', () => {
+                        card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)';
+                        card.style.transition = 'transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+                    });
+
+                    card.addEventListener('mouseenter', () => {
+                        card.style.transition = 'transform 0.1s';
+                    });
+                });
+            }
+
+            function loadThreeScript() {
+                if (window.THREE) return Promise.resolve();
+
+                return new Promise((resolve, reject) => {
+                    const script = document.createElement('script');
+                    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js';
+                    script.async = true;
+                    script.onload = () => resolve();
+                    script.onerror = () => reject(new Error('Three.js load failed'));
+                    document.head.appendChild(script);
+                });
+            }
+
+            function initWebGLBackground() {
+                const container = document.getElementById('webgl-bg');
+
+                // 弱网、省流或无动画偏好时优先保证可用性。
+                if (!container || shouldSaveData || (isMobile && isSlowNetwork) || prefersReducedMotion) {
+                    document.body.classList.add('webgl-disabled');
+                    return;
+                }
+
+                if (!window.THREE) {
+                    document.body.classList.add('webgl-disabled');
+                    return;
+                }
+
+                let renderer;
+                try {
+                    renderer = new THREE.WebGLRenderer({ alpha: true, antialias: !isMobile });
+                } catch (error) {
+                    document.body.classList.add('webgl-disabled');
+                    return;
+                }
+
+                const scene = new THREE.Scene();
+                scene.fog = new THREE.FogExp2(0x030308, 0.0015);
+
+                const camera = new THREE.PerspectiveCamera(95, window.innerWidth / window.innerHeight, 0.1, 2000);
+                camera.position.z = 800;
+
+                renderer.setSize(window.innerWidth, window.innerHeight);
+                renderer.setPixelRatio(Math.min(window.devicePixelRatio, isMobile ? 1.25 : 2));
+                container.appendChild(renderer.domElement);
+
+                const geometry = new THREE.BufferGeometry();
+                const vertices = [];
+                const colors = [];
+
+                const colorPalette = [
+                    new THREE.Color(0x06b6d4),
+                    new THREE.Color(0xa855f7),
+                    new THREE.Color(0xffffff),
+                    new THREE.Color(0x4f46e5)
+                ];
+
+                const starCount = isMobile ? 1200 : 7000;
+                for (let i = 0; i < starCount; i++) {
+                    const x = (Math.random() - 0.5) * 3000;
+                    const y = (Math.random() - 0.5) * 3000;
+                    const z = (Math.random() - 0.5) * 3000;
+                    vertices.push(x, y, z);
+
+                    const color = colorPalette[Math.floor(Math.random() * colorPalette.length)];
+                    colors.push(color.r, color.g, color.b);
+                }
+
+                geometry.setAttribute('position', new THREE.Float32BufferAttribute(vertices, 3));
+                geometry.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
+
+                const material = new THREE.PointsMaterial({
+                    size: 2.5,
+                    vertexColors: true,
+                    transparent: true,
+                    opacity: 0.8,
+                    sizeAttenuation: true,
+                    blending: THREE.AdditiveBlending,
+                    depthWrite: false
+                });
+
+                const particles = new THREE.Points(geometry, material);
+                scene.add(particles);
+
+                const lineCount = isMobile ? 72 : 320;
+                let streaks = null;
+                let linePositions = null;
+                let lineVels = null;
+                if (lineCount > 0) {
+                    const lineGeo = new THREE.BufferGeometry();
+                    const linePos = new Float32Array(lineCount * 6);
+                    lineVels = new Float32Array(lineCount);
+
+                    const streakColors = [new THREE.Color(0x06b6d4), new THREE.Color(0xa855f7), new THREE.Color(0x38bdf8)];
+                    const lineColors = new Float32Array(lineCount * 6);
+
+                    for (let i = 0; i < lineCount; i++) {
+                        const x = (Math.random() - 0.5) * 3000;
+                        const y = (Math.random() - 0.5) * 3000;
+                        const z = (Math.random() - 0.5) * 4000 - 1000;
+                        const length = Math.random() * 100 + 50;
+
+                        linePos[i * 6] = x;
+                        linePos[i * 6 + 1] = y;
+                        linePos[i * 6 + 2] = z;
+                        linePos[i * 6 + 3] = x;
+                        linePos[i * 6 + 4] = y;
+                        linePos[i * 6 + 5] = z + length;
+
+                        lineVels[i] = Math.random() * 25 + 15;
+
+                        const color = streakColors[Math.floor(Math.random() * streakColors.length)];
+                        lineColors[i * 6] = color.r;
+                        lineColors[i * 6 + 1] = color.g;
+                        lineColors[i * 6 + 2] = color.b;
+                        lineColors[i * 6 + 3] = color.r;
+                        lineColors[i * 6 + 4] = color.g;
+                        lineColors[i * 6 + 5] = color.b;
+                    }
+
+                    lineGeo.setAttribute('position', new THREE.BufferAttribute(linePos, 3));
+                    lineGeo.setAttribute('color', new THREE.BufferAttribute(lineColors, 3));
+
+                    const lineMat = new THREE.LineBasicMaterial({
+                        vertexColors: true,
+                        transparent: true,
+                        opacity: 0.6,
+                        blending: THREE.AdditiveBlending,
+                        depthWrite: false
+                    });
+                    streaks = new THREE.LineSegments(lineGeo, lineMat);
+                    linePositions = streaks.geometry.attributes.position.array;
+                    scene.add(streaks);
+                }
+
+                let mouseX = 0;
+                let mouseY = 0;
+                if (hasFinePointer) {
+                    document.addEventListener('mousemove', (event) => {
+                        mouseX = (event.clientX - window.innerWidth / 2) * 0.5;
+                        mouseY = (event.clientY - window.innerHeight / 2) * 0.5;
+                    }, { passive: true });
+                }
+
+                let resizeTimer = null;
+                window.addEventListener('resize', () => {
+                    clearTimeout(resizeTimer);
+                    resizeTimer = setTimeout(() => {
+                        camera.aspect = window.innerWidth / window.innerHeight;
+                        camera.updateProjectionMatrix();
+                        renderer.setSize(window.innerWidth, window.innerHeight);
+                        renderer.setPixelRatio(Math.min(window.devicePixelRatio, window.innerWidth < 768 ? 1.25 : 2));
+                    }, 120);
+                }, { passive: true });
+
+                let lastFrameTime = 0;
+                const minFrameGap = isMobile ? 32 : 16;
+
+                function animate(now) {
+                    requestAnimationFrame(animate);
+                    if (document.hidden) return;
+                    if (now - lastFrameTime < minFrameGap) return;
+                    lastFrameTime = now;
+
+                    particles.rotation.y += 0.0005;
+                    particles.rotation.x += 0.0002;
+
+                    if (streaks) {
+                        streaks.rotation.y += 0.0005;
+                        streaks.rotation.x += 0.0002;
+                    }
+
+                    camera.position.x += (mouseX - camera.position.x) * 0.02;
+                    camera.position.y += (-mouseY - camera.position.y) * 0.02;
+                    camera.lookAt(scene.position);
+
+                    const positions = particles.geometry.attributes.position.array;
+                    for (let i = 2; i < starCount * 3; i += 3) {
+                        positions[i] += isMobile ? 8 : 10;
+                        if (positions[i] > 1000) positions[i] = -2000;
+                    }
+                    particles.geometry.attributes.position.needsUpdate = true;
+
+                    if (streaks && linePositions && lineVels) {
+                        for (let i = 0; i < lineCount; i++) {
+                            linePositions[i * 6 + 2] += lineVels[i];
+                            linePositions[i * 6 + 5] += lineVels[i];
+
+                            if (linePositions[i * 6 + 2] > 1000) {
+                                const z = -2000 - Math.random() * 1000;
+                                const length = Math.random() * 100 + 50;
+                                linePositions[i * 6 + 2] = z;
+                                linePositions[i * 6 + 5] = z + length;
+                            }
+                        }
+                        streaks.geometry.attributes.position.needsUpdate = true;
+                    }
+
+                    renderer.render(scene, camera);
+                }
+
+                requestAnimationFrame(animate);
+            }
+
+            // 默认先完成主内容渲染，再按设备条件加载3D背景。
+            function startBackgroundWhenIdle() {
+                const run = () => {
+                    loadThreeScript().then(initWebGLBackground).catch(() => {
+                        document.body.classList.add('webgl-disabled');
+                    });
+                };
+
+                if (typeof window.requestIdleCallback === 'function') {
+                    window.requestIdleCallback(run, { timeout: 1200 });
+                } else {
+                    setTimeout(run, isMobile ? 600 : 300);
+                }
+            }
+
+            initCardHoverEffects();
+
+            if (document.readyState === 'complete') {
+                startBackgroundWhenIdle();
+            } else {
+                window.addEventListener('load', startBackgroundWhenIdle, { once: true });
+            }
+
+            // 滚动渐显动画
+            if (!prefersReducedMotion) {
+                const revealObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('visible');
+                            revealObserver.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+                document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+            } else {
+                document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+            }
+
+            // 悬浮 CTA 按鈕显隐控制（滑出 Hero 区后展示）
+            const floatingCta = document.getElementById('floatingCta');
+            if (floatingCta) {
+                const heroMain = document.querySelector('main');
+                if (heroMain) {
+                    new IntersectionObserver((entries) => {
+                        entries.forEach(entry => {
+                            floatingCta.classList.toggle('shown', !entry.isIntersecting);
+                        });
+                    }, { threshold: 0.3 }).observe(heroMain);
+                }
+                // 初始化悬浮 CTA 内的 Lucide 图标
+                if (window.lucide && typeof window.lucide.createIcons === 'function') {
+                    window.lucide.createIcons({ nodes: [floatingCta] });
+                }
+            }
+        });
+    </script>
+</body>
+</html>
