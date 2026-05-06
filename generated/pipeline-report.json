@@ -1,60 +1,71 @@
 {
-  "ran_at": "2026-05-06T14:06:44.453672+08:00",
-  "ran_at_display": "2026年5月6日 14:06",
-  "overall_status": "failed_review",
-  "force_refresh": true,
-  "previous_signature": "f9f1da6b70e27df4ebe1ceba82566ef422bdcd1a",
-  "new_signature": "f8a823e4123caa0d8491a58d8c2330d8c51f8f7a",
+  "ran_at": "2026-05-06T23:55:52.435994+08:00",
+  "ran_at_display": "2026年5月6日 23:55",
+  "overall_status": "failed_distribution",
+  "force_refresh": false,
+  "previous_signature": "f8a823e4123caa0d8491a58d8c2330d8c51f8f7a",
+  "new_signature": "26a9c725b527931bd1fdd58e6ed7b45b82c8f0ca",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": true,
-  "audit_ran": false,
+  "audit_ran": true,
   "fresh_bundle_ready": true,
-  "distribution_ran": false,
+  "distribution_ran": true,
   "articles_ran": false,
   "stage_status": {
     "update": "ok",
     "generate": "ok",
-    "review": "failed",
-    "audit": "blocked",
-    "distribution": "blocked",
+    "review": "ok",
+    "audit": "ok",
+    "distribution": "failed",
     "articles": "skipped"
   },
   "new_titles": [
     "流年運勢你算了嗎? #開運軍師尹森#風水尹森#流年 #算命 #紫微斗數#八字 #命盤#尹森老師#尹森#命理師#命理師推薦#風水師推薦#2026運勢 #https #家居風水宜忌",
     "🔥習近平運勢終結?! 三個命理師同樣預言",
     "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
-    "立夏來了！命理師揭運勢加速期「5大星座」迎財運、桃花雙旺",
-    "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作"
+    "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作",
+    "立夏後16天運勢起飛！命理師曝「6大生肖」氣場升溫率先翻盤登頂| 星座命理| 生活"
   ],
   "added_titles": [
-    "立夏來了！命理師揭運勢加速期「5大星座」迎財運、桃花雙旺",
-    "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作"
+    "立夏後16天運勢起飛！命理師曝「6大生肖」氣場升溫率先翻盤登頂| 星座命理| 生活"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "failed_scripts": [
-    "review_daily_content.py"
+    "distribute_daily_content.py"
   ],
   "steps": [
     {
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月6日 14:06"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月6日 23:56"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 0,
       "ok": true,
-      "output": "generated Gemini content bundle at 2026年5月6日 14:06 using gemini-2.5-pro"
+      "output": "generated Gemini content bundle at 2026年5月6日 23:56 using gemini-2.5-pro"
     },
     {
       "script": "review_daily_content.py",
+      "returncode": 0,
+      "ok": true,
+      "output": "reviewed Gemini content bundle using gemini-2.5-pro"
+    },
+    {
+      "script": "audit_daily_content.py",
+      "returncode": 0,
+      "ok": true,
+      "output": "content audit passed with 0 warnings"
+    },
+    {
+      "script": "distribute_daily_content.py",
       "returncode": 1,
       "ok": false,
-      "output": "Gemini review failed: network or API error: HTTP Error 503: Service Unavailable"
+      "output": "prepared 6 distribution jobs; queued 4 jobs to Buffer; 2 jobs failed\ndistribution completed with 2 publishing failures"
     }
   ]
 }
