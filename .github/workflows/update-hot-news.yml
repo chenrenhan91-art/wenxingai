@@ -115,6 +115,9 @@ jobs:
             echo "Day=$DAY — skipping weekly llms update"
           fi
 
+      - name: Daily GEO freshness signals
+        run: python3 scripts/update_geo_signals.py
+
       - name: Commit changes
         run: |
           if git diff --quiet; then
@@ -123,7 +126,7 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add hot-news-data.json index.html mingli-xuanxue-news.html sitemap.xml llms-full.txt llms.txt
+          git add hot-news-data.json index.html mingli-xuanxue-news.html sitemap.xml llms-full.txt llms.txt geo-answers.html glossary.html
           if [ -f generated/gemini-content-bundle.json ]; then git add generated/gemini-content-bundle.json; fi
           if [ -f generated/gemini-content-package.md ]; then git add generated/gemini-content-package.md; fi
           if [ -f generated/gemini-review-report.json ]; then git add generated/gemini-review-report.json; fi
