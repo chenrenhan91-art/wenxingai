@@ -2371,9 +2371,20 @@
         }
         .info-empty-title { font-size: 0.88rem; color: #546a7b; line-height: 1.7; margin-bottom: 8px; }
         .info-empty-sub { font-size: 0.7rem; color: #2a3a50; letter-spacing: 0.5px; }
+        /* Pro 升级覆盖层 */
+        #proOverlay { display: none; position: fixed; inset: 0; z-index: 9998; background: #02040a; }
+        #proOverlay iframe { width: 100%; height: 100%; border: none; display: block; }
+        #proOverlayClose { position: fixed; top: 14px; right: 18px; z-index: 9999; background: rgba(30,40,70,0.85); border: 1px solid rgba(100,150,255,0.3); border-radius: 50%; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; cursor: pointer; color: #94a3b8; font-size: 1.1rem; transition: color .2s, background .2s; }
+        #proOverlayClose:hover { color: #fff; background: rgba(99,102,241,0.5); }
     </style>
 </head>
 <body>
+
+<!-- Pro 升级覆盖层 -->
+<div id="proOverlay">
+    <button id="proOverlayClose" onclick="closeProPage()" title="关闭">✕</button>
+    <iframe id="proFrame" src="" title="升级专业版"></iframe>
+</div>
 
 <div id="loading">
     <div class="planets">
@@ -2808,7 +2819,7 @@
                 </div>
 
                 <div class="auth-modal-actions">
-                    <a href="./pro.html" target="_blank" id="authUpgradeLink" class="auth-modal-ghost" style="display:block; text-decoration:none; text-align:center;">升级专业版</a>
+                    <a href="javascript:void(0)" id="authUpgradeLink" class="auth-modal-ghost" onclick="openProPage()" style="display:block; text-decoration:none; text-align:center;">升级专业版</a>
                     <button type="button" class="auth-modal-danger" onclick="logoutUser()">退出登录</button>
                 </div>
             </div>
@@ -3578,7 +3589,7 @@
                         return '⚠️ **登录已失效**\n\n请重新登录后再试。';
                     }
                     if (resp.status === 402 && data?.error === 'NO_QUOTA') {
-                        return `⚠️ **免费额度已用完**\n\n<a class="pro-unlock-btn" href="./pro.html" target="_blank">解锁专业版<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h12" stroke="white" stroke-width="2" stroke-linecap="round"/><path d="M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>\n\n（用户ID：${currentUser?.id ?? '--'}）`;
+                        return `⚠️ **免费额度已用完**\n\n<a class="pro-unlock-btn" href="javascript:void(0)" onclick="openProPage()">解锁专业版<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h12" stroke="white" stroke-width="2" stroke-linecap="round"/><path d="M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>\n\n（用户ID：${currentUser?.id ?? '--'}）`;
                     }
                     return `⚠️ **AI 调用失败**\n\n${data?.message || '请稍后再试。'}`;
                 }
@@ -8093,6 +8104,24 @@ ${chartSummary}`;
         setTimeout(() => showToast(`💡 点击"✨ 问星 AI 深度解析"可解读【${palaceName}】`, 'info', 3500), 200);
     }
 
+    // Pro 升级覆盖层
+    function openProPage() {
+        const overlay = document.getElementById('proOverlay');
+        const frame = document.getElementById('proFrame');
+        if (!frame.src || frame.src === window.location.href) {
+            frame.src = './pro.html';
+        }
+        overlay.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    }
+    function closeProPage() {
+        const overlay = document.getElementById('proOverlay');
+        overlay.style.display = 'none';
+        document.body.style.overflow = '';
+    }
+    window.addEventListener('message', (e) => {
+        if (e.data === 'close-pro') closeProPage();
+    });
 
 
 </script>
