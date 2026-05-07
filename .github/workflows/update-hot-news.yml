@@ -14,6 +14,7 @@ on:
       - "hot-news-sources.json"
       - "prompts/gemini_daily_content_prompt.txt"
       - "prompts/gemini_content_review_prompt.txt"
+      - "prompts/blog_outreach_prompt.txt"
       - "BUFFER_SETUP.md"
       - ".env.example"
       - ".github/workflows/update-hot-news.yml"
@@ -118,6 +119,13 @@ jobs:
       - name: Daily GEO freshness signals
         run: python3 scripts/update_geo_signals.py
 
+      - name: Generate blog outreach articles (知乎/百家号/简书)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          PIPELINE_FORCE_REFRESH: ${{ github.event_name == 'schedule' || inputs.force_refresh }}
+        run: python3 scripts/generate_blog_articles.py
+
       - name: Commit changes
         run: |
           if git diff --quiet; then
@@ -140,5 +148,6 @@ jobs:
           if [ -f generated/pipeline-report.json ]; then git add generated/pipeline-report.json; fi
           if [ -f generated/pipeline-report.md ]; then git add generated/pipeline-report.md; fi
           if [ -d generated/social-posts ]; then git add generated/social-posts; fi
+          if [ -d generated/blog-articles ]; then git add generated/blog-articles; fi
           git commit -m "chore: update hot news"
           git push
