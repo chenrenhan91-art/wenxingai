@@ -51,13 +51,23 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Three.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://unpkg.com/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
     <!-- Lunar Calendar Library -->
-    <script src="https://cdn.jsdelivr.net/npm/lunar-javascript@1.6.12/lunar.min.js"></script>
+    <script src="https://unpkg.com/lunar-javascript@1.6.12/lunar.min.js"></script>
     <!-- Marked: 仅 AI 回包时使用，defer 不阻塞首屏 -->
-    <script defer src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script defer src="https://unpkg.com/marked/marked.min.js"></script>
     <!-- Supabase JS SDK -->
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+    <script src="https://unpkg.com/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+    <!-- 安全兜底：SDK 加载失败时仍强制隐藏 loading 屏 -->
+    <script>
+      setTimeout(function() {
+        var loader = document.getElementById('loading');
+        if (loader && loader.style.display !== 'none') {
+          loader.style.opacity = 0;
+          setTimeout(function() { loader.style.display = 'none'; }, 500);
+        }
+      }, 8000);
+    </script>
     
     <style>
         /* Base Reset & Fonts */
@@ -2948,7 +2958,26 @@
     const SUPABASE_ANON = 'sb_publishable_cCE0RQBTjXOvYjFCpCfhsw_u_mC_cpp';
     const AI_EDGE_FN    = `${SUPABASE_URL}/functions/v1/ai-chat`;
 
-    const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON);
+    // 防止 CDN 加载失败导致页面崩溃：SDK 未加载时返回无操作的 stub
+    const supabase = (() => {
+        if (window.supabase) {
+            return window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON);
+        }
+        console.warn('[问星] Supabase SDK 未加载，认证功能不可用。请检查网络或刷新重试。');
+        const sdkErr = { message: '认证服务未加载，请刷新重试' };
+        const noop = () => Promise.resolve({ data: null, error: sdkErr });
+        const chain = { select: () => chain, eq: () => chain, single: noop };
+        return {
+            auth: {
+                onAuthStateChange: () => ({ data: { subscription: { unsubscribe: () => {} } } }),
+                getSession: () => Promise.resolve({ data: { session: null } }),
+                signInWithPassword: noop,
+                signUp: noop,
+                signOut: () => Promise.resolve({}),
+            },
+            from: () => chain,
+        };
+    })();
 
     let currentUser  = null;
     let _accessToken = '';  // 缓存 access_token，供同步调用场景使用
