@@ -1,4 +1,4 @@
-# 问星AI 内容自动化运行报告 2026年5月6日 23:55
+# 问星AI 内容自动化运行报告 2026年5月7日 00:14
 
 - 总体状态：failed_distribution
 - 本轮是否强制刷新：否
@@ -19,9 +19,6 @@
 - 立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作
 - 立夏後16天運勢起飛！命理師曝「6大生肖」氣場升溫率先翻盤登頂| 星座命理| 生活
 
-## 新增标题
-- 立夏後16天運勢起飛！命理師曝「6大生肖」氣場升溫率先翻盤登頂| 星座命理| 生活
-
 ## 次日运营建议
 - 明日优先延展「命理新闻」相关选题（当前占比 6/8）。
 
@@ -30,8 +27,8 @@
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年5月6日 23:56
-- generate_daily_content.py | ok | generated Gemini content bundle at 2026年5月6日 23:56 using gemini-2.5-pro
+updated 8 hot news items at 2026年5月7日 00:14
+- generate_daily_content.py | ok | generated Gemini content bundle at 2026年5月7日 00:14 using gemini-2.5-pro
 - review_daily_content.py | ok | reviewed Gemini content bundle using gemini-2.5-pro
 - audit_daily_content.py | ok | content audit passed with 0 warnings
 - distribute_daily_content.py | failed | prepared 6 distribution jobs; queued 4 jobs to Buffer; 2 jobs failed

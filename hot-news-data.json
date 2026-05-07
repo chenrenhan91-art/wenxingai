@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-06",
-  "updated_at_display": "2026年5月6日 23:56",
+  "updated_at": "2026-05-07",
+  "updated_at_display": "2026年5月7日 00:14",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-06T23:56:09.458691+08:00",
+    "fetched_at": "2026-05-07T00:14:33.392422+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -400,7 +400,7 @@
         "命理師"
       ],
       "score": 12.55,
-      "event_cluster": "event-10"
+      "event_cluster": "event-09"
     }
   ]
 }
