@@ -56,8 +56,8 @@
     <script src="https://unpkg.com/lunar-javascript@1.6.12/lunar.min.js"></script>
     <!-- Marked: 仅 AI 回包时使用，defer 不阻塞首屏 -->
     <script defer src="https://unpkg.com/marked/marked.min.js"></script>
-    <!-- Supabase JS SDK -->
-    <script src="https://unpkg.com/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+    <!-- Supabase JS SDK (本地托管，避免CDN在中国被墙) -->
+    <script src="./supabase.min.js"></script>
     <!-- 安全兜底：SDK 加载失败时仍强制隐藏 loading 屏 -->
     <script>
       setTimeout(function() {
