@@ -3204,13 +3204,22 @@
             submitBtn.textContent = `${actionText}中...`;
         }
 
+        const authTimeout = new Promise((_, reject) =>
+            setTimeout(() => reject(new Error('网络超时，请检查网络后重试')), 12000)
+        );
         try {
             let authError;
             if (authModalMode === 'login') {
-                const { error } = await supabase.auth.signInWithPassword({ email, password });
+                const { error } = await Promise.race([
+                    supabase.auth.signInWithPassword({ email, password }),
+                    authTimeout
+                ]);
                 authError = error;
             } else {
-                const { error } = await supabase.auth.signUp({ email, password });
+                const { error } = await Promise.race([
+                    supabase.auth.signUp({ email, password }),
+                    authTimeout
+                ]);
                 authError = error;
             }
             if (authError) throw authError;
@@ -3219,13 +3228,14 @@
             if (passwordInput) passwordInput.value = '';
             setAuthModalStatus(
                 authModalMode === 'login'
-                    ? '登录成功，账号状态已同步。'
-                    : '注册成功！请查收验证邮件完成验证，然后登录即可获得 3 次 AI 解读额度。',
+                    ? '登录成功，正在同步账号...'
+                    : '注册成功！请查收验证邮件，验证后登录即可获得 3 次 AI 解读额度。',
                 'success'
             );
-            // onAuthStateChange 会自动调用 fetchMe + renderAuthUI
+            // 主动刷新用户信息，不等待 onAuthStateChange
+            await fetchMe();
         } catch (e) {
-            setAuthModalStatus(e?.message || `${actionText}失败`, 'error');
+            setAuthModalStatus(e?.message || `${actionText}失败，请重试`, 'error');
             renderAuthModal();
         } finally {
             if (submitBtn) {
