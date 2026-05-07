@@ -2808,7 +2808,7 @@
                 </div>
 
                 <div class="auth-modal-actions">
-                    <a href="./pro.html" id="authUpgradeLink" class="auth-modal-ghost" style="display:block; text-decoration:none; text-align:center;">升级专业版</a>
+                    <a href="./pro.html" target="_blank" id="authUpgradeLink" class="auth-modal-ghost" style="display:block; text-decoration:none; text-align:center;">升级专业版</a>
                     <button type="button" class="auth-modal-danger" onclick="logoutUser()">退出登录</button>
                 </div>
             </div>
@@ -3120,7 +3120,13 @@
             } else {
                 document.getElementById('authAccountPlan').textContent = '免费版';
                 document.getElementById('authAccountQuota').textContent = `剩余 ${currentUser.remaining}/${currentUser.total}`;
-                document.getElementById('authAccountDesc').textContent = '当前账号状态已同步，返回星盘后可继续使用 AI 相关功能。';
+                if (currentUser.remaining === 0) {
+                    document.getElementById('authAccountDesc').textContent = 'AI 额度已用完，升级专业版可无限使用 AI 命盘解读。';
+                    if (upgradeLink) { upgradeLink.textContent = '🚀 立即升级专业版'; upgradeLink.style.background = 'linear-gradient(135deg,#7c3aed,#2563eb)'; upgradeLink.style.color = '#fff'; upgradeLink.style.borderRadius = '10px'; upgradeLink.style.padding = '10px 0'; }
+                } else {
+                    document.getElementById('authAccountDesc').textContent = '当前账号状态已同步，返回星盘后可继续使用 AI 相关功能。';
+                    if (upgradeLink) { upgradeLink.textContent = '升级专业版'; upgradeLink.style.background = ''; upgradeLink.style.color = ''; upgradeLink.style.borderRadius = ''; upgradeLink.style.padding = ''; }
+                }
                 if (upgradeLink) upgradeLink.style.display = 'block';
             }
             return;
@@ -3572,7 +3578,7 @@
                         return '⚠️ **登录已失效**\n\n请重新登录后再试。';
                     }
                     if (resp.status === 402 && data?.error === 'NO_QUOTA') {
-                        return `⚠️ **免费额度已用完**\n\n<a class="pro-unlock-btn" href="./pro.html">解锁专业版<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h12" stroke="white" stroke-width="2" stroke-linecap="round"/><path d="M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>\n\n（用户ID：${currentUser?.id ?? '--'}）`;
+                        return `⚠️ **免费额度已用完**\n\n<a class="pro-unlock-btn" href="./pro.html" target="_blank">解锁专业版<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h12" stroke="white" stroke-width="2" stroke-linecap="round"/><path d="M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>\n\n（用户ID：${currentUser?.id ?? '--'}）`;
                     }
                     return `⚠️ **AI 调用失败**\n\n${data?.message || '请稍后再试。'}`;
                 }
