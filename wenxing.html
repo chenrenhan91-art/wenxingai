@@ -774,6 +774,7 @@
         .auth-modal-inner {
             padding: 56px 22px 22px;
             overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
             max-height: 84vh;
         }
         .auth-modal-eyebrow {
@@ -2851,7 +2852,7 @@
         <div class="msg msg-ai">你好！我是问星大师，你的命盘数据已经全部读取完毕。<br><br>这一次，我不只能帮你看未来——我还能帮你<strong>读懂过去</strong>。提问我某年发生了什么，我会从三层星象（本命·大限·流年）分析出最可能的事件。<br><br>🔍 <strong>验证过去</strong> · 🔮 <strong>推导未来</strong><br><br>你可以这样问：「我2022年发生了什么重大事件？」或「2026年我的财运如何？」</div>
     </div>
     <div class="chat-input-area">
-        <input type="text" class="chat-input" id="userQuery" placeholder="输入你的问题..." onkeypress="handleChatKey(event)">
+        <input type="text" class="chat-input" id="userQuery" placeholder="输入你的问题..." enterkeyhint="send" autocomplete="off" onkeypress="handleChatKey(event)">
         <button style="margin:0; width:auto; padding: 8px 12px; background: #4361ee; color:white; border-radius:6px;" onclick="askMaster()">发送</button>
     </div>
 </div>
@@ -3727,6 +3728,8 @@
         let delay = 800;
 
         for (let i = 0; i < maxRetries; i++) {
+            const ctrl = new AbortController();
+            const tid = setTimeout(() => ctrl.abort(), 45000);
             try {
                 const resp = await fetch(AI_EDGE_FN, {
                     method: 'POST',
@@ -3734,8 +3737,10 @@
                         'Content-Type': 'application/json',
                         'Authorization': `Bearer ${getAuthToken()}`
                     },
-                    body: JSON.stringify({ prompt, systemInstruction: finalSystemInstruction })
+                    body: JSON.stringify({ prompt, systemInstruction: finalSystemInstruction }),
+                    signal: ctrl.signal,
                 });
+                clearTimeout(tid);
 
                 const data = await resp.json().catch(() => ({}));
 
@@ -3762,6 +3767,9 @@
                 const simplifiedText = simplifyAstrologyTerms(aiText);
                 return formatAiReadableText(simplifiedText);
             } catch (e) {
+                clearTimeout(tid);
+                // 超时直接返回，不重试（移动端弱网下超时不应再等 800ms 重试）
+                if (e?.name === 'AbortError') return '⚠️ **请求超时**\n\n当前网络较慢，AI 推演超时（45秒），请检查网络后重试。';
                 if (i === maxRetries - 1) return '连接失败：请检查 Supabase Edge Function 是否已部署。';
                 await new Promise(r => setTimeout(r, delay));
                 delay *= 2;
