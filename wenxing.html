@@ -2786,7 +2786,7 @@
                 <div id="authModalStatus" class="auth-modal-status"></div>
 
                 <div class="auth-modal-form">
-                    <input type="email" id="authUsername" class="auth-modal-input" autocomplete="off" placeholder="邮箱地址">
+                    <input type="email" id="authUsername" class="auth-modal-input" autocomplete="email" placeholder="邮箱地址">
                     <input type="password" id="authPassword" class="auth-modal-input" autocomplete="new-password" placeholder="密码（6 位以上）">
                 </div>
 
@@ -2819,6 +2819,19 @@
                 </div>
 
                 <div class="auth-modal-actions">
+                    <div id="inviteCodeSection" style="display:none; margin-bottom:12px;">
+                        <div style="font-size:0.78rem; color:#94a3b8; margin-bottom:6px;">已付费？输入邀请码激活专业版</div>
+                        <div style="display:flex; gap:8px;">
+                            <input type="text" id="inviteCodeInput" maxlength="32"
+                                style="flex:1; background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.15); border-radius:8px; padding:9px 12px; color:#e2e8f0; font-size:0.9rem; outline:none; text-transform:uppercase; letter-spacing:1px;"
+                                placeholder="邀请码" autocomplete="off">
+                            <button type="button" id="inviteCodeBtn" onclick="redeemInviteCode()"
+                                style="background:linear-gradient(135deg,#7c3aed,#2563eb); border:none; color:#fff; padding:9px 16px; border-radius:8px; cursor:pointer; font-size:0.85rem; font-weight:700; white-space:nowrap;">
+                                激活
+                            </button>
+                        </div>
+                        <div id="inviteCodeStatus" style="font-size:0.78rem; margin-top:5px; min-height:1.2em;"></div>
+                    </div>
                     <a href="javascript:void(0)" id="authUpgradeLink" class="auth-modal-ghost" onclick="openProPage()" style="display:block; text-decoration:none; text-align:center;">升级专业版</a>
                     <button type="button" class="auth-modal-danger" onclick="logoutUser()">退出登录</button>
                 </div>
@@ -3037,6 +3050,7 @@
                         'apikey': SUPABASE_ANON,
                         'Authorization': `Bearer ${session.access_token}`,
                         'Accept': 'application/json',
+                        'Cache-Control': 'no-cache',
                     },
                     signal: ctrl.signal,
                 }
@@ -3152,6 +3166,8 @@
                 document.getElementById('authAccountQuota').textContent = '无限使用';
                 document.getElementById('authAccountDesc').textContent = '当前已是专业版，返回星盘后即可直接无限使用 AI 解读。';
                 if (upgradeLink) upgradeLink.style.display = 'none';
+                const invSec = document.getElementById('inviteCodeSection');
+                if (invSec) invSec.style.display = 'none';
             } else {
                 document.getElementById('authAccountPlan').textContent = '免费版';
                 document.getElementById('authAccountQuota').textContent = `剩余 ${currentUser.remaining}/${currentUser.total}`;
@@ -3163,6 +3179,8 @@
                     if (upgradeLink) { upgradeLink.textContent = '升级专业版'; upgradeLink.style.background = ''; upgradeLink.style.color = ''; upgradeLink.style.borderRadius = ''; upgradeLink.style.padding = ''; }
                 }
                 if (upgradeLink) upgradeLink.style.display = 'block';
+                const invSec = document.getElementById('inviteCodeSection');
+                if (invSec) invSec.style.display = 'block';
             }
             return;
         }
@@ -3181,6 +3199,9 @@
         if (footnoteEl) footnoteEl.textContent = isLogin
             ? '没有账号？切换注册立即免费开启星盘体验。'
             : '已有账号可切换登录，登录后自动开始排盘。';
+        // 移动端：根据模式切换 autocomplete，使 iOS/Android 能正确提供已保存密码
+        const passInput = document.getElementById('authPassword');
+        if (passInput) passInput.setAttribute('autocomplete', isLogin ? 'current-password' : 'new-password');
     }
 
     function openAuthModal(mode = '', closeAi = false) {
@@ -3215,7 +3236,7 @@
 
     async function submitAuth() {
         const email = document.getElementById('authUsername')?.value?.trim();
-        const password = document.getElementById('authPassword')?.value || '';
+        const password = (document.getElementById('authPassword')?.value || '').trim();
         const submitBtn = document.getElementById('authSubmitBtn');
         const actionText = authModalMode === 'login' ? '登录' : '注册';
 
@@ -3235,7 +3256,7 @@
 
         // 用 AbortController 真正取消请求，8s 超时（Cloudflare 代理下应 <2s）
         const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 8000);
+        const timeoutId = setTimeout(() => controller.abort(), 15000);
         try {
             const isLogin = authModalMode === 'login';
             const url = isLogin
@@ -3259,8 +3280,30 @@
             document.getElementById('authPassword').value = '';
 
             if (!isLogin) {
-                // 注册成功：等待邮件验证，不自动登录
-                setAuthModalStatus('注册成功！请查收验证邮件，验证后切换到登录即可开启星盘。', 'success');
+                if (data.access_token) {
+                    // 服务端未开启邮件验证，直接登录
+                    _accessToken = data.access_token;
+                    const u = data.user || {};
+                    currentUser = {
+                        id: u.id,
+                        username: u.user_metadata?.display_name || (u.email || email).split('@')[0],
+                        isPro: false,
+                        remaining: 3,
+                        total: 3,
+                    };
+                    renderAuthUI();
+                    setAuthModalStatus('注册成功，正在开启星盘...', 'success');
+                    supabase.auth.setSession({ access_token: data.access_token, refresh_token: data.refresh_token || '' }).catch(() => {});
+                    fetchMe().catch(() => {});
+                    setTimeout(() => {
+                        closeAuthModal();
+                        const date = resolveCompositeDateValue?.('birthDate');
+                        if (date && parseLocalYmd(date)) generateChart();
+                    }, 600);
+                } else {
+                    // 需要邮件验证后才能登录
+                    setAuthModalStatus('注册成功！请查收验证邮件，验证后切换到登录即可开启星盘。', 'success');
+                }
                 return;
             }
 
@@ -3307,6 +3350,55 @@
         // onAuthStateChange 会自动重置 currentUser 并调用 renderAuthUI
         authModalMode = 'login';
         setAuthModalStatus('已退出登录。', 'info');
+    }
+
+    async function redeemInviteCode() {
+        const input = document.getElementById('inviteCodeInput');
+        const btn = document.getElementById('inviteCodeBtn');
+        const statusEl = document.getElementById('inviteCodeStatus');
+        const code = (input?.value || '').trim().toUpperCase();
+        if (!code) {
+            statusEl.textContent = '请输入邀请码';
+            statusEl.style.color = '#f87171';
+            return;
+        }
+        btn.disabled = true;
+        btn.textContent = '验证中...';
+        statusEl.textContent = '';
+        try {
+            const resp = await fetch(`${PROXY_BASE}/rest/v1/rpc/redeem_invite_code`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'apikey': SUPABASE_ANON,
+                    'Authorization': `Bearer ${getAuthToken()}`,
+                },
+                body: JSON.stringify({ p_code: code }),
+            });
+            const data = await resp.json().catch(() => ({}));
+            if (!resp.ok) throw new Error(data?.message || '网络错误');
+            if (data?.success) {
+                statusEl.textContent = '✅ 成功激活专业版！';
+                statusEl.style.color = '#4ade80';
+                if (input) input.value = '';
+                // 从服务端重新同步状态
+                await fetchMe();
+            } else {
+                const errMap = {
+                    'INVALID_CODE': '邀请码不存在或已被使用',
+                    'ALREADY_PRO': '账号已是专业版',
+                    'UNAUTHORIZED': '请先登录',
+                };
+                statusEl.textContent = '❌ ' + (errMap[data?.error] || '邀请码无效，请重试');
+                statusEl.style.color = '#f87171';
+            }
+        } catch (e) {
+            statusEl.textContent = '❌ ' + (e?.message || '网络错误，请重试');
+            statusEl.style.color = '#f87171';
+        } finally {
+            btn.disabled = false;
+            btn.textContent = '激活';
+        }
     }
 
     function parseLocalYmd(dateStr) {
@@ -3647,7 +3739,12 @@
 
                 const data = await resp.json().catch(() => ({}));
 
-                // 调用后从 Supabase profiles 重新同步额度显示
+                // 成功扣减后立即乐观更新本地额度，避免等待 fetchMe 或 _fetchMeInProgress 竞态导致显示不更新
+                if (resp.ok && currentUser && !currentUser.isPro && currentUser.remaining > 0) {
+                    currentUser.remaining -= 1;
+                    renderAuthUI();
+                }
+                // 再与服务端同步（加 no-cache 防止读到缓存旧值）
                 void fetchMe();
 
                 if (!resp.ok) {
