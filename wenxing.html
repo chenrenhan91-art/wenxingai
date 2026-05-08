@@ -3207,47 +3207,61 @@
             submitBtn.textContent = `${actionText}中...`;
         }
 
-        const authTimeout = new Promise((_, reject) =>
-            setTimeout(() => reject(new Error('网络超时，请检查网络后重试')), 12000)
-        );
+        // 用 AbortController 真正取消请求，避免 Promise.race 无法取消底层 fetch 的问题
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 20000);
         try {
-            let authError;
-            if (authModalMode === 'login') {
-                const { error } = await Promise.race([
-                    supabase.auth.signInWithPassword({ email, password }),
-                    authTimeout
-                ]);
-                authError = error;
-            } else {
-                const { error } = await Promise.race([
-                    supabase.auth.signUp({ email, password }),
-                    authTimeout
-                ]);
-                authError = error;
+            const isLogin = authModalMode === 'login';
+            const url = isLogin
+                ? `${SUPABASE_URL}/auth/v1/token?grant_type=password`
+                : `${SUPABASE_URL}/auth/v1/signup`;
+
+            const resp = await fetch(url, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json', 'apikey': SUPABASE_ANON },
+                body: JSON.stringify({ email, password }),
+                signal: controller.signal,
+            });
+            clearTimeout(timeoutId);
+
+            const data = await resp.json().catch(() => ({}));
+            if (!resp.ok) {
+                const msg = data.msg || data.error_description || data.error || `${actionText}失败`;
+                throw new Error(msg);
             }
-            if (authError) throw authError;
+
+            // 登录成功：把 token 注入 Supabase SDK，触发 onAuthStateChange
+            if (isLogin && data.access_token) {
+                await supabase.auth.setSession({
+                    access_token: data.access_token,
+                    refresh_token: data.refresh_token || '',
+                });
+            }
 
             const passwordInput = document.getElementById('authPassword');
             if (passwordInput) passwordInput.value = '';
             setAuthModalStatus(
-                authModalMode === 'login'
+                isLogin
                     ? '登录成功，正在开启星盘...'
                     : '注册成功！请查收验证邮件，验证后登录即可开启星盘。',
                 'success'
             );
-            // 主动刷新用户信息，不等待 onAuthStateChange
+            // 主动刷新用户信息
             await fetchMe();
-            // 登录成功后：关闭弹窗，若已填出生日期则自动排盘
+            // 关闭弹窗，若已填出生日期则自动排盘
             setTimeout(() => {
                 closeAuthModal();
                 const date = resolveCompositeDateValue?.('birthDate');
-                if (authModalMode !== 'register' && date && parseLocalYmd(date)) {
+                if (isLogin && date && parseLocalYmd(date)) {
                     generateChart();
                 }
             }, 800);
         } catch (e) {
-            setAuthModalStatus(e?.message || `${actionText}失败，请重试`, 'error');
-            renderAuthModal();
+            clearTimeout(timeoutId);
+            const msg = e?.name === 'AbortError'
+                ? '网络超时，请检查网络后重试'
+                : (e?.message || `${actionText}失败，请重试`);
+            setAuthModalStatus(msg, 'error');
         } finally {
             if (submitBtn) {
                 submitBtn.disabled = false;
