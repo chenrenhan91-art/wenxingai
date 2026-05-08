@@ -21,7 +21,8 @@ BUNDLE_PATH = OUTPUT_DIR / "gemini-content-bundle.json"
 MARKDOWN_OUTPUT_PATH = OUTPUT_DIR / "gemini-content-package.md"
 REVIEW_REPORT_JSON_PATH = OUTPUT_DIR / "gemini-review-report.json"
 REVIEW_REPORT_MD_PATH = OUTPUT_DIR / "gemini-review-report.md"
-DEFAULT_MODEL = "gemini-2.5-pro"
+DEFAULT_MODEL = "deepseek-v4-flash"
+DASHSCOPE_ENDPOINT = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
 DEFAULT_TIMEOUT_SECONDS = 180
 DEFAULT_RETRY_ATTEMPTS = 3
 USER_AGENT = (
@@ -173,29 +174,23 @@ def build_prompt(bundle: dict[str, Any]) -> str:
 
 
 def call_gemini(prompt: str, api_key: str, model: str) -> dict[str, Any]:
-    endpoint = (
-        "https://generativelanguage.googleapis.com/v1beta/models/"
-        f"{urllib.parse.quote(model, safe='')}:generateContent"
-    )
     request_payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {
-            "responseMimeType": "application/json",
-            "responseJsonSchema": CONTENT_SCHEMA,
-        },
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "response_format": {"type": "json_object"},
     }
     request = urllib.request.Request(
-        endpoint,
+        DASHSCOPE_ENDPOINT,
         data=json.dumps(request_payload, ensure_ascii=False).encode("utf-8"),
         headers={
             "Content-Type": "application/json; charset=utf-8",
-            "x-goog-api-key": api_key,
+            "Authorization": f"Bearer {api_key}",
             "User-Agent": USER_AGENT,
         },
         method="POST",
     )
     timeout_seconds = int(
-        os.getenv("GEMINI_TIMEOUT_SECONDS", str(DEFAULT_TIMEOUT_SECONDS)) or DEFAULT_TIMEOUT_SECONDS
+        os.getenv("DASHSCOPE_TIMEOUT_SECONDS", str(DEFAULT_TIMEOUT_SECONDS)) or DEFAULT_TIMEOUT_SECONDS
     )
     last_exc: Exception | None = None
     for attempt in range(1, DEFAULT_RETRY_ATTEMPTS + 1):
@@ -212,16 +207,13 @@ def call_gemini(prompt: str, api_key: str, model: str) -> dict[str, Any]:
 
 
 def extract_candidate_text(response_payload: dict[str, Any]) -> str:
-    texts: list[str] = []
-    for candidate in response_payload.get("candidates", []):
-        content = candidate.get("content") or {}
-        for part in content.get("parts", []):
-            text = part.get("text")
-            if isinstance(text, str) and text.strip():
-                texts.append(text.strip())
-    if not texts:
-        raise RuntimeError("Gemini review returned no text candidates")
-    return "\n".join(texts).strip()
+    choices = response_payload.get("choices", [])
+    if not choices:
+        raise RuntimeError("DashScope returned no choices")
+    text = choices[0].get("message", {}).get("content", "").strip()
+    if not text:
+        raise RuntimeError("DashScope returned empty content")
+    return text
 
 
 def validate_locale_content(locale_key: str, payload: dict[str, Any]) -> dict[str, Any]:
@@ -390,11 +382,11 @@ def render_markdown(bundle: dict[str, Any]) -> str:
 
 def main() -> None:
     load_env_files()
-    api_key = os.getenv("GEMINI_API_KEY")
+    api_key = os.getenv("DASHSCOPE_API_KEY")
     if not api_key:
-        raise SystemExit("Gemini review failed: missing GEMINI_API_KEY")
+        raise SystemExit("AI review failed: missing DASHSCOPE_API_KEY")
 
-    model = os.getenv("GEMINI_REVIEW_MODEL", DEFAULT_MODEL).strip() or DEFAULT_MODEL
+    model = os.getenv("DASHSCOPE_REVIEW_MODEL", DEFAULT_MODEL).strip() or DEFAULT_MODEL
     try:
         bundle = load_bundle()
         prompt = build_prompt(bundle)

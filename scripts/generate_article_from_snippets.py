@@ -26,11 +26,6 @@ from typing import Any
 from urllib.error import HTTPError, URLError
 from zoneinfo import ZoneInfo
 
-try:
-    import google.generativeai as genai
-except ImportError:
-    genai = None
-
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "hot-news-data.json"
 CONTENT_BUNDLE_PATH = ROOT / "generated" / "gemini-content-bundle.json"
@@ -40,7 +35,8 @@ ARTICLES_REPORT_PATH = ROOT / "generated" / "articles-report.md"
 
 ARTICLES_DIR.mkdir(exist_ok=True)
 
-DEFAULT_MODEL = "gemini-2.5-pro"
+DEFAULT_MODEL = "deepseek-v4-flash"
+DASHSCOPE_ENDPOINT = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
 DEFAULT_TIMEOUT_SECONDS = 180
 DEFAULT_RETRY_ATTEMPTS = 3
 
@@ -51,18 +47,9 @@ USER_AGENT = (
 )
 
 
-def get_gemini_client() -> Any:
-    """初始化 Gemini 客户端"""
-    api_key = os.getenv("GEMINI_API_KEY")
-    if not api_key:
-        return None
-    
-    try:
-        genai.configure(api_key=api_key)
-        return genai
-    except Exception as e:
-        print(f"[warn] failed to initialize Gemini client: {e}")
-        return None
+def get_gemini_client() -> str | None:
+    """获取 DashScope API Key"""
+    return os.getenv("DASHSCOPE_API_KEY") or None
 
 
 def build_article_generation_schema() -> dict[str, Any]:
@@ -211,46 +198,56 @@ def build_article_prompt(
 def generate_article_with_gemini(
     bundle: dict[str, Any],
     locale: str,
-    client: Any,
+    client: str | None,
     model: str = DEFAULT_MODEL
 ) -> dict[str, Any] | None:
-    """使用 Gemini 生成完整文章"""
-    
+    """使用 DashScope 生成完整文章"""
+
     if not client:
         return None
-    
+
     prompt = build_article_prompt(bundle, locale)
-    schema = build_article_generation_schema()
-    
+
     try:
-        response = client.models.generate_content(
-            model=model,
-            contents=prompt,
-            generation_config={
-                "response_mime_type": "application/json",
-                "response_schema": schema,
-                "temperature": 0.7,
-                "max_output_tokens": 4000,
-                "timeout": DEFAULT_TIMEOUT_SECONDS,
+        request_payload = {
+            "model": model,
+            "messages": [{"role": "user", "content": prompt}],
+            "response_format": {"type": "json_object"},
+        }
+        req = urllib.request.Request(
+            DASHSCOPE_ENDPOINT,
+            data=json.dumps(request_payload, ensure_ascii=False).encode("utf-8"),
+            headers={
+                "Content-Type": "application/json; charset=utf-8",
+                "Authorization": f"Bearer {client}",
+                "User-Agent": USER_AGENT,
             },
-            safety_settings=[
-                {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
-                {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
-                {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
-                {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"},
-            ]
+            method="POST",
         )
-        
-        text = response.text.strip()
+        last_exc: Exception | None = None
+        for attempt in range(1, DEFAULT_RETRY_ATTEMPTS + 1):
+            try:
+                with urllib.request.urlopen(req, timeout=DEFAULT_TIMEOUT_SECONDS) as resp:
+                    response_payload = json.loads(resp.read().decode("utf-8"))
+                    break
+            except (HTTPError, URLError, socket.timeout, TimeoutError) as exc:
+                last_exc = exc
+                if attempt >= DEFAULT_RETRY_ATTEMPTS:
+                    raise
+                time.sleep(min(2 * attempt, 6))
+
+        choices = response_payload.get("choices", [])
+        if not choices:
+            raise RuntimeError("DashScope returned no choices")
+        text = choices[0].get("message", {}).get("content", "").strip()
         if text.startswith("```json"):
             text = text[7:]
         if text.endswith("```"):
             text = text[:-3]
         text = text.strip()
-        
-        article_data = json.loads(text)
-        return article_data
-    
+
+        return json.loads(text)
+
     except Exception as e:
         print(f"[error] failed to generate article for {locale}: {e}")
         return None
@@ -596,10 +593,10 @@ def main() -> None:
     bundle_slug = bundle.get('slug', 'daily-content')
     published_at = bundle.get('generated_at_display', datetime.now(ZoneInfo('Asia/Taipei')).strftime('%Y年%m月%d日'))
     
-    # 初始化 Gemini
+    # 初始化 DashScope
     client = get_gemini_client()
     if not client:
-        print("[warn] Gemini API not available, skipping article generation")
+        print("[warn] DASHSCOPE_API_KEY not available, skipping article generation")
         return
     
     print(f"[info] generating articles for campaign: {bundle_slug}")

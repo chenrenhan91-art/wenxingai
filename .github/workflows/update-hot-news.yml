@@ -14,7 +14,6 @@ on:
       - "hot-news-sources.json"
       - "prompts/gemini_daily_content_prompt.txt"
       - "prompts/gemini_content_review_prompt.txt"
-      - "prompts/blog_outreach_prompt.txt"
       - "BUFFER_SETUP.md"
       - ".env.example"
       - ".github/workflows/update-hot-news.yml"
@@ -24,7 +23,7 @@ on:
   workflow_dispatch:
     inputs:
       force_refresh:
-        description: "Force Gemini regeneration and Buffer distribution even if hot-news signature is unchanged"
+        description: "Force AI regeneration and Buffer distribution even if hot-news signature is unchanged"
         required: false
         default: false
         type: boolean
@@ -46,10 +45,10 @@ jobs:
 
       - name: Validate required configuration
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
-          GEMINI_REVIEW_MODEL: ${{ vars.GEMINI_REVIEW_MODEL }}
+          DASHSCOPE_MODEL: ${{ vars.DASHSCOPE_MODEL }}
+          DASHSCOPE_REVIEW_MODEL: ${{ vars.DASHSCOPE_REVIEW_MODEL }}
           BUFFER_THREADS_PROFILE_ID: ${{ vars.BUFFER_THREADS_PROFILE_ID }}
           BUFFER_X_PROFILE_ID: ${{ vars.BUFFER_X_PROFILE_ID }}
           BUFFER_INSTAGRAM_PROFILE_ID: ${{ vars.BUFFER_INSTAGRAM_PROFILE_ID }}
@@ -60,10 +59,10 @@ jobs:
           SOCIAL_LANDING_URL: ${{ vars.SOCIAL_LANDING_URL }}
         run: |
           missing=()
-          [ -n "$GEMINI_API_KEY" ] || missing+=("secret:GEMINI_API_KEY")
+          [ -n "$DASHSCOPE_API_KEY" ] || missing+=("secret:DASHSCOPE_API_KEY")
           [ -n "$BUFFER_API_KEY" ] || missing+=("secret:BUFFER_API_KEY")
-          [ -n "$GEMINI_MODEL" ] || missing+=("var:GEMINI_MODEL")
-          [ -n "$GEMINI_REVIEW_MODEL" ] || missing+=("var:GEMINI_REVIEW_MODEL")
+          [ -n "$DASHSCOPE_MODEL" ] || missing+=("var:DASHSCOPE_MODEL")
+          [ -n "$DASHSCOPE_REVIEW_MODEL" ] || missing+=("var:DASHSCOPE_REVIEW_MODEL")
           [ -n "$BUFFER_THREADS_PROFILE_ID" ] || missing+=("var:BUFFER_THREADS_PROFILE_ID")
           [ -n "$BUFFER_X_PROFILE_ID" ] || missing+=("var:BUFFER_X_PROFILE_ID")
           [ -n "$BUFFER_INSTAGRAM_PROFILE_ID" ] || missing+=("var:BUFFER_INSTAGRAM_PROFILE_ID")
@@ -86,9 +85,9 @@ jobs:
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
-          GEMINI_REVIEW_MODEL: ${{ vars.GEMINI_REVIEW_MODEL }}
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+          DASHSCOPE_MODEL: ${{ vars.DASHSCOPE_MODEL }}
+          DASHSCOPE_REVIEW_MODEL: ${{ vars.DASHSCOPE_REVIEW_MODEL }}
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           BUFFER_THREADS_PROFILE_ID: ${{ vars.BUFFER_THREADS_PROFILE_ID }}
           BUFFER_X_PROFILE_ID: ${{ vars.BUFFER_X_PROFILE_ID }}
@@ -118,13 +117,6 @@ jobs:
 
       - name: Daily GEO freshness signals
         run: python3 scripts/update_geo_signals.py
-
-      - name: Generate blog outreach articles (知乎/百家号/简书)
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
-          PIPELINE_FORCE_REFRESH: ${{ github.event_name == 'schedule' || inputs.force_refresh }}
-        run: python3 scripts/generate_blog_articles.py
 
       - name: Commit changes
         run: |
