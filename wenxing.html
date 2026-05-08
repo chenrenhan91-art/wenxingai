@@ -3379,11 +3379,15 @@
             const data = await resp.json().catch(() => ({}));
             if (!resp.ok) throw new Error(data?.message || '网络错误');
             if (data?.success) {
+                if (input) input.value = '';
+                // 立即乐观更新本地状态，无需等待网络
+                if (currentUser) { currentUser.isPro = true; }
+                renderAuthModal();
+                renderAuthUI();
                 statusEl.textContent = '✅ 成功激活专业版！';
                 statusEl.style.color = '#4ade80';
-                if (input) input.value = '';
-                // 从服务端重新同步状态
-                await fetchMe();
+                // 后台与服务端同步真实数据
+                fetchMe().catch(() => {});
             } else {
                 const errMap = {
                     'INVALID_CODE': '邀请码不存在或已被使用',
