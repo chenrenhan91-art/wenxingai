@@ -2438,7 +2438,7 @@
             <div class="panel-header-actions">
                 <button type="button" id="authEntryBtn" class="auth-entry-btn" onclick="openLoginGuide(false); event.stopPropagation();">
                     <span class="auth-entry-title">登录 / 注册</span>
-                    <span class="auth-entry-sub">领取 3 次 AI 解读</span>
+                    <span class="auth-entry-sub">登录后立即开启星盘</span>
                 </button>
                 <div class="toggle-icon">▼</div>
             </div>
@@ -2486,9 +2486,9 @@
                 <option value="0">女 (坤造)</option>
             </select>
 
-            <button class="uiverse" onclick="generateChart()">
+            <button class="uiverse" onclick="generateChart()" id="generateBtn">
                 <div class="wrapper">
-                    <span>🚀 开启星盘</span>
+                    <span id="generateBtnText">🔐 注册后开启星盘</span>
                     <div class="circle circle-12"></div>
                     <div class="circle circle-11"></div>
                     <div class="circle circle-10"></div>
@@ -3066,8 +3066,8 @@
         if (!authEntryBtn) return;
 
         if (!currentUser) {
-            if (authEntryTitle) authEntryTitle.innerText = '登录 / 注册';
-            if (authEntrySub) authEntrySub.innerText = '领取 3 次 AI 解读';
+            if (authEntryTitle) authEntryTitle.innerText = '注册 / 登录';
+            if (authEntrySub) authEntrySub.innerText = '登录后立即开启星盘';
             renderAuthModal();
             return;
         }
@@ -3079,6 +3079,9 @@
             if (authEntryTitle) authEntryTitle.innerText = '账户中心';
             if (authEntrySub) authEntrySub.innerText = `剩余 ${currentUser.remaining}/${currentUser.total} 次 AI`;
         }
+        // 已登录：更新排盘按钮文案
+        const generateBtnText = document.getElementById('generateBtnText');
+        if (generateBtnText) generateBtnText.textContent = '🚀 开启星盘';
         renderAuthModal();
     }
 
@@ -3151,12 +3154,12 @@
         if (eyebrowEl) eyebrowEl.textContent = isLogin ? '欢迎回来' : '首次使用';
         if (titleEl) titleEl.textContent = isLogin ? '登录问星AI' : '注册问星AI';
         if (descEl) descEl.textContent = isLogin
-            ? '登录后即可继续使用 AI 命盘解读、合盘分析与额度同步。'
-            : '注册即送 3 次 AI 解读额度，完成后无需离开当前页面即可继续排盘。';
+            ? '登录后即可开启星盘排盘，使用 AI 命盘解读、合盘分析。'
+            : '注册即可免费开启星盘排盘，同时获得 3 次 AI 深度解读额度。';
         if (submitBtn) submitBtn.textContent = isLogin ? '立即登录' : '立即注册';
         if (footnoteEl) footnoteEl.textContent = isLogin
-            ? '没有账号也没关系，切换到注册后即可直接领取免费 AI 额度。'
-            : '已有账号可切换到登录，系统会自动同步你的 AI 额度和专业版状态。';
+            ? '没有账号？切换注册立即免费开启星盘体验。'
+            : '已有账号可切换登录，登录后自动开始排盘。';
     }
 
     function openAuthModal(mode = '', closeAi = false) {
@@ -3228,12 +3231,20 @@
             if (passwordInput) passwordInput.value = '';
             setAuthModalStatus(
                 authModalMode === 'login'
-                    ? '登录成功，正在同步账号...'
-                    : '注册成功！请查收验证邮件，验证后登录即可获得 3 次 AI 解读额度。',
+                    ? '登录成功，正在开启星盘...'
+                    : '注册成功！请查收验证邮件，验证后登录即可开启星盘。',
                 'success'
             );
             // 主动刷新用户信息，不等待 onAuthStateChange
             await fetchMe();
+            // 登录成功后：关闭弹窗，若已填出生日期则自动排盘
+            setTimeout(() => {
+                closeAuthModal();
+                const date = resolveCompositeDateValue?.('birthDate');
+                if (authModalMode !== 'register' && date && parseLocalYmd(date)) {
+                    generateChart();
+                }
+            }, 800);
         } catch (e) {
             setAuthModalStatus(e?.message || `${actionText}失败，请重试`, 'error');
             renderAuthModal();
@@ -3543,7 +3554,7 @@
                 <div style="text-align:center; padding:36px 16px;">
                     <div style="font-size:2.8rem; margin-bottom:14px;">🔐</div>
                     <div style="font-size:1.05rem; font-weight:800; color:#e2e8f0; margin-bottom:8px;">登录后解锁 AI 星盘解读</div>
-                    <div style="font-size:0.82rem; color:#94a3b8; margin-bottom:26px; line-height:1.8;">注册即免费获得 <strong style="color:#60a5fa;">3 次</strong> AI 解读额度<br>深度解析命盘・宫位・四化飞星</div>
+                    <div style="font-size:0.82rem; color:#94a3b8; margin-bottom:26px; line-height:1.8;">注册即可免费开启星盘排盘<br>并获得 <strong style="color:#60a5fa;">3 次</strong> AI 深度解读额度</div>
                     <button onclick="openAuthModal('register', true)" style="background:linear-gradient(135deg,#2563eb,#6366f1); border:none; color:#fff; padding:13px 36px; border-radius:12px; cursor:pointer; font-size:0.95rem; font-weight:800; letter-spacing:1px; box-shadow:0 4px 22px rgba(99,102,241,0.45); transition:transform 0.15s;"
                         onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
                         ✨ 立即注册 / 登录
@@ -6547,6 +6558,13 @@ ${outputStructure}`;
     }
 
     function generateChart() {
+        // 未登录：弹出引导注册弹窗，不执行排盘
+        if (!currentUser) {
+            authModalMode = 'register';
+            openLoginGuide(true);
+            showToast('请先注册 / 登录后开启星盘', 'warn');
+            return;
+        }
         const date = resolveCompositeDateValue('birthDate');
         const hourIdx = document.getElementById('birthHour').value;
         const gender = document.getElementById('gender').value;
