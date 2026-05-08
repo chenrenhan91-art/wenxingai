@@ -122,4 +122,5 @@ jobs:
           if [ -d generated/social-posts ]; then git add generated/social-posts; fi
           if [ -d generated/blog-articles ]; then git add generated/blog-articles; fi
           git commit -m "chore: update hot news"
+          git pull --rebase origin main
           git push
