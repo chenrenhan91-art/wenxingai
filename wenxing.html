@@ -2786,8 +2786,8 @@
                 <div id="authModalStatus" class="auth-modal-status"></div>
 
                 <div class="auth-modal-form">
-                    <input type="email" id="authUsername" class="auth-modal-input" autocomplete="email" placeholder="邮箱地址">
-                    <input type="password" id="authPassword" class="auth-modal-input" autocomplete="current-password" placeholder="密码（6 位以上）">
+                    <input type="email" id="authUsername" class="auth-modal-input" autocomplete="off" placeholder="邮箱地址">
+                    <input type="password" id="authPassword" class="auth-modal-input" autocomplete="new-password" placeholder="密码（6 位以上）">
                 </div>
 
                 <button type="button" id="authSubmitBtn" class="auth-modal-submit" onclick="submitAuth()">立即注册</button>
@@ -2967,7 +2967,11 @@
     // ⚙️ 配置区 —— 替换为你自己的 Supabase 项目信息
     const SUPABASE_URL  = 'https://vyumtwiwwuqqcipdskis.supabase.co';
     const SUPABASE_ANON = 'sb_publishable_cCE0RQBTjXOvYjFCpCfhsw_u_mC_cpp';
-    const AI_EDGE_FN    = `${SUPABASE_URL}/functions/v1/ai-chat`;
+    // 代理基地址：生产环境走 Cloudflare Pages Function /proxy/*（绕过 GFW）
+    // 本地开发时直连 Supabase（localhost 不走 Pages Function）
+    const _isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
+    const PROXY_BASE  = _isLocal ? SUPABASE_URL : (window.location.origin + '/proxy');
+    const AI_EDGE_FN  = `${PROXY_BASE}/functions/v1/ai-chat`;
 
     // 防止 CDN 加载失败导致页面崩溃：SDK 未加载时返回无操作的 stub
     const supabase = (() => {
@@ -3009,6 +3013,7 @@
     }
 
     // 从 Supabase profiles 表拉取额度，组装 currentUser
+    // 使用直接 fetch + AbortController(10s)，避免 SDK 内部请求无超时卡住
     async function fetchMe() {
         const { data: { session } } = await supabase.auth.getSession();
         if (!session) {
@@ -3019,12 +3024,23 @@
         }
         _accessToken = session.access_token;
         try {
-            const { data: profile, error } = await supabase
-                .from('profiles')
-                .select('is_pro, remaining_quota, total_quota')
-                .eq('user_id', session.user.id)
-                .single();
-            if (error) throw error;
+            const ctrl = new AbortController();
+            const tid = setTimeout(() => ctrl.abort(), 10000);
+            const resp = await fetch(
+                `${PROXY_BASE}/rest/v1/profiles?user_id=eq.${encodeURIComponent(session.user.id)}&select=is_pro,remaining_quota,total_quota&limit=1`,
+                {
+                    headers: {
+                        'apikey': SUPABASE_ANON,
+                        'Authorization': `Bearer ${session.access_token}`,
+                        'Accept': 'application/json',
+                    },
+                    signal: ctrl.signal,
+                }
+            );
+            clearTimeout(tid);
+            const rows = await resp.json().catch(() => []);
+            const profile = Array.isArray(rows) ? rows[0] : null;
+            if (!profile) throw new Error('no profile row');
             currentUser = {
                 id: session.user.id,
                 username: session.user.user_metadata?.display_name || session.user.email.split('@')[0],
@@ -3169,6 +3185,11 @@
         if (!currentUser) authModalMode = mode === 'login' ? 'login' : 'register';
         setAuthModalStatus('');
         renderAuthModal();
+        // 每次打开都清空输入框，防止浏览器自动填充残留密码
+        const emailEl = document.getElementById('authUsername');
+        const passEl  = document.getElementById('authPassword');
+        if (emailEl) emailEl.value = '';
+        if (passEl)  passEl.value  = '';
         modal.style.display = 'flex';
         setTimeout(() => {
             const focusTarget = currentUser
@@ -3213,8 +3234,8 @@
         try {
             const isLogin = authModalMode === 'login';
             const url = isLogin
-                ? `${SUPABASE_URL}/auth/v1/token?grant_type=password`
-                : `${SUPABASE_URL}/auth/v1/signup`;
+                ? `${PROXY_BASE}/auth/v1/token?grant_type=password`
+                : `${PROXY_BASE}/auth/v1/signup`;
 
             const resp = await fetch(url, {
                 method: 'POST',
