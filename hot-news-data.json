@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-07",
-  "updated_at_display": "2026年5月7日 00:14",
+  "updated_at": "2026-05-08",
+  "updated_at_display": "2026年5月8日 11:46",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-07T00:14:33.392422+08:00",
+    "fetched_at": "2026-05-08T11:46:44.119808+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "items": [
     {
@@ -271,23 +271,21 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "🔥習近平運勢終結?! 三個命理師同樣預言",
+      "title": "Results for \" 澳门赌场 风水｛官网：701.tw｝.bzt",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01UGhiVVEteE9oQkRUQ1RlRi1fSTJwZW9HOWZ6b2Q3RWhuV0NsX2tVQXo4c2IyUUhydmpRYjIxdzZjUFVDU29UVndMaDk5SEdiVG1RN3JKMDROc3g5Z0ZQNlNfdXlacTg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQb3JmRzVBTkk1ODNad2ZqTnQzREMtZFRDS2JTV2cycDVKeVJfd2lkQUU0R3V6X3BDRlB0QWdva1VvSzFfUHNPa0tTdjZGT1lEWnhGNG9IQ24tTnRsNFA3RlRqazNfWklmWWtfTVhSbjdmWlpNcy0tOXJXZnNodWl3QnZBUzlKVjV2cFo5NWdoMXh0azBWN2ZCU3RWU1dud1RXN2pMNkJ3dkN5Q1VVNUVBTGowSkZJcmRPTzRQcDkyTENzWGt3QTdaczZ2OWYyR1JIVmRyZTBhS2pLdkRoRWtEU2JzRlVfTHRi?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-05-03",
-      "published_display": "2026-05-03",
+      "category": "风水玄学",
+      "published": "2026-05-07",
+      "published_display": "2026-05-07",
       "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
+        "风水"
       ],
-      "score": 12.149999999999999,
-      "event_cluster": "event-70"
+      "score": 7.75,
+      "event_cluster": "event-248"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -325,7 +323,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-06"
     },
     {
       "title": "立夏後16天運勢起飛！命理師曝「6大生肖」氣場升溫率先翻盤登頂| 星座命理| 生活",
@@ -344,7 +342,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-07"
     },
     {
       "title": "今天立夏小心破財！命理師警告：這個動作恐讓財運流失，「2做4不做」開運關鍵一次看",
@@ -363,7 +361,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-08"
     },
     {
       "title": "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢",
@@ -382,25 +380,25 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-08"
+      "event_cluster": "event-10"
     },
     {
-      "title": "謝國樑病情加重! 命理師早預言基隆首長出事",
-      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPZkNQLTh2STZCQkNFekZjbGNIRkFHQWRPa2hKQXh0NjBSTmxaNVRpY2xaeEJHQnFRMlNDd1NRZ1pLT2Q1cV84YnlUWm9TR0NMbU9xb0hOTDA0TFZCMm1TTUVnVlo4X0xBYV9RaFhhT3luWWYyLWdXV2NCV0NhcmtDVjhOanNDYzB6MjVHdERJVjRTSTlKQ0JrZkhKM3ZETzQ4VjQ0TjhQV19hWDkzRUUtbDdXSG4wVzRRU2dhc2lzTXgxR21NblpEcFNHSm1pVlF0UUZJeklOX3ktZGYzSU9xOXRSZmhHRkVwLXNVbXM4LWdxVERPR3BrQlFocFFKZWVnSndUaS1Ec0djVlBLQ05veGg5Vlh0LVNITnpSTFd0bGt6MkhoUExLaVRxb1QxaUJ6eFVEaTB6QmxUUzE4VEs1ZmJrTWlIajg?oc=5",
+      "title": "5月開心迎大吉！命理師點名「這9天」存錢母、迎財氣最靈",
+      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5KZE1ra3Jjc0xSa21BTVphbUg1OGV6SWd4N2R4LVlYV3pPVWFCZnVwUUVDV0V2Wlp0M0ZSOWZ2RlNPMTctUDN5TG5taDh3SWw4ZkVxVi0xT09aVm0z?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "MSN · Google News",
+      "source": "自由娛樂 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-05-06",
-      "published_display": "2026-05-06",
+      "published": "2026-05-08",
+      "published_display": "2026-05-08",
       "matched_keywords": [
         "命理",
         "命理師"
       ],
       "score": 12.55,
-      "event_cluster": "event-09"
+      "event_cluster": "event-11"
     }
   ]
 }
