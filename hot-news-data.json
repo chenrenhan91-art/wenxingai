@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-05-08",
-  "updated_at_display": "2026年5月8日 11:46",
+  "updated_at_display": "2026年5月8日 11:54",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-08T11:46:44.119808+08:00",
+    "fetched_at": "2026-05-08T11:54:57.514021+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -285,7 +285,7 @@
         "风水"
       ],
       "score": 7.75,
-      "event_cluster": "event-248"
+      "event_cluster": "event-250"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",

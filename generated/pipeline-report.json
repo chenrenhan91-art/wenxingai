@@ -1,9 +1,9 @@
 {
-  "ran_at": "2026-05-08T11:46:27.151678+08:00",
-  "ran_at_display": "2026年5月8日 11:46",
+  "ran_at": "2026-05-08T11:54:41.649873+08:00",
+  "ran_at_display": "2026年5月8日 11:54",
   "overall_status": "failed_generate",
   "force_refresh": false,
-  "previous_signature": "26a9c725b527931bd1fdd58e6ed7b45b82c8f0ca",
+  "previous_signature": "11e36ed215b94accda1a74fb84ce6cb58a23388c",
   "new_signature": "11e36ed215b94accda1a74fb84ce6cb58a23388c",
   "content_changed": true,
   "gemini_ran": true,
@@ -27,9 +27,7 @@
     "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作",
     "立夏後16天運勢起飛！命理師曝「6大生肖」氣場升溫率先翻盤登頂| 星座命理| 生活"
   ],
-  "added_titles": [
-    "Results for \" 澳门赌场 风水｛官网：701.tw｝.bzt"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
@@ -41,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月8日 11:46"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月8日 11:54"
     },
     {
       "script": "generate_daily_content.py",
