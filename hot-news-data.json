@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-05-08",
-  "updated_at_display": "2026年5月8日 11:54",
+  "updated_at_display": "2026年5月8日 13:31",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-08T11:54:57.514021+08:00",
+    "fetched_at": "2026-05-08T13:31:28.344587+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "items": [
     {
@@ -271,21 +271,22 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "Results for \" 澳门赌场 风水｛官网：701.tw｝.bzt",
+      "title": "臺灣命理師預測鄭麗文好運只能走到2026年(圖)",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQb3JmRzVBTkk1ODNad2ZqTnQzREMtZFRDS2JTV2cycDVKeVJfd2lkQUU0R3V6X3BDRlB0QWdva1VvSzFfUHNPa0tTdjZGT1lEWnhGNG9IQ24tTnRsNFA3RlRqazNfWklmWWtfTVhSbjdmWlpNcy0tOXJXZnNodWl3QnZBUzlKVjV2cFo5NWdoMXh0azBWN2ZCU3RWU1dud1RXN2pMNkJ3dkN5Q1VVNUVBTGowSkZJcmRPTzRQcDkyTENzWGt3QTdaczZ2OWYyR1JIVmRyZTBhS2pLdkRoRWtEU2JzRlVfTHRi?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1aTmhBTGlMSGVTdUpRaWRONEJoX0FYYnhzY0VSWDdULVg4SEszUFdBNmYwTUY2TnZjdnB4RHZjejdUM2E5MFlWVnlRQWszZkpFcWUtVDY4eFVLWWxyN1paMUFB?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "风水玄学",
-      "published": "2026-05-07",
-      "published_display": "2026-05-07",
+      "category": "命理新闻",
+      "published": "2026-05-05",
+      "published_display": "2026-05-05",
       "matched_keywords": [
-        "风水"
+        "命理",
+        "命理師"
       ],
-      "score": 7.75,
-      "event_cluster": "event-250"
+      "score": 9.95,
+      "event_cluster": "event-132"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -380,7 +381,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-10"
+      "event_cluster": "event-09"
     },
     {
       "title": "5月開心迎大吉！命理師點名「這9天」存錢母、迎財氣最靈",
@@ -398,7 +399,7 @@
         "命理師"
       ],
       "score": 12.55,
-      "event_cluster": "event-11"
+      "event_cluster": "event-10"
     }
   ]
 }
