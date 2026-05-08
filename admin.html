@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>问星AI · 管理后台</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #0a0f1e;
+    color: #e2e8f0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans SC', sans-serif;
+    min-height: 100vh;
+    padding: 16px;
+  }
+
+  /* ── 登录界面 ── */
+  #loginView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    gap: 16px;
+  }
+  .login-title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #67e8f9, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 8px;
+  }
+  .login-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    padding: 28px 22px;
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .login-input {
+    width: 100%;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 10px;
+    padding: 13px 14px;
+    color: #e2e8f0;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .login-input:focus { border-color: #67e8f9; }
+  .login-btn {
+    width: 100%;
+    padding: 13px;
+    background: linear-gradient(135deg, #6366f1, #2563eb);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  .login-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+  .login-error {
+    color: #f87171;
+    font-size: 0.85rem;
+    text-align: center;
+    min-height: 1.2em;
+  }
+
+  /* ── 管理界面 ── */
+  #adminView { display: none; }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .header-title {
+    font-size: 1.15rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #67e8f9, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .logout-btn {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 8px;
+    color: #94a3b8;
+    padding: 6px 14px;
+    font-size: 0.82rem;
+    cursor: pointer;
+  }
+  .stats-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+  .stat-chip {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    color: #94a3b8;
+  }
+  .stat-chip strong { color: #e2e8f0; }
+  .search-box {
+    width: 100%;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 10px;
+    padding: 10px 14px;
+    color: #e2e8f0;
+    font-size: 0.92rem;
+    outline: none;
+    margin-bottom: 14px;
+  }
+  .search-box:focus { border-color: #67e8f9; }
+  .refresh-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(99,102,241,0.15);
+    border: 1px solid rgba(99,102,241,0.3);
+    border-radius: 8px;
+    color: #a5b4fc;
+    padding: 6px 14px;
+    font-size: 0.82rem;
+    cursor: pointer;
+  }
+
+  /* ── 用户卡片列表（移动端友好） ── */
+  .user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .user-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.09);
+    border-radius: 12px;
+    padding: 14px;
+    transition: border-color 0.2s;
+  }
+  .user-card.is-pro {
+    border-color: rgba(167,139,250,0.35);
+    background: rgba(99,102,241,0.06);
+  }
+  .user-card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .user-email {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #e2e8f0;
+    word-break: break-all;
+  }
+  .badge {
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 20px;
+    flex-shrink: 0;
+  }
+  .badge-pro {
+    background: linear-gradient(135deg, #7c3aed, #2563eb);
+    color: #fff;
+  }
+  .badge-free {
+    background: rgba(255,255,255,0.08);
+    color: #94a3b8;
+  }
+  .user-card-mid {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .invite-code-box {
+    font-family: 'Courier New', monospace;
+    font-size: 0.88rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #67e8f9;
+    background: rgba(103,232,249,0.06);
+    border: 1px solid rgba(103,232,249,0.2);
+    border-radius: 6px;
+    padding: 4px 10px;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .copy-btn {
+    background: rgba(103,232,249,0.1);
+    border: 1px solid rgba(103,232,249,0.25);
+    border-radius: 7px;
+    color: #67e8f9;
+    padding: 5px 14px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s;
+    flex-shrink: 0;
+  }
+  .copy-btn:active { background: rgba(103,232,249,0.25); }
+  .copy-btn.copied { background: rgba(74,222,128,0.15); color: #4ade80; border-color: rgba(74,222,128,0.3); }
+  .user-quota {
+    font-size: 0.76rem;
+    color: #64748b;
+    margin-top: 5px;
+  }
+  .user-date {
+    font-size: 0.72rem;
+    color: #475569;
+    margin-top: 2px;
+  }
+  .empty { text-align: center; color: #475569; padding: 40px 0; font-size: 0.9rem; }
+  .loading { text-align: center; color: #64748b; padding: 40px 0; }
+</style>
+</head>
+<body>
+
+<!-- 登录界面 -->
+<div id="loginView">
+  <div class="login-title">✦ 问星AI 管理后台</div>
+  <div class="login-card">
+    <input type="password" id="secretInput" class="login-input" placeholder="管理员密码" autocomplete="current-password" enterkeyhint="done">
+    <button id="loginBtn" class="login-btn" onclick="login()">进入后台</button>
+    <div id="loginError" class="login-error"></div>
+  </div>
+</div>
+
+<!-- 管理界面 -->
+<div id="adminView">
+  <div class="header">
+    <div class="header-title">✦ 用户管理</div>
+    <div style="display:flex;gap:8px;">
+      <button class="refresh-btn" onclick="loadUsers()">↻ 刷新</button>
+      <button class="logout-btn" onclick="logout()">退出</button>
+    </div>
+  </div>
+
+  <div class="stats-bar" id="statsBar"></div>
+  <input type="search" class="search-box" id="searchBox" placeholder="🔍 搜索邮箱或邀请码..." oninput="renderList()" autocomplete="off">
+  <div id="userList" class="user-list"><div class="loading">加载中...</div></div>
+</div>
+
+<script>
+  // 生产走 Cloudflare 代理，本地直连 Supabase
+  const _isLocal = ['localhost', '127.0.0.1'].includes(location.hostname);
+  const PROXY_BASE = _isLocal
+    ? 'https://vyumtwiwwuqqcipdskis.supabase.co'
+    : (location.origin + '/proxy');
+  const ADMIN_FN = PROXY_BASE + '/functions/v1/admin-list';
+
+  let _secret = '';
+  let _allUsers = [];
+
+  // 尝试从 sessionStorage 恢复密码（关闭标签后清除）
+  const stored = sessionStorage.getItem('admin_secret');
+  if (stored) { _secret = stored; showAdmin(); loadUsers(); }
+
+  document.getElementById('secretInput').addEventListener('keydown', e => {
+    if (e.key === 'Enter') login();
+  });
+
+  async function login() {
+    const input = document.getElementById('secretInput');
+    const secret = input.value.trim();
+    const errEl = document.getElementById('loginError');
+    const btn = document.getElementById('loginBtn');
+    if (!secret) { errEl.textContent = '请输入管理员密码'; return; }
+
+    btn.disabled = true;
+    btn.textContent = '验证中...';
+    errEl.textContent = '';
+
+    try {
+      const resp = await fetch(ADMIN_FN, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ secret }),
+      });
+      const data = await resp.json().catch(() => ({}));
+      if (!resp.ok || data.error) {
+        errEl.textContent = resp.status === 401 ? '密码错误' : ('错误：' + (data.error || resp.status));
+        return;
+      }
+      _secret = secret;
+      sessionStorage.setItem('admin_secret', secret);
+      _allUsers = data.data || [];
+      showAdmin();
+      renderList();
+    } catch (e) {
+      errEl.textContent = '网络错误，请检查后重试';
+    } finally {
+      btn.disabled = false;
+      btn.textContent = '进入后台';
+    }
+  }
+
+  function showAdmin() {
+    document.getElementById('loginView').style.display = 'none';
+    document.getElementById('adminView').style.display = 'block';
+  }
+
+  function logout() {
+    sessionStorage.removeItem('admin_secret');
+    _secret = '';
+    _allUsers = [];
+    document.getElementById('loginView').style.display = 'flex';
+    document.getElementById('adminView').style.display = 'none';
+    document.getElementById('secretInput').value = '';
+  }
+
+  async function loadUsers() {
+    document.getElementById('userList').innerHTML = '<div class="loading">加载中...</div>';
+    try {
+      const resp = await fetch(ADMIN_FN, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ secret: _secret }),
+      });
+      const data = await resp.json().catch(() => ({}));
+      if (!resp.ok || data.error) {
+        if (resp.status === 401) { logout(); return; }
+        document.getElementById('userList').innerHTML = '<div class="empty">加载失败：' + (data.error || resp.status) + '</div>';
+        return;
+      }
+      _allUsers = data.data || [];
+      renderList();
+    } catch (e) {
+      document.getElementById('userList').innerHTML = '<div class="empty">网络错误，请重试</div>';
+    }
+  }
+
+  function renderList() {
+    const q = (document.getElementById('searchBox')?.value || '').toLowerCase().trim();
+    const filtered = q
+      ? _allUsers.filter(u =>
+          (u.email || '').toLowerCase().includes(q) ||
+          (u.invite_code || '').toLowerCase().includes(q))
+      : _allUsers;
+
+    // 统计
+    const total = _allUsers.length;
+    const proCount = _allUsers.filter(u => u.is_pro).length;
+    document.getElementById('statsBar').innerHTML = `
+      <div class="stat-chip">总用户 <strong>${total}</strong></div>
+      <div class="stat-chip">专业版 <strong style="color:#a78bfa">${proCount}</strong></div>
+      <div class="stat-chip">免费版 <strong>${total - proCount}</strong></div>
+    `;
+
+    if (!filtered.length) {
+      document.getElementById('userList').innerHTML = '<div class="empty">没有匹配的用户</div>';
+      return;
+    }
+
+    document.getElementById('userList').innerHTML = filtered.map(u => {
+      const date = u.created_at ? new Date(u.created_at).toLocaleDateString('zh-CN') : '--';
+      const quota = u.is_pro
+        ? '无限使用'
+        : `剩余 ${u.remaining_quota ?? '--'} / ${u.total_quota ?? '--'}`;
+      return `
+        <div class="user-card ${u.is_pro ? 'is-pro' : ''}">
+          <div class="user-card-top">
+            <div class="user-email">${escHtml(u.email || '--')}</div>
+            <span class="badge ${u.is_pro ? 'badge-pro' : 'badge-free'}">${u.is_pro ? '专业版' : '免费版'}</span>
+          </div>
+          <div class="user-card-mid">
+            <div class="invite-code-box">${escHtml(u.invite_code || '--')}</div>
+            <button class="copy-btn" onclick="copyCode(this, '${escHtml(u.invite_code || '')}')">复制</button>
+          </div>
+          <div class="user-quota">AI 额度：${quota}</div>
+          <div class="user-date">注册时间：${date}</div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  function copyCode(btn, code) {
+    if (!code) return;
+    navigator.clipboard.writeText(code).then(() => {
+      btn.textContent = '已复制 ✓';
+      btn.classList.add('copied');
+      setTimeout(() => {
+        btn.textContent = '复制';
+        btn.classList.remove('copied');
+      }, 1800);
+    }).catch(() => {
+      // 降级：选择文字
+      const el = btn.previousElementSibling;
+      if (el) {
+        const range = document.createRange();
+        range.selectNode(el);
+        window.getSelection()?.removeAllRanges();
+        window.getSelection()?.addRange(range);
+      }
+    });
+  }
+
+  function escHtml(str) {
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+</script>
+</body>
+</html>
