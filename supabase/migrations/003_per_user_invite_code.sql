@@ -82,7 +82,8 @@ revoke execute on function public.redeem_invite_code(text) from public;
 grant  execute on function public.redeem_invite_code(text) to authenticated;
 
 -- ── 5. 管理员视图：邮箱 + 邀请码 + 状态（供后台查询） ──
-create or replace view public.profiles_admin as
+drop view if exists public.profiles_admin;
+create view public.profiles_admin as
 select
   u.email,
   p.invite_code,
