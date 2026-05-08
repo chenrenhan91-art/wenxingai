@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-05-08",
-  "updated_at_display": "2026年5月8日 13:31",
+  "updated_at_display": "2026年5月8日 22:55",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-08T13:31:28.344587+08:00",
+    "fetched_at": "2026-05-08T22:55:30.260725+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -271,22 +271,21 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "臺灣命理師預測鄭麗文好運只能走到2026年(圖)",
+      "title": "Results for \" 澳门赌场 风水｛官网：701.tw｝.bzt",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1aTmhBTGlMSGVTdUpRaWRONEJoX0FYYnhzY0VSWDdULVg4SEszUFdBNmYwTUY2TnZjdnB4RHZjejdUM2E5MFlWVnlRQWszZkpFcWUtVDY4eFVLWWxyN1paMUFB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQb3JmRzVBTkk1ODNad2ZqTnQzREMtZFRDS2JTV2cycDVKeVJfd2lkQUU0R3V6X3BDRlB0QWdva1VvSzFfUHNPa0tTdjZGT1lEWnhGNG9IQ24tTnRsNFA3RlRqazNfWklmWWtfTVhSbjdmWlpNcy0tOXJXZnNodWl3QnZBUzlKVjV2cFo5NWdoMXh0azBWN2ZCU3RWU1dud1RXN2pMNkJ3dkN5Q1VVNUVBTGowSkZJcmRPTzRQcDkyTENzWGt3QTdaczZ2OWYyR1JIVmRyZTBhS2pLdkRoRWtEU2JzRlVfTHRi?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-05-05",
-      "published_display": "2026-05-05",
+      "category": "风水玄学",
+      "published": "2026-05-07",
+      "published_display": "2026-05-07",
       "matched_keywords": [
-        "命理",
-        "命理師"
+        "风水"
       ],
-      "score": 9.95,
-      "event_cluster": "event-132"
+      "score": 7.75,
+      "event_cluster": "event-269"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -327,25 +326,6 @@
       "event_cluster": "event-06"
     },
     {
-      "title": "立夏後16天運勢起飛！命理師曝「6大生肖」氣場升溫率先翻盤登頂| 星座命理| 生活",
-      "summary": "来自 聯合新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpajBsZXl4dFA3T2Y3b2d0bEwwdlU3TmRKVlMtUVRFOUVObWZJVS1naUUzeWt5bFZ1ejdHbVVmeHhrZnh0YnM0VVktSmhGMDdCUC16blozVGtCX2hXWEJnY3dCVUxROTN0c0dhSmhKSjg3ZlRWSUNsMnF3Zw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "聯合新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-05-05",
-      "published_display": "2026-05-05",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-07"
-    },
-    {
       "title": "今天立夏小心破財！命理師警告：這個動作恐讓財運流失，「2做4不做」開運關鍵一次看",
       "summary": "来自 ELLE · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTDZzSExmQk01Mm5VekJTTy1qeTNZRFNNMGhoTlRVdFNqbS1yWW8yVnp0M1JwR2owRXFabXE4Zi1Wd1FlcjZRQkJjRktIMGZ3VDRzbHdhOWQwZ0dTc3U4VjA2cXhvbHFIZS1iNVRCaHFpeW5zU3lINTVrd2g0YTVmNVpncw?oc=5",
@@ -362,26 +342,44 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-08"
+      "event_cluster": "event-07"
     },
     {
-      "title": "赤馬年火氣旺! 命理師邱彥龍： 今年大年初一不一樣太急恐亂整年運勢",
+      "title": "立夏將至!12生肖運勢一次看 命理師：6 類人氣場全面升溫",
       "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi_ARBVV95cUxQaXk0bnYxTE1NM1FfcGdrVWstWkhKalczeDZOenRyTWgycHpnZlF1cEhpbUJIOERnRGZqWkhidDRRVms3Z1l5ZXBjakE5Y0JhbHl6Q1R4SjN0SFRwaTdRa2hJNEpSTnpwNWFkTkEwSkdOY05iWXlpSWM0c2FLNDAzS09nMXJMek1ZeDJISHVLVldVeVFHWk4yQzZjSENJeUNFLVdHaVVwbTRUNjZGTTc4MXE4ekpfY3NZbWthRnpwV3hfendnSTEzenhvcVMzenVXYUxsYTMwa2JUZjRHanhJWUhMd212SkhPQlM3bi02OEtqal9fQkF5UmVjWjZIczVEbmt6MUtubHd4ZHFxdHNfUlpWUkZKUUJpS21pbl9aWnJZOWJmVjVSYXRCNmtTQWpMeE9uRU9CT3lPeEFKSGgzMEI4NUY4RWF0eTI1WUVZSU50bzRYM2tSUlZRUU1BTi1idkZKS2xIekM3MlNHbjdCbmRkVndyYk5yUlFUZVJZMEZTLVMxS3RyVldweUpUTHZLVkkydmQ2aWNDdDRTa3drR1V4cWIySWVBLXYtQnp2bVpZTWJNYWd3MmdEdmdjTEZCb09sRFdfWDdRUkhIejJEdG1nVE1fZXk2U1B2UDVLTlUzM21rTGVaMkFfUDlzRC1OTmUwWXBJWWhoc3NuNVN1anE5ZHVxSUxPV1FabnZGSjc2aEFVNHJiT2dLV0podkQ5YlZmUHgxLUdVRTlRTWZRM18ybVAyZkNsZGpocG1XbmM1bENnZUszRXN2cFU2ZWFzaFVYdzFqaXNmLUdQc0pqNmtuNW9mOVNIN0RLeWgyLThfcFQzbkxQdUpXRkk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxOc3Zici02dzJySHlJLWlESlgtbDRDdjJYdDQ4TVl5ZmV2NkZ2aDlpU2RYd2c4c0dOTmlLbFpweWVZV29sOThDTEpDenl1ZHgtUGpxZEtzbHVfMVkxZTBDeUJUZE45VWlyVGxPZEJEcEUxbW5VOGtqTDIxaXl6bmJja21wS0E2VmJpN0JJOXV3cERzZXlDZS1WUmNwT1RXWk9LZ1N0QURtampLNy1pbGxKSEZhZlJPTkFJaHNxNEZSa2RLRXVxLVpJTGYySlRQUm81ZlNmUkNWWUoyNnV5QWlOZ05ud3R6T0R2ZnhDb3ViS00tNzRGWDlZRHQweU40UHloWEtDUnBQSWJvY0M5b3ZDOWk1WEZERFlxOFdRVVZucEN0SXVzMVl2SG0wQV9qdmtVbUZ1MWdzTWZlYl9MQzM2M2h4RHZjVUxMV2hDNHBzdW00TGozNUFoN1k2WXNVY04tT1U3eklwMlVHM3lJYnFJ?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "MSN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-05-01",
-      "published_display": "2026-05-01",
+      "published": "2026-05-04",
+      "published_display": "2026-05-04",
       "matched_keywords": [
         "命理",
         "命理師",
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-09"
+      "event_cluster": "event-08"
+    },
+    {
+      "title": "5月9日媽祖聖誕！命理師分享祭拜指南：6類人必拜別錯過",
+      "summary": "来自 聯合新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hd3pXQTdwaDBMSWUyYzJKSDc5R0xHXzVGZDZ6NU1aS0p3Ri15UEpmU0p1MnQ0a1B6VXMwYWhLRlFicC1fdHU2bWxCclAtZVNpWjdkZW9B0gFWQVVfeXFMTWF3eldBN3BoMExJZTJjMkpINzlHTEdfNUZkNno1TVpLSndGLXlQSmZTSnUydDRrUHpVczBhaEtGUWJwLV90dTZtbEJyUC1lU2laN2Rlb0E?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "聯合新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-05-08",
+      "published_display": "2026-05-08",
+      "matched_keywords": [
+        "命理",
+        "命理師"
+      ],
+      "score": 12.55,
+      "event_cluster": "event-11"
     },
     {
       "title": "5月開心迎大吉！命理師點名「這9天」存錢母、迎財氣最靈",
@@ -399,7 +397,7 @@
         "命理師"
       ],
       "score": 12.55,
-      "event_cluster": "event-10"
+      "event_cluster": "event-12"
     }
   ]
 }
