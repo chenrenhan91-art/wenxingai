@@ -3014,7 +3014,11 @@
 
     // 从 Supabase profiles 表拉取额度，组装 currentUser
     // 使用直接 fetch + AbortController(10s)，避免 SDK 内部请求无超时卡住
+    let _fetchMeInProgress = false;
     async function fetchMe() {
+        if (_fetchMeInProgress) return currentUser;
+        _fetchMeInProgress = true;
+        try {
         const { data: { session } } = await supabase.auth.getSession();
         if (!session) {
             _accessToken = '';
@@ -3060,6 +3064,7 @@
         }
         renderAuthUI();
         return currentUser;
+        } finally { _fetchMeInProgress = false; }
     }
 
     // 监听 Supabase 会话变化，自动刷新 UI
@@ -3228,9 +3233,9 @@
             submitBtn.textContent = `${actionText}中...`;
         }
 
-        // 用 AbortController 真正取消请求，避免 Promise.race 无法取消底层 fetch 的问题
+        // 用 AbortController 真正取消请求，8s 超时（Cloudflare 代理下应 <2s）
         const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 20000);
+        const timeoutId = setTimeout(() => controller.abort(), 8000);
         try {
             const isLogin = authModalMode === 'login';
             const url = isLogin
@@ -3251,36 +3256,42 @@
                 throw new Error(msg);
             }
 
-            // 登录成功：把 token 注入 Supabase SDK，触发 onAuthStateChange
-            if (isLogin && data.access_token) {
-                await supabase.auth.setSession({
-                    access_token: data.access_token,
-                    refresh_token: data.refresh_token || '',
-                });
+            document.getElementById('authPassword').value = '';
+
+            if (!isLogin) {
+                // 注册成功：等待邮件验证，不自动登录
+                setAuthModalStatus('注册成功！请查收验证邮件，验证后切换到登录即可开启星盘。', 'success');
+                return;
             }
 
-            const passwordInput = document.getElementById('authPassword');
-            if (passwordInput) passwordInput.value = '';
-            setAuthModalStatus(
-                isLogin
-                    ? '登录成功，正在开启星盘...'
-                    : '注册成功！请查收验证邮件，验证后登录即可开启星盘。',
-                'success'
-            );
-            // 主动刷新用户信息
-            await fetchMe();
-            // 关闭弹窗，若已填出生日期则自动排盘
+            // ── 登录成功：立即更新状态，不等任何额外网络请求 ──
+            _accessToken = data.access_token;
+            const u = data.user || {};
+            currentUser = {
+                id: u.id,
+                username: u.user_metadata?.display_name || (u.email || email).split('@')[0],
+                isPro: false,   // 后台 fetchMe 会同步真实值
+                remaining: 3,
+                total: 3,
+            };
+            renderAuthUI();
+            setAuthModalStatus('登录成功，正在开启星盘...', 'success');
+
+            // 后台：持久化 session 到 localStorage（setSession 对新鲜 token 不发网络请求）
+            // 后台：同步真实额度（不阻塞 UI）
+            supabase.auth.setSession({ access_token: data.access_token, refresh_token: data.refresh_token || '' }).catch(() => {});
+            fetchMe().catch(() => {});
+
+            // 立即关闭弹窗，自动排盘
             setTimeout(() => {
                 closeAuthModal();
                 const date = resolveCompositeDateValue?.('birthDate');
-                if (isLogin && date && parseLocalYmd(date)) {
-                    generateChart();
-                }
-            }, 800);
+                if (date && parseLocalYmd(date)) generateChart();
+            }, 600);
         } catch (e) {
             clearTimeout(timeoutId);
             const msg = e?.name === 'AbortError'
-                ? '网络超时，请检查网络后重试'
+                ? '网络超时，请检查代理是否正常后重试'
                 : (e?.message || `${actionText}失败，请重试`);
             setAuthModalStatus(msg, 'error');
         } finally {
