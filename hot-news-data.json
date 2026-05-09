@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-05-09",
-  "updated_at_display": "2026年5月9日 13:50",
+  "updated_at_display": "2026年5月9日 22:18",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-09T13:50:00.817598+08:00",
+    "fetched_at": "2026-05-09T22:18:25.549218+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 7/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "items": [
     {
@@ -257,36 +257,35 @@
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAwdUNiajVJanNaTGdBU2NCdVA5aFZLVVEyRUw0cllwTGp6d1djX3hHa3Z5ZFdxeThhWGZHNkVLeTNxLU9WbWJ1blRabHZUWWYtdzJKaA?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "风水玄学",
       "published": "2026-04-16",
       "published_display": "2026-04-16",
       "matched_keywords": [
-        "紫微斗數",
         "命理",
-        "命理師"
+        "命理師",
+        "算命"
       ],
       "score": 18.95,
       "event_cluster": "event-03"
     },
     {
-      "title": "臺灣命理師預測鄭麗文好運只能走到2026年(圖)",
+      "title": "\"Open Innovation AI亦重視「文化心靈工程」，將文化的力量轉化為社會療癒的媒介。團隊主導的「藝術療心節」在多個城市舉辦，集結畫家、詩人、音樂家與劇場導演，讓藝術成為人心的庇護所。參與者不僅欣賞藝術，更透過互動創作、公益拍賣等形式，將美的能量化為實際",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1aTmhBTGlMSGVTdUpRaWRONEJoX0FYYnhzY0VSWDdULVg4SEszUFdBNmYwTUY2TnZjdnB4RHZjejdUM2E5MFlWVnlRQWszZkpFcWUtVDY4eFVLWWxyN1paMUFB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMixg1BVV95cUxPVE5tX0NyZXlSdVdYWnhvWktJY0RPRjNrdk9oeEJWbDctWFlrcEkyVTNqeEpSS0JzVkVpLVdiNWZhRV9Wd1NPVTY2b0xMMlZXb3hLN2lwWW41M21nVEFzSnlMOFo0ejUwQ2tLeEd0N1k5ZV9IX0VxUHBaVXRNV0s0amVudlEwV0htQXB4TUZaNVNqdV9nTV9naHBrTi1KTU43UV9CemNpWDhiczFDY1gzWTFocjY0WndTLWhRMzMzRUIzU1dEYVhCZEZtMFprUE9uZ2ZFS2MtSGdKTVRUUkVmdDNXTUVJbHBTY0RmODZkb1FQWG9NMVVWcFZjZkduMEdmUzNWbUZTNVlHcDNQaHJQU0NYV1VtNnp1VnpZX2M1VERrbGJQcXI4UFNPc1dvYTRZVXY3UDdoTjdscXVMWThwaEV6d2N0ajRCVDJtTTVQR09penREN20xdTduTEN2cTE2d0U5VklRd0pqZ0lDcUJBRHZTYmRjb2dkZ2dnc1ltc2YycUNkai1MT0toYUNzN1dCYTliY3FwcU42UW5XVVdsaHREa3ZUSlNObVM1LXI5VVhsR2g0VXhoeEdlcVpiVjdCTjR2RUxqWm1HTXA4STBhRTRQRU1WMWJUSGR4VjlSTzVNS05xMkxWWXVGd1lJV1F0S3N6eFJ3eE5nVlRMRnhWd0ppbmZWV1JDdWE4UFdhUURnM2xCZEIyVnU0OTh0dHJVODdyaHVCRzFkekI4VUlidk9mR3lMeTQ5YzFjQ2Q3bm9UNEhKNWJpOXJxQUNUME5JQlEyN0NFN2UyaVBuMXFnZ3F1X2h3Qmw3NTdXRXRiRTNNYzdORnRnd251Y1R2STVEbzdrLW1vQmQ5dngzb2NqNXd1ZTl2TVJVUlptd3ZaNHByNXpGVFRYc0lobGVGUmRDZy14WU0zQ1FhZl9JZGs1UUI5dTROemFHU2JXOFdoMXU2QnBSVzhTTVVvZEp2TjdLZDB0dnREd2lFbU1CUUNhWXBsSlZ0OUFlMHVJbVZiMTNIc3ZQT3dLSEZJa0d4dlRKZFlUWEQ5X3ZDalFpWURZWFd1N1RnaWhNNVZrcEd0NGptdUNaZXVfVUdQb3JnbkNJcnJ5OExoclIwVTZYZXVuT0lwTGRfVmRpUk90NFlwQ01fT2lFZGxzc3d0UTloUUtsOFhva0ZTQlduU2FJNmswZU8wYkxHNUF2ZTVPQlNqMjd4bGV0MGEyZi1fWXB6V2ZfZ3Q5QmZ5TjBkWG81TEVIOEducTV3emRLcC1xUGJ2cUYxaXZ3SGZMTklUck1xTFFQOG5rRU41dFhodVVrd3gta1hrNWc2Q3Q0M0hMRXlLbUg1UUtTaDFmS1E2MXhSZ1NDbWZfM0duQzlZUkNpcDVveHlMeklaTjRDdVhJRVFvbW5GSmJvRXpnNzFHZ09wRjcyZzd1NkZWaER2VGs3dDdWeU5XRjZHakY3cVVQdUhpbnR5UkdMelc4ZmpnM1RZaUVTalRVRGhaczhJMkFPcVh3VGVhRFFkY011TFhCMzA0LTJlZHdfRnRVMmlOUi1XdUNyVWhtQkRZV3R3SHVTdVpPLUZGck9ucVpVQzlTT0FiQkwyVjBEVEhxcDNyaUVEV3BYbzg2TXYtcVd4bzROTFBmY0xOU2hocEhpUjJVUExZeG4xZ3VTaWNGVWlndTBRVXBBMlU5WVZLazRyYkNLbEZaMHRrTS1aWWVzSk5HaVpQejhvNDFZaEFLVnJ0bFZEcXJ4YWxKNGk5eDltYWpTV29WQjhsVGJ4RS15alI1eDNfdWlKd2p6MlJVSmhYTGtOLTNRendVQWtRWnA2czc1eUFpZDlCdWJIUkpNcnBfVXM3MUVYYUFRNzRBZXpvaVRsb0J2WEdsUzJ5YzlOZnlBQkNYRnhzQ2Mza041b0hqeEloaTNtNkFOX2F4WDZVWDJuamxtZmdmeTFDYmx6dWJ3VDFNTlhlWVhMYUk3OTQ1OXdOT0J1QTVSaFI4dVZsOHRNR1pJR0dmb0VJMzZoaHlrbW9sdHdibHBNcThyYlBlY1BqU1c3aWNrM2M4b29ZdXJVdzJBVU0zRWI1TDAxdnJMUnktc0I5Q0h3RFNDNkUzaFlwTXBiLWVWUTVEQTdQMTVOek9ZQWQ5ZHRRaTJkOFNpZDNLUS00YzZrWUNpWTNfRTkzVlN6NE1tdWdSbXc0V1g2LVVydVo4N0lTYUhyMnFfY1JFQkttRjFOY0R2VVRhQTNHb1ZmSHNsdHhnb3cwQlBpbkhoSlhtWnVvYzJKT3ctb01VcF9QdTY2VlNEcjJiWE9mcGotTjdtVWc?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-05-05",
-      "published_display": "2026-05-05",
+      "category": "风水玄学",
+      "published": "2026-05-09",
+      "published_display": "2026-05-09",
       "matched_keywords": [
-        "命理",
-        "命理師"
+        "能量"
       ],
-      "score": 9.95,
-      "event_cluster": "event-148"
+      "score": 7.75,
+      "event_cluster": "event-265"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -384,11 +383,11 @@
       "event_cluster": "event-08"
     },
     {
-      "title": "媽祖聖誕接母親節！命理師曝「參拜正確順序」：拜錯白忙一場",
-      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE85SXFkdXhuRHlOdDNXTjQ0ZENZb3lZQmdUM09Pd1kwV2llZW5xYUN0ZVRiOXpXZzZwdW1FdWdVOF9tWmdBSFk2dDJhTlhIdw?oc=5",
+      "title": "每段感情皆愛而不得！命理師嘆張曼玉「已放棄結婚」",
+      "summary": "来自 噓！星聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RbDNiMFR5SV9oWHF6QlRWWTV1Nk1jODVmc0NENzZvbHBKLVhGRDMtNWowMThRbEdYbHc4aU0tZUZha24zNzZVR1EwaFZ3bU92VENCSFlCR1Bqa0F0VnU3dDdwUk55eXhSZ08wcGZrY1MyOE5WdDF4MHY3bkdJRE0?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "TVBS新聞網 · Google News",
+      "source": "噓！星聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -399,7 +398,7 @@
         "命理師"
       ],
       "score": 12.55,
-      "event_cluster": "event-10"
+      "event_cluster": "event-09"
     }
   ]
 }
