@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-05-09T22:18:09.154262+08:00",
-  "ran_at_display": "2026年5月9日 22:18",
+  "ran_at": "2026-05-10T14:12:58.882791+08:00",
+  "ran_at_display": "2026年5月10日 14:12",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "a04b7de74afd1ca32555ae4c975cbe3fcd796d62",
-  "new_signature": "d472c12c8939b8fc6d7d4dd8d0f065ca13a8d42a",
+  "previous_signature": "d472c12c8939b8fc6d7d4dd8d0f065ca13a8d42a",
+  "new_signature": "74ec63f879f87cf5d0a2e9f8b272c03cf90c30fc",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -22,13 +22,15 @@
   },
   "new_titles": [
     "流年運勢你算了嗎? #開運軍師尹森#風水尹森#流年 #算命 #紫微斗數#八字 #命盤#尹森老師#尹森#命理師#命理師推薦#風水師推薦#2026運勢 #https #家居風水宜忌",
-    "\"Open Innovation AI亦重視「文化心靈工程」，將文化的力量轉化為社會療癒的媒介。團隊主導的「藝術療心節」在多個城市舉辦，集結畫家、詩人、音樂家與劇場導演，讓藝術成為人心的庇護所。參與者不僅欣賞藝術，更透過互動創作、公益拍賣等形式，將美的能量化為實際",
+    "感謝 @sea_glass2026 工作室的繪製💜 讓里希特有一展魔法的機會XD 把我畫得超級可愛w 可愛到跟我的聲音一點都不搭了🥹 我喜歡上面星空和星座符號的呈現 桌上還有水晶球和塔羅牌🥰 這個五月我也想要舉辦企劃了💪 歡迎有興趣的V朋參與✨️ 等我公布之後🤣 再",
     "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
-    "小滿「2生肖」開始走運！命理師揭3開運方法：多吃1種菜",
-    "立夏交節氣運勢洗牌…命理師示警2生肖恐破財 忌高風險操作"
+    "發財「3舊物」別丟棄！命理師示警：可能導致運勢下滑",
+    "有錢「3樣東西」千萬別換 命理師：很多人換了運勢下滑 ● 民俗說法僅供參考，不代表《ETtoday新聞雲》立場，切勿過度迷信。"
   ],
   "added_titles": [
-    "\"Open Innovation AI亦重視「文化心靈工程」，將文化的力量轉化為社會療癒的媒介。團隊主導的「藝術療心節」在多個城市舉辦，集結畫家、詩人、音樂家與劇場導演，讓藝術成為人心的庇護所。參與者不僅欣賞藝術，更透過互動創作、公益拍賣等形式，將美的能量化為實際"
+    "感謝 @sea_glass2026 工作室的繪製💜 讓里希特有一展魔法的機會XD 把我畫得超級可愛w 可愛到跟我的聲音一點都不搭了🥹 我喜歡上面星空和星座符號的呈現 桌上還有水晶球和塔羅牌🥰 這個五月我也想要舉辦企劃了💪 歡迎有興趣的V朋參與✨️ 等我公布之後🤣 再",
+    "發財「3舊物」別丟棄！命理師示警：可能導致運勢下滑",
+    "有錢「3樣東西」千萬別換 命理師：很多人換了運勢下滑 ● 民俗說法僅供參考，不代表《ETtoday新聞雲》立場，切勿過度迷信。"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -41,7 +43,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月9日 22:18"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月10日 14:13"
     },
     {
       "script": "generate_daily_content.py",
