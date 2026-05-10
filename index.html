@@ -191,8 +191,17 @@
     <meta name="apple-mobile-web-app-title" content="问星AI">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="mobile-web-app-capable" content="yes">
+    <script>
+        (function () {
+            if (window.matchMedia && window.matchMedia('(max-width: 767px)').matches) {
+                document.documentElement.classList.add('mobile-landing', 'webgl-disabled');
+            }
+        })();
+    </script>
     <!-- 预加载首屏关键图像，提升 LCP 指标 -->
     <link rel="preload" as="image" href="share-cover.jpg">
+    <link rel="preload" as="image" href="本命64卦.png" media="(min-width: 768px)">
+    <link rel="preload" as="image" href="阿卡纳AI.png" media="(min-width: 768px)">
 
     <!-- Open Graph / 社交媒体分享（微信分享卡片读取以下标签） -->
     <meta property="og:type" content="website">
@@ -516,11 +525,8 @@
     </script>
 
     <script src="https://cdn.tailwindcss.com" defer></script>
-    <script src="https://unpkg.com/lucide@latest" defer></script>
     <!-- Three.js 改为按需动态加载，减少首屏阻塞 -->
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap');
-
         body {
             font-family: 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Source Han Sans SC', sans-serif;
             background-color: #030308;
@@ -552,6 +558,26 @@
                 radial-gradient(circle at 80% 30%, rgba(168, 85, 247, 0.12), transparent 40%),
                 radial-gradient(circle at 50% 80%, rgba(56, 189, 248, 0.1), transparent 45%),
                 linear-gradient(180deg, #120a24 0%, #030308 100%);
+        }
+
+        .mobile-landing .reveal {
+            opacity: 1;
+            transform: none;
+            transition: none;
+        }
+
+        .mobile-landing .glass-card {
+            transform-style: flat;
+            will-change: auto;
+            -webkit-backdrop-filter: none;
+            backdrop-filter: none;
+        }
+
+        .mobile-landing .spin-slow,
+        .mobile-landing .text-aurora,
+        .mobile-landing .logo-orbit-item[data-position="0"] .logo-orbit-ring,
+        .mobile-landing .logo-orbit-item[data-position="0"] .logo-orbit-outer-ring {
+            animation: none !important;
         }
 
         /* 呼吸发光动画 */
@@ -708,6 +734,238 @@
             box-shadow: 0 0 32px rgba(6,182,212,0.8), 0 8px 24px rgba(0,0,0,0.6);
             transform: translateY(-2px);
         }
+
+        .logo-orbit {
+            position: relative;
+            width: min(100%, 34rem);
+            height: 18rem;
+            margin-bottom: 3rem;
+            touch-action: pan-y;
+            -webkit-user-select: none;
+            user-select: none;
+            contain: layout paint;
+        }
+
+        .logo-orbit-item {
+            --orbit-x: 0px;
+            --orbit-scale: 1;
+            --orbit-opacity: 1;
+            position: absolute;
+            top: 0.75rem;
+            left: 50%;
+            display: flex;
+            width: 8.25rem;
+            min-height: 14.75rem;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 0.55rem;
+            border: 0;
+            background: transparent;
+            color: inherit;
+            cursor: pointer;
+            opacity: var(--orbit-opacity);
+            transform: translateX(calc(-50% + var(--orbit-x))) scale(var(--orbit-scale));
+            transform-origin: center top;
+            transition: transform 0.45s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.35s ease, filter 0.35s ease;
+            backface-visibility: hidden;
+            will-change: transform, opacity;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .logo-orbit-item[data-position="-1"] {
+            --orbit-x: -11rem;
+            --orbit-scale: 0.72;
+            --orbit-opacity: 0.78;
+            z-index: 2;
+            filter: saturate(0.78) brightness(0.8);
+        }
+
+        .logo-orbit-item[data-position="0"] {
+            --orbit-x: 0px;
+            --orbit-scale: 1;
+            --orbit-opacity: 1;
+            z-index: 5;
+            filter: saturate(1.08) brightness(1.08);
+        }
+
+        .logo-orbit-item[data-position="1"] {
+            --orbit-x: 11rem;
+            --orbit-scale: 0.72;
+            --orbit-opacity: 0.78;
+            z-index: 2;
+            filter: saturate(0.78) brightness(0.8);
+        }
+
+        .logo-orbit-halo {
+            position: absolute;
+            inset: -12%;
+            border-radius: 9999px;
+            background: radial-gradient(circle, rgba(34, 211, 238, 0.35), rgba(99, 102, 241, 0.18) 42%, transparent 70%);
+            opacity: 0;
+            filter: blur(20px);
+            transition: opacity 0.35s ease;
+        }
+
+        .logo-orbit-ring {
+            position: absolute;
+            inset: -0.75rem;
+            border-radius: 9999px;
+            border: 1px solid rgba(125, 211, 252, 0.28);
+            opacity: 0;
+            transition: opacity 0.35s ease;
+        }
+
+        .logo-orbit-outer-ring {
+            position: absolute;
+            inset: -1.45rem;
+            border-radius: 9999px;
+            border: 1px solid rgba(168, 85, 247, 0.16);
+            opacity: 0;
+            transition: opacity 0.35s ease;
+        }
+
+        .logo-orbit-image-wrap {
+            position: relative;
+            display: flex;
+            width: 8.25rem;
+            height: 8.25rem;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-orbit-image {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 9999px;
+            border: 2px solid rgba(129, 140, 248, 0.48);
+            box-shadow: 0 0 24px rgba(99, 102, 241, 0.4);
+            transition: box-shadow 0.35s ease, border-color 0.35s ease;
+            pointer-events: none;
+        }
+
+        .logo-orbit-item[data-position="0"] .logo-orbit-halo,
+        .logo-orbit-item[data-position="0"] .logo-orbit-ring,
+        .logo-orbit-item[data-position="0"] .logo-orbit-outer-ring {
+            opacity: 1;
+        }
+
+        .logo-orbit-item[data-position="0"] .logo-orbit-ring {
+            animation: spin 20s linear infinite reverse;
+        }
+
+        .logo-orbit-item[data-position="0"] .logo-orbit-outer-ring {
+            animation: spin 30s linear infinite;
+        }
+
+        .logo-orbit-item[data-position="0"] .logo-orbit-image {
+            border-color: rgba(34, 211, 238, 0.72);
+            box-shadow: 0 0 38px rgba(168, 85, 247, 0.58), 0 0 54px rgba(6, 182, 212, 0.38);
+        }
+
+        .logo-orbit-label {
+            display: flex;
+            min-height: 2.35rem;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0.12rem;
+            text-align: center;
+            letter-spacing: 0.08em;
+            text-shadow: 0 0 12px rgba(6, 182, 212, 0.26);
+        }
+
+        .logo-orbit-title {
+            font-size: 0.72rem;
+            font-weight: 800;
+            color: rgba(255, 255, 255, 0.88);
+            line-height: 1.1;
+            white-space: nowrap;
+        }
+
+        .logo-orbit-subtitle {
+            font-size: 0.56rem;
+            font-weight: 600;
+            color: rgba(203, 213, 225, 0.72);
+            line-height: 1.25;
+            white-space: nowrap;
+        }
+
+        .logo-orbit-enter {
+            position: absolute;
+            bottom: 0.55rem;
+            left: 50%;
+            z-index: 8;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            min-width: 9rem;
+            padding: 0.65rem 1.4rem;
+            border-radius: 9999px;
+            border: 1px solid rgba(34, 211, 238, 0.6);
+            background: rgba(3, 3, 8, 0.82);
+            color: #67e8f9;
+            font-size: 0.82rem;
+            font-weight: 800;
+            letter-spacing: 0.18em;
+            text-decoration: none;
+            white-space: nowrap;
+            box-shadow: 0 0 20px rgba(6, 182, 212, 0.34);
+            transform: translateX(-50%);
+            transition: transform 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+            -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(12px);
+        }
+
+        .logo-orbit-enter:hover {
+            transform: translateX(-50%) translateY(-2px);
+            border-color: rgba(125, 211, 252, 0.9);
+            background: rgba(8, 47, 73, 0.88);
+            color: #ffffff;
+            box-shadow: 0 0 30px rgba(6, 182, 212, 0.68);
+        }
+
+        @media (max-width: 640px) {
+            .logo-orbit {
+                height: 15.25rem;
+                width: min(100%, 22rem);
+                margin-bottom: 2.5rem;
+            }
+
+            .logo-orbit-item {
+                width: 6.6rem;
+                min-height: 12.1rem;
+            }
+
+            .logo-orbit-item[data-position="-1"] { --orbit-x: -7.25rem; --orbit-scale: 0.68; }
+            .logo-orbit-item[data-position="1"] { --orbit-x: 7.25rem; --orbit-scale: 0.68; }
+
+            .logo-orbit-image-wrap {
+                width: 6.6rem;
+                height: 6.6rem;
+            }
+
+            .logo-orbit-title { font-size: 0.66rem; }
+            .logo-orbit-subtitle { font-size: 0.5rem; letter-spacing: 0.04em; }
+            .logo-orbit-enter { bottom: 0.35rem; font-size: 0.74rem; padding: 0.58rem 1.15rem; }
+            .mobile-landing .logo-orbit-halo { filter: blur(12px); }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .logo-orbit-item,
+            .logo-orbit-image,
+            .logo-orbit-enter,
+            .logo-orbit-halo,
+            .logo-orbit-ring,
+            .logo-orbit-outer-ring {
+                transition: none;
+                animation: none !important;
+            }
+        }
     </style>
     <!-- Privacy-friendly analytics by Plausible -->
     <script async src="https://plausible.io/js/pa-Acd8OYe8IT9Fv8Sml_NLL.js"></script>
@@ -726,7 +984,7 @@
         <div class="flex items-center gap-3 interactive-trigger cursor-pointer shrink-0" onclick="window.scrollTo(0,0)" aria-label="返回页面顶部" role="button">
             <!-- 替换为新 Logo -->
             <div class="relative w-12 h-12 flex items-center justify-center rounded-full p-0.5 bg-gradient-to-br from-cyan-400 to-purple-600 shadow-[0_0_15px_rgba(168,85,247,0.5)] overflow-hidden">
-                <img src="share-cover.jpg" alt="问星AI官方Logo - 智能AI命理大模型" class="w-full h-full object-cover rounded-full spin-slow hover:[animation-play-state:paused]" loading="eager" fetchpriority="high" />
+                <img src="share-cover.jpg" alt="问星AI官方Logo - 智能AI命理大模型" class="w-full h-full object-cover rounded-full spin-slow hover:[animation-play-state:paused]" loading="eager" decoding="async" fetchpriority="high" />
             </div>
             <span class="text-3xl font-black tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-purple-300 to-cyan-300 drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]">问星AI</span>
         </div>
@@ -756,9 +1014,6 @@
             <h1 class="text-4xl md:text-6xl font-black tracking-[0.06em] text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-white to-purple-300 drop-shadow-[0_0_20px_rgba(34,211,238,0.25)]">
                 问星AI：融合玄学命理和最优AI模型
             </h1>
-            <p class="mt-4 text-sm md:text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto">
-                由专业命理师 AIcoding 创新研发，支持紫微斗数排盘、六爻解卦、大运K线测算与合盘分析，为用户提供可验证、可对照、可解释的命理分析视角。
-            </p>
         </div>
 
         <!-- 移动端专享介绍显示 (PC端已移至顶部导航栏) -->
@@ -772,22 +1027,48 @@
             </p>
         </div>
 
-        <!-- 中间大 Logo -->
-        <div class="relative w-48 h-48 md:w-64 md:h-64 mb-12 interactive-trigger group cursor-pointer" onclick="window.location.href='wenxing.html'">
-            <!-- 动态光晕底座 -->
-            <div class="absolute inset-0 rounded-full bg-gradient-to-tr from-cyan-400 via-indigo-500 to-purple-600 opacity-30 blur-3xl group-hover:opacity-60 transition-opacity duration-500 animate-pulse"></div>
-            <!-- 双层星轨装饰 -->
-            <div class="absolute inset-[-10px] rounded-full border border-cyan-400/20 spin-slow" style="animation-direction: reverse;"></div>
-            <div class="absolute inset-[-20px] rounded-full border border-purple-500/10 spin-slow" style="animation-duration: 30s;"></div>
-            
-            <!-- 核心图像 -->
-            <img src="share-cover.jpg" alt="问星AI产品主视觉 - 融合玄学与AI技术的全息宇宙入口" class="relative w-full h-full object-cover rounded-full border-2 border-indigo-400/50 shadow-[0_0_40px_rgba(168,85,247,0.6)] group-hover:shadow-[0_0_60px_rgba(6,182,212,0.8)] transition-all duration-500 z-10 group-hover:scale-[1.02]" />
-            
-            <!-- 网页版入口引导标志 (科技感悬浮胶囊) -->
-            <div class="absolute -bottom-5 left-1/2 -translate-x-1/2 flex items-center justify-center gap-2 whitespace-nowrap px-6 py-2.5 rounded-full bg-[#030308]/80 border border-cyan-400/60 text-sm text-cyan-300 backdrop-blur-md shadow-[0_0_20px_rgba(6,182,212,0.4)] group-hover:bg-cyan-900/80 group-hover:text-white group-hover:border-cyan-300 group-hover:shadow-[0_0_30px_rgba(6,182,212,0.8)] group-hover:-translate-y-1 transition-all duration-300 z-20">
+        <!-- 中间 Logo 功能入口 -->
+        <div class="logo-orbit interactive-trigger" data-logo-orbit aria-label="问星AI功能入口">
+            <button type="button" class="logo-orbit-item" data-logo-index="0" data-position="-1" data-target-url="https://www.wenxingapp.top/" aria-label="本命64卦，易经、梅花易数">
+                <span class="logo-orbit-image-wrap">
+                    <span class="logo-orbit-halo"></span>
+                    <span class="logo-orbit-ring"></span>
+                    <span class="logo-orbit-outer-ring"></span>
+                    <img src="本命64卦.png" alt="本命64卦" class="logo-orbit-image" loading="eager" decoding="async">
+                </span>
+                <span class="logo-orbit-label">
+                    <span class="logo-orbit-title">本命64卦</span>
+                    <span class="logo-orbit-subtitle">易经、梅花易数</span>
+                </span>
+            </button>
+            <button type="button" class="logo-orbit-item" data-logo-index="1" data-position="0" data-target-url="wenxing.html" aria-label="问星AI，紫微斗数、六爻" aria-current="true">
+                <span class="logo-orbit-image-wrap">
+                    <span class="logo-orbit-halo"></span>
+                    <span class="logo-orbit-ring"></span>
+                    <span class="logo-orbit-outer-ring"></span>
+                    <img src="share-cover.jpg" alt="问星AI" class="logo-orbit-image" loading="eager" decoding="async">
+                </span>
+                <span class="logo-orbit-label">
+                    <span class="logo-orbit-title">问星AI</span>
+                    <span class="logo-orbit-subtitle">紫微斗数、六爻</span>
+                </span>
+            </button>
+            <button type="button" class="logo-orbit-item" data-logo-index="2" data-position="1" data-target-url="https://taro3-d-1.vercel.app/" aria-label="阿卡纳AI，塔罗牌">
+                <span class="logo-orbit-image-wrap">
+                    <span class="logo-orbit-halo"></span>
+                    <span class="logo-orbit-ring"></span>
+                    <span class="logo-orbit-outer-ring"></span>
+                    <img src="阿卡纳AI.png" alt="阿卡纳AI" class="logo-orbit-image" loading="eager" decoding="async">
+                </span>
+                <span class="logo-orbit-label">
+                    <span class="logo-orbit-title">阿卡纳AI</span>
+                    <span class="logo-orbit-subtitle">塔罗牌</span>
+                </span>
+            </button>
+            <a class="logo-orbit-enter" data-logo-orbit-enter href="wenxing.html" aria-label="进入问星AI">
                 <i data-lucide="mouse-pointer-click" class="w-[18px] h-[18px] animate-pulse"></i>
-                <span class="tracking-widest font-bold">点击进入网页版</span>
-            </div>
+                <span data-logo-orbit-enter-text>进入问星AI</span>
+            </a>
         </div>
     </main>
 
@@ -993,9 +1274,29 @@
             const shouldSaveData = !!(connection && connection.saveData);
             const isSlowNetwork = !!(connection && /2g/.test(connection.effectiveType || ''));
 
-            // 初始化 Lucide 图标（CDN 失败时跳过，防止报错中断）
-            if (window.lucide && typeof window.lucide.createIcons === 'function') {
-                window.lucide.createIcons();
+            function loadLucideWhenIdle() {
+                const run = () => {
+                    if (window.lucide && typeof window.lucide.createIcons === 'function') {
+                        window.lucide.createIcons();
+                        return;
+                    }
+
+                    const script = document.createElement('script');
+                    script.src = 'https://unpkg.com/lucide@latest';
+                    script.async = true;
+                    script.onload = () => {
+                        if (window.lucide && typeof window.lucide.createIcons === 'function') {
+                            window.lucide.createIcons();
+                        }
+                    };
+                    document.head.appendChild(script);
+                };
+
+                if (typeof window.requestIdleCallback === 'function') {
+                    window.requestIdleCallback(run, { timeout: isMobile ? 2400 : 1200 });
+                } else {
+                    setTimeout(run, isMobile ? 1400 : 500);
+                }
             }
 
             // 模态框逻辑
@@ -1018,6 +1319,111 @@
             }
 
             window.toggleModal = toggleModal;
+
+            function initLogoOrbit() {
+                const orbit = document.querySelector('[data-logo-orbit]');
+                if (!orbit) return;
+
+                const items = Array.from(orbit.querySelectorAll('[data-logo-index]'));
+                const enterLink = orbit.querySelector('[data-logo-orbit-enter]');
+                const enterText = orbit.querySelector('[data-logo-orbit-enter-text]');
+                let activeIndex = 1;
+                let dragStartX = null;
+                let dragStartY = null;
+                let didDrag = false;
+                let lastDragAt = 0;
+
+                function getSignedPosition(index) {
+                    const total = items.length;
+                    const raw = (index - activeIndex + total) % total;
+                    if (raw === 0) return 0;
+                    return raw === 1 ? 1 : -1;
+                }
+
+                function updateOrbit() {
+                    const activeItem = items[activeIndex];
+                    items.forEach((item, index) => {
+                        const position = getSignedPosition(index);
+                        item.dataset.position = String(position);
+                        item.setAttribute('aria-current', position === 0 ? 'true' : 'false');
+                        item.tabIndex = position === 0 ? 0 : -1;
+                    });
+
+                    if (activeItem && enterLink && enterText) {
+                        const targetUrl = activeItem.dataset.targetUrl || '#';
+                        const title = activeItem.querySelector('.logo-orbit-title')?.textContent || '功能';
+                        enterLink.href = targetUrl;
+                        enterLink.setAttribute('aria-label', `进入${title}`);
+                        enterText.textContent = `进入${title}`;
+                    }
+                }
+
+                function setActive(index) {
+                    activeIndex = (index + items.length) % items.length;
+                    updateOrbit();
+                }
+
+                items.forEach((item, index) => {
+                    item.addEventListener('click', () => {
+                        if (didDrag || Date.now() - lastDragAt < 300) return;
+                        if (index === activeIndex) {
+                            window.location.href = item.dataset.targetUrl || 'wenxing.html';
+                            return;
+                        }
+                        setActive(index);
+                    });
+
+                    item.addEventListener('keydown', (event) => {
+                        if (event.key !== 'Enter' && event.key !== ' ') return;
+                        event.preventDefault();
+                        if (index === activeIndex) {
+                            window.location.href = item.dataset.targetUrl || 'wenxing.html';
+                            return;
+                        }
+                        setActive(index);
+                    });
+                });
+
+                orbit.addEventListener('pointerdown', (event) => {
+                    dragStartX = event.clientX;
+                    dragStartY = event.clientY;
+                    didDrag = false;
+                }, { passive: true });
+
+                orbit.addEventListener('pointermove', (event) => {
+                    if (dragStartX === null || dragStartY === null) return;
+                    const deltaX = event.clientX - dragStartX;
+                    const deltaY = event.clientY - dragStartY;
+                    if (Math.abs(deltaX) > 12 && Math.abs(deltaX) > Math.abs(deltaY)) {
+                        didDrag = true;
+                    }
+                }, { passive: true });
+
+                orbit.addEventListener('pointerup', (event) => {
+                    if (dragStartX === null || dragStartY === null) return;
+                    const deltaX = event.clientX - dragStartX;
+                    const deltaY = event.clientY - dragStartY;
+                    dragStartX = null;
+                    dragStartY = null;
+
+                    if (Math.abs(deltaX) > 42 && Math.abs(deltaX) > Math.abs(deltaY)) {
+                        setActive(activeIndex + (deltaX < 0 ? 1 : -1));
+                        lastDragAt = Date.now();
+                        didDrag = false;
+                        return;
+                    }
+
+                    didDrag = false;
+                }, { passive: true });
+
+                orbit.addEventListener('pointercancel', () => {
+                    dragStartX = null;
+                    dragStartY = null;
+                    didDrag = false;
+                }, { passive: true });
+
+                updateOrbit();
+            }
 
             function initCardHoverEffects() {
                 if (!hasFinePointer) return;
@@ -1069,7 +1475,7 @@
                 const container = document.getElementById('webgl-bg');
 
                 // 弱网、省流或无动画偏好时优先保证可用性。
-                if (!container || shouldSaveData || (isMobile && isSlowNetwork) || prefersReducedMotion) {
+                if (!container || isMobile || shouldSaveData || prefersReducedMotion) {
                     document.body.classList.add('webgl-disabled');
                     return;
                 }
@@ -1257,6 +1663,11 @@
 
             // 默认先完成主内容渲染，再按设备条件加载3D背景。
             function startBackgroundWhenIdle() {
+                if (isMobile || shouldSaveData || prefersReducedMotion) {
+                    document.body.classList.add('webgl-disabled');
+                    return;
+                }
+
                 const run = () => {
                     loadThreeScript().then(initWebGLBackground).catch(() => {
                         document.body.classList.add('webgl-disabled');
@@ -1270,7 +1681,9 @@
                 }
             }
 
+            initLogoOrbit();
             initCardHoverEffects();
+            loadLucideWhenIdle();
 
             if (document.readyState === 'complete') {
                 startBackgroundWhenIdle();
@@ -1279,7 +1692,7 @@
             }
 
             // 滚动渐显动画
-            if (!prefersReducedMotion) {
+            if (!isMobile && !prefersReducedMotion) {
                 const revealObserver = new IntersectionObserver((entries) => {
                     entries.forEach(entry => {
                         if (entry.isIntersecting) {
