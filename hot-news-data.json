@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-05-11",
-  "updated_at_display": "2026年5月11日 14:40",
+  "updated_at_display": "2026年5月11日 23:59",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-11T14:40:50.034500+08:00",
+    "fetched_at": "2026-05-11T23:59:29.068538+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -271,23 +271,22 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "西西堂命理— 鐵口直斷。 老師預約排單到7月後 不會看手相 不會看面相 不會紫微斗數 只看錢包深度",
+      "title": "我們的塔羅占卜改到明天 今天體力有點不支 沒辦法很好的幫大家占卜 也祝大家有個開心的母親節 狐狐也來陪伴狐媽啦🙏",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBWeDhVZDBuQWMyd0tIN3VDQmszTHR3Rlg3N00zaEFKcFF2N0ZYNnBWTjhNTzE5OThxX3NJUTVRYkhGUkl5dldTMXB5SzRpbmgxbXVtMGZMajEycmFZQnM3SlRyRQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TdHNqcVo5eDZxbW11NlgteVVFYjBQUmJjcEVQX0c0U3pzd0FKQ1p0SExfZ0x0NkN1VWVzZ3g3ZEQ3c1lIemF4Z0tlSFpoYkdXeDNYNld5VWE4U1NwY2EtWEZJSDRNRm5OX3BLNg?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E7%B4%AB%E5%BE%AE%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "八字紫微",
+      "category": "塔罗星象",
       "published": "2026-05-10",
       "published_display": "2026-05-10",
       "matched_keywords": [
-        "命理",
-        "紫微",
-        "斗數"
+        "塔羅",
+        "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-106"
+      "event_cluster": "event-101"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
