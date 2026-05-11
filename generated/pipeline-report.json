@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-05-10T22:21:00.677559+08:00",
-  "ran_at_display": "2026年5月10日 22:21",
+  "ran_at": "2026-05-11T14:40:32.177467+08:00",
+  "ran_at_display": "2026年5月11日 14:40",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "74ec63f879f87cf5d0a2e9f8b272c03cf90c30fc",
-  "new_signature": "523a41a692f6d001effbbcb5a921816d43ea1ea5",
+  "previous_signature": "523a41a692f6d001effbbcb5a921816d43ea1ea5",
+  "new_signature": "56625a2816381fa303c3184979d01b73cfd22b8c",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -22,14 +22,14 @@
   },
   "new_titles": [
     "流年運勢你算了嗎? #開運軍師尹森#風水尹森#流年 #算命 #紫微斗數#八字 #命盤#尹森老師#尹森#命理師#命理師推薦#風水師推薦#2026運勢 #https #家居風水宜忌",
-    "感謝 @sea_glass2026 工作室的繪製💜 讓里希特有一展魔法的機會XD 把我畫得超級可愛w 可愛到跟我的聲音一點都不搭了🥹 我喜歡上面星空和星座符號的呈現 桌上還有水晶球和塔羅牌🥰 這個五月我也想要舉辦企劃了💪 歡迎有興趣的V朋參與✨️ 等我公布之後🤣 再",
+    "西西堂命理— 鐵口直斷。 老師預約排單到7月後 不會看手相 不會看面相 不會紫微斗數 只看錢包深度",
     "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
-    "有錢了「3舊物」丟了會後悔！命理師示警：很多人換了運勢下滑",
-    "有錢了也別丟3樣東西命理師：很多人運勢下滑- 生活"
+    "小滿4大禁忌曝光！命理師警告「別加班熬夜」 4生肖運勢兩樣情",
+    "有錢了「3舊物」丟了會後悔！命理師示警：很多人換了運勢下滑"
   ],
   "added_titles": [
-    "有錢了「3舊物」丟了會後悔！命理師示警：很多人換了運勢下滑",
-    "有錢了也別丟3樣東西命理師：很多人運勢下滑- 生活"
+    "西西堂命理— 鐵口直斷。 老師預約排單到7月後 不會看手相 不會看面相 不會紫微斗數 只看錢包深度",
+    "小滿4大禁忌曝光！命理師警告「別加班熬夜」 4生肖運勢兩樣情"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -42,13 +42,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月10日 22:21"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月11日 14:40"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 1,
       "ok": false,
-      "output": "Gemini content generation failed: invalid Gemini response: missing zh_cn.distribution_plan"
+      "output": "Gemini content generation failed: invalid Gemini response: missing zh_cn.site_article.excerpt"
     }
   ]
 }
