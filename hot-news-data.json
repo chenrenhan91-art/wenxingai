@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-11",
-  "updated_at_display": "2026年5月11日 23:59",
+  "updated_at": "2026-05-12",
+  "updated_at_display": "2026年5月12日 14:15",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-11T23:59:29.068538+08:00",
+    "fetched_at": "2026-05-12T14:15:36.159740+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -271,22 +271,23 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "我們的塔羅占卜改到明天 今天體力有點不支 沒辦法很好的幫大家占卜 也祝大家有個開心的母親節 狐狐也來陪伴狐媽啦🙏",
+      "title": "西西堂命理— 鐵口直斷。 老師預約排單到7月後 不會看手相 不會看面相 不會紫微斗數 只看錢包深度",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TdHNqcVo5eDZxbW11NlgteVVFYjBQUmJjcEVQX0c0U3pzd0FKQ1p0SExfZ0x0NkN1VWVzZ3g3ZEQ3c1lIemF4Z0tlSFpoYkdXeDNYNld5VWE4U1NwY2EtWEZJSDRNRm5OX3BLNg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBWeDhVZDBuQWMyd0tIN3VDQmszTHR3Rlg3N00zaEFKcFF2N0ZYNnBWTjhNTzE5OThxX3NJUTVRYkhGUkl5dldTMXB5SzRpbmgxbXVtMGZMajEycmFZQnM3SlRyRQ?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E7%B4%AB%E5%BE%AE%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "塔罗星象",
+      "category": "八字紫微",
       "published": "2026-05-10",
       "published_display": "2026-05-10",
       "matched_keywords": [
-        "塔羅",
-        "占卜"
+        "命理",
+        "紫微",
+        "斗數"
       ],
       "score": 9.95,
-      "event_cluster": "event-101"
+      "event_cluster": "event-108"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -384,11 +385,11 @@
       "event_cluster": "event-07"
     },
     {
-      "title": "有錢了也別丟3樣東西命理師：很多人運勢下滑- 生活",
-      "summary": "来自 中時新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QOTFSbk1FcUpvdmlxT0drUGFkMHFKUWpPNUsyVzFicDRra2NtMDdvSmZlTWhTbEd6anpIbVdPNkttSW1BUk9zMjhfazMwemlaX3o2eC1mTTZuU0FfTDI5VDcxNk85Q01iU0Vtdkd3?oc=5",
+      "title": "有錢「3樣東西」千萬別換 命理師：很多人換了運勢下滑 ● 民俗說法僅供參考，不代表《ETtoday新聞雲》立場，切勿過度迷信。",
+      "summary": "来自 facebook.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi-wRBVV95cUxNcmJQSDNoQk54WHhZY2lRamRMaFhnTVI5bmNQRGdxMmllc0o2REpkM0htNnROWmt3bTdjbGVQblM5Z0xLTjc2V0tTeWFxa3NtdzQyNXhKQU5IWnAtYXI4UzJjMzZkZHlURG51bE44ZDhfeUtRZkNVTVJVLVZtOTgzb3dWamIxRG0yLXZEWnZYbTlBblU1aDBVUi10d0ZuTk5TYnNJSExkRjhiZjBId2NtV3VFWVoyZUFmcHRkSzZsa0luVURzcEpmdkkyUGZweEFHejZ2MWc1XzhmZ2pkRVFveGtFTUdqbWdkdWF5aHM5X2tYRUZLaEl6cTgtOEdmRUM0X1NwYnlTUEpoNFRmS2d4THJ1aG1KRnctWGU0cEIzRDhodmVNSTVfTl90THZvN2dSUzlzWmozYnRoMVhtTTdGd0p0aGZqRnNXVjJqWUlxZ0VFajhFN2xFTXltbzNLMld6MGplWWtISEthNk9Memk1VVpQTzF1Zm13ZHV4Zmw0NEdSb25ZY2M3bmwtMHRqSUxYY3c0VGpvcFhUTzVhYkFxM1BkM1NYT2V2N2hZT1c5OFpTdGgzZW9sZGZDa0NUcEdDejBTRXc0c1FzdkZyWnZGUC1MVkttY05GRXlLT183VUllS2djX3VxM2ktXzdfMmNjS1R4aVNzeDRaM3R5WlRqcTFfMjJacU5ZTnlDanNKMnBZbHp1a0xxVWNJTkptVVRadzlsOTJiTjk1YnM5LVJjY19CUDAzZlUweWNHZTc1bzdMRDdtMkFGN08wQ1hMcnZQckUzY1JjWnJkNzZuVFhMTjZ4TTVMdEpELVp3aE1ISkdkU2hVY0ViY2FWMA?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "中時新聞網 · Google News",
+      "source": "facebook.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
