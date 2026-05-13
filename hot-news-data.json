@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-05-13",
-  "updated_at_display": "2026年5月13日 14:27",
+  "updated_at_display": "2026年5月13日 23:45",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-13T14:27:18.531442+08:00",
+    "fetched_at": "2026-05-13T23:45:37.865741+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "斗數"
       ],
       "score": 9.95,
-      "event_cluster": "event-108"
+      "event_cluster": "event-115"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -311,7 +311,7 @@
     {
       "title": "小滿4大禁忌曝光！命理師警告「別加班熬夜」 4生肖運勢兩樣情",
       "summary": "来自 聯合新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VMUI1eW9uNHlyQzM1amZySHhRak55M0xaWmdJdnV6Q2N3Y1JQaHhtd0lhTm96QUNhSXJqSVd0YnVXeTFMdnNnTmRhc0hKSy16czBYQzl30gFWQVVfeXFMT1UxQjV5b240eXJDMzVqZnJIeFFqTnkzTFpaZ0l2dXpDY3djUlBoeG13SWFOb3pBQ2FJcmpJV3RidVd5MUx2c2dOZGFzSEpLLXpzMFhDOXc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB2UVNfaTBDQVVXLXFsWnpDWHVXM1hWbGZVc0Y5SVlQazFEYjk4bWVha2xqYkkzYVc5NnhieGtma3AtNXk4eXEwdzZWSlJlcUUwaFRyYm1mX1FlMVpselo1LW5RYVJkR21CMzFaVFppa1NkZ9IBVkFVX3lxTE9VMUI1eW9uNHlyQzM1amZySHhRak55M0xaWmdJdnV6Q2N3Y1JQaHhtd0lhTm96QUNhSXJqSVd0YnVXeTFMdnNnTmRhc0hKSy16czBYQzl3?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "聯合新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -325,7 +325,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "有錢了「3舊物」丟了會後悔！命理師示警：很多人換了運勢下滑",
@@ -344,7 +344,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     },
     {
       "title": "有錢了也別丟3樣東西 命理師： 很多人運勢下滑",
@@ -363,7 +363,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-08"
     },
     {
       "title": "發財「3舊物」別丟棄!命理師示警： 可能導致運勢下滑",
@@ -382,7 +382,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-08"
+      "event_cluster": "event-09"
     },
     {
       "title": "有錢「3樣東西」千萬別換 命理師：很多人換了運勢下滑 ● 民俗說法僅供參考，不代表《ETtoday新聞雲》立場，切勿過度迷信。",
@@ -401,7 +401,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-09"
+      "event_cluster": "event-10"
     }
   ]
 }

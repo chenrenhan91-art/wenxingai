@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-05-13T14:27:01.271187+08:00",
-  "ran_at_display": "2026年5月13日 14:27",
+  "ran_at": "2026-05-13T23:45:20.971819+08:00",
+  "ran_at_display": "2026年5月13日 23:45",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "11a28978641e7d4bdea3a50f27ad23c7ec921ad4",
-  "new_signature": "9ee9231190c29eaf025d0aeda9aa86f8972632cf",
+  "previous_signature": "9ee9231190c29eaf025d0aeda9aa86f8972632cf",
+  "new_signature": "f041c9999594e8df50f6603b2e8f36303c25aaed",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,9 +27,7 @@
     "小滿4大禁忌曝光！命理師警告「別加班熬夜」 4生肖運勢兩樣情",
     "有錢了「3舊物」丟了會後悔！命理師示警：很多人換了運勢下滑"
   ],
-  "added_titles": [
-    "西西堂命理— 鐵口直斷。 老師預約排單到7月後 不會看手相 不會看面相 不會紫微斗數 只看錢包深度"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
@@ -41,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月13日 14:27"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月13日 23:45"
     },
     {
       "script": "generate_daily_content.py",
