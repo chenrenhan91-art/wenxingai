@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-05-14",
-  "updated_at_display": "2026年5月14日 14:25",
+  "updated_at_display": "2026年5月14日 23:23",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-14T14:25:59.258262+08:00",
+    "fetched_at": "2026-05-14T23:23:54.882839+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -286,7 +286,7 @@
         "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-123"
+      "event_cluster": "event-119"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -309,10 +309,10 @@
     },
     {
       "title": "小滿4大禁忌曝光！命理師警告「別加班熬夜」 4生肖運勢兩樣情",
-      "summary": "来自 聯合新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5fYl9IZmVkRjFiZ1pnY29IZHlabXljRWtWM0VUcjlkdmd2QTdudHhjQ3NremNfTGlXQnBTalFGcVJreFlSclRfSGVPOF9iX0RC0gFWQVVfeXFMT1UxQjV5b240eXJDMzVqZnJIeFFqTnkzTFpaZ0l2dXpDY3djUlBoeG13SWFOb3pBQ2FJcmpJV3RidVd5MUx2c2dOZGFzSEpLLXpzMFhDOXc?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "聯合新聞網 · Google News",
+      "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -324,7 +324,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
       "title": "有錢了「3舊物」丟了會後悔！命理師示警：很多人換了運勢下滑",
@@ -343,7 +343,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     },
     {
       "title": "有錢了也別丟3樣東西 命理師： 很多人運勢下滑",
@@ -362,14 +362,14 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-08"
     },
     {
-      "title": "發財「3舊物」別丟棄！命理師示警：可能導致運勢下滑",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPanJsaVdzYW50bDNzb1Y5cjlwQ0szUVdsQldmbzd2czhsbzVUb2kxNDM1UkdBWklJUVlFSC0xSXNrdnJCNHpwLTBkNWR4ZmNFOERZdUVPZ2xUTGxBb2Q5RlJvcmFiM3ZfSlBJR1libG1lcHdKVjdyNFNWM1pxdjZSQmk4NW5xUnNWNE8taXl2bU5QZ192R3RGbHpIRnVmdTVWbF9RWGFoMDJIQVlJYU5lMFhnTEE4cTU2UWwzd1lVcFZ3TGIzV3ZzNVd1MzRoLXJsR0cyQ292Z0xJM0E2T3BaeU9UNEd3Q0FJYVIzVjBzTloxS3N6TWtKaWx6azdEdHRmSzR4T183dDZUU1V4a2hydXJwSlZTTFJrdHlmWUlpRURzVEh3VVF0T0hIVENNM095VndJa0c2Sk9SMjdCZVhLOXZkME1BeWJvcHc?oc=5",
+      "title": "發財「3舊物」別丟棄!命理師示警： 可能導致運勢下滑",
+      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNTkRza3Ayd0I5QmRiUVVGSDJ5eV9oSXk5NEt2VU14cmxDR1AwWHFpeUVWUWRlRFVXWGx0Q1IydGVXdWk0Ynk0YzZ4dkw5OVRJdm1nRVdocDU2Nk13eGlDakk1YWxLUVJSN1RSeFJZTWpWWnc5Tmt5aFh3S0djTXV2cGdFMV9kZFhtU0xmMWtBWFduaHMyMTcyM1UzRjd0aVowNDFabE5QMXN5N3lZZ1F3Zkt2TjNleGRsenRwcm1ibmFyVHU4c0ZIOUF2MVFmSDhvaENsM3JhMWk1TkN6aXdQNFFsb2RzUWRxNmEtc2tyZ0VaLVZSZko2UGNWNWJqYWFySTVtR0xiSk9QWnp1bklJOXdJTnhQNDJuNlJNUHB3LVVGT0xiM1pNWlZFWU95czJoUVprSmFwUmNrVG1JMF9iMEpSRE1adDFSWklMUXVQWGhGSFpVMXc?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
+      "source": "MSN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -381,12 +381,12 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-08"
+      "event_cluster": "event-09"
     },
     {
       "title": "有錢「3樣東西」千萬別換 命理師：很多人換了運勢下滑 ● 民俗說法僅供參考，不代表《ETtoday新聞雲》立場，切勿過度迷信。",
       "summary": "来自 facebook.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ2xta181VHkwa3VNUWN4bW40c0JQSFJnY2hVM3I5S2EwOFdSUEpLREh2NV9yWS1pUy1fQk1KNEVhVVhKVkFWd0RvRDV3UVppRnd3VWtjTDVUaVJYSW5GY2JSQjljZWw0bmpsdkd5RVpubU8zTmtmQmpHb0draGlJWi1NUURSYnRlNDVDakNDSXNucDYzYVZCS3lfNlZNZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi-wRBVV95cUxNcmJQSDNoQk54WHhZY2lRamRMaFhnTVI5bmNQRGdxMmllc0o2REpkM0htNnROWmt3bTdjbGVQblM5Z0xLTjc2V0tTeWFxa3NtdzQyNXhKQU5IWnAtYXI4UzJjMzZkZHlURG51bE44ZDhfeUtRZkNVTVJVLVZtOTgzb3dWamIxRG0yLXZEWnZYbTlBblU1aDBVUi10d0ZuTk5TYnNJSExkRjhiZjBId2NtV3VFWVoyZUFmcHRkSzZsa0luVURzcEpmdkkyUGZweEFHejZ2MWc1XzhmZ2pkRVFveGtFTUdqbWdkdWF5aHM5X2tYRUZLaEl6cTgtOEdmRUM0X1NwYnlTUEpoNFRmS2d4THJ1aG1KRnctWGU0cEIzRDhodmVNSTVfTl90THZvN2dSUzlzWmozYnRoMVhtTTdGd0p0aGZqRnNXVjJqWUlxZ0VFajhFN2xFTXltbzNLMld6MGplWWtISEthNk9Memk1VVpQTzF1Zm13ZHV4Zmw0NEdSb25ZY2M3bmwtMHRqSUxYY3c0VGpvcFhUTzVhYkFxM1BkM1NYT2V2N2hZT1c5OFpTdGgzZW9sZGZDa0NUcEdDejBTRXc0c1FzdkZyWnZGUC1MVkttY05GRXlLT183VUllS2djX3VxM2ktXzdfMmNjS1R4aVNzeDRaM3R5WlRqcTFfMjJacU5ZTnlDanNKMnBZbHp1a0xxVWNJTkptVVRadzlsOTJiTjk1YnM5LVJjY19CUDAzZlUweWNHZTc1bzdMRDdtMkFGN08wQ1hMcnZQckUzY1JjWnJkNzZuVFhMTjZ4TTVMdEpELVp3aE1ISkdkU2hVY0ViY2FWMA?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "facebook.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -400,7 +400,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-09"
+      "event_cluster": "event-10"
     }
   ]
 }

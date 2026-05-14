@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-05-14T14:25:44.573312+08:00",
-  "ran_at_display": "2026年5月14日 14:25",
+  "ran_at": "2026-05-14T23:23:39.051280+08:00",
+  "ran_at_display": "2026年5月14日 23:23",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "f041c9999594e8df50f6603b2e8f36303c25aaed",
-  "new_signature": "fb7bee2477cc69048d7644aa63f95d76f174a77f",
+  "previous_signature": "fb7bee2477cc69048d7644aa63f95d76f174a77f",
+  "new_signature": "67026a194d19b7c8a694bec56f6f90ed80d4a479",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,9 +27,7 @@
     "小滿4大禁忌曝光！命理師警告「別加班熬夜」 4生肖運勢兩樣情",
     "有錢了「3舊物」丟了會後悔！命理師示警：很多人換了運勢下滑"
   ],
-  "added_titles": [
-    "我們的塔羅占卜改到明天 今天體力有點不支 沒辦法很好的幫大家占卜 也祝大家有個開心的母親節 狐狐也來陪伴狐媽啦🙏"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
@@ -41,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月14日 14:25"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月14日 23:23"
     },
     {
       "script": "generate_daily_content.py",
