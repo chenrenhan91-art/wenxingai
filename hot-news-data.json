@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-14",
-  "updated_at_display": "2026年5月14日 23:23",
+  "updated_at": "2026-05-15",
+  "updated_at_display": "2026年5月15日 14:35",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-14T23:23:54.882839+08:00",
+    "fetched_at": "2026-05-15T14:35:03.845179+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -271,22 +271,23 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "我們的塔羅占卜改到明天 今天體力有點不支 沒辦法很好的幫大家占卜 也祝大家有個開心的母親節 狐狐也來陪伴狐媽啦🙏",
+      "title": "西西堂命理— 鐵口直斷。 老師預約排單到7月後 不會看手相 不會看面相 不會紫微斗數 只看錢包深度",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1KNU1FR2RfaVlkZW5oVnQzRDBFbGhLWlBOZFJnOEdfUUhMbThjZGFWZ3JOQk5KZVJaZFBHM0xxdGUyV1JPNXhvYXhtVW9rczRHcXRvWUxyd2xLWEVOd1hMWWhB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBWeDhVZDBuQWMyd0tIN3VDQmszTHR3Rlg3N00zaEFKcFF2N0ZYNnBWTjhNTzE5OThxX3NJUTVRYkhGUkl5dldTMXB5SzRpbmgxbXVtMGZMajEycmFZQnM3SlRyRQ?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E7%B4%AB%E5%BE%AE%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "塔罗星象",
+      "category": "八字紫微",
       "published": "2026-05-10",
       "published_display": "2026-05-10",
       "matched_keywords": [
-        "塔羅",
-        "占卜"
+        "命理",
+        "紫微",
+        "斗數"
       ],
       "score": 9.95,
-      "event_cluster": "event-119"
+      "event_cluster": "event-120"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -324,7 +325,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-05"
     },
     {
       "title": "有錢了「3舊物」丟了會後悔！命理師示警：很多人換了運勢下滑",
@@ -343,7 +344,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-06"
     },
     {
       "title": "有錢了也別丟3樣東西 命理師： 很多人運勢下滑",
@@ -362,7 +363,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-08"
+      "event_cluster": "event-07"
     },
     {
       "title": "發財「3舊物」別丟棄!命理師示警： 可能導致運勢下滑",
@@ -381,7 +382,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-09"
+      "event_cluster": "event-08"
     },
     {
       "title": "有錢「3樣東西」千萬別換 命理師：很多人換了運勢下滑 ● 民俗說法僅供參考，不代表《ETtoday新聞雲》立場，切勿過度迷信。",
@@ -400,7 +401,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-10"
+      "event_cluster": "event-09"
     }
   ]
 }
