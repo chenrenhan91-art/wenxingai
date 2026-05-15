@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-05-15T14:34:46.023252+08:00",
-  "ran_at_display": "2026年5月15日 14:34",
+  "ran_at": "2026-05-15T23:20:03.024581+08:00",
+  "ran_at_display": "2026年5月15日 23:20",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "67026a194d19b7c8a694bec56f6f90ed80d4a479",
-  "new_signature": "53486be8f5101fe300feca8a1daa4109db6a1d0a",
+  "previous_signature": "53486be8f5101fe300feca8a1daa4109db6a1d0a",
+  "new_signature": "5d3a445be50bc2dc236e3b16a7f6c8f6819c7570",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -22,13 +22,14 @@
   },
   "new_titles": [
     "流年運勢你算了嗎? #開運軍師尹森#風水尹森#流年 #算命 #紫微斗數#八字 #命盤#尹森老師#尹森#命理師#命理師推薦#風水師推薦#2026運勢 #https #家居風水宜忌",
-    "西西堂命理— 鐵口直斷。 老師預約排單到7月後 不會看手相 不會看面相 不會紫微斗數 只看錢包深度",
+    "我們的塔羅占卜改到明天 今天體力有點不支 沒辦法很好的幫大家占卜 也祝大家有個開心的母親節 狐狐也來陪伴狐媽啦🙏",
     "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
-    "小滿4大禁忌曝光！命理師警告「別加班熬夜」 4生肖運勢兩樣情",
-    "有錢了「3舊物」丟了會後悔！命理師示警：很多人換了運勢下滑"
+    "算命文化盛行反映現代人對未來的不安 命理師：命運仍掌握在己",
+    "小滿4大禁忌曝光！命理師警告「別加班熬夜」 4生肖運勢兩樣情"
   ],
   "added_titles": [
-    "西西堂命理— 鐵口直斷。 老師預約排單到7月後 不會看手相 不會看面相 不會紫微斗數 只看錢包深度"
+    "我們的塔羅占卜改到明天 今天體力有點不支 沒辦法很好的幫大家占卜 也祝大家有個開心的母親節 狐狐也來陪伴狐媽啦🙏",
+    "算命文化盛行反映現代人對未來的不安 命理師：命運仍掌握在己"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -41,13 +42,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月15日 14:35"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月15日 23:20"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 1,
       "ok": false,
-      "output": "Gemini content generation failed: invalid Gemini response: missing zh_cn.social_posts"
+      "output": "Gemini content generation failed: invalid Gemini response: missing zh_cn.site_article.excerpt"
     }
   ]
 }
