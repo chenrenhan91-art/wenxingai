@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-05-16",
-  "updated_at_display": "2026年5月16日 13:55",
+  "updated_at_display": "2026年5月16日 22:23",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-16T13:55:51.823426+08:00",
+    "fetched_at": "2026-05-16T22:23:59.983593+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -286,7 +286,7 @@
         "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-132"
+      "event_cluster": "event-128"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -384,11 +384,11 @@
       "event_cluster": "event-07"
     },
     {
-      "title": "有錢了也別丟3樣東西命理師：很多人運勢下滑- 生活",
-      "summary": "来自 中時新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QOTFSbk1FcUpvdmlxT0drUGFkMHFKUWpPNUsyVzFicDRra2NtMDdvSmZlTWhTbEd6anpIbVdPNkttSW1BUk9zMjhfazMwemlaX3o2eC1mTTZuU0FfTDI5VDcxNk85Q01iU0Vtdkd3?oc=5",
+      "title": "有錢了也別丟3樣東西 命理師： 很多人運勢下滑",
+      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPaElMUUtYZnpkSGJGRWF3QVZNSkljNnlPOVpNSC1GcTdGRE4wRU8yODUyZDFmazhHUUxMWUlTd1FlMFduSF80TTR0U05JMjNQck5LSTUteWZDOWZxYWlVSGhIZE51S3diWUllWlpqbVhLbjROak5KeS1jZHJnSkFsNHlkOWJDUFdCd2t2ODhsNnZ0S2JRbHl5VENDSE1pWnNmSUc1MWhScERiaDVOTWlCc1pmYTBfd2FBWUh1dU94aFNtdzdqZW8zc1F6V21YNlh3WGxWQUVkd1drRGVrMjhNSEhFVTBiT3NROXNXMDdYa2xWT2xndFFyMkViQ0x2UHVjM29VMG9HS3RBTHlCMEtIT2I4WjFNSThoN0dqbURaUUoxWWZOdFc0NTlLVklzYXJVSmFwYy11Z1RMdi1WTWMwdllnU3pQZE0?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "中時新聞網 · Google News",
+      "source": "MSN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
