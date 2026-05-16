@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-15",
-  "updated_at_display": "2026年5月15日 23:20",
+  "updated_at": "2026-05-16",
+  "updated_at_display": "2026年5月16日 13:55",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-15T23:20:17.991504+08:00",
+    "fetched_at": "2026-05-16T13:55:51.823426+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "流年運勢你算了嗎? #開運軍師尹森#風水尹森#流年 #算命 #紫微斗數#八字 #命盤#尹森老師#尹森#命理師#命理師推薦#風水師推薦#2026運勢 #https #家居風水宜忌",
+      "title": "【速聽】他急切想說的話！想讓你知道什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAwdUNiajVJanNaTGdBU2NCdVA5aFZLVVEyRUw0cllwTGp6d1djX3hHa3Z5ZFdxeThhWGZHNkVLeTNxLU9WbWJ1blRabHZUWWYtdzJKaA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oZ2hjZXFmaWxFWE4tSEgtSzIzU1F4a3dRRHdPTnBZU29tSVBBMmhQeE1aMU1mUndLYi1QWnExNEJxeVVoaml1cXc2Y2R5T0NXcmZVck9n?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "风水玄学",
-      "published": "2026-04-16",
-      "published_display": "2026-04-16",
+      "category": "塔罗星象",
+      "published": "2026-05-15",
+      "published_display": "2026-05-15",
       "matched_keywords": [
-        "命理",
-        "命理師",
-        "算命"
+        "塔羅",
+        "占卜",
+        "桃花"
       ],
-      "score": 18.95,
-      "event_cluster": "event-03"
+      "score": 14.55,
+      "event_cluster": "event-04"
     },
     {
       "title": "我們的塔羅占卜改到明天 今天體力有點不支 沒辦法很好的幫大家占卜 也祝大家有個開心的母親節 狐狐也來陪伴狐媽啦🙏",
@@ -286,7 +286,7 @@
         "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-128"
+      "event_cluster": "event-132"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -324,14 +324,14 @@
         "算命"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-03"
     },
     {
       "title": "小滿4大禁忌曝光！命理師警告「別加班熬夜」 4生肖運勢兩樣情",
-      "summary": "来自 聯合新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5fYl9IZmVkRjFiZ1pnY29IZHlabXljRWtWM0VUcjlkdmd2QTdudHhjQ3NremNfTGlXQnBTalFGcVJreFlSclRfSGVPOF9iX0RC0gFWQVVfeXFMT1UxQjV5b240eXJDMzVqZnJIeFFqTnkzTFpaZ0l2dXpDY3djUlBoeG13SWFOb3pBQ2FJcmpJV3RidVd5MUx2c2dOZGFzSEpLLXpzMFhDOXc?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "聯合新聞網 · Google News",
+      "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -343,14 +343,14 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-05"
     },
     {
-      "title": "有錢了也別丟3樣東西 命理師： 很多人運勢下滑",
-      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPaElMUUtYZnpkSGJGRWF3QVZNSkljNnlPOVpNSC1GcTdGRE4wRU8yODUyZDFmazhHUUxMWUlTd1FlMFduSF80TTR0U05JMjNQck5LSTUteWZDOWZxYWlVSGhIZE51S3diWUllWlpqbVhLbjROak5KeS1jZHJnSkFsNHlkOWJDUFdCd2t2ODhsNnZ0S2JRbHl5VENDSE1pWnNmSUc1MWhScERiaDVOTWlCc1pmYTBfd2FBWUh1dU94aFNtdzdqZW8zc1F6V21YNlh3WGxWQUVkd1drRGVrMjhNSEhFVTBiT3NROXNXMDdYa2xWT2xndFFyMkViQ0x2UHVjM29VMG9HS3RBTHlCMEtIT2I4WjFNSThoN0dqbURaUUoxWWZOdFc0NTlLVklzYXJVSmFwYy11Z1RMdi1WTWMwdllnU3pQZE0?oc=5",
+      "title": "有錢了「3舊物」丟了會後悔！命理師示警：很多人換了運勢下滑",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxNN0NQVUd6M2xhSjZHbzFfZE1tV1drVHJiQ3ZiUWxWX1A2Q3E4cW9tRWVVMkVUMXNrQmh5ZU1PYmpDSjFDYnpiWVYyck5qc2YwUHlNY0l0V1FROHhmRm96OERwY0o3bVRzT1dHT05ZUmp2MXJQbUItU2lyOFh5VHo4blFybDZmeUhoejR0MnphdXBTNTRYaUM1RlltTHZNU2EycEhoUTNKZnRuWHVpdExlb1FLd0c5cGxCdEFGNWhZZVRISE5MdmR5SU9VUzNHTkpaMVdPNmljOTdrVWxwelRzVFlfYmptRDZNcGJEc05NeDE2TzBCUWpTMFBVRzVEd2dUeVVOVXlHUTRVOVlCbXQxLXBzYjdHTVBCWDlFcml6dUxNSHVVTC1SRzMtSE1zNzRSVkJELVBLNXg3cGM0a2t2VWZQWFM3ZS1UMVRVQVhLc283N1J1QWdsMGU1MlhiRlVVRGF6T1poYkxXTlhmT2NHQXNYMmM0OEJLaXc?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "MSN · Google News",
+      "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -362,7 +362,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-06"
     },
     {
       "title": "發財「3舊物」別丟棄!命理師示警： 可能導致運勢下滑",
@@ -381,14 +381,14 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-08"
+      "event_cluster": "event-07"
     },
     {
-      "title": "有錢了「3舊物別丟」超多人後悔！命理師示警：恐運勢下滑、財務受損",
-      "summary": "来自 民視新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE50ekQ2UDRZOW5DOUJVN2NRLXFkeDFCTllOcnZ3MFFjX3dCZEhISDdOTVhNYWFhZzM5SUtzZWdPUTZIUnlmYjE2Tk1qaWJWdkdlM2dMeHB5Zm1xVjlCVHRnZg?oc=5",
+      "title": "有錢了也別丟3樣東西命理師：很多人運勢下滑- 生活",
+      "summary": "来自 中時新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QOTFSbk1FcUpvdmlxT0drUGFkMHFKUWpPNUsyVzFicDRra2NtMDdvSmZlTWhTbEd6anpIbVdPNkttSW1BUk9zMjhfazMwemlaX3o2eC1mTTZuU0FfTDI5VDcxNk85Q01iU0Vtdkd3?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "民視新聞網 · Google News",
+      "source": "中時新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -400,7 +400,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-09"
+      "event_cluster": "event-08"
     }
   ]
 }
