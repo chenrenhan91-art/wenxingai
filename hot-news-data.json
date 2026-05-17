@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-05-17",
-  "updated_at_display": "2026年5月17日 14:24",
+  "updated_at_display": "2026年5月17日 22:27",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-17T14:24:16.707627+08:00",
+    "fetched_at": "2026-05-17T22:27:06.601178+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,25 +268,25 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
-      "title": "我們的塔羅占卜改到明天 今天體力有點不支 沒辦法很好的幫大家占卜 也祝大家有個開心的母親節 狐狐也來陪伴狐媽啦🙏",
+      "title": "今日塔羅占卜暫停一次 還再點心帕魯 以時間估計應該是還忙不完 會把占卜延後週一或週二喔🙏",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1KNU1FR2RfaVlkZW5oVnQzRDBFbGhLWlBOZFJnOEdfUUhMbThjZGFWZ3JOQk5KZVJaZFBHM0xxdGUyV1JPNXhvYXhtVW9rczRHcXRvWUxyd2xLWEVOd1hMWWhB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9mRzVyYm1INzN3NC1OaS0xNDBvYUQ5Z3JfVVI4U21fY0FNWXVSOUlBdnY0RHlJR1ZESWp6SzhlYjNIQ3RONzREVE85VFRYRWljYjdrX2RGMnhfMU1LRjdod3RB?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "塔罗星象",
-      "published": "2026-05-10",
-      "published_display": "2026-05-10",
+      "published": "2026-05-17",
+      "published_display": "2026-05-17",
       "matched_keywords": [
         "塔羅",
         "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-145"
+      "event_cluster": "event-85"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -308,6 +308,25 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "孫安佐遭羈押禁見！命理師2年前早預言：死神流年",
+      "summary": "来自 造咖 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pNVJLRXIzVzd1cHFjVVJycVlJbXpmd1ZZa2xwWnV2YUlHbElsRHdPdnlLX2ZmNVgxdVhqSTFYNGMxYmdwZDVic2hTV0NRWjg5MzZNTVplMjhfUQ?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "造咖 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-05-17",
+      "published_display": "2026-05-17",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "流年"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
       "title": "算命文化盛行反映現代人對未來的不安 命理師：命運仍掌握在己",
       "summary": "来自 peopo.org · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1oOV9VZk5mQTB1RE9rWDN2Sk4zcHJidU9hdDNESVotaDRfeHdKNmc2RDEtWkNSeV9BaXZqbGN5Z2liTEtyTTY1TA?oc=5",
@@ -324,7 +343,7 @@
         "算命"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "發財「3舊物」別丟棄!命理師示警： 可能導致運勢下滑",
@@ -343,7 +362,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
       "title": "小滿4大禁忌曝光！命理師警告「別加班熬夜」 4生肖運勢兩樣情",
@@ -362,45 +381,25 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     },
     {
-      "title": "有錢了「3舊物」丟了會後悔！命理師示警：很多人換了運勢下滑",
+      "title": "早預知孫安佐「2026走死神」！命理師示警：考驗才開始",
       "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxNN0NQVUd6M2xhSjZHbzFfZE1tV1drVHJiQ3ZiUWxWX1A2Q3E4cW9tRWVVMkVUMXNrQmh5ZU1PYmpDSjFDYnpiWVYyck5qc2YwUHlNY0l0V1FROHhmRm96OERwY0o3bVRzT1dHT05ZUmp2MXJQbUItU2lyOFh5VHo4blFybDZmeUhoejR0MnphdXBTNTRYaUM1RlltTHZNU2EycEhoUTNKZnRuWHVpdExlb1FLd0c5cGxCdEFGNWhZZVRISE5MdmR5SU9VUzNHTkpaMVdPNmljOTdrVWxwelRzVFlfYmptRDZNcGJEc05NeDE2TzBCUWpTMFBVRzVEd2dUeVVOVXlHUTRVOVlCbXQxLXBzYjdHTVBCWDlFcml6dUxNSHVVTC1SRzMtSE1zNzRSVkJELVBLNXg3cGM0a2t2VWZQWFM3ZS1UMVRVQVhLc283N1J1QWdsMGU1MlhiRlVVRGF6T1poYkxXTlhmT2NHQXNYMmM0OEJLaXc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQZFcxUzk4YjNiLU8zb3BNNHp6cjJSWHFJRUxVc3dWOW1ISVdfS3A1ODR4Wld1Wm9MUVhCYlR3V005OC1YVVBUMktvcXRzZlJjdlZKNl95YzhNb215WDZZdG1EZ05rSklQZ0I2bUhQV1Y2VU01OF9HQlpYdTh3QkNZN2lpcnBRT1BPSlRYMldidDdudUJiZW5WSTgyMVE5SEtSck5oS252VlphdXY3MGV5RmRsa2xKbElMeGJZRzgzNzl0eE5hWC1CYXlFTmZXQlk0bHF0aGlHMDlJemIxLU5odmw0SEVsdDE0eGhxYk5EOGpOYUZSenEzeDlzTk9uSWsza2tLQllVRHFhZDdoNHpMUUd6MDJvdDJIN1M4WmoxX1owVFc0SFVmM2tiNGRCb3loZjlDekdZcS1IYzk3dXFyag?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-05-10",
-      "published_display": "2026-05-10",
+      "published": "2026-05-17",
+      "published_display": "2026-05-17",
       "matched_keywords": [
         "命理",
-        "命理師",
-        "運勢"
+        "命理師"
       ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-07"
-    },
-    {
-      "title": "有錢了也別丟3樣東西 命理師： 很多人運勢下滑",
-      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxOdmVfQm1QVmh3YllyYS1hNGFyY2M0QTB3cVRUNXU3NEJ2VDhvQ0FYTzhCelZhN05Ccy1OQnF2UmJyVjBiR1ZMRmpGWDBJVG5TdGExdmRvNDVBRF95WWlOZ0NPeXRrNjNBUEk3bXZLQmkzX2F5bC1KSU9za0J6X2JnV01kUTM4Nkg3U0VMNXZGWkVVUUxmQ1ZfVWl5YXlGM1d2dks2WkoteEM1VmZtdThHOVNSVzdlMUx1OWlyaE02ODBBc1pNMFQtdG13NXVEUXlPNjZMTFVkWUVJTmtRbFdCZ3ExX0hNS1otV0xiNFRCQVJSOVpqaVl5bEdVNXpsVWIzWEhpNC0yaFpTTndIMF9TazlXUFYzOHZXRTJWN1lwYS0xMG9TQnNHYXpMMzFia1B0YW5IandjUzVsR3pjUEhJSHQyc3lib18zel9lYld4RUM1VUdKT05PWWdwZ2tIYWQxSDFDNWtaWlQxR1JjS0MxQjhlSGsyZnVPN0ljVUN6YnNCelRmSVEzMjNTS0RVbDFEdEw4ZUxKOWRHcXhnc1F6RWhhMXBKQ3BUSjFhZnUtMVZ5LW84RnQwUEZ0M0VkbzgtMUhZN2FMcld4eEpIZ1NxaVhGaTMydXdScy1rR2t3?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "MSN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-05-10",
-      "published_display": "2026-05-10",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-08"
+      "score": 12.55,
+      "event_cluster": "event-10"
     }
   ]
 }
