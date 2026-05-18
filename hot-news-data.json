@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-18",
-  "updated_at_display": "2026年5月18日 14:57",
+  "updated_at": "2026-05-19",
+  "updated_at_display": "2026年5月19日 00:28",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-18T14:57:42.805568+08:00",
+    "fetched_at": "2026-05-19T00:28:49.943149+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,16 +252,16 @@
   ],
   "items": [
     {
-      "title": "26下半年你的桃花運VS財運？會遇到正緣嗎？會暴富嗎？指引解析⭐有雷勿入|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "他有沒有在心裡，默默對比過你和別人？誰贏了？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4yYWZtU0tZNHZXWEJwQ0ZDX1BXNDg1SkgzTmpHUkIzc2dicGZqM1ROZVk5blNkVEl2S3NhTWlXS2FsN1piMWxvVUhZcEFnNk1MVERFUTJDcHgwcTdCX01ud0Fxdmc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvVGFoU1RzX2lhWjdiNFRZY0RXN2ttVVlfRDdaOHpsV0hQaXRLcXJDcGRvSVdLOVFFRi1faUt4dnFMUmd1STRUT05aY2dQMlBreHpfTzNB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-05-13",
-      "published_display": "2026-05-13",
+      "published": "2026-05-03",
+      "published_display": "2026-05-03",
       "matched_keywords": [
         "塔羅",
         "占卜",
@@ -271,22 +271,22 @@
       "event_cluster": "event-09"
     },
     {
-      "title": "今日塔羅占卜暫停一次 還再點心帕魯 以時間估計應該是還忙不完 會把占卜延後週一或週二喔🙏",
+      "title": "做著週表邊聽塔羅占卜 : 你已經很棒了，先把自己當植物養。要照照陽光、多喝水 我: 對...變成自由居家工作的木頭，需要見一下陽光🤣",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9mRzVyYm1INzN3NC1OaS0xNDBvYUQ5Z3JfVVI4U21fY0FNWXVSOUlBdnY0RHlJR1ZESWp6SzhlYjNIQ3RONzREVE85VFRYRWljYjdrX2RGMnhfMU1LRjdod3RB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZNjFpbEY2c2o3UnlNNElGNTR6WUhWVGh0RGh5Qmo0VHRuaDE4UVBBZ0sxcml3Q3dMVEN3Y1lvWXJmX0UzLXkzSUVJakhRanJESnZsVjZvbGowcDFkZEFUQzJkMnQ?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "塔罗星象",
-      "published": "2026-05-17",
-      "published_display": "2026-05-17",
+      "published": "2026-05-18",
+      "published_display": "2026-05-18",
       "matched_keywords": [
         "塔羅",
         "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-87"
+      "event_cluster": "event-78"
     },
     {
       "title": "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
@@ -328,10 +328,10 @@
     },
     {
       "title": "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災",
-      "summary": "来自 娛樂星聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5lblZpMjhDQ3hwS3hEVzRHTEVRS0k0eHZIZHpCQ25SX0FvYVowVmhoSWlERzZmbmdZa3R2ZEFkV2xybEp1RTFvNFNB0gFfQVVfeXFMTmZqNnBwamQ1eEc4WmN3d0Q0VzBCeDFyUllJVXFodHVpVGZqVkdXUHI2VnhlWWFLelRvYzhiTFptUmhyTHB3N1BuSzQyYmlYX1NKa3JRNkRsdC15UmlrNms?oc=5",
+      "summary": "来自 SET iNEWS · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02WHpsekhWOTBwMTZtWUFFSHc5TW1iUEdndUVlNVpEZlIzblZMdHk3Y3Fua3dRd0F2SFFvalh5MkxMMnc5UDZqTTdvUdIBX0FVX3lxTE5majZwcGpkNXhHOFpjd3dENFcwQngxclJZSVVxaHR1aVRmalZHV1ByNlZ4ZVlhS3pUb2M4YkxabVJockxwdzdQbks0MmJpWF9TSmtyUTZEbHQteVJpazZr?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "娛樂星聞 · Google News",
+      "source": "SET iNEWS · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",

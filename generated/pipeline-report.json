@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-05-18T14:57:26.024551+08:00",
-  "ran_at_display": "2026年5月18日 14:57",
+  "ran_at": "2026-05-19T00:28:32.497200+08:00",
+  "ran_at_display": "2026年5月19日 00:28",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "d1f582ea23ace9d6399cb3e9e0d75f0755ee75fa",
-  "new_signature": "ef51f7a578b7b7ae16e4da8a65414d2e6e3d4515",
+  "previous_signature": "ef51f7a578b7b7ae16e4da8a65414d2e6e3d4515",
+  "new_signature": "64a86305c152f48d8d09416dda1491b1989dac4a",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,16 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "26下半年你的桃花運VS財運？會遇到正緣嗎？會暴富嗎？指引解析⭐有雷勿入|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "今日塔羅占卜暫停一次 還再點心帕魯 以時間估計應該是還忙不完 會把占卜延後週一或週二喔🙏",
+    "他有沒有在心裡，默默對比過你和別人？誰贏了？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "做著週表邊聽塔羅占卜 : 你已經很棒了，先把自己當植物養。要照照陽光、多喝水 我: 對...變成自由居家工作的木頭，需要見一下陽光🤣",
     "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
     "孫安佐持槍遭羈押！命理師2年前早預言：死神流年",
     "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災"
   ],
   "added_titles": [
-    "26下半年你的桃花運VS財運？會遇到正緣嗎？會暴富嗎？指引解析⭐有雷勿入|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "孫安佐持槍遭羈押！命理師2年前早預言：死神流年",
-    "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災"
+    "他有沒有在心裡，默默對比過你和別人？誰贏了？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "做著週表邊聽塔羅占卜 : 你已經很棒了，先把自己當植物養。要照照陽光、多喝水 我: 對...變成自由居家工作的木頭，需要見一下陽光🤣"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -43,13 +42,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月18日 14:57"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月19日 00:28"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 1,
       "ok": false,
-      "output": "Gemini content generation failed: invalid Gemini response: missing zh_cn.site_article.excerpt"
+      "output": "Gemini content generation failed: network or API error: HTTP Error 403: Forbidden"
     }
   ]
 }
