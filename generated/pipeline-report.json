@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-05-17T22:26:49.772867+08:00",
-  "ran_at_display": "2026年5月17日 22:26",
+  "ran_at": "2026-05-18T14:57:26.024551+08:00",
+  "ran_at_display": "2026年5月18日 14:57",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "bfc23037aedece45799e7f6118c481c21542e004",
-  "new_signature": "d1f582ea23ace9d6399cb3e9e0d75f0755ee75fa",
+  "previous_signature": "d1f582ea23ace9d6399cb3e9e0d75f0755ee75fa",
+  "new_signature": "ef51f7a578b7b7ae16e4da8a65414d2e6e3d4515",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,16 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "最近他想你了嗎？有多想？想到你的心情感受如何？以及你們近期的發展|曖昧|愛情|戀愛|桃花|塔羅占卜",
+    "26下半年你的桃花運VS財運？會遇到正緣嗎？會暴富嗎？指引解析⭐有雷勿入|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "今日塔羅占卜暫停一次 還再點心帕魯 以時間估計應該是還忙不完 會把占卜延後週一或週二喔🙏",
     "[新聞] 沈伯洋「地風升」！台北市長選戰火性強烈 命理師卜卦大膽預",
-    "孫安佐遭羈押禁見！命理師2年前早預言：死神流年",
-    "算命文化盛行反映現代人對未來的不安 命理師：命運仍掌握在己"
+    "孫安佐持槍遭羈押！命理師2年前早預言：死神流年",
+    "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災"
   ],
   "added_titles": [
-    "今日塔羅占卜暫停一次 還再點心帕魯 以時間估計應該是還忙不完 會把占卜延後週一或週二喔🙏",
-    "孫安佐遭羈押禁見！命理師2年前早預言：死神流年"
+    "26下半年你的桃花運VS財運？會遇到正緣嗎？會暴富嗎？指引解析⭐有雷勿入|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "孫安佐持槍遭羈押！命理師2年前早預言：死神流年",
+    "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -42,7 +43,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月17日 22:27"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月18日 14:57"
     },
     {
       "script": "generate_daily_content.py",
