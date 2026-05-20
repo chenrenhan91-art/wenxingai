@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-20",
-  "updated_at_display": "2026年5月20日 00:25",
+  "updated_at": "2026-05-21",
+  "updated_at_display": "2026年5月21日 00:30",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-20T00:25:34.814618+08:00",
+    "fetched_at": "2026-05-21T00:30:11.800184+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,16 +252,16 @@
   ],
   "items": [
     {
-      "title": "他現在對你的真實想法！內心如何看待你？他預設的關係走向？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "你和他互相喜歡嗎？他對你究竟是什麼感覺？近期他的行動力如何？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WXzhtWVQ0LW9BcHQwQ1BGdTZnVkNMU0lWNVRuQXRhdkpNWVAyQVVsWFU2Nk4tYmcwb0YwTVRoTFVDLVhuVDRISC1CaVNJQzM5VXBYVVdR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91V3ZrNFZGVm16cHhpb0dLdUZwdFRrMkNIVlFxM3FZbXJpLUxxdEZPU0p4RnF4VzN5bG1zcGJWOWlteUpMZnFDSnNaVGxEWFVRaGVjNEd3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-05-19",
-      "published_display": "2026-05-19",
+      "published": "2026-05-20",
+      "published_display": "2026-05-20",
       "matched_keywords": [
         "塔羅",
         "占卜",
@@ -287,7 +287,7 @@
         "戀愛"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-53"
+      "event_cluster": "event-68"
     },
     {
       "title": "[問卦] 戶田惠梨香:命理師說我38歲會死掉",
@@ -309,6 +309,63 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "發財「3舊物」別丟棄!命理師示警： 可能導致運勢下滑",
+      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNTkRza3Ayd0I5QmRiUVVGSDJ5eV9oSXk5NEt2VU14cmxDR1AwWHFpeUVWUWRlRFVXWGx0Q1IydGVXdWk0Ynk0YzZ4dkw5OVRJdm1nRVdocDU2Nk13eGlDakk1YWxLUVJSN1RSeFJZTWpWWnc5Tmt5aFh3S0djTXV2cGdFMV9kZFhtU0xmMWtBWFduaHMyMTcyM1UzRjd0aVowNDFabE5QMXN5N3lZZ1F3Zkt2TjNleGRsenRwcm1ibmFyVHU4c0ZIOUF2MVFmSDhvaENsM3JhMWk1TkN6aXdQNFFsb2RzUWRxNmEtc2tyZ0VaLVZSZko2UGNWNWJqYWFySTVtR0xiSk9QWnp1bklJOXdJTnhQNDJuNlJNUHB3LVVGT0xiM1pNWlZFWU95czJoUVprSmFwUmNrVG1JMF9iMEpSRE1adDFSWklMUXVQWGhGSFpVMXc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "MSN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-05-20",
+      "published_display": "2026-05-20",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
+      "title": "5/21小滿節氣到！命理師揭開運方法 當心4大禁忌",
+      "summary": "来自 中天新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90NHlEMm5pTFVKRFp2bG9xbG10Y2NpelBOYTZKQUxZeEhiLUdieGhXY0U4MEZyWDF1QTQ5elRPTG5HR3AySG9mQTFfNVhBWlctNFY0?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "中天新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-05-20",
+      "published_display": "2026-05-20",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
+      "title": "小滿節氣2026｜5月21日小滿6大禁忌 命理師揭2大生肖要小心 屬牛/雞貴人到【附開運法】",
+      "summary": "来自 香港經濟日報HKET · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMijwRBVV95cUxNZGxyc2FiLThuNDNTYjNLTkZyRGg4clBqMTNNLXd4dXQ5QnlRbTBZVU1ra1NzR2lHZzhzcDJyOHR0c3ZqRGEzR0R5OC1tLUFsNlRPZVV4UG5zVFpuR2FoVXdCWGVOcVd0dWFHdUdjb2ZnakZZQk1FeGJrMERFQm80VjNydFV0S0IzMlBKQ3NoamhIaWV0WS1MS2JNM3VQV2w1Q1Q4d3ZIMDFjcnE4eEZqcVhoLUNhUm5MUjhVQldVdm92bHgzdDRkZlZRU1V1UFZnLV91NGRVWnNBeWc5MDlzQUpNU1VkRmZXYklhVGh0UVZlVmhTeGRxbnpRZXRvcjA2d0M5a2JWQVR6TTl2eVFpZEQ2ZkdJeUlKWXYwMDRHcGNfRDZKZlJCMlRZSXEzclVkNlUzbGY1bzRreWZOeG9hTEFEek9uOEw5VlR5TEg3Z0IxVDFyMFYxVEZmUGs2ZXZWTWhhT2VqUXhtaUtpaWJ6THM2T0xBd1FEbTR3WFJ3MlFNRWJxSmhlUl8xRmFDUzl2OTJ1djhleElpSDh0ckttbWNtZ1RBcVMwOV9oX0ZGbVlzbnQ5UGYycTJqdmtlcE1hc2NPUWFmVGpBNFlUdHIxU21Ba1JRekdtZmE5UlBrU240WTVsam5INFU1N2hVSEF0WXFEYm1kM3hYWUNka0QxRC1MT3dkSy1sTGRSNm9Mdw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "香港經濟日報HKET · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-05-20",
+      "published_display": "2026-05-20",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
+    },
+    {
       "title": "孫安佐流年走入「死神」！命理師早預言「牢獄之災」皇帝命盤脾氣火爆",
       "summary": "来自 噓！星聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9BRjllWlhzSDFjSkpGN1Vhdl8yR1lUaVdkbUtfby04MElodDI3SzBZQ1Z4bmNFeHFIUXNWSDJlUDY4Zno1V0FMSWR1cnZ5bVhWREdaOUxsUTVZU3Y0MHlV0gFfQVVfeXFMT0FGOWVaWHNIMWNKSkY3VWF2XzJHWVRpV2RtS19vLTgwSWh0MjdLMFlDVnhuY0V4cUhRc1ZIMmVQNjhmejVXQUxJZHVydnltWFZER1o5TGxRNVlTdjQweVU?oc=5",
@@ -325,26 +382,7 @@
         "流年"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
-    },
-    {
-      "title": "狄鶯護子護成悲劇？命理師爆「前世愛太深」今生反遭獨子榨乾運勢",
-      "summary": "来自 娛樂星聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5laFZRRXFYZFc3TFhzdjMyd0lrbjE3cFVDdi1iSzlPTS1OMW1sU19Kb1Z0SFN0LVdNbkdsWFg4cjBRcmxQRXkwZEl30gFfQVVfeXFMTzUxOGFJcUtrZWxFek1BbHJQUkgzMlFUZjd1ZWtMenFaTjdyNDkxQXNIR1VfbENra1VKOTVRUUxQc1NKMTQ2SW1BZkhMamVFdnppWjNBNDVFWUN6MmtqUDg?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "娛樂星聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-05-19",
-      "published_display": "2026-05-19",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-05"
     },
     {
       "title": "前世愛慕孫安佐？命理師揭前世糾葛 狄鶯未來運勢曝",
@@ -361,44 +399,6 @@
         "命理",
         "命理師",
         "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "孫安佐持槍遭羈押！命理師2年前早預言：死神流年",
-      "summary": "来自 東森電視 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FbTdwZDJCcmtoemJ3SjFCZHRlSl9LeDNhWWVGZmYxQzFBSWNCbkpUOUdPZmp6ZmQxUkpaRTFRdTZYbDlMcURScTZSNUN4VzN1NG1IQQ?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "東森電視 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-05-18",
-      "published_display": "2026-05-18",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "流年"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災",
-      "summary": "来自 娛樂星聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9SdHZ4OGtIb3BxeE1GZGZVSVoySDRId3NrdUttd2hhQ0VtNVFic0cybTFfWkxGemZLYS1NeDJET2NWV2p6dk42eWNHTmpfSGt0OXhjWC15WlBBLWEyekNpNDh0VURKdGZWVXg40gFfQVVfeXFMTmZqNnBwamQ1eEc4WmN3d0Q0VzBCeDFyUllJVXFodHVpVGZqVkdXUHI2VnhlWWFLelRvYzhiTFptUmhyTHB3N1BuSzQyYmlYX1NKa3JRNkRsdC15UmlrNms?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "娛樂星聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-05-18",
-      "published_display": "2026-05-18",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "流年"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-06"
