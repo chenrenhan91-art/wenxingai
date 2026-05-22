@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-05-22T00:18:12.944092+08:00",
-  "ran_at_display": "2026年5月22日 00:18",
+  "ran_at": "2026-05-22T14:01:37.258789+08:00",
+  "ran_at_display": "2026年5月22日 14:01",
   "overall_status": "failed_generate",
-  "force_refresh": true,
-  "previous_signature": "8430c39c93848f36a3ca348653247899a7e34ce1",
-  "new_signature": "d1e9de229479c1e02b7f77ae1f9aa5460acaaa04",
+  "force_refresh": false,
+  "previous_signature": "d1e9de229479c1e02b7f77ae1f9aa5460acaaa04",
+  "new_signature": "45d089af4f1526bf7fe5d304fea5847fc0771713",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -24,12 +24,11 @@
     "脫單時間預告！下一任會是誰？ta的特徵、出現時間、是誰主動的？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "[ 數字能量學0511 ] 電話號碼催財運 #催財 #揀電話號碼 #自己號碼自己揀 #電話號碼 #搵個靚冧巴 #催旺化煞 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名 #占卜問事 #揀電話號碼揀冧巴",
     "[問卦] 戶田惠梨香:命理師說我38歲會死掉",
-    "小滿4大禁忌曝光！命理師警告「別加班熬夜」 4生肖運勢兩樣情",
-    "小滿來襲！4大生肖運勢爆發 命理師警告1件事"
+    "6月份12生肖運勢曝光 命理師建議「穩中求進」才是關鍵",
+    "小滿4大禁忌曝光！命理師警告「別加班熬夜」 4生肖運勢兩樣情"
   ],
   "added_titles": [
-    "脫單時間預告！下一任會是誰？ta的特徵、出現時間、是誰主動的？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "小滿4大禁忌曝光！命理師警告「別加班熬夜」 4生肖運勢兩樣情"
+    "6月份12生肖運勢曝光 命理師建議「穩中求進」才是關鍵"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -42,13 +41,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月22日 00:18"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月22日 14:01"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 1,
       "ok": false,
-      "output": "Gemini content generation failed: network or API error: HTTP Error 403: Forbidden"
+      "output": "[warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {\"error\":{\"message\":\"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"param\":null,...\n[ok] DashScope fallback model selected: qwen3.6-flash-2026-04-16\nGemini content generation failed: invalid Gemini response: missing zh_cn.site_article.excerpt"
     }
   ]
 }
