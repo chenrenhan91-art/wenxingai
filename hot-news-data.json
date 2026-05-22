@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-05-22",
-  "updated_at_display": "2026年5月22日 14:08",
+  "updated_at_display": "2026年5月22日 14:50",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-22T14:08:54.955154+08:00",
+    "fetched_at": "2026-05-22T14:50:25.468600+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
