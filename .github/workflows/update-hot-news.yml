@@ -14,6 +14,8 @@ on:
       - "scripts/run_seo_geo_automation.py"
       - "scripts/plan_seo_geo_content.py"
       - "scripts/generate_seo_geo_topic_pages.py"
+      - "scripts/ensure_indexnow_key_file.py"
+      - "scripts/indexnow_key_file.py"
       - "scripts/submit_indexnow.py"
       - "hot-news-sources.json"
       - "seo_geo_keywords.json"
@@ -125,15 +127,19 @@ jobs:
       - name: SEO/GEO content operations brief
         run: python3 scripts/plan_seo_geo_content.py
 
+      - name: Prepare IndexNow key file
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          INDEXNOW_HOST: ${{ vars.INDEXNOW_HOST || 'wenxingai.top' }}
+          INDEXNOW_KEY_LOCATION: ${{ secrets.INDEXNOW_KEY_LOCATION || vars.INDEXNOW_KEY_LOCATION }}
+        run: python3 scripts/ensure_indexnow_key_file.py
+
       - name: Commit changes
         run: |
-          if git diff --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add hot-news-data.json index.html facts/wenxing-ai.html mingli-xuanxue-news.html sitemap.xml llms-full.txt llms.txt geo-answers.html glossary.html robots.txt .well-known/ai.txt
+          if [ -n "${INDEXNOW_KEY_FILE_PATH:-}" ] && [ -f "$INDEXNOW_KEY_FILE_PATH" ]; then git add "$INDEXNOW_KEY_FILE_PATH"; fi
           if [ -f generated/gemini-content-bundle.json ]; then git add generated/gemini-content-bundle.json; fi
           if [ -f generated/gemini-content-package.md ]; then git add generated/gemini-content-package.md; fi
           if [ -f generated/gemini-review-report.json ]; then git add generated/gemini-review-report.json; fi
@@ -157,6 +163,10 @@ jobs:
           if [ -d generated/social-posts ]; then git add generated/social-posts; fi
           if [ -d generated/articles ]; then git add generated/articles; fi
           if [ -d generated/blog-articles ]; then git add generated/blog-articles; fi
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
           git commit -m "chore: update hot news"
           git pull --rebase origin main
           git push

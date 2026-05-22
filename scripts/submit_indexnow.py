@@ -12,6 +12,8 @@ from pathlib import Path
 from urllib.error import HTTPError, URLError
 from zoneinfo import ZoneInfo
 
+from indexnow_key_file import resolve_indexnow_key_file
+
 
 ROOT = Path(__file__).resolve().parent.parent
 SITEMAP_PATH = ROOT / "sitemap.xml"
@@ -73,9 +75,10 @@ def main() -> None:
     key = os.getenv("INDEXNOW_KEY", "").strip()
     host = os.getenv("INDEXNOW_HOST", DEFAULT_HOST).strip() or DEFAULT_HOST
     endpoint = os.getenv("INDEXNOW_ENDPOINT", DEFAULT_ENDPOINT).strip() or DEFAULT_ENDPOINT
-    key_location = os.getenv("INDEXNOW_KEY_LOCATION", "").strip()
-    if key and not key_location:
-        key_location = f"https://{host}/{key}.txt"
+    configured_key_location = os.getenv("INDEXNOW_KEY_LOCATION", "").strip()
+    key_location = ""
+    if key:
+        key_location, _ = resolve_indexnow_key_file(key, host, configured_key_location)
 
     urls = sitemap_urls()
     report = {

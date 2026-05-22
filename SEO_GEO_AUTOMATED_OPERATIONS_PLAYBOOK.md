@@ -243,4 +243,4 @@
 | `INDEXNOW_KEY` | GitHub Secret | 自动向 Bing/IndexNow 生态提交 URL | 推荐 |
 | `INDEXNOW_KEY_LOCATION` | GitHub Variable | IndexNow key 文件公开 URL | 推荐 |
 
-IndexNow 的 key 文件必须能被公开访问。若 `INDEXNOW_KEY_LOCATION` 不配置，脚本默认使用 `https://wenxingai.top/{INDEXNOW_KEY}.txt`。这种情况下，需要确保站点根目录存在同名 txt 文件，内容就是 key。
+IndexNow 的 key 文件必须能被公开访问。当前自动化会从 `INDEXNOW_KEY` 生成根目录 txt 文件；若 `INDEXNOW_KEY_LOCATION` 不配置，默认使用 `https://wenxingai.top/indexnow-key.txt`。如果你已经在 GitHub Secrets 填了 `INDEXNOW_KEY_LOCATION`，workflow 会按该 URL 的路径生成对应 txt 文件，并把文件内容写成 `INDEXNOW_KEY`。
