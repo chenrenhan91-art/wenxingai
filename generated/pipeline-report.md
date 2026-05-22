@@ -1,4 +1,4 @@
-# 问星AI 内容自动化运行报告 2026年5月22日 14:01
+# 问星AI 内容自动化运行报告 2026年5月22日 14:08
 
 - 总体状态：failed_generate
 - 本轮是否强制刷新：否
@@ -19,9 +19,6 @@
 - 6月份12生肖運勢曝光 命理師建議「穩中求進」才是關鍵
 - 小滿4大禁忌曝光！命理師警告「別加班熬夜」 4生肖運勢兩樣情
 
-## 新增标题
-- 6月份12生肖運勢曝光 命理師建議「穩中求進」才是關鍵
-
 ## 次日运营建议
 - 明日优先延展「命理新闻」相关选题（当前占比 6/8）。
 
@@ -30,7 +27,7 @@
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年5月22日 14:01
+updated 8 hot news items at 2026年5月22日 14:08
 - generate_daily_content.py | failed | [warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {"error":{"message":"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.","type":"invalid_request_error","param":null,...
 [ok] DashScope fallback model selected: qwen3.6-flash-2026-04-16
-Gemini content generation failed: invalid Gemini response: missing zh_cn.site_article.excerpt
+Gemini content generation failed: invalid Gemini response: missing zh_cn.social_posts
