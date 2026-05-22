@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-05-22",
-  "updated_at_display": "2026年5月22日 14:50",
+  "updated_at_display": "2026年5月22日 23:51",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-22T14:50:25.468600+08:00",
+    "fetched_at": "2026-05-22T23:51:29.803545+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,42 +252,42 @@
   ],
   "items": [
     {
-      "title": "脫單時間預告！下一任會是誰？ta的特徵、出現時間、是誰主動的？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "他現在對你的真實想法！內心如何看待你？他預設的關係走向？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTRDIwTUdJX2ItYW1VQXBMV0FJUmlxMjNhNXVyVG1sa0ozM25WeXV4eEM2V2lTaUxyYU1NMWtGeUltR3ZpbG8zTjN2UHhoeGt6RVdHX1VB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WXzhtWVQ0LW9BcHQwQ1BGdTZnVkNMU0lWNVRuQXRhdkpNWVAyQVVsWFU2Nk4tYmcwb0YwTVRoTFVDLVhuVDRISC1CaVNJQzM5VXBYVVdR?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-05-21",
-      "published_display": "2026-05-21",
+      "published": "2026-05-19",
+      "published_display": "2026-05-19",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-09"
+      "event_cluster": "event-17"
     },
     {
-      "title": "[ 數字能量學0511 ] 電話號碼催財運 #催財 #揀電話號碼 #自己號碼自己揀 #電話號碼 #搵個靚冧巴 #催旺化煞 #玄學課程 #風水課程 #擇日課程 #算命課程 #奇門 #易經 #風水命理 #風水布局 #算命算流年 #流年批命 #擇吉日擇時辰 #改名 #占卜問事 #揀電話號碼揀冧巴",
+      "title": "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBWal96ZnRHV3JfTTB4TXcyVEtoU0NLNXBzbTFfOVdsakhrZjBoU3c4TmVxbWtTc3ZBWXNITUprV2MyVHFocWlFTEhOZkJIaEU0a3dIN0tKaXYxcHpnVVVza0pHb002VU04VHppR0hB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoZFpteVQwRWxuM2lFWTJaMXRzMzJETS1WM3lGMDI4eFRmM1laQmVzeU9ybkYzMTBqLUY3WFdrUWR3cjIzdFBhOG9MRHAwSXFZZUFKd1R2YThKUnc?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E7%AE%97%E5%91%BD%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "风水玄学",
-      "published": "2026-05-19",
-      "published_display": "2026-05-19",
+      "category": "八字紫微",
+      "published": "2026-05-22",
+      "published_display": "2026-05-22",
       "matched_keywords": [
         "命理",
         "算命",
-        "流年"
+        "運勢"
       ],
-      "score": 12.149999999999999,
-      "event_cluster": "event-80"
+      "score": 14.35,
+      "event_cluster": "event-13"
     },
     {
       "title": "[問卦] 戶田惠梨香:命理師說我38歲會死掉",
@@ -328,16 +328,16 @@
       "event_cluster": "event-02"
     },
     {
-      "title": "小滿4大禁忌曝光！命理師警告「別加班熬夜」 4生肖運勢兩樣情",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5fYl9IZmVkRjFiZ1pnY29IZHlabXljRWtWM0VUcjlkdmd2QTdudHhjQ3NremNfTGlXQnBTalFGcVJreFlSclRfSGVPOF9iX0RC0gFWQVVfeXFMT1UxQjV5b240eXJDMzVqZnJIeFFqTnkzTFpaZ0l2dXpDY3djUlBoeG13SWFOb3pBQ2FJcmpJV3RidVd5MUx2c2dOZGFzSEpLLXpzMFhDOXc?oc=5",
+      "title": "九紫離火運發威！命理師示警「4生肖」 5年內運勢大變動",
+      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1RTTV3YUZyc2p3WkcwMlprZUluYlF2bnA2NGUwNm84UFRPV2VwV05UVEJ0Z1YyVFVSZm1Mam92N1FLdmJjT0g2NUZhQWRNUQ?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
+      "source": "TVBS新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-05-21",
-      "published_display": "2026-05-21",
+      "published": "2026-05-22",
+      "published_display": "2026-05-22",
       "matched_keywords": [
         "命理",
         "命理師",
@@ -366,11 +366,11 @@
       "event_cluster": "event-04"
     },
     {
-      "title": "快新聞／曾料中賴清德「凍蒜」！命理師解析新北市長大戰：李四川、蘇巧慧皆有流年加成",
-      "summary": "来自 民視新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nVDN1RTI4M0lHS0xuV1VfUlQ1cjhTUXFXX211ckh1Z2tjeWFsbTQ2Q1RSTFNzUkx6NWh2NHF2WFFvZHFjNjZpNXc4N2RQMFNydkR5di1Nei1WNUtNY1prcg?oc=5",
+      "title": "小滿4大禁忌曝光！命理師警告「別加班熬夜」 4生肖運勢兩樣情",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5fYl9IZmVkRjFiZ1pnY29IZHlabXljRWtWM0VUcjlkdmd2QTdudHhjQ3NremNfTGlXQnBTalFGcVJreFlSclRfSGVPOF9iX0RC0gFWQVVfeXFMT1UxQjV5b240eXJDMzVqZnJIeFFqTnkzTFpaZ0l2dXpDY3djUlBoeG13SWFOb3pBQ2FJcmpJV3RidVd5MUx2c2dOZGFzSEpLLXpzMFhDOXc?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "民視新聞網 · Google News",
+      "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -379,17 +379,17 @@
       "matched_keywords": [
         "命理",
         "命理師",
-        "流年"
+        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-05"
     },
     {
-      "title": "討論牆 | 曾料中賴清德「凍蒜」！命理師解析新北市長大戰：李、蘇皆有流年加成",
-      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mN0djY1J3a1lDbHNLSU9id3NFOUFsb3k2YmZKYWdqWXVZQl9kcHozeWxEa1lvdndhaHJoRjBzVlMtTEFGck5xTkJJOXRsSVYzTGtVaDBCSnpCb0xxckl0RHMyWHg?oc=5",
+      "title": "快新聞／曾料中賴清德「凍蒜」！命理師解析新北市長大戰：李四川、蘇巧慧皆有流年加成",
+      "summary": "来自 民視新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nVDN1RTI4M0lHS0xuV1VfUlQ1cjhTUXFXX211ckh1Z2tjeWFsbTQ2Q1RSTFNzUkx6NWh2NHF2WFFvZHFjNjZpNXc4N2RQMFNydkR5di1Nei1WNUtNY1prcg?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "LINE TODAY · Google News",
+      "source": "民視新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
