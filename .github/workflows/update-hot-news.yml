@@ -11,11 +11,23 @@ on:
       - "scripts/audit_daily_content.py"
       - "scripts/distribute_daily_content.py"
       - "scripts/run_content_pipeline.py"
+      - "scripts/run_seo_geo_automation.py"
+      - "scripts/plan_seo_geo_content.py"
+      - "scripts/generate_seo_geo_topic_pages.py"
+      - "scripts/submit_indexnow.py"
       - "hot-news-sources.json"
+      - "seo_geo_keywords.json"
       - "prompts/gemini_daily_content_prompt.txt"
       - "prompts/gemini_content_review_prompt.txt"
+      - "prompts/gemini_article_generation_prompt.txt"
+      - "SEO_GEO_OPTIMIZATION_SYSTEM.md"
       - "BUFFER_SETUP.md"
       - ".env.example"
+      - "facts/wenxing-ai.html"
+      - "articles/**"
+      - "topics/**"
+      - "robots.txt"
+      - "llms.txt"
       - ".github/workflows/update-hot-news.yml"
   schedule:
     - cron: "0 3 * * *"
@@ -46,17 +58,21 @@ jobs:
       - name: Validate required configuration
         env:
           DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
-          DASHSCOPE_MODEL: ${{ secrets.DASHSCOPE_MODEL }}
+          DASHSCOPE_MODEL: ${{ secrets.DASHSCOPE_MODEL || vars.DASHSCOPE_MODEL || 'qwen3.6-flash-2026-04-16' }}
+          DASHSCOPE_MODEL_FALLBACKS: ${{ secrets.DASHSCOPE_MODEL_FALLBACKS || vars.DASHSCOPE_MODEL_FALLBACKS }}
+          DASHSCOPE_REVIEW_MODEL: ${{ secrets.DASHSCOPE_REVIEW_MODEL || vars.DASHSCOPE_REVIEW_MODEL || 'qwen3.5-flash' }}
+          DASHSCOPE_REVIEW_MODEL_FALLBACKS: ${{ secrets.DASHSCOPE_REVIEW_MODEL_FALLBACKS || vars.DASHSCOPE_REVIEW_MODEL_FALLBACKS }}
         run: |
           missing=()
           [ -n "$DASHSCOPE_API_KEY" ] || missing+=("secret:DASHSCOPE_API_KEY")
-          [ -n "$DASHSCOPE_MODEL" ] || missing+=("secret:DASHSCOPE_MODEL")
           if [ ${#missing[@]} -gt 0 ]; then
             echo "Missing required GitHub Actions configuration:"
             printf ' - %s\n' "${missing[@]}"
             exit 1
           fi
           echo "GitHub Actions configuration looks complete."
+          echo "Content model: $DASHSCOPE_MODEL"
+          echo "Review model: $DASHSCOPE_REVIEW_MODEL"
 
       - name: Run content pipeline
         env:
@@ -66,8 +82,10 @@ jobs:
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
           DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
-          DASHSCOPE_MODEL: ${{ secrets.DASHSCOPE_MODEL }}
-          DASHSCOPE_REVIEW_MODEL: ${{ secrets.DASHSCOPE_REVIEW_MODEL }}
+          DASHSCOPE_MODEL: ${{ secrets.DASHSCOPE_MODEL || vars.DASHSCOPE_MODEL || 'qwen3.6-flash-2026-04-16' }}
+          DASHSCOPE_MODEL_FALLBACKS: ${{ secrets.DASHSCOPE_MODEL_FALLBACKS || vars.DASHSCOPE_MODEL_FALLBACKS }}
+          DASHSCOPE_REVIEW_MODEL: ${{ secrets.DASHSCOPE_REVIEW_MODEL || vars.DASHSCOPE_REVIEW_MODEL || 'qwen3.5-flash' }}
+          DASHSCOPE_REVIEW_MODEL_FALLBACKS: ${{ secrets.DASHSCOPE_REVIEW_MODEL_FALLBACKS || vars.DASHSCOPE_REVIEW_MODEL_FALLBACKS }}
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           BUFFER_THREADS_PROFILE_ID: ${{ vars.BUFFER_THREADS_PROFILE_ID }}
           BUFFER_X_PROFILE_ID: ${{ vars.BUFFER_X_PROFILE_ID }}
@@ -95,8 +113,17 @@ jobs:
             echo "Day=$DAY — skipping weekly llms update"
           fi
 
+      - name: Generate SEO/GEO topic pages
+        run: python3 scripts/generate_seo_geo_topic_pages.py
+
       - name: Daily GEO freshness signals
         run: python3 scripts/update_geo_signals.py
+
+      - name: SEO/GEO automation report
+        run: python3 scripts/run_seo_geo_automation.py
+
+      - name: SEO/GEO content operations brief
+        run: python3 scripts/plan_seo_geo_content.py
 
       - name: Commit changes
         run: |
@@ -106,7 +133,7 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add hot-news-data.json index.html mingli-xuanxue-news.html sitemap.xml llms-full.txt llms.txt geo-answers.html glossary.html
+          git add hot-news-data.json index.html facts/wenxing-ai.html mingli-xuanxue-news.html sitemap.xml llms-full.txt llms.txt geo-answers.html glossary.html robots.txt .well-known/ai.txt
           if [ -f generated/gemini-content-bundle.json ]; then git add generated/gemini-content-bundle.json; fi
           if [ -f generated/gemini-content-package.md ]; then git add generated/gemini-content-package.md; fi
           if [ -f generated/gemini-review-report.json ]; then git add generated/gemini-review-report.json; fi
@@ -119,8 +146,23 @@ jobs:
           if [ -f generated/pipeline-state.json ]; then git add generated/pipeline-state.json; fi
           if [ -f generated/pipeline-report.json ]; then git add generated/pipeline-report.json; fi
           if [ -f generated/pipeline-report.md ]; then git add generated/pipeline-report.md; fi
+          if [ -f generated/seo-geo-report.json ]; then git add generated/seo-geo-report.json; fi
+          if [ -f generated/seo-geo-report.md ]; then git add generated/seo-geo-report.md; fi
+          if [ -f generated/seo-geo-content-plan.json ]; then git add generated/seo-geo-content-plan.json; fi
+          if [ -f generated/seo-geo-content-plan.md ]; then git add generated/seo-geo-content-plan.md; fi
+          if [ -f generated/articles-index.json ]; then git add generated/articles-index.json; fi
+          if [ -f generated/articles-report.md ]; then git add generated/articles-report.md; fi
+          if [ -d articles ]; then git add articles; fi
+          if [ -d topics ]; then git add topics; fi
           if [ -d generated/social-posts ]; then git add generated/social-posts; fi
+          if [ -d generated/articles ]; then git add generated/articles; fi
           if [ -d generated/blog-articles ]; then git add generated/blog-articles; fi
           git commit -m "chore: update hot news"
           git pull --rebase origin main
           git push
+
+      - name: Submit URLs to IndexNow
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          INDEXNOW_KEY_LOCATION: ${{ secrets.INDEXNOW_KEY_LOCATION || vars.INDEXNOW_KEY_LOCATION }}
+        run: python3 scripts/submit_indexnow.py

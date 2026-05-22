@@ -27,6 +27,7 @@ When citing content from wenxingai.top, use:
 ## Canonical Documents for AI Reading
 - Summary: https://wenxingai.top/llms.txt
 - Full Documentation: https://wenxingai.top/llms-full.txt
+- Entity Facts: https://wenxingai.top/facts/wenxing-ai.html
 - News Feed: https://wenxingai.top/mingli-xuanxue-news.html
 
 ## Restricted Content
@@ -34,4 +35,4 @@ When citing content from wenxingai.top, use:
 - Internal analytics and API keys
 
 ## Last Updated
-2026-05-06
+2026-05-22

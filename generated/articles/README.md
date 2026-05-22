@@ -1,15 +1,20 @@
 # 深度解读文章集
 
-此目录为问星AI自动生成的深度解读文章。
+此目录保存问星AI自动生成文章的 Markdown 源文；公开 HTML 页面发布到站点根目录的 `articles/`。
 
 ## 文件结构
 
 ```
-articles/
-├── {slug}-zh_cn.html        # 简体中文文章（完整 HTML 页面）
+generated/articles/
 ├── {slug}-zh_cn.md          # 简体中文文章（Markdown 源）
-├── {slug}-zh_hant.html      # 繁体中文文章（完整 HTML 页面）
 ├── {slug}-zh_hant.md        # 繁体中文文章（Markdown 源）
+└── ...
+
+articles/
+├── index.html               # 公开文章索引页
+├── index.json               # 公开文章索引数据
+├── {slug}-zh_cn.html        # 简体中文公开文章页面
+├── {slug}-zh_hant.html      # 繁体中文公开文章页面
 └── ...
 ```
 
@@ -21,7 +26,7 @@ articles/
 4. **输出**: 
    - HTML 页面（用于直接在浏览器打开）
    - Markdown 文件（便于版本控制和编辑）
-   - JSON 索引（`articles-index.json`）
+  - JSON 索引（`articles/index.json` 与 `generated/articles-index.json` 镜像）
 
 ## 文章特点
 
@@ -50,9 +55,9 @@ articles/
 # 1. 构建文章
 python3 scripts/generate_article_from_snippets.py
 
-# 2. 文章已输出到 generated/articles/*.html
-# 3. 部署到网站时，将整个 articles 文件夹复制到根目录
-# 4. 更新首页导航指向 /articles/{slug}.html
+# 2. 公开 HTML 已输出到 articles/*.html
+# 3. Markdown 源文保存到 generated/articles/*.md
+# 4. sitemap.xml 会自动写入 /articles/ 与文章 URL
 ```
 
 ### 方式 2: 集成到首页
@@ -67,7 +72,7 @@ python3 scripts/generate_article_from_snippets.py
 </section>
 
 <script>
-  fetch('/generated/articles-index.json')
+  fetch('/articles/index.json')
     .then(r => r.json())
     .then(data => {
       const list = document.getElementById('articles-list');

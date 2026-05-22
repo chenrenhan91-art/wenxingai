@@ -1,0 +1,248 @@
+{
+  "ran_at": "2026-05-22T14:01:04.990030+08:00",
+  "ran_at_display": "2026-05-22 14:01 CST",
+  "overall_status": "ok",
+  "summary": {
+    "pages_ok": 15,
+    "pages_warn": 0,
+    "pages_fail": 0
+  },
+  "pages": [
+    {
+      "path": "index.html",
+      "url": "https://wenxingai.top/",
+      "type": "homepage",
+      "status": "ok",
+      "checks": {
+        "title_length": 30,
+        "description_length": 83,
+        "canonical": "https://wenxingai.top/",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "json_ld_blocks": 1
+      },
+      "issues": []
+    },
+    {
+      "path": "facts/wenxing-ai.html",
+      "url": "https://wenxingai.top/facts/wenxing-ai.html",
+      "type": "grounding-page",
+      "status": "ok",
+      "checks": {
+        "title_length": 38,
+        "description_length": 58,
+        "canonical": "https://wenxingai.top/facts/wenxing-ai.html",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+        "json_ld_blocks": 1
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/index.html",
+      "url": "https://wenxingai.top/articles/",
+      "type": "article-hub",
+      "status": "ok",
+      "checks": {
+        "title_length": 26,
+        "description_length": 54,
+        "canonical": "https://wenxingai.top/articles/",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+        "json_ld_blocks": 1
+      },
+      "issues": []
+    },
+    {
+      "path": "topics/index.html",
+      "url": "https://wenxingai.top/topics/",
+      "type": "topic-hub",
+      "status": "ok",
+      "checks": {
+        "title_length": 29,
+        "description_length": 62,
+        "canonical": "https://wenxingai.top/topics/",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+        "json_ld_blocks": 1
+      },
+      "issues": []
+    },
+    {
+      "path": "geo-answers.html",
+      "url": "https://wenxingai.top/geo-answers.html",
+      "type": "answer-page",
+      "status": "ok",
+      "checks": {
+        "title_length": 24,
+        "description_length": 59,
+        "canonical": "https://wenxingai.top/geo-answers.html",
+        "robots": "index, follow",
+        "json_ld_blocks": 1
+      },
+      "issues": []
+    },
+    {
+      "path": "glossary.html",
+      "url": "https://wenxingai.top/glossary.html",
+      "type": "term-page",
+      "status": "ok",
+      "checks": {
+        "title_length": 29,
+        "description_length": 68,
+        "canonical": "https://wenxingai.top/glossary.html",
+        "robots": "index, follow",
+        "json_ld_blocks": 1
+      },
+      "issues": []
+    },
+    {
+      "path": "mingli-xuanxue-news.html",
+      "url": "https://wenxingai.top/mingli-xuanxue-news.html",
+      "type": "freshness-page",
+      "status": "ok",
+      "checks": {
+        "title_length": 36,
+        "description_length": 60,
+        "canonical": "https://wenxingai.top/mingli-xuanxue-news.html",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "json_ld_blocks": 1
+      },
+      "issues": []
+    },
+    {
+      "path": "24jieqi/index.html",
+      "url": "https://wenxingai.top/24jieqi/",
+      "type": "hub-page",
+      "status": "ok",
+      "checks": {
+        "title_length": 18,
+        "description_length": 52,
+        "canonical": "https://wenxingai.top/24jieqi/",
+        "robots": "",
+        "json_ld_blocks": 1
+      },
+      "issues": []
+    },
+    {
+      "path": "topics/ai-mingli.html",
+      "url": "https://wenxingai.top/topics/ai-mingli.html",
+      "type": "topic-page",
+      "status": "ok",
+      "checks": {
+        "title_length": 37,
+        "description_length": 68,
+        "canonical": "https://wenxingai.top/topics/ai-mingli.html",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+        "json_ld_blocks": 1
+      },
+      "issues": []
+    },
+    {
+      "path": "topics/bazi-ai.html",
+      "url": "https://wenxingai.top/topics/bazi-ai.html",
+      "type": "topic-page",
+      "status": "ok",
+      "checks": {
+        "title_length": 37,
+        "description_length": 68,
+        "canonical": "https://wenxingai.top/topics/bazi-ai.html",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+        "json_ld_blocks": 1
+      },
+      "issues": []
+    },
+    {
+      "path": "topics/hepan.html",
+      "url": "https://wenxingai.top/topics/hepan.html",
+      "type": "topic-page",
+      "status": "ok",
+      "checks": {
+        "title_length": 35,
+        "description_length": 66,
+        "canonical": "https://wenxingai.top/topics/hepan.html",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+        "json_ld_blocks": 1
+      },
+      "issues": []
+    },
+    {
+      "path": "topics/jieqi-mingli.html",
+      "url": "https://wenxingai.top/topics/jieqi-mingli.html",
+      "type": "topic-page",
+      "status": "ok",
+      "checks": {
+        "title_length": 36,
+        "description_length": 67,
+        "canonical": "https://wenxingai.top/topics/jieqi-mingli.html",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+        "json_ld_blocks": 1
+      },
+      "issues": []
+    },
+    {
+      "path": "topics/liuyao-ai.html",
+      "url": "https://wenxingai.top/topics/liuyao-ai.html",
+      "type": "topic-page",
+      "status": "ok",
+      "checks": {
+        "title_length": 38,
+        "description_length": 69,
+        "canonical": "https://wenxingai.top/topics/liuyao-ai.html",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+        "json_ld_blocks": 1
+      },
+      "issues": []
+    },
+    {
+      "path": "topics/xuanxue-hot-news.html",
+      "url": "https://wenxingai.top/topics/xuanxue-hot-news.html",
+      "type": "topic-page",
+      "status": "ok",
+      "checks": {
+        "title_length": 35,
+        "description_length": 66,
+        "canonical": "https://wenxingai.top/topics/xuanxue-hot-news.html",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+        "json_ld_blocks": 1
+      },
+      "issues": []
+    },
+    {
+      "path": "topics/ziwei-ai.html",
+      "url": "https://wenxingai.top/topics/ziwei-ai.html",
+      "type": "topic-page",
+      "status": "ok",
+      "checks": {
+        "title_length": 46,
+        "description_length": 77,
+        "canonical": "https://wenxingai.top/topics/ziwei-ai.html",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+        "json_ld_blocks": 1
+      },
+      "issues": []
+    }
+  ],
+  "infrastructure": {
+    "status": "ok",
+    "sitemap_url_count": 41,
+    "issues": []
+  },
+  "content_pipeline": {
+    "status": "ok",
+    "checks": {
+      "hot_news": true,
+      "pipeline_report": true,
+      "articles_index": false,
+      "public_articles_index": true,
+      "public_articles_page": true,
+      "articles_report": false,
+      "content_plan": true,
+      "keyword_map": true,
+      "hot_news_items": 8,
+      "hot_news_updated_at": "2026-05-22"
+    },
+    "issues": []
+  },
+  "recommendations": [
+    "保持 generate_seo_geo_topic_pages.py 每日运行，让 /topics/ 持续覆盖 AI命理、紫微斗数AI、八字、六爻、合盘、节气命理和玄学热点主题。",
+    "保持内容流水线在热点变化时自动生成 /articles/ 深度文章，并自动写入 sitemap。",
+    "配置 INDEXNOW_KEY 后，submit_indexnow.py 会自动向 IndexNow 提交 sitemap URL，减少新页面被发现的等待时间。"
+  ]
+}

@@ -15,10 +15,25 @@ TODAY_ISO = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+00:00")
 
 HTML_PAGES = [
     "index.html",
+    "facts/wenxing-ai.html",
+    "articles/index.html",
+    "topics/index.html",
     "mingli-xuanxue-news.html",
     "geo-answers.html",
     "glossary.html",
 ]
+
+
+def iter_html_pages() -> list[Path]:
+    pages = [BASE / name for name in HTML_PAGES]
+    for folder in ("articles", "topics"):
+        directory = BASE / folder
+        if not directory.exists():
+            continue
+        for path in sorted(directory.glob("*.html")):
+            if path not in pages:
+                pages.append(path)
+    return pages
 
 
 def update_html(path: Path) -> bool:
@@ -60,7 +75,7 @@ def update_sitemap(path: Path) -> None:
 
 if __name__ == "__main__":
     print(f"[update_geo_signals] date={TODAY}")
-    for name in HTML_PAGES:
-        update_html(BASE / name)
+    for path in iter_html_pages():
+        update_html(path)
     update_sitemap(BASE / "sitemap.xml")
     print("[update_geo_signals] done")

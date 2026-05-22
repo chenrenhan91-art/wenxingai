@@ -13,6 +13,8 @@ from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
 
+from dashscope_fallback import call_chat_completion_with_fallback, models_from_env
+
 
 ROOT = Path(__file__).resolve().parent.parent
 PROMPT_PATH = ROOT / "prompts" / "gemini_content_review_prompt.txt"
@@ -21,7 +23,7 @@ BUNDLE_PATH = OUTPUT_DIR / "gemini-content-bundle.json"
 MARKDOWN_OUTPUT_PATH = OUTPUT_DIR / "gemini-content-package.md"
 REVIEW_REPORT_JSON_PATH = OUTPUT_DIR / "gemini-review-report.json"
 REVIEW_REPORT_MD_PATH = OUTPUT_DIR / "gemini-review-report.md"
-DEFAULT_MODEL = "deepseek-v4-flash"
+DEFAULT_MODEL = "qwen3.5-flash"
 DASHSCOPE_ENDPOINT = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
 DEFAULT_TIMEOUT_SECONDS = 180
 DEFAULT_RETRY_ATTEMPTS = 3
@@ -173,37 +175,20 @@ def build_prompt(bundle: dict[str, Any]) -> str:
     )
 
 
-def call_gemini(prompt: str, api_key: str, model: str) -> dict[str, Any]:
-    request_payload = {
-        "model": model,
-        "messages": [{"role": "user", "content": prompt}],
-        "response_format": {"type": "json_object"},
-    }
-    request = urllib.request.Request(
-        DASHSCOPE_ENDPOINT,
-        data=json.dumps(request_payload, ensure_ascii=False).encode("utf-8"),
-        headers={
-            "Content-Type": "application/json; charset=utf-8",
-            "Authorization": f"Bearer {api_key}",
-            "User-Agent": USER_AGENT,
-        },
-        method="POST",
-    )
+def call_gemini(prompt: str, api_key: str, models: list[str]) -> tuple[dict[str, Any], str]:
     timeout_seconds = int(
         os.getenv("DASHSCOPE_TIMEOUT_SECONDS", str(DEFAULT_TIMEOUT_SECONDS)) or DEFAULT_TIMEOUT_SECONDS
     )
-    last_exc: Exception | None = None
-    for attempt in range(1, DEFAULT_RETRY_ATTEMPTS + 1):
-        try:
-            with urllib.request.urlopen(request, timeout=timeout_seconds) as response:
-                return json.loads(response.read().decode("utf-8"))
-        except (HTTPError, URLError, socket.timeout, TimeoutError) as exc:
-            last_exc = exc
-            if attempt >= DEFAULT_RETRY_ATTEMPTS:
-                break
-            time.sleep(min(2 * attempt, 6))
-    assert last_exc is not None
-    raise last_exc
+    return call_chat_completion_with_fallback(
+        endpoint=DASHSCOPE_ENDPOINT,
+        api_key=api_key,
+        models=models,
+        messages=[{"role": "user", "content": prompt}],
+        response_format={"type": "json_object"},
+        timeout_seconds=timeout_seconds,
+        retry_attempts=DEFAULT_RETRY_ATTEMPTS,
+        user_agent=USER_AGENT,
+    )
 
 
 def extract_candidate_text(response_payload: dict[str, Any]) -> str:
@@ -386,11 +371,15 @@ def main() -> None:
     if not api_key:
         raise SystemExit("AI review failed: missing DASHSCOPE_API_KEY")
 
-    model = os.getenv("DASHSCOPE_REVIEW_MODEL", DEFAULT_MODEL).strip() or DEFAULT_MODEL
+    models = models_from_env(
+        "DASHSCOPE_REVIEW_MODEL",
+        "DASHSCOPE_REVIEW_MODEL_FALLBACKS",
+        DEFAULT_MODEL,
+    )
     try:
         bundle = load_bundle()
         prompt = build_prompt(bundle)
-        response_payload = call_gemini(prompt, api_key, model)
+        response_payload, model = call_gemini(prompt, api_key, models)
         candidate_text = extract_candidate_text(response_payload)
         reviewed_content = validate_reviewed_content(json.loads(strip_code_fences(candidate_text)))
 

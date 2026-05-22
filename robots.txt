@@ -72,3 +72,6 @@ AI-Policy: https://wenxingai.top/.well-known/ai.txt
 
 # LLMs.txt (machine-readable product summary for AI systems)
 LLMs: https://wenxingai.top/llms.txt
+
+# Canonical entity grounding page
+Facts: https://wenxingai.top/facts/wenxing-ai.html

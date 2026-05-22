@@ -44,10 +44,12 @@
   - `generated/gemini-content-bundle.json` (社交内容包)
   - `hot-news-data.json` (热点数据)
 - **输出**:
-  - `generated/articles/{slug}-zh_cn.html` (简体中文页面)
+  - `articles/{slug}-zh_cn.html` (简体中文公开页面)
   - `generated/articles/{slug}-zh_cn.md` (简体中文 Markdown)
-  - `generated/articles/{slug}-zh_hant.html` (繁体中文页面)
+  - `articles/{slug}-zh_hant.html` (繁体中文公开页面)
   - `generated/articles/{slug}-zh_hant.md` (繁体中文 Markdown)
+  - `articles/index.html` (公开文章索引页)
+  - `articles/index.json` (公开文章索引数据)
   - `generated/articles-index.json` (文章索引)
   - `generated/articles-report.md` (生成报告)
 
@@ -172,7 +174,7 @@ python3 scripts/generate_article_from_snippets.py
       "title": "清明转运秘诀：AI如何重新定义命理趋势分析",
       "locale": "zh_cn",
       "html_path": "/articles/daily-hot-news-2026-04-06-zh_cn.html",
-      "md_path": "/articles/daily-hot-news-2026-04-06-zh_cn.md",
+      "md_path": "/generated/articles/daily-hot-news-2026-04-06-zh_cn.md",
       "keywords": ["清明", "转运", "命理", "AI", "流年"],
       "seo_title": "清明转运秘诀：AI如何重新定义命理趋势分析",
       "published_at": "2026年4月6日"
@@ -206,7 +208,7 @@ python3 scripts/generate_article_from_snippets.py
 
 ```javascript
 // 在你的主页脚本中
-fetch('/generated/articles-index.json')
+fetch('/articles/index.json')
   .then(r => r.json())
   .then(data => {
     // 构建文章列表 UI
@@ -299,7 +301,7 @@ fetch('/generated/articles-index.json')
 
 **解决**:
 1. 检查浏览器控制台错误 (F12)
-2. 验证 `/generated/articles-index.json` 是否可访问
+2. 验证 `/articles/index.json` 是否可访问
 3. 检查 CORS 配置（如果部署在不同域）
 
 ---

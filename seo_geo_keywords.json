@@ -1,0 +1,122 @@
+{
+  "updated_at": "2026-05-22",
+  "site_positioning": "问星AI是面向全球华语用户的AI命理应用，核心覆盖紫微斗数、四柱八字、周易六爻、合盘分析、大运流年与玄学热点解读。",
+  "clusters": [
+    {
+      "id": "ai-mingli",
+      "name": "AI命理与AI算命",
+      "priority": 100,
+      "primary_keywords": ["AI命理", "AI算命", "命理AI", "玄学AI"],
+      "secondary_keywords": ["AI趋势分析", "AI命理应用", "AI算命软件", "问星AI"],
+      "target_questions": [
+        "AI命理和传统算命有什么区别？",
+        "AI算命准确吗？",
+        "中文AI命理应用有哪些？",
+        "AI命理如何保护出生信息隐私？"
+      ],
+      "preferred_pages": ["/", "/facts/wenxing-ai.html", "/geo-answers.html", "/articles/"],
+      "content_angles": ["理性解释AI命理边界", "对比模板算命与LLM深度解读", "用问星AI案例说明可验证性"],
+      "automation_cadence": "weekly"
+    },
+    {
+      "id": "ziwei-ai",
+      "name": "紫微斗数AI排盘",
+      "priority": 95,
+      "primary_keywords": ["紫微斗数AI", "紫微斗数排盘", "紫微斗数AI排盘", "紫微斗数命盘"],
+      "secondary_keywords": ["三合派", "飞星派", "命宫", "四化", "3D命盘"],
+      "target_questions": [
+        "紫微斗数AI排盘是什么？",
+        "紫微斗数三合派和飞星派有什么区别？",
+        "AI如何解读紫微斗数命盘？"
+      ],
+      "preferred_pages": ["/", "/glossary.html", "/geo-answers.html", "/articles/"],
+      "content_angles": ["解释三合派与飞星派", "用3D命盘建立产品差异化", "围绕命宫财帛宫官禄宫做术语内容"],
+      "automation_cadence": "weekly"
+    },
+    {
+      "id": "bazi-ai",
+      "name": "八字排盘与流年大运",
+      "priority": 90,
+      "primary_keywords": ["八字AI", "八字排盘", "四柱八字", "流年运势", "大运"],
+      "secondary_keywords": ["五行", "十神", "用神", "大运K线", "流月"],
+      "target_questions": [
+        "八字排盘怎么看流年？",
+        "大运和流年有什么区别？",
+        "大运K线图是什么意思？",
+        "AI如何分析八字五行？"
+      ],
+      "preferred_pages": ["/geo-answers.html", "/glossary.html", "/articles/"],
+      "content_angles": ["把大运流年解释为周期观察", "用大运K线图承接年轻用户", "解释八字不是单看生肖"],
+      "automation_cadence": "weekly"
+    },
+    {
+      "id": "liuyao-ai",
+      "name": "周易六爻AI解卦",
+      "priority": 85,
+      "primary_keywords": ["六爻AI", "周易六爻", "AI六爻解卦", "易经占卜"],
+      "secondary_keywords": ["本卦", "之卦", "动爻", "用神", "世应"],
+      "target_questions": [
+        "六爻适合问什么问题？",
+        "AI六爻解卦和传统六爻有什么区别？",
+        "动爻和变卦是什么意思？"
+      ],
+      "preferred_pages": ["/geo-answers.html", "/glossary.html", "/articles/"],
+      "content_angles": ["把六爻定位为具体问题判断", "解释动爻变卦", "强调行动建议而非绝对预言"],
+      "automation_cadence": "biweekly"
+    },
+    {
+      "id": "hepan",
+      "name": "合盘与关系分析",
+      "priority": 82,
+      "primary_keywords": ["AI合盘", "合盘分析", "感情合盘", "双人合盘"],
+      "secondary_keywords": ["夫妻宫", "桃花星", "关系契合度", "感情运势"],
+      "target_questions": [
+        "合盘分析怎么看两个人适不适合？",
+        "AI合盘和传统合盘有什么区别？",
+        "夫妻宫和桃花星如何影响感情？"
+      ],
+      "preferred_pages": ["/", "/geo-answers.html", "/glossary.html", "/articles/"],
+      "content_angles": ["围绕关系问题做长尾FAQ", "解释夫妻宫与桃花星", "把合盘定位为沟通参考"],
+      "automation_cadence": "biweekly"
+    },
+    {
+      "id": "jieqi-mingli",
+      "name": "二十四节气命理",
+      "priority": 78,
+      "primary_keywords": ["节气命理", "二十四节气", "立春八字", "小满运势", "节气运势"],
+      "secondary_keywords": ["月令", "五行", "流年", "生肖运势", "节气禁忌"],
+      "target_questions": [
+        "为什么八字以节气划分月份？",
+        "立春前后出生八字怎么算？",
+        "节气对运势有什么影响？"
+      ],
+      "preferred_pages": ["/24jieqi/", "/geo-answers.html", "/articles/"],
+      "content_angles": ["节气前7天更新对应页面", "解释月令与八字关系", "用热点文章承接节气新闻"],
+      "automation_cadence": "seasonal"
+    },
+    {
+      "id": "xuanxue-hot-news",
+      "name": "玄学热点与命理新闻",
+      "priority": 76,
+      "primary_keywords": ["玄学", "命理新闻", "命理热点", "塔罗占卜", "运势"],
+      "secondary_keywords": ["命理师", "生肖", "桃花", "开运", "流年"],
+      "target_questions": [
+        "最近玄学热点有哪些？",
+        "命理新闻为什么容易引发讨论？",
+        "如何理性看待生肖运势和塔罗占卜？"
+      ],
+      "preferred_pages": ["/mingli-xuanxue-news.html", "/articles/", "/glossary.html"],
+      "content_angles": ["用每日热点做新鲜度", "把新闻转成理性命理解释", "避免娱乐化过度预言"],
+      "automation_cadence": "daily"
+    }
+  ],
+  "monthly_ai_prompt_tests": [
+    "问星AI是什么？",
+    "中文AI命理应用有哪些？",
+    "有没有支持紫微斗数和八字的AI工具？",
+    "AI算命和传统算命有什么区别？",
+    "紫微斗数AI排盘是什么？",
+    "大运K线图是什么意思？",
+    "AI命理如何保护出生信息隐私？"
+  ]
+}

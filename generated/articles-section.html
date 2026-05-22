@@ -180,8 +180,8 @@
     (function loadArticles() {
         const container = document.getElementById('articles-container');
         
-        // 尝试从生成的索引加载文章列表
-        fetch('/generated/articles-index.json')
+        // 尝试从公开文章索引加载文章列表
+        fetch('/articles/index.json')
             .then(response => {
                 if (!response.ok) throw new Error('Failed to load articles index');
                 return response.json();

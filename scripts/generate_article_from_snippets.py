@@ -5,10 +5,12 @@ generate_article_from_snippets.py
 将每日社交内容 snippet 扩展为完整的 SEO 优化深解文章。
 输入：gemini-content-bundle.json（社交文案 + 热点摘要）
 输出：
-  - generated/articles/{slug}.md （Markdown 文章）
-  - generated/articles/{slug}.html （HTML 页面）
+    - articles/{slug}.html （公开 HTML 页面）
+    - generated/articles/{slug}.md （Markdown 源文）
+    - articles/index.html （公开文章索引页）
+    - articles/index.json （公开文章索引数据）
   - generated/articles-index.json （文章索引）
-  - 更新 index.html 的"深度文章"导航
+    - 更新 sitemap.xml 的文章 URL
 """
 
 from __future__ import annotations
@@ -21,21 +23,29 @@ import time
 import urllib.parse
 import urllib.request
 from datetime import datetime
+from html import escape
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
 from zoneinfo import ZoneInfo
 
+from dashscope_fallback import call_chat_completion_with_fallback, models_from_env
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "hot-news-data.json"
 CONTENT_BUNDLE_PATH = ROOT / "generated" / "gemini-content-bundle.json"
-ARTICLES_DIR = ROOT / "generated" / "articles"
-ARTICLES_INDEX_PATH = ROOT / "generated" / "articles-index.json"
+PUBLIC_ARTICLES_DIR = ROOT / "articles"
+GENERATED_ARTICLES_DIR = ROOT / "generated" / "articles"
+PUBLIC_ARTICLES_INDEX_PATH = PUBLIC_ARTICLES_DIR / "index.json"
+PUBLIC_ARTICLES_PAGE_PATH = PUBLIC_ARTICLES_DIR / "index.html"
+GENERATED_ARTICLES_INDEX_PATH = ROOT / "generated" / "articles-index.json"
 ARTICLES_REPORT_PATH = ROOT / "generated" / "articles-report.md"
+SITEMAP_PATH = ROOT / "sitemap.xml"
 
-ARTICLES_DIR.mkdir(exist_ok=True)
+PUBLIC_ARTICLES_DIR.mkdir(exist_ok=True)
+GENERATED_ARTICLES_DIR.mkdir(exist_ok=True)
 
-DEFAULT_MODEL = "deepseek-v4-flash"
+DEFAULT_MODEL = "qwen3.6-flash-2026-04-16"
 DASHSCOPE_ENDPOINT = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
 DEFAULT_TIMEOUT_SECONDS = 180
 DEFAULT_RETRY_ATTEMPTS = 3
@@ -182,6 +192,8 @@ def build_article_prompt(
 6. 在文末附上指向本站其他页面的内链建议
 7. 主 CTA：鼓励用户访问问星AI网站体验"AI 命理趋势分析"
 8. 核心观点：不是预言师，而是帮助理解个人周期与流年关系
+9. GEO 要求：每个 <h2> 尽量带有主体或话题前缀；正文至少包含一个 <dl> 事实定义块；关键判断必须来自上方热点标题或常识性命理概念，不能虚构数据、专家或媒体来源
+10. 文风要求：用客观、可引用、低营销感的陈述句，避免"必然""注定""百分百准确"等绝对化表达
 
 社交文案参考角度：
 "{social_excerpt}"
@@ -191,6 +203,7 @@ def build_article_prompt(
 - 对比"传统宿命论"vs"AI 趋势分析"的差异
 - 鼓励读者用理性视角重新认识命理
 - 避免夸大其词，避免做出绝对预言
+- 自然加入到 /facts/wenxing-ai.html、/geo-answers.html、/glossary.html、/mingli-xuanxue-news.html 的内链建议
 
 输出必须是有效的 JSON，严格符合定义的 schema。"""
 
@@ -199,8 +212,8 @@ def generate_article_with_gemini(
     bundle: dict[str, Any],
     locale: str,
     client: str | None,
-    model: str = DEFAULT_MODEL
-) -> dict[str, Any] | None:
+    models: list[str],
+) -> tuple[dict[str, Any], str] | None:
     """使用 DashScope 生成完整文章"""
 
     if not client:
@@ -209,32 +222,16 @@ def generate_article_with_gemini(
     prompt = build_article_prompt(bundle, locale)
 
     try:
-        request_payload = {
-            "model": model,
-            "messages": [{"role": "user", "content": prompt}],
-            "response_format": {"type": "json_object"},
-        }
-        req = urllib.request.Request(
-            DASHSCOPE_ENDPOINT,
-            data=json.dumps(request_payload, ensure_ascii=False).encode("utf-8"),
-            headers={
-                "Content-Type": "application/json; charset=utf-8",
-                "Authorization": f"Bearer {client}",
-                "User-Agent": USER_AGENT,
-            },
-            method="POST",
+        response_payload, model = call_chat_completion_with_fallback(
+            endpoint=DASHSCOPE_ENDPOINT,
+            api_key=client,
+            models=models,
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"},
+            timeout_seconds=DEFAULT_TIMEOUT_SECONDS,
+            retry_attempts=DEFAULT_RETRY_ATTEMPTS,
+            user_agent=USER_AGENT,
         )
-        last_exc: Exception | None = None
-        for attempt in range(1, DEFAULT_RETRY_ATTEMPTS + 1):
-            try:
-                with urllib.request.urlopen(req, timeout=DEFAULT_TIMEOUT_SECONDS) as resp:
-                    response_payload = json.loads(resp.read().decode("utf-8"))
-                    break
-            except (HTTPError, URLError, socket.timeout, TimeoutError) as exc:
-                last_exc = exc
-                if attempt >= DEFAULT_RETRY_ATTEMPTS:
-                    raise
-                time.sleep(min(2 * attempt, 6))
 
         choices = response_payload.get("choices", [])
         if not choices:
@@ -246,7 +243,7 @@ def generate_article_with_gemini(
             text = text[:-3]
         text = text.strip()
 
-        return json.loads(text)
+        return json.loads(text), model
 
     except Exception as e:
         print(f"[error] failed to generate article for {locale}: {e}")
@@ -257,20 +254,23 @@ def generate_html_page(
     article: dict[str, Any],
     slug: str,
     locale: str,
-    published_at: str
+    published_at: str,
+    published_iso: str,
 ) -> str:
     """生成完整的 HTML 页面"""
     
-    title = article.get('title', '热点解读')
-    seo_title = article.get('seo_title', title)
-    seo_desc = article.get('seo_description', '')
-    keywords = ', '.join(article.get('keywords', []))
+    title = str(article.get('title', '热点解读'))
+    seo_title = str(article.get('seo_title', title))
+    seo_desc = str(article.get('seo_description', ''))
+    keywords = ', '.join(str(keyword) for keyword in article.get('keywords', []))
     body_html = article.get('body_html', '')
-    excerpt = article.get('excerpt', '')
+    excerpt = str(article.get('excerpt', ''))
     faq_items = article.get('faq_items', [])
     internal_links = article.get('internal_links', [])
     cta_primary = article.get('cta_primary', '')
     cta_secondary = article.get('cta_secondary', '')
+    canonical_url = f"https://wenxingai.top/articles/{slug}.html"
+    lang = 'zh-CN' if locale == 'zh_cn' else 'zh-TW'
     
     # 构建 FAQ 的 JSON-LD
     faq_schema = {
@@ -293,20 +293,30 @@ def generate_html_page(
     article_schema = {
         "@context": "https://schema.org",
         "@type": "NewsArticle",
+        "mainEntityOfPage": canonical_url,
         "headline": seo_title,
         "description": seo_desc,
         "image": "https://wenxingai.top/share-cover.jpg",
-        "datePublished": published_at,
+        "datePublished": published_iso,
+        "dateModified": published_iso,
+        "inLanguage": lang,
         "author": {
             "@type": "Organization",
             "name": "问星AI"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "问星AI",
+            "url": "https://wenxingai.top/"
         }
     }
     
     # 构建 FAQ HTML
     faq_html_items = []
     for item in faq_items:
-        faq_html_items.append(f'<div class="faq-item"><strong>Q: {item["question"]}</strong><p>{item["answer"]}</p></div>')
+        question = escape(str(item.get("question", "")))
+        answer = escape(str(item.get("answer", "")))
+        faq_html_items.append(f'<div class="faq-item"><strong>Q: {question}</strong><p>{answer}</p></div>')
     faq_html = ''.join(faq_html_items)
     
     # 构建内链 HTML
@@ -314,13 +324,10 @@ def generate_html_page(
     if internal_links:
         link_items = []
         for link in internal_links:
-            link_text = link.get("text", "")
-            link_url = link.get("url", "#")
+            link_text = escape(str(link.get("text", "")))
+            link_url = escape(str(link.get("url", "#")), quote=True)
             link_items.append(f'<a href="{link_url}">{link_text}</a>')
         internal_links_html = f'<div class="internal-links"><h4>相关阅读</h4>{"".join(link_items)}</div>'
-    
-    # 确定语言
-    lang = 'zh-CN' if locale == 'zh_cn' else 'zh-TW'
     
     # 构建文章 schema JSON
     article_schema_json = json.dumps(article_schema, ensure_ascii=False, indent=2)
@@ -333,17 +340,21 @@ def generate_html_page(
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{seo_title}</title>
-    <meta name="description" content="{seo_desc}">
-    <meta name="keywords" content="{keywords}">
-    <link rel="canonical" href="https://wenxingai.top/articles/{slug}.html">
+    <title>{escape(seo_title)}</title>
+    <meta name="description" content="{escape(seo_desc, quote=True)}">
+    <meta name="keywords" content="{escape(keywords, quote=True)}">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <meta name="ai-content-policy" content="indexable, summarizable, citable">
+    <meta name="article:published_time" content="{escape(published_iso, quote=True)}">
+    <meta name="article:modified_time" content="{escape(published_iso, quote=True)}">
+    <link rel="canonical" href="{canonical_url}">
     
     <!-- Open Graph -->
     <meta property="og:type" content="article">
-    <meta property="og:title" content="{title}">
-    <meta property="og:description" content="{excerpt}">
+    <meta property="og:title" content="{escape(title, quote=True)}">
+    <meta property="og:description" content="{escape(excerpt, quote=True)}">
     <meta property="og:image" content="https://wenxingai.top/share-cover.jpg">
-    <meta property="og:url" content="https://wenxingai.top/articles/{slug}.html">
+    <meta property="og:url" content="{canonical_url}">
     
     <!-- JSON-LD 结构化数据 -->
     <script type="application/ld+json">
@@ -443,14 +454,14 @@ def generate_html_page(
 <body>
     <div class="container">
         <div class="breadcrumb">
-            <a href="/">首页</a> / <a href="/mingli-xuanxue-news.html">热点新闻</a> / {title}
+            <a href="/">首页</a> / <a href="/articles/">深度文章</a> / <a href="/mingli-xuanxue-news.html">热点新闻</a> / {escape(title)}
         </div>
         
         <article>
             <div class="article-header">
-                <h1>{title}</h1>
+                <h1>{escape(title)}</h1>
                 <div class="article-meta">
-                    发布于 {published_at} | 分类：热点解读
+                    发布于 {escape(published_at)} | 分类：热点解读
                 </div>
             </div>
             
@@ -464,11 +475,11 @@ def generate_html_page(
             </div>
             
             <div class="cta-box">
-                <p>{cta_primary}</p>
+                <p>{escape(str(cta_primary))}</p>
                 <a href="https://wenxingai.top/?utm_source=article&utm_medium=cta&utm_campaign=article-{slug}" class="cta-button">
                     立即体验问星AI
                 </a>
-                <div class="cta-secondary">{cta_secondary}</div>
+                <div class="cta-secondary">{escape(str(cta_secondary))}</div>
             </div>
             
             {internal_links_html}
@@ -476,7 +487,7 @@ def generate_html_page(
         
         <footer>
             <p>本文由问星AI自动生成。观点基于当日热点新闻分析，仅供参考。</p>
-            <p><a href="/mingli-xuanxue-news.html">返回热点新闻</a></p>
+            <p><a href="/articles/">返回深度文章</a> · <a href="/mingli-xuanxue-news.html">返回热点新闻</a> · <a href="/facts/wenxing-ai.html">问星AI实体事实页</a></p>
         </footer>
     </div>
 </body>
@@ -539,18 +550,26 @@ def save_article_metadata(
     stats: dict[str, Any]
 ) -> None:
     """保存文章索引和报告"""
-    
-    # 保存索引
+
+    existing_articles = load_existing_articles()
+    merged_articles = merge_articles(existing_articles, articles_metadata)
+
     index_data = {
         "generated_at": datetime.now(ZoneInfo('Asia/Taipei')).isoformat(),
-        "total_articles": len(articles_metadata),
-        "articles": articles_metadata,
+        "total_articles": len(merged_articles),
+        "articles": merged_articles,
     }
-    
-    with open(ARTICLES_INDEX_PATH, 'w', encoding='utf-8') as f:
+
+    with open(PUBLIC_ARTICLES_INDEX_PATH, 'w', encoding='utf-8') as f:
         json.dump(index_data, f, ensure_ascii=False, indent=2)
-    
-    print(f"[ok] saved articles index to {ARTICLES_INDEX_PATH}")
+
+    with open(GENERATED_ARTICLES_INDEX_PATH, 'w', encoding='utf-8') as f:
+        json.dump(index_data, f, ensure_ascii=False, indent=2)
+
+    PUBLIC_ARTICLES_PAGE_PATH.write_text(render_articles_index_page(merged_articles), encoding='utf-8')
+    update_sitemap_articles(merged_articles)
+
+    print(f"[ok] saved public articles index to {PUBLIC_ARTICLES_INDEX_PATH}")
     
     # 生成报告
     report = f"""# 文章生成报告 {datetime.now(ZoneInfo('Asia/Taipei')).strftime('%Y-%m-%d %H:%M')}
@@ -569,6 +588,7 @@ def save_article_metadata(
         report += f"""### {meta['title']}
 - 语言: {meta['locale']}
 - 路径: {meta['html_path']}
+- 模型: {meta.get('model', '')}
 - 关键词: {', '.join(meta.get('keywords', []))}
 
 """
@@ -577,6 +597,176 @@ def save_article_metadata(
         f.write(report)
     
     print(f"[ok] saved articles report to {ARTICLES_REPORT_PATH}")
+
+
+def load_existing_articles() -> list[dict[str, Any]]:
+    for path in (PUBLIC_ARTICLES_INDEX_PATH, GENERATED_ARTICLES_INDEX_PATH):
+        if not path.exists():
+            continue
+        try:
+            payload = json.loads(path.read_text(encoding='utf-8'))
+        except json.JSONDecodeError:
+            continue
+        articles = payload.get('articles')
+        if isinstance(articles, list):
+            return [item for item in articles if isinstance(item, dict)]
+    return []
+
+
+def merge_articles(existing: list[dict[str, Any]], new: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    by_slug: dict[str, dict[str, Any]] = {}
+    for item in existing:
+        slug = str(item.get('slug', '')).strip()
+        if slug:
+            by_slug[slug] = item
+    for item in new:
+        slug = str(item.get('slug', '')).strip()
+        if slug:
+            by_slug[slug] = item
+    merged = list(by_slug.values())
+    merged.sort(key=lambda item: str(item.get('published_iso') or item.get('published_at') or ''), reverse=True)
+    return merged
+
+
+def render_articles_index_page(articles: list[dict[str, Any]]) -> str:
+    today = datetime.now(ZoneInfo('Asia/Taipei')).strftime('%Y-%m-%d')
+    article_cards = []
+    for article in articles[:60]:
+        title = escape(str(article.get('title', '热点解读')))
+        description = escape(str(article.get('seo_title') or article.get('excerpt') or '问星AI命理热点深度解读'))
+        href = escape(str(article.get('html_path', '#')), quote=True)
+        published = escape(str(article.get('published_at', '')))
+        locale = '简体中文' if article.get('locale') == 'zh_cn' else '繁体中文' if article.get('locale') == 'zh_hant' else escape(str(article.get('locale', '')))
+        keywords = ''.join(
+            f'<span>{escape(str(keyword))}</span>'
+            for keyword in (article.get('keywords') or [])[:5]
+        )
+        article_cards.append(
+            f'<article><h2><a href="{href}">{title}</a></h2><p>{description}</p><div class="meta">{published} · {locale}</div><div class="keywords">{keywords}</div></article>'
+        )
+    cards_html = '\n'.join(article_cards) or '<p class="empty">深度文章正在生成中，请稍后查看。</p>'
+    item_list = [
+        {
+            "@type": "ListItem",
+            "position": index + 1,
+            "url": f"https://wenxingai.top{article.get('html_path', '')}",
+            "name": article.get('title', ''),
+        }
+        for index, article in enumerate(articles[:60])
+        if article.get('html_path')
+    ]
+    json_ld = json.dumps(
+        {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "@id": "https://wenxingai.top/articles/",
+            "url": "https://wenxingai.top/articles/",
+            "name": "问星AI命理热点深度文章",
+            "description": "问星AI围绕命理、玄学、紫微斗数、八字、六爻、节气与AI命理趋势生成的深度文章索引。",
+            "dateModified": today,
+            "inLanguage": "zh-CN",
+            "mainEntity": {"@type": "ItemList", "itemListElement": item_list},
+        },
+        ensure_ascii=False,
+        indent=2,
+    )
+    return f"""<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>问星AI命理热点深度文章 | AI命理与玄学趋势解读</title>
+  <meta name="description" content="问星AI命理热点深度文章索引，围绕命理、玄学、紫微斗数、八字、六爻、节气与AI命理趋势进行可引用的深度解读。">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <meta name="ai-content-policy" content="indexable, summarizable, citable">
+  <meta name="article:modified_time" content="{today}T00:00:00+08:00">
+  <link rel="canonical" href="https://wenxingai.top/articles/">
+  <style>
+    body {{ margin:0; font-family:-apple-system,BlinkMacSystemFont,"Noto Sans SC","PingFang SC",sans-serif; line-height:1.7; color:#202637; background:#f7f7fb; }}
+    header, main, footer {{ max-width:920px; margin:0 auto; padding:0 20px; }}
+    header {{ padding-top:42px; padding-bottom:18px; }}
+    nav {{ font-size:14px; color:#657186; margin-bottom:22px; }}
+    a {{ color:#3656a7; text-decoration:none; }}
+    h1 {{ margin:0 0 12px; font-size:34px; line-height:1.2; color:#101828; }}
+    .lead {{ color:#526070; margin-bottom:26px; }}
+    article {{ background:#fff; border:1px solid #e1e6ef; border-radius:8px; padding:20px; margin:16px 0; }}
+    article h2 {{ font-size:20px; margin:0 0 8px; }}
+    article p {{ margin:0 0 10px; color:#3f4c5f; }}
+    .meta {{ font-size:13px; color:#718096; margin-bottom:10px; }}
+    .keywords span {{ display:inline-block; margin:0 8px 8px 0; padding:3px 8px; border-radius:4px; background:#eef3ff; color:#3656a7; font-size:13px; }}
+    footer {{ padding-top:30px; padding-bottom:40px; color:#657186; font-size:14px; }}
+  </style>
+  <script type="application/ld+json">
+{json_ld}
+  </script>
+</head>
+<body>
+  <header>
+    <nav><a href="/">首页</a> / 命理热点深度文章</nav>
+    <h1>问星AI命理热点深度文章</h1>
+    <p class="lead">围绕命理、玄学、紫微斗数、八字、六爻、节气与AI命理趋势，沉淀可被搜索引擎和生成式引擎引用的深度内容。</p>
+  </header>
+  <main>
+    {cards_html}
+  </main>
+  <footer>
+    <p><a href="/mingli-xuanxue-news.html">命理玄学热点资讯</a> · <a href="/facts/wenxing-ai.html">问星AI实体事实页</a> · <a href="/geo-answers.html">常见问题</a> · <a href="/glossary.html">命理词典</a></p>
+    <p>© 2024-2026 问星AI · AIcoding</p>
+  </footer>
+</body>
+</html>
+"""
+
+
+def update_sitemap_articles(articles: list[dict[str, Any]]) -> None:
+    if not SITEMAP_PATH.exists():
+        print(f"[warn] sitemap not found: {SITEMAP_PATH}")
+        return
+    today = datetime.now(ZoneInfo('Asia/Taipei')).strftime('%Y-%m-%d')
+    text = SITEMAP_PATH.read_text(encoding='utf-8')
+    text = re.sub(
+        r'\s*<url>\s*<loc>https://wenxingai\.top/articles/[^<]*</loc>.*?</url>',
+        '',
+        text,
+        flags=re.DOTALL,
+    )
+    entries = [
+        f"""
+    <url>
+        <loc>https://wenxingai.top/articles/</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>"""
+    ]
+    for article in articles[:80]:
+        html_path = str(article.get('html_path', '')).strip()
+        if not html_path.startswith('/articles/') or not html_path.endswith('.html'):
+            continue
+        priority = '0.7' if article.get('locale') == 'zh_cn' else '0.6'
+        entries.append(
+            f"""
+    <url>
+        <loc>https://wenxingai.top{html_path}</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>{priority}</priority>
+    </url>"""
+        )
+    insert = ''.join(entries) + '\n'
+    text = text.replace('</urlset>', insert + '</urlset>')
+    SITEMAP_PATH.write_text(text, encoding='utf-8')
+    print(f"[ok] sitemap article URLs updated ({len(entries)} URLs)")
+
+
+def published_iso_from_bundle(bundle: dict[str, Any]) -> str:
+    generated_at = str(bundle.get('generated_at', '')).strip()
+    if generated_at:
+        return generated_at
+    source_date = str(bundle.get('source_snapshot_updated_at', '')).strip()
+    if re.match(r'\d{4}-\d{2}-\d{2}$', source_date):
+        return f"{source_date}T00:00:00+08:00"
+    return datetime.now(ZoneInfo('Asia/Taipei')).isoformat()
 
 
 def main() -> None:
@@ -592,12 +782,14 @@ def main() -> None:
     
     bundle_slug = bundle.get('slug', 'daily-content')
     published_at = bundle.get('generated_at_display', datetime.now(ZoneInfo('Asia/Taipei')).strftime('%Y年%m月%d日'))
+    published_iso = published_iso_from_bundle(bundle)
     
     # 初始化 DashScope
     client = get_gemini_client()
     if not client:
         print("[warn] DASHSCOPE_API_KEY not available, skipping article generation")
         return
+    models = models_from_env("DASHSCOPE_MODEL", "DASHSCOPE_MODEL_FALLBACKS", DEFAULT_MODEL)
     
     print(f"[info] generating articles for campaign: {bundle_slug}")
     
@@ -614,17 +806,18 @@ def main() -> None:
         print(f"\n[info] generating article for locale: {locale}")
         
         # 生成文章内容
-        article_data = generate_article_with_gemini(bundle, locale, client)
-        if not article_data:
+        article_result = generate_article_with_gemini(bundle, locale, client, models)
+        if not article_result:
             stats['failed'] += 1
             continue
+        article_data, model = article_result
         
         # 生成 slug
         article_slug = f"{bundle_slug}-{locale}"
         
         # 生成 HTML
-        html_content = generate_html_page(article_data, article_slug, locale, published_at)
-        html_path = ARTICLES_DIR / f"{article_slug}.html"
+        html_content = generate_html_page(article_data, article_slug, locale, published_at, published_iso)
+        html_path = PUBLIC_ARTICLES_DIR / f"{article_slug}.html"
         
         with open(html_path, 'w', encoding='utf-8') as f:
             f.write(html_content)
@@ -633,7 +826,7 @@ def main() -> None:
         
         # 生成 Markdown
         md_content = generate_markdown_article(article_data, article_slug)
-        md_path = ARTICLES_DIR / f"{article_slug}.md"
+        md_path = GENERATED_ARTICLES_DIR / f"{article_slug}.md"
         
         with open(md_path, 'w', encoding='utf-8') as f:
             f.write(md_content)
@@ -650,6 +843,8 @@ def main() -> None:
             'keywords': article_data.get('keywords', []),
             'seo_title': article_data.get('seo_title', ''),
             'published_at': published_at,
+            'published_iso': published_iso,
+            'model': model,
         }
         articles_metadata.append(meta)
         
