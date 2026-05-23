@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-22",
-  "updated_at_display": "2026年5月22日 23:51",
+  "updated_at": "2026-05-23",
+  "updated_at_display": "2026年5月23日 14:13",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-22T23:51:29.803545+08:00",
+    "fetched_at": "2026-05-23T14:13:15.095877+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-17"
+      "event_cluster": "event-18"
     },
     {
       "title": "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
@@ -287,7 +287,7 @@
         "運勢"
       ],
       "score": 14.35,
-      "event_cluster": "event-13"
+      "event_cluster": "event-14"
     },
     {
       "title": "[問卦] 戶田惠梨香:命理師說我38歲會死掉",
@@ -309,6 +309,44 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "九紫離火運發威！命理師示警「4生肖」運勢大震盪：虎兔財運旺爆",
+      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hMHkzRmNRMmprTG0xZHZCZUlZVTJDd3o4MjZ4Rko4bUxMaVZWdDFOZFZRaUJKX2NOcUpyWjR3ZUJObzNDOHhITlRfb2phTWo1bkHSAVJBVV95cUxOYTB5M0ZjUTJqa0xtMWR2QmVJWVUyQ3d6ODI2eEZKOG1MTGlWVnQxTmRWUWlCSl9jTnFKclo0d2VCTm8zQzh4SE5UX29qYU1qNW5B?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "NOWnews今日新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-05-23",
+      "published_display": "2026-05-23",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
+      "title": "未來5年迎轉折！命理師曝「4生肖」運勢巨變 屬兔財運爆棚",
+      "summary": "来自 中天新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wZmNNVEkwTkllQ2lWSXM5OG1YTkxWUnZwQzlQYm0yTm5PQjZ4TWFZZ2hDVGtyWWlyWjNQS0hkOVBHN3VCcW80MFI2Q0IzRS1xY0p3?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "中天新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-05-23",
+      "published_display": "2026-05-23",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
       "title": "6月份12生肖運勢曝光 命理師建議「穩中求進」才是關鍵",
       "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxPdC1qTjlxeWdUMC1Xb2I5bkllcFVheWFvNXlqUGk0bmozLThqQ3ZRX2luSU40bUJaSEYtSHNwcmV2LTc1OTNrcUdDNzFlTUtFUU1jbW94ZUVfZzljWmRRZl9LeHgtZDYxbHR6Znk3TXBZdVlwazB0NDhGQkpqcXJ0dTRiRWZTTFpIR241NTM4T0ppNjJkR29icWY4NEQ4T3p4eVlhWXZWSFRPY1N2NExlRjJRSXdhNmRpYkp1NnFnN0wycUdhWEJ3Y1VHMVhRWnpWMkJIS1VTcmlldW0zRU5rRFhOb2NJUkdzSWpaRmRQZjJDQmhPQXFCUDd3bFRNdWJfdzhQaml0LXA4WmRUT1lIWXg3MXpPZWdfWTctTXNJWlhBemFUOHRlZTk2bFdHUWh0dUl2TVNTX05fREEzcUJsdnJ5SU5Ucmt0bGNsX1R1RjdQd29TZ0xN?oc=5",
@@ -325,7 +363,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-04"
     },
     {
       "title": "九紫離火運發威！命理師示警「4生肖」 5年內運勢大變動",
@@ -344,26 +382,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "小滿來襲！4大生肖運勢爆發 命理師警告1件事",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNdERsb0pBdXFodHFEMjdHVnRMSURBeDN0MGxvUTZJS0otOEs4YmxOa2VMTHVIMTJUa0hBVHdUTU5EYmg0SFFiYzZXbHh4YU1kcE53cWdna2dsY0ZuY1VpRVg3bXQ2ZVZNSWtoUklhRE9VdE5MS1pKa3A3ZWFwZm5Ja1c4M2ppNUhDOWVGTEl2ekNKZ242QjZTdHotTld1dTNzd2o5Mm5HbXgza2lVZ2toMmh3MGluSEhhbHRtaHFndWs2dnhRRElHU3hIN29YRmVWN1Z5LUxUVEl1amRTWDNBYV9lcjhSQVl3SWNtZ052X1JJeS12Unk2cDJHVTEtQTltcDNBM244WHM1cVZmMkQ5UjEteGlQZ090djl2MDJ0ZF84N1IxUXVLVkpWYkFIOFZH?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-05-21",
-      "published_display": "2026-05-21",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-02"
     },
     {
       "title": "小滿4大禁忌曝光！命理師警告「別加班熬夜」 4生肖運勢兩樣情",
@@ -383,25 +402,6 @@
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-05"
-    },
-    {
-      "title": "快新聞／曾料中賴清德「凍蒜」！命理師解析新北市長大戰：李四川、蘇巧慧皆有流年加成",
-      "summary": "来自 民視新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nVDN1RTI4M0lHS0xuV1VfUlQ1cjhTUXFXX211ckh1Z2tjeWFsbTQ2Q1RSTFNzUkx6NWh2NHF2WFFvZHFjNjZpNXc4N2RQMFNydkR5di1Nei1WNUtNY1prcg?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "民視新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-05-21",
-      "published_display": "2026-05-21",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "流年"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-06"
     }
   ]
 }

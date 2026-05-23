@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-05-22T23:51:15.280349+08:00",
-  "ran_at_display": "2026年5月22日 23:51",
+  "ran_at": "2026-05-23T14:12:58.171111+08:00",
+  "ran_at_display": "2026年5月23日 14:12",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "45d089af4f1526bf7fe5d304fea5847fc0771713",
-  "new_signature": "abc4855208da8c721af4c0a2b405a61d7a17fef8",
+  "previous_signature": "abc4855208da8c721af4c0a2b405a61d7a17fef8",
+  "new_signature": "04ab08e43c0031e368f821892601a02a518e06fa",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -24,13 +24,12 @@
     "他現在對你的真實想法！內心如何看待你？他預設的關係走向？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
     "[問卦] 戶田惠梨香:命理師說我38歲會死掉",
-    "6月份12生肖運勢曝光 命理師建議「穩中求進」才是關鍵",
-    "九紫離火運發威！命理師示警「4生肖」 5年內運勢大變動"
+    "九紫離火運發威！命理師示警「4生肖」運勢大震盪：虎兔財運旺爆",
+    "未來5年迎轉折！命理師曝「4生肖」運勢巨變 屬兔財運爆棚"
   ],
   "added_titles": [
-    "他現在對你的真實想法！內心如何看待你？他預設的關係走向？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
-    "九紫離火運發威！命理師示警「4生肖」 5年內運勢大變動"
+    "九紫離火運發威！命理師示警「4生肖」運勢大震盪：虎兔財運旺爆",
+    "未來5年迎轉折！命理師曝「4生肖」運勢巨變 屬兔財運爆棚"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -43,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月22日 23:51"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月23日 14:13"
     },
     {
       "script": "generate_daily_content.py",
