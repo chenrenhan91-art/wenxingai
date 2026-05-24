@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-23",
-  "updated_at_display": "2026年5月23日 22:41",
+  "updated_at": "2026-05-24",
+  "updated_at_display": "2026年5月24日 14:38",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-23T22:41:17.414878+08:00",
+    "fetched_at": "2026-05-24T14:38:22.466638+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "items": [
     {
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-06"
+      "event_cluster": "event-05"
     },
     {
       "title": "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
@@ -287,7 +287,7 @@
         "運勢"
       ],
       "score": 14.35,
-      "event_cluster": "event-16"
+      "event_cluster": "event-15"
     },
     {
       "title": "[新聞] 狄鶯頭痛了！ 命理師曝孫安佐「皇帝命」",
@@ -306,7 +306,7 @@
         "热议"
       ],
       "score": 12.283333333333333,
-      "event_cluster": "event-71"
+      "event_cluster": "event-72"
     },
     {
       "title": "九紫離火運發威！命理師示警「4生肖」運勢大震盪：虎兔財運旺爆",
@@ -328,25 +328,6 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "未來5年迎轉折！命理師曝「4生肖」運勢巨變 屬兔財運爆棚",
-      "summary": "来自 中天新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wZmNNVEkwTkllQ2lWSXM5OG1YTkxWUnZwQzlQYm0yTm5PQjZ4TWFZZ2hDVGtyWWlyWjNQS0hkOVBHN3VCcW80MFI2Q0IzRS1xY0p3?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "中天新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-05-23",
-      "published_display": "2026-05-23",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-02"
-    },
-    {
       "title": "九紫離火運來襲！命理師曝4生肖未來5年運勢巨變",
       "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNUldZellqUmtJaW9LeDZiczJycGoyYWJtaTZubTNCdURHdHhvQ0hCWjFsWFJ1TjRMbEhFTTk0MjFaSXRmd2daeTdfOTg4aEQ3UUFUc0JiMThMWTdBdjc4Q0tKU2JiUzBZbDVFdDJScDNIQzF0dWtQUGh0UW9LSGxITVdLNlpsTm83T1FhXzlJYlpmamJ3d1ktODBiODdJcTdweGhrOWxJcjBXMFREM0pDSmtCcDk3THZqSENMbTFlVXptQ3EzSnZ3YWdsdW5mRnpqTEFSdkRfeHhSZFA4dWE1cmQ1NkQwLW1FWS0ySlZidzFPUDFERG5uU2JITkthemZDalhkeXBRWldyZC1WcTBIVm15amJBQ2RORE9VS2pPVF90d0VKUHIxREdOZVByN3lzcmxrOExaNVItV3VTYm5BcGJRSEp3ZWM?oc=5",
@@ -363,17 +344,17 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-02"
     },
     {
-      "title": "5/23運勢出爐！「3星座」財運噴發 命理師：關鍵進場時機",
-      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5emE2R1FpTW9xZWUxSnJEQ1FnUzA3dEhobFFTWFo0MG9lclBWbWphTGtPZzFTRXNDTnpVeV9xZUlQWDRoeGFYd3Mtekc3Zw?oc=5",
+      "title": "未來5年迎轉折！命理師曝「4生肖」運勢巨變 屬兔財運爆棚",
+      "summary": "来自 中天新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wZmNNVEkwTkllQ2lWSXM5OG1YTkxWUnZwQzlQYm0yTm5PQjZ4TWFZZ2hDVGtyWWlyWjNQS0hkOVBHN3VCcW80MFI2Q0IzRS1xY0p3?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "TVBS新聞網 · Google News",
+      "source": "中天新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "塔罗星象",
+      "category": "命理新闻",
       "published": "2026-05-23",
       "published_display": "2026-05-23",
       "matched_keywords": [
@@ -382,7 +363,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-03"
     },
     {
       "title": "6月份12生肖運勢曝光 命理師建議「穩中求進」才是關鍵",
@@ -401,7 +382,26 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-04"
+    },
+    {
+      "title": "九紫離火運發威！命理師示警「4生肖」 5年內運勢大變動",
+      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1RTTV3YUZyc2p3WkcwMlprZUluYlF2bnA2NGUwNm84UFRPV2VwV05UVEJ0Z1YyVFVSZm1Mam92N1FLdmJjT0g2NUZhQWRNUQ?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "TVBS新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-05-22",
+      "published_display": "2026-05-22",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-01"
     }
   ]
 }
