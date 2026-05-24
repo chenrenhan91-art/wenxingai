@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-05-24T14:38:05.386488+08:00",
-  "ran_at_display": "2026年5月24日 14:38",
+  "ran_at": "2026-05-24T22:26:17.377004+08:00",
+  "ran_at_display": "2026年5月24日 22:26",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "4cfc560d0512470112b02f9fa7bf8498709bc4b7",
-  "new_signature": "36b484efb7f18431eddad0883ef31d812c74a11d",
+  "previous_signature": "36b484efb7f18431eddad0883ef31d812c74a11d",
+  "new_signature": "9c52420786e4d1e25e123725e18517b35f04995e",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -24,11 +24,11 @@
     "他最近對你的感情，跟之前相比是否更深入？是否希望關係更進一步？|曖昧|愛情|戀愛|桃花|塔羅占卜",
     "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
     "[新聞] 狄鶯頭痛了！ 命理師曝孫安佐「皇帝命」",
-    "九紫離火運發威！命理師示警「4生肖」運勢大震盪：虎兔財運旺爆",
-    "九紫離火運來襲！命理師曝4生肖未來5年運勢巨變"
+    "討論牆 | 九紫離火運來襲！命理師曝4生肖未來5年運勢巨變",
+    "九紫離火運發威！命理師示警「4生肖」運勢大震盪：虎兔財運旺爆"
   ],
   "added_titles": [
-    "九紫離火運來襲！命理師曝4生肖未來5年運勢巨變"
+    "討論牆 | 九紫離火運來襲！命理師曝4生肖未來5年運勢巨變"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -41,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月24日 14:38"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月24日 22:26"
     },
     {
       "script": "generate_daily_content.py",
