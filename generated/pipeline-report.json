@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-05-24T22:26:17.377004+08:00",
-  "ran_at_display": "2026年5月24日 22:26",
+  "ran_at": "2026-05-25T15:15:49.203950+08:00",
+  "ran_at_display": "2026年5月25日 15:15",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "36b484efb7f18431eddad0883ef31d812c74a11d",
-  "new_signature": "9c52420786e4d1e25e123725e18517b35f04995e",
+  "previous_signature": "9c52420786e4d1e25e123725e18517b35f04995e",
+  "new_signature": "c5f65cadf589493f7ecdc0fb42de5076b93e2cc4",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,14 +21,16 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "他最近對你的感情，跟之前相比是否更深入？是否希望關係更進一步？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+    "【願望顯化】 2026下半年🌸你的戀愛運🔮他會回頭(復合)嗎？還是你將遇見💫新戀情｜愛情塔羅占卜🔮 舊人回歸？新人出現？復合機率＆新戀情預測",
     "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
     "[新聞] 狄鶯頭痛了！ 命理師曝孫安佐「皇帝命」",
-    "討論牆 | 九紫離火運來襲！命理師曝4生肖未來5年運勢巨變",
-    "九紫離火運發威！命理師示警「4生肖」運勢大震盪：虎兔財運旺爆"
+    "預言馬英九犯小人成真 命理師分析流年：未來2年健康是重點",
+    "早預言馬英九犯小人!命理師驚揭「流年走死神」： 恐有大變化"
   ],
   "added_titles": [
-    "討論牆 | 九紫離火運來襲！命理師曝4生肖未來5年運勢巨變"
+    "【願望顯化】 2026下半年🌸你的戀愛運🔮他會回頭(復合)嗎？還是你將遇見💫新戀情｜愛情塔羅占卜🔮 舊人回歸？新人出現？復合機率＆新戀情預測",
+    "預言馬英九犯小人成真 命理師分析流年：未來2年健康是重點",
+    "早預言馬英九犯小人!命理師驚揭「流年走死神」： 恐有大變化"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -41,13 +43,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月24日 22:26"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月25日 15:16"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 1,
       "ok": false,
-      "output": "[warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {\"error\":{\"message\":\"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"param\":null,...\n[ok] DashScope fallback model selected: qwen3.6-flash-2026-04-16\nGemini content generation failed: invalid Gemini response: missing zh_cn.social_posts"
+      "output": "[warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {\"error\":{\"message\":\"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"param\":null,...\n[ok] DashScope fallback model selected: qwen3.6-flash-2026-04-16\nGemini content generation failed: invalid Gemini response: missing zh_cn.site_article.seo_description"
     }
   ]
 }
