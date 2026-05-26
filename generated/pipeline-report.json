@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-05-26T14:47:51.111416+08:00",
-  "ran_at_display": "2026年5月26日 14:47",
+  "ran_at": "2026-05-27T00:45:39.752307+08:00",
+  "ran_at_display": "2026年5月27日 00:45",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "af7bf62b6add25e64df5cbb0d492d656bf1cd04a",
-  "new_signature": "c3f14d862a23e6e56903cf82e75adccd533d3cb6",
+  "previous_signature": "c3f14d862a23e6e56903cf82e75adccd533d3cb6",
+  "new_signature": "31b9f2c45b1e6c0cd9fe85de70d77eb342d6ff27",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,9 +27,7 @@
     "芒種節氣到！命理師揭「1開運法」：貴人幫扶、財運超旺",
     "預言馬英九犯小人成真 命理師分析流年：未來2年健康是重點"
   ],
-  "added_titles": [
-    "他現在對你的真實想法！內心如何看待你？他預設的關係走向？|曖昧|愛情|戀愛|桃花|塔羅占卜|"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
@@ -41,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月26日 14:48"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月27日 00:45"
     },
     {
       "script": "generate_daily_content.py",

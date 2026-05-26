@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-26",
-  "updated_at_display": "2026年5月26日 14:48",
+  "updated_at": "2026-05-27",
+  "updated_at_display": "2026年5月27日 00:45",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-26T14:48:08.308063+08:00",
+    "fetched_at": "2026-05-27T00:45:57.501642+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-19"
+      "event_cluster": "event-17"
     },
     {
       "title": "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
@@ -287,7 +287,7 @@
         "運勢"
       ],
       "score": 14.35,
-      "event_cluster": "event-18"
+      "event_cluster": "event-16"
     },
     {
       "title": "揭秘內娛最甜婚姻真相，深扒浪姐唐藝昕命盤：甜妹皮囊下的「馴龍女王」，把張若昀調教成「純愛戰神」的神級馭夫術！《乘風2026》運勢大推演，女生必看... youtu.be/ArBvZDI78aY?si… 来自 @YouTube #唐艺昕 #浪姐 #乘风2026 #八字 #命理分析 #算命 #嫁豪门 #张若",
@@ -306,7 +306,7 @@
         "運勢"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-44"
+      "event_cluster": "event-52"
     },
     {
       "title": "芒種節氣到！命理師揭「1開運法」：貴人幫扶、財運超旺",
@@ -385,11 +385,11 @@
       "event_cluster": "event-04"
     },
     {
-      "title": "九紫離火運來襲！命理師曝4生肖未來5年運勢巨變",
-      "summary": "来自 東森新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02b2wyWW1ZZ1l1bWdwMTRlVmpGUGlGUUN6RUVET3lFbEdnd25Bb2ROTnBoQi1LVHVkbmpkeXhDY3VkblBqaFo2bkd4X0lmejEteFpRdw?oc=5",
+      "title": "未來5年迎轉折！命理師曝「4生肖」運勢巨變 屬兔財運爆棚",
+      "summary": "来自 中天新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wZmNNVEkwTkllQ2lWSXM5OG1YTkxWUnZwQzlQYm0yTm5PQjZ4TWFZZ2hDVGtyWWlyWjNQS0hkOVBHN3VCcW80MFI2Q0IzRS1xY0p3?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "東森新聞 · Google News",
+      "source": "中天新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -401,7 +401,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     }
   ]
 }
