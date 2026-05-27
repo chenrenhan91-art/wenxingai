@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-05-27",
-  "updated_at_display": "2026年5月27日 00:45",
+  "updated_at_display": "2026年5月27日 15:04",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-27T00:45:57.501642+08:00",
+    "fetched_at": "2026-05-27T15:04:43.894326+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "他現在對你的真實想法！內心如何看待你？他預設的關係走向？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "奇門遁甲揭秘｜第2篇：九宮格的秘密 #命理 #天機命理 #紫微斗數 #八字 #運勢 #Shorts",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WXzhtWVQ0LW9BcHQwQ1BGdTZnVkNMU0lWNVRuQXRhdkpNWVAyQVVsWFU2Nk4tYmcwb0YwTVRoTFVDLVhuVDRISC1CaVNJQzM5VXBYVVdR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rTG9yVkpHZzl5MU05NjR4SXNGdzBkeXNIOU1Bc1hYUnFmdmlVNmRnZVNLTjItVlpjOXlOMUpuR0dGeVBySS1SLXNuMjFfdkFaaHFYcWln?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "塔罗星象",
-      "published": "2026-05-19",
-      "published_display": "2026-05-19",
+      "category": "八字紫微",
+      "published": "2026-05-26",
+      "published_display": "2026-05-26",
       "matched_keywords": [
-        "塔羅",
-        "占卜",
-        "桃花"
+        "命理",
+        "運勢",
+        "八字"
       ],
-      "score": 14.55,
-      "event_cluster": "event-17"
+      "score": 12.35,
+      "event_cluster": "event-41"
     },
     {
       "title": "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
@@ -287,7 +287,7 @@
         "運勢"
       ],
       "score": 14.35,
-      "event_cluster": "event-16"
+      "event_cluster": "event-17"
     },
     {
       "title": "揭秘內娛最甜婚姻真相，深扒浪姐唐藝昕命盤：甜妹皮囊下的「馴龍女王」，把張若昀調教成「純愛戰神」的神級馭夫術！《乘風2026》運勢大推演，女生必看... youtu.be/ArBvZDI78aY?si… 来自 @YouTube #唐艺昕 #浪姐 #乘风2026 #八字 #命理分析 #算命 #嫁豪门 #张若",
@@ -306,7 +306,26 @@
         "運勢"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-52"
+      "event_cluster": "event-54"
+    },
+    {
+      "title": "討論牆 | 早預言馬英九犯小人！命理師驚揭「流年走死神」：恐有大變化",
+      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1COXkxOWNLRExqOEk2QlptaXdsaXFveExiak9Vam9DNEpuZWZBdWRoMkJjbG41SjVvZjRjRC1vTl9OQk1lNkRtckFobDltSVNxb1MtQ1ZXQ0gzc1BfbWlxLUl4eFA?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "LINE TODAY · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-05-27",
+      "published_display": "2026-05-27",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "流年"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-01"
     },
     {
       "title": "芒種節氣到！命理師揭「1開運法」：貴人幫扶、財運超旺",
@@ -325,7 +344,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-01"
+      "event_cluster": "event-02"
     },
     {
       "title": "預言馬英九犯小人成真 命理師分析流年：未來2年健康是重點",
@@ -344,7 +363,7 @@
         "流年"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "早預言馬英九犯小人!命理師驚揭「流年走死神」： 恐有大變化",
@@ -363,7 +382,7 @@
         "流年"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-01"
     },
     {
       "title": "討論牆 | 九紫離火運來襲！命理師曝4生肖未來5年運勢巨變",
@@ -383,25 +402,6 @@
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-04"
-    },
-    {
-      "title": "未來5年迎轉折！命理師曝「4生肖」運勢巨變 屬兔財運爆棚",
-      "summary": "来自 中天新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wZmNNVEkwTkllQ2lWSXM5OG1YTkxWUnZwQzlQYm0yTm5PQjZ4TWFZZ2hDVGtyWWlyWjNQS0hkOVBHN3VCcW80MFI2Q0IzRS1xY0p3?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "中天新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-05-23",
-      "published_display": "2026-05-23",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
     }
   ]
 }
