@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-05-27T15:04:28.469979+08:00",
-  "ran_at_display": "2026年5月27日 15:04",
+  "ran_at": "2026-05-28T00:40:18.338423+08:00",
+  "ran_at_display": "2026年5月28日 00:40",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "31b9f2c45b1e6c0cd9fe85de70d77eb342d6ff27",
-  "new_signature": "b137ac25b84fb33d9fb9b4eb13a773d5fcd6a282",
+  "previous_signature": "b137ac25b84fb33d9fb9b4eb13a773d5fcd6a282",
+  "new_signature": "759f71139b5cf18316d5f9aec5b6e4c9822cd7c1",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,18 +21,18 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "奇門遁甲揭秘｜第2篇：九宮格的秘密 #命理 #天機命理 #紫微斗數 #八字 #運勢 #Shorts",
+    "真實命盤故事｜這個八字的人，30歲翻身了第17篇 #命理 #天機命理#紫微斗數#八字 #運勢 #Shorts",
     "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
-    "揭秘內娛最甜婚姻真相，深扒浪姐唐藝昕命盤：甜妹皮囊下的「馴龍女王」，把張若昀調教成「純愛戰神」的神級馭夫術！《乘風2026》運勢大推演，女生必看... youtu.be/ArBvZDI78aY?si… 来自 @YouTube #唐艺昕 #浪姐 #乘风2026 #八字 #命理分析 #算命 #嫁豪门 #张若",
+    "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍：",
     "討論牆 | 早預言馬英九犯小人！命理師驚揭「流年走死神」：恐有大變化",
     "芒種節氣到！命理師揭「1開運法」：貴人幫扶、財運超旺"
   ],
   "added_titles": [
-    "奇門遁甲揭秘｜第2篇：九宮格的秘密 #命理 #天機命理 #紫微斗數 #八字 #運勢 #Shorts",
-    "討論牆 | 早預言馬英九犯小人！命理師驚揭「流年走死神」：恐有大變化"
+    "真實命盤故事｜這個八字的人，30歲翻身了第17篇 #命理 #天機命理#紫微斗數#八字 #運勢 #Shorts",
+    "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍："
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -42,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月27日 15:04"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月28日 00:40"
     },
     {
       "script": "generate_daily_content.py",

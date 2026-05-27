@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-27",
-  "updated_at_display": "2026年5月27日 15:04",
+  "updated_at": "2026-05-28",
+  "updated_at_display": "2026年5月28日 00:40",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-27T15:04:43.894326+08:00",
+    "fetched_at": "2026-05-28T00:40:35.485583+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -212,7 +212,7 @@
       },
       "ptt_gossiping": {
         "status": "ok",
-        "picked_items": 0,
+        "picked_items": 1,
         "failures": 0
       },
       "ptt_womentalk": {
@@ -232,7 +232,7 @@
       },
       "x_recent_search": {
         "status": "ok",
-        "picked_items": 2,
+        "picked_items": 1,
         "failures": 0
       },
       "reddit_search": {
@@ -248,16 +248,16 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "items": [
     {
-      "title": "奇門遁甲揭秘｜第2篇：九宮格的秘密 #命理 #天機命理 #紫微斗數 #八字 #運勢 #Shorts",
+      "title": "真實命盤故事｜這個八字的人，30歲翻身了第17篇 #命理 #天機命理#紫微斗數#八字 #運勢 #Shorts",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rTG9yVkpHZzl5MU05NjR4SXNGdzBkeXNIOU1Bc1hYUnFmdmlVNmRnZVNLTjItVlpjOXlOMUpuR0dGeVBySS1SLXNuMjFfdkFaaHFYcWln?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ESVJRZjNiWVBKMWlXS1JrX1kxLXZKQjdBMFdGbnNXV1U1X1VaelpiUUpIelhhc0ZPZEx6T1hqZFR2cUNPTmdyVVNKYzdCakpZczIwYmlB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "八字紫微",
       "published": "2026-05-26",
@@ -267,8 +267,8 @@
         "運勢",
         "八字"
       ],
-      "score": 12.35,
-      "event_cluster": "event-41"
+      "score": 14.55,
+      "event_cluster": "event-04"
     },
     {
       "title": "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
@@ -287,26 +287,26 @@
         "運勢"
       ],
       "score": 14.35,
-      "event_cluster": "event-17"
+      "event_cluster": "event-15"
     },
     {
-      "title": "揭秘內娛最甜婚姻真相，深扒浪姐唐藝昕命盤：甜妹皮囊下的「馴龍女王」，把張若昀調教成「純愛戰神」的神級馭夫術！《乘風2026》運勢大推演，女生必看... youtu.be/ArBvZDI78aY?si… 来自 @YouTube #唐艺昕 #浪姐 #乘风2026 #八字 #命理分析 #算命 #嫁豪门 #张若",
-      "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VbWdPaFdzNkdwWjFuT0lJanJhbmR3a2JjWGFURmZWZFM3TTF6QTRockRvZko5MGpuVXF2VEVnV1NkdktwakFabGxfelpPYm1ibXB6VUltS1ZaUXM?oc=5",
-      "source_id": "x_recent_search",
-      "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E7%AE%97%E5%91%BD%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "title": "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍：",
+      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 9，作者 gearty。",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1779885754.A.80A.html",
+      "source_id": "ptt_gossiping",
+      "source": "PTT Gossiping",
+      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
       "source_group": "community",
-      "category": "八字紫微",
-      "published": "2026-05-25",
-      "published_display": "2026-05-25",
+      "category": "命理新闻",
+      "published": "2026-05-27",
+      "published_display": "2026-05-27",
       "matched_keywords": [
         "命理",
-        "算命",
-        "運勢"
+        "命理師",
+        "热议"
       ],
-      "score": 12.149999999999999,
-      "event_cluster": "event-54"
+      "score": 12.850000000000001,
+      "event_cluster": "event-16"
     },
     {
       "title": "討論牆 | 早預言馬英九犯小人！命理師驚揭「流年走死神」：恐有大變化",
@@ -401,7 +401,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     }
   ]
 }
