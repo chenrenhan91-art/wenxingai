@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-05-28",
-  "updated_at_display": "2026年5月28日 00:40",
+  "updated_at_display": "2026年5月28日 14:55",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-28T00:40:35.485583+08:00",
+    "fetched_at": "2026-05-28T14:55:55.508700+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -181,7 +181,7 @@
       "google_news_xuanxue_tw": 6.05,
       "google_news_taluo_tw": 5.85,
       "google_news_fengshui_tw": 5.85,
-      "ptt_gossiping": 5.45,
+      "ptt_gossiping": 5.55,
       "ptt_womentalk": 5.15,
       "ptt_marvel": 4.65,
       "youtube_search": 5.55,
@@ -257,7 +257,7 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ESVJRZjNiWVBKMWlXS1JrX1kxLXZKQjdBMFdGbnNXV1U1X1VaelpiUUpIelhhc0ZPZEx6T1hqZFR2cUNPTmdyVVNKYzdCakpZczIwYmlB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "八字紫微",
       "published": "2026-05-26",
@@ -287,7 +287,7 @@
         "運勢"
       ],
       "score": 14.35,
-      "event_cluster": "event-15"
+      "event_cluster": "event-11"
     },
     {
       "title": "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍：",
@@ -305,8 +305,8 @@
         "命理師",
         "热议"
       ],
-      "score": 12.850000000000001,
-      "event_cluster": "event-16"
+      "score": 12.95,
+      "event_cluster": "event-12"
     },
     {
       "title": "討論牆 | 早預言馬英九犯小人！命理師驚揭「流年走死神」：恐有大變化",
@@ -348,10 +348,10 @@
     },
     {
       "title": "預言馬英九犯小人成真 命理師分析流年：未來2年健康是重點",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxQRXlTNy1qbzdIdktlVllVOXgxemhwYnJCR2R1VzBsalNWT1E5M3JNMU5KM19wQk1pbGpFQy1fbkwtM0tJNmFGMVY0WUZ6aTlEcmtTbU8xUUpRcl8wVnFNQ0s3QjB4MmwzTEZoS3ZHck9fRDlmVS0wZUtMT1dZcGJRWEthSHI4bkNGOThVOS1sdmtucUFXRHlfTnh1OUZHTGhuazlWMnpmZ0p0LV91TVl6MEhCMUx6a0RyZlRNdWh6cWZSSENPRkxMZURpZEhoa1dTaWR4TzRtQ2U0TFY5dWhDZEJDMlFkTFZyTGg5bFFyWkF4d2xhRXo0a1VJQmVWMmJYampfdHFjYWhxWWlneTlVbUE5azZoRHprMUgzZXE5VE81SjhXVTZyODRteHB4UkFXWnplUnU4c21Rb1NsTkIyVmFaQVBka1VpZWlTdmhoOUVtYTR6UFJ1YVFRWllLdGRYd1haOVNscmR6Y0FmMmVjaTFObi1HNy1nWkVxWDZndTgwUTg?oc=5",
+      "summary": "来自 中天新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9kcWNhNV9PSFJLQV9uM0FoN0tQUUlDV284VC13WDZ0SUh6eDUwUlJtZmJXcDNhX0I1eGZtM3NId3E4U2RsNGR4RV9QLVY2RGJiS3Qw?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
+      "source": "中天新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -368,7 +368,7 @@
     {
       "title": "早預言馬英九犯小人!命理師驚揭「流年走死神」： 恐有大變化",
       "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMinARBVV95cUxQdGVlNzQzRjRaU2pSRVJtQzdjbDZMX0pLbkRTRHJtV0RtSXR3UkJqU21tRHIwN2N3RTU5NjFaSEx0dnNpNTJHbkg0emlfbThaRFlTc3U4el85RHE0U2hVSWtrN3IwMzJEZjlrSjdUeVAwS1JXX1Q0V2taYnlzbEd1ZGozOXgxemIwZERBWWRlWEEzcllDekJTbG0yclpmUWlGa1J2WVZRRTQ4NXZ1ajg5TDBhUWxBXzJIV0NHbmJzeVZCbTFkMV9FTVVkYjhpdTJRYlRfbUVtT2l5RU8tTFc4S0NZNTA0MWRUX0FWUUg0X2FaOFU2a0tGTWtGYWp4eWFUd1lyUS1SN2lPbUFsMWR5TEVzNzkzMDE0M3RLY0x4SElSeXpRX0JoQWNpQTduLU1OWUFyT0FSbm9MYS1QNXdNeVM0cUZXVHNMVDRZWEFYYmRIbTBFSFlycEd0UEZGaFR4OEFaWVVHeDVJRzI2ampTMnpwVUNqMU9TcS0wckJxMzlNQk1laTNGc21kVHBzWTdzQmpYYnhGY1NOUGxTYVgtc0Y2MlRQREhVOFlXRDU0bGREZFBqR2pRZTMzSlpvMXF3aXN2bjU0LV9UZ1FYQ21fczJxS0RpeW1fSzRYRWZyTVM4enVuckg2QURvY3NDZndhclIzOUNuSm9HSDJ3NEtNTkc0Ynd2SWZWLVMzTXUzVmVlTEhaMTVZRXo0WVQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimwRBVV95cUxOaTItajJ3VXFDT21LZnpWSGFNbjNBS1prT2ZGOFljSEtjakYxYm0yTUJleTVadUlqZ2NhcVhxaUMyR3ZybUlOV1dBVmtFOEY4dDF0OWNsWEFBYkRrdG94RUNVM0pUTzB1VjV2bWZTQnQ2QjdUem1WcEVrcDI3czdrSmVFUTA4UmdOU2FJUkZWM2JoZk5QYWtqZW15S3FlclM2ZFF2RXFnTFlqNGVyaXdMbkhTUjhjRlVsVFdsc05KUmlGTDJ1LVhyWFZ6SWl6YkVieVVJTlNPQ2lUYkVXSVpXUGZrZVNVTFRFc1AtN3lLQmY4Y1pfYkltYnljVUl1NEtqWmlQalNMb2d6ZVd0eVBNUXl0bXZUak5kNG9NMmpHQVFaSjQ5OUhKNThmQk1neG5ldzRzc0x4ZWswVGw4R20yTXJ4Q1BkYmxvRHdlOWl2NnZUNk5vUUNsbWtHZTVlbmxqZjlQMzFBYnRLZWt4eUpoOXA4Tl9hRjN4Y19mZUY0ZzJkREhYdk5HT1BtWkNZMmpsSHZKS0otRHQxNGxpYnVsVnk5TXJkTEdaRGs1Q0NsSVhSbVdkMTJXTXNhMmN2b3BEVndHZF82S1RmZ25NUi14aXhhTk1WX1pfbmpROVpxVHM2RFJxckJ2bnZwS2tudVBiTE55X3NjVjZtYzZxRlZaV3huLUJXblVWNmh1cUg4S2VmLUVuMXlsRXgyQQ?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "MSN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",

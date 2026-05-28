@@ -1,9 +1,9 @@
-# 问星AI 内容自动化运行报告 2026年5月28日 00:40
+# 问星AI 内容自动化运行报告 2026年5月28日 14:55
 
 - 总体状态：failed_generate
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：759f71139b5cf18316d5f9aec5b6e4c9822cd7c1
+- 变更签名：00aa3c5381d23e6614d59729ebdf8804f7ad5549
 - Gemini 是否执行：是
 - Gemini 审校是否执行：否
 - 规则质检是否执行：否
@@ -19,10 +19,6 @@
 - 討論牆 | 早預言馬英九犯小人！命理師驚揭「流年走死神」：恐有大變化
 - 芒種節氣到！命理師揭「1開運法」：貴人幫扶、財運超旺
 
-## 新增标题
-- 真實命盤故事｜這個八字的人，30歲翻身了第17篇 #命理 #天機命理#紫微斗數#八字 #運勢 #Shorts
-- [新聞] 鬼門開遇日全蝕超凶？命理師引述古籍：
-
 ## 次日运营建议
 - 明日优先延展「命理新闻」相关选题（当前占比 6/8）。
 
@@ -31,7 +27,7 @@
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年5月28日 00:40
+updated 8 hot news items at 2026年5月28日 14:55
 - generate_daily_content.py | failed | [warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {"error":{"message":"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.","type":"invalid_request_error","param":null,...
 [ok] DashScope fallback model selected: qwen3.6-flash-2026-04-16
 Gemini content generation failed: invalid Gemini response: missing zh_cn.social_posts

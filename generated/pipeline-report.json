@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-05-28T00:40:18.338423+08:00",
-  "ran_at_display": "2026年5月28日 00:40",
+  "ran_at": "2026-05-28T14:55:37.907136+08:00",
+  "ran_at_display": "2026年5月28日 14:55",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "b137ac25b84fb33d9fb9b4eb13a773d5fcd6a282",
-  "new_signature": "759f71139b5cf18316d5f9aec5b6e4c9822cd7c1",
+  "previous_signature": "759f71139b5cf18316d5f9aec5b6e4c9822cd7c1",
+  "new_signature": "00aa3c5381d23e6614d59729ebdf8804f7ad5549",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,10 +27,7 @@
     "討論牆 | 早預言馬英九犯小人！命理師驚揭「流年走死神」：恐有大變化",
     "芒種節氣到！命理師揭「1開運法」：貴人幫扶、財運超旺"
   ],
-  "added_titles": [
-    "真實命盤故事｜這個八字的人，30歲翻身了第17篇 #命理 #天機命理#紫微斗數#八字 #運勢 #Shorts",
-    "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍："
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
@@ -42,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月28日 00:40"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月28日 14:55"
     },
     {
       "script": "generate_daily_content.py",
