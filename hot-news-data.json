@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-29",
-  "updated_at_display": "2026年5月29日 14:56",
+  "updated_at": "2026-05-30",
+  "updated_at_display": "2026年5月30日 00:46",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-29T14:56:10.234970+08:00",
+    "fetched_at": "2026-05-30T00:46:39.613953+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -192,7 +192,7 @@
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 5,
+        "picked_items": 0,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -202,12 +202,12 @@
       },
       "google_news_taluo_tw": {
         "status": "ok",
-        "picked_items": 0,
+        "picked_items": 2,
         "failures": 0
       },
       "google_news_fengshui_tw": {
         "status": "ok",
-        "picked_items": 0,
+        "picked_items": 1,
         "failures": 0
       },
       "ptt_gossiping": {
@@ -227,7 +227,7 @@
       },
       "youtube_search": {
         "status": "ok",
-        "picked_items": 1,
+        "picked_items": 3,
         "failures": 0
       },
       "x_recent_search": {
@@ -248,27 +248,27 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
+    "明日优先延展「八字紫微」相关选题（当前占比 3/8）。"
   ],
   "items": [
     {
-      "title": "【實話打分】他對你有幾分真心？真實的他是怎樣的？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "他迫切想要讓你知道的事，對於你的打算和想法，他會告訴你嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9lYXN4QTZ3blE1TXFxaXBGanQwUHpNVkF0V2gwcU5WTFgwWTJUR1hYMjYwVTZiMXhkN2QxdWFTcmNDaXVSY256QUVYTTFZNmFoWHItWWZn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FdGFnSWdUTy1OWnUtNVg4N2NGNG5mUDFjaVdGNEpfbEdYUlIzaUdrcnl3MjlaMlNlSTBpNENmT0dwbHprSEcteWdZdDBhZWplSHJOVFZ3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-05-28",
-      "published_display": "2026-05-28",
+      "published": "2026-05-29",
+      "published_display": "2026-05-29",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-04"
+      "event_cluster": "event-01"
     },
     {
       "title": "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
@@ -287,7 +287,7 @@
         "運勢"
       ],
       "score": 14.35,
-      "event_cluster": "event-14"
+      "event_cluster": "event-03"
     },
     {
       "title": "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍：",
@@ -306,15 +306,15 @@
         "热议"
       ],
       "score": 12.95,
-      "event_cluster": "event-15"
+      "event_cluster": "event-05"
     },
     {
       "title": "2026九紫離火運｜命理師點名4大生肖 未來5年運勢大洗牌變化驚人",
       "summary": "来自 香港01 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxOLU5OM2huSmRUZGJySVh6cVdqZkloTTRnODZZTmtqRHVheXVOR1RTemdsTGdpUkhmd3Fsal9xbXduUU1jR3ZtLXNFV3U4WXp5M0pZTEVpS2V0VHdZUlliODFtRmNjQ2pIZGFUV2hSeGxzcGJNdklpTkdsNlBjWktMVjg2b29xeFYtT204OVZCQmhaMU5xdXJmNDRZYkRaRWozS1lrejBGMHQ0amZkWUtfWm8xOW5YMUJ4RVU3SDhSNjFpREhhZW1JQ1k1N1BuWG54MVdVQ21ldUFSSG9uUThKa1k0LUN1UlJKVWNKVnF5cU1EaDhOTHdXY3JwYTEwTzUwNThjQnBmaURmYW10WXVUQ2VNbE1tRWFiUTZTMkowbUgxZFdSRjRlaUswMG5wQ2RXMzVjbDVlZFQxWVoxelBpMFdPVXIwSXczSUlkVjJlc0ZhQVZHSnV0clRzNTlxUGFtSi03R1NRSTk2WTRYM0pwWmlTczFtZlZYa2Z4T0Z1bnFFc0kxbFRaYVlNWGNzc1RMdXpnVA?oc=5",
-      "source_id": "google_news_mingli_tw",
+      "source_id": "google_news_taluo_tw",
       "source": "香港01 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
       "published": "2026-05-28",
@@ -324,83 +324,83 @@
         "命理師",
         "運勢"
       ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-01"
+      "score": 12.85,
+      "event_cluster": "event-04"
     },
     {
-      "title": "端午「五毒日」運勢告急 命理師示警3生肖防災厄",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOSjJqVFNnaFlNUjRET2c1eFkyaXlsOGhHYm1xZU5zazNwQTBkcUtvRGwzYkNwY0lBRm9ud1lmem9PTktEQ2E2TFV6N2poSWN3WjJGRUlaQzZoVl9ocjBZTGpNaTlmRWh2UVBiYzlOeUc1MzlsV2lnQjJ0NkZnaTExZE51NGxzdDl6UkM5NkZUT3dXeFhTZ1daeVByWVh3OU5kR2hjWHFvM1FoM1dyTXlraDc2WGlsX2MteVdBZ1JGVksydVJtaHFJSDFmenNKN2hiWWpWTUF3LXF1eEFMeWNlUFRXQkNzcl90Y3JMRUNQY3I1c3NDUGhhRFB4ZndOTmtVYlVQY25EZktUd280WW8tUlBrd1hYZDBhNUdjVjJYRVBIMzhreWpKd1dMbGdsQ2NvUDBmWXEzYkVmZkhy?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "title": "九紫離火運來襲！命理師曝4生肖未來5年運勢巨變",
+      "summary": "来自 東森新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02b2wyWW1ZZ1l1bWdwMTRlVmpGUGlGUUN6RUVET3lFbEdnd25Bb2ROTnBoQi1LVHVkbmpkeXhDY3VkblBqaFo2bkd4X0lmejEteFpRdw?oc=5",
+      "source_id": "google_news_fengshui_tw",
+      "source": "東森新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E9%A2%A8%E6%B0%B4+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-05-28",
-      "published_display": "2026-05-28",
+      "published": "2026-05-23",
+      "published_display": "2026-05-23",
       "matched_keywords": [
         "命理",
         "命理師",
         "運勢"
       ],
-      "score": 14.750000000000002,
+      "score": 12.85,
+      "event_cluster": "event-09"
+    },
+    {
+      "title": "一週運勢：奧斯塔羅（6/01～6/07）獅子事業穩穩往上衝，「這星座」感情火藥味重小心越吵越僵",
+      "summary": "来自 Bella.tw儂儂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVElnaWRxY1FKSl96cWIyVFpkSDN0UUpsd0JjWUUwRnFYREI1NTk5NzZWZ1BjOHNmaW9KMXYzaGRTekk4X1hpUGdwNHh0WVNOcmk1ZUdnSE41NE9zbWJoeGhaeF9MSHNoZ2JrMnlvRGFHZ2ZaOXl3S1NJYWY3YjU0WnFsTTUtUVlTYmp3eHJVV29CTVJjNmRoTjB3?oc=5",
+      "source_id": "google_news_taluo_tw",
+      "source": "Bella.tw儂儂 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-05-29",
+      "published_display": "2026-05-29",
+      "matched_keywords": [
+        "運勢",
+        "塔羅",
+        "星座"
+      ],
+      "score": 11.85,
+      "event_cluster": "event-12"
+    },
+    {
+      "title": "真實命盤故事｜這個八字的人，30歲翻身了第17篇 #命理 #天機命理#紫微斗數#八字 #運勢 #Shorts",
+      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ESVJRZjNiWVBKMWlXS1JrX1kxLXZKQjdBMFdGbnNXV1U1X1VaelpiUUpIelhhc0ZPZEx6T1hqZFR2cUNPTmdyVVNKYzdCakpZczIwYmlB?oc=5",
+      "source_id": "youtube_search",
+      "source": "YouTube · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "video",
+      "category": "八字紫微",
+      "published": "2026-05-26",
+      "published_display": "2026-05-26",
+      "matched_keywords": [
+        "命理",
+        "運勢",
+        "八字"
+      ],
+      "score": 14.55,
       "event_cluster": "event-02"
     },
     {
-      "title": "討論牆 | 早預言馬英九犯小人！命理師驚揭「流年走死神」：恐有大變化",
-      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1COXkxOWNLRExqOEk2QlptaXdsaXFveExiak9Vam9DNEpuZWZBdWRoMkJjbG41SjVvZjRjRC1vTl9OQk1lNkRtckFobDltSVNxb1MtQ1ZXQ0gzc1BfbWlxLUl4eFA?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "LINE TODAY · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-05-27",
-      "published_display": "2026-05-27",
+      "title": "《鎖與光Ⅰ》好聽的中文、英文、命理歌曲、情歌English & Chinese Songs about Fate八字、紫微、命盤、算命",
+      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5VNFVmSTZ5Wm1rYzMtZU1pRUtNSExUNWRWUFJPZnJWT0oxN0dwNm5hczJBOFNjUk5lWDhUemhKcm1uY1NodkxuaGdCVFBMU1IxdnFqcHpn?oc=5",
+      "source_id": "youtube_search",
+      "source": "YouTube · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "video",
+      "category": "八字紫微",
+      "published": "2026-05-28",
+      "published_display": "2026-05-28",
       "matched_keywords": [
         "命理",
-        "命理師",
-        "流年"
+        "算命",
+        "八字"
       ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "芒種節氣到！命理師揭「1開運法」：貴人幫扶、財運超旺",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPbk9RdXU0YVRHWHVqVzV3UjZKb2pmS1VvOHJ6ZEs5aDhqNF8tN3piZnJqZHVkcWZCWWZoN2Nmc2FXUGpLUk5mb21ZajNfOWpLZGhDdGYwUUtZbm5mWXVhM2k3TXFKT0tEY0NqNnNrRTdXeGt6UjNkUFQ2bnJtN1lVTFlORkFkb0h5eGdNUG44NXVhcTJCZDM0ZW84TnQwMWhWR2plYVFIeFRQTHZucVpBWUtnYVFVcnRkRUdRSnZwSzNZMmkyRlhaV0RyWHl4c1VTTmloNm1Ibk0wSmhCZHpSanZ3aVNUVDRkR3N5SzNSclBLbF94d1pPeDNSMUZ5djNwbUdYRWEya1oyNXN1VGZtRTJNTWNBYkxTOGdQZFdEaWt1bnQwOHpfOXFCZ0wtcHNwN3NOX1NUVk1fOTlNbGduQTM0VkI3ZGVROGc?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-05-25",
-      "published_display": "2026-05-25",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "預言馬英九犯小人成真 命理師分析流年：未來2年健康是重點",
-      "summary": "来自 中天新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9kcWNhNV9PSFJLQV9uM0FoN0tQUUlDV284VC13WDZ0SUh6eDUwUlJtZmJXcDNhX0I1eGZtM3NId3E4U2RsNGR4RV9QLVY2RGJiS3Qw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "中天新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-05-25",
-      "published_display": "2026-05-25",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "流年"
-      ],
-      "score": 14.750000000000002,
+      "score": 12.35,
       "event_cluster": "event-06"
     }
   ]

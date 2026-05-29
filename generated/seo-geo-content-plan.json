@@ -1,39 +1,43 @@
 {
-  "generated_at": "2026-05-29T14:57:31.846553+08:00",
-  "generated_at_display": "2026-05-29 14:57 CST",
+  "generated_at": "2026-05-30T00:47:50.254753+08:00",
+  "generated_at_display": "2026-05-30 00:47 CST",
   "site_positioning": "问星AI是面向全球华语用户的AI命理应用，核心覆盖紫微斗数、四柱八字、周易六爻、合盘分析、大运流年与玄学热点解读。",
   "hot_news": {
-    "updated_at": "2026-05-29",
+    "updated_at": "2026-05-30",
     "titles": [
-      "【實話打分】他對你有幾分真心？真實的他是怎樣的？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "他迫切想要讓你知道的事，對於你的打算和想法，他會告訴你嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
       "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍：",
       "2026九紫離火運｜命理師點名4大生肖 未來5年運勢大洗牌變化驚人",
-      "端午「五毒日」運勢告急 命理師示警3生肖防災厄",
-      "討論牆 | 早預言馬英九犯小人！命理師驚揭「流年走死神」：恐有大變化",
-      "芒種節氣到！命理師揭「1開運法」：貴人幫扶、財運超旺",
-      "預言馬英九犯小人成真 命理師分析流年：未來2年健康是重點"
+      "九紫離火運來襲！命理師曝4生肖未來5年運勢巨變",
+      "一週運勢：奧斯塔羅（6/01～6/07）獅子事業穩穩往上衝，「這星座」感情火藥味重小心越吵越僵",
+      "真實命盤故事｜這個八字的人，30歲翻身了第17篇 #命理 #天機命理#紫微斗數#八字 #運勢 #Shorts",
+      "《鎖與光Ⅰ》好聽的中文、英文、命理歌曲、情歌English & Chinese Songs about Fate八字、紫微、命盤、算命"
     ],
     "keywords": [
       [
         "命理",
-        7
-      ],
-      [
-        "命理師",
         6
       ],
       [
         "運勢",
+        5
+      ],
+      [
+        "命理師",
         3
       ],
       [
-        "流年",
+        "塔羅",
         2
       ],
       [
-        "塔羅",
-        1
+        "算命",
+        2
+      ],
+      [
+        "八字",
+        2
       ],
       [
         "占卜",
@@ -44,70 +48,30 @@
         1
       ],
       [
-        "算命",
-        1
-      ],
-      [
         "热议",
         1
       ],
       [
-        "開運",
+        "星座",
         1
       ]
     ],
     "categories": [
       [
+        "八字紫微",
+        3
+      ],
+      [
         "命理新闻",
-        6
+        3
       ],
       [
         "塔罗星象",
-        1
-      ],
-      [
-        "八字紫微",
-        1
+        2
       ]
     ]
   },
   "scored_clusters": [
-    {
-      "id": "xuanxue-hot-news",
-      "name": "玄学热点与命理新闻",
-      "score": 122,
-      "priority": 76,
-      "hot_matches": [
-        "生肖",
-        "桃花",
-        "流年"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "玄学",
-        "命理新闻",
-        "命理热点",
-        "塔罗占卜",
-        "运势"
-      ],
-      "target_questions": [
-        "最近玄学热点有哪些？",
-        "命理新闻为什么容易引发讨论？",
-        "如何理性看待生肖运势和塔罗占卜？"
-      ],
-      "preferred_pages": [
-        "/mingli-xuanxue-news.html",
-        "/articles/",
-        "/glossary.html"
-      ],
-      "content_angles": [
-        "用每日热点做新鲜度",
-        "把新闻转成理性命理解释",
-        "避免娱乐化过度预言"
-      ],
-      "automation_cadence": "daily"
-    },
     {
       "id": "ai-mingli",
       "name": "AI命理与AI算命",
@@ -140,6 +104,41 @@
         "用问星AI案例说明可验证性"
       ],
       "automation_cadence": "weekly"
+    },
+    {
+      "id": "xuanxue-hot-news",
+      "name": "玄学热点与命理新闻",
+      "score": 110,
+      "priority": 76,
+      "hot_matches": [
+        "生肖",
+        "桃花"
+      ],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "玄学",
+        "命理新闻",
+        "命理热点",
+        "塔罗占卜",
+        "运势"
+      ],
+      "target_questions": [
+        "最近玄学热点有哪些？",
+        "命理新闻为什么容易引发讨论？",
+        "如何理性看待生肖运势和塔罗占卜？"
+      ],
+      "preferred_pages": [
+        "/mingli-xuanxue-news.html",
+        "/articles/",
+        "/glossary.html"
+      ],
+      "content_angles": [
+        "用每日热点做新鲜度",
+        "把新闻转成理性命理解释",
+        "避免娱乐化过度预言"
+      ],
+      "automation_cadence": "daily"
     },
     {
       "id": "ziwei-ai",
@@ -207,40 +206,6 @@
       "automation_cadence": "weekly"
     },
     {
-      "id": "jieqi-mingli",
-      "name": "二十四节气命理",
-      "score": 100,
-      "priority": 78,
-      "hot_matches": [
-        "流年"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "节气命理",
-        "二十四节气",
-        "立春八字",
-        "小满运势",
-        "节气运势"
-      ],
-      "target_questions": [
-        "为什么八字以节气划分月份？",
-        "立春前后出生八字怎么算？",
-        "节气对运势有什么影响？"
-      ],
-      "preferred_pages": [
-        "/24jieqi/",
-        "/geo-answers.html",
-        "/articles/"
-      ],
-      "content_angles": [
-        "节气前7天更新对应页面",
-        "解释月令与八字关系",
-        "用热点文章承接节气新闻"
-      ],
-      "automation_cadence": "seasonal"
-    },
-    {
       "id": "liuyao-ai",
       "name": "周易六爻AI解卦",
       "score": 95,
@@ -302,35 +267,41 @@
         "把合盘定位为沟通参考"
       ],
       "automation_cadence": "biweekly"
+    },
+    {
+      "id": "jieqi-mingli",
+      "name": "二十四节气命理",
+      "score": 88,
+      "priority": 78,
+      "hot_matches": [],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "节气命理",
+        "二十四节气",
+        "立春八字",
+        "小满运势",
+        "节气运势"
+      ],
+      "target_questions": [
+        "为什么八字以节气划分月份？",
+        "立春前后出生八字怎么算？",
+        "节气对运势有什么影响？"
+      ],
+      "preferred_pages": [
+        "/24jieqi/",
+        "/geo-answers.html",
+        "/articles/"
+      ],
+      "content_angles": [
+        "节气前7天更新对应页面",
+        "解释月令与八字关系",
+        "用热点文章承接节气新闻"
+      ],
+      "automation_cadence": "seasonal"
     }
   ],
   "briefs": [
-    {
-      "cluster_id": "xuanxue-hot-news",
-      "cluster_name": "玄学热点与命理新闻",
-      "action": "new_article",
-      "primary_keyword": "玄学",
-      "target_question": "最近玄学热点有哪些？",
-      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
-      "suggested_h2": [
-        "玄学的搜索意图是什么",
-        "问星AI如何解释玄学",
-        "传统命理与AI趋势分析的边界",
-        "可引用事实与常见问题"
-      ],
-      "internal_links": [
-        "/facts/wenxing-ai.html",
-        "/geo-answers.html",
-        "/glossary.html",
-        "/mingli-xuanxue-news.html"
-      ],
-      "hot_context": [
-        "【實話打分】他對你有幾分真心？真實的他是怎樣的？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-        "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
-        "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍："
-      ],
-      "angle": "用每日热点做新鲜度"
-    },
     {
       "cluster_id": "ai-mingli",
       "cluster_name": "AI命理与AI算命",
@@ -351,11 +322,37 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "【實話打分】他對你有幾分真心？真實的他是怎樣的？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "他迫切想要讓你知道的事，對於你的打算和想法，他會告訴你嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
         "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
         "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍："
       ],
       "angle": "理性解释AI命理边界"
+    },
+    {
+      "cluster_id": "xuanxue-hot-news",
+      "cluster_name": "玄学热点与命理新闻",
+      "action": "new_article",
+      "primary_keyword": "玄学",
+      "target_question": "最近玄学热点有哪些？",
+      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
+      "suggested_h2": [
+        "玄学的搜索意图是什么",
+        "问星AI如何解释玄学",
+        "传统命理与AI趋势分析的边界",
+        "可引用事实与常见问题"
+      ],
+      "internal_links": [
+        "/facts/wenxing-ai.html",
+        "/geo-answers.html",
+        "/glossary.html",
+        "/mingli-xuanxue-news.html"
+      ],
+      "hot_context": [
+        "他迫切想要讓你知道的事，對於你的打算和想法，他會告訴你嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
+        "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍："
+      ],
+      "angle": "用每日热点做新鲜度"
     },
     {
       "cluster_id": "ziwei-ai",
@@ -377,7 +374,7 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "【實話打分】他對你有幾分真心？真實的他是怎樣的？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "他迫切想要讓你知道的事，對於你的打算和想法，他會告訴你嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
         "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
         "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍："
       ],
@@ -403,22 +400,22 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "【實話打分】他對你有幾分真心？真實的他是怎樣的？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "他迫切想要讓你知道的事，對於你的打算和想法，他會告訴你嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
         "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
         "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍："
       ],
       "angle": "把大运流年解释为周期观察"
     },
     {
-      "cluster_id": "jieqi-mingli",
-      "cluster_name": "二十四节气命理",
+      "cluster_id": "liuyao-ai",
+      "cluster_name": "周易六爻AI解卦",
       "action": "new_article",
-      "primary_keyword": "节气命理",
-      "target_question": "为什么八字以节气划分月份？",
-      "suggested_title": "节气命理怎么理解？问星AI的理性命理观察",
+      "primary_keyword": "六爻AI",
+      "target_question": "六爻适合问什么问题？",
+      "suggested_title": "六爻AI怎么理解？问星AI的理性命理观察",
       "suggested_h2": [
-        "节气命理的搜索意图是什么",
-        "问星AI如何解释节气命理",
+        "六爻AI的搜索意图是什么",
+        "问星AI如何解释六爻AI",
         "传统命理与AI趋势分析的边界",
         "可引用事实与常见问题"
       ],
@@ -429,11 +426,11 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "【實話打分】他對你有幾分真心？真實的他是怎樣的？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "他迫切想要讓你知道的事，對於你的打算和想法，他會告訴你嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
         "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
         "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍："
       ],
-      "angle": "节气前7天更新对应页面"
+      "angle": "把六爻定位为具体问题判断"
     }
   ],
   "monthly_ai_prompt_tests": [
