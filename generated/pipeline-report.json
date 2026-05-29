@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-05-29T00:56:34.223463+08:00",
-  "ran_at_display": "2026年5月29日 00:56",
+  "ran_at": "2026-05-29T14:55:54.358426+08:00",
+  "ran_at_display": "2026年5月29日 14:55",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "00aa3c5381d23e6614d59729ebdf8804f7ad5549",
-  "new_signature": "edbebb6fdfabfd090931020af96502ae45d2b919",
+  "previous_signature": "edbebb6fdfabfd090931020af96502ae45d2b919",
+  "new_signature": "41c5ec84ee8c0dd0e333894c3170c3198f997457",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,16 +21,14 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "誰即將瘋狂的追求你？會結束單身嗎？會給你帶來怎樣的偏愛？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "【實話打分】他對你有幾分真心？真實的他是怎樣的？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "母女合盤：揭秘大運背離的宿命羈絆，警惕母愛變毒藥！命盤拆解：葉一茜與女兒森蝶運勢推演，切勿盲目雞娃，如何用八字為孩子規劃未來？“女憑夫貴、母憑子... youtu.be/qik_fs39buI?si… 来自 @YouTube #叶一茜 #浪姐 #乘风2026 #八字 #命理分析 #算命 #森蝶 #田",
     "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍：",
-    "端午「五毒日」運勢告急 命理師示警3生肖防災厄",
-    "2026九紫離火運｜命理師點名4大生肖 未來5年運勢大洗牌變化驚人"
+    "2026九紫離火運｜命理師點名4大生肖 未來5年運勢大洗牌變化驚人",
+    "端午「五毒日」運勢告急 命理師示警3生肖防災厄"
   ],
   "added_titles": [
-    "誰即將瘋狂的追求你？會結束單身嗎？會給你帶來怎樣的偏愛？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "端午「五毒日」運勢告急 命理師示警3生肖防災厄",
-    "2026九紫離火運｜命理師點名4大生肖 未來5年運勢大洗牌變化驚人"
+    "【實話打分】他對你有幾分真心？真實的他是怎樣的？|曖昧|愛情|戀愛|桃花|塔羅占卜|"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -43,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月29日 00:56"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月29日 14:56"
     },
     {
       "script": "generate_daily_content.py",
