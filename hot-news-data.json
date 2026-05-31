@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-30",
-  "updated_at_display": "2026年5月30日 22:42",
+  "updated_at": "2026-05-31",
+  "updated_at_display": "2026年5月31日 14:59",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-05-30T22:42:51.862474+08:00",
+    "fetched_at": "2026-05-31T14:59:05.173701+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "運勢"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-65"
+      "event_cluster": "event-68"
     },
     {
       "title": "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍：",
@@ -306,7 +306,7 @@
         "热议"
       ],
       "score": 12.95,
-      "event_cluster": "event-13"
+      "event_cluster": "event-16"
     },
     {
       "title": "6／5芒種到！命理師教2招開運貴人、財氣雙旺- 好運到",
@@ -366,25 +366,6 @@
       "event_cluster": "event-05"
     },
     {
-      "title": "討論牆 | 早預言馬英九犯小人！命理師驚揭「流年走死神」：恐有大變化",
-      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1COXkxOWNLRExqOEk2QlptaXdsaXFveExiak9Vam9DNEpuZWZBdWRoMkJjbG41SjVvZjRjRC1vTl9OQk1lNkRtckFobDltSVNxb1MtQ1ZXQ0gzc1BfbWlxLUl4eFA?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "LINE TODAY · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-05-27",
-      "published_display": "2026-05-27",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "流年"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-07"
-    },
-    {
       "title": "芒種節氣到！命理師揭「1開運法」：貴人幫扶、財運超旺",
       "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPbk9RdXU0YVRHWHVqVzV3UjZKb2pmS1VvOHJ6ZEs5aDhqNF8tN3piZnJqZHVkcWZCWWZoN2Nmc2FXUGpLUk5mb21ZajNfOWpLZGhDdGYwUUtZbm5mWXVhM2k3TXFKT0tEY0NqNnNrRTdXeGt6UjNkUFQ2bnJtN1lVTFlORkFkb0h5eGdNUG44NXVhcTJCZDM0ZW84TnQwMWhWR2plYVFIeFRQTHZucVpBWUtnYVFVcnRkRUdRSnZwSzNZMmkyRlhaV0RyWHl4c1VTTmloNm1Ibk0wSmhCZHpSanZ3aVNUVDRkR3N5SzNSclBLbF94d1pPeDNSMUZ5djNwbUdYRWEya1oyNXN1VGZtRTJNTWNBYkxTOGdQZFdEaWt1bnQwOHpfOXFCZ0wtcHNwN3NOX1NUVk1fOTlNbGduQTM0VkI3ZGVROGc?oc=5",
@@ -399,6 +380,25 @@
         "命理",
         "命理師",
         "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-07"
+    },
+    {
+      "title": "預言馬英九犯小人成真 命理師分析流年：未來2年健康是重點",
+      "summary": "来自 中天新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9kcWNhNV9PSFJLQV9uM0FoN0tQUUlDV284VC13WDZ0SUh6eDUwUlJtZmJXcDNhX0I1eGZtM3NId3E4U2RsNGR4RV9QLVY2RGJiS3Qw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "中天新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-05-25",
+      "published_display": "2026-05-25",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "流年"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-08"

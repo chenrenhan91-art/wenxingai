@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-05-30T22:42:26.940198+08:00",
-  "ran_at_display": "2026年5月30日 22:42",
+  "ran_at": "2026-05-31T14:58:47.849802+08:00",
+  "ran_at_display": "2026年5月31日 14:58",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "30cb5e5d82f055922f84a18865a980b806f2319c",
-  "new_signature": "1f9e506248dc75e305e66122b6be32b2916dc5c7",
+  "previous_signature": "1f9e506248dc75e305e66122b6be32b2916dc5c7",
+  "new_signature": "b21fe0ae9775e3765b56ec00c0291b1374618b5d",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -39,13 +39,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月30日 22:42"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年5月31日 14:59"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 1,
       "ok": false,
-      "output": "[warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {\"error\":{\"message\":\"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"param\":null,...\n[ok] DashScope fallback model selected: qwen3.6-flash-2026-04-16\nGemini content generation failed: invalid Gemini response: missing zh_cn.social_posts"
+      "output": "[warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {\"error\":{\"message\":\"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"param\":null,...\n[ok] DashScope fallback model selected: qwen3.6-flash-2026-04-16\nGemini content generation failed: invalid Gemini response: missing zh_cn.site_article.excerpt"
     }
   ]
 }
