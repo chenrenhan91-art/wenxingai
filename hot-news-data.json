@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-01",
-  "updated_at_display": "2026年6月1日 16:35",
+  "updated_at": "2026-06-02",
+  "updated_at_display": "2026年6月2日 02:41",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-01T16:35:17.540617+08:00",
+    "fetched_at": "2026-06-02T02:41:46.817160+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "他打算接下來用什麼態度對待你？他對你的想法有什麼改變？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "香灰千万别乱丢，这么做能招财！ #玄學 #國學 #風水 #香灰 #招財",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5URzlaMUtnczdTeVFBc3NZUlZQTzBpTFRMZmJkWnE3azg1TVNEdG1Za3JnRzdCOXF5a1JGQVJURXNPY0FXcENRZHZDRUppSnFmOFBwTkh3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8taXFBMGk4Q2l1Q0Nqb0pxZWRiMUYzWUVrcmZtMGQwT2dHY2M4cndiSVowSjJlZnhoZm1FdkVZNEhtaVI2bjl4QnBLT3M5NW45MkpnOFp3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%8E%84%E5%AD%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "塔罗星象",
-      "published": "2026-05-31",
-      "published_display": "2026-05-31",
+      "category": "风水玄学",
+      "published": "2026-05-30",
+      "published_display": "2026-05-30",
       "matched_keywords": [
-        "塔羅",
-        "占卜",
-        "桃花"
+        "玄學",
+        "風水",
+        "招財"
       ],
       "score": 14.55,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "我做的是刀光劍影的暗黑武俠RPG！！！ 不是讓你們用八字算命去對NPC 降維打擊、到江湖上到處認乾兒子的啊！！！💀 #獨立遊戲 #遊戲開發 #刀鋒 #BladeRPG #算命大師 #生辰八字 #物理超度不如紫微斗數 #劍聖認賊作父",
@@ -287,7 +287,7 @@
         "紫微"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-53"
+      "event_cluster": "event-55"
     },
     {
       "title": "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍：",
@@ -306,7 +306,26 @@
         "热议"
       ],
       "score": 12.95,
-      "event_cluster": "event-22"
+      "event_cluster": "event-25"
+    },
+    {
+      "title": "2026九紫離火運｜命理師點名4大生肖 未來5年運勢大洗牌變化驚人",
+      "summary": "来自 香港01 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxOLU5OM2huSmRUZGJySVh6cVdqZkloTTRnODZZTmtqRHVheXVOR1RTemdsTGdpUkhmd3Fsal9xbXduUU1jR3ZtLXNFV3U4WXp5M0pZTEVpS2V0VHdZUlliODFtRmNjQ2pIZGFUV2hSeGxzcGJNdklpTkdsNlBjWktMVjg2b29xeFYtT204OVZCQmhaMU5xdXJmNDRZYkRaRWozS1lrejBGMHQ0amZkWUtfWm8xOW5YMUJ4RVU3SDhSNjFpREhhZW1JQ1k1N1BuWG54MVdVQ21ldUFSSG9uUThKa1k0LUN1UlJKVWNKVnF5cU1EaDhOTHdXY3JwYTEwTzUwNThjQnBmaURmYW10WXVUQ2VNbE1tRWFiUTZTMkowbUgxZFdSRjRlaUswMG5wQ2RXMzVjbDVlZFQxWVoxelBpMFdPVXIwSXczSUlkVjJlc0ZhQVZHSnV0clRzNTlxUGFtSi03R1NRSTk2WTRYM0pwWmlTczFtZlZYa2Z4T0Z1bnFFc0kxbFRaYVlNWGNzc1RMdXpnVA?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "香港01 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-01",
+      "published_display": "2026-06-01",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-01"
     },
     {
       "title": "早預言馬英九犯小人!命理師驚揭「流年走死神」： 恐有大變化",
@@ -325,12 +344,12 @@
         "流年"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-01"
+      "event_cluster": "event-02"
     },
     {
       "title": "流年沖害破！命理師警告「3生肖破財」下半年慘了",
       "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5DeEl1blFhbmhVRUV6SFI5T2FTN1ZxVHNlSGowNWh1VGlTVTJjLURwT2RfcXFJWkV2cWR1bV9oOEFUOVlLd0I0VXRIVEhzODVralBVdGpuOXhkNXRSdG5DSlNPSUttc2Y5M0J3Rw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxPWEY3ZC1GbmhQQ0hVUTJwMzNYNzVPME9Yc0ZqNDlmMklEcjZkNW1QaE9JUElxYUhEZEd0d1U2WWlRZDhFZjJIalJ3REZ3S3lOQ0k1Z2x6QTFEQlFKRGQtWGJCTWx5RW96Wkh5MWlfYVA3OWhJN0RneWhMVWY4emkxSS1YZE1OdTRleWZseWZFNXNTa244YUlVbkRrUlpNTnhiOVE5OHBRSzhlREczSzFWX2tVeUx0d2RPbkNQclp2YXNQUVdyY1NOa2JxRkc2cFczZUpoLUxOWTItZDJzbWNnQTRrdjA5V0YwMGdlZkhvSkV2OEZOeHFDRnNwRWFSajh2Zl81TlZiQ2ZORHp6OTJjMDFFRFdsNktRM1Zuc21NZkwzdEZveVdmNnllZ3JRM1h4VG5UQ0F6VU1kS3hIY3dMS1BhQmdjaFR1Z24tak1TSUZzVHoxQWZjVG5Ncm12VVJnXzFTMGFlSzdpN3hVVXExd1hxVzAxTTlsbUl4TlpmVWdmXzhaQ0dyd0FEWEZlT2o4eHJrTA?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "TVBS新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -344,7 +363,7 @@
         "流年"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "6／5芒種到！命理師教2招開運貴人、財氣雙旺- 好運到",
@@ -363,26 +382,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "2026九紫離火運｜命理師點名4大生肖 未來5年運勢大洗牌變化驚人",
-      "summary": "来自 香港01 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxOLU5OM2huSmRUZGJySVh6cVdqZkloTTRnODZZTmtqRHVheXVOR1RTemdsTGdpUkhmd3Fsal9xbXduUU1jR3ZtLXNFV3U4WXp5M0pZTEVpS2V0VHdZUlliODFtRmNjQ2pIZGFUV2hSeGxzcGJNdklpTkdsNlBjWktMVjg2b29xeFYtT204OVZCQmhaMU5xdXJmNDRZYkRaRWozS1lrejBGMHQ0amZkWUtfWm8xOW5YMUJ4RVU3SDhSNjFpREhhZW1JQ1k1N1BuWG54MVdVQ21ldUFSSG9uUThKa1k0LUN1UlJKVWNKVnF5cU1EaDhOTHdXY3JwYTEwTzUwNThjQnBmaURmYW10WXVUQ2VNbE1tRWFiUTZTMkowbUgxZFdSRjRlaUswMG5wQ2RXMzVjbDVlZFQxWVoxelBpMFdPVXIwSXczSUlkVjJlc0ZhQVZHSnV0clRzNTlxUGFtSi03R1NRSTk2WTRYM0pwWmlTczFtZlZYa2Z4T0Z1bnFFc0kxbFRaYVlNWGNzc1RMdXpnVA?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "香港01 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-05-28",
-      "published_display": "2026-05-28",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-04"
     },
     {
       "title": "端午「五毒日」運勢告急 命理師示警3生肖防災厄",
@@ -401,7 +401,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-08"
+      "event_cluster": "event-07"
     }
   ]
 }
