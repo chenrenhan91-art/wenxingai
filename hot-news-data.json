@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-02",
-  "updated_at_display": "2026年6月2日 15:25",
+  "updated_at": "2026-06-03",
+  "updated_at_display": "2026年6月3日 01:27",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-02T15:25:17.764220+08:00",
+    "fetched_at": "2026-06-03T01:27:00.817178+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "这一个小动作帮你锁住财气#磁场能量#玄学的力量#提升运势#风水知识#好习惯改变好人生#玄学",
+      "title": "ta對你的真實需求？ta到底想要讓你怎樣？深挖ta對你的想法！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsUzk1SzFrcVcydUVoSFc0enV1TjhJQXZtVWkxSl9FWjBCeno4aVpoNmJ2UHFMb1V4cFBVMndMLUtTb1ZDVlQ5cDlMc2RYTU4xUDk1NUZ3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hc2lFejhfUFAwa05uX3M3clFUZERnZS1JZ1paQ3Z4Znl1T1M4TlFfV2ZSeUZoeVppcVlSR2RCYjEzWm5JMWlfRFlndlplblZWVXBKTndR?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%8E%84%E5%AD%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "风水玄学",
-      "published": "2026-05-30",
-      "published_display": "2026-05-30",
+      "category": "塔罗星象",
+      "published": "2026-06-02",
+      "published_display": "2026-06-02",
       "matched_keywords": [
-        "运势",
-        "玄学",
-        "风水"
+        "塔羅",
+        "占卜",
+        "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-04"
+      "event_cluster": "event-02"
     },
     {
       "title": "我做的是刀光劍影的暗黑武俠RPG！！！ 不是讓你們用八字算命去對NPC 降維打擊、到江湖上到處認乾兒子的啊！！！💀 #獨立遊戲 #遊戲開發 #刀鋒 #BladeRPG #算命大師 #生辰八字 #物理超度不如紫微斗數 #劍聖認賊作父",
@@ -287,7 +287,7 @@
         "紫微"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-58"
+      "event_cluster": "event-63"
     },
     {
       "title": "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍：",
@@ -306,7 +306,7 @@
         "热议"
       ],
       "score": 12.95,
-      "event_cluster": "event-28"
+      "event_cluster": "event-32"
     },
     {
       "title": "2026九紫離火運｜命理師點名4大生肖 未來5年運勢大洗牌變化驚人",
@@ -344,12 +344,12 @@
         "流年"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "流年沖害破！命理師警告「3生肖破財」下半年慘了",
       "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxPWEY3ZC1GbmhQQ0hVUTJwMzNYNzVPME9Yc0ZqNDlmMklEcjZkNW1QaE9JUElxYUhEZEd0d1U2WWlRZDhFZjJIalJ3REZ3S3lOQ0k1Z2x6QTFEQlFKRGQtWGJCTWx5RW96Wkh5MWlfYVA3OWhJN0RneWhMVWY4emkxSS1YZE1OdTRleWZseWZFNXNTa244YUlVbkRrUlpNTnhiOVE5OHBRSzhlREczSzFWX2tVeUx0d2RPbkNQclp2YXNQUVdyY1NOa2JxRkc2cFczZUpoLUxOWTItZDJzbWNnQTRrdjA5V0YwMGdlZkhvSkV2OEZOeHFDRnNwRWFSajh2Zl81TlZiQ2ZORHp6OTJjMDFFRFdsNktRM1Zuc21NZkwzdEZveVdmNnllZ3JRM1h4VG5UQ0F6VU1kS3hIY3dMS1BhQmdjaFR1Z24tak1TSUZzVHoxQWZjVG5Ncm12VVJnXzFTMGFlSzdpN3hVVXExd1hxVzAxTTlsbUl4TlpmVWdmXzhaQ0dyd0FEWEZlT2o4eHJrTA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9KT0NPVHA2aHdYekZFaHpzTmczSlZVbF9LVktUbVBMMnFKQ2NaWExNVFFacUpjMVlDQmNSQ1J0VWNySFZCZG5RQjB4RTNJUQ?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "TVBS新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -363,7 +363,7 @@
         "流年"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "端午「五毒日」運勢告急 命理師示警3生肖防災厄",
@@ -382,7 +382,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
       "title": "芒種周五到！命理師提醒「4生肖」情緒不穩定 恐面臨情感大考驗",

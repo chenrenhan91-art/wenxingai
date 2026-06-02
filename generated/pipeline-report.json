@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-06-02T15:25:03.029094+08:00",
-  "ran_at_display": "2026年6月2日 15:25",
+  "ran_at": "2026-06-03T01:26:44.264159+08:00",
+  "ran_at_display": "2026年6月3日 01:26",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "a16fbf2326c9b959ed87dfb8e96b2a4c01901c45",
-  "new_signature": "b909fe77f4e134819caa10a93586f311e1f2d1f3",
+  "previous_signature": "b909fe77f4e134819caa10a93586f311e1f2d1f3",
+  "new_signature": "1372c70f76b9b716014394358757650969b463a7",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,14 +21,14 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "这一个小动作帮你锁住财气#磁场能量#玄学的力量#提升运势#风水知识#好习惯改变好人生#玄学",
+    "ta對你的真實需求？ta到底想要讓你怎樣？深挖ta對你的想法！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "我做的是刀光劍影的暗黑武俠RPG！！！ 不是讓你們用八字算命去對NPC 降維打擊、到江湖上到處認乾兒子的啊！！！💀 #獨立遊戲 #遊戲開發 #刀鋒 #BladeRPG #算命大師 #生辰八字 #物理超度不如紫微斗數 #劍聖認賊作父",
     "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍：",
     "2026九紫離火運｜命理師點名4大生肖 未來5年運勢大洗牌變化驚人",
     "早預言馬英九犯小人!命理師驚揭「流年走死神」： 恐有大變化"
   ],
   "added_titles": [
-    "这一个小动作帮你锁住财气#磁场能量#玄学的力量#提升运势#风水知识#好习惯改变好人生#玄学"
+    "ta對你的真實需求？ta到底想要讓你怎樣？深挖ta對你的想法！|曖昧|愛情|戀愛|桃花|塔羅占卜|"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -41,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月2日 15:25"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月3日 01:27"
     },
     {
       "script": "generate_daily_content.py",
