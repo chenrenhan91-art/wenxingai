@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-03",
-  "updated_at_display": "2026年6月3日 16:19",
+  "updated_at": "2026-06-04",
+  "updated_at_display": "2026年6月4日 02:01",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-03T16:19:14.113246+08:00",
+    "fetched_at": "2026-06-04T02:01:35.405576+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "早安安呀~🌸 生活中的煩惱戀愛中的困境 工作中的不如意❤️‍🔥 有時是需要一點點的魔法 放下自己的腳步來審視 交給嫟命老師來解惑吧(*´∀`)~♥ 昨天跟大家一起玩的了塔羅 真的好有趣哦☺️💕 下次再來幫你們占卜✨",
@@ -287,7 +287,7 @@
         "戀愛"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-47"
+      "event_cluster": "event-52"
     },
     {
       "title": "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍：",
@@ -306,14 +306,33 @@
         "热议"
       ],
       "score": 12.95,
-      "event_cluster": "event-46"
+      "event_cluster": "event-51"
     },
     {
-      "title": "芒種能量啟動！命理師：「3大開運行動」招財、迎貴人關鍵一次看",
-      "summary": "来自 Harper's BAZAAR · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWHpFcVlNeW5ETXpGb0VfbnJ4U2ViSWFVZFlKVm8yeXhSMmlVNXgxNkp5UlB0RUZhRVpYUmVzVVd0Q01lbzFpNWJmZ3ZKS3dNc0JYM3FMaGd5TURfbjJ4dkotNGhCTWFiWVBWTFJOUDltZ3VlWlZqMkdESDRHbndRVnZVd0hjUQ?oc=5",
+      "title": "命理師揭「2026下半年運勢」！恐爆發2患、年底將有「新主義」誕生",
+      "summary": "来自 民視新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ub0JGb21xRE4ybWdsc1ptazg5OUhod2hwRmtJODJVdlhkSGtKRXkwUjdydGRJY0tmZGhDeFA5amg4NlRaTVI2ZUhMZ2M1bnlYMktxb2FuRXhydWR0MGJMaw?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Harper's BAZAAR · Google News",
+      "source": "民視新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-03",
+      "published_display": "2026-06-03",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-01"
+    },
+    {
+      "title": "端午最強轉運日！命理師揭「6大開運法」 喝5杯水助招財、迎貴人",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBFbmo2RDY0V1d3b09qbC15UmQ1OFpja1prdzU3TDdSemh0WTF3M1VVMmFFUGx2c3lDMGV4VXRvQ3dYTkk0bndHWWVLekdvN0xqaDRTU1laSznSAV9BVV95cUxOc0pRY21IZDJsai1vSjhsNW1CVWNJUXNfc0E5VTRGSXAtSEM3Ym5TNHMteWtRbWFRelByVVp0QjFiLUNzN2VnYmM4RXh1a2c1amV1US0xN3BLbWtYY2lyTQ?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞網SETN.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -325,7 +344,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-01"
+      "event_cluster": "event-02"
     },
     {
       "title": "早預言馬英九犯小人!命理師驚揭「流年走死神」： 恐有大變化",
@@ -344,7 +363,7 @@
         "流年"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "2026九紫離火運｜命理師點名4大生肖 未來5年運勢大洗牌變化驚人",
@@ -363,7 +382,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "流年沖害破！命理師警告「3生肖破財」下半年慘了",
@@ -380,25 +399,6 @@
         "命理",
         "命理師",
         "流年"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "端午「五毒日」運勢告急 命理師示警3生肖防災厄",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOSjJqVFNnaFlNUjRET2c1eFkyaXlsOGhHYm1xZU5zazNwQTBkcUtvRGwzYkNwY0lBRm9ud1lmem9PTktEQ2E2TFV6N2poSWN3WjJGRUlaQzZoVl9ocjBZTGpNaTlmRWh2UVBiYzlOeUc1MzlsV2lnQjJ0NkZnaTExZE51NGxzdDl6UkM5NkZUT3dXeFhTZ1daeVByWVh3OU5kR2hjWHFvM1FoM1dyTXlraDc2WGlsX2MteVdBZ1JGVksydVJtaHFJSDFmenNKN2hiWWpWTUF3LXF1eEFMeWNlUFRXQkNzcl90Y3JMRUNQY3I1c3NDUGhhRFB4ZndOTmtVYlVQY25EZktUd280WW8tUlBrd1hYZDBhNUdjVjJYRVBIMzhreWpKd1dMbGdsQ2NvUDBmWXEzYkVmZkhy?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-05-28",
-      "published_display": "2026-05-28",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-06"
