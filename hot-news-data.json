@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-03",
-  "updated_at_display": "2026年6月3日 01:27",
+  "updated_at_display": "2026年6月3日 16:19",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-03T01:27:00.817178+08:00",
+    "fetched_at": "2026-06-03T16:19:14.113246+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,26 +268,26 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-02"
+      "event_cluster": "event-04"
     },
     {
-      "title": "我做的是刀光劍影的暗黑武俠RPG！！！ 不是讓你們用八字算命去對NPC 降維打擊、到江湖上到處認乾兒子的啊！！！💀 #獨立遊戲 #遊戲開發 #刀鋒 #BladeRPG #算命大師 #生辰八字 #物理超度不如紫微斗數 #劍聖認賊作父",
+      "title": "早安安呀~🌸 生活中的煩惱戀愛中的困境 工作中的不如意❤️‍🔥 有時是需要一點點的魔法 放下自己的腳步來審視 交給嫟命老師來解惑吧(*´∀`)~♥ 昨天跟大家一起玩的了塔羅 真的好有趣哦☺️💕 下次再來幫你們占卜✨",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ZaUk1QXE0QkZMY01mUkRiMXhUWXlXVS1MZDF0WmR0LU8tSUFTNDRWajJqdEw5NnVHMWU3SlBOdDBsVnNhQTkzTEZSOTN5eGtTZU9pWUdBMVZSY3o0Sm1VVERJaE9FQQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsd2hVVWVGajQtRVFlazlQdEctandrZTktQ3E5RVZad2VocEFBanE5WVE0TjZEbThDX1U1ekU3NFUzRmZnenVDdlBNeml2RDdhSXRZbXNtZnA0Yng5cmJ2UA?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E7%AE%97%E5%91%BD%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "八字紫微",
-      "published": "2026-05-30",
-      "published_display": "2026-05-30",
+      "category": "塔罗星象",
+      "published": "2026-06-03",
+      "published_display": "2026-06-03",
       "matched_keywords": [
-        "算命",
-        "八字",
-        "紫微"
+        "塔羅",
+        "占卜",
+        "戀愛"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-63"
+      "event_cluster": "event-47"
     },
     {
       "title": "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍：",
@@ -306,7 +306,45 @@
         "热议"
       ],
       "score": 12.95,
-      "event_cluster": "event-32"
+      "event_cluster": "event-46"
+    },
+    {
+      "title": "芒種能量啟動！命理師：「3大開運行動」招財、迎貴人關鍵一次看",
+      "summary": "来自 Harper's BAZAAR · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWHpFcVlNeW5ETXpGb0VfbnJ4U2ViSWFVZFlKVm8yeXhSMmlVNXgxNkp5UlB0RUZhRVpYUmVzVVd0Q01lbzFpNWJmZ3ZKS3dNc0JYM3FMaGd5TURfbjJ4dkotNGhCTWFiWVBWTFJOUDltZ3VlWlZqMkdESDRHbndRVnZVd0hjUQ?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Harper's BAZAAR · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-03",
+      "published_display": "2026-06-03",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-01"
+    },
+    {
+      "title": "早預言馬英九犯小人!命理師驚揭「流年走死神」： 恐有大變化",
+      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxQVElWOTdWckpnanNjM2FOUFNSbU9FLTB5RTFHTWJCQ1JFVE95YnZtbWRXUmxLeVdmT3hOQ25CNnlmcFgtbmpDLVVKVVpUMnVQYVpvSlFKQkhqMzlWaXJSbWdOeW9VMldsMG4zd3dpSkdBcWRseHk0X1BPQzNEWTd3TEdoYUhEcG44MkV6bUFIYjhlcEdod2k0YVpDOHFmNWVzYnJuSmJhYk1fdUpqeG04VnhVU1V6R3RXNE1ON2J0d0FEREt2MjFlVDNKWVpjZGhDX3lLWFhqQ1Z4NXBIMDZXNGdxdjFQZWM5RzNTdXByNjB2ZGJlU1cyUlpoOWg3anJlRlFSLTdoZkMwM3BGN25NMTdoVEh5M1dxNTNjbzhpWDFvRER0Ylpjb1FnWkVkOVNKbXZDNGpTR3NIdjdjNFlwNDh3Z3FoN0hLS1dYYXE3MDlENFJEWl84cll0WnN5WVVQQzNaN2JMWWZPRzdmdTQwcV9kYm1heUU5YWdjM3FEUk93NV90cHc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "MSN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-02",
+      "published_display": "2026-06-02",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "流年"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
     },
     {
       "title": "2026九紫離火運｜命理師點名4大生肖 未來5年運勢大洗牌變化驚人",
@@ -323,25 +361,6 @@
         "命理",
         "命理師",
         "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-01"
-    },
-    {
-      "title": "早預言馬英九犯小人!命理師驚揭「流年走死神」： 恐有大變化",
-      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxQVElWOTdWckpnanNjM2FOUFNSbU9FLTB5RTFHTWJCQ1JFVE95YnZtbWRXUmxLeVdmT3hOQ25CNnlmcFgtbmpDLVVKVVpUMnVQYVpvSlFKQkhqMzlWaXJSbWdOeW9VMldsMG4zd3dpSkdBcWRseHk0X1BPQzNEWTd3TEdoYUhEcG44MkV6bUFIYjhlcEdod2k0YVpDOHFmNWVzYnJuSmJhYk1fdUpqeG04VnhVU1V6R3RXNE1ON2J0d0FEREt2MjFlVDNKWVpjZGhDX3lLWFhqQ1Z4NXBIMDZXNGdxdjFQZWM5RzNTdXByNjB2ZGJlU1cyUlpoOWg3anJlRlFSLTdoZkMwM3BGN25NMTdoVEh5M1dxNTNjbzhpWDFvRER0Ylpjb1FnWkVkOVNKbXZDNGpTR3NIdjdjNFlwNDh3Z3FoN0hLS1dYYXE3MDlENFJEWl84cll0WnN5WVVQQzNaN2JMWWZPRzdmdTQwcV9kYm1heUU5YWdjM3FEUk93NV90cHc?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "MSN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-05-31",
-      "published_display": "2026-05-31",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "流年"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-03"
@@ -363,7 +382,7 @@
         "流年"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "端午「五毒日」運勢告急 命理師示警3生肖防災厄",
@@ -383,24 +402,6 @@
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-06"
-    },
-    {
-      "title": "芒種周五到！命理師提醒「4生肖」情緒不穩定 恐面臨情感大考驗",
-      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1JNlBaZFJWOU5jX1RvbVo2MWRwcENsd0labm9sc0ZzbnZjRTBUQ1NMUjB4UWVGSUE1aUowQm96d3JQeXJ6endCYkNmRDLSAVJBVV95cUxQWVNLbG8wQ0ZadmZEdFJKbzByaXBPNkNSb3dkVjB0VlFKYlBhSG41QWRGRDBwSmlpMjBiZ25JTk96eThodGhEbXIyeW1HVlFUeGpn?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "NOWnews今日新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-02",
-      "published_display": "2026-06-02",
-      "matched_keywords": [
-        "命理",
-        "命理師"
-      ],
-      "score": 12.55,
-      "event_cluster": "event-07"
     }
   ]
 }
