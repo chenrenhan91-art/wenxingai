@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-04",
-  "updated_at_display": "2026年6月4日 02:01",
+  "updated_at_display": "2026年6月4日 15:24",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-04T02:01:35.405576+08:00",
+    "fetched_at": "2026-06-04T15:24:56.420089+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
       "title": "早安安呀~🌸 生活中的煩惱戀愛中的困境 工作中的不如意❤️‍🔥 有時是需要一點點的魔法 放下自己的腳步來審視 交給嫟命老師來解惑吧(*´∀`)~♥ 昨天跟大家一起玩的了塔羅 真的好有趣哦☺️💕 下次再來幫你們占卜✨",
@@ -287,7 +287,7 @@
         "戀愛"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-52"
+      "event_cluster": "event-58"
     },
     {
       "title": "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍：",
@@ -306,10 +306,48 @@
         "热议"
       ],
       "score": 12.95,
-      "event_cluster": "event-51"
+      "event_cluster": "event-57"
     },
     {
-      "title": "命理師揭「2026下半年運勢」！恐爆發2患、年底將有「新主義」誕生",
+      "title": "2026芒種節氣到！命理師揭「兩大開運秘訣」 2生肖女性大掃除有助旺財",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMitwNBVV95cUxNTjVqTmZTbDcyUXpFUi0wTVBST3FBczJkdkdoOXdCMmxsazlVdWNtOWY1RzJOMkpKRFJCeWpZRWlmXzRZc1BJV0d6cmI5b1RHeC1BNmRUUHVuYTJBUmwwN3ZYekViSmFVM1JieXphYWlOVGxXcjdkVXdzbEt4V2NaUHJhelJGTGhKSVI0Nk5HcHJCN0MxUkxLMkZFQ0cyeFZwZ2pveDV0VkI3RXBMbW9yT01iZk1lYUtvZy1DU04tZDJTWjdweU5Mb1VFTTE2ZXRkZ1dBakpSOGdPMXh2cWVNS25MQktDcm45R0x4X2lNME5DRWxfTTBXdENkeGVXa2QtUzRHX0FmRTJWTE5zdmdHVHdOckJweTJxLVVLVnBpTUg1NGpWMEhvQjZQSE9oVzFXVkE2cDRQdnlKSmFtazBqZ0ZNeUFpUEJzTnd4RUpVVktnUUVPZjV2bDc1UG8wR2hab2QyYlQ5aVFGaVFBaGlmTWVHd3NPUjNVcFAySGJUTFE5Z2RIMXI5V205dmxwaW5pc3c0UWlxMG9oVjE2NldGTklfOE51djluVS1CbGNkU0d0UDlwMEg4?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-04",
+      "published_display": "2026-06-04",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-01"
+    },
+    {
+      "title": "早預言馬英九犯小人!命理師驚揭「流年走死神」： 恐有大變化",
+      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxQVElWOTdWckpnanNjM2FOUFNSbU9FLTB5RTFHTWJCQ1JFVE95YnZtbWRXUmxLeVdmT3hOQ25CNnlmcFgtbmpDLVVKVVpUMnVQYVpvSlFKQkhqMzlWaXJSbWdOeW9VMldsMG4zd3dpSkdBcWRseHk0X1BPQzNEWTd3TEdoYUhEcG44MkV6bUFIYjhlcEdod2k0YVpDOHFmNWVzYnJuSmJhYk1fdUpqeG04VnhVU1V6R3RXNE1ON2J0d0FEREt2MjFlVDNKWVpjZGhDX3lLWFhqQ1Z4NXBIMDZXNGdxdjFQZWM5RzNTdXByNjB2ZGJlU1cyUlpoOWg3anJlRlFSLTdoZkMwM3BGN25NMTdoVEh5M1dxNTNjbzhpWDFvRER0Ylpjb1FnWkVkOVNKbXZDNGpTR3NIdjdjNFlwNDh3Z3FoN0hLS1dYYXE3MDlENFJEWl84cll0WnN5WVVQQzNaN2JMWWZPRzdmdTQwcV9kYm1heUU5YWdjM3FEUk93NV90cHc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "MSN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-04",
+      "published_display": "2026-06-04",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "流年"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
+      "title": "命理師揭下半年運勢！「乳製品」恐短缺？",
       "summary": "来自 民視新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ub0JGb21xRE4ybWdsc1ptazg5OUhod2hwRmtJODJVdlhkSGtKRXkwUjdydGRJY0tmZGhDeFA5amg4NlRaTVI2ZUhMZ2M1bnlYMktxb2FuRXhydWR0MGJMaw?oc=5",
       "source_id": "google_news_mingli_tw",
@@ -325,7 +363,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-01"
+      "event_cluster": "event-03"
     },
     {
       "title": "端午最強轉運日！命理師揭「6大開運法」 喝5杯水助招財、迎貴人",
@@ -344,26 +382,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
-    },
-    {
-      "title": "早預言馬英九犯小人!命理師驚揭「流年走死神」： 恐有大變化",
-      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxQVElWOTdWckpnanNjM2FOUFNSbU9FLTB5RTFHTWJCQ1JFVE95YnZtbWRXUmxLeVdmT3hOQ25CNnlmcFgtbmpDLVVKVVpUMnVQYVpvSlFKQkhqMzlWaXJSbWdOeW9VMldsMG4zd3dpSkdBcWRseHk0X1BPQzNEWTd3TEdoYUhEcG44MkV6bUFIYjhlcEdod2k0YVpDOHFmNWVzYnJuSmJhYk1fdUpqeG04VnhVU1V6R3RXNE1ON2J0d0FEREt2MjFlVDNKWVpjZGhDX3lLWFhqQ1Z4NXBIMDZXNGdxdjFQZWM5RzNTdXByNjB2ZGJlU1cyUlpoOWg3anJlRlFSLTdoZkMwM3BGN25NMTdoVEh5M1dxNTNjbzhpWDFvRER0Ylpjb1FnWkVkOVNKbXZDNGpTR3NIdjdjNFlwNDh3Z3FoN0hLS1dYYXE3MDlENFJEWl84cll0WnN5WVVQQzNaN2JMWWZPRzdmdTQwcV9kYm1heUU5YWdjM3FEUk93NV90cHc?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "MSN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-02",
-      "published_display": "2026-06-02",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "流年"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "2026九紫離火運｜命理師點名4大生肖 未來5年運勢大洗牌變化驚人",
@@ -382,26 +401,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "流年沖害破！命理師警告「3生肖破財」下半年慘了",
-      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9KT0NPVHA2aHdYekZFaHpzTmczSlZVbF9LVktUbVBMMnFKQ2NaWExNVFFacUpjMVlDQmNSQ1J0VWNySFZCZG5RQjB4RTNJUQ?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "TVBS新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-05-31",
-      "published_display": "2026-05-31",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "流年"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-05"
     }
   ]
 }
