@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-05",
-  "updated_at_display": "2026年6月5日 00:21",
+  "updated_at_display": "2026年6月5日 15:09",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-05T00:21:49.877314+08:00",
+    "fetched_at": "2026-06-05T15:09:21.663351+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,9 +252,9 @@
   ],
   "items": [
     {
-      "title": "身邊有人在暗戀你嗎？新人還是舊人？ta是過客還是緣分？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "他對你的愛在增加還是減少？最近對你有哪些看法感覺?|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FNklNamRNZ09SQTNaeW1ERTRpNW5YTnB2dVhyYzR4aV95bXhaYTJfc0Fva2JCVTZkNTc5UFg3M3lpNU9jSC1TZklpdEh0RFpnemxPLU1R?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KYm1NbThtVXBmdTJsNDNFWFNremdnOG9EamdxaXdacE82bDY0aUkySVZSaWpxSTZUQUc2SlRjR25wUlY5SFRucnd0RFlBUXdpR1FJNkFB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-07"
+      "event_cluster": "event-08"
     },
     {
       "title": "看到有些年輕的紫微斗數命理師們嘗試著要把馬斯克、巴菲特等「巨頭」的命盤打出來，精神可佩！可惜在他們的養成教育當中缺乏一些環節，這種努力恐怕都要做白工，非常可惜！ 紫微斗數、八字等中國傳統術數的先天缺陷：",
@@ -287,7 +287,7 @@
         "八字"
       ],
       "score": 14.35,
-      "event_cluster": "event-09"
+      "event_cluster": "event-10"
     },
     {
       "title": "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍：",
@@ -306,19 +306,19 @@
         "热议"
       ],
       "score": 12.95,
-      "event_cluster": "event-69"
+      "event_cluster": "event-71"
     },
     {
-      "title": "命理師揭下半年運勢！「乳製品」恐短缺？",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxORC1qRy1LVkxwUzIwaDBfVXJmMXpTTlBOZnZnZGtWVTI0S2dYTG5KM0I3cTBlYk4zRFNlMDcza3dnSUgweWl2dXd1N1REUEtURC1qeWZHQ3cwRGlwaVpQZXRkQXVlX20xN3owY0l1clpEOUR2TGhhcWNQVHdjN05zdWtrbjlvcjQ4SHVYaG1NcklOMllaWjhXNmVMdGZod2FDSGloZ19ybFhNeHJiOV9sQlJpTWJrMEdNUnJhdDVXNC1IU0YzeU5BSUJMRDhUUGlaMDNnbzJqa205R1lhd3MtN2h4Z05vdXZNZ01mdkxLNUl2QXFBVGFwRXRXM2JXMmRqVVQ3ZjNxRkV5QQ?oc=5",
+      "title": "命理師看台北市長選戰…蔣萬安「5到10月運勢差」、沈伯洋「水多恐辛苦」",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJbFNsZU9Db0NUOUVUd1lVeUJvWjJLTXhySkN0YWVWNHhRWXBMNmlFQmVlRGFEUUFxU2lFQVRTZDFXUncyUGhyX1RpS1o1Mkl5OFVyMldn0gFWQVVfeXFMUElsU2xlT0NvQ1Q5RVR3WVV5Qm9aMktNeHJKQ3RhZVY0eFFZcEw2aUVCZWVEYURRQXFTaUVBVFNkMVdSdzJQaHJfVGlLWjUySXk4VXIyV2c?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
+      "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-06-04",
-      "published_display": "2026-06-04",
+      "published": "2026-06-05",
+      "published_display": "2026-06-05",
       "matched_keywords": [
         "命理",
         "命理師",
@@ -347,11 +347,11 @@
       "event_cluster": "event-02"
     },
     {
-      "title": "2026下半年運勢翻盤！命理師點名4生肖「財運狂暴衝」端午過後大轉運",
-      "summary": "来自 民視新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DWjFjUlRlemdSSkU3aEg3aWtCXzJnUHZ3QmpOUUkxSWZxOGN2dFpBWHEwQ25aVDhwd2h4bVlXQU5QeHdUSDAyYmI2ZXdGbWQ2dnJaT0hPVnpkNVQwSW9LWA?oc=5",
+      "title": "端午最強轉運攻略命理師教6招逆轉運勢喝水就能旺財- 好運到",
+      "summary": "来自 觸mii · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vMnA2Nlk2cE9KaldPLWhxczktdF9ZaWVhWXREcVJ2UVZQTXpDby1hd1haRkZDXzlWczNBUVJoUWV3OVhBcDlrLVZnTUY5SGY3VUlXSldjQWhBX1F1eGViUkxoaGpLVENoN0tpTQ?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "民視新聞網 · Google News",
+      "source": "觸mii · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -366,11 +366,11 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "端午最強轉運攻略命理師教6招逆轉運勢喝水就能旺財- 好運到",
-      "summary": "来自 觸mii · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRmV6UHpmQS1qZ2FwakFTUDdmSi1jS29GQXRtdkNManh0YkNaVEdoc0NQVFE4WFJsaXo4TEVPVlF6X1l4aXYxdi0zdmJKcXdiWHlFTlBmZXZQa0h5Z0lDZlJ6UUZYVEdwVUhqaTc4ZXlYV3loSjRCOTE1YkU1RUs1MWIxVnA5c1JKNkJabjB3?oc=5",
+      "title": "2026下半年運勢翻盤！命理師點名4生肖「財運狂暴衝」端午過後大轉運",
+      "summary": "来自 民視新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DWjFjUlRlemdSSkU3aEg3aWtCXzJnUHZ3QmpOUUkxSWZxOGN2dFpBWHEwQ25aVDhwd2h4bVlXQU5QeHdUSDAyYmI2ZXdGbWQ2dnJaT0hPVnpkNVQwSW9LWA?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "觸mii · Google News",
+      "source": "民視新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",

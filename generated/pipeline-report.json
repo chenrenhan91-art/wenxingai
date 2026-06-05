@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-06-05T00:21:33.228458+08:00",
-  "ran_at_display": "2026年6月5日 00:21",
+  "ran_at": "2026-06-05T15:09:04.726316+08:00",
+  "ran_at_display": "2026年6月5日 15:09",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "a5b7df40a4d406b2641d418d26afa89723aa84be",
-  "new_signature": "de1a80d0aa57cc05046922094936fad3aa487961",
+  "previous_signature": "de1a80d0aa57cc05046922094936fad3aa487961",
+  "new_signature": "6b6a3e8361f9594fbebc4c0cae29adbc0ff00f13",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,16 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "身邊有人在暗戀你嗎？新人還是舊人？ta是過客還是緣分？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "他對你的愛在增加還是減少？最近對你有哪些看法感覺?|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "看到有些年輕的紫微斗數命理師們嘗試著要把馬斯克、巴菲特等「巨頭」的命盤打出來，精神可佩！可惜在他們的養成教育當中缺乏一些環節，這種努力恐怕都要做白工，非常可惜！ 紫微斗數、八字等中國傳統術數的先天缺陷：",
     "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍：",
-    "命理師揭下半年運勢！「乳製品」恐短缺？",
+    "命理師看台北市長選戰…蔣萬安「5到10月運勢差」、沈伯洋「水多恐辛苦」",
     "2026芒種節氣到！命理師揭「兩大開運秘訣」 2生肖女性大掃除有助旺財"
   ],
   "added_titles": [
-    "身邊有人在暗戀你嗎？新人還是舊人？ta是過客還是緣分？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "看到有些年輕的紫微斗數命理師們嘗試著要把馬斯克、巴菲特等「巨頭」的命盤打出來，精神可佩！可惜在他們的養成教育當中缺乏一些環節，這種努力恐怕都要做白工，非常可惜！ 紫微斗數、八字等中國傳統術數的先天缺陷：",
-    "命理師揭下半年運勢！「乳製品」恐短缺？"
+    "他對你的愛在增加還是減少？最近對你有哪些看法感覺?|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "命理師看台北市長選戰…蔣萬安「5到10月運勢差」、沈伯洋「水多恐辛苦」"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -43,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月5日 00:21"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月5日 15:09"
     },
     {
       "script": "generate_daily_content.py",
