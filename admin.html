@@ -186,43 +186,50 @@
     color: #94a3b8;
   }
   .user-card-mid {
-    margin-top: 8px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     gap: 8px;
     flex-wrap: wrap;
   }
-  .invite-code-box {
+  .user-id-box {
     font-family: 'Courier New', monospace;
-    font-size: 0.88rem;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    color: #67e8f9;
-    background: rgba(103,232,249,0.06);
-    border: 1px solid rgba(103,232,249,0.2);
+    font-size: 0.72rem;
+    color: #94a3b8;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
     border-radius: 6px;
-    padding: 4px 10px;
+    padding: 5px 9px;
     flex: 1;
     min-width: 0;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  .copy-btn {
-    background: rgba(103,232,249,0.1);
-    border: 1px solid rgba(103,232,249,0.25);
+  .user-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+  }
+  .member-btn {
+    border: none;
     border-radius: 7px;
-    color: #67e8f9;
-    padding: 5px 14px;
+    color: #fff;
+    padding: 8px 14px;
     font-size: 0.78rem;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
     white-space: nowrap;
-    transition: background 0.15s;
-    flex-shrink: 0;
+    transition: opacity 0.15s, transform 0.15s;
   }
-  .copy-btn:active { background: rgba(103,232,249,0.25); }
-  .copy-btn.copied { background: rgba(74,222,128,0.15); color: #4ade80; border-color: rgba(74,222,128,0.3); }
+  .member-btn:disabled { opacity: 0.55; cursor: not-allowed; }
+  .member-btn:active { transform: translateY(1px); }
+  .open-member-btn { background: linear-gradient(135deg, #7c3aed, #2563eb); }
+  .cancel-member-btn {
+    background: rgba(248,113,113,0.12);
+    border: 1px solid rgba(248,113,113,0.35);
+    color: #fca5a5;
+  }
   .user-quota {
     font-size: 0.76rem;
     color: #64748b;
@@ -260,7 +267,7 @@
   </div>
 
   <div class="stats-bar" id="statsBar"></div>
-  <input type="search" class="search-box" id="searchBox" placeholder="🔍 搜索邮箱或邀请码..." oninput="renderList()" autocomplete="off">
+  <input type="search" class="search-box" id="searchBox" placeholder="🔍 搜索邮箱或用户 ID..." oninput="renderList()" autocomplete="off">
   <div id="userList" class="user-list"><div class="loading">加载中...</div></div>
 </div>
 
@@ -270,7 +277,7 @@
   const PROXY_BASE = _isLocal
     ? 'https://vyumtwiwwuqqcipdskis.supabase.co'
     : (location.origin + '/proxy');
-  const ADMIN_FN = PROXY_BASE + '/functions/v1/swift-endpoint';
+  const ADMIN_FN = PROXY_BASE + '/functions/v1/admin-list';
 
   let _secret = '';
   let _allUsers = [];
@@ -358,7 +365,7 @@
     const filtered = q
       ? _allUsers.filter(u =>
           (u.email || '').toLowerCase().includes(q) ||
-          (u.invite_code || '').toLowerCase().includes(q))
+          (u.user_id || '').toLowerCase().includes(q))
       : _allUsers;
 
     // 统计
@@ -387,35 +394,62 @@
             <span class="badge ${u.is_pro ? 'badge-pro' : 'badge-free'}">${u.is_pro ? '专业版' : '免费版'}</span>
           </div>
           <div class="user-card-mid">
-            <div class="invite-code-box">${escHtml(u.invite_code || '--')}</div>
-            <button class="copy-btn" onclick="copyCode(this, '${escHtml(u.invite_code || '')}')">复制</button>
+            <div class="user-id-box">ID：${escHtml(u.user_id || '--')}</div>
           </div>
           <div class="user-quota">AI 额度：${quota}</div>
           <div class="user-date">注册时间：${date}</div>
+          <div class="user-actions">
+            ${u.is_pro
+              ? `<button class="member-btn cancel-member-btn" onclick="setMembership('${escAttr(u.user_id || '')}', false, this)">取消专业版</button>`
+              : `<button class="member-btn open-member-btn" onclick="setMembership('${escAttr(u.user_id || '')}', true, this)">开通会员</button>`}
+          </div>
         </div>
       `;
     }).join('');
   }
 
-  function copyCode(btn, code) {
-    if (!code) return;
-    navigator.clipboard.writeText(code).then(() => {
-      btn.textContent = '已复制 ✓';
-      btn.classList.add('copied');
-      setTimeout(() => {
-        btn.textContent = '复制';
-        btn.classList.remove('copied');
-      }, 1800);
-    }).catch(() => {
-      // 降级：选择文字
-      const el = btn.previousElementSibling;
-      if (el) {
-        const range = document.createRange();
-        range.selectNode(el);
-        window.getSelection()?.removeAllRanges();
-        window.getSelection()?.addRange(range);
+  async function setMembership(userId, isPro, btn) {
+    if (!userId) return;
+    const actionText = isPro ? '开通会员' : '取消专业版';
+    if (!confirm(`确认${actionText}？`)) return;
+
+    const oldText = btn?.textContent || actionText;
+    if (btn) {
+      btn.disabled = true;
+      btn.textContent = isPro ? '开通中...' : '取消中...';
+    }
+
+    try {
+      const resp = await fetch(ADMIN_FN, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          secret: _secret,
+          action: 'set_pro',
+          user_id: userId,
+          is_pro: isPro,
+        }),
+      });
+      const data = await resp.json().catch(() => ({}));
+      if (!resp.ok || data.error) {
+        if (resp.status === 401) { logout(); return; }
+        alert('操作失败：' + (data.error || resp.status));
+        return;
       }
-    });
+      _allUsers = data.data || [];
+      renderList();
+    } catch (e) {
+      alert('网络错误，请重试');
+    } finally {
+      if (btn) {
+        btn.disabled = false;
+        btn.textContent = oldText;
+      }
+    }
+  }
+
+  function escAttr(str) {
+    return escHtml(str).replace(/'/g, '&#39;');
   }
 
   function escHtml(str) {

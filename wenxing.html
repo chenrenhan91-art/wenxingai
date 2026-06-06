@@ -2820,18 +2820,8 @@
                 </div>
 
                 <div class="auth-modal-actions">
-                    <div id="inviteCodeSection" style="display:none; margin-bottom:12px;">
-                        <div style="font-size:0.78rem; color:#94a3b8; margin-bottom:6px;">已付费？将收到的专属邀请码输入下方即可激活</div>
-                        <div style="display:flex; gap:8px;">
-                            <input type="text" id="inviteCodeInput" maxlength="32"
-                                style="flex:1; background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.15); border-radius:8px; padding:9px 12px; color:#e2e8f0; font-size:0.9rem; outline:none; text-transform:uppercase; letter-spacing:1px;"
-                                placeholder="WXAI-XXXXXXXX" autocomplete="off">
-                            <button type="button" id="inviteCodeBtn" onclick="redeemInviteCode()"
-                                style="background:linear-gradient(135deg,#7c3aed,#2563eb); border:none; color:#fff; padding:9px 16px; border-radius:8px; cursor:pointer; font-size:0.85rem; font-weight:700; white-space:nowrap;">
-                                激活
-                            </button>
-                        </div>
-                        <div id="inviteCodeStatus" style="font-size:0.78rem; margin-top:5px; min-height:1.2em;"></div>
+                    <div id="membershipNotice" style="display:none; margin-bottom:12px; font-size:0.78rem; color:#94a3b8; line-height:1.7;">
+                        付款后无需输入邀请码，管理员会直接为当前账号开通专业版。开通后重新打开账户中心即可同步状态。
                     </div>
                     <a href="javascript:void(0)" id="authUpgradeLink" class="auth-modal-ghost" onclick="openProPage()" style="display:block; text-decoration:none; text-align:center;">升级专业版</a>
                     <button type="button" class="auth-modal-danger" onclick="logoutUser()">退出登录</button>
@@ -3167,8 +3157,8 @@
                 document.getElementById('authAccountQuota').textContent = '无限使用';
                 document.getElementById('authAccountDesc').textContent = '当前已是专业版，返回星盘后即可直接无限使用 AI 解读。';
                 if (upgradeLink) upgradeLink.style.display = 'none';
-                const invSec = document.getElementById('inviteCodeSection');
-                if (invSec) invSec.style.display = 'none';
+                const notice = document.getElementById('membershipNotice');
+                if (notice) notice.style.display = 'none';
             } else {
                 document.getElementById('authAccountPlan').textContent = '免费版';
                 document.getElementById('authAccountQuota').textContent = `剩余 ${currentUser.remaining}/${currentUser.total}`;
@@ -3180,8 +3170,8 @@
                     if (upgradeLink) { upgradeLink.textContent = '升级专业版'; upgradeLink.style.background = ''; upgradeLink.style.color = ''; upgradeLink.style.borderRadius = ''; upgradeLink.style.padding = ''; }
                 }
                 if (upgradeLink) upgradeLink.style.display = 'block';
-                const invSec = document.getElementById('inviteCodeSection');
-                if (invSec) invSec.style.display = 'block';
+                const notice = document.getElementById('membershipNotice');
+                if (notice) notice.style.display = 'block';
             }
             return;
         }
@@ -3351,59 +3341,6 @@
         // onAuthStateChange 会自动重置 currentUser 并调用 renderAuthUI
         authModalMode = 'login';
         setAuthModalStatus('已退出登录。', 'info');
-    }
-
-    async function redeemInviteCode() {
-        const input = document.getElementById('inviteCodeInput');
-        const btn = document.getElementById('inviteCodeBtn');
-        const statusEl = document.getElementById('inviteCodeStatus');
-        const code = (input?.value || '').trim().toUpperCase();
-        if (!code) {
-            statusEl.textContent = '请输入邀请码';
-            statusEl.style.color = '#f87171';
-            return;
-        }
-        btn.disabled = true;
-        btn.textContent = '验证中...';
-        statusEl.textContent = '';
-        try {
-            const resp = await fetch(`${PROXY_BASE}/rest/v1/rpc/redeem_invite_code`, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'apikey': SUPABASE_ANON,
-                    'Authorization': `Bearer ${getAuthToken()}`,
-                },
-                body: JSON.stringify({ p_code: code }),
-            });
-            const data = await resp.json().catch(() => ({}));
-            if (!resp.ok) throw new Error(data?.message || '网络错误');
-            if (data?.success) {
-                if (input) input.value = '';
-                // 立即乐观更新本地状态，无需等待网络
-                if (currentUser) { currentUser.isPro = true; }
-                renderAuthModal();
-                renderAuthUI();
-                statusEl.textContent = '✅ 成功激活专业版！';
-                statusEl.style.color = '#4ade80';
-                // 后台与服务端同步真实数据
-                fetchMe().catch(() => {});
-            } else {
-                const errMap = {
-                    'INVALID_CODE': '邀请码不存在或已被使用',
-                    'ALREADY_PRO': '账号已是专业版',
-                    'UNAUTHORIZED': '请先登录',
-                };
-                statusEl.textContent = '❌ ' + (errMap[data?.error] || '邀请码无效，请重试');
-                statusEl.style.color = '#f87171';
-            }
-        } catch (e) {
-            statusEl.textContent = '❌ ' + (e?.message || '网络错误，请重试');
-            statusEl.style.color = '#f87171';
-        } finally {
-            btn.disabled = false;
-            btn.textContent = '激活';
-        }
     }
 
     function parseLocalYmd(dateStr) {
