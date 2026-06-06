@@ -34,12 +34,17 @@ Deno.serve(async (req) => {
 
     if (body.action === 'set_pro') {
       const userId = String(body.user_id || '').trim();
-      if (!userId || typeof body.is_pro !== 'boolean') {
+      const email = String(body.email || '').trim().toLowerCase();
+      if ((!userId && !email) || typeof body.is_pro !== 'boolean') {
         return json({ error: 'BAD_REQUEST' }, 400);
+      }
+      const resolvedUserId = userId || await findUserIdByEmail(supabaseUrl, serviceRoleKey, email);
+      if (!resolvedUserId) {
+        return json({ error: 'USER_NOT_FOUND' }, 404);
       }
 
       const updateResp = await fetch(
-        supabaseUrl + '/rest/v1/profiles?user_id=eq.' + encodeURIComponent(userId) + '&select=user_id',
+        supabaseUrl + '/rest/v1/profiles?user_id=eq.' + encodeURIComponent(resolvedUserId) + '&select=user_id',
         {
           method: 'PATCH',
           headers: {
@@ -92,6 +97,29 @@ async function listUsers(supabaseUrl: string, serviceRoleKey: string) {
   }
 
   return await resp.json();
+}
+
+async function findUserIdByEmail(supabaseUrl: string, serviceRoleKey: string, email: string) {
+  if (!email) return '';
+  const resp = await fetch(
+    supabaseUrl + '/rest/v1/profiles_admin?email=eq.' + encodeURIComponent(email) + '&select=user_id&limit=1',
+    {
+      headers: {
+        'apikey': serviceRoleKey,
+        'Authorization': 'Bearer ' + serviceRoleKey,
+        'Accept': 'application/json',
+      },
+    },
+  );
+
+  if (!resp.ok) {
+    const err = await resp.text();
+    console.error('profiles_admin email lookup error:', resp.status, err);
+    throw new Error('LOOKUP_FAILED: ' + err);
+  }
+
+  const rows = await resp.json().catch(() => []);
+  return Array.isArray(rows) && rows[0] ? String(rows[0].user_id || '') : '';
 }
 
 function json(body: unknown, status: number) {

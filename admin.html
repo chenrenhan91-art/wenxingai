@@ -267,7 +267,21 @@
   </div>
 
   <div class="stats-bar" id="statsBar"></div>
-  <input type="search" class="search-box" id="searchBox" placeholder="🔍 搜索邮箱或用户 ID..." oninput="renderList()" autocomplete="off">
+  <input
+    type="text"
+    class="search-box"
+    id="searchBox"
+    name="wxai_admin_filter"
+    placeholder="🔍 搜索邮箱或用户 ID..."
+    oninput="renderList()"
+    autocomplete="new-password"
+    autocorrect="off"
+    autocapitalize="none"
+    spellcheck="false"
+    readonly
+    onfocus="this.removeAttribute('readonly')"
+    onpointerdown="this.removeAttribute('readonly')">
+  <div id="adminActionStatus" class="empty" style="display:none; padding:0 0 12px;"></div>
   <div id="userList" class="user-list"><div class="loading">加载中...</div></div>
 </div>
 
@@ -281,6 +295,7 @@
 
   let _secret = '';
   let _allUsers = [];
+  let _searchResetTimer = 0;
 
   // 尝试从 sessionStorage 恢复密码（关闭标签后清除）
   const stored = sessionStorage.getItem('admin_secret');
@@ -316,6 +331,7 @@
       sessionStorage.setItem('admin_secret', secret);
       _allUsers = data.data || [];
       showAdmin();
+      resetSearchBox();
       renderList();
     } catch (e) {
       errEl.textContent = '网络错误，请检查后重试';
@@ -328,6 +344,7 @@
   function showAdmin() {
     document.getElementById('loginView').style.display = 'none';
     document.getElementById('adminView').style.display = 'block';
+    resetSearchBox();
   }
 
   function logout() {
@@ -340,6 +357,7 @@
   }
 
   async function loadUsers() {
+    setActionStatus('');
     document.getElementById('userList').innerHTML = '<div class="loading">加载中...</div>';
     try {
       const resp = await fetch(ADMIN_FN, {
@@ -384,6 +402,8 @@
 
     document.getElementById('userList').innerHTML = filtered.map(u => {
       const date = u.created_at ? new Date(u.created_at).toLocaleDateString('zh-CN') : '--';
+      const userId = u.user_id || '';
+      const email = u.email || '';
       const quota = u.is_pro
         ? '无限使用'
         : `剩余 ${u.remaining_quota ?? '--'} / ${u.total_quota ?? '--'}`;
@@ -394,30 +414,35 @@
             <span class="badge ${u.is_pro ? 'badge-pro' : 'badge-free'}">${u.is_pro ? '专业版' : '免费版'}</span>
           </div>
           <div class="user-card-mid">
-            <div class="user-id-box">ID：${escHtml(u.user_id || '--')}</div>
+            <div class="user-id-box">ID：${escHtml(userId || '暂未返回，已启用邮箱兜底')}</div>
           </div>
           <div class="user-quota">AI 额度：${quota}</div>
           <div class="user-date">注册时间：${date}</div>
           <div class="user-actions">
             ${u.is_pro
-              ? `<button class="member-btn cancel-member-btn" onclick="setMembership('${escAttr(u.user_id || '')}', false, this)">取消专业版</button>`
-              : `<button class="member-btn open-member-btn" onclick="setMembership('${escAttr(u.user_id || '')}', true, this)">开通会员</button>`}
+              ? `<button class="member-btn cancel-member-btn" onclick="setMembership('${escAttr(userId)}', '${escAttr(email)}', false, this)">取消专业版</button>`
+              : `<button class="member-btn open-member-btn" onclick="setMembership('${escAttr(userId)}', '${escAttr(email)}', true, this)">开通会员</button>`}
           </div>
         </div>
       `;
     }).join('');
   }
 
-  async function setMembership(userId, isPro, btn) {
-    if (!userId) return;
+  async function setMembership(userId, email, isPro, btn) {
+    if (!userId && !email) {
+      setActionStatus('操作失败：当前用户缺少 ID 和邮箱，无法定位账号。', 'error');
+      return;
+    }
     const actionText = isPro ? '开通会员' : '取消专业版';
-    if (!confirm(`确认${actionText}？`)) return;
+    const targetLabel = email || userId;
+    if (!confirm(`确认给 ${targetLabel} ${actionText}？`)) return;
 
     const oldText = btn?.textContent || actionText;
     if (btn) {
       btn.disabled = true;
       btn.textContent = isPro ? '开通中...' : '取消中...';
     }
+    setActionStatus(`${actionText}中...`, 'info');
 
     try {
       const resp = await fetch(ADMIN_FN, {
@@ -427,6 +452,7 @@
           secret: _secret,
           action: 'set_pro',
           user_id: userId,
+          email,
           is_pro: isPro,
         }),
       });
@@ -434,18 +460,60 @@
       if (!resp.ok || data.error) {
         if (resp.status === 401) { logout(); return; }
         alert('操作失败：' + (data.error || resp.status));
+        setActionStatus('操作失败：' + (data.error || resp.status), 'error');
         return;
       }
       _allUsers = data.data || [];
+      const updated = _allUsers.find(u =>
+        (userId && u.user_id === userId) ||
+        (email && (u.email || '').toLowerCase() === email.toLowerCase())
+      );
+      if (!updated || updated.is_pro !== isPro) {
+        const message = '操作未生效：线上 Edge Function 仍是旧版本，请部署 swift-endpoint 后重试。';
+        alert(message);
+        setActionStatus(message, 'error');
+        renderList();
+        return;
+      }
+      setActionStatus(`已${actionText}：${targetLabel}`, 'success');
       renderList();
     } catch (e) {
       alert('网络错误，请重试');
+      setActionStatus('网络错误，请重试', 'error');
     } finally {
       if (btn) {
         btn.disabled = false;
         btn.textContent = oldText;
       }
     }
+  }
+
+  function resetSearchBox() {
+    const box = document.getElementById('searchBox');
+    if (!box) return;
+    window.clearTimeout(_searchResetTimer);
+    box.setAttribute('name', 'wxai_admin_filter_' + Date.now());
+    box.setAttribute('autocomplete', 'new-password');
+    box.value = '';
+    _searchResetTimer = window.setTimeout(() => {
+      if (box.value && box.value.includes('@') && document.activeElement !== box) {
+        box.value = '';
+        renderList();
+      }
+    }, 350);
+  }
+
+  function setActionStatus(message = '', type = 'info') {
+    const el = document.getElementById('adminActionStatus');
+    if (!el) return;
+    if (!message) {
+      el.style.display = 'none';
+      el.textContent = '';
+      return;
+    }
+    el.style.display = 'block';
+    el.textContent = message;
+    el.style.color = type === 'success' ? '#4ade80' : (type === 'error' ? '#f87171' : '#94a3b8');
   }
 
   function escAttr(str) {
