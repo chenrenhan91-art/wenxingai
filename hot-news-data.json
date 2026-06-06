@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-06",
-  "updated_at_display": "2026年6月6日 14:31",
+  "updated_at_display": "2026年6月6日 22:45",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-06T14:31:06.253631+08:00",
+    "fetched_at": "2026-06-06T22:45:59.090444+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -181,7 +181,7 @@
       "google_news_xuanxue_tw": 6.05,
       "google_news_taluo_tw": 5.85,
       "google_news_fengshui_tw": 5.85,
-      "ptt_gossiping": 5.55,
+      "ptt_gossiping": 5.45,
       "ptt_womentalk": 5.15,
       "ptt_marvel": 4.65,
       "youtube_search": 5.55,
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-11"
+      "event_cluster": "event-12"
     },
     {
       "title": "看到有些年輕的紫微斗數命理師們嘗試著要把馬斯克、巴菲特等「巨頭」的命盤打出來，精神可佩！可惜在他們的養成教育當中缺乏一些環節，這種努力恐怕都要做白工，非常可惜！ 紫微斗數、八字等中國傳統術數的先天缺陷：",
@@ -287,7 +287,7 @@
         "八字"
       ],
       "score": 14.35,
-      "event_cluster": "event-13"
+      "event_cluster": "event-14"
     },
     {
       "title": "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我",
@@ -311,7 +311,7 @@
     {
       "title": "今天就是！千載難逢「超級666日」降臨 命理師曝開運招財秘訣",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wMGJPS1JId3V4WHU5dVQ5Vm9FRDZUS1BCRThDZ0lnZFNMOGlBTjR0SElxQ3hkQUVMSjhPZjl0dXFWOW1xYnlubTF2NFh4MkIxQ2dmS0RB0gFWQVVfeXFMTnAwYk9LUkh3dXhYdTl1VDlWb0VENlRLUEJFOENnSWdkU0w4aUFONHRISXFDeGRBRUxKOE9mOXR1cVY5bXFieW5tMXY0WHgyQjFDZ2ZLREE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0zVDNuc01EY2tBZ3Z5TExHekFtLTlZZzR0bk5tZkVDMXhaT1VjalBoNkxwdlJsa1BJSlBRSEhNQnZUSjNzNHUxRGFmVS1ZcWhnWk5RNDhrTnIydjF2RXV2TDV3SHdJTFJsUmN2RzRJanRyQnI4S1V2N0lnWdIBVkFVX3lxTE5wMGJPS1JId3V4WHU5dVQ5Vm9FRDZUS1BCRThDZ0lnZFNMOGlBTjR0SElxQ3hkQUVMSjhPZjl0dXFWOW1xYnlubTF2NFh4MkIxQ2dmS0RB?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -385,11 +385,11 @@
       "event_cluster": "event-04"
     },
     {
-      "title": "錯過要等下輩子！明逢千載難逢「666大吉日」 命理師揭開運秘訣",
-      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE44VmFVZkxzVzloSEE5TXhpV3pBOVdpOURlOW10R0tJS3JMQ3RMTmJjTnNKMXAtLTNIdEFsYmxONXlzU3RaczRoS3l5TjLSAVJBVV95cUxNUzZnV2ZobTlwVG40bFU3THRPbWQ4emZxUHlHTjYtZmNhUGVfN1l5Q1J2dnV2RlcwRUdYNFcwdFRCdXprQ3lHREhsdlhjd2J2cVZ3?oc=5",
+      "title": "《天機》AI命理師曝這類股票會漲！錯過偶像黃仁勳喊話「要算命請聯絡我」",
+      "summary": "来自 壹蘋新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV2lYYU1fX3FPd0hiLV9rYWcwY0ViQ3cyMU52YThibmduQ1g3NDAyTXl3V2UtNU90dVFEZkdCblBkakhKZ09RNHA2ZjhYSWo4ajhkUWVoT3RMU1FoVHg2UllMNFFZa3dOYjJlRG41b2pDS08xSUFncURxQXJEQlpsai05Sk1qTV9LV3c?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "NOWnews今日新聞 · Google News",
+      "source": "壹蘋新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -398,7 +398,7 @@
       "matched_keywords": [
         "命理",
         "命理師",
-        "開運"
+        "算命"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-05"

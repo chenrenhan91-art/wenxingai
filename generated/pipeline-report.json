@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-06-06T14:30:50.686653+08:00",
-  "ran_at_display": "2026年6月6日 14:30",
+  "ran_at": "2026-06-06T22:45:42.208504+08:00",
+  "ran_at_display": "2026年6月6日 22:45",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "6833d62ed8819e87d88e2d6e49de30c944879e06",
-  "new_signature": "6b60b3b3c42e696cf0fbfb27d2a30a7854a3e014",
+  "previous_signature": "6b60b3b3c42e696cf0fbfb27d2a30a7854a3e014",
+  "new_signature": "59b971c52ccc46898971c7e335d9efb760a24f5b",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,10 +27,7 @@
     "今天就是！千載難逢「超級666日」降臨 命理師曝開運招財秘訣",
     "命理師看台北市長選戰…蔣萬安「5到10月運勢差」、沈伯洋「水多恐辛苦」"
   ],
-  "added_titles": [
-    "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我",
-    "今天就是！千載難逢「超級666日」降臨 命理師曝開運招財秘訣"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
@@ -42,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月6日 14:31"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月6日 22:45"
     },
     {
       "script": "generate_daily_content.py",
