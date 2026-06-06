@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-06-05T23:57:50.228241+08:00",
-  "ran_at_display": "2026年6月5日 23:57",
+  "ran_at": "2026-06-06T14:30:50.686653+08:00",
+  "ran_at_display": "2026年6月6日 14:30",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "6b6a3e8361f9594fbebc4c0cae29adbc0ff00f13",
-  "new_signature": "6833d62ed8819e87d88e2d6e49de30c944879e06",
+  "previous_signature": "6833d62ed8819e87d88e2d6e49de30c944879e06",
+  "new_signature": "6b60b3b3c42e696cf0fbfb27d2a30a7854a3e014",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -23,12 +23,13 @@
   "new_titles": [
     "他對你的愛在增加還是減少？最近對你有哪些看法感覺?|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "看到有些年輕的紫微斗數命理師們嘗試著要把馬斯克、巴菲特等「巨頭」的命盤打出來，精神可佩！可惜在他們的養成教育當中缺乏一些環節，這種努力恐怕都要做白工，非常可惜！ 紫微斗數、八字等中國傳統術數的先天缺陷：",
-    "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍：",
-    "與黃仁勳完美擦身! 韓AI命理師排隊朝聖 喊話： 想算命隨時聯絡我",
+    "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我",
+    "今天就是！千載難逢「超級666日」降臨 命理師曝開運招財秘訣",
     "命理師看台北市長選戰…蔣萬安「5到10月運勢差」、沈伯洋「水多恐辛苦」"
   ],
   "added_titles": [
-    "與黃仁勳完美擦身! 韓AI命理師排隊朝聖 喊話： 想算命隨時聯絡我"
+    "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我",
+    "今天就是！千載難逢「超級666日」降臨 命理師曝開運招財秘訣"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -41,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月5日 23:58"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月6日 14:31"
     },
     {
       "script": "generate_daily_content.py",

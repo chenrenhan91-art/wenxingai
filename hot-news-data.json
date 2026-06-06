@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-05",
-  "updated_at_display": "2026年6月5日 23:58",
+  "updated_at": "2026-06-06",
+  "updated_at_display": "2026年6月6日 14:31",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-05T23:58:06.766591+08:00",
+    "fetched_at": "2026-06-06T14:31:06.253631+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -212,7 +212,7 @@
       },
       "ptt_gossiping": {
         "status": "ok",
-        "picked_items": 1,
+        "picked_items": 0,
         "failures": 0
       },
       "ptt_womentalk": {
@@ -232,7 +232,7 @@
       },
       "x_recent_search": {
         "status": "ok",
-        "picked_items": 1,
+        "picked_items": 2,
         "failures": 0
       },
       "reddit_search": {
@@ -290,32 +290,13 @@
       "event_cluster": "event-13"
     },
     {
-      "title": "[新聞] 鬼門開遇日全蝕超凶？命理師引述古籍：",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 9，作者 gearty。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1779885754.A.80A.html",
-      "source_id": "ptt_gossiping",
-      "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
+      "title": "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我",
+      "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8zVjdiV1R5VEdjamwyTjlIaUJEc0VBMUF4MzlrLVFzWTA0R29NcUo0NnRIa0VXTUYya1RmbkpkMlM2NUFxcXQxWXhWaDVGYWdBb0NkcGFxaFkzWmpIak4w?oc=5",
+      "source_id": "x_recent_search",
+      "source": "X · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-05-27",
-      "published_display": "2026-05-27",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "热议"
-      ],
-      "score": 12.95,
-      "event_cluster": "event-67"
-    },
-    {
-      "title": "與黃仁勳完美擦身! 韓AI命理師排隊朝聖 喊話： 想算命隨時聯絡我",
-      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQMHpjLUxIZFlXZjJoRjdiaVZ0NGt1S1dIUnNCWmZ6Z3pwSzdZVm5NUW8xdVhjdGVGVmZWVDEtMDh1ZTVleEFCTFFMZ3FrNVIybHdNWFFHeEVHeGtSaFdicDlkZnFHOE0yMWJTVVg4VG1Fcm9Id3J0bFdCcTNsVU5HdFlvOVU0VGNuWGFlSzBkck9Ib3R6b2NTbXdMbHYzN2YzY1FyNTNKVXo2RHNtMGltZk5mVTFCNFpLQXc3YkNYbzFJY2Z3VzRuUjBqbXFxZnhVNU9MX3ZJSHh3SURncWFOYXM4QWtodW1ORWVrdzhZVFEyRU5IOTVCLVV3UmVsUFJycG52NEw1S2J1Ti11T09rSXZOcTk3cDI5QWFvYm1wX1RFQ2g4ZVpjb3Z6ZmZHeFA3V1hMZGdQbDd4Nk9ibGVKMlRESHRsaUFFb3NmXzJVS0UxNXFmZ2NLNjZhRkluaVJmbkhSME1MdkthRDRNa19nSWg1V3l2RlhxT29KZGl1b0lSS3B3S3hQbVlzN1RscU0zN0RZa1FmeXBpWFI3OWVhenJCRzdnRXc?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "MSN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
       "category": "命理新闻",
       "published": "2026-06-05",
       "published_display": "2026-06-05",
@@ -323,6 +304,25 @@
         "命理",
         "命理師",
         "算命"
+      ],
+      "score": 12.149999999999999,
+      "event_cluster": "event-04"
+    },
+    {
+      "title": "今天就是！千載難逢「超級666日」降臨 命理師曝開運招財秘訣",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wMGJPS1JId3V4WHU5dVQ5Vm9FRDZUS1BCRThDZ0lnZFNMOGlBTjR0SElxQ3hkQUVMSjhPZjl0dXFWOW1xYnlubTF2NFh4MkIxQ2dmS0RB0gFWQVVfeXFMTnAwYk9LUkh3dXhYdTl1VDlWb0VENlRLUEJFOENnSWdkU0w4aUFONHRISXFDeGRBRUxKOE9mOXR1cVY5bXFieW5tMXY0WHgyQjFDZ2ZLREE?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "UDN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-06",
+      "published_display": "2026-06-06",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-01"
@@ -347,6 +347,25 @@
       "event_cluster": "event-02"
     },
     {
+      "title": "與黃仁勳完美擦身! 韓AI命理師排隊朝聖 喊話： 想算命隨時聯絡我",
+      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQMHpjLUxIZFlXZjJoRjdiaVZ0NGt1S1dIUnNCWmZ6Z3pwSzdZVm5NUW8xdVhjdGVGVmZWVDEtMDh1ZTVleEFCTFFMZ3FrNVIybHdNWFFHeEVHeGtSaFdicDlkZnFHOE0yMWJTVVg4VG1Fcm9Id3J0bFdCcTNsVU5HdFlvOVU0VGNuWGFlSzBkck9Ib3R6b2NTbXdMbHYzN2YzY1FyNTNKVXo2RHNtMGltZk5mVTFCNFpLQXc3YkNYbzFJY2Z3VzRuUjBqbXFxZnhVNU9MX3ZJSHh3SURncWFOYXM4QWtodW1ORWVrdzhZVFEyRU5IOTVCLVV3UmVsUFJycG52NEw1S2J1Ti11T09rSXZOcTk3cDI5QWFvYm1wX1RFQ2g4ZVpjb3Z6ZmZHeFA3V1hMZGdQbDd4Nk9ibGVKMlRESHRsaUFFb3NmXzJVS0UxNXFmZ2NLNjZhRkluaVJmbkhSME1MdkthRDRNa19nSWg1V3l2RlhxT29KZGl1b0lSS3B3S3hQbVlzN1RscU0zN0RZa1FmeXBpWFI3OWVhenJCRzdnRXc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "MSN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-05",
+      "published_display": "2026-06-05",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "算命"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
       "title": "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我- 股市爆料同學會",
       "summary": "来自 CMoney · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJeUVpSXExNG04bDFFRjhFcWpKbUpUSUxuc2xiQTBwNGQ3U1lkMUFEMElBOTVoSTFpZl9rdndzUC1IOVpreE1KWS1fbjQzMF9VS2hIcWNvRGY?oc=5",
@@ -363,7 +382,7 @@
         "算命"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "錯過要等下輩子！明逢千載難逢「666大吉日」 命理師揭開運秘訣",
@@ -376,25 +395,6 @@
       "category": "命理新闻",
       "published": "2026-06-05",
       "published_display": "2026-06-05",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "2026芒種節氣到！命理師揭「兩大開運秘訣」 2生肖女性大掃除有助旺財",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMitwNBVV95cUxNTjVqTmZTbDcyUXpFUi0wTVBST3FBczJkdkdoOXdCMmxsazlVdWNtOWY1RzJOMkpKRFJCeWpZRWlmXzRZc1BJV0d6cmI5b1RHeC1BNmRUUHVuYTJBUmwwN3ZYekViSmFVM1JieXphYWlOVGxXcjdkVXdzbEt4V2NaUHJhelJGTGhKSVI0Nk5HcHJCN0MxUkxLMkZFQ0cyeFZwZ2pveDV0VkI3RXBMbW9yT01iZk1lYUtvZy1DU04tZDJTWjdweU5Mb1VFTTE2ZXRkZ1dBakpSOGdPMXh2cWVNS25MQktDcm45R0x4X2lNME5DRWxfTTBXdENkeGVXa2QtUzRHX0FmRTJWTE5zdmdHVHdOckJweTJxLVVLVnBpTUg1NGpWMEhvQjZQSE9oVzFXVkE2cDRQdnlKSmFtazBqZ0ZNeUFpUEJzTnd4RUpVVktnUUVPZjV2bDc1UG8wR2hab2QyYlQ5aVFGaVFBaGlmTWVHd3NPUjNVcFAySGJUTFE5Z2RIMXI5V205dmxwaW5pc3c0UWlxMG9oVjE2NldGTklfOE51djluVS1CbGNkU0d0UDlwMEg4?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-04",
-      "published_display": "2026-06-04",
       "matched_keywords": [
         "命理",
         "命理師",
