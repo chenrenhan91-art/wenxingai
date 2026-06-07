@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-06",
-  "updated_at_display": "2026年6月6日 22:45",
+  "updated_at": "2026-06-07",
+  "updated_at_display": "2026年6月7日 15:06",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-06T22:45:59.090444+08:00",
+    "fetched_at": "2026-06-07T15:06:16.020195+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "八字"
       ],
       "score": 14.35,
-      "event_cluster": "event-14"
+      "event_cluster": "event-15"
     },
     {
       "title": "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我",
@@ -311,7 +311,7 @@
     {
       "title": "今天就是！千載難逢「超級666日」降臨 命理師曝開運招財秘訣",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0zVDNuc01EY2tBZ3Z5TExHekFtLTlZZzR0bk5tZkVDMXhaT1VjalBoNkxwdlJsa1BJSlBRSEhNQnZUSjNzNHUxRGFmVS1ZcWhnWk5RNDhrTnIydjF2RXV2TDV3SHdJTFJsUmN2RzRJanRyQnI4S1V2N0lnWdIBVkFVX3lxTE5wMGJPS1JId3V4WHU5dVQ5Vm9FRDZUS1BCRThDZ0lnZFNMOGlBTjR0SElxQ3hkQUVMSjhPZjl0dXFWOW1xYnlubTF2NFh4MkIxQ2dmS0RB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wMGJPS1JId3V4WHU5dVQ5Vm9FRDZUS1BCRThDZ0lnZFNMOGlBTjR0SElxQ3hkQUVMSjhPZjl0dXFWOW1xYnlubTF2NFh4MkIxQ2dmS0RB0gFWQVVfeXFMTnAwYk9LUkh3dXhYdTl1VDlWb0VENlRLUEJFOENnSWdkU0w4aUFONHRISXFDeGRBRUxKOE9mOXR1cVY5bXFieW5tMXY0WHgyQjFDZ2ZLREE?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
