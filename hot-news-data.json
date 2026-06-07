@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-07",
-  "updated_at_display": "2026年6月7日 15:06",
+  "updated_at_display": "2026年6月7日 22:55",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-07T15:06:16.020195+08:00",
+    "fetched_at": "2026-06-07T22:55:12.484933+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "他對你的愛在增加還是減少？最近對你有哪些看法感覺?|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "他現在對你的真實想法！內心如何看待你？他預設的關係走向？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KYm1NbThtVXBmdTJsNDNFWFNremdnOG9EamdxaXdacE82bDY0aUkySVZSaWpxSTZUQUc2SlRjR25wUlY5SFRucnd0RFlBUXdpR1FJNkFB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WXzhtWVQ0LW9BcHQwQ1BGdTZnVkNMU0lWNVRuQXRhdkpNWVAyQVVsWFU2Nk4tYmcwb0YwTVRoTFVDLVhuVDRISC1CaVNJQzM5VXBYVVdR?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-06-04",
-      "published_display": "2026-06-04",
+      "published": "2026-05-19",
+      "published_display": "2026-05-19",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-12"
+      "event_cluster": "event-24"
     },
     {
       "title": "看到有些年輕的紫微斗數命理師們嘗試著要把馬斯克、巴菲特等「巨頭」的命盤打出來，精神可佩！可惜在他們的養成教育當中缺乏一些環節，這種努力恐怕都要做白工，非常可惜！ 紫微斗數、八字等中國傳統術數的先天缺陷：",
@@ -287,7 +287,7 @@
         "八字"
       ],
       "score": 14.35,
-      "event_cluster": "event-15"
+      "event_cluster": "event-14"
     },
     {
       "title": "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我",
@@ -328,9 +328,28 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "命理師看台北市長選戰…蔣萬安「5到10月運勢差」、沈伯洋「水多恐辛苦」",
+      "title": "討論牆 | 2026芒種節氣到！命理師揭「兩大開運秘訣」 2生肖女性大掃除有助旺財",
+      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9IX3ZxVklTYS16QW5uLWZyaXNfSTFycFFBdl9xeE5tYmZpaHEzS1g5blBCYlRDVUVSR3UxVkxuOFZET1JuOG5MVXVnSHFROUgzSDZ6Wm5kMlU2QWE0LWd3b2FvbS0?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "LINE TODAY · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-06",
+      "published_display": "2026-06-06",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
+      "title": "命理師看台北市長選戰…蔣萬安「這期間運勢差」、沈伯洋「1事恐辛苦」",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJbFNsZU9Db0NUOUVUd1lVeUJvWjJLTXhySkN0YWVWNHhRWXBMNmlFQmVlRGFEUUFxU2lFQVRTZDFXUncyUGhyX1RpS1o1Mkl5OFVyMldn0gFWQVVfeXFMUElsU2xlT0NvQ1Q5RVR3WVV5Qm9aMktNeHJKQ3RhZVY0eFFZcEw2aUVCZWVEYURRQXFTaUVBVFNkMVdSdzJQaHJfVGlLWjUySXk4VXIyV2c?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAtTk8weVhGVkh4SjkxTXo3cWRRMkpYeFpYcHNaT3hkSVlMYzRGS2xjSllRUHNTdGRqaC1RS1NoZHhFbkZGMDdaMlNXNDYwNG9t0gFWQVVfeXFMUElsU2xlT0NvQ1Q5RVR3WVV5Qm9aMktNeHJKQ3RhZVY0eFFZcEw2aUVCZWVEYURRQXFTaUVBVFNkMVdSdzJQaHJfVGlLWjUySXk4VXIyV2c?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -342,25 +361,6 @@
         "命理",
         "命理師",
         "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-02"
-    },
-    {
-      "title": "與黃仁勳完美擦身! 韓AI命理師排隊朝聖 喊話： 想算命隨時聯絡我",
-      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQMHpjLUxIZFlXZjJoRjdiaVZ0NGt1S1dIUnNCWmZ6Z3pwSzdZVm5NUW8xdVhjdGVGVmZWVDEtMDh1ZTVleEFCTFFMZ3FrNVIybHdNWFFHeEVHeGtSaFdicDlkZnFHOE0yMWJTVVg4VG1Fcm9Id3J0bFdCcTNsVU5HdFlvOVU0VGNuWGFlSzBkck9Ib3R6b2NTbXdMbHYzN2YzY1FyNTNKVXo2RHNtMGltZk5mVTFCNFpLQXc3YkNYbzFJY2Z3VzRuUjBqbXFxZnhVNU9MX3ZJSHh3SURncWFOYXM4QWtodW1ORWVrdzhZVFEyRU5IOTVCLVV3UmVsUFJycG52NEw1S2J1Ti11T09rSXZOcTk3cDI5QWFvYm1wX1RFQ2g4ZVpjb3Z6ZmZHeFA3V1hMZGdQbDd4Nk9ibGVKMlRESHRsaUFFb3NmXzJVS0UxNXFmZ2NLNjZhRkluaVJmbkhSME1MdkthRDRNa19nSWg1V3l2RlhxT29KZGl1b0lSS3B3S3hQbVlzN1RscU0zN0RZa1FmeXBpWFI3OWVhenJCRzdnRXc?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "MSN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-05",
-      "published_display": "2026-06-05",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "算命"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-03"
