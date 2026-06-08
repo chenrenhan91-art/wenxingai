@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-07",
-  "updated_at_display": "2026年6月7日 22:55",
+  "updated_at": "2026-06-08",
+  "updated_at_display": "2026年6月8日 16:10",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-07T22:55:12.484933+08:00",
+    "fetched_at": "2026-06-08T16:10:51.504332+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "他現在對你的真實想法！內心如何看待你？他預設的關係走向？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "他對你的愛在增加還是減少？最近對你有哪些看法感覺?|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WXzhtWVQ0LW9BcHQwQ1BGdTZnVkNMU0lWNVRuQXRhdkpNWVAyQVVsWFU2Nk4tYmcwb0YwTVRoTFVDLVhuVDRISC1CaVNJQzM5VXBYVVdR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KYm1NbThtVXBmdTJsNDNFWFNremdnOG9EamdxaXdacE82bDY0aUkySVZSaWpxSTZUQUc2SlRjR25wUlY5SFRucnd0RFlBUXdpR1FJNkFB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-05-19",
-      "published_display": "2026-05-19",
+      "published": "2026-06-04",
+      "published_display": "2026-06-04",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-24"
+      "event_cluster": "event-11"
     },
     {
       "title": "看到有些年輕的紫微斗數命理師們嘗試著要把馬斯克、巴菲特等「巨頭」的命盤打出來，精神可佩！可惜在他們的養成教育當中缺乏一些環節，這種努力恐怕都要做白工，非常可惜！ 紫微斗數、八字等中國傳統術數的先天缺陷：",
@@ -287,7 +287,7 @@
         "八字"
       ],
       "score": 14.35,
-      "event_cluster": "event-14"
+      "event_cluster": "event-13"
     },
     {
       "title": "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我",
