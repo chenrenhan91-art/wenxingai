@@ -1,9 +1,9 @@
-# 问星AI 内容自动化运行报告 2026年6月9日 14:50
+# 问星AI 内容自动化运行报告 2026年6月10日 00:06
 
 - 总体状态：failed_generate
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：c1ccdd509d0566439202d44289ace8ceba1bb613
+- 变更签名：2c229f7b934c1a3cdcaddc933e72217e255a9670
 - Gemini 是否执行：是
 - Gemini 审校是否执行：否
 - 规则质检是否执行：否
@@ -15,23 +15,23 @@
 ## 本轮热点标题
 - 他對你的愛在增加還是減少？最近對你有哪些看法感覺?|曖昧|愛情|戀愛|桃花|塔羅占卜|
 - 看到有些年輕的紫微斗數命理師們嘗試著要把馬斯克、巴菲特等「巨頭」的命盤打出來，精神可佩！可惜在他們的養成教育當中缺乏一些環節，這種努力恐怕都要做白工，非常可惜！ 紫微斗數、八字等中國傳統術數的先天缺陷：
-- ep.4 命理小旋風？劉玓岡aka 我弟aka 簡少年的好朋友 三歲就立志當命理師⁉️ 老師請給我明牌謝謝🙏🏽 馬年開運妙招🧧不會吧竟然要唸書😂 完整版🔍請到各大podcast 收聽平台 歡迎訂閱留下5星🌟評論
+- [問卦] 目前人生都照紫微斗數命盤走 要信嗎？
 - 今天就是！千載難逢「超級666日」降臨 命理師曝開運招財秘訣
-- 命理師看台北市長選戰…蔣萬安「這期間運勢差」、沈伯洋「1事恐辛苦」
+- 討論牆 | 2026芒種節氣到！命理師揭「兩大開運秘訣」 2生肖女性大掃除有助旺財
 
 ## 新增标题
-- ep.4 命理小旋風？劉玓岡aka 我弟aka 簡少年的好朋友 三歲就立志當命理師⁉️ 老師請給我明牌謝謝🙏🏽 馬年開運妙招🧧不會吧竟然要唸書😂 完整版🔍請到各大podcast 收聽平台 歡迎訂閱留下5星🌟評論
-- 命理師看台北市長選戰…蔣萬安「這期間運勢差」、沈伯洋「1事恐辛苦」
+- [問卦] 目前人生都照紫微斗數命盤走 要信嗎？
+- 討論牆 | 2026芒種節氣到！命理師揭「兩大開運秘訣」 2生肖女性大掃除有助旺財
 
 ## 次日运营建议
-- 明日优先延展「命理新闻」相关选题（当前占比 6/8）。
+- 明日优先延展「命理新闻」相关选题（当前占比 5/8）。
 
 ## 失败脚本
 - generate_daily_content.py
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年6月9日 14:50
+updated 8 hot news items at 2026年6月10日 00:06
 - generate_daily_content.py | failed | [warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {"error":{"message":"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.","type":"invalid_request_error","param":null,...
 [warn] DashScope model qwen3.6-flash-2026-04-16 failed; trying qwen3.5-flash. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
 [warn] DashScope model qwen3.5-flash failed; trying qwen3.5-35b-a3b. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
