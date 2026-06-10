@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-10",
-  "updated_at_display": "2026年6月10日 00:06",
+  "updated_at_display": "2026年6月10日 15:10",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-10T00:06:17.505243+08:00",
+    "fetched_at": "2026-06-10T15:10:08.075510+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -181,7 +181,7 @@
       "google_news_xuanxue_tw": 6.05,
       "google_news_taluo_tw": 5.85,
       "google_news_fengshui_tw": 5.85,
-      "ptt_gossiping": 5.45,
+      "ptt_gossiping": 5.55,
       "ptt_womentalk": 5.15,
       "ptt_marvel": 4.65,
       "youtube_search": 5.55,
@@ -248,27 +248,27 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "items": [
     {
-      "title": "他對你的愛在增加還是減少？最近對你有哪些看法感覺?|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "2026農曆五月(06/15~07/13）【十二生肖運勢】命理師 簡少年",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KYm1NbThtVXBmdTJsNDNFWFNremdnOG9EamdxaXdacE82bDY0aUkySVZSaWpxSTZUQUc2SlRjR25wUlY5SFRucnd0RFlBUXdpR1FJNkFB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE82SjRzNW96U0hFSHJ5RzRlaFFySVRCTzBQSU9kOXI4TllkVzcwZnJJR3BOOXlaQ1RPc2lKSEFMQ3B6YklaRHRkdGhrNWtVUmlnSTNhMHZR?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "塔罗星象",
-      "published": "2026-06-04",
-      "published_display": "2026-06-04",
+      "category": "命理新闻",
+      "published": "2026-06-09",
+      "published_display": "2026-06-09",
       "matched_keywords": [
-        "塔羅",
-        "占卜",
-        "桃花"
+        "命理",
+        "命理師",
+        "運勢"
       ],
-      "score": 14.55,
-      "event_cluster": "event-13"
+      "score": 12.35,
+      "event_cluster": "event-49"
     },
     {
       "title": "看到有些年輕的紫微斗數命理師們嘗試著要把馬斯克、巴菲特等「巨頭」的命盤打出來，精神可佩！可惜在他們的養成教育當中缺乏一些環節，這種努力恐怕都要做白工，非常可惜！ 紫微斗數、八字等中國傳統術數的先天缺陷：",
@@ -305,8 +305,8 @@
         "斗數",
         "命盤"
       ],
-      "score": 14.383333333333335,
-      "event_cluster": "event-03"
+      "score": 14.483333333333334,
+      "event_cluster": "event-01"
     },
     {
       "title": "今天就是！千載難逢「超級666日」降臨 命理師曝開運招財秘訣",
@@ -325,7 +325,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-01"
+      "event_cluster": "event-02"
     },
     {
       "title": "討論牆 | 2026芒種節氣到！命理師揭「兩大開運秘訣」 2生肖女性大掃除有助旺財",
@@ -344,7 +344,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "命理師看台北市長選戰…蔣萬安「這期間運勢差」、沈伯洋「1事恐辛苦」",
