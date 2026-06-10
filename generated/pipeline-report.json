@@ -1,9 +1,9 @@
 {
-  "ran_at": "2026-06-10T15:09:54.340186+08:00",
-  "ran_at_display": "2026年6月10日 15:09",
+  "ran_at": "2026-06-11T00:38:05.893360+08:00",
+  "ran_at_display": "2026年6月11日 00:38",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "2c229f7b934c1a3cdcaddc933e72217e255a9670",
+  "previous_signature": "52788ea13487d4369156548230aad5eecf1cc5ee",
   "new_signature": "52788ea13487d4369156548230aad5eecf1cc5ee",
   "content_changed": true,
   "gemini_ran": true,
@@ -27,9 +27,7 @@
     "今天就是！千載難逢「超級666日」降臨 命理師曝開運招財秘訣",
     "討論牆 | 2026芒種節氣到！命理師揭「兩大開運秘訣」 2生肖女性大掃除有助旺財"
   ],
-  "added_titles": [
-    "2026農曆五月(06/15~07/13）【十二生肖運勢】命理師 簡少年"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
@@ -41,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月10日 15:10"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月11日 00:38"
     },
     {
       "script": "generate_daily_content.py",

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-10",
-  "updated_at_display": "2026年6月10日 15:10",
+  "updated_at": "2026-06-11",
+  "updated_at_display": "2026年6月11日 00:38",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-10T15:10:08.075510+08:00",
+    "fetched_at": "2026-06-11T00:38:22.249640+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -257,7 +257,7 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE82SjRzNW96U0hFSHJ5RzRlaFFySVRCTzBQSU9kOXI4TllkVzcwZnJJR3BOOXlaQ1RPc2lKSEFMQ3B6YklaRHRkdGhrNWtVUmlnSTNhMHZR?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "命理新闻",
       "published": "2026-06-09",
@@ -268,7 +268,7 @@
         "運勢"
       ],
       "score": 12.35,
-      "event_cluster": "event-49"
+      "event_cluster": "event-48"
     },
     {
       "title": "看到有些年輕的紫微斗數命理師們嘗試著要把馬斯克、巴菲特等「巨頭」的命盤打出來，精神可佩！可惜在他們的養成教育當中缺乏一些環節，這種努力恐怕都要做白工，非常可惜！ 紫微斗數、八字等中國傳統術數的先天缺陷：",
@@ -287,7 +287,7 @@
         "八字"
       ],
       "score": 14.35,
-      "event_cluster": "event-15"
+      "event_cluster": "event-13"
     },
     {
       "title": "[問卦] 目前人生都照紫微斗數命盤走 要信嗎？",
