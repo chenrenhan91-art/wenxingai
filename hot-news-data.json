@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-11",
-  "updated_at_display": "2026年6月11日 00:38",
+  "updated_at_display": "2026年6月11日 16:04",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-11T00:38:22.249640+08:00",
+    "fetched_at": "2026-06-11T16:04:34.170456+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,27 +248,27 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "items": [
     {
-      "title": "2026農曆五月(06/15~07/13）【十二生肖運勢】命理師 簡少年",
+      "title": "【#2509】【塔罗·字卡·占卜】他/她急切想說的話| 貓星童話塔羅牌| 灵性动物智慧神谕卡| 地球魔法卡(無時間限制)",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE82SjRzNW96U0hFSHJ5RzRlaFFySVRCTzBQSU9kOXI4TllkVzcwZnJJR3BOOXlaQ1RPc2lKSEFMQ3B6YklaRHRkdGhrNWtVUmlnSTNhMHZR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwaTlwbkFBQzFwdm5adU9nV2xkX1BoUkcxeVp2QjRtTjQ5dkdlOWU3dDFfMWFpOWVDc3c3UDNTN2pVZWtVMDMtUGRyX1d6ajBsS3VDQ0xR?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "命理新闻",
-      "published": "2026-06-09",
-      "published_display": "2026-06-09",
+      "category": "塔罗星象",
+      "published": "2026-06-10",
+      "published_display": "2026-06-10",
       "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
+        "塔羅",
+        "塔罗",
+        "占卜"
       ],
       "score": 12.35,
-      "event_cluster": "event-48"
+      "event_cluster": "event-36"
     },
     {
       "title": "看到有些年輕的紫微斗數命理師們嘗試著要把馬斯克、巴菲特等「巨頭」的命盤打出來，精神可佩！可惜在他們的養成教育當中缺乏一些環節，這種努力恐怕都要做白工，非常可惜！ 紫微斗數、八字等中國傳統術數的先天缺陷：",
@@ -287,7 +287,7 @@
         "八字"
       ],
       "score": 14.35,
-      "event_cluster": "event-13"
+      "event_cluster": "event-11"
     },
     {
       "title": "[問卦] 目前人生都照紫微斗數命盤走 要信嗎？",
@@ -328,25 +328,6 @@
       "event_cluster": "event-02"
     },
     {
-      "title": "討論牆 | 2026芒種節氣到！命理師揭「兩大開運秘訣」 2生肖女性大掃除有助旺財",
-      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9IX3ZxVklTYS16QW5uLWZyaXNfSTFycFFBdl9xeE5tYmZpaHEzS1g5blBCYlRDVUVSR3UxVkxuOFZET1JuOG5MVXVnSHFROUgzSDZ6Wm5kMlU2QWE0LWd3b2FvbS0?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "LINE TODAY · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-06",
-      "published_display": "2026-06-06",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
       "title": "命理師看台北市長選戰…蔣萬安「這期間運勢差」、沈伯洋「1事恐辛苦」",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAtTk8weVhGVkh4SjkxTXo3cWRRMkpYeFpYcHNaT3hkSVlMYzRGS2xjSllRUHNTdGRqaC1RS1NoZHhFbkZGMDdaMlNXNDYwNG9t0gFWQVVfeXFMUElsU2xlT0NvQ1Q5RVR3WVV5Qm9aMktNeHJKQ3RhZVY0eFFZcEw2aUVCZWVEYURRQXFTaUVBVFNkMVdSdzJQaHJfVGlLWjUySXk4VXIyV2c?oc=5",
@@ -363,7 +344,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-03"
     },
     {
       "title": "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我- 股市爆料同學會",
@@ -380,6 +361,25 @@
         "命理",
         "命理師",
         "算命"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
+    },
+    {
+      "title": "命理師揭「2026下半年運勢」！恐爆發2患、年底將有「新主義」誕生",
+      "summary": "来自 四季線上4gTV · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE93QjVQNzhQX2ZqTmZsQVNXVzBvZW9xWDdQU1hPdjM0LWw3U1dnQUtjWnJmcWl2aG5vOWpnMWFzOUZEX0lHZG1vVHNSaVd0a0ZtLWF5aGQzTQ?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "四季線上4gTV · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-05",
+      "published_display": "2026-06-05",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-05"
