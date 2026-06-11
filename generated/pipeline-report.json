@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-06-11T16:04:18.019148+08:00",
-  "ran_at_display": "2026年6月11日 16:04",
+  "ran_at": "2026-06-12T00:57:12.031435+08:00",
+  "ran_at_display": "2026年6月12日 00:57",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "52788ea13487d4369156548230aad5eecf1cc5ee",
-  "new_signature": "75aba0396da4e2d909dbeefe12008514b8a9fa35",
+  "previous_signature": "75aba0396da4e2d909dbeefe12008514b8a9fa35",
+  "new_signature": "f97624df04238cf0828cef0af2a87ff66c79b00c",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "【#2509】【塔罗·字卡·占卜】他/她急切想說的話| 貓星童話塔羅牌| 灵性动物智慧神谕卡| 地球魔法卡(無時間限制)",
+    "他昨晚有想你嗎？想了什麼？香豔or樸實？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "看到有些年輕的紫微斗數命理師們嘗試著要把馬斯克、巴菲特等「巨頭」的命盤打出來，精神可佩！可惜在他們的養成教育當中缺乏一些環節，這種努力恐怕都要做白工，非常可惜！ 紫微斗數、八字等中國傳統術數的先天缺陷：",
     "[問卦] 目前人生都照紫微斗數命盤走 要信嗎？",
-    "今天就是！千載難逢「超級666日」降臨 命理師曝開運招財秘訣",
-    "命理師看台北市長選戰…蔣萬安「這期間運勢差」、沈伯洋「1事恐辛苦」"
+    "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我- 股市爆料同學會",
+    "今天就是！千載難逢「超級666日」降臨 命理師曝開運招財秘訣"
   ],
   "added_titles": [
-    "【#2509】【塔罗·字卡·占卜】他/她急切想說的話| 貓星童話塔羅牌| 灵性动物智慧神谕卡| 地球魔法卡(無時間限制)",
-    "命理師看台北市長選戰…蔣萬安「這期間運勢差」、沈伯洋「1事恐辛苦」"
+    "他昨晚有想你嗎？想了什麼？香豔or樸實？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我- 股市爆料同學會"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -42,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月11日 16:04"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月12日 00:57"
     },
     {
       "script": "generate_daily_content.py",

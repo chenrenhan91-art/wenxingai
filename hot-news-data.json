@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-11",
-  "updated_at_display": "2026年6月11日 16:04",
+  "updated_at": "2026-06-12",
+  "updated_at_display": "2026年6月12日 00:57",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-11T16:04:34.170456+08:00",
+    "fetched_at": "2026-06-12T00:57:28.972505+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "【#2509】【塔罗·字卡·占卜】他/她急切想說的話| 貓星童話塔羅牌| 灵性动物智慧神谕卡| 地球魔法卡(無時間限制)",
+      "title": "他昨晚有想你嗎？想了什麼？香豔or樸實？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwaTlwbkFBQzFwdm5adU9nV2xkX1BoUkcxeVp2QjRtTjQ5dkdlOWU3dDFfMWFpOWVDc3c3UDNTN2pVZWtVMDMtUGRyX1d6ajBsS3VDQ0xR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tRUtVRThKNlFsSVFGaWM0SHVCSnNic2VfdUpmVWNVd25vZ2c2MmdUSWd5ejRwQm14TGxIMl95YmdPOHZSU1NpVlMwWTlfVjZOOWZmS1RB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-06-10",
-      "published_display": "2026-06-10",
+      "published": "2026-06-11",
+      "published_display": "2026-06-11",
       "matched_keywords": [
         "塔羅",
-        "塔罗",
-        "占卜"
+        "占卜",
+        "桃花"
       ],
-      "score": 12.35,
-      "event_cluster": "event-36"
+      "score": 14.55,
+      "event_cluster": "event-02"
     },
     {
       "title": "看到有些年輕的紫微斗數命理師們嘗試著要把馬斯克、巴菲特等「巨頭」的命盤打出來，精神可佩！可惜在他們的養成教育當中缺乏一些環節，這種努力恐怕都要做白工，非常可惜！ 紫微斗數、八字等中國傳統術數的先天缺陷：",
@@ -287,7 +287,7 @@
         "八字"
       ],
       "score": 14.35,
-      "event_cluster": "event-11"
+      "event_cluster": "event-12"
     },
     {
       "title": "[問卦] 目前人生都照紫微斗數命盤走 要信嗎？",
@@ -306,6 +306,25 @@
         "命盤"
       ],
       "score": 14.483333333333334,
+      "event_cluster": "event-03"
+    },
+    {
+      "title": "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我- 股市爆料同學會",
+      "summary": "来自 CMoney · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJeUVpSXExNG04bDFFRjhFcWpKbUpUSUxuc2xiQTBwNGQ3U1lkMUFEMElBOTVoSTFpZl9rdndzUC1IOVpreE1KWS1fbjQzMF9VS2hIcWNvRGY?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "CMoney · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-10",
+      "published_display": "2026-06-10",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "算命"
+      ],
+      "score": 14.750000000000002,
       "event_cluster": "event-01"
     },
     {
@@ -325,7 +344,26 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-04"
+    },
+    {
+      "title": "討論牆 | 2026芒種節氣到！命理師揭「兩大開運秘訣」 2生肖女性大掃除有助旺財",
+      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9IX3ZxVklTYS16QW5uLWZyaXNfSTFycFFBdl9xeE5tYmZpaHEzS1g5blBCYlRDVUVSR3UxVkxuOFZET1JuOG5MVXVnSHFROUgzSDZ6Wm5kMlU2QWE0LWd3b2FvbS0?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "LINE TODAY · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-06",
+      "published_display": "2026-06-06",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-05"
     },
     {
       "title": "命理師看台北市長選戰…蔣萬安「這期間運勢差」、沈伯洋「1事恐辛苦」",
@@ -344,26 +382,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我- 股市爆料同學會",
-      "summary": "来自 CMoney · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJeUVpSXExNG04bDFFRjhFcWpKbUpUSUxuc2xiQTBwNGQ3U1lkMUFEMElBOTVoSTFpZl9rdndzUC1IOVpreE1KWS1fbjQzMF9VS2hIcWNvRGY?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "CMoney · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-05",
-      "published_display": "2026-06-05",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "算命"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-06"
     },
     {
       "title": "命理師揭「2026下半年運勢」！恐爆發2患、年底將有「新主義」誕生",
@@ -382,26 +401,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "《天機》AI命理師曝這類股票會漲！錯過偶像黃仁勳喊話「要算命請聯絡我」",
-      "summary": "来自 壹蘋新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV2lYYU1fX3FPd0hiLV9rYWcwY0ViQ3cyMU52YThibmduQ1g3NDAyTXl3V2UtNU90dVFEZkdCblBkakhKZ09RNHA2ZjhYSWo4ajhkUWVoT3RMU1FoVHg2UllMNFFZa3dOYjJlRG41b2pDS08xSUFncURxQXJEQlpsai05Sk1qTV9LV3c?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "壹蘋新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-05",
-      "published_display": "2026-06-05",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "算命"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     }
   ]
 }
