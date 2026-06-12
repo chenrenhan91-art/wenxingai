@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-06-12T00:57:12.031435+08:00",
-  "ran_at_display": "2026年6月12日 00:57",
+  "ran_at": "2026-06-12T15:23:25.254791+08:00",
+  "ran_at_display": "2026年6月12日 15:23",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "75aba0396da4e2d909dbeefe12008514b8a9fa35",
-  "new_signature": "f97624df04238cf0828cef0af2a87ff66c79b00c",
+  "previous_signature": "f97624df04238cf0828cef0af2a87ff66c79b00c",
+  "new_signature": "7ba1f9e4e98b26c87be042dad4e5112776841863",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "他昨晚有想你嗎？想了什麼？香豔or樸實？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "看到有些年輕的紫微斗數命理師們嘗試著要把馬斯克、巴菲特等「巨頭」的命盤打出來，精神可佩！可惜在他們的養成教育當中缺乏一些環節，這種努力恐怕都要做白工，非常可惜！ 紫微斗數、八字等中國傳統術數的先天缺陷：",
+    "吉字占卜本月運勢！老天眷顧給錢花的人！｜#命運好好玩#shorts #手面相#風水 #紫微#星座 #命理 #開運",
+    "你好，我是山月知。 很多人聽說我從小對磁場和能量流動特別敏感，後來又死磕了十幾年玄學，經常會問我同一個問題：「既然你中西命理都精通，那出來幫人看盤，你到底更推崇占星還是八字？」 我的回答一向很直接：我都看，而且必須一起看。 #astrologer",
     "[問卦] 目前人生都照紫微斗數命盤走 要信嗎？",
     "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我- 股市爆料同學會",
     "今天就是！千載難逢「超級666日」降臨 命理師曝開運招財秘訣"
   ],
   "added_titles": [
-    "他昨晚有想你嗎？想了什麼？香豔or樸實？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我- 股市爆料同學會"
+    "吉字占卜本月運勢！老天眷顧給錢花的人！｜#命運好好玩#shorts #手面相#風水 #紫微#星座 #命理 #開運",
+    "你好，我是山月知。 很多人聽說我從小對磁場和能量流動特別敏感，後來又死磕了十幾年玄學，經常會問我同一個問題：「既然你中西命理都精通，那出來幫人看盤，你到底更推崇占星還是八字？」 我的回答一向很直接：我都看，而且必須一起看。 #astrologer"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -42,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月12日 00:57"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月12日 15:23"
     },
     {
       "script": "generate_daily_content.py",
