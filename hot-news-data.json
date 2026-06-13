@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-13",
-  "updated_at_display": "2026年6月13日 00:22",
+  "updated_at_display": "2026年6月13日 14:59",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-13T00:22:54.404138+08:00",
+    "fetched_at": "2026-06-13T14:59:06.995557+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "開運"
       ],
       "score": 12.35,
-      "event_cluster": "event-31"
+      "event_cluster": "event-39"
     },
     {
       "title": "你好，我是山月知。 很多人聽說我從小對磁場和能量流動特別敏感，後來又死磕了十幾年玄學，經常會問我同一個問題：「既然你中西命理都精通，那出來幫人看盤，你到底更推崇占星還是八字？」 我的回答一向很直接：我都看，而且必須一起看。 #astrologer",
@@ -287,7 +287,7 @@
         "玄學"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-62"
+      "event_cluster": "event-70"
     },
     {
       "title": "[問卦] 目前人生都照紫微斗數命盤走 要信嗎？",
@@ -306,7 +306,26 @@
         "命盤"
       ],
       "score": 14.483333333333334,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
+    },
+    {
+      "title": "2026夏至開運來了！「3生肖」容易出大包 命理師曝招財法",
+      "summary": "来自 ETtoday新聞雲 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hT3N2cVVLSzc4VzBWZW9DM1R1eHdNZUc2a1l1OEdBYTYtUkFFVzNnUThCYlJaM2RScEVWNktMN1pOLVpWTnJDa2lJZDdaeGVUUllpVld5MHNIZVNZUVHSAWhBVV95cUxOTVI3YnhCTDFyWTlhM3JoR0NyVlNxWmYyRG9CcHFTbFA2RWlWUE5GQ3FCSGthSjFXNHh4Rl9Bb3BQRG1Gam44dEs0Vm4ycUhhQ1l5R21NbzhCWldVTTFiMkgxbnJ3UTJFRg?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "ETtoday新聞雲 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-13",
+      "published_display": "2026-06-13",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-01"
     },
     {
       "title": "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我- 股市爆料同學會",
@@ -325,7 +344,7 @@
         "算命"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-01"
+      "event_cluster": "event-02"
     },
     {
       "title": "端午節「借火生財」！命理師曝2招補庫 一路旺到年底",
@@ -344,45 +363,7 @@
         "補庫"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
-    },
-    {
-      "title": "今天就是！千載難逢「超級666日」降臨 命理師曝開運招財秘訣",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Qc0J1Y2Rxd2VQc2JYX1Q4eVR0amJKY1o5cVVQOGFIRlJRYXJYWFg2Ymo0Q0k1NGZQRjU5UEh3Zlh5RHVoYmVuVTVvZ19CQlh30gFWQVVfeXFMTnAwYk9LUkh3dXhYdTl1VDlWb0VENlRLUEJFOENnSWdkU0w4aUFONHRISXFDeGRBRUxKOE9mOXR1cVY5bXFieW5tMXY0WHgyQjFDZ2ZLREE?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-06",
-      "published_display": "2026-06-06",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "討論牆 | 2026芒種節氣到！命理師揭「兩大開運秘訣」 2生肖女性大掃除有助旺財",
-      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9IX3ZxVklTYS16QW5uLWZyaXNfSTFycFFBdl9xeE5tYmZpaHEzS1g5blBCYlRDVUVSR3UxVkxuOFZET1JuOG5MVXVnSHFROUgzSDZ6Wm5kMlU2QWE0LWd3b2FvbS0?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "LINE TODAY · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-06",
-      "published_display": "2026-06-06",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-03"
     },
     {
       "title": "[新聞] 命理師驚揭黃仁勳擁 「帝王面相」！",
@@ -401,7 +382,25 @@
         "热议"
       ],
       "score": 14.283333333333331,
-      "event_cluster": "event-06"
+      "event_cluster": "event-05"
+    },
+    {
+      "title": "台灣之光！最神命理師進軍國際宣布「重大新喜訊」 震撼畫面曝光",
+      "summary": "来自 三立娛樂星聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5lanA1OV9NNTA0cnctY1Y2NXJfVFhaNHJOTFctOTFnaVJkOTBRWWtuZTBFbzBKT3oycV9lRnZudEItRnM3NGpLVXBB0gFfQVVfeXFMTzloRTBSQnhaak00SzVkS2k1SEtOQUdOQzBmMk81SzFQTEh0OS1PSXFNY05qT251WUJFa1hDWThpb195WlpyRWVrMTJSc1E3ODZfck5RUnpqYURrRDFoekU?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立娛樂星聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-13",
+      "published_display": "2026-06-13",
+      "matched_keywords": [
+        "命理",
+        "命理師"
+      ],
+      "score": 12.55,
+      "event_cluster": "event-07"
     }
   ]
 }
