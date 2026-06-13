@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-13",
-  "updated_at_display": "2026年6月13日 14:59",
+  "updated_at_display": "2026年6月13日 23:03",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-13T14:59:06.995557+08:00",
+    "fetched_at": "2026-06-13T23:03:13.994765+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "開運"
       ],
       "score": 12.35,
-      "event_cluster": "event-39"
+      "event_cluster": "event-41"
     },
     {
       "title": "你好，我是山月知。 很多人聽說我從小對磁場和能量流動特別敏感，後來又死磕了十幾年玄學，經常會問我同一個問題：「既然你中西命理都精通，那出來幫人看盤，你到底更推崇占星還是八字？」 我的回答一向很直接：我都看，而且必須一起看。 #astrologer",
@@ -287,7 +287,7 @@
         "玄學"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-70"
+      "event_cluster": "event-71"
     },
     {
       "title": "[問卦] 目前人生都照紫微斗數命盤走 要信嗎？",
@@ -311,7 +311,7 @@
     {
       "title": "2026夏至開運來了！「3生肖」容易出大包 命理師曝招財法",
       "summary": "来自 ETtoday新聞雲 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hT3N2cVVLSzc4VzBWZW9DM1R1eHdNZUc2a1l1OEdBYTYtUkFFVzNnUThCYlJaM2RScEVWNktMN1pOLVpWTnJDa2lJZDdaeGVUUllpVld5MHNIZVNZUVHSAWhBVV95cUxOTVI3YnhCTDFyWTlhM3JoR0NyVlNxWmYyRG9CcHFTbFA2RWlWUE5GQ3FCSGthSjFXNHh4Rl9Bb3BQRG1Gam44dEs0Vm4ycUhhQ1l5R21NbzhCWldVTTFiMkgxbnJ3UTJFRg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NUjdieEJMMXJZOWEzcmhHQ3JWU3FaZjJEb0JwcVNsUDZFaVZQTkZDcUJIa2FKMVc0eHhGX0FvcFBEbUZqbjh0SzRWbjJxSGFDWXlHbU1vOEJaV1VNMWIySDFucndRMkVG0gFoQVVfeXFMTk1SN2J4Qkwxclk5YTNyaEdDclZTcVpmMkRvQnBxU2xQNkVpVlBORkNxQkhrYUoxVzR4eEZfQW9wUERtRmpuOHRLNFZuMnFIYUNZeUdtTW84QlpXVU0xYjJIMW5yd1EyRUY?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "ETtoday新聞雲 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -385,11 +385,11 @@
       "event_cluster": "event-05"
     },
     {
-      "title": "台灣之光！最神命理師進軍國際宣布「重大新喜訊」 震撼畫面曝光",
-      "summary": "来自 三立娛樂星聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5lanA1OV9NNTA0cnctY1Y2NXJfVFhaNHJOTFctOTFnaVJkOTBRWWtuZTBFbzBKT3oycV9lRnZudEItRnM3NGpLVXBB0gFfQVVfeXFMTzloRTBSQnhaak00SzVkS2k1SEtOQUdOQzBmMk81SzFQTEh0OS1PSXFNY05qT251WUJFa1hDWThpb195WlpyRWVrMTJSc1E3ODZfck5RUnpqYURrRDFoekU?oc=5",
+      "title": "收到整串肉粽快剪開！命理師示警「恐招厄運」 端午送粽4禁忌曝",
+      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9tTlpwb01NX09UbFNfV2NOSlFUNXhnTjdKVW9yWlg4MkNuNDlQX21jYlBGei0wcDRENjVld1M3cEIyR0RVcXRrT0FQUk1qcmVHOEHSAVJBVV95cUxPbU5acG9NTV9PVGxTX1djTkpRVDV4Z043SlVvclpYODJDbjQ5UF9tY2JQRnotMHA0RDY1ZXdTN3BCMkdEVXF0a09BUFJNanJlRzhB?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立娛樂星聞 · Google News",
+      "source": "NOWnews今日新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",

@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-06-13T14:58:51.108337+08:00",
-  "ran_at_display": "2026年6月13日 14:58",
+  "ran_at": "2026-06-13T23:03:00.707297+08:00",
+  "ran_at_display": "2026年6月13日 23:03",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "d5fc1db1e252a6d36421b8971bc9f8438e083755",
-  "new_signature": "48537eb2066b9c5660de2e0a6bcc1dd50e9ab7b6",
+  "previous_signature": "48537eb2066b9c5660de2e0a6bcc1dd50e9ab7b6",
+  "new_signature": "3b6a65d6400507d40f7f741352650bef84a4efb2",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,9 +27,7 @@
     "2026夏至開運來了！「3生肖」容易出大包 命理師曝招財法",
     "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我- 股市爆料同學會"
   ],
-  "added_titles": [
-    "2026夏至開運來了！「3生肖」容易出大包 命理師曝招財法"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
@@ -41,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月13日 14:59"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月13日 23:03"
     },
     {
       "script": "generate_daily_content.py",
