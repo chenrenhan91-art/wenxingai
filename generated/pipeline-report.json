@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-06-14T15:23:31.661758+08:00",
-  "ran_at_display": "2026年6月14日 15:23",
+  "ran_at": "2026-06-14T23:08:41.240936+08:00",
+  "ran_at_display": "2026年6月14日 23:08",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "3b6a65d6400507d40f7f741352650bef84a4efb2",
-  "new_signature": "2dfe8b83810a5db3d057ea8f42af8bc961659bd2",
+  "previous_signature": "2dfe8b83810a5db3d057ea8f42af8bc961659bd2",
+  "new_signature": "5d65d8ea0b5681b5ff61cc7536a46a71412d5eab",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -23,13 +23,15 @@
   "new_titles": [
     "吉字占卜本月運勢！老天眷顧給錢花的人！｜#命運好好玩#shorts #手面相#風水 #紫微#星座 #命理 #開運",
     "你好，我是山月知。 很多人聽說我從小對磁場和能量流動特別敏感，後來又死磕了十幾年玄學，經常會問我同一個問題：「既然你中西命理都精通，那出來幫人看盤，你到底更推崇占星還是八字？」 我的回答一向很直接：我都看，而且必須一起看。 #astrologer",
-    "[問卦] 目前人生都照紫微斗數命盤走 要信嗎？",
+    "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
     "2026夏至開運來了！「3生肖」容易出大包 命理師曝招財法",
     "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我- 股市爆料同學會"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命"
+  ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -39,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月14日 15:23"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月14日 23:08"
     },
     {
       "script": "generate_daily_content.py",
