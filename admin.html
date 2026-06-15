@@ -259,7 +259,7 @@
 <!-- 管理界面 -->
 <div id="adminView">
   <div class="header">
-    <div class="header-title">✦ 用户管理</div>
+    <div class="header-title">✦ 用户管理 <span style="font-size:0.72rem;font-weight:500;color:#64748b;">（付款用户直接标记专业版）</span></div>
     <div style="display:flex;gap:8px;">
       <button class="refresh-btn" onclick="loadUsers()">↻ 刷新</button>
       <button class="logout-btn" onclick="logout()">退出</button>
@@ -421,7 +421,7 @@
           <div class="user-actions">
             ${u.is_pro
               ? `<button class="member-btn cancel-member-btn" onclick="setMembership('${escAttr(userId)}', '${escAttr(email)}', false, this)">取消专业版</button>`
-              : `<button class="member-btn open-member-btn" onclick="setMembership('${escAttr(userId)}', '${escAttr(email)}', true, this)">开通会员</button>`}
+              : `<button class="member-btn open-member-btn" onclick="setMembership('${escAttr(userId)}', '${escAttr(email)}', true, this)">开通专业版</button>`}
           </div>
         </div>
       `;
@@ -433,7 +433,7 @@
       setActionStatus('操作失败：当前用户缺少 ID 和邮箱，无法定位账号。', 'error');
       return;
     }
-    const actionText = isPro ? '开通会员' : '取消专业版';
+    const actionText = isPro ? '开通专业版' : '取消专业版';
     const targetLabel = email || userId;
     if (!confirm(`确认给 ${targetLabel} ${actionText}？`)) return;
 
