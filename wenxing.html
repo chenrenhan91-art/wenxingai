@@ -3690,8 +3690,8 @@
                     currentUser.remaining -= 1;
                     renderAuthUI();
                 }
-                // 再与服务端同步（加 no-cache 防止读到缓存旧值）
-                void fetchMe();
+                // 限流/失败不扣额度，仅成功时同步
+                if (resp.ok) void fetchMe();
 
                 if (!resp.ok) {
                     if (resp.status === 401) {
@@ -3700,6 +3700,14 @@
                     }
                     if (resp.status === 402 && data?.error === 'NO_QUOTA') {
                         return `⚠️ **免费额度已用完**\n\n<a class="pro-unlock-btn" href="javascript:void(0)" onclick="openProPage()">解锁专业版<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h12" stroke="white" stroke-width="2" stroke-linecap="round"/><path d="M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>\n\n（用户ID：${currentUser?.id ?? '--'}）`;
+                    }
+                    if (resp.status === 429 && data?.error === 'RATE_LIMITED') {
+                        const waitSec = Number(data?.retry_after) || 30;
+                        const waitHint = waitSec < 120 ? `${waitSec} 秒` : `${Math.ceil(waitSec / 60)} 分钟`;
+                        return `⚠️ **请求过于频繁**\n\n${data?.message || '请稍后再试。'}（约 ${waitHint} 后可继续）`;
+                    }
+                    if (resp.status === 413 && data?.error === 'PAYLOAD_TOO_LARGE') {
+                        return `⚠️ **内容过长**\n\n${data?.message || '请缩短问题后重试。'}`;
                     }
                     return `⚠️ **AI 调用失败**\n\n${data?.message || '请稍后再试。'}`;
                 }

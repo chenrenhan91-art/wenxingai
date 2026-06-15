@@ -11,6 +11,8 @@ const AI_MODELS = [
   'qwen3.5-flash',              // 备用2：100万免费token，到2026/05/25
   'qwen-turbo',                 // 兜底：付费，始终可用
 ];
+const MAX_PROMPT_CHARS = 6000;
+const MAX_SYSTEM_CHARS = 12000;
 
 Deno.serve(async (req) => {
   if (req.method === 'OPTIONS') {
@@ -35,6 +37,18 @@ Deno.serve(async (req) => {
     const userId = userJson && userJson.id;
     if (!userId) return json({ error: 'UNAUTHORIZED' }, 401);
 
+    const body = await req.json().catch(() => ({}));
+    const prompt = (body && body.prompt) || '';
+    const systemInstruction = (body && body.systemInstruction) || '';
+    if (!prompt.trim()) return json({ error: 'BAD_REQUEST' }, 400);
+    if (prompt.length > MAX_PROMPT_CHARS || systemInstruction.length > MAX_SYSTEM_CHARS) {
+      return json({
+        error: 'PAYLOAD_TOO_LARGE',
+        message: `请求内容过长，请缩短问题后重试（问题≤${MAX_PROMPT_CHARS}字）。`,
+      }, 413);
+    }
+    if (!aiApiKey) return json({ error: 'CONFIG_ERROR' }, 500);
+
     const profileResp = await fetch(
       supabaseUrl + '/rest/v1/profiles?user_id=eq.' + userId + '&select=is_pro,remaining_quota',
       { headers: { 'Authorization': 'Bearer ' + serviceRoleKey, 'apikey': serviceRoleKey } },
@@ -46,6 +60,17 @@ Deno.serve(async (req) => {
     if (!profile.is_pro && profile.remaining_quota <= 0) {
       return json({ error: 'NO_QUOTA', message: '免费额度已用完，请升级专业版。' }, 402);
     }
+
+    const rateLimit = await consumeRateLimit(supabaseUrl, serviceRoleKey, userId, !!profile.is_pro);
+    if (!rateLimit.allowed) {
+      return json({
+        error: 'RATE_LIMITED',
+        code: rateLimit.error,
+        message: rateLimit.message,
+        retry_after: rateLimit.retry_after,
+      }, 429);
+    }
+
     if (!profile.is_pro) {
       await fetch(supabaseUrl + '/rest/v1/profiles?user_id=eq.' + userId, {
         method: 'PATCH',
@@ -57,12 +82,6 @@ Deno.serve(async (req) => {
         body: JSON.stringify({ remaining_quota: profile.remaining_quota - 1 }),
       });
     }
-
-    const body = await req.json().catch(() => ({}));
-    const prompt = (body && body.prompt) || '';
-    const systemInstruction = (body && body.systemInstruction) || '';
-    if (!prompt.trim()) return json({ error: 'BAD_REQUEST' }, 400);
-    if (!aiApiKey) return json({ error: 'CONFIG_ERROR' }, 500);
 
     const messages = [];
     if (systemInstruction.trim()) messages.push({ role: 'system', content: systemInstruction });
@@ -108,6 +127,42 @@ Deno.serve(async (req) => {
     return json({ error: 'INTERNAL_ERROR' }, 500);
   }
 });
+
+async function consumeRateLimit(
+  supabaseUrl: string,
+  serviceRoleKey: string,
+  userId: string,
+  isPro: boolean,
+) {
+  const resp = await fetch(supabaseUrl + '/rest/v1/rpc/consume_ai_rate_limit', {
+    method: 'POST',
+    headers: {
+      'Authorization': 'Bearer ' + serviceRoleKey,
+      'apikey': serviceRoleKey,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ p_user_id: userId, p_is_pro: isPro }),
+  });
+
+  if (!resp.ok) {
+    const err = await resp.text().catch(() => '');
+    console.error('rate limit rpc error:', resp.status, err.slice(0, 200));
+    return {
+      allowed: false,
+      error: 'RATE_LIMIT_UNAVAILABLE',
+      message: '风控校验失败，请稍后再试。',
+      retry_after: 30,
+    };
+  }
+
+  const result = await resp.json().catch(() => ({}));
+  return {
+    allowed: !!result.allowed,
+    error: result.error || 'RATE_LIMITED',
+    message: result.message || '请求过于频繁，请稍后再试。',
+    retry_after: Number(result.retry_after) || 30,
+  };
+}
 
 function json(body, status) {
   return new Response(JSON.stringify(body), {
