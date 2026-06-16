@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-06-16T16:46:29.354225+08:00",
-  "ran_at_display": "2026年6月16日 16:46",
+  "ran_at": "2026-06-17T02:05:25.468883+08:00",
+  "ran_at_display": "2026年6月17日 02:05",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "458d3a801460890db67a28ace23aeeec0efdc783",
-  "new_signature": "109cfa62a39a62e5c9c9bbf39fefe03d8de5c9a4",
+  "previous_signature": "109cfa62a39a62e5c9c9bbf39fefe03d8de5c9a4",
+  "new_signature": "0351005b1183d8553cd61a5a1d63becebaae4332",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,14 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "吉字占卜本月運勢！老天眷顧給錢花的人！｜#命運好好玩#shorts #手面相#風水 #紫微#星座 #命理 #開運",
+    "你和他的羈絆多深？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "你好，我是山月知。 很多人聽說我從小對磁場和能量流動特別敏感，後來又死磕了十幾年玄學，經常會問我同一個問題：「既然你中西命理都精通，那出來幫人看盤，你到底更推崇占星還是八字？」 我的回答一向很直接：我都看，而且必須一起看。 #astrologer",
     "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
     "【千萬別午睡！命理師曝「端午節最忌3行為」：恐影響下半年運勢】 （示意圖／ETtoday資料照）",
     "2026端午節3大開運法！命理師：今年火能量極旺 午時水正確用法曝"
   ],
   "added_titles": [
-    "【千萬別午睡！命理師曝「端午節最忌3行為」：恐影響下半年運勢】 （示意圖／ETtoday資料照）",
-    "2026端午節3大開運法！命理師：今年火能量極旺 午時水正確用法曝"
+    "你和他的羈絆多深？|曖昧|愛情|戀愛|桃花|塔羅占卜|"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -42,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月16日 16:46"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月17日 02:05"
     },
     {
       "script": "generate_daily_content.py",

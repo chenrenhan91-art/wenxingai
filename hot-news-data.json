@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-16",
-  "updated_at_display": "2026年6月16日 16:46",
+  "updated_at": "2026-06-17",
+  "updated_at_display": "2026年6月17日 02:05",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-16T16:46:45.240402+08:00",
+    "fetched_at": "2026-06-17T02:05:42.330716+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "吉字占卜本月運勢！老天眷顧給錢花的人！｜#命運好好玩#shorts #手面相#風水 #紫微#星座 #命理 #開運",
+      "title": "你和他的羈絆多深？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAxWFFwdy0wYkdTdHM4R1VOa1h2Y2VmQlpyV19sVXBKQjN3TVpqRlpjUVNRU0FaWHRSbEFZcm5RallKRHQwYm5ZTmxwbEI5aDdzbFdDdA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8ydlRPQVlCc3J2TmdsdWtMbU1HcVRBdHlMb21vQlJmX0ItdlNRVjdhRkphbGM0M2ItSTJNaWdvbjBHZVZYMl9wdnp4dXF5emkzQzZwYWV3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "风水玄学",
-      "published": "2026-06-11",
-      "published_display": "2026-06-11",
+      "category": "塔罗星象",
+      "published": "2026-06-09",
+      "published_display": "2026-06-09",
       "matched_keywords": [
-        "命理",
-        "運勢",
-        "開運"
+        "塔羅",
+        "占卜",
+        "桃花"
       ],
-      "score": 12.35,
-      "event_cluster": "event-77"
+      "score": 14.55,
+      "event_cluster": "event-10"
     },
     {
       "title": "你好，我是山月知。 很多人聽說我從小對磁場和能量流動特別敏感，後來又死磕了十幾年玄學，經常會問我同一個問題：「既然你中西命理都精通，那出來幫人看盤，你到底更推崇占星還是八字？」 我的回答一向很直接：我都看，而且必須一起看。 #astrologer",
@@ -310,10 +310,10 @@
     },
     {
       "title": "【千萬別午睡！命理師曝「端午節最忌3行為」：恐影響下半年運勢】 （示意圖／ETtoday資料照）",
-      "summary": "来自 Facebook · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi3ANBVV95cUxNZ3ZsTDJpMUtqZGZ6UUdwbF94ZVAyckRoREFxUUJua2JxYUdQaHJTUXpYUFI4SlczWDVhUFRELWtKRHNmNlpaTGZPQXJqVFB5NndvZTRWV2xXMklmTnExaVM5dHhDc1IxY253UnBWTGVtbUwtdVlWN1Y1WWI4XzVLSkgwbzdCVmpId1AtQUJUcXBXSnJ4VXNWT0ozWWRjUkM2ZV81S24za3dvY2M0ZUlBWk1lNUcySGZNM3M1M3AwVjlyOEZkZjNlTHNpblIxSXp3djg5VnRVSkM5eEV2bHFSQ2FfVV9rREg4a2hRZFpCcmhNU3VRZ3FwN21wSHVnMnZmS2dmYW10SE1zUTdsc0JDdHczX0k4Y3N5RDFualQzRTg2VFBhOVVkUUo2WmZYUWNVVTRzSjZDLUItbi0zb1BKNEhYLWtOclpVbE1VRUF5eFVKelZHb2llb2VLUnlqYzJ6dFlJUFZwd1Q0S1g0bDdDTkdRVkJfZW9Jd1p3N0JHcFJ2dk5nOVNHdnc4UWpjbmozX3ljbGdhUDV3Ri0xaHdsYWt6Ukl0elowREFSdDVDaFY5XzNhYUtKWU8tTDNoVjF2aFF5cEluZHBpVUNRUE5wb2ZtSnFDOFA4V0NnZA?oc=5",
+      "summary": "来自 facebook.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxQcG5TYUI2Y2hFOFVKa3lHaGEtUHloamdCQ0tiRjRXcnctQmlnSjY3R1Vid2VQOEpFVFFHdk9jWEU4c0ducFREbndhWlJRYzdobFprSmtZMV92V2cyV0J1eW9KNVdxY1VQcVZyazNvVjMxV2E2NEVYRE9BNnVGYU9qLWphSTdOSmN6Z285QUJyRFIwNnY2QnhrZGxGQXNWeEF1LXNpZUpZUWg0N1JyM2RpSDI4UDRDMUJvSkRFY1BTbFZ1UEoxZUtYNEozbE9KWUU3SWt1a3cwVHYzZmxGUWcwYUNrWmhudXhnQmhnUUp6T3BNT0hlci1OWWV2NlVfaGQtQVl3cHg1NjFNVFU2bVIxQmZlZnVFWUFWdzJHM1draWM1aHJRd0tJR0JFZVQxSml3T2VVcmh0ZGtSUU1iNXhzbzUyN2JXRk9RN2dEWEtaam1DTVdDeHFiN29Wem5WdUZtQ1RiUGxlRUF2MWhoMENyZEVKek0wb1hiY0wyVFhVMjFPRVY2UEZvdW9lckgxVHJnTklQd3Q3S3dxYi0yQUFkY0IwcnpMYmZQeGU1Y3pkTUxiSUZhZ3g2YU1jVzZhUXY0YUloSHltZkdRN0dEUlg3UEJMa212b3N4YlNV?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Facebook · Google News",
+      "source": "facebook.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -347,6 +347,25 @@
       "event_cluster": "event-03"
     },
     {
+      "title": "端午節熱毒旺！命理師點名「5類人」要躲午：避運勢下滑",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxQR1AxRmJSakRYSkoxUkhmY2ZySmdBaEpjZlJvMXU0dXMxRUZFRlo2RnR1VUlhdVpHNFFPMDNmVS1oY0xvTEN5cGJWa0JXd1UzOTdHeE5lTk1jNDlybkZKWTYtanVmUmV5X3dpVmMwYWVpWFNMNlo1VHhGMFNXVmRsUnM4cThtaGk3V1JVc0xpbHJmRDc2WlpXSEkyb0Fua3VmRGdYMU1NWUh1NGxaMWpDZmRXNG1xNXdZbEJQTVk5R3JQX01rVXBDNGxLQWxCOXpkRG10NzJlSzZtbWdKQ3V6c2ZqN2tuWXhXQTV6QllxODAzZFRmalZtUWZGOGVVOTdyV2hsczhKeDFvODVSLXRnbGU1cDFHZHhlREh3Tm9jSTBhdXJiVUVTb2hsdGlTZElnTm5wamlHNW5pYjV3Q2VKRndUcDJiRkFnXzBjQ0U4eUJRM2hmemc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-15",
+      "published_display": "2026-06-15",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
+    },
+    {
       "title": "錯過等一年！端午節開運黃金2小時 命理師激推「午時水」轉運大法",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE01QWkzMnM1VS1ienE2SkFFNTRDa0ptS196VXlfZ0V4TkIzdzRMelNzTUNmelNkeXpqcklwMGhvbzFqcmE4M0hrZ3J5b2I3MjJZM2duamtR0gFWQVVfeXFMTTVBaTMyczVVLWJ6cTZKQUU1NENrSm1LX3pVeV9nRXhOQjN3NEx6U3NNQ2Z6U2R5empySXAwaG9vMWpyYTgzSGtncnlvYjcyMlkzZ25qa1E?oc=5",
@@ -363,33 +382,14 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "端午節熱毒旺！命理師點名「5類人」要躲午：避運勢下滑",
-      "summary": "来自 中天新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14VmM4c0xuQ1BFLVpiU0N0cl91RThzWlBJYV81dDNURkNMWG40cDM3eFVTaTcxNWdUdWJpUmlzR1pOam8zZ2NoWTIwWVNhLURsWEtV?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "中天新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-15",
-      "published_display": "2026-06-15",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
       "event_cluster": "event-05"
     },
     {
       "title": "千萬別午睡！命理師曝「端午節最忌3行為」：恐影響下半年運勢",
-      "summary": "来自 ettoday.net · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 ETtoday新聞雲 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE05LUhyR0xSd0JyaVMtU092VWZ5cXZkRGZhRjlDbXFtR3N3eUxWVW5YR1lUNER0N1hMUFpPYVpHZlY2bmdrcGZFa1hSOFhJMjJpcWNqazk5bkxGR1NsWElqbWNXRDJrT1840gFoQVVfeXFMTTktSHJHTFJ3QnJpUy1TT3ZVZnlxdmREZmFGOUNtcW1Hc3d5TFZVblhHWVQ0RHQ3WExQWk9hWkdmVjZuZ2twZkVrWFI4WEkyMmlxY2prOTluTEZHU2xYSWptY1dEMmtPXzg?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "ettoday.net · Google News",
+      "source": "ETtoday新聞雲 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
