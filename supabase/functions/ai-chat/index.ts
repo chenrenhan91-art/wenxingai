@@ -11,8 +11,8 @@ const AI_MODELS = [
   'qwen3.5-flash',              // 备用2：100万免费token，到2026/05/25
   'qwen-turbo',                 // 兜底：付费，始终可用
 ];
-const MAX_PROMPT_CHARS = 6000;
-const MAX_SYSTEM_CHARS = 12000;
+// 命盘上下文可能较长，仅拦截异常超大请求（防脚本灌包）
+const MAX_TOTAL_CHARS = 80000;
 
 Deno.serve(async (req) => {
   if (req.method === 'OPTIONS') {
@@ -41,10 +41,10 @@ Deno.serve(async (req) => {
     const prompt = (body && body.prompt) || '';
     const systemInstruction = (body && body.systemInstruction) || '';
     if (!prompt.trim()) return json({ error: 'BAD_REQUEST' }, 400);
-    if (prompt.length > MAX_PROMPT_CHARS || systemInstruction.length > MAX_SYSTEM_CHARS) {
+    if ((prompt.length + systemInstruction.length) > MAX_TOTAL_CHARS) {
       return json({
         error: 'PAYLOAD_TOO_LARGE',
-        message: `请求内容过长，请缩短问题后重试（问题≤${MAX_PROMPT_CHARS}字）。`,
+        message: '请求内容异常过长，请缩短后重试。',
       }, 413);
     }
     if (!aiApiKey) return json({ error: 'CONFIG_ERROR' }, 500);
@@ -134,34 +134,35 @@ async function consumeRateLimit(
   userId: string,
   isPro: boolean,
 ) {
-  const resp = await fetch(supabaseUrl + '/rest/v1/rpc/consume_ai_rate_limit', {
-    method: 'POST',
-    headers: {
-      'Authorization': 'Bearer ' + serviceRoleKey,
-      'apikey': serviceRoleKey,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ p_user_id: userId, p_is_pro: isPro }),
-  });
+  try {
+    const resp = await fetch(supabaseUrl + '/rest/v1/rpc/consume_ai_rate_limit', {
+      method: 'POST',
+      headers: {
+        'Authorization': 'Bearer ' + serviceRoleKey,
+        'apikey': serviceRoleKey,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ p_user_id: userId, p_is_pro: isPro }),
+    });
 
-  if (!resp.ok) {
-    const err = await resp.text().catch(() => '');
-    console.error('rate limit rpc error:', resp.status, err.slice(0, 200));
+    if (!resp.ok) {
+      const err = await resp.text().catch(() => '');
+      console.error('rate limit rpc error (fail-open):', resp.status, err.slice(0, 200));
+      return { allowed: true };
+    }
+
+    const result = await resp.json().catch(() => ({}));
+    if (result.allowed) return { allowed: true };
     return {
       allowed: false,
-      error: 'RATE_LIMIT_UNAVAILABLE',
-      message: '风控校验失败，请稍后再试。',
-      retry_after: 30,
+      error: result.error || 'RATE_LIMITED',
+      message: result.message || '请求过于频繁，请稍后再试。',
+      retry_after: Number(result.retry_after) || 30,
     };
+  } catch (e) {
+    console.error('rate limit rpc exception (fail-open):', e);
+    return { allowed: true };
   }
-
-  const result = await resp.json().catch(() => ({}));
-  return {
-    allowed: !!result.allowed,
-    error: result.error || 'RATE_LIMITED',
-    message: result.message || '请求过于频繁，请稍后再试。',
-    retry_after: Number(result.retry_after) || 30,
-  };
 }
 
 function json(body, status) {

@@ -3690,8 +3690,8 @@
                     currentUser.remaining -= 1;
                     renderAuthUI();
                 }
-                // 限流/失败不扣额度，仅成功时同步
-                if (resp.ok) void fetchMe();
+                // 与服务端同步额度（加 no-cache 防止读到缓存旧值）
+                void fetchMe();
 
                 if (!resp.ok) {
                     if (resp.status === 401) {
