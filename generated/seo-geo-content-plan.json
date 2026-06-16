@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-16T01:58:28.214866+08:00",
-  "generated_at_display": "2026-06-16 01:58 CST",
+  "generated_at": "2026-06-16T16:46:52.432631+08:00",
+  "generated_at_display": "2026-06-16 16:46 CST",
   "site_positioning": "问星AI是面向全球华语用户的AI命理应用，核心覆盖紫微斗数、四柱八字、周易六爻、合盘分析、大运流年与玄学热点解读。",
   "hot_news": {
     "updated_at": "2026-06-16",
@@ -8,11 +8,11 @@
       "吉字占卜本月運勢！老天眷顧給錢花的人！｜#命運好好玩#shorts #手面相#風水 #紫微#星座 #命理 #開運",
       "你好，我是山月知。 很多人聽說我從小對磁場和能量流動特別敏感，後來又死磕了十幾年玄學，經常會問我同一個問題：「既然你中西命理都精通，那出來幫人看盤，你到底更推崇占星還是八字？」 我的回答一向很直接：我都看，而且必須一起看。 #astrologer",
       "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
-      "端午節熱毒旺！命理師點名「5類人」要躲午：避運勢下滑",
+      "【千萬別午睡！命理師曝「端午節最忌3行為」：恐影響下半年運勢】 （示意圖／ETtoday資料照）",
+      "2026端午節3大開運法！命理師：今年火能量極旺 午時水正確用法曝",
       "錯過等一年！端午節開運黃金2小時 命理師激推「午時水」轉運大法",
-      "千萬別午睡！命理師曝「端午節最忌3行為」：恐影響下半年運勢",
-      "2026夏至開運來了！「3生肖」容易出大包 命理師曝招財法",
-      "來台卻撲空黃仁勳！韓AI命理師告白：需要算命隨時聯絡我- 股市爆料同學會"
+      "端午節熱毒旺！命理師點名「5類人」要躲午：避運勢下滑",
+      "千萬別午睡！命理師曝「端午節最忌3行為」：恐影響下半年運勢"
     ],
     "keywords": [
       [
@@ -25,7 +25,7 @@
       ],
       [
         "運勢",
-        3
+        4
       ],
       [
         "開運",
@@ -49,10 +49,6 @@
       ],
       [
         "讨论",
-        1
-      ],
-      [
-        "算命",
         1
       ]
     ],
@@ -79,11 +75,9 @@
     {
       "id": "ai-mingli",
       "name": "AI命理与AI算命",
-      "score": 122,
+      "score": 110,
       "priority": 100,
-      "hot_matches": [
-        "AI命理"
-      ],
+      "hot_matches": [],
       "article_coverage": [],
       "missing_pages": [],
       "primary_keywords": [
@@ -175,40 +169,6 @@
         "解释八字不是单看生肖"
       ],
       "automation_cadence": "weekly"
-    },
-    {
-      "id": "xuanxue-hot-news",
-      "name": "玄学热点与命理新闻",
-      "score": 98,
-      "priority": 76,
-      "hot_matches": [
-        "生肖"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "玄学",
-        "命理新闻",
-        "命理热点",
-        "塔罗占卜",
-        "运势"
-      ],
-      "target_questions": [
-        "最近玄学热点有哪些？",
-        "命理新闻为什么容易引发讨论？",
-        "如何理性看待生肖运势和塔罗占卜？"
-      ],
-      "preferred_pages": [
-        "/mingli-xuanxue-news.html",
-        "/articles/",
-        "/glossary.html"
-      ],
-      "content_angles": [
-        "用每日热点做新鲜度",
-        "把新闻转成理性命理解释",
-        "避免娱乐化过度预言"
-      ],
-      "automation_cadence": "daily"
     },
     {
       "id": "liuyao-ai",
@@ -304,6 +264,38 @@
         "用热点文章承接节气新闻"
       ],
       "automation_cadence": "seasonal"
+    },
+    {
+      "id": "xuanxue-hot-news",
+      "name": "玄学热点与命理新闻",
+      "score": 86,
+      "priority": 76,
+      "hot_matches": [],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "玄学",
+        "命理新闻",
+        "命理热点",
+        "塔罗占卜",
+        "运势"
+      ],
+      "target_questions": [
+        "最近玄学热点有哪些？",
+        "命理新闻为什么容易引发讨论？",
+        "如何理性看待生肖运势和塔罗占卜？"
+      ],
+      "preferred_pages": [
+        "/mingli-xuanxue-news.html",
+        "/articles/",
+        "/glossary.html"
+      ],
+      "content_angles": [
+        "用每日热点做新鲜度",
+        "把新闻转成理性命理解释",
+        "避免娱乐化过度预言"
+      ],
+      "automation_cadence": "daily"
     }
   ],
   "briefs": [
@@ -386,32 +378,6 @@
       "angle": "把大运流年解释为周期观察"
     },
     {
-      "cluster_id": "xuanxue-hot-news",
-      "cluster_name": "玄学热点与命理新闻",
-      "action": "new_article",
-      "primary_keyword": "玄学",
-      "target_question": "最近玄学热点有哪些？",
-      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
-      "suggested_h2": [
-        "玄学的搜索意图是什么",
-        "问星AI如何解释玄学",
-        "传统命理与AI趋势分析的边界",
-        "可引用事实与常见问题"
-      ],
-      "internal_links": [
-        "/facts/wenxing-ai.html",
-        "/geo-answers.html",
-        "/glossary.html",
-        "/mingli-xuanxue-news.html"
-      ],
-      "hot_context": [
-        "吉字占卜本月運勢！老天眷顧給錢花的人！｜#命運好好玩#shorts #手面相#風水 #紫微#星座 #命理 #開運",
-        "你好，我是山月知。 很多人聽說我從小對磁場和能量流動特別敏感，後來又死磕了十幾年玄學，經常會問我同一個問題：「既然你中西命理都精通，那出來幫人看盤，你到底更推崇占星還是八字？」 我的回答一向很直接：我都看，而且必須一起看。 #astrologer",
-        "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命"
-      ],
-      "angle": "用每日热点做新鲜度"
-    },
-    {
       "cluster_id": "liuyao-ai",
       "cluster_name": "周易六爻AI解卦",
       "action": "new_article",
@@ -436,6 +402,32 @@
         "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命"
       ],
       "angle": "把六爻定位为具体问题判断"
+    },
+    {
+      "cluster_id": "hepan",
+      "cluster_name": "合盘与关系分析",
+      "action": "new_article",
+      "primary_keyword": "AI合盘",
+      "target_question": "合盘分析怎么看两个人适不适合？",
+      "suggested_title": "AI合盘怎么理解？问星AI的理性命理观察",
+      "suggested_h2": [
+        "AI合盘的搜索意图是什么",
+        "问星AI如何解释AI合盘",
+        "传统命理与AI趋势分析的边界",
+        "可引用事实与常见问题"
+      ],
+      "internal_links": [
+        "/facts/wenxing-ai.html",
+        "/geo-answers.html",
+        "/glossary.html",
+        "/mingli-xuanxue-news.html"
+      ],
+      "hot_context": [
+        "吉字占卜本月運勢！老天眷顧給錢花的人！｜#命運好好玩#shorts #手面相#風水 #紫微#星座 #命理 #開運",
+        "你好，我是山月知。 很多人聽說我從小對磁場和能量流動特別敏感，後來又死磕了十幾年玄學，經常會問我同一個問題：「既然你中西命理都精通，那出來幫人看盤，你到底更推崇占星還是八字？」 我的回答一向很直接：我都看，而且必須一起看。 #astrologer",
+        "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命"
+      ],
+      "angle": "围绕关系问题做长尾FAQ"
     }
   ],
   "monthly_ai_prompt_tests": [
