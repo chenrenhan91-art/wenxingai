@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-17",
-  "updated_at_display": "2026年6月17日 02:05",
+  "updated_at_display": "2026年6月17日 16:28",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-17T02:05:42.330716+08:00",
+    "fetched_at": "2026-06-17T16:28:50.265762+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "你和他的羈絆多深？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "天生靠嘴吃飯？科林：這兩顆星組合，根本是「超級講師」的發財命盤！ #老闆的神祕學#科林說#紫微斗數#福德宮#斜槓先修班",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8ydlRPQVlCc3J2TmdsdWtMbU1HcVRBdHlMb21vQlJmX0ItdlNRVjdhRkphbGM0M2ItSTJNaWdvbjBHZVZYMl9wdnp4dXF5emkzQzZwYWV3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nVVphWnpuYV9fNTJXeUhaWEJHUXhPemxtQmkwcXB2YV9XNVRoT2VpUUNWY1ZuZVFRd0ZPUEpIZlNwYWtlaVhFbEJJWDZPRHhlaWZZeA?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "塔罗星象",
-      "published": "2026-06-09",
-      "published_display": "2026-06-09",
+      "category": "八字紫微",
+      "published": "2026-06-03",
+      "published_display": "2026-06-03",
       "matched_keywords": [
-        "塔羅",
-        "占卜",
-        "桃花"
+        "紫微斗數",
+        "紫微",
+        "斗數"
       ],
-      "score": 14.55,
-      "event_cluster": "event-10"
+      "score": 12.35,
+      "event_cluster": "event-86"
     },
     {
       "title": "你好，我是山月知。 很多人聽說我從小對磁場和能量流動特別敏感，後來又死磕了十幾年玄學，經常會問我同一個問題：「既然你中西命理都精通，那出來幫人看盤，你到底更推崇占星還是八字？」 我的回答一向很直接：我都看，而且必須一起看。 #astrologer",
@@ -287,7 +287,7 @@
         "玄學"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-82"
+      "event_cluster": "event-80"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -363,7 +363,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "錯過等一年！端午節開運黃金2小時 命理師激推「午時水」轉運大法",
@@ -382,7 +382,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
       "title": "千萬別午睡！命理師曝「端午節最忌3行為」：恐影響下半年運勢",
