@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-17",
-  "updated_at_display": "2026年6月17日 16:28",
+  "updated_at": "2026-06-18",
+  "updated_at_display": "2026年6月18日 00:40",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-17T16:28:50.265762+08:00",
+    "fetched_at": "2026-06-18T00:40:12.799806+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,27 +248,27 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "items": [
     {
-      "title": "天生靠嘴吃飯？科林：這兩顆星組合，根本是「超級講師」的發財命盤！ #老闆的神祕學#科林說#紫微斗數#福德宮#斜槓先修班",
+      "title": "shorts 開運物品都是假!? 要改命還不如投胎?!｜命理.算命.解密.何嘉文.張可昀.小賴.TIFFANY @我愛小明星大跟班",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nVVphWnpuYV9fNTJXeUhaWEJHUXhPemxtQmkwcXB2YV9XNVRoT2VpUUNWY1ZuZVFRd0ZPUEpIZlNwYWtlaVhFbEJJWDZPRHhlaWZZeA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA2WGhyZXFuZTdnWll0dDBXdjZrOWJQTG9qY0NDanlGcXNqOXBfaUozWmRWaEVURk0yZWZTMkJIbVc5dnR2RFY2RTNNY3oyblY0SERRcA?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "八字紫微",
-      "published": "2026-06-03",
-      "published_display": "2026-06-03",
+      "category": "命理新闻",
+      "published": "2026-06-09",
+      "published_display": "2026-06-09",
       "matched_keywords": [
-        "紫微斗數",
-        "紫微",
-        "斗數"
+        "命理",
+        "算命",
+        "開運"
       ],
       "score": 12.35,
-      "event_cluster": "event-86"
+      "event_cluster": "event-76"
     },
     {
       "title": "你好，我是山月知。 很多人聽說我從小對磁場和能量流動特別敏感，後來又死磕了十幾年玄學，經常會問我同一個問題：「既然你中西命理都精通，那出來幫人看盤，你到底更推崇占星還是八字？」 我的回答一向很直接：我都看，而且必須一起看。 #astrologer",
@@ -287,7 +287,7 @@
         "玄學"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-80"
+      "event_cluster": "event-78"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -309,6 +309,25 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "2026端午罕見「三火疊加」！命理師揭午時水放對地方 準備旺整年 | 命理運勢 | 生活",
+      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9sQ0szZnBEUm5PNzZScUJvdW9DWGJEaVFjN3h1TnAtZE9wLUlRRjNETmtkTEN0SVZUbDlvZ2xlalBkLWhiNlBMc3NMRm8?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "NOWnews今日新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-17",
+      "published_display": "2026-06-17",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
       "title": "【千萬別午睡！命理師曝「端午節最忌3行為」：恐影響下半年運勢】 （示意圖／ETtoday資料照）",
       "summary": "来自 facebook.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxQcG5TYUI2Y2hFOFVKa3lHaGEtUHloamdCQ0tiRjRXcnctQmlnSjY3R1Vid2VQOEpFVFFHdk9jWEU4c0ducFREbndhWlJRYzdobFprSmtZMV92V2cyV0J1eW9KNVdxY1VQcVZyazNvVjMxV2E2NEVYRE9BNnVGYU9qLWphSTdOSmN6Z285QUJyRFIwNnY2QnhrZGxGQXNWeEF1LXNpZUpZUWg0N1JyM2RpSDI4UDRDMUJvSkRFY1BTbFZ1UEoxZUtYNEozbE9KWUU3SWt1a3cwVHYzZmxGUWcwYUNrWmhudXhnQmhnUUp6T3BNT0hlci1OWWV2NlVfaGQtQVl3cHg1NjFNVFU2bVIxQmZlZnVFWUFWdzJHM1draWM1aHJRd0tJR0JFZVQxSml3T2VVcmh0ZGtSUU1iNXhzbzUyN2JXRk9RN2dEWEtaam1DTVdDeHFiN29Wem5WdUZtQ1RiUGxlRUF2MWhoMENyZEVKek0wb1hiY0wyVFhVMjFPRVY2UEZvdW9lckgxVHJnTklQd3Q3S3dxYi0yQUFkY0IwcnpMYmZQeGU1Y3pkTUxiSUZhZ3g2YU1jVzZhUXY0YUloSHltZkdRN0dEUlg3UEJMa212b3N4YlNV?oc=5",
@@ -325,7 +344,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "2026端午節3大開運法！命理師：今年火能量極旺 午時水正確用法曝",
@@ -344,7 +363,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "端午節熱毒旺！命理師點名「5類人」要躲午：避運勢下滑",
@@ -363,12 +382,12 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
       "title": "錯過等一年！端午節開運黃金2小時 命理師激推「午時水」轉運大法",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE01QWkzMnM1VS1ienE2SkFFNTRDa0ptS196VXlfZ0V4TkIzdzRMelNzTUNmelNkeXpqcklwMGhvbzFqcmE4M0hrZ3J5b2I3MjJZM2duamtR0gFWQVVfeXFMTTVBaTMyczVVLWJ6cTZKQUU1NENrSm1LX3pVeV9nRXhOQjN3NEx6U3NNQ2Z6U2R5empySXAwaG9vMWpyYTgzSGtncnlvYjcyMlkzZ25qa1E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBER1Y5TDZ4OHpMb2RsS1NQUTNJdmVwSFJiV1BLbHI4QmpfZ2Rsb3ZPdllLdEVUYS15N0pQcVVNcFFXRDktdUFiSzBYbFVtTlA20gFWQVVfeXFMTTVBaTMyczVVLWJ6cTZKQUU1NENrSm1LX3pVeV9nRXhOQjN3NEx6U3NNQ2Z6U2R5empySXAwaG9vMWpyYTgzSGtncnlvYjcyMlkzZ25qa1E?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -382,26 +401,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
-    },
-    {
-      "title": "千萬別午睡！命理師曝「端午節最忌3行為」：恐影響下半年運勢",
-      "summary": "来自 ETtoday新聞雲 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE05LUhyR0xSd0JyaVMtU092VWZ5cXZkRGZhRjlDbXFtR3N3eUxWVW5YR1lUNER0N1hMUFpPYVpHZlY2bmdrcGZFa1hSOFhJMjJpcWNqazk5bkxGR1NsWElqbWNXRDJrT1840gFoQVVfeXFMTTktSHJHTFJ3QnJpUy1TT3ZVZnlxdmREZmFGOUNtcW1Hc3d5TFZVblhHWVQ0RHQ3WExQWk9hWkdmVjZuZ2twZkVrWFI4WEkyMmlxY2prOTluTEZHU2xYSWptY1dEMmtPXzg?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "ETtoday新聞雲 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-15",
-      "published_display": "2026-06-15",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-07"
     }
   ]
 }

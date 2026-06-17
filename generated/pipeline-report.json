@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-06-17T16:28:37.358341+08:00",
-  "ran_at_display": "2026年6月17日 16:28",
+  "ran_at": "2026-06-18T00:39:56.207682+08:00",
+  "ran_at_display": "2026年6月18日 00:39",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "0351005b1183d8553cd61a5a1d63becebaae4332",
-  "new_signature": "87e836258a270c7134628669b19f3b0a409a8dd2",
+  "previous_signature": "87e836258a270c7134628669b19f3b0a409a8dd2",
+  "new_signature": "97485c168cd5f9759588a024f4dbd81ec0476fc5",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,17 +21,18 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "天生靠嘴吃飯？科林：這兩顆星組合，根本是「超級講師」的發財命盤！ #老闆的神祕學#科林說#紫微斗數#福德宮#斜槓先修班",
+    "shorts 開運物品都是假!? 要改命還不如投胎?!｜命理.算命.解密.何嘉文.張可昀.小賴.TIFFANY @我愛小明星大跟班",
     "你好，我是山月知。 很多人聽說我從小對磁場和能量流動特別敏感，後來又死磕了十幾年玄學，經常會問我同一個問題：「既然你中西命理都精通，那出來幫人看盤，你到底更推崇占星還是八字？」 我的回答一向很直接：我都看，而且必須一起看。 #astrologer",
     "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
-    "【千萬別午睡！命理師曝「端午節最忌3行為」：恐影響下半年運勢】 （示意圖／ETtoday資料照）",
-    "2026端午節3大開運法！命理師：今年火能量極旺 午時水正確用法曝"
+    "2026端午罕見「三火疊加」！命理師揭午時水放對地方 準備旺整年 | 命理運勢 | 生活",
+    "【千萬別午睡！命理師曝「端午節最忌3行為」：恐影響下半年運勢】 （示意圖／ETtoday資料照）"
   ],
   "added_titles": [
-    "天生靠嘴吃飯？科林：這兩顆星組合，根本是「超級講師」的發財命盤！ #老闆的神祕學#科林說#紫微斗數#福德宮#斜槓先修班"
+    "shorts 開運物品都是假!? 要改命還不如投胎?!｜命理.算命.解密.何嘉文.張可昀.小賴.TIFFANY @我愛小明星大跟班",
+    "2026端午罕見「三火疊加」！命理師揭午時水放對地方 準備旺整年 | 命理運勢 | 生活"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -41,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月17日 16:28"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月18日 00:40"
     },
     {
       "script": "generate_daily_content.py",
