@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-18",
-  "updated_at_display": "2026年6月18日 16:08",
+  "updated_at": "2026-06-19",
+  "updated_at_display": "2026年6月19日 00:36",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-18T16:08:38.907896+08:00",
+    "fetched_at": "2026-06-19T00:36:51.447717+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "開運"
       ],
       "score": 12.35,
-      "event_cluster": "event-79"
+      "event_cluster": "event-83"
     },
     {
       "title": "你好，我是山月知。 很多人聽說我從小對磁場和能量流動特別敏感，後來又死磕了十幾年玄學，經常會問我同一個問題：「既然你中西命理都精通，那出來幫人看盤，你到底更推崇占星還是八字？」 我的回答一向很直接：我都看，而且必須一起看。 #astrologer",
@@ -287,7 +287,7 @@
         "玄學"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-82"
+      "event_cluster": "event-87"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -309,25 +309,6 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "迎接一年最強陽氣！命理師曝端午6大開運法 「水煮硬幣、喝午時水」開財一路發",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxQVkVMOXU3WDI1alFhVlJVQy1VNzlDRmNZVHR0ZkN0cEM3NHQ1Z214U2Z4NElGSGcydGRQWmtVMVlmamgyenhQZXprZzk1ZndNdUFpS0xoTHZ0bFpQaHU4TEJza2d4Z29QbTVMNER2RVFYcGdFMTh1MUFNV3U4Umg4OHNxUy0ydGNCZ3djNXFVS1dRLXd1UGRNNkgxbXdNeWVsaG5GMFJHWWl4Mk5tN3g0Q005ZERuaF9uUWZCRFlxM0dvdURVdTMtTDQ2YUtBN2dvcWp2V29SU0hnN0RHc3RyOEt6bWNxaEtWenZjMnlkbEdvMEM4YzBRZkxGam5VN3RHbTBvZlhramFheWJlUFYxVDR4TWMtX3g4TjczMjlPVkFLU3Nra2dYZDhJMG10VFpwUE5NMzdPSERQMWpXSm1VLUxaenhWVTBCT3RUMFZnTzEtbVdIeHZBSWFLcURqa3NzcHVlX1hxRjYyVHFTWHF6Q1VicjRsM2Q5SERxX3UwQ0IwYnlBZXc?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-18",
-      "published_display": "2026-06-18",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-02"
-    },
-    {
       "title": "端午節後運勢逆勢翻紅！命理師點名「3星座」強運爆棚，職場貴人主動找上門 | 社群中心 | 風生活",
       "summary": "来自 Storm.mg · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGU2Q2aFp0TV8zU0hlczBXYWIwc202Y0tZZXF1RWJzblN4eTVvU2x4ckFWMVB5MFhYc0ZEcjNfTWxibXk0emlxQ2RlbFVVU1Rt?oc=5",
@@ -344,7 +325,45 @@
         "運勢"
       ],
       "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
+      "title": "迎接一年最強陽氣！命理師曝端午6大開運法 「水煮硬幣、喝午時水」開財一路發",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxQVkVMOXU3WDI1alFhVlJVQy1VNzlDRmNZVHR0ZkN0cEM3NHQ1Z214U2Z4NElGSGcydGRQWmtVMVlmamgyenhQZXprZzk1ZndNdUFpS0xoTHZ0bFpQaHU4TEJza2d4Z29QbTVMNER2RVFYcGdFMTh1MUFNV3U4Umg4OHNxUy0ydGNCZ3djNXFVS1dRLXd1UGRNNkgxbXdNeWVsaG5GMFJHWWl4Mk5tN3g0Q005ZERuaF9uUWZCRFlxM0dvdURVdTMtTDQ2YUtBN2dvcWp2V29SU0hnN0RHc3RyOEt6bWNxaEtWenZjMnlkbEdvMEM4YzBRZkxGam5VN3RHbTBvZlhramFheWJlUFYxVDR4TWMtX3g4TjczMjlPVkFLU3Nra2dYZDhJMG10VFpwUE5NMzdPSERQMWpXSm1VLUxaenhWVTBCT3RUMFZnTzEtbVdIeHZBSWFLcURqa3NzcHVlX1hxRjYyVHFTWHF6Q1VicjRsM2Q5SERxX3UwQ0IwYnlBZXc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-18",
+      "published_display": "2026-06-18",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
       "event_cluster": "event-03"
+    },
+    {
+      "title": "夏至財運爆發 命理師點名3生肖當心 2招開運法曝光",
+      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE10dU9mRTkyZ2FTRXlWb3BXLTRHSzdyM3RMWmlGUVM1dlFEZTNGR3FvODd3Vm91ZEY5UXo2dFljeVpHeW1zOTJld2IxVlptMnVXQXNnWW15MFBFaWFX?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "自由娛樂 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-18",
+      "published_display": "2026-06-18",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
     },
     {
       "title": "2026端午罕見「三火疊加」！命理師揭午時水放對地方 準備旺整年 | 命理運勢 | 生活",
@@ -363,7 +382,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "【千萬別午睡！命理師曝「端午節最忌3行為」：恐影響下半年運勢】 （示意圖／ETtoday資料照）",
@@ -380,25 +399,6 @@
         "命理",
         "命理師",
         "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "2026端午節3大開運法！命理師：今年火能量極旺 午時水正確用法曝",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBXek1FTjI2SWRtY2Q0eGZGSDZCZUhZVmhJQW8tdkp5TE8zejg4bmRib0lPTDg3S0tCaEUxdlBwN29KWTFnRjZqcnJTSTBGTXFqM1hJRV81dUnSAV9BVV95cUxQay1TeGRZZmlOS3JxLW5ld3daM2tlNTh2VTY2RlF6VE4yTDJNREZGd2F5QVVMZHFlQUsxa2dHUGY3WDlRX3REVXlENzBDeUVrcTNjbFlVX2MwRlVLTTZ6NA?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-16",
-      "published_display": "2026-06-16",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-06"

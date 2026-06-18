@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-06-18T16:08:25.793305+08:00",
-  "ran_at_display": "2026年6月18日 16:08",
+  "ran_at": "2026-06-19T00:36:35.878968+08:00",
+  "ran_at_display": "2026年6月19日 00:36",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "97485c168cd5f9759588a024f4dbd81ec0476fc5",
-  "new_signature": "1eb8cda92bf8aebf8797a0daeeae84d62c23d5aa",
+  "previous_signature": "1eb8cda92bf8aebf8797a0daeeae84d62c23d5aa",
+  "new_signature": "034ca3e81ef71f378f853eb603c7dcd7b4974644",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -24,14 +24,10 @@
     "吉字占卜本月運勢！老天眷顧給錢花的人！｜#命運好好玩#shorts #手面相#風水 #紫微#星座 #命理 #開運",
     "你好，我是山月知。 很多人聽說我從小對磁場和能量流動特別敏感，後來又死磕了十幾年玄學，經常會問我同一個問題：「既然你中西命理都精通，那出來幫人看盤，你到底更推崇占星還是八字？」 我的回答一向很直接：我都看，而且必須一起看。 #astrologer",
     "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
-    "迎接一年最強陽氣！命理師曝端午6大開運法 「水煮硬幣、喝午時水」開財一路發",
-    "端午節後運勢逆勢翻紅！命理師點名「3星座」強運爆棚，職場貴人主動找上門 | 社群中心 | 風生活"
+    "端午節後運勢逆勢翻紅！命理師點名「3星座」強運爆棚，職場貴人主動找上門 | 社群中心 | 風生活",
+    "迎接一年最強陽氣！命理師曝端午6大開運法 「水煮硬幣、喝午時水」開財一路發"
   ],
-  "added_titles": [
-    "吉字占卜本月運勢！老天眷顧給錢花的人！｜#命運好好玩#shorts #手面相#風水 #紫微#星座 #命理 #開運",
-    "迎接一年最強陽氣！命理師曝端午6大開運法 「水煮硬幣、喝午時水」開財一路發",
-    "端午節後運勢逆勢翻紅！命理師點名「3星座」強運爆棚，職場貴人主動找上門 | 社群中心 | 風生活"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
@@ -43,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月18日 16:08"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月19日 00:36"
     },
     {
       "script": "generate_daily_content.py",
