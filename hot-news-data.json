@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-19",
-  "updated_at_display": "2026年6月19日 16:32",
+  "updated_at": "2026-06-20",
+  "updated_at_display": "2026年6月20日 00:09",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-19T16:32:31.710535+08:00",
+    "fetched_at": "2026-06-20T00:09:28.871283+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -177,11 +177,11 @@
       }
     ],
     "source_weights": {
-      "google_news_mingli_tw": 6.55,
+      "google_news_mingli_tw": 6.25,
       "google_news_xuanxue_tw": 6.05,
-      "google_news_taluo_tw": 5.85,
-      "google_news_fengshui_tw": 5.85,
-      "ptt_gossiping": 5.55,
+      "google_news_taluo_tw": 5.95,
+      "google_news_fengshui_tw": 5.95,
+      "ptt_gossiping": 5.75,
       "ptt_womentalk": 5.15,
       "ptt_marvel": 4.65,
       "youtube_search": 5.55,
@@ -192,7 +192,7 @@
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 0,
+        "picked_items": 5,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -202,17 +202,17 @@
       },
       "google_news_taluo_tw": {
         "status": "ok",
-        "picked_items": 2,
+        "picked_items": 0,
         "failures": 0
       },
       "google_news_fengshui_tw": {
         "status": "ok",
-        "picked_items": 1,
+        "picked_items": 0,
         "failures": 0
       },
       "ptt_gossiping": {
         "status": "ok",
-        "picked_items": 3,
+        "picked_items": 1,
         "failures": 0
       },
       "ptt_womentalk": {
@@ -248,27 +248,27 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 3/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "items": [
     {
-      "title": "2026農曆五月(06/15~07/13）【十二生肖運勢】命理師 簡少年",
+      "title": "吉字占卜本月運勢！老天眷顧給錢花的人！｜#命運好好玩#shorts #手面相#風水 #紫微#星座 #命理 #開運",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE82SjRzNW96U0hFSHJ5RzRlaFFySVRCTzBQSU9kOXI4TllkVzcwZnJJR3BOOXlaQ1RPc2lKSEFMQ3B6YklaRHRkdGhrNWtVUmlnSTNhMHZR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAxWFFwdy0wYkdTdHM4R1VOa1h2Y2VmQlpyV19sVXBKQjN3TVpqRlpjUVNRU0FaWHRSbEFZcm5RallKRHQwYm5ZTmxwbEI5aDdzbFdDdA?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "命理新闻",
-      "published": "2026-06-09",
-      "published_display": "2026-06-09",
+      "category": "风水玄学",
+      "published": "2026-06-11",
+      "published_display": "2026-06-11",
       "matched_keywords": [
         "命理",
-        "命理師",
-        "運勢"
+        "運勢",
+        "開運"
       ],
       "score": 12.35,
-      "event_cluster": "event-14"
+      "event_cluster": "event-89"
     },
     {
       "title": "你好，我是山月知。 很多人聽說我從小對磁場和能量流動特別敏感，後來又死磕了十幾年玄學，經常會問我同一個問題：「既然你中西命理都精通，那出來幫人看盤，你到底更推崇占星還是八字？」 我的回答一向很直接：我都看，而且必須一起看。 #astrologer",
@@ -287,7 +287,7 @@
         "玄學"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-15"
+      "event_cluster": "event-92"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -305,103 +305,103 @@
         "热议",
         "讨论"
       ],
-      "score": 15.75,
-      "event_cluster": "event-01"
-    },
-    {
-      "title": "Candice塔羅占卜🔮他知道你對他的感情嗎❤️給你的訊息 /愛情/金錢/健康/運勢/頻率/感情/幸福/喜悅/傳訊/靈性/星座/塔羅/占卜/有選項",
-      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1FNGZGczRBeXZxbmFURGxyajBMdmZ3TjFzS29sNE1yZktsdG13eXlqYjJsRXE0VkFvQ3dET0ZMRnRfcUw0T3ZYUDEzTjRQQWV2UFBQLXl0S0Nid3hR?oc=5",
-      "source_id": "google_news_taluo_tw",
-      "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-06-17",
-      "published_display": "2026-06-17",
-      "matched_keywords": [
-        "運勢",
-        "塔羅",
-        "占卜"
-      ],
-      "score": 14.05,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "迎接一年最強陽氣！命理師曝端午6大開運法 「水煮硬幣、喝午時水」開財一路發",
-      "summary": "来自 鏡新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1yLUxoQ3V4dXBPZWRQdlFUcm9SVHpRc2h3bnRScmFKUjFFVVQ1UE4wYzUxZmE1Wk1SN1laU0RsX21aZi11a1NDWUI0OUF1Sk43T2I5R3VFazVWaUlt0gFcQVVfeXFMTXItTGhDdXh1cE9lZFB2UVRyb1JUelFzaHdudFJyYUpSMUVVVDVQTjBjNTFmYTVaTVI3WVpTRGxfbVpmLXVrU0NZQjQ5QXVKTjdPYjlHdUVrNVZpSW0?oc=5",
-      "source_id": "google_news_taluo_tw",
-      "source": "鏡新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-18",
-      "published_display": "2026-06-18",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 12.85,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "恭喜生肖蛇！2026年6月“雙星入命”格局開啟，這15天不行動，財神轉身走人！#南懷瑾 #國學 #易經#開運 #招財#風水 #2026運勢#屬相#生肖運勢#生肖命理Student Finance (4TcGggAjQQ)",
-      "summary": "来自 Mshale · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41NW1GcVYwcjc0M1RpNFJwekNVVnVpbE9udUZ6QkhkMmhwMFNXYk9HMVRlU3RqQ2pSdjlkaEZvc29LeVZUWmJBMUU1MlMtZFZGcTdONDN0aEo3bHc?oc=5",
-      "source_id": "google_news_fengshui_tw",
-      "source": "Mshale · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E9%A2%A8%E6%B0%B4+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "风水玄学",
-      "published": "2026-06-18",
-      "published_display": "2026-06-18",
-      "matched_keywords": [
-        "命理",
-        "運勢",
-        "開運"
-      ],
-      "score": 12.85,
-      "event_cluster": "event-06"
-    },
-    {
-      "title": "[新聞] 「九紫離火運」全面啟動 命理師：AI產業",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 13，作者 Scorpio。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1781608672.A.FA2.html",
-      "source_id": "ptt_gossiping",
-      "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
-      "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-06-16",
-      "published_display": "2026-06-16",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "热议"
-      ],
-      "score": 14.283333333333331,
+      "score": 15.95,
       "event_cluster": "event-02"
     },
     {
-      "title": "[問卦] 目前人生都照紫微斗數命盤走 要信嗎？",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「紫微」展开讨论，推文热度 7，作者 HTC92。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1780977579.A.DA3.html",
-      "source_id": "ptt_gossiping",
-      "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E7%B4%AB%E5%BE%AE",
-      "source_group": "community",
-      "category": "八字紫微",
-      "published": "2026-06-09",
-      "published_display": "2026-06-09",
+      "title": "【超罕見！端午節遇「三火疊加」 命理師曝3招開運】 「雙火」流年～～～～（#豬頭皮）",
+      "summary": "来自 facebook.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxQVWExeDF4WjRzcER4NkhLam1HdDVIdFR0VE5vYk13MVR1MWZWMXoxcGFyekdxSkFjUFdxa05IVm9lbXpZVWc0UG42MlFYTnJYSHRTU0Zfa3AzUmZfNEdQQ240d2xuT1Vsb0NVSmhybExtX1ZHald5UF9fOU9PbG9KdGhpS1EwV2diQjA2X2FmZEdCYS00bEV0ZjJ5bXpwbzlqU1ktbmpJUGNTM1lyYTZfWGdjMlBreWxMWm80NUZ0NlJEZHF4V01KaGY0VXJkSjhteVlqN2xFUmZpSkIwM2U4X0txWHp4NHQ5Z0thdGRscE9ZblFXT0RCb1k0dEhoZzN2WnZKVEg4UFhSWGZselp6UkloNlZxQWdnQXRfTWFfS1h5YjJsNVJRYTNKZzBnUlljMHRPb1VaMWQ2MVJuTUJaek1aaWZMYkc5bWlYQUZHTGJXU1FtUFFvOEFaVG9WaHY1RlRFSXRESXN0THRSU1BzOElnT2p4QkFYZ05MTTZKZlJxU3o5aWFkNmtIN1Z0YV9BRm12NEd4SQ?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "facebook.com · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-19",
+      "published_display": "2026-06-19",
       "matched_keywords": [
-        "紫微",
-        "斗數",
-        "命盤"
+        "命理",
+        "命理師",
+        "流年"
       ],
-      "score": 14.483333333333334,
+      "score": 16.65,
+      "event_cluster": "event-01"
+    },
+    {
+      "title": "錯過等一年！端午節開運黃金2小時命理師激推「午時水」轉運大法｜生活智慧王｜養生",
+      "summary": "来自 元氣網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHUkF2Rm9rTFhfcjZuWjY5ZG5ld2lfOURLQUJ0bFFSVFppOVFrMnhPQXVDbGNmZUdzRFpuUTlCMmk5M1FZV2xRSXNnV29pcnNHbGpMQ0NJLUFUYUNR?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "元氣網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-19",
+      "published_display": "2026-06-19",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.450000000000001,
+      "event_cluster": "event-03"
+    },
+    {
+      "title": "端午節午時水別錯過！今年開運能量最強 命理師：錯過再等60年",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxPeHBPZzlFRXdKX0U1WjdOWVJqVmN5eUxFRkk5S09pTkJ3X2NUNm9sVU1WYkRBeWk4WVhYQ2JJaWczWFVYc2RfUzNTaENUd1NtWElDZzRZUjNKRGsxRTJkRjQ2UWhEUDFyc19kSEFVWVRlOXdzZklxdVFMTWRzeHFlYWpkQTRRTEFGMko1aTdPMTlfQWQ5ckdpSC1Ub1NtLTgyb1lLb25GX19yal85QjZLWTZXRDdDTmNScXFQRmhtTThiQlkzWmVxWHlXY3FXY0I2QjIzUjRYd2NFd2h2LWxnR2FUM3ptTnVLanpXZWZmRDRldUhweWJrU0g3dFNXcmJLN2o1bnNkUUpRaWlmdXV1YkJFN05EWnE0ZnBKZ0pJd2szUW9GMG14TGwzZkZlb1BJRG84bVM4TkhiMktMY0hzbXFsaHMyRlRMX3cwS3BpaE9rMWlqbWVRSWhUMnNjMkh3bzZJTzNSYlhhN1Vzb2E5akpXSWlRM3hjT3F4RDlrck03QldVQmc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-19",
+      "published_display": "2026-06-19",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.450000000000001,
       "event_cluster": "event-04"
+    },
+    {
+      "title": "命理師曝「自製午時水」 這2個小時接水、曬太陽秒開運",
+      "summary": "来自 自由時報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB0ZVlBTmZIaDhOc1VoZ1ZrUjE2YjNWZmpQazJUOVJOcGxPOHd3ektuLWY3YWdrTWlpcm45aGNXVVV1bU5KZ2N4aHZpcnBPUHdTN0E0Vkt5blJ3UXB6OEhkT3ZWSnNLZWlTNGfSAWpBVV95cUxQdGVZQU5mSGg4TnNVaGdWa1IxNmIzVmZqUGsyVDlSTnBsTzh3d3pLbi1mN2Fna01paXJuOWhjV1VVdW1OSmdjeGh2aXJwT1B3UzdBNFZLeW5Sd1FwejhIZE92VkpzS2VpUzRn?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "自由時報 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-19",
+      "published_display": "2026-06-19",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.450000000000001,
+      "event_cluster": "event-05"
+    },
+    {
+      "title": "錯過再等60年！端午「最強開運水」這2小時必接 命理師揭5招發大財",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxPUGoxSVZ2MEdPUzhIYkdBS3ZqcHA5bGxWa3A0T2JQS2hzQUFHdHNSQVJlNkpWQVpXd0JYUXVEN3JIMzAxQ2ozZWl6UmVLVEdjY3hXbHRJSnVfSzE5MnBnY201Qm1sNXBLNWxPZ1laZHowN3l2RHVGMnFWVXFrdmM4eGVvbFcxSkdKVmtUcGNfeTFIRlRWTnhNWU9UamFUMHNlNXpFTGJjM2c1Mi1kbHVORGhKWFVnUll5Y3JFQUotUXBPeTd1SGU0WEhWN3dvendscjRBdVRBcXE0VUlBQ2xpQ29vMGJUUk5FSW15YmVwTHl3MVR3c3JEcU05WVMxcVZ2SE4yUnM1Zk5yTEFVVEZmVGt3XzI1Y3FDcEpZRTh2dEx1Ti00dkZ0N2tTZk9QTE9HYjhqVm5zNlRmcHdaczJKbG5CR3hrMS1Xb2lRSGp0ZDFydXhRWklmZlc3dzk5Zkp3VV8zVUNOLUNzeXFBT1Y2X0RDMkdZb0tmc01iYno1YVdta1o2TlhfVWJn?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-19",
+      "published_display": "2026-06-19",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.450000000000001,
+      "event_cluster": "event-06"
     }
   ]
 }
