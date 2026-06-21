@@ -3,13 +3,11 @@ const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
 };
-const AI_API_URL = 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions';
-// 模型按优先级排列：额度耗尽(403 AllocationQuota)时自动降级到下一个
+const AI_API_URL = 'https://api.deepseek.com/chat/completions';
+// DeepSeek 官方账户当前可用模型，按优先级自动降级
 const AI_MODELS = [
-  'deepseek-v4-flash',          // 主力：100万免费token，到2026/07/24
-  'qwen3.6-flash-2026-04-16',   // 备用1：100万免费token，到2026/07/17
-  'qwen3.5-flash',              // 备用2：100万免费token，到2026/05/25
-  'qwen-turbo',                 // 兜底：付费，始终可用
+  'deepseek-v4-flash',
+  'deepseek-v4-pro',
 ];
 // 命盘上下文可能较长，仅拦截异常超大请求（防脚本灌包）
 const MAX_TOTAL_CHARS = 80000;
@@ -21,7 +19,8 @@ Deno.serve(async (req) => {
   try {
     const supabaseUrl    = Deno.env.get('SUPABASE_URL');
     const serviceRoleKey = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY');
-    const aiApiKey   = Deno.env.get('DASHSCOPE_API_KEY');
+    // 兼容现有 Supabase Secret 名称，方便无中断迁移到 DEEPSEEK_API_KEY。
+    const aiApiKey = Deno.env.get('DEEPSEEK_API_KEY') || Deno.env.get('DASHSCOPE_API_KEY');
 
     const authHeader = req.headers.get('Authorization');
     if (!authHeader || !authHeader.startsWith('Bearer ')) {
