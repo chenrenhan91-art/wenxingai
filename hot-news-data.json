@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-21",
-  "updated_at_display": "2026年6月21日 16:01",
+  "updated_at_display": "2026年6月21日 23:12",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-21T16:01:10.650475+08:00",
+    "fetched_at": "2026-06-21T23:12:11.193829+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -177,22 +177,22 @@
       }
     ],
     "source_weights": {
-      "google_news_mingli_tw": 5.4,
-      "google_news_xuanxue_tw": 5.2,
-      "google_news_taluo_tw": 5.0,
-      "google_news_fengshui_tw": 5.0,
-      "ptt_gossiping": 5.75,
+      "google_news_mingli_tw": 6.55,
+      "google_news_xuanxue_tw": 6.05,
+      "google_news_taluo_tw": 5.85,
+      "google_news_fengshui_tw": 5.85,
+      "ptt_gossiping": 5.55,
       "ptt_womentalk": 5.15,
       "ptt_marvel": 4.65,
-      "youtube_search": 4.6,
-      "x_recent_search": 4.4,
+      "youtube_search": 5.55,
+      "x_recent_search": 5.35,
       "reddit_search": 4.0,
       "xiaohongshu_watch": 5.05
     },
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 4,
+        "picked_items": 5,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -212,7 +212,7 @@
       },
       "ptt_gossiping": {
         "status": "ok",
-        "picked_items": 2,
+        "picked_items": 1,
         "failures": 0
       },
       "ptt_womentalk": {
@@ -267,8 +267,8 @@
         "算命",
         "開運"
       ],
-      "score": 11.399999999999999,
-      "event_cluster": "event-91"
+      "score": 12.35,
+      "event_cluster": "event-87"
     },
     {
       "title": "生日不要只許願。 因為很多願望， 如果你沒有看懂自己為什麼卡住， 明年還是會再許一次。 八字流年不是生日那天切換， 但生日是你命盤被啟動的日子。 很適合拿來問自己： 我這一年重複了什麼課題？ 我到底適合往哪裡走？ 我是不是又用同一種方式消耗自己？ 生日",
@@ -286,8 +286,8 @@
         "八字",
         "命盤"
       ],
-      "score": 11.2,
-      "event_cluster": "event-92"
+      "score": 12.149999999999999,
+      "event_cluster": "event-89"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -305,7 +305,7 @@
         "热议",
         "讨论"
       ],
-      "score": 15.95,
+      "score": 15.75,
       "event_cluster": "event-02"
     },
     {
@@ -324,8 +324,27 @@
         "命理師",
         "流年"
       ],
-      "score": 15.8,
+      "score": 16.95,
       "event_cluster": "event-01"
+    },
+    {
+      "title": "命理師警告「夏至」4生肖當心健康亮紅燈 午睡竟成開運關鍵",
+      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBGYUdHNWJxZ2lOVlp4MzlQcmZYSXNtVXIxYjFRRjl0OHc4S2t6NFQ0dG5sVkU2aC1EOS1kTWp5Nkl4emJRZ1FXamtCQ0kxZ1hMVEpvM1ZwdDN0UVd1ZTJZanRn0gFiQVVfeXFMUEZhR0c1YnFnaU5WWngzOVByZlhJc21VcjFiMVFGOXQ4dzhLa3o0VDR0bmxWRTZoLUQ5LWRNank2SXh6YlFnUVdqa0JDSTFnWExUSm8zVnB0M3RRV3VlMllqdGc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "自由娛樂 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-21",
+      "published_display": "2026-06-21",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
     },
     {
       "title": "夏至「陽極換局」引運勢轉變！命理師揭下半年5大贏家生肖| 娛樂星聞",
@@ -343,46 +362,8 @@
         "命理師",
         "運勢"
       ],
-      "score": 13.600000000000001,
+      "score": 14.750000000000002,
       "event_cluster": "event-04"
-    },
-    {
-      "title": "命理師警告「夏至」4生肖當心健康亮紅燈 午睡竟成開運關鍵",
-      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3LTQtS190bGtDV1dDRnc2N2t5b25TTERpVF9CS2MzaGVwa0lUMXRiTzlCUXpidURRM2JnZC1GcG1TQ3lUaExRcVQ5Uno4NTdPb29xSFNOdWpQZ0pJ0gFiQVVfeXFMUEZhR0c1YnFnaU5WWngzOVByZlhJc21VcjFiMVFGOXQ4dzhLa3o0VDR0bmxWRTZoLUQ5LWRNank2SXh6YlFnUVdqa0JDSTFnWExUSm8zVnB0M3RRV3VlMllqdGc?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "自由娛樂 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-21",
-      "published_display": "2026-06-21",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 13.600000000000001,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "[新聞] 「九紫離火運」全面啟動 命理師：AI產業",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 13，作者 Scorpio。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1781608672.A.FA2.html",
-      "source_id": "ptt_gossiping",
-      "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
-      "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-06-16",
-      "published_display": "2026-06-16",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "热议"
-      ],
-      "score": 14.483333333333334,
-      "event_cluster": "event-03"
     },
     {
       "title": "今夏至6大禁忌 命理師教「95元開運法」：讓你財運大旺",
@@ -400,7 +381,26 @@
         "命理師",
         "開運"
       ],
-      "score": 13.600000000000001,
+      "score": 14.750000000000002,
+      "event_cluster": "event-05"
+    },
+    {
+      "title": "夏至開運攻略一次看！命理師點名3生肖要小心「慎防車禍」 招財秘法曝光",
+      "summary": "来自 鏡週刊Mirror Media · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2bmhWQXJWZ2gyYUxWT2VsYjdaX3owV2NycVZtazd1RDNPYzlBOE12WjlhQ3BaUUpSUUY2cGxCT3Y0dE1XVVZ4TjJHeXJKREE0Sktxd1FOMXVWa1hGNlVXSHRmb2cxX1lR0gFoQVVfeXFMUDZuaFZBclZnaDJhTFZPZWxiN1pfejBXY3JxVm1rN3VEM09jOUE4TXZaOWFDcFpRSlJRRjZwbEJPdjR0TVdVVnhOMkd5ckpEQTRKS3F3UU4xdVZrWEY2VVdIdGZvZzFfWVE?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "鏡週刊Mirror Media · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-20",
+      "published_display": "2026-06-20",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
       "event_cluster": "event-06"
     }
   ]

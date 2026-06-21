@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-06-21T16:00:54.321494+08:00",
-  "ran_at_display": "2026年6月21日 16:00",
+  "ran_at": "2026-06-21T23:11:57.925258+08:00",
+  "ran_at_display": "2026年6月21日 23:11",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "61c7d3361c5bd2ec9411b87e6aeabec773805f9a",
-  "new_signature": "fbda404f123280e7f13e8a8a881548b9028843a5",
+  "previous_signature": "fbda404f123280e7f13e8a8a881548b9028843a5",
+  "new_signature": "4438966770b6f30004ed0ffc5e8692a7f1798b7d",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -25,13 +25,10 @@
     "生日不要只許願。 因為很多願望， 如果你沒有看懂自己為什麼卡住， 明年還是會再許一次。 八字流年不是生日那天切換， 但生日是你命盤被啟動的日子。 很適合拿來問自己： 我這一年重複了什麼課題？ 我到底適合往哪裡走？ 我是不是又用同一種方式消耗自己？ 生日",
     "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
     "【超罕見！端午節遇「三火疊加」 命理師曝3招開運】 「雙火」流年～～～～（#豬頭皮）",
-    "夏至「陽極換局」引運勢轉變！命理師揭下半年5大贏家生肖| 娛樂星聞"
+    "命理師警告「夏至」4生肖當心健康亮紅燈 午睡竟成開運關鍵"
   ],
   "added_titles": [
-    "shorts 開運物品都是假!? 要改命還不如投胎?!｜命理.算命.解密.何嘉文.張可昀.小賴.TIFFANY @我愛小明星大跟班",
-    "生日不要只許願。 因為很多願望， 如果你沒有看懂自己為什麼卡住， 明年還是會再許一次。 八字流年不是生日那天切換， 但生日是你命盤被啟動的日子。 很適合拿來問自己： 我這一年重複了什麼課題？ 我到底適合往哪裡走？ 我是不是又用同一種方式消耗自己？ 生日",
-    "【超罕見！端午節遇「三火疊加」 命理師曝3招開運】 「雙火」流年～～～～（#豬頭皮）",
-    "夏至「陽極換局」引運勢轉變！命理師揭下半年5大贏家生肖| 娛樂星聞"
+    "命理師警告「夏至」4生肖當心健康亮紅燈 午睡竟成開運關鍵"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -44,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月21日 16:01"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月21日 23:12"
     },
     {
       "script": "generate_daily_content.py",
