@@ -1,9 +1,9 @@
 {
-  "ran_at": "2026-06-21T23:11:57.925258+08:00",
-  "ran_at_display": "2026年6月21日 23:11",
+  "ran_at": "2026-06-21T23:53:29.702937+08:00",
+  "ran_at_display": "2026年6月21日 23:53",
   "overall_status": "failed_generate",
-  "force_refresh": true,
-  "previous_signature": "fbda404f123280e7f13e8a8a881548b9028843a5",
+  "force_refresh": false,
+  "previous_signature": "4438966770b6f30004ed0ffc5e8692a7f1798b7d",
   "new_signature": "4438966770b6f30004ed0ffc5e8692a7f1798b7d",
   "content_changed": true,
   "gemini_ran": true,
@@ -27,9 +27,7 @@
     "【超罕見！端午節遇「三火疊加」 命理師曝3招開運】 「雙火」流年～～～～（#豬頭皮）",
     "命理師警告「夏至」4生肖當心健康亮紅燈 午睡竟成開運關鍵"
   ],
-  "added_titles": [
-    "命理師警告「夏至」4生肖當心健康亮紅燈 午睡竟成開運關鍵"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
@@ -41,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月21日 23:12"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月21日 23:53"
     },
     {
       "script": "generate_daily_content.py",

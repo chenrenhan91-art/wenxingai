@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-21",
-  "updated_at_display": "2026年6月21日 23:12",
+  "updated_at_display": "2026年6月21日 23:53",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-21T23:12:11.193829+08:00",
+    "fetched_at": "2026-06-21T23:53:44.915386+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "開運"
       ],
       "score": 12.35,
-      "event_cluster": "event-87"
+      "event_cluster": "event-92"
     },
     {
       "title": "生日不要只許願。 因為很多願望， 如果你沒有看懂自己為什麼卡住， 明年還是會再許一次。 八字流年不是生日那天切換， 但生日是你命盤被啟動的日子。 很適合拿來問自己： 我這一年重複了什麼課題？ 我到底適合往哪裡走？ 我是不是又用同一種方式消耗自己？ 生日",
@@ -287,7 +287,7 @@
         "命盤"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-89"
+      "event_cluster": "event-94"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
