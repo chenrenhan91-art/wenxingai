@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-06-22T17:10:34.863164+08:00",
-  "ran_at_display": "2026年6月22日 17:10",
+  "ran_at": "2026-06-23T01:41:26.429325+08:00",
+  "ran_at_display": "2026年6月23日 01:41",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "4438966770b6f30004ed0ffc5e8692a7f1798b7d",
-  "new_signature": "4a28d2890df0ffc357394364cb3809e2c7ddee11",
+  "previous_signature": "4a28d2890df0ffc357394364cb3809e2c7ddee11",
+  "new_signature": "5086b2cbe0ef9b66d099b69f1324945a013261b0",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,13 +21,16 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "shorts 開運物品都是假!? 要改命還不如投胎?!｜命理.算命.解密.何嘉文.張可昀.小賴.TIFFANY @我愛小明星大跟班",
-    "生日不要只許願。 因為很多願望， 如果你沒有看懂自己為什麼卡住， 明年還是會再許一次。 八字流年不是生日那天切換， 但生日是你命盤被啟動的日子。 很適合拿來問自己： 我這一年重複了什麼課題？ 我到底適合往哪裡走？ 我是不是又用同一種方式消耗自己？ 生日",
+    "【塔羅耳語】下一個有結婚緣分的桃花，Ta 是誰？塔羅｜占卜｜塔羅牌｜線上塔羅｜大眾占卜｜感情｜脫單｜結婚",
+    "木木遭神預言戳中淚點！《天機》命理師突問爸爸近況她失控痛哭",
     "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
     "【超罕見！端午節遇「三火疊加」 命理師曝3招開運】 「雙火」流年～～～～（#豬頭皮）",
     "命理師警告「夏至」4生肖當心健康亮紅燈 午睡竟成開運關鍵"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "【塔羅耳語】下一個有結婚緣分的桃花，Ta 是誰？塔羅｜占卜｜塔羅牌｜線上塔羅｜大眾占卜｜感情｜脫單｜結婚",
+    "木木遭神預言戳中淚點！《天機》命理師突問爸爸近況她失控痛哭"
+  ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
@@ -39,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月22日 17:10"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月23日 01:41"
     },
     {
       "script": "generate_daily_content.py",

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-22",
-  "updated_at_display": "2026年6月22日 17:10",
+  "updated_at": "2026-06-23",
+  "updated_at_display": "2026年6月23日 01:41",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-22T17:10:50.313134+08:00",
+    "fetched_at": "2026-06-23T01:41:41.041957+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,42 +252,41 @@
   ],
   "items": [
     {
-      "title": "shorts 開運物品都是假!? 要改命還不如投胎?!｜命理.算命.解密.何嘉文.張可昀.小賴.TIFFANY @我愛小明星大跟班",
+      "title": "【塔羅耳語】下一個有結婚緣分的桃花，Ta 是誰？塔羅｜占卜｜塔羅牌｜線上塔羅｜大眾占卜｜感情｜脫單｜結婚",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA2WGhyZXFuZTdnWll0dDBXdjZrOWJQTG9qY0NDanlGcXNqOXBfaUozWmRWaEVURk0yZWZTMkJIbVc5dnR2RFY2RTNNY3oyblY0SERRcA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5UMDBxeHU3Q1d3ZklmOUUwRXo3X1MtZXFjMmNqMUNHQXlzNFVYT0RQeGJqQ1NhN1cwYnVmM3FfQi1yb3lJa0FpUGM4X2RkUWNRNGd0R0t3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "命理新闻",
-      "published": "2026-06-09",
-      "published_display": "2026-06-09",
+      "category": "塔罗星象",
+      "published": "2026-06-21",
+      "published_display": "2026-06-21",
       "matched_keywords": [
-        "命理",
-        "算命",
-        "開運"
+        "塔羅",
+        "占卜",
+        "桃花"
       ],
       "score": 12.35,
-      "event_cluster": "event-82"
+      "event_cluster": "event-44"
     },
     {
-      "title": "生日不要只許願。 因為很多願望， 如果你沒有看懂自己為什麼卡住， 明年還是會再許一次。 八字流年不是生日那天切換， 但生日是你命盤被啟動的日子。 很適合拿來問自己： 我這一年重複了什麼課題？ 我到底適合往哪裡走？ 我是不是又用同一種方式消耗自己？ 生日",
+      "title": "木木遭神預言戳中淚點！《天機》命理師突問爸爸近況她失控痛哭",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5MOGEtSEV6UUEtTWMyNHVfbEZEVm9jcWdzYmtwLUE2OFJ0aW92b0NVTU00dHhrTkx6MVpyYUMzMGVudjRnSlNVVkhpN1VjajM3SHJwbzR3Qk5KQWVSWWxRNjcwVQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sWU96VW5BVmhnUFMwNjc5V3hhcWdHcHBWZVpSSUZXNTNfc3ZRYVJhcl8zbW54QS1YR1pXTUdyTUxkVkNHRXVZZXJ1Vy1URjdiQ01QajZ2T2tGdmVmUENJ?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "八字紫微",
-      "published": "2026-06-09",
-      "published_display": "2026-06-09",
+      "category": "命理新闻",
+      "published": "2026-06-21",
+      "published_display": "2026-06-21",
       "matched_keywords": [
-        "流年",
-        "八字",
-        "命盤"
+        "命理",
+        "命理師"
       ],
-      "score": 12.149999999999999,
-      "event_cluster": "event-84"
+      "score": 9.95,
+      "event_cluster": "event-33"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
