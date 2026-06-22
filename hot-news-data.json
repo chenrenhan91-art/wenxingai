@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-21",
-  "updated_at_display": "2026年6月21日 23:53",
+  "updated_at": "2026-06-22",
+  "updated_at_display": "2026年6月22日 17:10",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-21T23:53:44.915386+08:00",
+    "fetched_at": "2026-06-22T17:10:50.313134+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "開運"
       ],
       "score": 12.35,
-      "event_cluster": "event-92"
+      "event_cluster": "event-82"
     },
     {
       "title": "生日不要只許願。 因為很多願望， 如果你沒有看懂自己為什麼卡住， 明年還是會再許一次。 八字流年不是生日那天切換， 但生日是你命盤被啟動的日子。 很適合拿來問自己： 我這一年重複了什麼課題？ 我到底適合往哪裡走？ 我是不是又用同一種方式消耗自己？ 生日",
@@ -287,7 +287,7 @@
         "命盤"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-94"
+      "event_cluster": "event-84"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -347,11 +347,11 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "夏至「陽極換局」引運勢轉變！命理師揭下半年5大贏家生肖| 娛樂星聞",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5RdkdPbVdhVUhLeWJhX2RYWHhsVmhOWjJka3dtVndSSlVLWk1ZSDFQUGMzOVRvdE9KdGFBbFRfVE9HZ09Zb3FTbHMzWFJnQ1J0S2NYVS0yQkc?oc=5",
+      "title": "今夏至6大禁忌 命理師教「95元開運法」：讓你財運大旺",
+      "summary": "来自 壹蘋新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBsTllMVktKTzE5MDFvTEVHY3ZzeVZpTGUyd3h0ODdkNE9JUklUQ1pMWmpsUjJCZW5WU0N4UWxvTkE2NUMwWlBCd09raGVmYnN2S1JqclZDbXNhZFUyYUktbllDMmE4Vk52T1JCazJDRU1hSEhyZHdKVFJMVXdUUQ?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
+      "source": "壹蘋新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -360,17 +360,17 @@
       "matched_keywords": [
         "命理",
         "命理師",
-        "運勢"
+        "開運"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-04"
     },
     {
-      "title": "今夏至6大禁忌 命理師教「95元開運法」：讓你財運大旺",
-      "summary": "来自 壹蘋新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBsTllMVktKTzE5MDFvTEVHY3ZzeVZpTGUyd3h0ODdkNE9JUklUQ1pMWmpsUjJCZW5WU0N4UWxvTkE2NUMwWlBCd09raGVmYnN2S1JqclZDbXNhZFUyYUktbllDMmE4Vk52T1JCazJDRU1hSEhyZHdKVFJMVXdUUQ?oc=5",
+      "title": "討論牆 | 夏至開運攻略一次看！命理師點名3生肖要小心「慎防車禍」 招財秘法曝光",
+      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lYXZqMTVYWlRHeEVRSlN1YTNMblpEWGNIWUJWRF9fUHVsMnJ6NUgxV2RZS2lnNWlHR0o3Y21LTU00Rl9GQU1nZ1Q0MWpGS2E1bGdBOU5YZlY1U0I3SWZZN3FQREc?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "壹蘋新聞網 · Google News",
+      "source": "LINE TODAY · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -401,7 +401,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-05"
     }
   ]
 }
