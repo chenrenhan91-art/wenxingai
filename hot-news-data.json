@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-23",
-  "updated_at_display": "2026年6月23日 01:41",
+  "updated_at_display": "2026年6月23日 14:51",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-23T01:41:41.041957+08:00",
+    "fetched_at": "2026-06-23T14:51:48.728110+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "【塔羅耳語】下一個有結婚緣分的桃花，Ta 是誰？塔羅｜占卜｜塔羅牌｜線上塔羅｜大眾占卜｜感情｜脫單｜結婚",
+      "title": "《宇宙不要你單身》⏳共時宇宙⏳任何日期可抽牌❤️適用任何時間季節🔮塔羅占卜❤️愛情占卜🔮愛情解析🔮戀愛心事🔮塔羅學習",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5UMDBxeHU3Q1d3ZklmOUUwRXo3X1MtZXFjMmNqMUNHQXlzNFVYT0RQeGJqQ1NhN1cwYnVmM3FfQi1yb3lJa0FpUGM4X2RkUWNRNGd0R0t3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwZVJWbDNhMTc1dENqaWZBVkVHbk9kYmlJb1Y3ajFLTTg3dUhRVkZKTTNwdVdJb2tXUFZ2eDkySzJaYTltc1UyVi1GelJMYjFkR3FEaUd3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-06-21",
-      "published_display": "2026-06-21",
+      "published": "2026-06-22",
+      "published_display": "2026-06-22",
       "matched_keywords": [
         "塔羅",
         "占卜",
-        "桃花"
+        "戀愛"
       ],
       "score": 12.35,
-      "event_cluster": "event-44"
+      "event_cluster": "event-41"
     },
     {
       "title": "木木遭神預言戳中淚點！《天機》命理師突問爸爸近況她失控痛哭",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-33"
+      "event_cluster": "event-39"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -305,7 +305,7 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "【超罕見！端午節遇「三火疊加」 命理師曝3招開運】 「雙火」流年～～～～（#豬頭皮）",
@@ -327,6 +327,25 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "孫協志逼問：5566未來會亡嗎？ 命理師看運勢鐵口直斷給答案 | 娛樂 | CTWANT",
+      "summary": "来自 CTWANT · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBQWXdPZjNhZklRbHhQeGpORWhCWUJYV01fMDdRR1pxTF83RVktVXNxUDF0eVcxNnJiQ3JKZktZM0JnZlp1a3VVNjRBN2xWZ9IBVEFVX3lxTE8ySUVQMUlrZ181Q3ZzRXJkWFc2T3M1U1hvbjNSemEzc1VjQl9BNm5GNFJiM3Nlbm5rSXE4NHdURlYwTU9BUm94OGxsWmx4dW5ucGdUTA?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "CTWANT · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-23",
+      "published_display": "2026-06-23",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
       "title": "命理師警告「夏至」4生肖當心健康亮紅燈 午睡竟成開運關鍵",
       "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBGYUdHNWJxZ2lOVlp4MzlQcmZYSXNtVXIxYjFRRjl0OHc4S2t6NFQ0dG5sVkU2aC1EOS1kTWp5Nkl4emJRZ1FXamtCQ0kxZ1hMVEpvM1ZwdDN0UVd1ZTJZanRn0gFiQVVfeXFMUEZhR0c1YnFnaU5WWngzOVByZlhJc21VcjFiMVFGOXQ4dzhLa3o0VDR0bmxWRTZoLUQ5LWRNank2SXh6YlFnUVdqa0JDSTFnWExUSm8zVnB0M3RRV3VlMllqdGc?oc=5",
@@ -343,7 +362,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "今夏至6大禁忌 命理師教「95元開運法」：讓你財運大旺",
@@ -362,7 +381,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "討論牆 | 夏至開運攻略一次看！命理師點名3生肖要小心「慎防車禍」 招財秘法曝光",
@@ -381,26 +400,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "夏至開運攻略一次看！命理師點名3生肖要小心「慎防車禍」 招財秘法曝光",
-      "summary": "来自 鏡週刊Mirror Media · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2bmhWQXJWZ2gyYUxWT2VsYjdaX3owV2NycVZtazd1RDNPYzlBOE12WjlhQ3BaUUpSUUY2cGxCT3Y0dE1XVVZ4TjJHeXJKREE0Sktxd1FOMXVWa1hGNlVXSHRmb2cxX1lR0gFoQVVfeXFMUDZuaFZBclZnaDJhTFZPZWxiN1pfejBXY3JxVm1rN3VEM09jOUE4TXZaOWFDcFpRSlJRRjZwbEJPdjR0TVdVVnhOMkd5ckpEQTRKS3F3UU4xdVZrWEY2VVdIdGZvZzFfWVE?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "鏡週刊Mirror Media · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-20",
-      "published_display": "2026-06-20",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     }
   ]
 }
