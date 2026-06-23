@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-23",
-  "updated_at_display": "2026年6月23日 14:51",
+  "updated_at_display": "2026年6月23日 23:54",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-23T14:51:48.728110+08:00",
+    "fetched_at": "2026-06-23T23:54:01.417737+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "《宇宙不要你單身》⏳共時宇宙⏳任何日期可抽牌❤️適用任何時間季節🔮塔羅占卜❤️愛情占卜🔮愛情解析🔮戀愛心事🔮塔羅學習",
+      "title": "比特幣也有生辰八字？玄學世紀實驗用紫微斗數算加密貨幣，看星盤如何精準預言，下一波斷崖式暴漲與崩盤終極時點，20分鐘起底隱藏天機，點解話最高位尚未來臨？ - 斗數拆經濟",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwZVJWbDNhMTc1dENqaWZBVkVHbk9kYmlJb1Y3ajFLTTg3dUhRVkZKTTNwdVdJb2tXUFZ2eDkySzJaYTltc1UyVi1GelJMYjFkR3FEaUd3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wa1VGdkNVUi1faXlqSUI4TEl6NHl0UjNLZExtM3pJVUhCOWY3RS1zNDVzR0UyWFMtRVYxWEJ4WnZOZjBURm9NR2QzeW1JSy1tSVBiUUhn?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%8E%84%E5%AD%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "塔罗星象",
-      "published": "2026-06-22",
-      "published_display": "2026-06-22",
+      "category": "八字紫微",
+      "published": "2026-06-23",
+      "published_display": "2026-06-23",
       "matched_keywords": [
-        "塔羅",
-        "占卜",
-        "戀愛"
+        "玄學",
+        "八字",
+        "紫微"
       ],
       "score": 12.35,
-      "event_cluster": "event-41"
+      "event_cluster": "event-37"
     },
     {
       "title": "木木遭神預言戳中淚點！《天機》命理師突問爸爸近況她失控痛哭",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-39"
+      "event_cluster": "event-116"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -348,7 +348,7 @@
     {
       "title": "命理師警告「夏至」4生肖當心健康亮紅燈 午睡竟成開運關鍵",
       "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBGYUdHNWJxZ2lOVlp4MzlQcmZYSXNtVXIxYjFRRjl0OHc4S2t6NFQ0dG5sVkU2aC1EOS1kTWp5Nkl4emJRZ1FXamtCQ0kxZ1hMVEpvM1ZwdDN0UVd1ZTJZanRn0gFiQVVfeXFMUEZhR0c1YnFnaU5WWngzOVByZlhJc21VcjFiMVFGOXQ4dzhLa3o0VDR0bmxWRTZoLUQ5LWRNank2SXh6YlFnUVdqa0JDSTFnWExUSm8zVnB0M3RRV3VlMllqdGc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3LTQtS190bGtDV1dDRnc2N2t5b25TTERpVF9CS2MzaGVwa0lUMXRiTzlCUXpidURRM2JnZC1GcG1TQ3lUaExRcVQ5Uno4NTdPb29xSFNOdWpQZ0pJ0gFiQVVfeXFMUEZhR0c1YnFnaU5WWngzOVByZlhJc21VcjFiMVFGOXQ4dzhLa3o0VDR0bmxWRTZoLUQ5LWRNank2SXh6YlFnUVdqa0JDSTFnWExUSm8zVnB0M3RRV3VlMllqdGc?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "自由娛樂 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -365,11 +365,11 @@
       "event_cluster": "event-04"
     },
     {
-      "title": "今夏至6大禁忌 命理師教「95元開運法」：讓你財運大旺",
-      "summary": "来自 壹蘋新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBsTllMVktKTzE5MDFvTEVHY3ZzeVZpTGUyd3h0ODdkNE9JUklUQ1pMWmpsUjJCZW5WU0N4UWxvTkE2NUMwWlBCd09raGVmYnN2S1JqclZDbXNhZFUyYUktbllDMmE4Vk52T1JCazJDRU1hSEhyZHdKVFJMVXdUUQ?oc=5",
+      "title": "夏至「陽極換局」引運勢轉變！命理師揭下半年5大贏家生肖",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GY3hKVlZTUDlTQ0dWdWgwSFl5RTRJeVZSUE9DQU5ZUTd6M3RVNGozZ2xRYW40c3lZcHdMZGZNcVBrZFAyMHl1THNxbllHNkZUUElxd0NWR1RmM2M?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "壹蘋新聞網 · Google News",
+      "source": "三立新聞網SETN.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -378,17 +378,17 @@
       "matched_keywords": [
         "命理",
         "命理師",
-        "開運"
+        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-05"
     },
     {
-      "title": "討論牆 | 夏至開運攻略一次看！命理師點名3生肖要小心「慎防車禍」 招財秘法曝光",
-      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lYXZqMTVYWlRHeEVRSlN1YTNMblpEWGNIWUJWRF9fUHVsMnJ6NUgxV2RZS2lnNWlHR0o3Y21LTU00Rl9GQU1nZ1Q0MWpGS2E1bGdBOU5YZlY1U0I3SWZZN3FQREc?oc=5",
+      "title": "今夏至6大禁忌 命理師教「95元開運法」：讓你財運大旺",
+      "summary": "来自 壹蘋新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBsTllMVktKTzE5MDFvTEVHY3ZzeVZpTGUyd3h0ODdkNE9JUklUQ1pMWmpsUjJCZW5WU0N4UWxvTkE2NUMwWlBCd09raGVmYnN2S1JqclZDbXNhZFUyYUktbllDMmE4Vk52T1JCazJDRU1hSEhyZHdKVFJMVXdUUQ?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "LINE TODAY · Google News",
+      "source": "壹蘋新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
