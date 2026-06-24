@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-23",
-  "updated_at_display": "2026年6月23日 23:54",
+  "updated_at": "2026-06-24",
+  "updated_at_display": "2026年6月24日 14:49",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-23T23:54:01.417737+08:00",
+    "fetched_at": "2026-06-24T14:49:47.680528+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "紫微"
       ],
       "score": 12.35,
-      "event_cluster": "event-37"
+      "event_cluster": "event-41"
     },
     {
       "title": "木木遭神預言戳中淚點！《天機》命理師突問爸爸近況她失控痛哭",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-116"
+      "event_cluster": "event-128"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -348,7 +348,7 @@
     {
       "title": "命理師警告「夏至」4生肖當心健康亮紅燈 午睡竟成開運關鍵",
       "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3LTQtS190bGtDV1dDRnc2N2t5b25TTERpVF9CS2MzaGVwa0lUMXRiTzlCUXpidURRM2JnZC1GcG1TQ3lUaExRcVQ5Uno4NTdPb29xSFNOdWpQZ0pJ0gFiQVVfeXFMUEZhR0c1YnFnaU5WWngzOVByZlhJc21VcjFiMVFGOXQ4dzhLa3o0VDR0bmxWRTZoLUQ5LWRNank2SXh6YlFnUVdqa0JDSTFnWExUSm8zVnB0M3RRV3VlMllqdGc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBGYUdHNWJxZ2lOVlp4MzlQcmZYSXNtVXIxYjFRRjl0OHc4S2t6NFQ0dG5sVkU2aC1EOS1kTWp5Nkl4emJRZ1FXamtCQ0kxZ1hMVEpvM1ZwdDN0UVd1ZTJZanRn0gFiQVVfeXFMUEZhR0c1YnFnaU5WWngzOVByZlhJc21VcjFiMVFGOXQ4dzhLa3o0VDR0bmxWRTZoLUQ5LWRNank2SXh6YlFnUVdqa0JDSTFnWExUSm8zVnB0M3RRV3VlMllqdGc?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "自由娛樂 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
