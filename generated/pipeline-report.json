@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-06-24T14:49:33.629400+08:00",
-  "ran_at_display": "2026年6月24日 14:49",
+  "ran_at": "2026-06-24T23:34:38.302695+08:00",
+  "ran_at_display": "2026年6月24日 23:34",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "42b438911a723863d81cbfd6948bcaec1e6cd1ec",
-  "new_signature": "dd3fb784088a7e2639c5094efdc4b4b34063f6fb",
+  "previous_signature": "dd3fb784088a7e2639c5094efdc4b4b34063f6fb",
+  "new_signature": "fb5d4b7c6ab64ddfe87511d24023f722f23755e5",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,13 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "比特幣也有生辰八字？玄學世紀實驗用紫微斗數算加密貨幣，看星盤如何精準預言，下一波斷崖式暴漲與崩盤終極時點，20分鐘起底隱藏天機，點解話最高位尚未來臨？ - 斗數拆經濟",
+    "你和他的羈絆多深？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "木木遭神預言戳中淚點！《天機》命理師突問爸爸近況她失控痛哭",
     "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
     "【超罕見！端午節遇「三火疊加」 命理師曝3招開運】 「雙火」流年～～～～（#豬頭皮）",
     "孫協志逼問：5566未來會亡嗎？ 命理師看運勢鐵口直斷給答案 | 娛樂 | CTWANT"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "你和他的羈絆多深？|曖昧|愛情|戀愛|桃花|塔羅占卜|"
+  ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
@@ -39,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月24日 14:49"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月24日 23:34"
     },
     {
       "script": "generate_daily_content.py",
