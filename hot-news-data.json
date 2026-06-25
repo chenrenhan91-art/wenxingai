@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-25",
-  "updated_at_display": "2026年6月25日 14:49",
+  "updated_at_display": "2026年6月25日 23:42",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-25T14:49:14.151838+08:00",
+    "fetched_at": "2026-06-25T23:42:33.924802+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "items": [
     {
@@ -271,22 +271,22 @@
       "event_cluster": "event-46"
     },
     {
-      "title": "木木遭神預言戳中淚點！《天機》命理師突問爸爸近況她失控痛哭",
+      "title": "朋友推薦我看CP做愛風格的塔羅占卜影片，據說非常靈驗。於是幫宮經選一組牌，牌面表示A牌有些怨懟、B牌則是自卑的心理，說他們是一直糾纏不清，A牌是要做超過整夜的❤️❤️❤️……聽完解析，實在好滿足🥰",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sWU96VW5BVmhnUFMwNjc5V3hhcWdHcHBWZVpSSUZXNTNfc3ZRYVJhcl8zbW54QS1YR1pXTUdyTUxkVkNHRXVZZXJ1Vy1URjdiQ01QajZ2T2tGdmVmUENJ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yZWFKNzUxV3lraWFvN1ZJNGNFQlBacWU3cXVyOVU4dkpzV2hJejY1OXRQRHRuYWpSdW5RYUs3YU4yNkVwb0U5MXpRNklfbjIwOTlHXzNnRTk3SzJsd0F6Nw?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-06-21",
-      "published_display": "2026-06-21",
+      "category": "塔罗星象",
+      "published": "2026-06-22",
+      "published_display": "2026-06-22",
       "matched_keywords": [
-        "命理",
-        "命理師"
+        "塔羅",
+        "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-143"
+      "event_cluster": "event-130"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -329,7 +329,7 @@
     {
       "title": "孫協志逼問：5566未來會亡嗎？ 命理師看運勢鐵口直斷給答案 | 娛樂 | CTWANT",
       "summary": "来自 CTWANT · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE14U2U5b3FZNm9aSFhMZjNjNmRqMHh5eVRrbkFYMmFWZ1otUnp2bVpoaDlkanNidzlIbExfdWZwcnlLTnZzUXowMWczTWJsanfSAVRBVV95cUxPMklFUDFJa2dfNUN2c0VyZFhXNk9zNVNYb24zUnphM3NVY0JfQTZuRjRSYjNzZW5ua0lxODR3VEZWME1PQVJveDhsbFpseHVubnBnVEw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBQWXdPZjNhZklRbHhQeGpORWhCWUJYV01fMDdRR1pxTF83RVktVXNxUDF0eVcxNnJiQ3JKZktZM0JnZlp1a3VVNjRBN2xWZ9IBVEFVX3lxTE8ySUVQMUlrZ181Q3ZzRXJkWFc2T3M1U1hvbjNSemEzc1VjQl9BNm5GNFJiM3Nlbm5rSXE4NHdURlYwTU9BUm94OGxsWmx4dW5ucGdUTA?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "CTWANT · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -347,10 +347,10 @@
     },
     {
       "title": "命理師警告「夏至」4生肖當心健康亮紅燈 午睡竟成開運關鍵",
-      "summary": "来自 ent.ltn.com.tw · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3LTQtS190bGtDV1dDRnc2N2t5b25TTERpVF9CS2MzaGVwa0lUMXRiTzlCUXpidURRM2JnZC1GcG1TQ3lUaExRcVQ5Uno4NTdPb29xSFNOdWpQZ0pJ0gFiQVVfeXFMUEZhR0c1YnFnaU5WWngzOVByZlhJc21VcjFiMVFGOXQ4dzhLa3o0VDR0bmxWRTZoLUQ5LWRNank2SXh6YlFnUVdqa0JDSTFnWExUSm8zVnB0M3RRV3VlMllqdGc?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "ent.ltn.com.tw · Google News",
+      "source": "自由娛樂 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -365,11 +365,11 @@
       "event_cluster": "event-04"
     },
     {
-      "title": "夏至「陽極換局」引運勢轉變！命理師揭下半年5大贏家生肖",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5RdkdPbVdhVUhLeWJhX2RYWHhsVmhOWjJka3dtVndSSlVLWk1ZSDFQUGMzOVRvdE9KdGFBbFRfVE9HZ09Zb3FTbHMzWFJnQ1J0S2NYVS0yQkfSAV9BVV95cUxNeHNYUFRvR0xVVnA1cGlITF9CRkZ4VU9mb04tclZGVFZXeEx4NUVpMnNoc0x1UHlhWG9qVmY1WXBCcGFVaHE3cWhsTkFZaVpIcE1CMlE4dzJVNmdVaG91UQ?oc=5",
+      "title": "今夏至6大禁忌 命理師教「95元開運法」：讓你財運大旺",
+      "summary": "来自 壹蘋新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBsTllMVktKTzE5MDFvTEVHY3ZzeVZpTGUyd3h0ODdkNE9JUklUQ1pMWmpsUjJCZW5WU0N4UWxvTkE2NUMwWlBCd09raGVmYnN2S1JqclZDbXNhZFUyYUktbllDMmE4Vk52T1JCazJDRU1hSEhyZHdKVFJMVXdUUQ?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
+      "source": "壹蘋新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -378,17 +378,17 @@
       "matched_keywords": [
         "命理",
         "命理師",
-        "運勢"
+        "開運"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-05"
     },
     {
-      "title": "今夏至6大禁忌 命理師教「95元開運法」：讓你財運大旺",
-      "summary": "来自 壹蘋新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBsTllMVktKTzE5MDFvTEVHY3ZzeVZpTGUyd3h0ODdkNE9JUklUQ1pMWmpsUjJCZW5WU0N4UWxvTkE2NUMwWlBCd09raGVmYnN2S1JqclZDbXNhZFUyYUktbllDMmE4Vk52T1JCazJDRU1hSEhyZHdKVFJMVXdUUQ?oc=5",
+      "title": "討論牆 | 夏至開運攻略一次看！命理師點名3生肖要小心「慎防車禍」 招財秘法曝光",
+      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lYXZqMTVYWlRHeEVRSlN1YTNMblpEWGNIWUJWRF9fUHVsMnJ6NUgxV2RZS2lnNWlHR0o3Y21LTU00Rl9GQU1nZ1Q0MWpGS2E1bGdBOU5YZlY1U0I3SWZZN3FQREc?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "壹蘋新聞網 · Google News",
+      "source": "LINE TODAY · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
