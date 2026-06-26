@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-26",
-  "updated_at_display": "2026年6月26日 14:55",
+  "updated_at_display": "2026年6月26日 23:25",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-26T14:55:52.693035+08:00",
+    "fetched_at": "2026-06-26T23:25:58.289668+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,41 +252,41 @@
   ],
   "items": [
     {
-      "title": "他對你哪種感覺？想和你發展成什麼關係？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "《易龍知玄機》 逢星期二、五更新影片︱焦點視頻製作節目結合八字算命、流年運勢、風水教學及開運攻略︱焦點網FMTVhk.com 聯合出品",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xb1BQSV85c0xaSmdBUVZWMHFHR0FOUnZoSi0wNmwxQlp2MGpyUXRjS2cxTEtfc2Z5dkFYZEt5dHJOT0ZrbXBlMXhCbFk3TVpoTk45alhR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBVQ3kyT3NmUmxZalNRcHUzY0JVeUdSc2xpckNBQ1lZbm10TXFuYmVQSU9RUFdyQmhMa3VDSTZobHZoczdRZThFRlNuTE1tZVRNTHRFekw3ak93algzWG9BSzh6WHRrb3VYQnpVQnRtRkQyNE5vWjRIWi1qeEE?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "塔罗星象",
-      "published": "2026-06-26",
-      "published_display": "2026-06-26",
+      "category": "风水玄学",
+      "published": "2026-06-13",
+      "published_display": "2026-06-13",
       "matched_keywords": [
-        "塔羅",
-        "占卜",
-        "桃花"
+        "八字",
+        "算命",
+        "流年"
       ],
       "score": 14.55,
-      "event_cluster": "event-02"
+      "event_cluster": "event-10"
     },
     {
-      "title": "朋友推薦我看CP做愛風格的塔羅占卜影片，據說非常靈驗。於是幫宮經選一組牌，牌面表示A牌有些怨懟、B牌則是自卑的心理，說他們是一直糾纏不清，A牌是要做超過整夜的❤️❤️❤️……聽完解析，實在好滿足🥰",
+      "title": "#匿名發言6207 99： 最近向開始做塔羅占卜想問問大家會希望的收費價位和占卜的方式",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yZWFKNzUxV3lraWFvN1ZJNGNFQlBacWU3cXVyOVU4dkpzV2hJejY1OXRQRHRuYWpSdW5RYUs3YU4yNkVwb0U5MXpRNklfbjIwOTlHXzNnRTk3SzJsd0F6Nw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1na0lLZVR2SVZuU0tqT3VQZWs5S09CcE9SRHNvcFNVTFFQZ0VpU1N6VUNBRXBXT0lrZU4xRWdGcVpSUlBCTV9fTlZJVFhTQnhpQ0Q1R0tYSXhaY0drNUE?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "塔罗星象",
-      "published": "2026-06-22",
-      "published_display": "2026-06-22",
+      "published": "2026-06-26",
+      "published_display": "2026-06-26",
       "matched_keywords": [
         "塔羅",
         "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-137"
+      "event_cluster": "event-101"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -305,7 +305,7 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-04"
+      "event_cluster": "event-03"
     },
     {
       "title": "今天夏至別踩雷！命理師曝開運關鍵：吃麵配「這水果」最旺運，穿錯顏色恐影響運勢",
@@ -343,7 +343,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-02"
     },
     {
       "title": "命理師警告「夏至」4生肖當心健康亮紅燈 午睡竟成開運關鍵",
@@ -362,7 +362,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-04"
     },
     {
       "title": "今夏至6大禁忌 命理師教「95元開運法」：讓你財運大旺",
@@ -381,7 +381,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-05"
     },
     {
       "title": "討論牆 | 夏至開運攻略一次看！命理師點名3生肖要小心「慎防車禍」 招財秘法曝光",
@@ -400,7 +400,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-06"
     }
   ]
 }
