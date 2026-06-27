@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-06-26T23:25:44.524227+08:00",
-  "ran_at_display": "2026年6月26日 23:25",
+  "ran_at": "2026-06-27T14:29:59.143027+08:00",
+  "ran_at_display": "2026年6月27日 14:29",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "ec645412ca094f088ba1fa918def48d20b9af5b9",
-  "new_signature": "ba1067b0e1ef56a65772d413c499afe16e19f222",
+  "previous_signature": "ba1067b0e1ef56a65772d413c499afe16e19f222",
+  "new_signature": "262bf79234aad7a5513dee55abd8445cc8b43f3c",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,14 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "《易龍知玄機》 逢星期二、五更新影片︱焦點視頻製作節目結合八字算命、流年運勢、風水教學及開運攻略︱焦點網FMTVhk.com 聯合出品",
+    "摩羯座｜這季只要全然相信自己可以宇宙會給你意料之外的驚喜｜季能量運勢牌卡解讀｜20260626發佈｜#塔羅占卜#運勢 #星座",
     "#匿名發言6207 99： 最近向開始做塔羅占卜想問問大家會希望的收費價位和占卜的方式",
     "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
     "今天夏至別踩雷！命理師曝開運關鍵：吃麵配「這水果」最旺運，穿錯顏色恐影響運勢",
     "孫協志逼問：5566未來會亡嗎？ 命理師看運勢鐵口直斷給答案 | 娛樂 | CTWANT"
   ],
   "added_titles": [
-    "《易龍知玄機》 逢星期二、五更新影片︱焦點視頻製作節目結合八字算命、流年運勢、風水教學及開運攻略︱焦點網FMTVhk.com 聯合出品",
-    "#匿名發言6207 99： 最近向開始做塔羅占卜想問問大家會希望的收費價位和占卜的方式"
+    "摩羯座｜這季只要全然相信自己可以宇宙會給你意料之外的驚喜｜季能量運勢牌卡解讀｜20260626發佈｜#塔羅占卜#運勢 #星座"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -42,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月26日 23:25"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月27日 14:30"
     },
     {
       "script": "generate_daily_content.py",

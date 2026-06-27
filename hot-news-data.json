@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-26",
-  "updated_at_display": "2026年6月26日 23:25",
+  "updated_at": "2026-06-27",
+  "updated_at_display": "2026年6月27日 14:30",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-26T23:25:58.289668+08:00",
+    "fetched_at": "2026-06-27T14:30:14.409846+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "《易龍知玄機》 逢星期二、五更新影片︱焦點視頻製作節目結合八字算命、流年運勢、風水教學及開運攻略︱焦點網FMTVhk.com 聯合出品",
+      "title": "摩羯座｜這季只要全然相信自己可以宇宙會給你意料之外的驚喜｜季能量運勢牌卡解讀｜20260626發佈｜#塔羅占卜#運勢 #星座",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBVQ3kyT3NmUmxZalNRcHUzY0JVeUdSc2xpckNBQ1lZbm10TXFuYmVQSU9RUFdyQmhMa3VDSTZobHZoczdRZThFRlNuTE1tZVRNTHRFekw3ak93algzWG9BSzh6WHRrb3VYQnpVQnRtRkQyNE5vWjRIWi1qeEE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FUEtzTEpOcy02MGJQODU0Nm5fUWVRd0R2Zk40cnFKTGxiczNWbWdkcElhNkt2QWRwZXZ1N2ljcU9wUnJ1aHRuT3JEdnJtZmpGMllvWmd3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "风水玄学",
-      "published": "2026-06-13",
-      "published_display": "2026-06-13",
+      "category": "塔罗星象",
+      "published": "2026-06-26",
+      "published_display": "2026-06-26",
       "matched_keywords": [
-        "八字",
-        "算命",
-        "流年"
+        "運勢",
+        "能量",
+        "塔羅"
       ],
-      "score": 14.55,
-      "event_cluster": "event-10"
+      "score": 12.35,
+      "event_cluster": "event-28"
     },
     {
       "title": "#匿名發言6207 99： 最近向開始做塔羅占卜想問問大家會希望的收費價位和占卜的方式",
@@ -347,10 +347,10 @@
     },
     {
       "title": "命理師警告「夏至」4生肖當心健康亮紅燈 午睡竟成開運關鍵",
-      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 ent.ltn.com.tw · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3LTQtS190bGtDV1dDRnc2N2t5b25TTERpVF9CS2MzaGVwa0lUMXRiTzlCUXpidURRM2JnZC1GcG1TQ3lUaExRcVQ5Uno4NTdPb29xSFNOdWpQZ0pJ0gFiQVVfeXFMUEZhR0c1YnFnaU5WWngzOVByZlhJc21VcjFiMVFGOXQ4dzhLa3o0VDR0bmxWRTZoLUQ5LWRNank2SXh6YlFnUVdqa0JDSTFnWExUSm8zVnB0M3RRV3VlMllqdGc?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "自由娛樂 · Google News",
+      "source": "ent.ltn.com.tw · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
