@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-06-28T15:02:50.145002+08:00",
-  "ran_at_display": "2026年6月28日 15:02",
+  "ran_at": "2026-06-28T22:50:00.613014+08:00",
+  "ran_at_display": "2026年6月28日 22:50",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "f209072d006dcbe3460c8541c75b7abc3a330216",
-  "new_signature": "54e74a9b46f0bce3425ed49327e737acaed214a0",
+  "previous_signature": "54e74a9b46f0bce3425ed49327e737acaed214a0",
+  "new_signature": "72829bed19337d1c120ba8a510ecacbda757a50f",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -24,12 +24,11 @@
     "【#2444】【塔罗·字卡·占卜】來自他/她的情書| 黃金塔羅牌| 揚升大師神諭卡| 巴比耶里星座神谕卡(無時間限制)",
     "♎ 天秤座 (Libra)７月第１週｜整體運勢 #7月運勢 #每週運勢 #星座 #感情運 #桃花運 #財運 #事業運",
     "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
-    "超罕見! 端午節遇「三火疊加」火性能量旺 命理師曝3 招開運",
-    "千萬別午睡! 命理師曝「端午節最忌3行為」： 恐影響下半年運勢"
+    "下半年運勢起飛！「3生肖」財運、正緣雙贏 命理師：磁場極旺",
+    "超罕見! 端午節遇「三火疊加」火性能量旺 命理師曝3 招開運"
   ],
   "added_titles": [
-    "【#2444】【塔罗·字卡·占卜】來自他/她的情書| 黃金塔羅牌| 揚升大師神諭卡| 巴比耶里星座神谕卡(無時間限制)",
-    "♎ 天秤座 (Libra)７月第１週｜整體運勢 #7月運勢 #每週運勢 #星座 #感情運 #桃花運 #財運 #事業運"
+    "下半年運勢起飛！「3生肖」財運、正緣雙贏 命理師：磁場極旺"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -42,13 +41,13 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月28日 15:03"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月28日 22:50"
     },
     {
       "script": "generate_daily_content.py",
       "returncode": 1,
       "ok": false,
-      "output": "[warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {\"error\":{\"message\":\"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"param\":null,...\n[ok] DashScope fallback model selected: qwen3.6-flash-2026-04-16\nGemini content generation failed: 'list' object has no attribute 'get'"
+      "output": "[warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {\"error\":{\"message\":\"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"param\":null,...\n[ok] DashScope fallback model selected: qwen3.6-flash-2026-04-16\nGemini content generation failed: invalid Gemini response: missing zh_cn.social_posts"
     }
   ]
 }

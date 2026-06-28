@@ -1,9 +1,9 @@
-# 问星AI 内容自动化运行报告 2026年6月28日 15:02
+# 问星AI 内容自动化运行报告 2026年6月28日 22:50
 
 - 总体状态：failed_generate
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：54e74a9b46f0bce3425ed49327e737acaed214a0
+- 变更签名：72829bed19337d1c120ba8a510ecacbda757a50f
 - Gemini 是否执行：是
 - Gemini 审校是否执行：否
 - 规则质检是否执行：否
@@ -16,12 +16,11 @@
 - 【#2444】【塔罗·字卡·占卜】來自他/她的情書| 黃金塔羅牌| 揚升大師神諭卡| 巴比耶里星座神谕卡(無時間限制)
 - ♎ 天秤座 (Libra)７月第１週｜整體運勢 #7月運勢 #每週運勢 #星座 #感情運 #桃花運 #財運 #事業運
 - [新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命
+- 下半年運勢起飛！「3生肖」財運、正緣雙贏 命理師：磁場極旺
 - 超罕見! 端午節遇「三火疊加」火性能量旺 命理師曝3 招開運
-- 千萬別午睡! 命理師曝「端午節最忌3行為」： 恐影響下半年運勢
 
 ## 新增标题
-- 【#2444】【塔罗·字卡·占卜】來自他/她的情書| 黃金塔羅牌| 揚升大師神諭卡| 巴比耶里星座神谕卡(無時間限制)
-- ♎ 天秤座 (Libra)７月第１週｜整體運勢 #7月運勢 #每週運勢 #星座 #感情運 #桃花運 #財運 #事業運
+- 下半年運勢起飛！「3生肖」財運、正緣雙贏 命理師：磁場極旺
 
 ## 次日运营建议
 - 明日优先延展「命理新闻」相关选题（当前占比 5/8）。
@@ -31,7 +30,7 @@
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年6月28日 15:03
+updated 8 hot news items at 2026年6月28日 22:50
 - generate_daily_content.py | failed | [warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {"error":{"message":"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.","type":"invalid_request_error","param":null,...
 [ok] DashScope fallback model selected: qwen3.6-flash-2026-04-16
-Gemini content generation failed: 'list' object has no attribute 'get'
+Gemini content generation failed: invalid Gemini response: missing zh_cn.social_posts
