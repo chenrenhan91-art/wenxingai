@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-27",
-  "updated_at_display": "2026年6月27日 22:45",
+  "updated_at": "2026-06-28",
+  "updated_at_display": "2026年6月28日 15:03",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-27T22:45:13.642268+08:00",
+    "fetched_at": "2026-06-28T15:03:06.137093+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,41 +252,42 @@
   ],
   "items": [
     {
-      "title": "摩羯座｜這季只要全然相信自己可以宇宙會給你意料之外的驚喜｜季能量運勢牌卡解讀｜20260626發佈｜#塔羅占卜#運勢 #星座",
+      "title": "【#2444】【塔罗·字卡·占卜】來自他/她的情書| 黃金塔羅牌| 揚升大師神諭卡| 巴比耶里星座神谕卡(無時間限制)",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FUEtzTEpOcy02MGJQODU0Nm5fUWVRd0R2Zk40cnFKTGxiczNWbWdkcElhNkt2QWRwZXZ1N2ljcU9wUnJ1aHRuT3JEdnJtZmpGMllvWmd3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KRTU4RkttWGlaVFFSaGhaVG9yVGhQc04zQ1BDQmhxVHNsQW9jc3RKMmJaaU9iR21kdW91bUt5ZlFkSUp6dndmQVN1N3VyVEd1THJFWlB3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-06-26",
-      "published_display": "2026-06-26",
+      "published": "2026-06-27",
+      "published_display": "2026-06-27",
       "matched_keywords": [
-        "運勢",
-        "能量",
-        "塔羅"
+        "塔羅",
+        "塔罗",
+        "占卜"
       ],
-      "score": 12.35,
-      "event_cluster": "event-32"
+      "score": 14.55,
+      "event_cluster": "event-02"
     },
     {
-      "title": "#匿名發言6207 99： 最近向開始做塔羅占卜想問問大家會希望的收費價位和占卜的方式",
+      "title": "♎ 天秤座 (Libra)７月第１週｜整體運勢 #7月運勢 #每週運勢 #星座 #感情運 #桃花運 #財運 #事業運",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1na0lLZVR2SVZuU0tqT3VQZWs5S09CcE9SRHNvcFNVTFFQZ0VpU1N6VUNBRXBXT0lrZU4xRWdGcVpSUlBCTV9fTlZJVFhTQnhpQ0Q1R0tYSXhaY0drNUE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5SMEVCaG5XSkpJZ19lUk1td0xJWFNnNWV4eU9BRGJLWml3TTRtUXRMY3Zvck5kVTNPbnRwRmtER3I0b2FNVmVoN2dBZVllVjZNX3VIb2VpSlZwVmRJNmdnSF9n?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "塔罗星象",
-      "published": "2026-06-26",
-      "published_display": "2026-06-26",
+      "published": "2026-06-27",
+      "published_display": "2026-06-27",
       "matched_keywords": [
-        "塔羅",
-        "占卜"
+        "運勢",
+        "星座",
+        "桃花"
       ],
       "score": 9.95,
-      "event_cluster": "event-98"
+      "event_cluster": "event-92"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -305,7 +306,7 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "超罕見! 端午節遇「三火疊加」火性能量旺 命理師曝3 招開運",
@@ -343,7 +344,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "孫協志逼問：5566未來會亡嗎？ 命理師看運勢鐵口直斷給答案 | 娛樂 | CTWANT",
@@ -362,7 +363,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "命理師警告「夏至」4生肖當心健康亮紅燈 午睡竟成開運關鍵",
@@ -381,14 +382,14 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
       "title": "夏至「陽極換局」引運勢轉變！命理師揭下半年5大贏家生肖",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5RdkdPbVdhVUhLeWJhX2RYWHhsVmhOWjJka3dtVndSSlVLWk1ZSDFQUGMzOVRvdE9KdGFBbFRfVE9HZ09Zb3FTbHMzWFJnQ1J0S2NYVS0yQkfSAV9BVV95cUxNeHNYUFRvR0xVVnA1cGlITF9CRkZ4VU9mb04tclZGVFZXeEx4NUVpMnNoc0x1UHlhWG9qVmY1WXBCcGFVaHE3cWhsTkFZaVpIcE1CMlE4dzJVNmdVaG91UQ?oc=5",
+      "summary": "来自 娛樂星聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1qaEoxT1VENEs1QkNpdkJOejZUS1FoVi1DUVVXRVhOeXNvRjNoNzRtS21ZcENfbk5LSGluWDNwc3gtZWdwWnZmQ0J30gFfQVVfeXFMTXhzWFBUb0dMVVZwNXBpSExfQkZGeFVPZm9OLXJWRlRWV3hMeDVFaTJzaHNMdVB5YVhvalZmNVlwQnBhVWhxN3FobE5BWWlaSHBNQjJROHcyVTZnVWhvdVE?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
+      "source": "娛樂星聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -400,7 +401,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     }
   ]
 }
