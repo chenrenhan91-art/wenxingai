@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-28",
-  "updated_at_display": "2026年6月28日 22:50",
+  "updated_at": "2026-06-29",
+  "updated_at_display": "2026年6月29日 16:12",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-28T22:50:15.986564+08:00",
+    "fetched_at": "2026-06-29T16:12:55.391247+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -192,7 +192,7 @@
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 4,
+        "picked_items": 5,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -212,7 +212,7 @@
       },
       "ptt_gossiping": {
         "status": "ok",
-        "picked_items": 2,
+        "picked_items": 1,
         "failures": 0
       },
       "ptt_womentalk": {
@@ -268,26 +268,26 @@
         "占卜"
       ],
       "score": 14.55,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
-      "title": "♎ 天秤座 (Libra)７月第１週｜整體運勢 #7月運勢 #每週運勢 #星座 #感情運 #桃花運 #財運 #事業運",
+      "title": "聽大眾戀愛占卜但心中對象想的是老闆 塔羅師「這組看起來是在較勁，你覺得對方該有所回饋了、但對方覺得你做的還不夠時間還沒到⋯⋯真奇怪感覺像在看上司跟下屬⋯⋯這組該不會有人不是來看戀愛而是看工作的吧」 太準了老闆該幫我加薪了吧",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5SMEVCaG5XSkpJZ19lUk1td0xJWFNnNWV4eU9BRGJLWml3TTRtUXRMY3Zvck5kVTNPbnRwRmtER3I0b2FNVmVoN2dBZVllVjZNX3VIb2VpSlZwVmRJNmdnSF9n?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBWVVVSUUFkMnNOc1paYWxkNHp5bnFmazlyZVpuWDE1cVZpUTZuaV9yTDkxVUVyNEtlb2c4YnVDcWc1MC00NzNQczE1THZOaXJGZjBrbmplb0ppR0VWMGptM0FR?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "塔罗星象",
-      "published": "2026-06-27",
-      "published_display": "2026-06-27",
+      "published": "2026-06-29",
+      "published_display": "2026-06-29",
       "matched_keywords": [
-        "運勢",
-        "星座",
-        "桃花"
+        "塔羅",
+        "占卜",
+        "戀愛"
       ],
-      "score": 9.95,
-      "event_cluster": "event-86"
+      "score": 12.149999999999999,
+      "event_cluster": "event-25"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -306,7 +306,7 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     },
     {
       "title": "下半年運勢起飛！「3生肖」財運、正緣雙贏 命理師：磁場極旺",
@@ -328,6 +328,25 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "2026夏至開運來了!「3生肖」 容易出大包命理師曝招財法",
+      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNLTdBSEkyc3lJUk9ON1lhTUNiblFjSDlNUW1kSFdMYkNMUU00X0w5VE1NZmhiSm54Z096VjZaRW8xZjlrbXFZZldlVVlCckc1M1dkUFc4bXEtZ3NqOTFPMmF2SzluUzZrNlV0bmwwZUNzamE1eGdKWEVsczc2NmdLT2gyV3NjbXRrbDVHSVp6c2JQVWtNWFBoU1ZaRlZQSVEtZnhYMzh5Wko5X1AxVjhzcjFyX0M4aURubndQLWZLTm5sT1plcnRjUlJDWEdpZUpjOUgxLW5lelJQQk85d05RSHlUNkNBalN0ZmY0a0dvOFJyWUxqeUJwMnF0Wk05NjVfLU1uT0wtejNuLXNtaXhyUXR1dVAxMnpFelZ6VjJXaG92Z1FVc2o1Ui1qT0Q0T0FOVU9Ld3ZLUHdweTBxZjBNa2YzVUlqMzlzd1g2RjZENk9JOTFaM0pLNw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "MSN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-06-28",
+      "published_display": "2026-06-28",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
       "title": "超罕見! 端午節遇「三火疊加」火性能量旺 命理師曝3 招開運",
       "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNRWNLZ1ZsNUcxTzlBbk9SRHFINE81MUhSZTFNNEVfcDk3bWd6dTZiclVEbURySFhycXJVSk1janQ4Q0JWVGNhQTdrM3dPQVA0TjVXM1dKaE43dnBZWWxzVU1HUTJ2U0owdzhsckRIRXIxcEJNUGY5S0JGYmFyWDFxS250Wmh1NVByZDdWaGp2b3lHbmdvWEZlbnNLeFFkRmd3ZlhSc1lUeDlWeXI3MWllSWIydFJvalUwa0ItWlVzZkwzc0Q2UVFNZk9uclAtWm5DanYybGdDOEdGVkgxaG1fRG5kNVhwcktIV3IxMGw2SXE1TE9xMjVRWUlUOUNFa1hkemJKWWVTRDVBdGc1RFFpQkZhblJ0MHdUSnRlV0dmSktOZmRqSy1GX3JxSHlQcndpc29CMkpXMHFYX1BLeXJwdDBPMDY0b1VQUVlsWDhhY2RJQlNoNjRnMGVvdm9fTk1iRlFYVmdzNHpldTJkSUFUYmxOUFowNVZk?oc=5",
@@ -336,15 +355,15 @@
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-06-26",
-      "published_display": "2026-06-26",
+      "published": "2026-06-28",
+      "published_display": "2026-06-28",
       "matched_keywords": [
         "命理",
         "命理師",
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "千萬別午睡! 命理師曝「端午節最忌3行為」： 恐影響下半年運勢",
@@ -363,7 +382,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "孫協志逼問：5566未來會亡嗎？ 命理師看運勢鐵口直斷給答案 | 娛樂 | CTWANT",
@@ -382,26 +401,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "[新聞] 「九紫離火運」全面啟動 命理師：AI產業",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 13，作者 Scorpio。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1781608672.A.FA2.html",
-      "source_id": "ptt_gossiping",
-      "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
-      "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-06-16",
-      "published_display": "2026-06-16",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "热议"
-      ],
-      "score": 14.283333333333331,
-      "event_cluster": "event-08"
+      "event_cluster": "event-06"
     }
   ]
 }
