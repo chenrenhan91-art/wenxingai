@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-29",
-  "updated_at_display": "2026年6月29日 16:12",
+  "updated_at": "2026-06-30",
+  "updated_at_display": "2026年6月30日 00:39",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-29T16:12:55.391247+08:00",
+    "fetched_at": "2026-06-30T00:39:26.217424+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,20 +252,20 @@
   ],
   "items": [
     {
-      "title": "【#2444】【塔罗·字卡·占卜】來自他/她的情書| 黃金塔羅牌| 揚升大師神諭卡| 巴比耶里星座神谕卡(無時間限制)",
+      "title": "50分鐘讀透紫微經典《太微賦》：你的命盤格局藏著怎樣的先天大運？學會古人流傳至今的“命理天規”！#太微賦#紫微斗數#絕處逢生#凋而不落#深夜聽書#順時而動#司馬懿 #大運格局#命理天規",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KRTU4RkttWGlaVFFSaGhaVG9yVGhQc04zQ1BDQmhxVHNsQW9jc3RKMmJaaU9iR21kdW91bUt5ZlFkSUp6dndmQVN1N3VyVEd1THJFWlB3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zR09XZmNqaFF6Q1J4WGpheHYyZkY1dDJ3MzczQ3pBTmc5U2VJWHN0cjBxOERvaV85Y1k0Y3lxZjRZVTFYa2g1NGtyMkxaSk9QaFRjM1BR?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "塔罗星象",
-      "published": "2026-06-27",
-      "published_display": "2026-06-27",
+      "category": "八字紫微",
+      "published": "2026-06-29",
+      "published_display": "2026-06-29",
       "matched_keywords": [
-        "塔羅",
-        "塔罗",
-        "占卜"
+        "紫微斗數",
+        "命理",
+        "紫微"
       ],
       "score": 14.55,
       "event_cluster": "event-04"
@@ -287,7 +287,7 @@
         "戀愛"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-25"
+      "event_cluster": "event-29"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -306,7 +306,7 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-07"
+      "event_cluster": "event-08"
     },
     {
       "title": "下半年運勢起飛！「3生肖」財運、正緣雙贏 命理師：磁場極旺",
@@ -382,14 +382,14 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
-      "title": "孫協志逼問：5566未來會亡嗎？ 命理師看運勢鐵口直斷給答案 | 娛樂 | CTWANT",
-      "summary": "来自 CTWANT · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE14U2U5b3FZNm9aSFhMZjNjNmRqMHh5eVRrbkFYMmFWZ1otUnp2bVpoaDlkanNidzlIbExfdWZwcnlLTnZzUXowMWczTWJsanfSAVRBVV95cUxPMklFUDFJa2dfNUN2c0VyZFhXNk9zNVNYb24zUnphM3NVY0JfQTZuRjRSYjNzZW5ua0lxODR3VEZWME1PQVJveDhsbFpseHVubnBnVEw?oc=5",
+      "title": "孫協志逼問：5566未來會亡嗎？ 命理師看運勢鐵口直斷給答案 | CTWANT",
+      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CUzNOdFNsSmcwdHloX1RhX2ttTWk1bGl4RVl2VW9hei1OWmVscllnMjhIeWpNUWtjUFZ0Z2ktclM1RzZzbURNR1pQcnJtb3JpWTFNZlpR?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "CTWANT · Google News",
+      "source": "LINE TODAY · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -401,7 +401,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     }
   ]
 }
