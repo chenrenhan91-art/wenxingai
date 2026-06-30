@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-30",
-  "updated_at_display": "2026年6月30日 14:56",
+  "updated_at_display": "2026年6月30日 23:33",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-30T14:56:28.807922+08:00",
+    "fetched_at": "2026-06-30T23:33:11.326811+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "戀愛"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-31"
+      "event_cluster": "event-34"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -310,10 +310,10 @@
     },
     {
       "title": "南投百年廟驚見「倒插香」！居民心驚：影響運勢、風水 命理師這樣看",
-      "summary": "来自 PChome Online 新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLWZZdTQ5Z0xBclF3amVQZFRYSVFXdHlMMnlITkZmeTJjdjV5WmJwQzRlRnBYZmhLRmUwblAwa0ZYTkZpQ0RLVS1acGNaYVRobE1nanM0aVBPNU5mSFNvdnVCeDQxTjNrXzNUUjZxb2I4cV85aGdqcHRQdk96Y21PVjg5MUlWMjRsR1BWMVRHMUw?oc=5",
+      "summary": "来自 Life 生活網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxOUmxjRnBYN2hGWjc0dWpINXZ0Y3o3TW9mdHR3Zm56blJyb3EtMWd0Ti1YLUpGN29LQ1Z1S2Fwam1qQkw2UUFNUVduT0RBUG9talk5SnFOdGlYY2dJV29vYzdGSmVRcU1RTkt4NEkzR0dfMzNqQWczZi1FckVnVEJmNFNFVkM2ZjhiVkhNeHRBeTE5VS1Yc0lMdFNtVGVQOFMzMm5VTFc5cTg1ZWFaQ3JySFRnOW53dDMwV0hFcW4tVWVjTnhoVDlLbTlkM2pYcEFiaFNnRlk5VTJrY0t2cTdEZ3lxMGlNdDlFalE2T0I5MDdUcVlxRnhueGFjR2tteHA3aFVZUnlfX2pPSmdvSlZuMjVaS3VrV0QyTERSLUlTRUZXSVVDTjFaNmhPWXVRQ3JWQ0VLUUkwc21BZUNrOWV2blMzSm9kalczOXppZGtESVVtREJKTFBYbXZVdmYxaFBNZ1RWaWlkcE10UHcySVhhRXBGU0tJYVlzNUE?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "PChome Online 新聞 · Google News",
+      "source": "Life 生活網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "风水玄学",

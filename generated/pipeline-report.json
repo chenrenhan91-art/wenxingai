@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-06-30T14:56:13.312942+08:00",
-  "ran_at_display": "2026年6月30日 14:56",
+  "ran_at": "2026-06-30T23:32:54.565024+08:00",
+  "ran_at_display": "2026年6月30日 23:32",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "9dea69686d1058e1a568c136f891753fbbac59ad",
-  "new_signature": "addcadea1c19ec2830277fd322d44190f6f2a973",
+  "previous_signature": "addcadea1c19ec2830277fd322d44190f6f2a973",
+  "new_signature": "e6ae4bcf498ba95952d6c86a34f232ac9cab261a",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,10 +27,7 @@
     "南投百年廟驚見「倒插香」！居民心驚：影響運勢、風水 命理師這樣看",
     "恭喜生肖蛇！2026年6月“雙星入命”格局開啟，這15天不行動，財神轉身走人！#南懷瑾 #國學 #易經#開運 #招財#風水 #2026運勢#屬相#生肖運勢#生肖命理Student Finance (4TcGggAjQQ)"
   ],
-  "added_titles": [
-    "南投百年廟驚見「倒插香」！居民心驚：影響運勢、風水 命理師這樣看",
-    "恭喜生肖蛇！2026年6月“雙星入命”格局開啟，這15天不行動，財神轉身走人！#南懷瑾 #國學 #易經#開運 #招財#風水 #2026運勢#屬相#生肖運勢#生肖命理Student Finance (4TcGggAjQQ)"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 3/8）。"
   ],
@@ -42,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月30日 14:56"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年6月30日 23:33"
     },
     {
       "script": "generate_daily_content.py",
