@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-30",
-  "updated_at_display": "2026年6月30日 00:39",
+  "updated_at_display": "2026年6月30日 14:56",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-30T00:39:26.217424+08:00",
+    "fetched_at": "2026-06-30T14:56:28.807922+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 3/8）。"
   ],
   "items": [
     {
@@ -268,7 +268,7 @@
         "紫微"
       ],
       "score": 14.55,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "聽大眾戀愛占卜但心中對象想的是老闆 塔羅師「這組看起來是在較勁，你覺得對方該有所回饋了、但對方覺得你做的還不夠時間還沒到⋯⋯真奇怪感覺像在看上司跟下屬⋯⋯這組該不會有人不是來看戀愛而是看工作的吧」 太準了老闆該幫我加薪了吧",
@@ -287,7 +287,7 @@
         "戀愛"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-29"
+      "event_cluster": "event-31"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -309,6 +309,44 @@
       "event_cluster": "event-08"
     },
     {
+      "title": "南投百年廟驚見「倒插香」！居民心驚：影響運勢、風水 命理師這樣看",
+      "summary": "来自 PChome Online 新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLWZZdTQ5Z0xBclF3amVQZFRYSVFXdHlMMnlITkZmeTJjdjV5WmJwQzRlRnBYZmhLRmUwblAwa0ZYTkZpQ0RLVS1acGNaYVRobE1nanM0aVBPNU5mSFNvdnVCeDQxTjNrXzNUUjZxb2I4cV85aGdqcHRQdk96Y21PVjg5MUlWMjRsR1BWMVRHMUw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "PChome Online 新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "风水玄学",
+      "published": "2026-06-30",
+      "published_display": "2026-06-30",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-01"
+    },
+    {
+      "title": "恭喜生肖蛇！2026年6月“雙星入命”格局開啟，這15天不行動，財神轉身走人！#南懷瑾 #國學 #易經#開運 #招財#風水 #2026運勢#屬相#生肖運勢#生肖命理Student Finance (4TcGggAjQQ)",
+      "summary": "来自 Mshale · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41NW1GcVYwcjc0M1RpNFJwekNVVnVpbE9udUZ6QkhkMmhwMFNXYk9HMVRlU3RqQ2pSdjlkaEZvc29LeVZUWmJBMUU1MlMtZFZGcTdONDN0aEo3bHc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Mshale · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "风水玄学",
+      "published": "2026-06-29",
+      "published_display": "2026-06-29",
+      "matched_keywords": [
+        "命理",
+        "運勢",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
       "title": "下半年運勢起飛！「3生肖」財運、正緣雙贏 命理師：磁場極旺",
       "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9nUmYzWGVsRXRGYTlKeDUzYW5IbEtZaENPR0hjRi1JQnRUeUhFMzlsOUNpQWs0alZVX3VCVTFLVEZyWkJudE9LZllsV3RnRnRqTlJoSzhzaEvSAV9BVV95cUxNQWdXTkZwMFBQM2praFZDZEJfZHktTHVHZnZCeTFXNTduMi12U0k1Q2lYMEZJLXNROHp4bi0xR25xcnF1N01OU1k5cXdUUHlYWW5KdlAtTHFHLVdHRUNtMA?oc=5",
@@ -325,26 +363,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-01"
-    },
-    {
-      "title": "2026夏至開運來了!「3生肖」 容易出大包命理師曝招財法",
-      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNLTdBSEkyc3lJUk9ON1lhTUNiblFjSDlNUW1kSFdMYkNMUU00X0w5VE1NZmhiSm54Z096VjZaRW8xZjlrbXFZZldlVVlCckc1M1dkUFc4bXEtZ3NqOTFPMmF2SzluUzZrNlV0bmwwZUNzamE1eGdKWEVsczc2NmdLT2gyV3NjbXRrbDVHSVp6c2JQVWtNWFBoU1ZaRlZQSVEtZnhYMzh5Wko5X1AxVjhzcjFyX0M4aURubndQLWZLTm5sT1plcnRjUlJDWEdpZUpjOUgxLW5lelJQQk85d05RSHlUNkNBalN0ZmY0a0dvOFJyWUxqeUJwMnF0Wk05NjVfLU1uT0wtejNuLXNtaXhyUXR1dVAxMnpFelZ6VjJXaG92Z1FVc2o1Ui1qT0Q0T0FOVU9Ld3ZLUHdweTBxZjBNa2YzVUlqMzlzd1g2RjZENk9JOTFaM0pLNw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "MSN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-28",
-      "published_display": "2026-06-28",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "超罕見! 端午節遇「三火疊加」火性能量旺 命理師曝3 招開運",
@@ -363,7 +382,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "千萬別午睡! 命理師曝「端午節最忌3行為」： 恐影響下半年運勢",
@@ -376,25 +395,6 @@
       "category": "命理新闻",
       "published": "2026-06-24",
       "published_display": "2026-06-24",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-06"
-    },
-    {
-      "title": "孫協志逼問：5566未來會亡嗎？ 命理師看運勢鐵口直斷給答案 | CTWANT",
-      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CUzNOdFNsSmcwdHloX1RhX2ttTWk1bGl4RVl2VW9hei1OWmVscllnMjhIeWpNUWtjUFZ0Z2ktclM1RzZzbURNR1pQcnJtb3JpWTFNZlpR?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "LINE TODAY · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-23",
-      "published_display": "2026-06-23",
       "matched_keywords": [
         "命理",
         "命理師",
