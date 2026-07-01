@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-30",
-  "updated_at_display": "2026年6月30日 23:33",
+  "updated_at": "2026-07-01",
+  "updated_at_display": "2026年7月1日 15:12",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-06-30T23:33:11.326811+08:00",
+    "fetched_at": "2026-07-01T15:12:33.881365+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -192,7 +192,7 @@
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 5,
+        "picked_items": 4,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -212,7 +212,7 @@
       },
       "ptt_gossiping": {
         "status": "ok",
-        "picked_items": 1,
+        "picked_items": 2,
         "failures": 0
       },
       "ptt_womentalk": {
@@ -268,7 +268,7 @@
         "紫微"
       ],
       "score": 14.55,
-      "event_cluster": "event-05"
+      "event_cluster": "event-04"
     },
     {
       "title": "聽大眾戀愛占卜但心中對象想的是老闆 塔羅師「這組看起來是在較勁，你覺得對方該有所回饋了、但對方覺得你做的還不夠時間還沒到⋯⋯真奇怪感覺像在看上司跟下屬⋯⋯這組該不會有人不是來看戀愛而是看工作的吧」 太準了老闆該幫我加薪了吧",
@@ -287,7 +287,7 @@
         "戀愛"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-34"
+      "event_cluster": "event-33"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -306,14 +306,14 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-08"
+      "event_cluster": "event-05"
     },
     {
       "title": "南投百年廟驚見「倒插香」！居民心驚：影響運勢、風水 命理師這樣看",
-      "summary": "来自 Life 生活網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxOUmxjRnBYN2hGWjc0dWpINXZ0Y3o3TW9mdHR3Zm56blJyb3EtMWd0Ti1YLUpGN29LQ1Z1S2Fwam1qQkw2UUFNUVduT0RBUG9talk5SnFOdGlYY2dJV29vYzdGSmVRcU1RTkt4NEkzR0dfMzNqQWczZi1FckVnVEJmNFNFVkM2ZjhiVkhNeHRBeTE5VS1Yc0lMdFNtVGVQOFMzMm5VTFc5cTg1ZWFaQ3JySFRnOW53dDMwV0hFcW4tVWVjTnhoVDlLbTlkM2pYcEFiaFNnRlk5VTJrY0t2cTdEZ3lxMGlNdDlFalE2T0I5MDdUcVlxRnhueGFjR2tteHA3aFVZUnlfX2pPSmdvSlZuMjVaS3VrV0QyTERSLUlTRUZXSVVDTjFaNmhPWXVRQ3JWQ0VLUUkwc21BZUNrOWV2blMzSm9kalczOXppZGtESVVtREJKTFBYbXZVdmYxaFBNZ1RWaWlkcE10UHcySVhhRXBGU0tJYVlzNUE?oc=5",
+      "summary": "来自 蕃新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5CMG90YVdEU2ZnbkpjNDFhZlI3UUY4SXk5ZG5LZzFkOWR5b2VxSzN1UWtlTExYVkdyN3hkT1dYQWxHeTU2b29ScVNBdDdjS3h3ZEE?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Life 生活網 · Google News",
+      "source": "蕃新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "风水玄学",
@@ -366,42 +366,41 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "超罕見! 端午節遇「三火疊加」火性能量旺 命理師曝3 招開運",
-      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNRWNLZ1ZsNUcxTzlBbk9SRHFINE81MUhSZTFNNEVfcDk3bWd6dTZiclVEbURySFhycXJVSk1janQ4Q0JWVGNhQTdrM3dPQVA0TjVXM1dKaE43dnBZWWxzVU1HUTJ2U0owdzhsckRIRXIxcEJNUGY5S0JGYmFyWDFxS250Wmh1NVByZDdWaGp2b3lHbmdvWEZlbnNLeFFkRmd3ZlhSc1lUeDlWeXI3MWllSWIydFJvalUwa0ItWlVzZkwzc0Q2UVFNZk9uclAtWm5DanYybGdDOEdGVkgxaG1fRG5kNVhwcktIV3IxMGw2SXE1TE9xMjVRWUlUOUNFa1hkemJKWWVTRDVBdGc1RFFpQkZhblJ0MHdUSnRlV0dmSktOZmRqSy1GX3JxSHlQcndpc29CMkpXMHFYX1BLeXJwdDBPMDY0b1VQUVlsWDhhY2RJQlNoNjRnMGVvdm9fTk1iRlFYVmdzNHpldTJkSUFUYmxOUFowNVZk?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "MSN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
+      "title": "[新聞] 「九紫離火運」全面啟動 命理師：AI產業",
+      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 13，作者 Scorpio。",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1781608672.A.FA2.html",
+      "source_id": "ptt_gossiping",
+      "source": "PTT Gossiping",
+      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
+      "source_group": "community",
       "category": "命理新闻",
-      "published": "2026-06-28",
-      "published_display": "2026-06-28",
+      "published": "2026-06-16",
+      "published_display": "2026-06-16",
       "matched_keywords": [
         "命理",
         "命理師",
-        "開運"
+        "热议"
       ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "score": 14.283333333333331,
+      "event_cluster": "event-07"
     },
     {
-      "title": "千萬別午睡! 命理師曝「端午節最忌3行為」： 恐影響下半年運勢",
-      "summary": "来自 MSN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMimgRBVV95cUxNdVdINDFjU3d6YjZsbjlDaWVLbW5rY3Y4WnJpX0xCVzZfQnpUZ2FTUWxpMDRxZlllanp6RUhtRzl1Sk9YYzBxQzNfWUlNZndMOGNjTFpxODRrcjRJOEVOdWR1eUlNZHRfMGpXcEpRRWFZazNSelhDYUxhQ2RkRndEQkNGUXpKZUlqczRod3Y4V0RnVUlPNjJIaDMyaDhoRjFYNWhJcDYzN0NydHgxQUNsNk9SUGM0NWZsRDN6bmZKd01ZdGJ6N3g0WS1wazlZNnNSSHhNYTRlcDZfTUh5RlJWTlVqR2JGU2g5dnNpeU1VaE9uZXptTXYtQUZ6NlV1Z1p4d1FpY1FBVFNvYkZ2aERWY3ZKRzNpa1VTZndVRU55ZzVrZG5aUlFqdGl3X194WHgwSWNkaUNob2RjQWhmU05Bb1JvTUhfQkpCcnpnNmNob2xUblNEQnVXTDVWbERWTHAyNzFWRHozalNIQW55aUs0QkFzZXh1WVRPaTY5cExXdkJTOVZ5VDY3ejZsYWxLX1F3clJNbG4zSlFaR3FFTHBsMFRTanVTN0daMk53T0o5bndMVnJfX1FYXzJHd0ZvMWlUOUhwMTJxWXRsM0RmUWo2ZlN2VDhWYVZiYWdUcENLYWpIUzlYVU9mLVUzcVFqXzlrOGhFNTRvb0M3SjR3Y0U5c2RCWmIybEo1OXE4OEw2RDYwWHNlMDR0Q0lB?oc=5",
+      "title": "改名「萬家福」會更好？命理師：會有插曲！但後續業績提升",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QTmlGLVEzNnlFV2V3VTlLYk5Oc2Rndlk4TUU0MVQ1T0ZoSmFaRXB5QUFGRVZxSll2c2hNOUZ5Z2dOcElFRG01NzU1N3BxbUFBWld2c3dLSTnSAV9BVV95cUxNVmxpWGJKZkk0UkZRaWhVNVZwaThyWUxtcllkQ0VhRjFQM2RLT0NCdF9hWEs3NkRkRVFYMHhjWGxWdnhsbnV3eFZ6WDNicURvSjJXRTlseXkxbzFwTU9MOA?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "MSN · Google News",
+      "source": "三立新聞網SETN.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-06-24",
-      "published_display": "2026-06-24",
+      "published": "2026-07-01",
+      "published_display": "2026-07-01",
       "matched_keywords": [
         "命理",
-        "命理師",
-        "運勢"
+        "命理師"
       ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "score": 12.55,
+      "event_cluster": "event-08"
     }
   ]
 }
