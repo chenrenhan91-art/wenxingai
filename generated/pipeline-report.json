@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-07-02T14:41:12.387441+08:00",
-  "ran_at_display": "2026年7月2日 14:41",
+  "ran_at": "2026-07-02T23:20:07.967235+08:00",
+  "ran_at_display": "2026年7月2日 23:20",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "c981379b84d76edbe9cc4cf84e2105db062a852e",
-  "new_signature": "837d58d31a17b6ca8e1b420ccbf530554ae0b834",
+  "previous_signature": "837d58d31a17b6ca8e1b420ccbf530554ae0b834",
+  "new_signature": "1500524ddb78be0b7882ecbed1280f10b468a065",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -24,12 +24,14 @@
     "50分鐘讀透紫微經典《太微賦》：你的命盤格局藏著怎樣的先天大運？學會古人流傳至今的“命理天規”！#太微賦#紫微斗數#絕處逢生#凋而不落#深夜聽書#順時而動#司馬懿 #大運格局#命理天規",
     "聽大眾戀愛占卜但心中對象想的是老闆 塔羅師「這組看起來是在較勁，你覺得對方該有所回饋了、但對方覺得你做的還不夠時間還沒到⋯⋯真奇怪感覺像在看上司跟下屬⋯⋯這組該不會有人不是來看戀愛而是看工作的吧」 太準了老闆該幫我加薪了吧",
     "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
-    "南投百年廟驚見「倒插香」！居民心驚：影響運勢、風水 命理師這樣看",
-    "恭喜生肖蛇！2026年6月“雙星入命”格局開啟，這15天不行動，財神轉身走人！#南懷瑾 #國學 #易經#開運 #招財#風水 #2026運勢#屬相#生肖運勢#生肖命理Student Finance (4TcGggAjQQ)"
+    "2026下半年運勢出爐 命理師揭4大生肖迎超強偏財運：7月準備數錢",
+    "南投百年廟驚見「倒插香」！居民心驚：影響運勢、風水 命理師這樣看"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "2026下半年運勢出爐 命理師揭4大生肖迎超強偏財運：7月準備數錢"
+  ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 3/8）。"
+    "明日优先延展「塔罗星象」相关选题（当前占比 3/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -39,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月2日 14:41"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月2日 23:20"
     },
     {
       "script": "generate_daily_content.py",
