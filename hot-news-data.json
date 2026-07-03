@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-02",
-  "updated_at_display": "2026年7月2日 23:20",
+  "updated_at": "2026-07-03",
+  "updated_at_display": "2026年7月3日 14:33",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-02T23:20:24.563293+08:00",
+    "fetched_at": "2026-07-03T14:33:26.966421+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「塔罗星象」相关选题（当前占比 3/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 3/8）。"
   ],
   "items": [
     {
@@ -268,7 +268,7 @@
         "紫微"
       ],
       "score": 14.55,
-      "event_cluster": "event-04"
+      "event_cluster": "event-07"
     },
     {
       "title": "聽大眾戀愛占卜但心中對象想的是老闆 塔羅師「這組看起來是在較勁，你覺得對方該有所回饋了、但對方覺得你做的還不夠時間還沒到⋯⋯真奇怪感覺像在看上司跟下屬⋯⋯這組該不會有人不是來看戀愛而是看工作的吧」 太準了老闆該幫我加薪了吧",
@@ -287,7 +287,7 @@
         "戀愛"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-42"
+      "event_cluster": "event-50"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -306,7 +306,45 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-06"
+      "event_cluster": "event-09"
+    },
+    {
+      "title": "7／7小暑5禁忌曝3類人需留意命理師教1招開運聚財- 好運到",
+      "summary": "来自 觸mii · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9qSnVhdXNXWVBpNHVZRDNsNXI0M0ZSMjJiYVlOWE1ITHNoam9IYnIxMTdYOVExbWliZ3liRTRUMkhta01FSGZmSXNJaG85VkxScXlLa3dwZmVmbUhOVWRKWkRmSGVTTk9ncjFVYg?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "觸mii · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-07-03",
+      "published_display": "2026-07-03",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-01"
+    },
+    {
+      "title": "小暑遇雙星逆行！ 命理師曝5大禁忌「3類人當心」 1招開運發大財",
+      "summary": "来自 Yahoo股市 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxNSXpxVGpZOXlfSGFIVW90OFZlZ3RnOGNlTVFHMDBVLW16V2VKWlh6d0dfWDh6SGdRZmFaOC1CSlc5RXBRVlBJUWhoYkxlWTZOcnYzcDNNLVhRVGI5cHc4cXBSYzFVbUR2OTVkOXNWM1hCcDU3X0J3UUpHS0QzMXVyVHlWa29yQW9qV0FWNTk5T0Q5WFM2SGx3WW1XR0t0NXd3aVpTb2hEM28wZC1LQVZGUS01b1BZTUV1VEs5MkM5bmcySExuR0JsYndKSXRiWER6YWoyaEZBZ01rMHBfaUhFVDRyVmNESUEzZ1hzeGp0bzN2U3NDd2dVVlQ1R1hlZFJOMW5wVlFEc1YzdlJzc0dFX1FYbVdqWlRHd3FyR0RsRmYyWEt6d2l5T0Z4R2Q5bm5iTFRHbHNsMjdVMElDQWZTV3lVMmQ5Vm5CdzNaMWF4ZlNlSXpFRTVheGRvemsxbDlxV2ZjZ0UzWWt3UU9tWXZNRVphcUUwSXRxQUZpOVo3dk1sT1k?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo股市 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-07-03",
+      "published_display": "2026-07-03",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
     },
     {
       "title": "2026下半年運勢出爐 命理師揭4大生肖迎超強偏財運：7月準備數錢",
@@ -325,7 +363,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-01"
+      "event_cluster": "event-03"
     },
     {
       "title": "南投百年廟驚見「倒插香」！居民心驚：影響運勢、風水 命理師這樣看",
@@ -336,71 +374,34 @@
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "风水玄学",
-      "published": "2026-06-30",
-      "published_display": "2026-06-30",
+      "published": "2026-07-02",
+      "published_display": "2026-07-02",
       "matched_keywords": [
         "命理",
         "命理師",
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-04"
     },
     {
-      "title": "下半年運勢起飛！「3生肖」財運、正緣雙贏 命理師：磁場極旺",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9nUmYzWGVsRXRGYTlKeDUzYW5IbEtZaENPR0hjRi1JQnRUeUhFMzlsOUNpQWs0alZVX3VCVTFLVEZyWkJudE9LZllsV3RnRnRqTlJoSzhzaEvSAV9BVV95cUxNQWdXTkZwMFBQM2praFZDZEJfZHktTHVHZnZCeTFXNTduMi12U0k1Q2lYMEZJLXNROHp4bi0xR25xcnF1N01OU1k5cXdUUHlYWW5KdlAtTHFHLVdHRUNtMA?oc=5",
+      "title": "恭喜生肖蛇！2026年6月“雙星入命”格局開啟，這15天不行動，財神轉身走人！#南懷瑾 #國學 #易經#開運 #招財#風水 #2026運勢#屬相#生肖運勢#生肖命理Student Finance (4TcGggAjQQ)",
+      "summary": "来自 Mshale · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41NW1GcVYwcjc0M1RpNFJwekNVVnVpbE9udUZ6QkhkMmhwMFNXYk9HMVRlU3RqQ2pSdjlkaEZvc29LeVZUWmJBMUU1MlMtZFZGcTdONDN0aEo3bHc?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
+      "source": "Mshale · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-06-28",
-      "published_display": "2026-06-28",
+      "category": "风水玄学",
+      "published": "2026-06-29",
+      "published_display": "2026-06-29",
       "matched_keywords": [
         "命理",
-        "命理師",
-        "運勢"
+        "運勢",
+        "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "命理師曝下半年「最強運3生肖」：豬遇貴人、他賺錢機會爆炸多| 星座命理| 生活",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ramJXa21jTWZfZnV5aFJtU0txVlhmYjA4R3l4MXMtMEY3REQteUJIWmRMWGZ3ZU9CdTIzdFcwQ0c5c2ZKZW5YVFNyMWR6Y2dVMEl2b3I1NUJGbTU1YnE0Rk1fbDQtMnBBNFR3ZEhJRlYxQQ?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-07-02",
-      "published_display": "2026-07-02",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "星座"
-      ],
-      "score": 12.55,
-      "event_cluster": "event-08"
-    },
-    {
-      "title": "小暑交節氣旺財…命理師曝黃金2小時 點名2生肖好壞兩樣情",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CV3V4SENDNFFvWGVwM0lHekJHSlFxSWxjaWtiZFVhYUhGYkE2Q2NCZXVlQ2VvWEs1aFAtdTBFWmNYVWxBcUFSUDc2QnJ2SjlteWtYR3IzMzZ4QXpCNHNyS1ZlcDdxLU12NWIzbVlFaTlwUGV10gFWQVVfeXFMT2VjWDdXcG9nNFNrQ3E0NTlDdzlVS3lFUDVjLXlpcGpJblJCVWpwSXdHaUhnSzlib1VlaVNQWGQwOTluWDVpQmE3bTBSamExYm90TTczV3c?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-02",
-      "published_display": "2026-07-02",
-      "matched_keywords": [
-        "命理",
-        "命理師"
-      ],
-      "score": 12.55,
-      "event_cluster": "event-09"
+      "event_cluster": "event-05"
     }
   ]
 }
