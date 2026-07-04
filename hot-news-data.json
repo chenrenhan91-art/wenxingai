@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-03",
-  "updated_at_display": "2026年7月3日 23:13",
+  "updated_at": "2026-07-04",
+  "updated_at_display": "2026年7月4日 14:21",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-03T23:13:50.349486+08:00",
+    "fetched_at": "2026-07-04T14:21:11.290350+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "50分鐘讀透紫微經典《太微賦》：你的命盤格局藏著怎樣的先天大運？學會古人流傳至今的“命理天規”！#太微賦#紫微斗數#絕處逢生#凋而不落#深夜聽書#順時而動#司馬懿 #大運格局#命理天規",
+      "title": "他對你是真心的嗎？把你當做什麼人？有沒有欺騙過你？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zR09XZmNqaFF6Q1J4WGpheHYyZkY1dDJ3MzczQ3pBTmc5U2VJWHN0cjBxOERvaV85Y1k0Y3lxZjRZVTFYa2g1NGtyMkxaSk9QaFRjM1BR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fVTJvX3A5QzFsdWx0Z1RYZlR5ZmExY1J1S0QzXzM4Z242RTktQjdZS1JjTWJqeHFxMWJfN0I3bkQ5T2s3TnlhNHYyUEh0a2RkT2IxLVp3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "八字紫微",
-      "published": "2026-06-29",
-      "published_display": "2026-06-29",
+      "category": "塔罗星象",
+      "published": "2026-06-30",
+      "published_display": "2026-06-30",
       "matched_keywords": [
-        "命理",
-        "紫微",
-        "斗數"
+        "塔羅",
+        "占卜",
+        "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-08"
+      "event_cluster": "event-07"
     },
     {
       "title": "聽大眾戀愛占卜但心中對象想的是老闆 塔羅師「這組看起來是在較勁，你覺得對方該有所回饋了、但對方覺得你做的還不夠時間還沒到⋯⋯真奇怪感覺像在看上司跟下屬⋯⋯這組該不會有人不是來看戀愛而是看工作的吧」 太準了老闆該幫我加薪了吧",
@@ -287,7 +287,7 @@
         "戀愛"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-59"
+      "event_cluster": "event-61"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -306,7 +306,7 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-10"
+      "event_cluster": "event-11"
     },
     {
       "title": "小暑遇雙星逆行！ 命理師曝5大禁忌「3類人當心」 1招開運發大財",
