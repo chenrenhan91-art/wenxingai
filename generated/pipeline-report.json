@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-07-04T22:40:29.511394+08:00",
-  "ran_at_display": "2026年7月4日 22:40",
+  "ran_at": "2026-07-05T14:41:07.015823+08:00",
+  "ran_at_display": "2026年7月5日 14:41",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "da2c6ad63d15c9935eca13c1eb32258b298e922f",
-  "new_signature": "723e052912b21ac07d348b021e51bd00e2e76306",
+  "previous_signature": "723e052912b21ac07d348b021e51bd00e2e76306",
+  "new_signature": "635e4d0ea0ffc411428cb32e01a37cd42796a0ce",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,14 +21,14 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "【直白】他藏在心底的真心话！强烈希望你立刻就听到！想表明什么心意？ |暧昧|爱情|恋爱|桃花|塔罗占卜",
+    "老千騙子的斗數命盤特徵︱洞悉自己被騙的事情！︱梁善行師傅︱命盤分析紫微斗數命理教學八字提子︱#梁善行玄機解碼EP222",
     "聽大眾戀愛占卜但心中對象想的是老闆 塔羅師「這組看起來是在較勁，你覺得對方該有所回饋了、但對方覺得你做的還不夠時間還沒到⋯⋯真奇怪感覺像在看上司跟下屬⋯⋯這組該不會有人不是來看戀愛而是看工作的吧」 太準了老闆該幫我加薪了吧",
     "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
     "小暑遇雙星逆行！ 命理師曝5大禁忌「3類人當心」 1招開運發大財",
     "絕對要小心！命理師曝3生肖7月運勢低迷，屬馬留意交通安全，「他」要注意情緒管理"
   ],
   "added_titles": [
-    "【直白】他藏在心底的真心话！强烈希望你立刻就听到！想表明什么心意？ |暧昧|爱情|恋爱|桃花|塔罗占卜"
+    "老千騙子的斗數命盤特徵︱洞悉自己被騙的事情！︱梁善行師傅︱命盤分析紫微斗數命理教學八字提子︱#梁善行玄機解碼EP222"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
@@ -41,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月4日 22:40"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月5日 14:41"
     },
     {
       "script": "generate_daily_content.py",

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-04",
-  "updated_at_display": "2026年7月4日 22:40",
+  "updated_at": "2026-07-05",
+  "updated_at_display": "2026年7月5日 14:41",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-04T22:40:45.490368+08:00",
+    "fetched_at": "2026-07-05T14:41:22.634504+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,20 +252,20 @@
   ],
   "items": [
     {
-      "title": "【直白】他藏在心底的真心话！强烈希望你立刻就听到！想表明什么心意？ |暧昧|爱情|恋爱|桃花|塔罗占卜",
+      "title": "老千騙子的斗數命盤特徵︱洞悉自己被騙的事情！︱梁善行師傅︱命盤分析紫微斗數命理教學八字提子︱#梁善行玄機解碼EP222",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA5eU0zRG1oTlZLQktGTVRHN1NIMlFsR0ZtNFdYeXk5bVRHVGgtLXNRckJPeXFVcHFnSTBwV1RBQVoxeGc1RWpvSEVzcHE3YzVJZ1o5V0RB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3OC1lX1ZrSkh2VWdmcWd1anhybDBTZFlPZDE5c2laWDRYWEY2Q2ZiTHBEVzlRMGtQLVhHVVJ2SV8yZERoZ1JsSkR3VlU5NjVRRlZkV1V3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "塔罗星象",
+      "category": "八字紫微",
       "published": "2026-07-04",
       "published_display": "2026-07-04",
       "matched_keywords": [
-        "塔罗",
-        "占卜",
-        "桃花"
+        "紫微斗數",
+        "命理",
+        "八字"
       ],
       "score": 14.55,
       "event_cluster": "event-05"
@@ -287,7 +287,7 @@
         "戀愛"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-65"
+      "event_cluster": "event-64"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -306,7 +306,7 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-12"
+      "event_cluster": "event-11"
     },
     {
       "title": "小暑遇雙星逆行！ 命理師曝5大禁忌「3類人當心」 1招開運發大財",
