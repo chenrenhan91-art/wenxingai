@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-07-05T14:41:07.015823+08:00",
-  "ran_at_display": "2026年7月5日 14:41",
+  "ran_at": "2026-07-05T22:47:01.888192+08:00",
+  "ran_at_display": "2026年7月5日 22:47",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "723e052912b21ac07d348b021e51bd00e2e76306",
-  "new_signature": "635e4d0ea0ffc411428cb32e01a37cd42796a0ce",
+  "previous_signature": "635e4d0ea0ffc411428cb32e01a37cd42796a0ce",
+  "new_signature": "69ac6abafc2df3fbe29202203ba3d0ca844e9d74",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,9 +27,7 @@
     "小暑遇雙星逆行！ 命理師曝5大禁忌「3類人當心」 1招開運發大財",
     "絕對要小心！命理師曝3生肖7月運勢低迷，屬馬留意交通安全，「他」要注意情緒管理"
   ],
-  "added_titles": [
-    "老千騙子的斗數命盤特徵︱洞悉自己被騙的事情！︱梁善行師傅︱命盤分析紫微斗數命理教學八字提子︱#梁善行玄機解碼EP222"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
@@ -41,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月5日 14:41"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月5日 22:47"
     },
     {
       "script": "generate_daily_content.py",

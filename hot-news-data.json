@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-07-05",
-  "updated_at_display": "2026年7月5日 14:41",
+  "updated_at_display": "2026年7月5日 22:47",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-05T14:41:22.634504+08:00",
+    "fetched_at": "2026-07-05T22:47:18.049637+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "戀愛"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-64"
+      "event_cluster": "event-72"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -387,7 +387,7 @@
     {
       "title": "2026下半年運勢出爐 命理師揭4大生肖迎超強偏財運：7月準備數錢",
       "summary": "来自 香港01 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ldk9pMGFwWGJ2RjZWSkJCUkZQUEhkRVF0Zlhid0pUYklqXzRnYjQ5dk9IVGQxbEc2LU5QVjc2bFdQNnJDaWY1N2xzQjFSdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirANBVV95cUxQaDRRRmNoLW55V1dVYkhZbndoR0xwbzlvU0NjejBXZDJ3LXk4aXBBSUtYcHU2TmdfaFQzZ3JiVEZmdEdfdDdYWUZ3dE5tLU9uRDdJZi1tWEhqVm11bXZaQmZ3My1zcF9EbS1xS0dwUnhOSDY3amxZZXhsM3pDbjAwMUtTbV9PdTlRSGZNVWpPc0dzMnk2ODBhYWM1ZFhzUTZxaHVCeGZxMTFadnVOdTZCc2xkd3dEcHpRZ0FBV2lIYWE0OW01VFItdXMzcXdFX0w2RW9mQUZocTN2czNURjQ0T0w0djM1cWVNYlJKSkJOS0s3SF9DQWFjMmMwYzJQcW9ZRlVDZ21sQk5hbmw5aU00NHJ3RjVVZ2pXajZvVnkxMzhvcndfeWFTTktVUUQyd2g3UlNFN3VrRl9UWHJrend1Z0h0MFAtdlNqUm15cDIybGttekJPVk1DVEVlUjBLbG1qWHM1UWFrTzA0a29jZ3lfb2l4cmFlS1BYV18xVVdQcjdXdlA2MWVDS3hzLUN2UWRXNFdERUZqNGprWF9DNnBwTjc1c0VPQWJ0TmhzcA?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "香港01 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
