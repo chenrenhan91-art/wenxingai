@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-07-05T22:47:01.888192+08:00",
-  "ran_at_display": "2026年7月5日 22:47",
+  "ran_at": "2026-07-06T15:13:22.764470+08:00",
+  "ran_at_display": "2026年7月6日 15:13",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "635e4d0ea0ffc411428cb32e01a37cd42796a0ce",
-  "new_signature": "69ac6abafc2df3fbe29202203ba3d0ca844e9d74",
+  "previous_signature": "69ac6abafc2df3fbe29202203ba3d0ca844e9d74",
+  "new_signature": "d50eff0aa56202b155d2c681c3be78ffcaa3be5c",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -22,14 +22,18 @@
   },
   "new_titles": [
     "老千騙子的斗數命盤特徵︱洞悉自己被騙的事情！︱梁善行師傅︱命盤分析紫微斗數命理教學八字提子︱#梁善行玄機解碼EP222",
-    "聽大眾戀愛占卜但心中對象想的是老闆 塔羅師「這組看起來是在較勁，你覺得對方該有所回饋了、但對方覺得你做的還不夠時間還沒到⋯⋯真奇怪感覺像在看上司跟下屬⋯⋯這組該不會有人不是來看戀愛而是看工作的吧」 太準了老闆該幫我加薪了吧",
+    "2026習近平再也撐不住了！《推背圖》「身帶弓伏金劍」應驗了？ 命理師：川習在死亡交叉點！台海會開戰將成夢幻炮影？",
     "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
-    "小暑遇雙星逆行！ 命理師曝5大禁忌「3類人當心」 1招開運發大財",
-    "絕對要小心！命理師曝3生肖7月運勢低迷，屬馬留意交通安全，「他」要注意情緒管理"
+    "周二小暑！4生肖當心健康命理師教6開運養生法- 好運到",
+    "7/7小暑別賴床！命理師：早起就是救命 做錯1事「整天運勢垮掉」"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "2026習近平再也撐不住了！《推背圖》「身帶弓伏金劍」應驗了？ 命理師：川習在死亡交叉點！台海會開戰將成夢幻炮影？",
+    "周二小暑！4生肖當心健康命理師教6開運養生法- 好運到",
+    "7/7小暑別賴床！命理師：早起就是救命 做錯1事「整天運勢垮掉」"
+  ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -39,7 +43,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月5日 22:47"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月6日 15:13"
     },
     {
       "script": "generate_daily_content.py",
