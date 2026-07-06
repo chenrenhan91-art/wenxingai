@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-06",
-  "updated_at_display": "2026年7月6日 15:13",
+  "updated_at": "2026-07-07",
+  "updated_at_display": "2026年7月7日 00:24",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-06T15:13:39.835005+08:00",
+    "fetched_at": "2026-07-07T00:24:28.167983+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,24 +248,24 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "items": [
     {
-      "title": "老千騙子的斗數命盤特徵︱洞悉自己被騙的事情！︱梁善行師傅︱命盤分析紫微斗數命理教學八字提子︱#梁善行玄機解碼EP222",
+      "title": "【直白】他藏在心底的真心话！强烈希望你立刻就听到！想表明什么心意？ |暧昧|爱情|恋爱|桃花|塔罗占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3OC1lX1ZrSkh2VWdmcWd1anhybDBTZFlPZDE5c2laWDRYWEY2Q2ZiTHBEVzlRMGtQLVhHVVJ2SV8yZERoZ1JsSkR3VlU5NjVRRlZkV1V3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA5eU0zRG1oTlZLQktGTVRHN1NIMlFsR0ZtNFdYeXk5bVRHVGgtLXNRckJPeXFVcHFnSTBwV1RBQVoxeGc1RWpvSEVzcHE3YzVJZ1o5V0RB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "八字紫微",
+      "category": "塔罗星象",
       "published": "2026-07-04",
       "published_display": "2026-07-04",
       "matched_keywords": [
-        "紫微斗數",
-        "命理",
-        "八字"
+        "塔罗",
+        "占卜",
+        "桃花"
       ],
       "score": 14.55,
       "event_cluster": "event-08"
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-103"
+      "event_cluster": "event-109"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -305,12 +305,31 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-14"
+      "event_cluster": "event-15"
+    },
+    {
+      "title": "周二小暑熱爆！命理師教「5招居家開運法」...退火招財補運一次滿足| 星座命理| 生活",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BTEgtUE5VNkdoQXVnWGx6bzhHTVpnV2VHR3BNMVZaUEFEY3BEek9adTNaUGhoaUloS3dScnRpNS1zSTJmbU1vZjlSWUZ6bTZ1b1ZEMndmNXJKTU5LM0NyNHFUR0VWaklNLVhrT0JGUlVpaS1udFlmREFMR0hnbUE?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "UDN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-07-06",
+      "published_display": "2026-07-06",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-01"
     },
     {
       "title": "周二小暑！4生肖當心健康命理師教6開運養生法- 好運到",
       "summary": "来自 觸mii · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaEZBMzFOYUxCeFVIR2tnejNfZHZVNnpxbmZWUFJHZE9KeEdlb196cGVrems0eUUtbHVzbU1XeC05V255dVMwY3ZkWFo1YVJIblBOUGN6c3ZCbzZFT21XNHNtanpHZGZQRDd2cjdqWV9FQUo4YndXd2p1M2YzWGhnWEctNzFweWhWSGtmbzB3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oWjVtTUZ2bjVROVBndDdsWHpYcGZYZ202RXNUUV9zQXBpRnB2MVJqTkphUkxtUXhBSHdwTFlRbTduWjhMMHFGVVhwYnNEN1BQendlUWRJZDNtT0k5X3hYcW1vRnVmazVjOWR1aw?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "觸mii · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -324,7 +343,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-01"
+      "event_cluster": "event-02"
     },
     {
       "title": "7/7小暑別賴床！命理師：早起就是救命 做錯1事「整天運勢垮掉」",
@@ -343,7 +362,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "「小寒」來了！3類人疾病易發作命理師曝開運養生全攻略| 健康",
@@ -362,7 +381,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "12/22冬至！命理師曝「開運6招」：紅白湯圓吃雙數、事業不順一定要拜祂| 生活",
@@ -375,25 +394,6 @@
       "category": "命理新闻",
       "published": "2026-07-04",
       "published_display": "2026-07-04",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "小暑遇雙星逆行！ 命理師曝5大禁忌「3類人當心」 1招開運發大財",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxONmNTbXNfYkhlN3haOUtiQ0F2M0wzbVRUczdiVUx2UEhKbzNMRldSSEtOSTVpb1BhLWJDRnBybmZyU19teXVmSW1FbExFMk9Ia19sZ2tUU1hMdHpkLUg5M21JbzhLSlhkVzM3VU52RUtfaFNkMDlZMXI5aUpJRVZYazlDYW5Kei1pbVFwc0J0SER0T0lXcl93Yk00WkpnanExZEpsaENnTUdPQzExRUFNdmIybElFLXVxcExRdEM5Zktyc0lOdVExbjJON2pkRm56czhzcFBmRVhwa0dyenBva2UzdE91RXU4VGZEdVNxNFp1aUhKVWFzdkFvSi1VYVEzcFlSbWNMemp3aXNFWnFXTEFGX3E0OWh1N282dEZMZlNYVHVmd3M3ak1vNGM1OHZNQUcxMzNOWHNfUWdPNWJrMHZxRTduZndBYVhRLTRvV1FkamtvdHprU2lxQXc1eWxfUUcxU3hJZ1JGaV90R3A4U0JsQWVrM0tRY2ow?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-03",
-      "published_display": "2026-07-03",
       "matched_keywords": [
         "命理",
         "命理師",
