@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-07-07T00:24:11.798857+08:00",
-  "ran_at_display": "2026年7月7日 00:24",
+  "ran_at": "2026-07-07T14:47:14.698863+08:00",
+  "ran_at_display": "2026年7月7日 14:47",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "d50eff0aa56202b155d2c681c3be78ffcaa3be5c",
-  "new_signature": "acc4ac9b9cbc52316324a1bba62219d8da0ba23a",
+  "previous_signature": "acc4ac9b9cbc52316324a1bba62219d8da0ba23a",
+  "new_signature": "d66559baeb7e469aba806002377f58660223b414",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,16 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "【直白】他藏在心底的真心话！强烈希望你立刻就听到！想表明什么心意？ |暧昧|爱情|恋爱|桃花|塔罗占卜|",
+    "老千騙子的斗數命盤特徵︱洞悉自己被騙的事情！︱梁善行師傅︱命盤分析紫微斗數命理教學八字提子︱#梁善行玄機解碼EP222",
     "2026習近平再也撐不住了！《推背圖》「身帶弓伏金劍」應驗了？ 命理師：川習在死亡交叉點！台海會開戰將成夢幻炮影？",
     "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
-    "周二小暑熱爆！命理師教「5招居家開運法」...退火招財補運一次滿足| 星座命理| 生活",
-    "周二小暑！4生肖當心健康命理師教6開運養生法- 好運到"
+    "8大QA揭秘高雄指標豪宅設計，如何利用「科學風水」打造聚氣招財的能量磁場？",
+    "小暑開運5招曝光！命理師教1招退火散熱 下半年好運從今天開始布局"
   ],
   "added_titles": [
-    "【直白】他藏在心底的真心话！强烈希望你立刻就听到！想表明什么心意？ |暧昧|爱情|恋爱|桃花|塔罗占卜|",
-    "周二小暑熱爆！命理師教「5招居家開運法」...退火招財補運一次滿足| 星座命理| 生活"
+    "老千騙子的斗數命盤特徵︱洞悉自己被騙的事情！︱梁善行師傅︱命盤分析紫微斗數命理教學八字提子︱#梁善行玄機解碼EP222",
+    "8大QA揭秘高雄指標豪宅設計，如何利用「科學風水」打造聚氣招財的能量磁場？",
+    "小暑開運5招曝光！命理師教1招退火散熱 下半年好運從今天開始布局"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -42,7 +43,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月7日 00:24"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月7日 14:47"
     },
     {
       "script": "generate_daily_content.py",
