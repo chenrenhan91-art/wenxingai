@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-08T13:52:31.038770+08:00",
-  "generated_at_display": "2026-07-08 13:52 CST",
+  "generated_at": "2026-07-08T23:25:09.131269+08:00",
+  "generated_at_display": "2026-07-08 23:25 CST",
   "site_positioning": "问星AI是面向全球华语用户的AI命理应用，核心覆盖紫微斗数、四柱八字、周易六爻、合盘分析、大运流年与玄学热点解读。",
   "hot_news": {
     "updated_at": "2026-07-08",
@@ -9,10 +9,10 @@
       "在馬龍所能觸及的範圍內，沒有看到其他的占星師、命理師們預測。歡迎好朋友們長期追蹤我們，才知道我們準不準、能耐到哪，一位忠誠可靠的占星師會是您人生最棒的朋友！ （占星師馬龍7-07-2026 Y2）",
       "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
       "8大QA揭秘高雄指標豪宅設計，如何利用「科學風水」打造聚氣招財的能量磁場？",
+      "千萬別鐵齒！命理師曝農曆年後運勢 「2生肖」恐血光之災",
+      "命理師看運勢3／新北、桃園誰勝出？他曝：這人格局穩、這人佔帝旺",
       "小暑開運5招曝光！命理師教1招退火散熱下半年好運從今天開始布局| 生活",
-      "7/7小暑別賴床！命理師：早起就是救命 做錯1事「整天運勢垮掉」",
-      "6425 易發- 周二小暑熱爆！命理師教「5招居家開運法」...退火招財補運一次滿足- 股市爆料同學會",
-      "周二小暑熱爆！命理師教「5招居家開運法」...退火招財補運一次滿足| 星座命理| 生活"
+      "補運趁現在！倒數4天鬼門開 命理師：顏色、地點助開運"
     ],
     "keywords": [
       [
@@ -24,11 +24,15 @@
         5
       ],
       [
-        "開運",
-        3
+        "塔羅",
+        2
       ],
       [
-        "塔羅",
+        "運勢",
+        2
+      ],
+      [
+        "開運",
         2
       ],
       [
@@ -58,20 +62,16 @@
       [
         "能量",
         1
-      ],
-      [
-        "運勢",
-        1
       ]
     ],
     "categories": [
       [
         "命理新闻",
-        4
+        5
       ],
       [
         "塔罗星象",
-        3
+        2
       ],
       [
         "风水玄学",
@@ -112,6 +112,41 @@
         "用问星AI案例说明可验证性"
       ],
       "automation_cadence": "weekly"
+    },
+    {
+      "id": "xuanxue-hot-news",
+      "name": "玄学热点与命理新闻",
+      "score": 110,
+      "priority": 76,
+      "hot_matches": [
+        "生肖",
+        "桃花"
+      ],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "玄学",
+        "命理新闻",
+        "命理热点",
+        "塔罗占卜",
+        "运势"
+      ],
+      "target_questions": [
+        "最近玄学热点有哪些？",
+        "命理新闻为什么容易引发讨论？",
+        "如何理性看待生肖运势和塔罗占卜？"
+      ],
+      "preferred_pages": [
+        "/mingli-xuanxue-news.html",
+        "/articles/",
+        "/glossary.html"
+      ],
+      "content_angles": [
+        "用每日热点做新鲜度",
+        "把新闻转成理性命理解释",
+        "避免娱乐化过度预言"
+      ],
+      "automation_cadence": "daily"
     },
     {
       "id": "ziwei-ai",
@@ -177,40 +212,6 @@
         "解释八字不是单看生肖"
       ],
       "automation_cadence": "weekly"
-    },
-    {
-      "id": "xuanxue-hot-news",
-      "name": "玄学热点与命理新闻",
-      "score": 98,
-      "priority": 76,
-      "hot_matches": [
-        "桃花"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "玄学",
-        "命理新闻",
-        "命理热点",
-        "塔罗占卜",
-        "运势"
-      ],
-      "target_questions": [
-        "最近玄学热点有哪些？",
-        "命理新闻为什么容易引发讨论？",
-        "如何理性看待生肖运势和塔罗占卜？"
-      ],
-      "preferred_pages": [
-        "/mingli-xuanxue-news.html",
-        "/articles/",
-        "/glossary.html"
-      ],
-      "content_angles": [
-        "用每日热点做新鲜度",
-        "把新闻转成理性命理解释",
-        "避免娱乐化过度预言"
-      ],
-      "automation_cadence": "daily"
     },
     {
       "id": "liuyao-ai",
@@ -336,6 +337,32 @@
       "angle": "理性解释AI命理边界"
     },
     {
+      "cluster_id": "xuanxue-hot-news",
+      "cluster_name": "玄学热点与命理新闻",
+      "action": "new_article",
+      "primary_keyword": "玄学",
+      "target_question": "最近玄学热点有哪些？",
+      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
+      "suggested_h2": [
+        "玄学的搜索意图是什么",
+        "问星AI如何解释玄学",
+        "传统命理与AI趋势分析的边界",
+        "可引用事实与常见问题"
+      ],
+      "internal_links": [
+        "/facts/wenxing-ai.html",
+        "/geo-answers.html",
+        "/glossary.html",
+        "/mingli-xuanxue-news.html"
+      ],
+      "hot_context": [
+        "他對你的佔有慾強不強？在他眼裡，把你當做他的誰？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "在馬龍所能觸及的範圍內，沒有看到其他的占星師、命理師們預測。歡迎好朋友們長期追蹤我們，才知道我們準不準、能耐到哪，一位忠誠可靠的占星師會是您人生最棒的朋友！ （占星師馬龍7-07-2026 Y2）",
+        "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命"
+      ],
+      "angle": "用每日热点做新鲜度"
+    },
+    {
       "cluster_id": "ziwei-ai",
       "cluster_name": "紫微斗数AI排盘",
       "action": "new_article",
@@ -386,32 +413,6 @@
         "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命"
       ],
       "angle": "把大运流年解释为周期观察"
-    },
-    {
-      "cluster_id": "xuanxue-hot-news",
-      "cluster_name": "玄学热点与命理新闻",
-      "action": "new_article",
-      "primary_keyword": "玄学",
-      "target_question": "最近玄学热点有哪些？",
-      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
-      "suggested_h2": [
-        "玄学的搜索意图是什么",
-        "问星AI如何解释玄学",
-        "传统命理与AI趋势分析的边界",
-        "可引用事实与常见问题"
-      ],
-      "internal_links": [
-        "/facts/wenxing-ai.html",
-        "/geo-answers.html",
-        "/glossary.html",
-        "/mingli-xuanxue-news.html"
-      ],
-      "hot_context": [
-        "他對你的佔有慾強不強？在他眼裡，把你當做他的誰？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-        "在馬龍所能觸及的範圍內，沒有看到其他的占星師、命理師們預測。歡迎好朋友們長期追蹤我們，才知道我們準不準、能耐到哪，一位忠誠可靠的占星師會是您人生最棒的朋友！ （占星師馬龍7-07-2026 Y2）",
-        "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命"
-      ],
-      "angle": "用每日热点做新鲜度"
     },
     {
       "cluster_id": "liuyao-ai",
