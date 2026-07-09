@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-09",
-  "updated_at_display": "2026年7月9日 14:45",
+  "updated_at": "2026-07-10",
+  "updated_at_display": "2026年7月10日 00:02",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-09T14:45:46.755619+08:00",
+    "fetched_at": "2026-07-10T00:02:44.779824+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-141"
+      "event_cluster": "event-150"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",

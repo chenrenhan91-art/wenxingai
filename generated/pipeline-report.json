@@ -1,9 +1,9 @@
 {
-  "ran_at": "2026-07-09T14:45:31.137044+08:00",
-  "ran_at_display": "2026年7月9日 14:45",
+  "ran_at": "2026-07-10T00:02:28.712788+08:00",
+  "ran_at_display": "2026年7月10日 00:02",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "e19f5b55bb8f32e6efa6660225dcb840bc27dc30",
+  "previous_signature": "97a74dcd72e04da468bf6c07ab7a00dab70aa531",
   "new_signature": "97a74dcd72e04da468bf6c07ab7a00dab70aa531",
   "content_changed": true,
   "gemini_ran": true,
@@ -27,9 +27,7 @@
     "8大QA揭秘高雄指標豪宅設計，如何利用「科學風水」打造聚氣招財的能量磁場？",
     "政策破功？韓國瑜推舊堀江「算命一條街」 命理師嘆沒發財"
   ],
-  "added_titles": [
-    "政策破功？韓國瑜推舊堀江「算命一條街」 命理師嘆沒發財"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
@@ -41,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月9日 14:45"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月10日 00:02"
     },
     {
       "script": "generate_daily_content.py",
