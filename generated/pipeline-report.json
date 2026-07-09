@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-07-08T23:24:49.160155+08:00",
-  "ran_at_display": "2026年7月8日 23:24",
+  "ran_at": "2026-07-09T14:45:31.137044+08:00",
+  "ran_at_display": "2026年7月9日 14:45",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "da829a1688faa737b86c0783449cc5755216c1a3",
-  "new_signature": "e19f5b55bb8f32e6efa6660225dcb840bc27dc30",
+  "previous_signature": "e19f5b55bb8f32e6efa6660225dcb840bc27dc30",
+  "new_signature": "97a74dcd72e04da468bf6c07ab7a00dab70aa531",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -25,10 +25,10 @@
     "在馬龍所能觸及的範圍內，沒有看到其他的占星師、命理師們預測。歡迎好朋友們長期追蹤我們，才知道我們準不準、能耐到哪，一位忠誠可靠的占星師會是您人生最棒的朋友！ （占星師馬龍7-07-2026 Y2）",
     "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
     "8大QA揭秘高雄指標豪宅設計，如何利用「科學風水」打造聚氣招財的能量磁場？",
-    "千萬別鐵齒！命理師曝農曆年後運勢 「2生肖」恐血光之災"
+    "政策破功？韓國瑜推舊堀江「算命一條街」 命理師嘆沒發財"
   ],
   "added_titles": [
-    "千萬別鐵齒！命理師曝農曆年後運勢 「2生肖」恐血光之災"
+    "政策破功？韓國瑜推舊堀江「算命一條街」 命理師嘆沒發財"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -41,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月8日 23:25"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月9日 14:45"
     },
     {
       "script": "generate_daily_content.py",

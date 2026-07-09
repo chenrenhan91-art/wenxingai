@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-08",
-  "updated_at_display": "2026年7月8日 23:25",
+  "updated_at": "2026-07-09",
+  "updated_at_display": "2026年7月9日 14:45",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-08T23:25:02.345646+08:00",
+    "fetched_at": "2026-07-09T14:45:46.755619+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-131"
+      "event_cluster": "event-141"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -305,14 +305,14 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-19"
+      "event_cluster": "event-18"
     },
     {
       "title": "8大QA揭秘高雄指標豪宅設計，如何利用「科學風水」打造聚氣招財的能量磁場？",
-      "summary": "来自 房地王 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE43ZS1TMWNVbjBuT042WWNBTmVYQU11ZTB5V2lTTUZHOEIzQlFfdVlKckM4Ml8yemctVlBNN28tS2MybHFoWC05NVdR?oc=5",
+      "summary": "来自 extra.rakuya.com.tw · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDTkhZdG1Hbng2cE1YZ0tBeXZxNW1RUEV2eWlDWjF1ZXF2UUVBZDZWLVFFcGFoVVltYU1pLXktTTNIbURXMVlTM3k4UjQwSTk1QVA2X2tGNGZISUlrTWc?oc=5",
       "source_id": "google_news_fengshui_tw",
-      "source": "房地王 · Google News",
+      "source": "extra.rakuya.com.tw · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E9%A2%A8%E6%B0%B4+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "风水玄学",
@@ -325,6 +325,44 @@
       ],
       "score": 16.349999999999998,
       "event_cluster": "event-01"
+    },
+    {
+      "title": "政策破功？韓國瑜推舊堀江「算命一條街」 命理師嘆沒發財",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9JeVFxMEdtRnV5eEpMQ25FX0EzVFNwYzBTZWFsVWUzbHNuczBLTnpqZGY5czJ5Z1ItakZtZ3ZlNU9aVkN3M2ln0gFLQVVfeXFMT0paUC1Sc1llNHJQZzROV3ZjeWVmRlNfVkxEV0ZWZ1JMeUx1djdKdFZ1emhfVnpDeXh1S29CR3k2NlJLZ2xnWnR6UElF?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-07-08",
+      "published_display": "2026-07-08",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "算命"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
+      "title": "大樂透4.7億！命理師揭西北方運勢超強 把握「這2小時」下注",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9UUldTNEV1ejd0UXZlVGQtWWVTQ3I4c0lIMEpNaW1jOFFmZy1rbEhKZ2ZZeGxQd3dHa2RhQjdsbTZtMWt4Y3hXMtIBTEFVX3lxTE0tN296ZV9TbHVONGFjQ0Y0WGhpWGIxdjlEV25hb3RzWUxUVlpWbXZoT2JIc1hsNmRiWm56Nk9LWWQzVGxybXZkOC1nOE0?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-07-08",
+      "published_display": "2026-07-08",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
     },
     {
       "title": "千萬別鐵齒！命理師曝農曆年後運勢 「2生肖」恐血光之災",
@@ -343,50 +381,12 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
-    },
-    {
-      "title": "命理師看運勢3／新北、桃園誰勝出？他曝：這人格局穩、這人佔帝旺",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBfcHBqUjg3RHc1bkZJUmcwSjNxeWYwYXZBSXo4V3RKYThEcUFCRHlheTk4T1phakNPVmVWN3Z2bGVJSmZDRnVlONIBTEFVX3lxTE5kS3Y2QmJJaE1zWTBqQlFjVm5tZnR3cTBKOFJReWZSZWVOdy0wUVhZSnFFdmpzb1VYa2Q2bWVMcERFZ1hFRF96TUJsTVc?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-08",
-      "published_display": "2026-07-08",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "小暑開運5招曝光！命理師教1招退火散熱下半年好運從今天開始布局| 生活",
       "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9sWTRlN1R0a2g2Vjd2TFlyT1ZuZWZMV2wwMlpjaGhIeUlrYWRUdi1JWDdBbUxUMEhzR20tRTNIV28wdXJhSV9CMw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-07",
-      "published_display": "2026-07-07",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "補運趁現在！倒數4天鬼門開 命理師：顏色、地點助開運",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9BSWR6Yk84YzA5RFZVV2UzSlBFMUJwT01pejFYS0Z1cE45ZFloaGJPRGx6ZC1pV0ZLRTluSTNJR1VFRGpYWkRr0gFLQVVfeXFMTk5yZmttSy1fSXBiTTF1dXo0b3JPajJwN2hNQVN5d29KcklYVUVVQnpRQ05sRWI1ejBzTnFVN2RyMmktakFydDFZTTJn?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "三立新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
