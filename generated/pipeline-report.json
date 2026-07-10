@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-07-10T14:46:30.812793+08:00",
-  "ran_at_display": "2026年7月10日 14:46",
+  "ran_at": "2026-07-10T23:33:41.154136+08:00",
+  "ran_at_display": "2026年7月10日 23:33",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "97a74dcd72e04da468bf6c07ab7a00dab70aa531",
-  "new_signature": "ef9dff4010b849607b4f20ad035443c0e841eb9b",
+  "previous_signature": "ef9dff4010b849607b4f20ad035443c0e841eb9b",
+  "new_signature": "f2aad1052cd56fc33d668d0345969cd074bcc00c",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,10 +27,7 @@
     "8大QA揭秘高雄指標豪宅設計，如何利用「科學風水」打造聚氣招財的能量磁場？",
     "軒轅十四帶旺運勢！命理師曝近期桃花、人緣超強4生肖，屬馬社交獲青睞，「他」魅力大增讓人想親近"
   ],
-  "added_titles": [
-    "老千騙子的斗數命盤特徵︱洞悉自己被騙的事情！︱梁善行師傅︱命盤分析紫微斗數命理教學八字提子︱#梁善行玄機解碼EP222",
-    "軒轅十四帶旺運勢！命理師曝近期桃花、人緣超強4生肖，屬馬社交獲青睞，「他」魅力大增讓人想親近"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
@@ -42,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月10日 14:46"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月10日 23:33"
     },
     {
       "script": "generate_daily_content.py",

@@ -1,9 +1,9 @@
-# 问星AI 内容自动化运行报告 2026年7月10日 14:46
+# 问星AI 内容自动化运行报告 2026年7月10日 23:33
 
 - 总体状态：failed_generate
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：ef9dff4010b849607b4f20ad035443c0e841eb9b
+- 变更签名：f2aad1052cd56fc33d668d0345969cd074bcc00c
 - Gemini 是否执行：是
 - Gemini 审校是否执行：否
 - 规则质检是否执行：否
@@ -19,10 +19,6 @@
 - 8大QA揭秘高雄指標豪宅設計，如何利用「科學風水」打造聚氣招財的能量磁場？
 - 軒轅十四帶旺運勢！命理師曝近期桃花、人緣超強4生肖，屬馬社交獲青睞，「他」魅力大增讓人想親近
 
-## 新增标题
-- 老千騙子的斗數命盤特徵︱洞悉自己被騙的事情！︱梁善行師傅︱命盤分析紫微斗數命理教學八字提子︱#梁善行玄機解碼EP222
-- 軒轅十四帶旺運勢！命理師曝近期桃花、人緣超強4生肖，屬馬社交獲青睞，「他」魅力大增讓人想親近
-
 ## 次日运营建议
 - 明日优先延展「命理新闻」相关选题（当前占比 5/8）。
 
@@ -31,7 +27,7 @@
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年7月10日 14:46
+updated 8 hot news items at 2026年7月10日 23:33
 - generate_daily_content.py | failed | [warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {"error":{"message":"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.","type":"invalid_request_error","param":null,...
 [warn] DashScope model qwen3.6-flash-2026-04-16 failed; trying qwen3.5-flash. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
 [warn] DashScope model qwen3.5-flash failed; trying qwen3.5-35b-a3b. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
