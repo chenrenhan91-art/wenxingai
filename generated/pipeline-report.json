@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-07-13T14:20:02.747803+08:00",
-  "ran_at_display": "2026年7月13日 14:20",
+  "ran_at": "2026-07-13T23:43:29.839602+08:00",
+  "ran_at_display": "2026年7月13日 23:43",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "95b952ee4bb94f3d631af5577990e5e7df84cbb0",
-  "new_signature": "097407eb85b59b7cad168beb2fd2368e5e895fe5",
+  "previous_signature": "097407eb85b59b7cad168beb2fd2368e5e895fe5",
+  "new_signature": "5538cbf94c97009385b8b07653a1e4c4a5e94205",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -25,12 +25,10 @@
     "🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber) on X",
     "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
     "8大QA揭秘高雄指標豪宅設計，如何利用「科學風水」打造聚氣招財的能量磁場？",
-    "FI專欄｜「麥總」是戲稱還是冤枉了他？斗數拆麥巴比心態與運勢｜命理師少山"
+    "最強吉日！週日「天赦日強碰天貺節」 命理師曝3招開運大法"
   ],
   "added_titles": [
-    "下半年你是他的誰？最愛or陌生人？關係如何發展！哪些好事與挑戰？|曖昧|愛情|戀愛|桃花|塔羅占卜",
-    "🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber) on X",
-    "FI專欄｜「麥總」是戲稱還是冤枉了他？斗數拆麥巴比心態與運勢｜命理師少山"
+    "最強吉日！週日「天赦日強碰天貺節」 命理師曝3招開運大法"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -43,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月13日 14:20"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月13日 23:43"
     },
     {
       "script": "generate_daily_content.py",

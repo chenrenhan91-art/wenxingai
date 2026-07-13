@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-07-13",
-  "updated_at_display": "2026年7月13日 14:20",
+  "updated_at_display": "2026年7月13日 23:43",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-13T14:20:16.027028+08:00",
+    "fetched_at": "2026-07-13T23:43:46.978370+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-129"
+      "event_cluster": "event-127"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -305,7 +305,7 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-29"
+      "event_cluster": "event-30"
     },
     {
       "title": "8大QA揭秘高雄指標豪宅設計，如何利用「科學風水」打造聚氣招財的能量磁場？",
@@ -327,30 +327,11 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "FI專欄｜「麥總」是戲稱還是冤枉了他？斗數拆麥巴比心態與運勢｜命理師少山",
-      "summary": "来自 Yahoo 財經 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiwgNBVV95cUxONXVTOTlLZEJWRERaZU9yUS1GXzhsOVV0M3pIVndxTHM0YUNzcktWLWt1Zmg2Rno0bURzY2xzSktvOWlUZHZLQ21JSDlHWVNLT3gyRkxLZkxfTzlCT0VNazNwRG9TTV9MUlRnZ2xRUTFZNFhQQ2t5d0wxc1VwUkFLZTNnOU1GUDd6UzRmZV9WZXNqZkR6dkJZLVIyZ2dCRWhlSERHLWU3bmVvWmNVYWl3WHdKMTFZOHVpWUh3cTI2U0RwYUw2MTRqcEpvMTRyZnB5X0pBeVRNNVhJckFXSkZoc1BlVUFIWDkzVHdTSTB5Wm5IX0FVMEtrcEg3bDBrWlJPTlRtRXZ5SGNaeHRVVUlFQzR5QnBsZGFudklfWjV0eDZhXzdkbzloS0pIa2RVVEhqVnZuNzVpemUxSm9KQ0NuRExDdkZYWW56VFdLTVktS0lCR2w4ekg2VFplbVk3UER6RHhtUmlac2oyanNNX0dqcG0wbnk4bzgyT01HNy1JNnR0aVpkd1pMOG9ualZpa3JSZGMyUVZheUNwODVQOU9pVHlDYmpfZURTcjZsdDk5ODc5ejNuXzQxUldsTXJ2VG4tbFE?oc=5",
+      "title": "最強吉日！週日「天赦日強碰天貺節」 命理師曝3招開運大法",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkamVlY2ZEamVuWExaN2YxTmxSelNlVElyYmNYSk9iYWtjd01rLWJhbk5GX0d2UGc3X0g4LUtWRWFQVGlTUE5nNNIBTEFVX3lxTE9CaERIM2pKVjZfNjFtaWNWZ0liVEI3M3g1NE10UmJZbTFUQk15TmFFcWRkWmVYMlhqWWJEV0wzd0x2YlpDZldHUEluYnk?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Yahoo 財經 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-13",
-      "published_display": "2026-07-13",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-02"
-    },
-    {
-      "title": "最強招財日要到了！命理師曝「3招開運法」：換錢包、曬棉被都有效",
-      "summary": "来自 ETtoday新聞雲 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FT3BpUWU4dWVGX2RNYU1TYTRwNUI1bkdzaFg1YkNIWWtqejJfZGtGcWpXR1pEOUxNQzl1dGd1ZEZBY2ptYk9LcHFVRmtmSlF2ZnlEZTdrcmczcXNvRXfSAWhBVV95cUxOQ2E2bTdVWkdZbDJmb2lNNFVzcU5YeElScjU1enlkeHhaSmw3LTdueE16MGJDMGlHaDdaS2pzZ3hsZkRxeGFGVzdPaGZ5ajhKVlpWNTZ0TVpLNmpkaTlqLVJRX0F1NURWTg?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "ETtoday新聞雲 · Google News",
+      "source": "三立新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -362,14 +343,33 @@
         "開運"
       ],
       "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
+      "title": "FI專欄｜「麥總」是戲稱還是冤枉了他？斗數拆麥巴比心態與運勢｜命理師少山",
+      "summary": "来自 Fortune Insight · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi9gNBVV95cUxNaDJYSkFBUmVFN3ZBUUdXQUJvYTM0ZlZQRFFOSnVUVU10M1NLeFg5M0YzbF9PTXBEa2NYaGJDWUlfRGRjaTY5OGJYLW9ILUt3SEdiSkc3R2pmcEo4ZGxKWlR2Ty1kNEw4c1pKWEFqNTdPaUczZHVaSkVrR0g1VHRRNlliaGNNSlFfNWRqRG5DM3lFOGhnNHRjRV9XTzdoejVJZEl4NzNXSjhUZ0hXendBUjR2RFZnTkdzd0haejJPS25zVkNWYXJsU3NRbUU4LTUwQUhYTVRTMm4wV3ZJRkUzYVhwU3daOHY5QXQxM1RLd0pOMXpPOUtGX21vdzR5a21zZzZYbms4YnY2SUtBSll3Ykh5U1lVMXB1dHFhRDVmWmRIdXVOckJ1YUhOZG9hVFlvaTJGLXVneTNNSmlwZjlOY28ybkY0cWxwNGdsM1FaSWw5a3JGNUY5bkNDWU9MMGZPZU40VDlsRTZNUVk3dUtROVdINWdpQl8yQ2pKR3JORnVHS2pCdGh3UjNyeDc0SHBSaURFYzh1NG5LMkpsb0x6SFZXbnBIb29feExLUVg5YUNWSlcyb1huc1RnU1gtU3NyMFdHNkg4WVR5c0xsNy1XRTlBdFluRWVvOGVGY3YtaHh6R051Uk1kS3VqUFk1Q3VYNFZOd19B?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Fortune Insight · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-07-13",
+      "published_display": "2026-07-13",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
       "event_cluster": "event-03"
     },
     {
-      "title": "最強吉日！週日「天赦日強碰天貺節」 命理師曝3招開運大法",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkamVlY2ZEamVuWExaN2YxTmxSelNlVElyYmNYSk9iYWtjd01rLWJhbk5GX0d2UGc3X0g4LUtWRWFQVGlTUE5nNNIBTEFVX3lxTE9CaERIM2pKVjZfNjFtaWNWZ0liVEI3M3g1NE10UmJZbTFUQk15TmFFcWRkWmVYMlhqWWJEV0wzd0x2YlpDZldHUEluYnk?oc=5",
+      "title": "最強招財日要到了！命理師曝「3招開運法」：換錢包、曬棉被都有效",
+      "summary": "来自 ETtoday新聞雲 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FT3BpUWU4dWVGX2RNYU1TYTRwNUI1bkdzaFg1YkNIWWtqejJfZGtGcWpXR1pEOUxNQzl1dGd1ZEZBY2ptYk9LcHFVRmtmSlF2ZnlEZTdrcmczcXNvRXfSAWhBVV95cUxOQ2E2bTdVWkdZbDJmb2lNNFVzcU5YeElScjU1enlkeHhaSmw3LTdueE16MGJDMGlHaDdaS2pzZ3hsZkRxeGFGVzdPaGZ5ajhKVlpWNTZ0TVpLNmpkaTlqLVJRX0F1NURWTg?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
+      "source": "ETtoday新聞雲 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
