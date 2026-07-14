@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-07-14T13:30:40.635350+08:00",
-  "ran_at_display": "2026年7月14日 13:30",
+  "ran_at": "2026-07-14T22:56:13.347824+08:00",
+  "ran_at_display": "2026年7月14日 22:56",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "5538cbf94c97009385b8b07653a1e4c4a5e94205",
-  "new_signature": "26ceba5d03e38f6ac0c37d39cd44e3c0119637bc",
+  "previous_signature": "26ceba5d03e38f6ac0c37d39cd44e3c0119637bc",
+  "new_signature": "9cf72231d8910f448f4952a0aa0fd51486b4b8d8",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -22,15 +22,13 @@
   },
   "new_titles": [
     "他是值得的人嗎？你懂他對你的心意嗎？實際上他對你的感情如何？|曖昧|愛情|戀愛|桃花|塔羅占卜",
-    "🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber) on X",
+    "何篤霖離開主持了24年的《命運好好玩》，就連多位資深命理老師也看在眼裡，與何篤霖同進退，消極推辭通告，讓接棒的小賴和湯鎮瑋，面臨不少挑戰 【獨家！命理師推辭《命運好好玩》 小賴接棒何篤霖陷危機】 mirrormedia.mg/story/20260713…",
     "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
     "虎爺誕辰日將至！命理師曝「開運秘訣」：正財偏財都來",
     "大暑「三合火局」！命理師曝4招求財開運 這生肖慎防血光災"
   ],
   "added_titles": [
-    "他是值得的人嗎？你懂他對你的心意嗎？實際上他對你的感情如何？|曖昧|愛情|戀愛|桃花|塔羅占卜",
-    "虎爺誕辰日將至！命理師曝「開運秘訣」：正財偏財都來",
-    "大暑「三合火局」！命理師曝4招求財開運 這生肖慎防血光災"
+    "何篤霖離開主持了24年的《命運好好玩》，就連多位資深命理老師也看在眼裡，與何篤霖同進退，消極推辭通告，讓接棒的小賴和湯鎮瑋，面臨不少挑戰 【獨家！命理師推辭《命運好好玩》 小賴接棒何篤霖陷危機】 mirrormedia.mg/story/20260713…"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -43,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月14日 13:30"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月14日 22:56"
     },
     {
       "script": "generate_daily_content.py",

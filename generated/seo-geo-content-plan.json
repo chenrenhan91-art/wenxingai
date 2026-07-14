@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-14T13:31:04.634774+08:00",
-  "generated_at_display": "2026-07-14 13:31 CST",
+  "generated_at": "2026-07-14T22:56:38.458702+08:00",
+  "generated_at_display": "2026-07-14 22:56 CST",
   "site_positioning": "问星AI是面向全球华语用户的AI命理应用，核心覆盖紫微斗数、四柱八字、周易六爻、合盘分析、大运流年与玄学热点解读。",
   "hot_news": {
     "updated_at": "2026-07-14",
     "titles": [
       "他是值得的人嗎？你懂他對你的心意嗎？實際上他對你的感情如何？|曖昧|愛情|戀愛|桃花|塔羅占卜",
-      "🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber) on X",
+      "何篤霖離開主持了24年的《命運好好玩》，就連多位資深命理老師也看在眼裡，與何篤霖同進退，消極推辭通告，讓接棒的小賴和湯鎮瑋，面臨不少挑戰 【獨家！命理師推辭《命運好好玩》 小賴接棒何篤霖陷危機】 mirrormedia.mg/story/20260713…",
       "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
       "虎爺誕辰日將至！命理師曝「開運秘訣」：正財偏財都來",
       "大暑「三合火局」！命理師曝4招求財開運 這生肖慎防血光災",
@@ -64,41 +64,6 @@
     ]
   },
   "scored_clusters": [
-    {
-      "id": "bazi-ai",
-      "name": "八字排盘与流年大运",
-      "score": 112,
-      "priority": 90,
-      "hot_matches": [
-        "五行"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "八字AI",
-        "八字排盘",
-        "四柱八字",
-        "流年运势",
-        "大运"
-      ],
-      "target_questions": [
-        "八字排盘怎么看流年？",
-        "大运和流年有什么区别？",
-        "大运K线图是什么意思？",
-        "AI如何分析八字五行？"
-      ],
-      "preferred_pages": [
-        "/geo-answers.html",
-        "/glossary.html",
-        "/articles/"
-      ],
-      "content_angles": [
-        "把大运流年解释为周期观察",
-        "用大运K线图承接年轻用户",
-        "解释八字不是单看生肖"
-      ],
-      "automation_cadence": "weekly"
-    },
     {
       "id": "ai-mingli",
       "name": "AI命理与AI算命",
@@ -200,38 +165,37 @@
       "automation_cadence": "weekly"
     },
     {
-      "id": "jieqi-mingli",
-      "name": "二十四节气命理",
+      "id": "bazi-ai",
+      "name": "八字排盘与流年大运",
       "score": 100,
-      "priority": 78,
-      "hot_matches": [
-        "五行"
-      ],
+      "priority": 90,
+      "hot_matches": [],
       "article_coverage": [],
       "missing_pages": [],
       "primary_keywords": [
-        "节气命理",
-        "二十四节气",
-        "立春八字",
-        "小满运势",
-        "节气运势"
+        "八字AI",
+        "八字排盘",
+        "四柱八字",
+        "流年运势",
+        "大运"
       ],
       "target_questions": [
-        "为什么八字以节气划分月份？",
-        "立春前后出生八字怎么算？",
-        "节气对运势有什么影响？"
+        "八字排盘怎么看流年？",
+        "大运和流年有什么区别？",
+        "大运K线图是什么意思？",
+        "AI如何分析八字五行？"
       ],
       "preferred_pages": [
-        "/24jieqi/",
         "/geo-answers.html",
+        "/glossary.html",
         "/articles/"
       ],
       "content_angles": [
-        "节气前7天更新对应页面",
-        "解释月令与八字关系",
-        "用热点文章承接节气新闻"
+        "把大运流年解释为周期观察",
+        "用大运K线图承接年轻用户",
+        "解释八字不是单看生肖"
       ],
-      "automation_cadence": "seasonal"
+      "automation_cadence": "weekly"
     },
     {
       "id": "liuyao-ai",
@@ -295,35 +259,41 @@
         "把合盘定位为沟通参考"
       ],
       "automation_cadence": "biweekly"
+    },
+    {
+      "id": "jieqi-mingli",
+      "name": "二十四节气命理",
+      "score": 88,
+      "priority": 78,
+      "hot_matches": [],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "节气命理",
+        "二十四节气",
+        "立春八字",
+        "小满运势",
+        "节气运势"
+      ],
+      "target_questions": [
+        "为什么八字以节气划分月份？",
+        "立春前后出生八字怎么算？",
+        "节气对运势有什么影响？"
+      ],
+      "preferred_pages": [
+        "/24jieqi/",
+        "/geo-answers.html",
+        "/articles/"
+      ],
+      "content_angles": [
+        "节气前7天更新对应页面",
+        "解释月令与八字关系",
+        "用热点文章承接节气新闻"
+      ],
+      "automation_cadence": "seasonal"
     }
   ],
   "briefs": [
-    {
-      "cluster_id": "bazi-ai",
-      "cluster_name": "八字排盘与流年大运",
-      "action": "new_article",
-      "primary_keyword": "八字AI",
-      "target_question": "八字排盘怎么看流年？",
-      "suggested_title": "八字AI怎么理解？问星AI的理性命理观察",
-      "suggested_h2": [
-        "八字AI的搜索意图是什么",
-        "问星AI如何解释八字AI",
-        "传统命理与AI趋势分析的边界",
-        "可引用事实与常见问题"
-      ],
-      "internal_links": [
-        "/facts/wenxing-ai.html",
-        "/geo-answers.html",
-        "/glossary.html",
-        "/mingli-xuanxue-news.html"
-      ],
-      "hot_context": [
-        "他是值得的人嗎？你懂他對你的心意嗎？實際上他對你的感情如何？|曖昧|愛情|戀愛|桃花|塔羅占卜",
-        "🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber) on X",
-        "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命"
-      ],
-      "angle": "把大运流年解释为周期观察"
-    },
     {
       "cluster_id": "ai-mingli",
       "cluster_name": "AI命理与AI算命",
@@ -345,7 +315,7 @@
       ],
       "hot_context": [
         "他是值得的人嗎？你懂他對你的心意嗎？實際上他對你的感情如何？|曖昧|愛情|戀愛|桃花|塔羅占卜",
-        "🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber) on X",
+        "何篤霖離開主持了24年的《命運好好玩》，就連多位資深命理老師也看在眼裡，與何篤霖同進退，消極推辭通告，讓接棒的小賴和湯鎮瑋，面臨不少挑戰 【獨家！命理師推辭《命運好好玩》 小賴接棒何篤霖陷危機】 mirrormedia.mg/story/20260713…",
         "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命"
       ],
       "angle": "理性解释AI命理边界"
@@ -371,7 +341,7 @@
       ],
       "hot_context": [
         "他是值得的人嗎？你懂他對你的心意嗎？實際上他對你的感情如何？|曖昧|愛情|戀愛|桃花|塔羅占卜",
-        "🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber) on X",
+        "何篤霖離開主持了24年的《命運好好玩》，就連多位資深命理老師也看在眼裡，與何篤霖同進退，消極推辭通告，讓接棒的小賴和湯鎮瑋，面臨不少挑戰 【獨家！命理師推辭《命運好好玩》 小賴接棒何篤霖陷危機】 mirrormedia.mg/story/20260713…",
         "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命"
       ],
       "angle": "用每日热点做新鲜度"
@@ -397,21 +367,21 @@
       ],
       "hot_context": [
         "他是值得的人嗎？你懂他對你的心意嗎？實際上他對你的感情如何？|曖昧|愛情|戀愛|桃花|塔羅占卜",
-        "🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber) on X",
+        "何篤霖離開主持了24年的《命運好好玩》，就連多位資深命理老師也看在眼裡，與何篤霖同進退，消極推辭通告，讓接棒的小賴和湯鎮瑋，面臨不少挑戰 【獨家！命理師推辭《命運好好玩》 小賴接棒何篤霖陷危機】 mirrormedia.mg/story/20260713…",
         "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命"
       ],
       "angle": "解释三合派与飞星派"
     },
     {
-      "cluster_id": "jieqi-mingli",
-      "cluster_name": "二十四节气命理",
+      "cluster_id": "bazi-ai",
+      "cluster_name": "八字排盘与流年大运",
       "action": "new_article",
-      "primary_keyword": "节气命理",
-      "target_question": "为什么八字以节气划分月份？",
-      "suggested_title": "节气命理怎么理解？问星AI的理性命理观察",
+      "primary_keyword": "八字AI",
+      "target_question": "八字排盘怎么看流年？",
+      "suggested_title": "八字AI怎么理解？问星AI的理性命理观察",
       "suggested_h2": [
-        "节气命理的搜索意图是什么",
-        "问星AI如何解释节气命理",
+        "八字AI的搜索意图是什么",
+        "问星AI如何解释八字AI",
         "传统命理与AI趋势分析的边界",
         "可引用事实与常见问题"
       ],
@@ -423,10 +393,36 @@
       ],
       "hot_context": [
         "他是值得的人嗎？你懂他對你的心意嗎？實際上他對你的感情如何？|曖昧|愛情|戀愛|桃花|塔羅占卜",
-        "🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber) on X",
+        "何篤霖離開主持了24年的《命運好好玩》，就連多位資深命理老師也看在眼裡，與何篤霖同進退，消極推辭通告，讓接棒的小賴和湯鎮瑋，面臨不少挑戰 【獨家！命理師推辭《命運好好玩》 小賴接棒何篤霖陷危機】 mirrormedia.mg/story/20260713…",
         "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命"
       ],
-      "angle": "节气前7天更新对应页面"
+      "angle": "把大运流年解释为周期观察"
+    },
+    {
+      "cluster_id": "liuyao-ai",
+      "cluster_name": "周易六爻AI解卦",
+      "action": "new_article",
+      "primary_keyword": "六爻AI",
+      "target_question": "六爻适合问什么问题？",
+      "suggested_title": "六爻AI怎么理解？问星AI的理性命理观察",
+      "suggested_h2": [
+        "六爻AI的搜索意图是什么",
+        "问星AI如何解释六爻AI",
+        "传统命理与AI趋势分析的边界",
+        "可引用事实与常见问题"
+      ],
+      "internal_links": [
+        "/facts/wenxing-ai.html",
+        "/geo-answers.html",
+        "/glossary.html",
+        "/mingli-xuanxue-news.html"
+      ],
+      "hot_context": [
+        "他是值得的人嗎？你懂他對你的心意嗎？實際上他對你的感情如何？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+        "何篤霖離開主持了24年的《命運好好玩》，就連多位資深命理老師也看在眼裡，與何篤霖同進退，消極推辭通告，讓接棒的小賴和湯鎮瑋，面臨不少挑戰 【獨家！命理師推辭《命運好好玩》 小賴接棒何篤霖陷危機】 mirrormedia.mg/story/20260713…",
+        "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命"
+      ],
+      "angle": "把六爻定位为具体问题判断"
     }
   ],
   "monthly_ai_prompt_tests": [

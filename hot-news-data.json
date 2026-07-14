@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-07-14",
-  "updated_at_display": "2026年7月14日 13:30",
+  "updated_at_display": "2026年7月14日 22:56",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-14T13:30:56.333116+08:00",
+    "fetched_at": "2026-07-14T22:56:30.140823+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -180,7 +180,7 @@
       "google_news_mingli_tw": 6.55,
       "google_news_xuanxue_tw": 6.05,
       "google_news_taluo_tw": 5.85,
-      "google_news_fengshui_tw": 5.95,
+      "google_news_fengshui_tw": 5.85,
       "ptt_gossiping": 5.55,
       "ptt_womentalk": 5.15,
       "ptt_marvel": 4.65,
@@ -271,22 +271,22 @@
       "event_cluster": "event-06"
     },
     {
-      "title": "🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber) on X",
+      "title": "何篤霖離開主持了24年的《命運好好玩》，就連多位資深命理老師也看在眼裡，與何篤霖同進退，消極推辭通告，讓接棒的小賴和湯鎮瑋，面臨不少挑戰 【獨家！命理師推辭《命運好好玩》 小賴接棒何篤霖陷危機】 mirrormedia.mg/story/20260713…",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5OUpvSEg4TWpocGNfQTFsOE80V0pBdE1DRk85b0JYZjdJZ0ZWdU9MRU5xT0k4dGoybVk2OUxoVDdXcGd0cmRQX2hCUG1CemJqX1BrN1JHcmRvcXd4bjhMdE51RQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Nb3RjaHl6Sk1ZeG9OUEcxX3VuOFZUU2hTMU5PNFVCeUZoblZ5WG1HZzdsLV9zMWpzNVVkM3B1d1J5Y2RnMWhyVFFFRUFYMFpVOHo0d3BSSTFLTlRFQzloS1FSRmdHbXNkd0ozSDZnYw?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "命理新闻",
-      "published": "2026-07-13",
-      "published_display": "2026-07-13",
+      "published": "2026-07-14",
+      "published_display": "2026-07-14",
       "matched_keywords": [
         "命理",
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-132"
+      "event_cluster": "event-117"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -305,7 +305,7 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-37"
+      "event_cluster": "event-38"
     },
     {
       "title": "虎爺誕辰日將至！命理師曝「開運秘訣」：正財偏財都來",
