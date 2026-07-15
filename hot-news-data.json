@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-07-15",
-  "updated_at_display": "2026年7月15日 13:32",
+  "updated_at_display": "2026年7月15日 22:56",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-15T13:32:07.669303+08:00",
+    "fetched_at": "2026-07-15T22:56:09.997047+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,16 +252,16 @@
   ],
   "items": [
     {
-      "title": "他是值得的人嗎？你懂他對你的心意嗎？實際上他對你的感情如何？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+      "title": "他對你瘋狂幻想過嗎？衝動的時候都想做什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13VTYzQnFMLW81XzN4czdDRDZoSTFqXzRqVHFhbEllYlliVDIwR1JiTjN6TTdkZEJra3RRWC12RVhOUzJRbHEyYy1BaXNodE96UzBsOVJ3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FUmJXZi03SWVXb0Y1VXdrNXpIMVU3RXFtdVBIWFZEZmx5SWtHYjhOczlNalYzUEp1ME93YlFHYzhKSkNHQWhhVmNpV2J4MjhjSDRVSnR3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-07-13",
-      "published_display": "2026-07-13",
+      "published": "2026-07-14",
+      "published_display": "2026-07-14",
       "matched_keywords": [
         "塔羅",
         "占卜",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-119"
+      "event_cluster": "event-120"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -305,14 +305,14 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-40"
+      "event_cluster": "event-39"
     },
     {
       "title": "虎爺生日快到了！命理師曝3招開運法 旺財又防小人",
-      "summary": "来自 壹蘋新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5OR0g3WC1wSTVuT2FNUE1SV0p6Z3ZTdUxHeVJVN205anRycG1IR2JodnhHcG1uVFYzQ0twanNpSlcwbklHQ1dIYTZOdWRzdTNHc3p5MVNiSVlVRU5QNEFUQ09IZTRUMTh5S0t6RVRmMUJpU2otYy16ckM0bUI4dw?oc=5",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxOYjdfLVBjNkw4U19nNUJ5QjVnMWM0WU8yb0pkQ0h5VHZBMXIwX2dlY1pzaUJacjcycjhYU3prZkI1djRQbzkxT1cwd3ZWRDFaT1E5TTBhQnVpeVZ3Q3dLM1BpRi03MnY1Vk1ZOE50LTYwbVpneHNRUGJDSVFEcnNYejczVHA4YkVwV0NyNEZ5RXZpWEV3Zk50a1JKLW1WVS1uR2hJMEhrazdHdnM1aDJsVm5ucjIwUjlxcWpwTVo4dUxDRGlOMTVtU3phOEJzcmV0NkVGdHdRWExwaFRuTk1fd3Nhb215eHJCWjd3OVpnRGNFc3hsbENaLVkyU1ladEVXWDN5c3VDRHBSeW9EZ0xMVk9ldm9JVFhyU1o2LS1Cc2J2NVpxNGVZRUdtQllFc0QyZ1hZSDVBNXJBR1h3Qk9FZFhEY3dMQlI3R0hSNldnajdQTFU?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "壹蘋新聞網 · Google News",
+      "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -329,7 +329,7 @@
     {
       "title": "2026下半年3星座運勢拉警報！水瓶當心破財慘賠 命理師教1招解套",
       "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5XOFV1Q0hoaGVCYUROREt0eVJtX3FBZElfOHVaWEZORElacmhLSXlwd0U0SHN6MnBtc2E5S1E0RGdNQTgxTndOMDVUU1TSAVJBVV95cUxNQW9oa3Y5MDY2UFRsRUt5QjUwSHJWVXNzd3FrYk5taDZCUXhYdGx6UFliQnF3cmJvcno4MGl1X2MxbVQ4eE1lSEZZMjRSbjNSNHR3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Bb2hrdjkwNjZQVGxFS3lCNTBIclZVc3N3cWtiTm1oNkJReFh0bHpQWWJCcXdyYm9yejgwaXVfYzFtVDh4TWVIRlkyNFJuM1I0dHfSAVJBVV95cUxNQW9oa3Y5MDY2UFRsRUt5QjUwSHJWVXNzd3FrYk5taDZCUXhYdGx6UFliQnF3cmJvcno4MGl1X2MxbVQ4eE1lSEZZMjRSbjNSNHR3?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "NOWnews今日新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -385,10 +385,10 @@
     },
     {
       "title": "FI專欄｜「麥總」是戲稱還是冤枉了他？斗數拆麥巴比心態與運勢｜命理師少山",
-      "summary": "来自 Yahoo 財經 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiwgNBVV95cUxONXVTOTlLZEJWRERaZU9yUS1GXzhsOVV0M3pIVndxTHM0YUNzcktWLWt1Zmg2Rno0bURzY2xzSktvOWlUZHZLQ21JSDlHWVNLT3gyRkxLZkxfTzlCT0VNazNwRG9TTV9MUlRnZ2xRUTFZNFhQQ2t5d0wxc1VwUkFLZTNnOU1GUDd6UzRmZV9WZXNqZkR6dkJZLVIyZ2dCRWhlSERHLWU3bmVvWmNVYWl3WHdKMTFZOHVpWUh3cTI2U0RwYUw2MTRqcEpvMTRyZnB5X0pBeVRNNVhJckFXSkZoc1BlVUFIWDkzVHdTSTB5Wm5IX0FVMEtrcEg3bDBrWlJPTlRtRXZ5SGNaeHRVVUlFQzR5QnBsZGFudklfWjV0eDZhXzdkbzloS0pIa2RVVEhqVnZuNzVpemUxSm9KQ0NuRExDdkZYWW56VFdLTVktS0lCR2w4ekg2VFplbVk3UER6RHhtUmlac2oyanNNX0dqcG0wbnk4bzgyT01HNy1JNnR0aVpkd1pMOG9ualZpa3JSZGMyUVZheUNwODVQOU9pVHlDYmpfZURTcjZsdDk5ODc5ejNuXzQxUldsTXJ2VG4tbFE?oc=5",
+      "summary": "来自 Fortune Insight · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi9gNBVV95cUxNaDJYSkFBUmVFN3ZBUUdXQUJvYTM0ZlZQRFFOSnVUVU10M1NLeFg5M0YzbF9PTXBEa2NYaGJDWUlfRGRjaTY5OGJYLW9ILUt3SEdiSkc3R2pmcEo4ZGxKWlR2Ty1kNEw4c1pKWEFqNTdPaUczZHVaSkVrR0g1VHRRNlliaGNNSlFfNWRqRG5DM3lFOGhnNHRjRV9XTzdoejVJZEl4NzNXSjhUZ0hXendBUjR2RFZnTkdzd0haejJPS25zVkNWYXJsU3NRbUU4LTUwQUhYTVRTMm4wV3ZJRkUzYVhwU3daOHY5QXQxM1RLd0pOMXpPOUtGX21vdzR5a21zZzZYbms4YnY2SUtBSll3Ykh5U1lVMXB1dHFhRDVmWmRIdXVOckJ1YUhOZG9hVFlvaTJGLXVneTNNSmlwZjlOY28ybkY0cWxwNGdsM1FaSWw5a3JGNUY5bkNDWU9MMGZPZU40VDlsRTZNUVk3dUtROVdINWdpQl8yQ2pKR3JORnVHS2pCdGh3UjNyeDc0SHBSaURFYzh1NG5LMkpsb0x6SFZXbnBIb29feExLUVg5YUNWSlcyb1huc1RnU1gtU3NyMFdHNkg4WVR5c0xsNy1XRTlBdFluRWVvOGVGY3YtaHh6R051Uk1kS3VqUFk1Q3VYNFZOd19B?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Yahoo 財經 · Google News",
+      "source": "Fortune Insight · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
