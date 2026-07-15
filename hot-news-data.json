@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-14",
-  "updated_at_display": "2026年7月14日 22:56",
+  "updated_at": "2026-07-15",
+  "updated_at_display": "2026年7月15日 13:32",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-14T22:56:30.140823+08:00",
+    "fetched_at": "2026-07-15T13:32:07.669303+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "items": [
     {
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-06"
+      "event_cluster": "event-08"
     },
     {
       "title": "何篤霖離開主持了24年的《命運好好玩》，就連多位資深命理老師也看在眼裡，與何篤霖同進退，消極推辭通告，讓接棒的小賴和湯鎮瑋，面臨不少挑戰 【獨家！命理師推辭《命運好好玩》 小賴接棒何篤霖陷危機】 mirrormedia.mg/story/20260713…",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-117"
+      "event_cluster": "event-119"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -305,7 +305,45 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-38"
+      "event_cluster": "event-40"
+    },
+    {
+      "title": "虎爺生日快到了！命理師曝3招開運法 旺財又防小人",
+      "summary": "来自 壹蘋新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5OR0g3WC1wSTVuT2FNUE1SV0p6Z3ZTdUxHeVJVN205anRycG1IR2JodnhHcG1uVFYzQ0twanNpSlcwbklHQ1dIYTZOdWRzdTNHc3p5MVNiSVlVRU5QNEFUQ09IZTRUMTh5S0t6RVRmMUJpU2otYy16ckM0bUI4dw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "壹蘋新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-07-15",
+      "published_display": "2026-07-15",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-01"
+    },
+    {
+      "title": "2026下半年3星座運勢拉警報！水瓶當心破財慘賠 命理師教1招解套",
+      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5XOFV1Q0hoaGVCYUROREt0eVJtX3FBZElfOHVaWEZORElacmhLSXlwd0U0SHN6MnBtc2E5S1E0RGdNQTgxTndOMDVUU1TSAVJBVV95cUxNQW9oa3Y5MDY2UFRsRUt5QjUwSHJWVXNzd3FrYk5taDZCUXhYdGx6UFliQnF3cmJvcno4MGl1X2MxbVQ4eE1lSEZZMjRSbjNSNHR3?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "NOWnews今日新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-07-15",
+      "published_display": "2026-07-15",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
     },
     {
       "title": "虎爺誕辰日將至！命理師曝「開運秘訣」：正財偏財都來",
@@ -324,7 +362,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-01"
+      "event_cluster": "event-03"
     },
     {
       "title": "大暑「三合火局」！命理師曝4招求財開運 這生肖慎防血光災",
@@ -343,7 +381,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-04"
     },
     {
       "title": "FI專欄｜「麥總」是戲稱還是冤枉了他？斗數拆麥巴比心態與運勢｜命理師少山",
@@ -360,44 +398,6 @@
         "命理",
         "命理師",
         "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "最強吉日！週日「天赦日強碰天貺節」 命理師曝3招開運大法",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkamVlY2ZEamVuWExaN2YxTmxSelNlVElyYmNYSk9iYWtjd01rLWJhbk5GX0d2UGc3X0g4LUtWRWFQVGlTUE5nNNIBTEFVX3lxTE9CaERIM2pKVjZfNjFtaWNWZ0liVEI3M3g1NE10UmJZbTFUQk15TmFFcWRkWmVYMlhqWWJEV0wzd0x2YlpDZldHUEluYnk?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-13",
-      "published_display": "2026-07-13",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "最強招財日要到了！命理師曝「3招開運法」：換錢包、曬棉被都有效",
-      "summary": "来自 ETtoday新聞雲 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DYTZtN1VaR1lsMmZvaU00VXNxTlh4SVJyNTV6eWR4eFpKbDctN254TXowYkMwaUdoN1pLanNneGxmRHF4YUZXN09oZnlqOEpWWlY1NnRNWks2amRpOWotUlFfQXU1RFZO0gFoQVVfeXFMTkNhNm03VVpHWWwyZm9pTTRVc3FOWHhJUnI1NXp5ZHh4WkpsNy03bnhNejBiQzBpR2g3Wktqc2d4bGZEcXhhRlc3T2hmeWo4SlZaVjU2dE1aSzZqZGk5ai1SUV9BdTVEVk4?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "ETtoday新聞雲 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-13",
-      "published_display": "2026-07-13",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-05"
