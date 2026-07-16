@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-15",
-  "updated_at_display": "2026年7月15日 22:56",
+  "updated_at": "2026-07-16",
+  "updated_at_display": "2026年7月16日 13:41",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-15T22:56:09.997047+08:00",
+    "fetched_at": "2026-07-16T13:41:20.190514+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,45 +248,45 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
-      "title": "他對你瘋狂幻想過嗎？衝動的時候都想做什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "50分鐘讀透紫微經典《太微賦》：你的命盤格局藏著怎樣的先天大運？學會古人流傳至今的“命理天規”！#太微賦#紫微斗數#絕處逢生#凋而不落#深夜聽書#順時而動#司馬懿 #大運格局#命理天規",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FUmJXZi03SWVXb0Y1VXdrNXpIMVU3RXFtdVBIWFZEZmx5SWtHYjhOczlNalYzUEp1ME93YlFHYzhKSkNHQWhhVmNpV2J4MjhjSDRVSnR3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zR09XZmNqaFF6Q1J4WGpheHYyZkY1dDJ3MzczQ3pBTmc5U2VJWHN0cjBxOERvaV85Y1k0Y3lxZjRZVTFYa2g1NGtyMkxaSk9QaFRjM1BR?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "塔罗星象",
-      "published": "2026-07-14",
-      "published_display": "2026-07-14",
+      "category": "八字紫微",
+      "published": "2026-06-29",
+      "published_display": "2026-06-29",
       "matched_keywords": [
-        "塔羅",
-        "占卜",
-        "桃花"
+        "紫微斗數",
+        "命理",
+        "紫微"
       ],
       "score": 14.55,
-      "event_cluster": "event-08"
+      "event_cluster": "event-11"
     },
     {
-      "title": "何篤霖離開主持了24年的《命運好好玩》，就連多位資深命理老師也看在眼裡，與何篤霖同進退，消極推辭通告，讓接棒的小賴和湯鎮瑋，面臨不少挑戰 【獨家！命理師推辭《命運好好玩》 小賴接棒何篤霖陷危機】 mirrormedia.mg/story/20260713…",
+      "title": "認真，如果超越倫呢真係要開檔做生意 我真心覺得佢有幾項生意，佢真係可以做得風生水起 1.美甲店 2.占卜塔羅牌店 3.香水化妝品店",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Nb3RjaHl6Sk1ZeG9OUEcxX3VuOFZUU2hTMU5PNFVCeUZoblZ5WG1HZzdsLV9zMWpzNVVkM3B1d1J5Y2RnMWhyVFFFRUFYMFpVOHo0d3BSSTFLTlRFQzloS1FSRmdHbXNkd0ozSDZnYw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tdFc5Z1p2RGR3RXVBbDAwelZmZVp5SFBrTk9FXzZfZG1VRUlyWGt5Wi1RNkxrWEJ5ankwTnBpYnlfUC1aRk9VNVpnQVg5TkxCWmpXMUpBRjM1SEJSb3dDYWl6WU9Wdmc?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-07-14",
-      "published_display": "2026-07-14",
+      "category": "塔罗星象",
+      "published": "2026-07-16",
+      "published_display": "2026-07-16",
       "matched_keywords": [
-        "命理",
-        "命理師"
+        "塔羅",
+        "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-120"
+      "event_cluster": "event-108"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -305,7 +305,7 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-39"
+      "event_cluster": "event-42"
     },
     {
       "title": "虎爺生日快到了！命理師曝3招開運法 旺財又防小人",

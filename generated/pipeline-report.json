@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-07-15T22:55:56.623475+08:00",
-  "ran_at_display": "2026年7月15日 22:55",
+  "ran_at": "2026-07-16T13:41:04.754441+08:00",
+  "ran_at_display": "2026年7月16日 13:41",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "a970be3463760cd343be2e42f66ed73404b6f6a4",
-  "new_signature": "537d96aa5444719ff712a2329adae117f8fd95bd",
+  "previous_signature": "537d96aa5444719ff712a2329adae117f8fd95bd",
+  "new_signature": "60a63a6d46508ec7421f617a1fc10fdbdcdc0165",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,17 +21,18 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "他對你瘋狂幻想過嗎？衝動的時候都想做什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "何篤霖離開主持了24年的《命運好好玩》，就連多位資深命理老師也看在眼裡，與何篤霖同進退，消極推辭通告，讓接棒的小賴和湯鎮瑋，面臨不少挑戰 【獨家！命理師推辭《命運好好玩》 小賴接棒何篤霖陷危機】 mirrormedia.mg/story/20260713…",
+    "50分鐘讀透紫微經典《太微賦》：你的命盤格局藏著怎樣的先天大運？學會古人流傳至今的“命理天規”！#太微賦#紫微斗數#絕處逢生#凋而不落#深夜聽書#順時而動#司馬懿 #大運格局#命理天規",
+    "認真，如果超越倫呢真係要開檔做生意 我真心覺得佢有幾項生意，佢真係可以做得風生水起 1.美甲店 2.占卜塔羅牌店 3.香水化妝品店",
     "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
     "虎爺生日快到了！命理師曝3招開運法 旺財又防小人",
     "2026下半年3星座運勢拉警報！水瓶當心破財慘賠 命理師教1招解套"
   ],
   "added_titles": [
-    "他對你瘋狂幻想過嗎？衝動的時候都想做什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|"
+    "50分鐘讀透紫微經典《太微賦》：你的命盤格局藏著怎樣的先天大運？學會古人流傳至今的“命理天規”！#太微賦#紫微斗數#絕處逢生#凋而不落#深夜聽書#順時而動#司馬懿 #大運格局#命理天規",
+    "認真，如果超越倫呢真係要開檔做生意 我真心覺得佢有幾項生意，佢真係可以做得風生水起 1.美甲店 2.占卜塔羅牌店 3.香水化妝品店"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -41,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月15日 22:56"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月16日 13:41"
     },
     {
       "script": "generate_daily_content.py",
