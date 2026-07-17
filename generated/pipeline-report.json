@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-07-17T13:42:40.518626+08:00",
-  "ran_at_display": "2026年7月17日 13:42",
+  "ran_at": "2026-07-17T22:45:58.064285+08:00",
+  "ran_at_display": "2026年7月17日 22:45",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "d1d65a232325df56859738c2534bfa4a54ab6385",
-  "new_signature": "c836780897cec9263c7e352f683040b567cf13dc",
+  "previous_signature": "c836780897cec9263c7e352f683040b567cf13dc",
+  "new_signature": "03a40bad703b5bc9a572b3356963fcaf8f2420b1",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -24,12 +24,11 @@
     "此刻他的真實想法，對你的感覺如何？最近他準備怎麼做？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "命理師有時候，比心理師還安靜。 很多人以為。 算命就是一直講。 其實不是。 很多時候。 我反而都在聽。 聽一個人。 怎麼把委屈藏了十幾年。 怎麼一直替別人活。 怎麼一直覺得自己不夠好。 很多人來找我。 真正想要的。 不是一句： 「你今年財運很好。」 而是有人願意聽他",
     "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
-    "農婦有機會！吳怡農愛情運勢公開 命理師曝「死會時間點」",
+    "改運沒效果？命理師揭「臉色、精神狀態」竟然都會影響運勢",
     "2026最強開運日來了！7/19天赦日遇天貺日、虎爺聖誕，命理師教3招招財開運法| 生活發現"
   ],
   "added_titles": [
-    "此刻他的真實想法，對你的感覺如何？最近他準備怎麼做？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "農婦有機會！吳怡農愛情運勢公開 命理師曝「死會時間點」"
+    "改運沒效果？命理師揭「臉色、精神狀態」竟然都會影響運勢"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -42,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月17日 13:42"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月17日 22:46"
     },
     {
       "script": "generate_daily_content.py",
