@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-16",
-  "updated_at_display": "2026年7月16日 23:06",
+  "updated_at": "2026-07-17",
+  "updated_at_display": "2026年7月17日 13:42",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-16T23:06:14.306229+08:00",
+    "fetched_at": "2026-07-17T13:42:54.199488+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "你命中註定會和誰結婚？上天對你今生的情感生活有什麼安排？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "此刻他的真實想法，對你的感覺如何？最近他準備怎麼做？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zTEdodk5xMjhmUmhJR3VCZ09OZVAway1pcGkyUXhuUmFvSjRIa2lqVDNVc3hXM0x0eFNpaDk2M0lQaURreVlNb2VTeUstX0hnRnN6Mlln?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HQjVrTVNndXM2cG1xRGFjX1NKekwxbmFzMXBXYUFydkxIRWVQY3JxOHZDYU5pdkhGNUxXVVNDSXdxMGladUtyTEtPRkx5SEs5VU14b1R3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-07-13",
-      "published_display": "2026-07-13",
+      "published": "2026-07-16",
+      "published_display": "2026-07-16",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-09"
+      "event_cluster": "event-06"
     },
     {
       "title": "命理師有時候，比心理師還安靜。 很多人以為。 算命就是一直講。 其實不是。 很多時候。 我反而都在聽。 聽一個人。 怎麼把委屈藏了十幾年。 怎麼一直替別人活。 怎麼一直覺得自己不夠好。 很多人來找我。 真正想要的。 不是一句： 「你今年財運很好。」 而是有人願意聽他",
@@ -287,7 +287,7 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-54"
+      "event_cluster": "event-62"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -306,7 +306,26 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-53"
+      "event_cluster": "event-61"
+    },
+    {
+      "title": "農婦有機會！吳怡農愛情運勢公開 命理師曝「死會時間點」",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9EOU5ubEp4ekJoa0RkX0dxZVRvblFpM0xMWnhrMHlvbjg4dEFHRnpNdGZfbERMeUNaYnBfeENKdjdoN0tBeE1Z0gFLQVVfeXFMUENmbFkzb09XZGx5c3ZXLTVpNU16b09GUTk2dmM1ZVV3N2pjLVlIOVlUWGtDX2lDWlN0OFJwZC10QzQzYk1IUmJ6SjE4?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞網SETN.com · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-07-17",
+      "published_display": "2026-07-17",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-01"
     },
     {
       "title": "2026最強開運日來了！7/19天赦日遇天貺日、虎爺聖誕，命理師教3招招財開運法| 生活發現",
@@ -325,7 +344,26 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-01"
+      "event_cluster": "event-02"
+    },
+    {
+      "title": "三大吉日同天降臨！天赦日、天貺節、虎爺聖誕齊聚，命理師揭開運、守財重點",
+      "summary": "来自 造咖 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjMkhMOUV6czFOR3JlazVTWDhjdFlwdzBvRG01eVBWS3Y3VnI2VUVCTjRaSU9VakJCNlJSdmxaaUt5OEoxTkw0QzdCUTJYbkRRaHEyY3VR?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "造咖 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-07-16",
+      "published_display": "2026-07-16",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
     },
     {
       "title": "2026下半年3星座運勢拉警報！水瓶當心破財慘賠 命理師教1招解套",
@@ -344,7 +382,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-04"
     },
     {
       "title": "虎爺生日快到了！命理師曝3招開運法 旺財又防小人",
@@ -357,44 +395,6 @@
       "category": "命理新闻",
       "published": "2026-07-15",
       "published_display": "2026-07-15",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "虎爺誕辰日將至！命理師曝「開運秘訣」：正財偏財都來",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPQnVTcXE4R1laeGJTOFpHdEpTVW42NV9mTDhqVHF3MG15SUxGRkMzbXk0U2xiV0pyWmJUY1FTYWVCQ0N6cWI5NkN2WUdKX1F3Smgyb09hRlpBTm9BNHgyOF9WaXhQbmw0Q3hDUlJKQVc4RnVnOEVwWVNlQTEyTFJsTlo2TnhncGljUWxucWJWb1dxbkQyVllwQWlUVW5JdmNocDVKN01JMGVNRjdVR3Vybkk1dTJ6VlR6RVZ1bG4tREpWTW9VWW1kbjhtVndFS2RITk5tSFVGZVV0dXlsNjc1cmwzZFQ3bnhXUGN0NGpNel9aUFNWRy0wSV9NcGx6ZUJGLV9hZDZQTGFRdjZEVF9pVG9yUG5zNFZHQU5lLTBDNWlweU8tdUJHdlN0Nkd1SGdSS2RHZzBEQlhOYjdkQmtZNUFTV2llVXVaYzVsbm5uZG1CaHc?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-14",
-      "published_display": "2026-07-14",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "大暑「三合火局」！命理師曝4招求財開運 這生肖慎防血光災",
-      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE93Y2JOYUtKZ0syMFZScGZZemUtdm9fV2xpRWpvS2tiTU1vOXZMcjVHRWd1b1J6dUFHZjZHcUJ6YWdNbTdKTlJxQUF6dkx1dw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "TVBS新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-14",
-      "published_display": "2026-07-14",
       "matched_keywords": [
         "命理",
         "命理師",
