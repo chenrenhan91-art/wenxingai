@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-17",
-  "updated_at_display": "2026年7月17日 22:46",
+  "updated_at": "2026-07-18",
+  "updated_at_display": "2026年7月18日 13:26",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-17T22:46:15.967847+08:00",
+    "fetched_at": "2026-07-18T13:26:50.555190+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "此刻他的真實想法，對你的感覺如何？最近他準備怎麼做？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "你會真正的\"擁有\"ta嗎？未來的你們是什麼樣的？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HQjVrTVNndXM2cG1xRGFjX1NKekwxbmFzMXBXYUFydkxIRWVQY3JxOHZDYU5pdkhGNUxXVVNDSXdxMGladUtyTEtPRkx5SEs5VU14b1R3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43NDdIU2lHX0FFWkJQMzVlLWJ5NTBEc090VGV4aW1zWDZYZEt6UU4yU2dVVmx3ekJjOHdUUTkwbjQ4bWt2TnR6MXhzZmw5R1pNNmFBcTNB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-07-16",
-      "published_display": "2026-07-16",
+      "published": "2026-07-17",
+      "published_display": "2026-07-17",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-06"
+      "event_cluster": "event-04"
     },
     {
       "title": "命理師有時候，比心理師還安靜。 很多人以為。 算命就是一直講。 其實不是。 很多時候。 我反而都在聽。 聽一個人。 怎麼把委屈藏了十幾年。 怎麼一直替別人活。 怎麼一直覺得自己不夠好。 很多人來找我。 真正想要的。 不是一句： 「你今年財運很好。」 而是有人願意聽他",
@@ -287,7 +287,7 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-72"
+      "event_cluster": "event-73"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -306,7 +306,26 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-71"
+      "event_cluster": "event-72"
+    },
+    {
+      "title": "周日天赦日遇虎爺聖誕！命理師：起床千萬先別做這事「恐影響運勢」",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOemdTS19lYjVjVTE5eUV6YlNnQVJZNE9jQVJoSGdoWktzc3o0QjZmbjNjaHVoYnBRUjNfUFNLV3M2b1ZjNUZMRXVRaGpHdFdrSnZ4ZGxxUkpYX1hDcHpCdEFwZ0wtNTNrR2lxQ1VyMmthMldFTTQybDdYZDhMVGUtQdIBVkFVX3lxTE9QOE50U1JjelYxZFQ1QzRQVHFBNWUxblMyWk5PcURNQ1VQZUZueTlWTWRHZjh5SnMzcWd2NDZNdGg5eUI0a0xNUG1MeXJvdUVRNF9Zaml3?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "UDN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-07-18",
+      "published_display": "2026-07-18",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-01"
     },
     {
       "title": "改運沒效果？命理師揭「臉色、精神狀態」竟然都會影響運勢",
@@ -323,25 +342,6 @@
         "命理",
         "命理師",
         "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-01"
-    },
-    {
-      "title": "2026最強開運日來了！7/19天赦日遇天貺日、虎爺聖誕，命理師教3招招財開運法| 生活發現",
-      "summary": "来自 妞新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1STUtiVjFNc3pRN2tfejA0WVN4T240VXRzMWlmZGNZTThHaU5VSVY2OWRibU93U0JQM0ptQ1ptcFVQdUdYQ0toYWMzaw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "妞新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-16",
-      "published_display": "2026-07-16",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-02"
@@ -382,12 +382,12 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "2026下半年3星座運勢拉警報！水瓶當心破財慘賠 命理師教1招解套",
       "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Bb2hrdjkwNjZQVGxFS3lCNTBIclZVc3N3cWtiTm1oNkJReFh0bHpQWWJCcXdyYm9yejgwaXVfYzFtVDh4TWVIRlkyNFJuM1I0dHfSAVJBVV95cUxNQW9oa3Y5MDY2UFRsRUt5QjUwSHJWVXNzd3FrYk5taDZCUXhYdGx6UFliQnF3cmJvcno4MGl1X2MxbVQ4eE1lSEZZMjRSbjNSNHR3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5XOFV1Q0hoaGVCYUROREt0eVJtX3FBZElfOHVaWEZORElacmhLSXlwd0U0SHN6MnBtc2E5S1E0RGdNQTgxTndOMDVUU1TSAVJBVV95cUxNQW9oa3Y5MDY2UFRsRUt5QjUwSHJWVXNzd3FrYk5taDZCUXhYdGx6UFliQnF3cmJvcno4MGl1X2MxbVQ4eE1lSEZZMjRSbjNSNHR3?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "NOWnews今日新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -401,7 +401,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     }
   ]
 }
