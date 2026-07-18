@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-07-18",
-  "updated_at_display": "2026年7月18日 13:26",
+  "updated_at_display": "2026年7月18日 22:21",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-18T13:26:50.555190+08:00",
+    "fetched_at": "2026-07-18T22:21:20.280825+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-73"
+      "event_cluster": "event-74"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -306,12 +306,12 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-72"
+      "event_cluster": "event-73"
     },
     {
       "title": "周日天赦日遇虎爺聖誕！命理師：起床千萬先別做這事「恐影響運勢」",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOemdTS19lYjVjVTE5eUV6YlNnQVJZNE9jQVJoSGdoWktzc3o0QjZmbjNjaHVoYnBRUjNfUFNLV3M2b1ZjNUZMRXVRaGpHdFdrSnZ4ZGxxUkpYX1hDcHpCdEFwZ0wtNTNrR2lxQ1VyMmthMldFTTQybDdYZDhMVGUtQdIBVkFVX3lxTE9QOE50U1JjelYxZFQ1QzRQVHFBNWUxblMyWk5PcURNQ1VQZUZueTlWTWRHZjh5SnMzcWd2NDZNdGg5eUI0a0xNUG1MeXJvdUVRNF9Zaml3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWZVFldFpTUkNtX2ZXZ1ZralZCU2hFRkFsN2kwZ3FEc09iQjFVN09PNnZqV1VDZHB4eVlVdS1SUkpzcUZfVzlxQk5iMmx2WTM10gFWQVVfeXFMT1A4TnRTUmN6VjFkVDVDNFBUcUE1ZTFuUzJaTk9xRE1DVVBlRm55OVZNZEdmOHlKczNxZ3Y0Nk10aDl5QjRrTE1QbUx5cm91RVE0X1lqaXc?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
