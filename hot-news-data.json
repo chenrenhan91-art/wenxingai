@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-07-19",
-  "updated_at_display": "2026年7月19日 13:53",
+  "updated_at_display": "2026年7月19日 22:24",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-19T13:53:54.212322+08:00",
+    "fetched_at": "2026-07-19T22:24:29.891189+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-74"
+      "event_cluster": "event-78"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -306,14 +306,14 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-73"
+      "event_cluster": "event-76"
     },
     {
-      "title": "今天赦日遇虎爺聖誕！命理師籲「起床先別做這事」 3招開運旺到年底",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAwY1ZRc2lnZkZ3enJxT1NOZGUwNjU4dEZoX1Z0M0I0OHpFb3BxRmwtci1FMkVxdDl1a2w2X0dqNE1HVUFTamRneNIBTEFVX3lxTE10a3B3akZJU3ZwNjYzR215aHR5SmlFcTR2eEZNN0tzXzd3OUxTR3hUdDNpaGdZOXlyRXNMd0ttM3dYa2hBdHlySk9uc3E?oc=5",
+      "title": "錯過等26年！7/19三吉齊聚「最強開運旺財日」 命理師教這樣做",
+      "summary": "来自 自由時報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fTnAtY0FpejRzbW83NzlJejU0bWI0Z19qUjA3YWp1d2puMmJJd3ZXTmxpMUQ3VnBxRUw4XzdRN2l3UFJfSWZ5VnRoellzaC10YS0tMmc4bWlFOHZFX0VVNWxySUPSAWpBVV95cUxQM1BNUnB5ZEU2MTd6U0hIM3lCbzloTmpxSkZxMXZCbUEtcGhaTW9mMnBpTDF3YTB1VHVXa21ObDJmSExEekZLRnZYb1dfSzFVVUNPTDJfc3NwNkZjQVp1amczc2MtT1NpZDZB?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
+      "source": "自由時報 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -328,11 +328,11 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "錯過等26年！7/19三吉齊聚「最強開運旺財日」 命理師教這樣做",
-      "summary": "来自 自由時報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fTnAtY0FpejRzbW83NzlJejU0bWI0Z19qUjA3YWp1d2puMmJJd3ZXTmxpMUQ3VnBxRUw4XzdRN2l3UFJfSWZ5VnRoellzaC10YS0tMmc4bWlFOHZFX0VVNWxySUPSAWpBVV95cUxQM1BNUnB5ZEU2MTd6U0hIM3lCbzloTmpxSkZxMXZCbUEtcGhaTW9mMnBpTDF3YTB1VHVXa21ObDJmSExEekZLRnZYb1dfSzFVVUNPTDJfc3NwNkZjQVp1amczc2MtT1NpZDZB?oc=5",
+      "title": "今天赦日遇虎爺聖誕！命理師籲「起床先別做這事」 3招開運旺到年底",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAwY1ZRc2lnZkZ3enJxT1NOZGUwNjU4dEZoX1Z0M0I0OHpFb3BxRmwtci1FMkVxdDl1a2w2X0dqNE1HVUFTamRneNIBTEFVX3lxTE10a3B3akZJU3ZwNjYzR215aHR5SmlFcTR2eEZNN0tzXzd3OUxTR3hUdDNpaGdZOXlyRXNMd0ttM3dYa2hBdHlySk9uc3E?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "自由時報 · Google News",
+      "source": "三立新聞網SETN.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
