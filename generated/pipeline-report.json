@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-07-18T22:21:07.322700+08:00",
-  "ran_at_display": "2026年7月18日 22:21",
+  "ran_at": "2026-07-19T13:53:38.558131+08:00",
+  "ran_at_display": "2026年7月19日 13:53",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "ec86c32c7a95c5927a06a4918b4738b596f3edbd",
-  "new_signature": "a39aaed5dfbc91ff5ce522ae664e2dd03b66869a",
+  "previous_signature": "a39aaed5dfbc91ff5ce522ae664e2dd03b66869a",
+  "new_signature": "3ddedc0d36e2724dbac87ce9377fe55d887e2a40",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,19 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "你會真正的\"擁有\"ta嗎？未來的你們是什麼樣的？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "老千騙子的斗數命盤特徵︱洞悉自己被騙的事情！︱梁善行師傅︱命盤分析紫微斗數命理教學八字提子︱#梁善行玄機解碼EP222",
     "命理師有時候，比心理師還安靜。 很多人以為。 算命就是一直講。 其實不是。 很多時候。 我反而都在聽。 聽一個人。 怎麼把委屈藏了十幾年。 怎麼一直替別人活。 怎麼一直覺得自己不夠好。 很多人來找我。 真正想要的。 不是一句： 「你今年財運很好。」 而是有人願意聽他",
     "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
-    "周日天赦日遇虎爺聖誕！命理師：起床千萬先別做這事「恐影響運勢」",
-    "改運沒效果？命理師揭「臉色、精神狀態」竟然都會影響運勢"
+    "今天赦日遇虎爺聖誕！命理師籲「起床先別做這事」 3招開運旺到年底",
+    "錯過等26年！7/19三吉齊聚「最強開運旺財日」 命理師教這樣做"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "老千騙子的斗數命盤特徵︱洞悉自己被騙的事情！︱梁善行師傅︱命盤分析紫微斗數命理教學八字提子︱#梁善行玄機解碼EP222",
+    "今天赦日遇虎爺聖誕！命理師籲「起床先別做這事」 3招開運旺到年底",
+    "錯過等26年！7/19三吉齊聚「最強開運旺財日」 命理師教這樣做"
+  ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -39,7 +43,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月18日 22:21"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月19日 13:53"
     },
     {
       "script": "generate_daily_content.py",
