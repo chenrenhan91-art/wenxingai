@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-07-20",
-  "updated_at_display": "2026年7月20日 14:18",
+  "updated_at_display": "2026年7月20日 23:14",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-20T14:18:45.274229+08:00",
+    "fetched_at": "2026-07-20T23:14:06.723344+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,27 +248,27 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "items": [
     {
-      "title": "ta內心是不是真的珍惜你？你是ta心中的唯一嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "【神預言】愛神給你的傳訊：屬於你的愛情桃花正在降臨！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9laDl4X3cxV0hxS19tbmhUMjRlUmpzbUs5QzhxUGhRam12OTlyeWgzdWNZaTNIbFF4SFV5M0YzbDJ6TExzX3NLV0w0aFgwX2xmMWoxRFN3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSaVhwNjFyZHUzdmNTRVA2VzAtUElqZmFTbTNoWlo1Q29EOGlOOWlYNllYdWYtSlpyUHQ4T1RoNGJpUjM0WWpENnlFM3k1WjdRQ1FjM0dn?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-07-19",
-      "published_display": "2026-07-19",
+      "published": "2026-07-20",
+      "published_display": "2026-07-20",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "命理師有時候，比心理師還安靜。 很多人以為。 算命就是一直講。 其實不是。 很多時候。 我反而都在聽。 聽一個人。 怎麼把委屈藏了十幾年。 怎麼一直替別人活。 怎麼一直覺得自己不夠好。 很多人來找我。 真正想要的。 不是一句： 「你今年財運很好。」 而是有人願意聽他",
@@ -287,7 +287,7 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-79"
+      "event_cluster": "event-84"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -306,19 +306,19 @@
         "讨论"
       ],
       "score": 15.75,
-      "event_cluster": "event-76"
+      "event_cluster": "event-81"
     },
     {
-      "title": "今天赦日遇虎爺聖誕！命理師籲「起床先別做這事」 3招開運旺到年底",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAwY1ZRc2lnZkZ3enJxT1NOZGUwNjU4dEZoX1Z0M0I0OHpFb3BxRmwtci1FMkVxdDl1a2w2X0dqNE1HVUFTamRneNIBTEFVX3lxTE10a3B3akZJU3ZwNjYzR215aHR5SmlFcTR2eEZNN0tzXzd3OUxTR3hUdDNpaGdZOXlyRXNMd0ttM3dYa2hBdHlySk9uc3E?oc=5",
+      "title": "2026大暑最強開運法！命理師曝3招開運、2風水法調氣場：財運最旺生肖、8大禁忌全公開",
+      "summary": "来自 康健雜誌 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBfUS1vSGc3NUVMMElXTGYwTTA3VjlKbGtUOVhKQ180YVpnWHpZVFZseEVLSF9XV21FcVdOYl9HdW9zTlRGVnlneWJiN3B0Zmx4M01sVDN3ckU?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
+      "source": "康健雜誌 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-19",
-      "published_display": "2026-07-19",
+      "category": "风水玄学",
+      "published": "2026-07-20",
+      "published_display": "2026-07-20",
       "matched_keywords": [
         "命理",
         "命理師",
@@ -326,6 +326,25 @@
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-01"
+    },
+    {
+      "title": "本週12生肖運勢！命理師點名「3生肖」好運擋不住 屬羊需保守",
+      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1XQ3B4WnBOdnd5TlV0bG90WmxHMjVFSE1sdDdDbE5QVmIzUmVzYnFIbllldTJ2UEp0Mmwwd19RTDBRckdhdEVEcGptemQ2UQ?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "TVBS新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-07-20",
+      "published_display": "2026-07-20",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
     },
     {
       "title": "錯過等26年！7/19三吉齊聚「最強開運旺財日」 命理師教這樣做",
@@ -344,12 +363,31 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
+    },
+    {
+      "title": "今天赦日遇虎爺聖誕！命理師籲「起床先別做這事」 3招開運旺到年底",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAwY1ZRc2lnZkZ3enJxT1NOZGUwNjU4dEZoX1Z0M0I0OHpFb3BxRmwtci1FMkVxdDl1a2w2X0dqNE1HVUFTamRneNIBTEFVX3lxTE10a3B3akZJU3ZwNjYzR215aHR5SmlFcTR2eEZNN0tzXzd3OUxTR3hUdDNpaGdZOXlyRXNMd0ttM3dYa2hBdHlySk9uc3E?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞網SETN.com · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-07-19",
+      "published_display": "2026-07-19",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
     },
     {
       "title": "周日天赦日遇虎爺聖誕！命理師：起床千萬先別做這事「恐影響運勢」",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QOE50U1JjelYxZFQ1QzRQVHFBNWUxblMyWk5PcURNQ1VQZUZueTlWTWRHZjh5SnMzcWd2NDZNdGg5eUI0a0xNUG1MeXJvdUVRNF9Zaml30gFWQVVfeXFMT1A4TnRTUmN6VjFkVDVDNFBUcUE1ZTFuUzJaTk9xRE1DVVBlRm55OVZNZEdmOHlKczNxZ3Y0Nk10aDl5QjRrTE1QbUx5cm91RVE0X1lqaXc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWZVFldFpTUkNtX2ZXZ1ZralZCU2hFRkFsN2kwZ3FEc09iQjFVN09PNnZqV1VDZHB4eVlVdS1SUkpzcUZfVzlxQk5iMmx2WTM10gFWQVVfeXFMT1A4TnRTUmN6VjFkVDVDNFBUcUE1ZTFuUzJaTk9xRE1DVVBlRm55OVZNZEdmOHlKczNxZ3Y0Nk10aDl5QjRrTE1QbUx5cm91RVE0X1lqaXc?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -361,44 +399,6 @@
         "命理",
         "命理師",
         "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "改運沒效果？命理師揭「臉色、精神狀態」竟然都會影響運勢",
-      "summary": "来自 造咖 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9adTJSM2Ztc2VRRHR6NDlRSHZ5VF9KSXE2X3M2ejJZS2ZvZFE0QWdoRUxsbzhnRUl2RXVYTzY4S1E3UHd4RXdrSS1Cbkl5am5UTjdGcHJB?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "造咖 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-17",
-      "published_display": "2026-07-17",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "三大吉日同天降臨！天赦日、天貺節、虎爺聖誕齊聚，命理師揭開運、守財重點",
-      "summary": "来自 造咖 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjMkhMOUV6czFOR3JlazVTWDhjdFlwdzBvRG01eVBWS3Y3VnI2VUVCTjRaSU9VakJCNlJSdmxaaUt5OEoxTkw0QzdCUTJYbkRRaHEyY3VR?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "造咖 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-16",
-      "published_display": "2026-07-16",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-06"
