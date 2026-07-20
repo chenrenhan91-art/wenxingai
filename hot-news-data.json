@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-19",
-  "updated_at_display": "2026年7月19日 22:24",
+  "updated_at": "2026-07-20",
+  "updated_at_display": "2026年7月20日 14:18",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-19T22:24:29.891189+08:00",
+    "fetched_at": "2026-07-20T14:18:45.274229+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "老千騙子的斗數命盤特徵︱洞悉自己被騙的事情！︱梁善行師傅︱命盤分析紫微斗數命理教學八字提子︱#梁善行玄機解碼EP222",
+      "title": "ta內心是不是真的珍惜你？你是ta心中的唯一嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3OC1lX1ZrSkh2VWdmcWd1anhybDBTZFlPZDE5c2laWDRYWEY2Q2ZiTHBEVzlRMGtQLVhHVVJ2SV8yZERoZ1JsSkR3VlU5NjVRRlZkV1V3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9laDl4X3cxV0hxS19tbmhUMjRlUmpzbUs5QzhxUGhRam12OTlyeWgzdWNZaTNIbFF4SFV5M0YzbDJ6TExzX3NLV0w0aFgwX2xmMWoxRFN3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "八字紫微",
-      "published": "2026-07-04",
-      "published_display": "2026-07-04",
+      "category": "塔罗星象",
+      "published": "2026-07-19",
+      "published_display": "2026-07-19",
       "matched_keywords": [
-        "紫微斗數",
-        "命理",
-        "八字"
+        "塔羅",
+        "占卜",
+        "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-14"
+      "event_cluster": "event-04"
     },
     {
       "title": "命理師有時候，比心理師還安靜。 很多人以為。 算命就是一直講。 其實不是。 很多時候。 我反而都在聽。 聽一個人。 怎麼把委屈藏了十幾年。 怎麼一直替別人活。 怎麼一直覺得自己不夠好。 很多人來找我。 真正想要的。 不是一句： 「你今年財運很好。」 而是有人願意聽他",
@@ -287,7 +287,7 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-78"
+      "event_cluster": "event-79"
     },
     {
       "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
@@ -309,25 +309,6 @@
       "event_cluster": "event-76"
     },
     {
-      "title": "錯過等26年！7/19三吉齊聚「最強開運旺財日」 命理師教這樣做",
-      "summary": "来自 自由時報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fTnAtY0FpejRzbW83NzlJejU0bWI0Z19qUjA3YWp1d2puMmJJd3ZXTmxpMUQ3VnBxRUw4XzdRN2l3UFJfSWZ5VnRoellzaC10YS0tMmc4bWlFOHZFX0VVNWxySUPSAWpBVV95cUxQM1BNUnB5ZEU2MTd6U0hIM3lCbzloTmpxSkZxMXZCbUEtcGhaTW9mMnBpTDF3YTB1VHVXa21ObDJmSExEekZLRnZYb1dfSzFVVUNPTDJfc3NwNkZjQVp1amczc2MtT1NpZDZB?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "自由時報 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-19",
-      "published_display": "2026-07-19",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-01"
-    },
-    {
       "title": "今天赦日遇虎爺聖誕！命理師籲「起床先別做這事」 3招開運旺到年底",
       "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAwY1ZRc2lnZkZ3enJxT1NOZGUwNjU4dEZoX1Z0M0I0OHpFb3BxRmwtci1FMkVxdDl1a2w2X0dqNE1HVUFTamRneNIBTEFVX3lxTE10a3B3akZJU3ZwNjYzR215aHR5SmlFcTR2eEZNN0tzXzd3OUxTR3hUdDNpaGdZOXlyRXNMd0ttM3dYa2hBdHlySk9uc3E?oc=5",
@@ -344,12 +325,31 @@
         "開運"
       ],
       "score": 14.750000000000002,
+      "event_cluster": "event-01"
+    },
+    {
+      "title": "錯過等26年！7/19三吉齊聚「最強開運旺財日」 命理師教這樣做",
+      "summary": "来自 自由時報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fTnAtY0FpejRzbW83NzlJejU0bWI0Z19qUjA3YWp1d2puMmJJd3ZXTmxpMUQ3VnBxRUw4XzdRN2l3UFJfSWZ5VnRoellzaC10YS0tMmc4bWlFOHZFX0VVNWxySUPSAWpBVV95cUxQM1BNUnB5ZEU2MTd6U0hIM3lCbzloTmpxSkZxMXZCbUEtcGhaTW9mMnBpTDF3YTB1VHVXa21ObDJmSExEekZLRnZYb1dfSzFVVUNPTDJfc3NwNkZjQVp1amczc2MtT1NpZDZB?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "自由時報 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-07-19",
+      "published_display": "2026-07-19",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
       "event_cluster": "event-02"
     },
     {
       "title": "周日天赦日遇虎爺聖誕！命理師：起床千萬先別做這事「恐影響運勢」",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWZVFldFpTUkNtX2ZXZ1ZralZCU2hFRkFsN2kwZ3FEc09iQjFVN09PNnZqV1VDZHB4eVlVdS1SUkpzcUZfVzlxQk5iMmx2WTM10gFWQVVfeXFMT1A4TnRTUmN6VjFkVDVDNFBUcUE1ZTFuUzJaTk9xRE1DVVBlRm55OVZNZEdmOHlKczNxZ3Y0Nk10aDl5QjRrTE1QbUx5cm91RVE0X1lqaXc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QOE50U1JjelYxZFQ1QzRQVHFBNWUxblMyWk5PcURNQ1VQZUZueTlWTWRHZjh5SnMzcWd2NDZNdGg5eUI0a0xNUG1MeXJvdUVRNF9Zaml30gFWQVVfeXFMT1A4TnRTUmN6VjFkVDVDNFBUcUE1ZTFuUzJaTk9xRE1DVVBlRm55OVZNZEdmOHlKczNxZ3Y0Nk10aDl5QjRrTE1QbUx5cm91RVE0X1lqaXc?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -382,7 +382,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "三大吉日同天降臨！天赦日、天貺節、虎爺聖誕齊聚，命理師揭開運、守財重點",
@@ -401,7 +401,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     }
   ]
 }
