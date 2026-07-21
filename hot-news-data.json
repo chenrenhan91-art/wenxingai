@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-07-21",
-  "updated_at_display": "2026年7月21日 13:51",
+  "updated_at_display": "2026年7月21日 21:36",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-21T13:51:27.334582+08:00",
+    "fetched_at": "2026-07-21T21:36:10.885332+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "items": [
     {
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-07"
+      "event_cluster": "event-08"
     },
     {
       "title": "命理師有時候，比心理師還安靜。 很多人以為。 算命就是一直講。 其實不是。 很多時候。 我反而都在聽。 聽一個人。 怎麼把委屈藏了十幾年。 怎麼一直替別人活。 怎麼一直覺得自己不夠好。 很多人來找我。 真正想要的。 不是一句： 「你今年財運很好。」 而是有人願意聽他",
@@ -290,23 +290,42 @@
       "event_cluster": "event-92"
     },
     {
-      "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「塔羅」展开讨论，推文热度 21，作者 chopper594。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1781421303.A.752.html",
+      "title": "[問卦] 敵基督 vs 紫微聖人 誰會贏",
+      "summary": "来自 PTT Gossiping 的热议帖，围绕「紫微」展开讨论，推文热度 5，作者 devil157。",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1784557938.A.09B.html",
       "source_id": "ptt_gossiping",
       "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%A1%94%E7%BE%85",
+      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E7%B4%AB%E5%BE%AE",
       "source_group": "community",
-      "category": "塔罗星象",
-      "published": "2026-06-14",
-      "published_display": "2026-06-14",
+      "category": "八字紫微",
+      "published": "2026-07-20",
+      "published_display": "2026-07-20",
       "matched_keywords": [
-        "塔羅",
+        "紫微",
         "热议",
         "讨论"
       ],
-      "score": 15.75,
-      "event_cluster": "event-89"
+      "score": 12.616666666666665,
+      "event_cluster": "event-20"
+    },
+    {
+      "title": "週四大暑！命理師揭運勢超強5生肖 掌握下半年主動權",
+      "summary": "来自 東森新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xemx1ZjFjRTJ5Wks3aFFDTkN6aFl1cmd6QURRelRnc2lpRjU5Zm1xLTdLYU1aOEphbVdVNU04cVA0YWVHM2VEcUh2LUNXUHVkbGt4Xw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "東森新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-07-21",
+      "published_display": "2026-07-21",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-01"
     },
     {
       "title": "越熱越旺！命理師曝大暑節氣財運最強5星座，巨蟹終於有好消息，「他」運勢來到巔峰",
@@ -325,17 +344,17 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-01"
+      "event_cluster": "event-02"
     },
     {
-      "title": "2026大暑最強開運法！命理師曝3招開運、2風水法調氣場：財運最旺生肖、8大禁忌全公開",
+      "title": "2026大暑開運怎麼做？改運就靠3件事！命理師曝「這生肖」恐有桃花劫",
       "summary": "来自 康健雜誌 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBfUS1vSGc3NUVMMElXTGYwTTA3VjlKbGtUOVhKQ180YVpnWHpZVFZseEVLSF9XV21FcVdOYl9HdW9zTlRGVnlneWJiN3B0Zmx4M01sVDN3ckU?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "康健雜誌 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "风水玄学",
+      "category": "命理新闻",
       "published": "2026-07-20",
       "published_display": "2026-07-20",
       "matched_keywords": [
@@ -344,7 +363,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "本週12生肖運勢！命理師點名「3生肖」好運擋不住 屬羊需保守",
@@ -363,7 +382,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "錯過等26年！7/19三吉齊聚「最強開運旺財日」 命理師教這樣做",
@@ -371,25 +390,6 @@
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fTnAtY0FpejRzbW83NzlJejU0bWI0Z19qUjA3YWp1d2puMmJJd3ZXTmxpMUQ3VnBxRUw4XzdRN2l3UFJfSWZ5VnRoellzaC10YS0tMmc4bWlFOHZFX0VVNWxySUPSAWpBVV95cUxQM1BNUnB5ZEU2MTd6U0hIM3lCbzloTmpxSkZxMXZCbUEtcGhaTW9mMnBpTDF3YTB1VHVXa21ObDJmSExEekZLRnZYb1dfSzFVVUNPTDJfc3NwNkZjQVp1amczc2MtT1NpZDZB?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "自由時報 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-19",
-      "published_display": "2026-07-19",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "今天赦日遇虎爺聖誕！命理師籲「起床先別做這事」 3招開運旺到年底",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAwY1ZRc2lnZkZ3enJxT1NOZGUwNjU4dEZoX1Z0M0I0OHpFb3BxRmwtci1FMkVxdDl1a2w2X0dqNE1HVUFTamRneNIBTEFVX3lxTE10a3B3akZJU3ZwNjYzR215aHR5SmlFcTR2eEZNN0tzXzd3OUxTR3hUdDNpaGdZOXlyRXNMd0ttM3dYa2hBdHlySk9uc3E?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
