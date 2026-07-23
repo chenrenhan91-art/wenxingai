@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-22",
-  "updated_at_display": "2026年7月22日 21:36",
+  "updated_at": "2026-07-23",
+  "updated_at_display": "2026年7月23日 12:05",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-22T21:36:23.935445+08:00",
+    "fetched_at": "2026-07-23T12:05:31.281157+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,46 +248,46 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "items": [
     {
-      "title": "此刻他的真實想法，對你的感覺如何？最近他準備怎麼做？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "他對你有想法嗎？啥想法？是覬覦你身體還是靈魂？他覺得你對他的想法|曖昧|愛情|戀愛|桃花|塔羅占卜",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HQjVrTVNndXM2cG1xRGFjX1NKekwxbmFzMXBXYUFydkxIRWVQY3JxOHZDYU5pdkhGNUxXVVNDSXdxMGladUtyTEtPRkx5SEs5VU14b1R3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83NW1ZMFJocUZ6b01rTDBmQURVQ3FuU250b2xuclc1bFNQQ2dRNGVnR3NRSEFWXzZodkcxbXhOSWloUl9ScmV0bmRqWFNFRzJSSDE3cEN3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-07-16",
-      "published_display": "2026-07-16",
+      "published": "2026-07-22",
+      "published_display": "2026-07-22",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-16"
+      "event_cluster": "event-08"
     },
     {
-      "title": "命理師有時候，比心理師還安靜。 很多人以為。 算命就是一直講。 其實不是。 很多時候。 我反而都在聽。 聽一個人。 怎麼把委屈藏了十幾年。 怎麼一直替別人活。 怎麼一直覺得自己不夠好。 很多人來找我。 真正想要的。 不是一句： 「你今年財運很好。」 而是有人願意聽他",
+      "title": "我真的懷疑。 是不是很多人都以為命理師有一個隱藏技能。 叫做： 「通靈Google。」 客人： 「老師，我要不要換工作？」 可以。 這很正常。 「老師，我跟他還有機會嗎？」 也很正常。 「老師，我最近一直掉頭髮，是不是流年不好？」 …… 嗯？ 「老師，我家的貓最近一直瞪我，是",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYM1ExOUZTck0xVzlxdnRYRzZ3S1lSb1hnNXlTa1M2NjNtcWRPaW9lMTcwWGphZ0xGWHg5ZnlDbV9oN1piekNCUkxXcGhQR0U5b0d5MnNnTTZnZm9BS3R4aXctdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3dkpwQXJvSlFmb255aWNpTkpvajhVMWY1ajZmbzJZREk3a2ZOeUJGYk9jcXo2VWJ6Q1BialpvODlOd3B1eFpfQlZlM0w0WF85ZTV1V3VzaGRMcVlMZWdLRG1aSQ?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "命理新闻",
-      "published": "2026-07-16",
-      "published_display": "2026-07-16",
+      "published": "2026-07-22",
+      "published_display": "2026-07-22",
       "matched_keywords": [
         "命理",
         "命理師",
-        "算命"
+        "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-95"
+      "event_cluster": "event-44"
     },
     {
       "title": "[問卦] 敵基督 vs 紫微聖人 誰會贏",
@@ -306,7 +306,64 @@
         "讨论"
       ],
       "score": 12.616666666666665,
-      "event_cluster": "event-25"
+      "event_cluster": "event-30"
+    },
+    {
+      "title": "大暑逢「三合火局」易斷理智線！命理師曝4大開運祕訣 3生肖運勢旺",
+      "summary": "来自 知新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9YVWZELVpqQk5FSTRkRUZMQnFaelFjNktYTmZld0xJYVJCQWU4WnpvMVlRVEFZbkpkXzNtd2RyWWwzSHY4Y2lHMG16ME5KTVItUFBHSDI0NzNYRlFpTmpNeFlMcjhQeUF3TGNESkxZOA?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "知新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-07-23",
+      "published_display": "2026-07-23",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 16.95,
+      "event_cluster": "event-01"
+    },
+    {
+      "title": "今大暑！命理師示警未來16天「全球仍混亂」勿衝動開運法一次看| 星座命理| 生活",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yRFRsd05kRXduOG0zd1FIUTVEal9oX281RTROeEV1Q1VFbnYwYXRFaEtmb0U5eHFmV2xSU1BCVTdwUWtFdjY1clF0WW9TdDBVLWVnZzZ3RXZKMDBjWXFrWUFSTTJFRFRuaWhPSTUxYUY5Tzg?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "UDN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-07-23",
+      "published_display": "2026-07-23",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
+      "title": "大暑節氣來了！命理師點名「5大吉運生肖」掌握下半年運勢",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOcHRUR1NORml4QnM4YTFvblg1RkdsZEphMXBwSDd6Zmdob2Q1U0ZUNUUtNVBrbnNES3NVcVpwQzBhcHlrQXZld2s3eWx4SmJSQUt5c01R0gFWQVVfeXFMUE5wdFRHU05GaXhCczhhMW9uWDVGR2xkSmExcHBIN3pmZ2hvZDVTRlQ1RS01UGtuc0RLc1VxWnBDMGFweWtBdmV3azd5bHhKYlJBS3lzTVE?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "UDN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-07-23",
+      "published_display": "2026-07-23",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
     },
     {
       "title": "2026大暑開運怎麼做？改運就靠3件事！命理師曝「這生肖」恐有桃花劫",
@@ -317,84 +374,27 @@
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-07-22",
-      "published_display": "2026-07-22",
+      "published": "2026-07-23",
+      "published_display": "2026-07-23",
       "matched_keywords": [
         "命理",
         "命理師",
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-01"
-    },
-    {
-      "title": "大暑運勢！命理師揭「3生肖+3星座」迎財神：偏財、加薪有望",
-      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBSUDhMdnktMDZNLUFLbEw4MmFXdEUtbDlnTjlXWkg2M29pY1N0UXh6T0pORUpzTjB5N2VnOVc2Y1VsejBCeWhENkM2U2kwQQ?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "TVBS新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-07-22",
-      "published_display": "2026-07-22",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-02"
-    },
-    {
-      "title": "週四大暑！命理師揭運勢超強5生肖 掌握下半年主動權",
-      "summary": "来自 東森新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xemx1ZjFjRTJ5Wks3aFFDTkN6aFl1cmd6QURRelRnc2lpRjU5Zm1xLTdLYU1aOEphbVdVNU04cVA0YWVHM2VEcUh2LUNXUHVkbGt4Xw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "東森新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-21",
-      "published_display": "2026-07-21",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "越熱越旺！命理師曝大暑節氣財運最強5星座，巨蟹終於有好消息，「他」運勢來到巔峰",
-      "summary": "来自 女人我最大 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9vM3NTWTVzMmJSeTFPa3JybWp2M3hFN2J0V2w3bXpyMnl6V1dFZFc5WHg3c2xIaEIxanVxYnAzYnh2eXdmWk4yVVh4dzR3WHVKT0t6aFRhSWc?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "女人我最大 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-07-21",
-      "published_display": "2026-07-21",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
       "event_cluster": "event-04"
     },
     {
-      "title": "大樂透連槓20期頭獎上看7億 命理師揭5大開運秘招",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1OUnVpLS01T0RQYUE4bkEzelR0VVJhOXNkZjRKWlhhc1hXblFoMG9YZWV6U3V6UzloRkJ1dzVfcXFxWmtFZHJvWEVfMTDSAUxBVV95cUxNTlJ1aS0tNU9EUGFBOG5BM3pUdFVSYTlzZGY0SlpYYXNYV25RaDBvWGVlelN1elM5aEZCdXc1X3FxcVprRWRyb1hFXzEw?oc=5",
+      "title": "今大暑理智線易斷！這生肖慎防車禍 命理師教「一杯水開運法」",
+      "summary": "来自 壹蘋新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01RjdBa24yNDZtNW01NGxKUzVzaHplbXRoX1hJOHVaXzRiY2hoTzZ6dmkzc1JEYlk3NEMxaGR2ZzJjZXlnVFlENFJ3UmVldUY1VUJyQ0dlZUlrZUxPbjlGVUQ2X0ZLVnRaamNTamZfX3BuM0NGY1ZYWWFZS3Vnc3c?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
+      "source": "壹蘋新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-07-21",
-      "published_display": "2026-07-21",
+      "published": "2026-07-23",
+      "published_display": "2026-07-23",
       "matched_keywords": [
         "命理",
         "命理師",
