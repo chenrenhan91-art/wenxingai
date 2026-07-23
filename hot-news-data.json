@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-07-23",
-  "updated_at_display": "2026年7月23日 12:05",
+  "updated_at_display": "2026年7月23日 21:37",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-23T12:05:31.281157+08:00",
+    "fetched_at": "2026-07-23T21:37:26.584478+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,27 +248,27 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
-      "title": "他對你有想法嗎？啥想法？是覬覦你身體還是靈魂？他覺得你對他的想法|曖昧|愛情|戀愛|桃花|塔羅占卜",
+      "title": "誰即將走進你的生活？ta會給你帶來什麼？你和ta會有什麼故事？|曖昧|愛情|戀愛|桃花|塔羅占卜",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83NW1ZMFJocUZ6b01rTDBmQURVQ3FuU250b2xuclc1bFNQQ2dRNGVnR3NRSEFWXzZodkcxbXhOSWloUl9ScmV0bmRqWFNFRzJSSDE3cEN3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJWEJBcXFsaGlsOUY0R1Q4b2E1M3k0bGlQQWdra282Q3BKOXVPWDIycGhUYi1qUDB0aVVXakxWTmFJaGEtQjUtTHY3LXZZYzVyaHJNWndB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-07-22",
-      "published_display": "2026-07-22",
+      "published": "2026-07-23",
+      "published_display": "2026-07-23",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-08"
+      "event_cluster": "event-09"
     },
     {
       "title": "我真的懷疑。 是不是很多人都以為命理師有一個隱藏技能。 叫做： 「通靈Google。」 客人： 「老師，我要不要換工作？」 可以。 這很正常。 「老師，我跟他還有機會嗎？」 也很正常。 「老師，我最近一直掉頭髮，是不是流年不好？」 …… 嗯？ 「老師，我家的貓最近一直瞪我，是",
@@ -287,7 +287,7 @@
         "流年"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-44"
+      "event_cluster": "event-47"
     },
     {
       "title": "[問卦] 敵基督 vs 紫微聖人 誰會贏",
@@ -306,7 +306,7 @@
         "讨论"
       ],
       "score": 12.616666666666665,
-      "event_cluster": "event-30"
+      "event_cluster": "event-32"
     },
     {
       "title": "大暑逢「三合火局」易斷理智線！命理師曝4大開運祕訣 3生肖運勢旺",
@@ -328,33 +328,33 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "今大暑！命理師示警未來16天「全球仍混亂」勿衝動開運法一次看| 星座命理| 生活",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yRFRsd05kRXduOG0zd1FIUTVEal9oX281RTROeEV1Q1VFbnYwYXRFaEtmb0U5eHFmV2xSU1BCVTdwUWtFdjY1clF0WW9TdDBVLWVnZzZ3RXZKMDBjWXFrWUFSTTJFRFRuaWhPSTUxYUY5Tzg?oc=5",
+      "title": "大暑到！命理師曝4招開運法 5生肖運勢大翻轉",
+      "summary": "来自 民視新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zZEd3SGFsYVpCTW11WDJGZUdscXBjVkFQQ19rSXpYNGx3WjhKdEpKXzhMUTA1dE5OcmEwWHNTN3VJUmxnYnBrblp0Z1FFMi1iTnJzdHZmZVVKMFVwUXBsNg?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
+      "source": "民視新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "塔罗星象",
+      "category": "命理新闻",
       "published": "2026-07-23",
       "published_display": "2026-07-23",
       "matched_keywords": [
         "命理",
         "命理師",
-        "開運"
+        "運勢"
       ],
-      "score": 14.750000000000002,
+      "score": 16.95,
       "event_cluster": "event-02"
     },
     {
-      "title": "大暑節氣來了！命理師點名「5大吉運生肖」掌握下半年運勢",
+      "title": "鬼月前示警！命理師曝下半年運勢：股市急跌、熱浪延長、天災增多| 星座命理| 生活",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOcHRUR1NORml4QnM4YTFvblg1RkdsZEphMXBwSDd6Zmdob2Q1U0ZUNUUtNVBrbnNES3NVcVpwQzBhcHlrQXZld2s3eWx4SmJSQUt5c01R0gFWQVVfeXFMUE5wdFRHU05GaXhCczhhMW9uWDVGR2xkSmExcHBIN3pmZ2hvZDVTRlQ1RS01UGtuc0RLc1VxWnBDMGFweWtBdmV3azd5bHhKYlJBS3lzTVE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qT0RnN2p2SVc5QVF1SG42TmtRa3NYdmVjY2psd213ZDUzRnlFSTRnNjk1eWpka0M3bHJ6Q1VxbEgtMUFhcEdmdVUxSlhIem5T?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "命理新闻",
+      "category": "塔罗星象",
       "published": "2026-07-23",
       "published_display": "2026-07-23",
       "matched_keywords": [
@@ -366,11 +366,11 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "2026大暑開運怎麼做？改運就靠3件事！命理師曝「這生肖」恐有桃花劫",
-      "summary": "来自 康健雜誌 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBfUS1vSGc3NUVMMElXTGYwTTA3VjlKbGtUOVhKQ180YVpnWHpZVFZseEVLSF9XV21FcVdOYl9HdW9zTlRGVnlneWJiN3B0Zmx4M01sVDN3ckU?oc=5",
+      "title": "今大暑理智線易斷！這生肖慎防車禍 命理師教「一杯水開運法」",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxOT29HZHdsUEdZS2FZaWxUWTBYakd3YVZjMV94dHFLZGV5ZktmcEx2c1VWUGtUSzA0NEl2Z1FtbmJIU2g1N2FJSnZOV0dVYmlraTBqUmt1NE9TN2VGTU0xX2RUSXFuazdMdnZscDVOSjd6djk4QTZwSFBTOTQ2ZUw2aHFkeUlfZzdoeFNTNHFyUkZTR05vYWFiWEFRdnRpV09kd25PR05iZFoxREs4QXlTQjlaSjRLTnh6MWJXRW5uSXJNbE9jbVJUazNDZTJrSHJsaGhoNnNDME14amNJR1NGYkZxdFhXVXROVVphZnljRHZtaWF5ZkdCcDlGejgxZFFxVkE0U2pIbzhRV3VVZDllTWM5VGp1aXZEbk90VXROTXE3cGFUVnJmbko1NUVZWHo3WnJTT29MQUlRX2RuVGV3NEJMSWpoazVhTl9qclBkaHd6dVY5NHktWG1JcWluMDZyaUxnY1E0UG95eGxjanhDUU45QnFCQ0E?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "康健雜誌 · Google News",
+      "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -385,14 +385,14 @@
       "event_cluster": "event-04"
     },
     {
-      "title": "今大暑理智線易斷！這生肖慎防車禍 命理師教「一杯水開運法」",
-      "summary": "来自 壹蘋新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01RjdBa24yNDZtNW01NGxKUzVzaHplbXRoX1hJOHVaXzRiY2hoTzZ6dmkzc1JEYlk3NEMxaGR2ZzJjZXlnVFlENFJ3UmVldUY1VUJyQ0dlZUlrZUxPbjlGVUQ2X0ZLVnRaamNTamZfX3BuM0NGY1ZYWWFZS3Vnc3c?oc=5",
+      "title": "今大暑！命理師示警未來16天「全球仍混亂」勿衝動開運法一次看| 星座命理| 生活",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yRFRsd05kRXduOG0zd1FIUTVEal9oX281RTROeEV1Q1VFbnYwYXRFaEtmb0U5eHFmV2xSU1BCVTdwUWtFdjY1clF0WW9TdDBVLWVnZzZ3RXZKMDBjWXFrWUFSTTJFRFRuaWhPSTUxYUY5Tzg?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "壹蘋新聞網 · Google News",
+      "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "命理新闻",
+      "category": "塔罗星象",
       "published": "2026-07-23",
       "published_display": "2026-07-23",
       "matched_keywords": [
