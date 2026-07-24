@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-07-23T21:37:09.599367+08:00",
-  "ran_at_display": "2026年7月23日 21:37",
+  "ran_at": "2026-07-24T12:04:39.099202+08:00",
+  "ran_at_display": "2026年7月24日 12:04",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "da88ae95751aa590f2d6c498e96843f72401af07",
-  "new_signature": "13ff9b6f7e93dc8eb7c834ef9d10538aa8452925",
+  "previous_signature": "13ff9b6f7e93dc8eb7c834ef9d10538aa8452925",
+  "new_signature": "18c401889cb6148157ae68893b7ae1e8f7b176da",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -22,14 +22,13 @@
   },
   "new_titles": [
     "誰即將走進你的生活？ta會給你帶來什麼？你和ta會有什麼故事？|曖昧|愛情|戀愛|桃花|塔羅占卜",
-    "我真的懷疑。 是不是很多人都以為命理師有一個隱藏技能。 叫做： 「通靈Google。」 客人： 「老師，我要不要換工作？」 可以。 這很正常。 「老師，我跟他還有機會嗎？」 也很正常。 「老師，我最近一直掉頭髮，是不是流年不好？」 …… 嗯？ 「老師，我家的貓最近一直瞪我，是",
+    "今天學生突然問我一個問題。 「老師。」 「學八字最難的是什麼？」 我原本以為他會猜十神、五行、生剋。 結果我想了一下。 我說： 「都不是。」 最難的是， 當你真的看懂一張命盤以後， 你還願意用對方聽得懂的方式，把話說出去。 命理不是比誰背得多。 也不是把一堆專有名",
     "[問卦] 敵基督 vs 紫微聖人 誰會贏",
     "大暑逢「三合火局」易斷理智線！命理師曝4大開運祕訣 3生肖運勢旺",
     "大暑到！命理師曝4招開運法 5生肖運勢大翻轉"
   ],
   "added_titles": [
-    "誰即將走進你的生活？ta會給你帶來什麼？你和ta會有什麼故事？|曖昧|愛情|戀愛|桃花|塔羅占卜",
-    "大暑到！命理師曝4招開運法 5生肖運勢大翻轉"
+    "今天學生突然問我一個問題。 「老師。」 「學八字最難的是什麼？」 我原本以為他會猜十神、五行、生剋。 結果我想了一下。 我說： 「都不是。」 最難的是， 當你真的看懂一張命盤以後， 你還願意用對方聽得懂的方式，把話說出去。 命理不是比誰背得多。 也不是把一堆專有名"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
@@ -42,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月23日 21:37"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月24日 12:04"
     },
     {
       "script": "generate_daily_content.py",

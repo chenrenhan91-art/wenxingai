@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-23",
-  "updated_at_display": "2026年7月23日 21:37",
+  "updated_at": "2026-07-24",
+  "updated_at_display": "2026年7月24日 12:04",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-23T21:37:26.584478+08:00",
+    "fetched_at": "2026-07-24T12:04:55.844434+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,26 +268,26 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-09"
+      "event_cluster": "event-10"
     },
     {
-      "title": "我真的懷疑。 是不是很多人都以為命理師有一個隱藏技能。 叫做： 「通靈Google。」 客人： 「老師，我要不要換工作？」 可以。 這很正常。 「老師，我跟他還有機會嗎？」 也很正常。 「老師，我最近一直掉頭髮，是不是流年不好？」 …… 嗯？ 「老師，我家的貓最近一直瞪我，是",
+      "title": "今天學生突然問我一個問題。 「老師。」 「學八字最難的是什麼？」 我原本以為他會猜十神、五行、生剋。 結果我想了一下。 我說： 「都不是。」 最難的是， 當你真的看懂一張命盤以後， 你還願意用對方聽得懂的方式，把話說出去。 命理不是比誰背得多。 也不是把一堆專有名",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3dkpwQXJvSlFmb255aWNpTkpvajhVMWY1ajZmbzJZREk3a2ZOeUJGYk9jcXo2VWJ6Q1BialpvODlOd3B1eFpfQlZlM0w0WF85ZTV1V3VzaGRMcVlMZWdLRG1aSQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB1YkxEb2dneHVoZmczendCZVcxRTB3NTA0aUxaT3pQYVlucjBBYW1QY1NQUHV5aUhwMVpwNFR0OE9iOXlOWVE3Mlhpc2hGMHg5aTVVdXgtWTV3YmdVbm1aSm0wTQ?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-07-22",
-      "published_display": "2026-07-22",
+      "category": "八字紫微",
+      "published": "2026-07-23",
+      "published_display": "2026-07-23",
       "matched_keywords": [
         "命理",
-        "命理師",
-        "流年"
+        "八字",
+        "命盤"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-47"
+      "event_cluster": "event-46"
     },
     {
       "title": "[問卦] 敵基督 vs 紫微聖人 誰會贏",
@@ -306,7 +306,7 @@
         "讨论"
       ],
       "score": 12.616666666666665,
-      "event_cluster": "event-32"
+      "event_cluster": "event-37"
     },
     {
       "title": "大暑逢「三合火局」易斷理智線！命理師曝4大開運祕訣 3生肖運勢旺",
@@ -347,20 +347,20 @@
       "event_cluster": "event-02"
     },
     {
-      "title": "鬼月前示警！命理師曝下半年運勢：股市急跌、熱浪延長、天災增多| 星座命理| 生活",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qT0RnN2p2SVc5QVF1SG42TmtRa3NYdmVjY2psd213ZDUzRnlFSTRnNjk1eWpka0M3bHJ6Q1VxbEgtMUFhcEdmdVUxSlhIem5T?oc=5",
+      "title": "2026大暑開運怎麼做？改運就靠3件事！命理師曝「這生肖」恐有桃花劫",
+      "summary": "来自 康健雜誌 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBfUS1vSGc3NUVMMElXTGYwTTA3VjlKbGtUOVhKQ180YVpnWHpZVFZseEVLSF9XV21FcVdOYl9HdW9zTlRGVnlneWJiN3B0Zmx4M01sVDN3ckU?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
+      "source": "康健雜誌 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-07-23",
-      "published_display": "2026-07-23",
+      "category": "命理新闻",
+      "published": "2026-07-24",
+      "published_display": "2026-07-24",
       "matched_keywords": [
         "命理",
         "命理師",
-        "運勢"
+        "開運"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-03"
@@ -385,9 +385,9 @@
       "event_cluster": "event-04"
     },
     {
-      "title": "今大暑！命理師示警未來16天「全球仍混亂」勿衝動開運法一次看| 星座命理| 生活",
+      "title": "鬼月前示警！命理師曝下半年運勢：股市急跌、熱浪延長、天災增多| 星座命理| 生活",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yRFRsd05kRXduOG0zd1FIUTVEal9oX281RTROeEV1Q1VFbnYwYXRFaEtmb0U5eHFmV2xSU1BCVTdwUWtFdjY1clF0WW9TdDBVLWVnZzZ3RXZKMDBjWXFrWUFSTTJFRFRuaWhPSTUxYUY5Tzg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qT0RnN2p2SVc5QVF1SG42TmtRa3NYdmVjY2psd213ZDUzRnlFSTRnNjk1eWpka0M3bHJ6Q1VxbEgtMUFhcEdmdVUxSlhIem5T?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -398,7 +398,7 @@
       "matched_keywords": [
         "命理",
         "命理師",
-        "開運"
+        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-05"
