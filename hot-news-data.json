@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-07-25",
-  "updated_at_display": "2026年7月25日 12:04",
+  "updated_at_display": "2026年7月25日 21:34",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-25T12:04:04.660223+08:00",
+    "fetched_at": "2026-07-25T21:34:20.727766+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "items": [
     {
@@ -287,7 +287,7 @@
         "命盤"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-60"
+      "event_cluster": "event-64"
     },
     {
       "title": "[問卦] 敵基督 vs 紫微聖人 誰會贏",
@@ -306,7 +306,7 @@
         "讨论"
       ],
       "score": 12.616666666666665,
-      "event_cluster": "event-52"
+      "event_cluster": "event-57"
     },
     {
       "title": "大暑逢「三合火局」易斷理智線！命理師曝4大開運祕訣 3生肖運勢旺",
@@ -347,6 +347,44 @@
       "event_cluster": "event-02"
     },
     {
+      "title": "萬聖節禁忌！命理師提醒7種人別扮鬼 恐「卡陰」壞運勢",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1CLUdFdDV0N01CZDFSbVZ4R1Z2M3ZUODhndTFLbWhrNjRHSlpyQkhyUzl5QWVGdm1ja1QtWEtReDRjYXRDYmtMbNIBTEFVX3lxTE5Vc1hwRWUyanJzeDR0QWpWUm13cWEtT0o5TEEyZ01iZkFsWGN5MlRhWHNIeTR0QlhxR3RZX1FfeG0ydEZzWTJBUmNkU20?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞網SETN.com · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-07-25",
+      "published_display": "2026-07-25",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
+      "title": "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Vbk9ER1E1NlN4eVZYZmZSaG5yWXpqdVUzOVdQdWwyLWs1am1HY3pXN0VQN2s5a0xHYm1jMldkY2hsTHc1YkY0RtIBTEFVX3lxTE9CNGtweDFDRVVsZDQ3SmttVW9IRzhOeUprM0FuUldMeFBfakxPNXpmb0tPY0g3cUYyNUR4MGZaS1RpNW5qd0NYVHNQSUw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞網SETN.com · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-07-24",
+      "published_display": "2026-07-24",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "流年"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
+    },
+    {
       "title": "2026大暑開運怎麼做？改運就靠3件事！命理師曝「這生肖」恐有桃花劫",
       "summary": "来自 康健雜誌 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBfUS1vSGc3NUVMMElXTGYwTTA3VjlKbGtUOVhKQ180YVpnWHpZVFZseEVLSF9XV21FcVdOYl9HdW9zTlRGVnlneWJiN3B0Zmx4M01sVDN3ckU?oc=5",
@@ -361,44 +399,6 @@
         "命理",
         "命理師",
         "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "週四大暑！命理師揭運勢超強5生肖 掌握下半年主動權 | EBC 東森新聞",
-      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBnUW56QzYzb0Q2THZHQnliaGI3aDY0UllTYTdqM1BxSU0xT3RVU2dJSEdicC1MR3E1dkxtVVhkVnlWUFloeDI0eHd1WHJuNGc1dXlmMnltdzlxZm1OLVhicjZxREhQUHprWnNpbERPU2NuODdsNmszdw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "LINE TODAY · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-23",
-      "published_display": "2026-07-23",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "鬼月前示警！命理師曝下半年運勢：股市急跌、熱浪延長、天災增多| 星座命理| 生活",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qT0RnN2p2SVc5QVF1SG42TmtRa3NYdmVjY2psd213ZDUzRnlFSTRnNjk1eWpka0M3bHJ6Q1VxbEgtMUFhcEdmdVUxSlhIem5T?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-07-23",
-      "published_display": "2026-07-23",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-05"
