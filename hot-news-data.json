@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-24",
-  "updated_at_display": "2026年7月24日 21:35",
+  "updated_at": "2026-07-25",
+  "updated_at_display": "2026年7月25日 12:04",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-24T21:35:08.043636+08:00",
+    "fetched_at": "2026-07-25T12:04:04.660223+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "命盤"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-55"
+      "event_cluster": "event-60"
     },
     {
       "title": "[問卦] 敵基督 vs 紫微聖人 誰會贏",
@@ -306,7 +306,7 @@
         "讨论"
       ],
       "score": 12.616666666666665,
-      "event_cluster": "event-47"
+      "event_cluster": "event-52"
     },
     {
       "title": "大暑逢「三合火局」易斷理智線！命理師曝4大開運祕訣 3生肖運勢旺",
@@ -366,11 +366,11 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "今大暑理智線易斷！這生肖慎防車禍 命理師教「一杯水開運法」",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxOT29HZHdsUEdZS2FZaWxUWTBYakd3YVZjMV94dHFLZGV5ZktmcEx2c1VWUGtUSzA0NEl2Z1FtbmJIU2g1N2FJSnZOV0dVYmlraTBqUmt1NE9TN2VGTU0xX2RUSXFuazdMdnZscDVOSjd6djk4QTZwSFBTOTQ2ZUw2aHFkeUlfZzdoeFNTNHFyUkZTR05vYWFiWEFRdnRpV09kd25PR05iZFoxREs4QXlTQjlaSjRLTnh6MWJXRW5uSXJNbE9jbVJUazNDZTJrSHJsaGhoNnNDME14amNJR1NGYkZxdFhXVXROVVphZnljRHZtaWF5ZkdCcDlGejgxZFFxVkE0U2pIbzhRV3VVZDllTWM5VGp1aXZEbk90VXROTXE3cGFUVnJmbko1NUVZWHo3WnJTT29MQUlRX2RuVGV3NEJMSWpoazVhTl9qclBkaHd6dVY5NHktWG1JcWluMDZyaUxnY1E0UG95eGxjanhDUU45QnFCQ0E?oc=5",
+      "title": "週四大暑！命理師揭運勢超強5生肖 掌握下半年主動權 | EBC 東森新聞",
+      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBnUW56QzYzb0Q2THZHQnliaGI3aDY0UllTYTdqM1BxSU0xT3RVU2dJSEdicC1MR3E1dkxtVVhkVnlWUFloeDI0eHd1WHJuNGc1dXlmMnltdzlxZm1OLVhicjZxREhQUHprWnNpbERPU2NuODdsNmszdw?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
+      "source": "LINE TODAY · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -379,7 +379,7 @@
       "matched_keywords": [
         "命理",
         "命理師",
-        "開運"
+        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-04"
