@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-07-26",
-  "updated_at_display": "2026年7月26日 12:13",
+  "updated_at_display": "2026年7月26日 21:33",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-26T12:13:55.259838+08:00",
+    "fetched_at": "2026-07-26T21:33:31.235363+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「塔罗星象」相关选题（当前占比 3/8）。"
   ],
   "items": [
     {
@@ -287,7 +287,7 @@
         "命盤"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-64"
+      "event_cluster": "event-62"
     },
     {
       "title": "[問卦] 敵基督 vs 紫微聖人 誰會贏",
@@ -306,7 +306,7 @@
         "讨论"
       ],
       "score": 12.616666666666665,
-      "event_cluster": "event-57"
+      "event_cluster": "event-55"
     },
     {
       "title": "大暑逢「三合火局」易斷理智線！命理師曝4大開運祕訣 3生肖運勢旺",
@@ -366,16 +366,16 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "萬聖節禁忌！命理師提醒7種人別扮鬼 恐「卡陰」壞運勢",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1CLUdFdDV0N01CZDFSbVZ4R1Z2M3ZUODhndTFLbWhrNjRHSlpyQkhyUzl5QWVGdm1ja1QtWEtReDRjYXRDYmtMbNIBTEFVX3lxTE5Vc1hwRWUyanJzeDR0QWpWUm13cWEtT0o5TEEyZ01iZkFsWGN5MlRhWHNIeTR0QlhxR3RZX1FfeG0ydEZzWTJBUmNkU20?oc=5",
+      "title": "討論牆 | 越熱越旺！命理師曝大暑節氣財運最強5星座，巨蟹終於有好消息，「他」運勢來到巔峰",
+      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvY0h2VndvWnZRbUhSTHpNa1labXBNeDNWa2VhLXNLRXBtNUFRZE43bE5wWFd3TWFrZzdCM3hlSW1KcjlqTFpGNENTYVZkUFpDdURBMTZiMTVBMTg4Y0V4cXdBZ1o?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
+      "source": "LINE TODAY · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-25",
-      "published_display": "2026-07-25",
+      "category": "塔罗星象",
+      "published": "2026-07-26",
+      "published_display": "2026-07-26",
       "matched_keywords": [
         "命理",
         "命理師",
@@ -385,20 +385,20 @@
       "event_cluster": "event-04"
     },
     {
-      "title": "2026大暑開運怎麼做？改運就靠3件事！命理師曝「這生肖」恐有桃花劫",
-      "summary": "来自 康健雜誌 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBfUS1vSGc3NUVMMElXTGYwTTA3VjlKbGtUOVhKQ180YVpnWHpZVFZseEVLSF9XV21FcVdOYl9HdW9zTlRGVnlneWJiN3B0Zmx4M01sVDN3ckU?oc=5",
+      "title": "萬聖節禁忌！命理師提醒7種人別扮鬼 恐「卡陰」壞運勢",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1CLUdFdDV0N01CZDFSbVZ4R1Z2M3ZUODhndTFLbWhrNjRHSlpyQkhyUzl5QWVGdm1ja1QtWEtReDRjYXRDYmtMbNIBTEFVX3lxTE5Vc1hwRWUyanJzeDR0QWpWUm13cWEtT0o5TEEyZ01iZkFsWGN5MlRhWHNIeTR0QlhxR3RZX1FfeG0ydEZzWTJBUmNkU20?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "康健雜誌 · Google News",
+      "source": "三立新聞網SETN.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-07-24",
-      "published_display": "2026-07-24",
+      "published": "2026-07-25",
+      "published_display": "2026-07-25",
       "matched_keywords": [
         "命理",
         "命理師",
-        "開運"
+        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-05"

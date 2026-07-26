@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-07-26T12:13:41.457341+08:00",
-  "ran_at_display": "2026年7月26日 12:13",
+  "ran_at": "2026-07-26T21:33:15.125327+08:00",
+  "ran_at_display": "2026年7月26日 21:33",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "4c52b47209986431199e0ce58d5741a8fbf5cbcf",
-  "new_signature": "b91ca75c6045881691c06faa3a4c225aaa590fbe",
+  "previous_signature": "b91ca75c6045881691c06faa3a4c225aaa590fbe",
+  "new_signature": "bebc533537edb5916f1246f6825fde95eee16a8c",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,11 +27,9 @@
     "大暑逢「三合火局」易斷理智線！命理師曝4大開運祕訣 3生肖運勢旺",
     "大暑到！命理師曝4招開運法 5生肖運勢大翻轉"
   ],
-  "added_titles": [
-    "他對你有想法嗎？啥想法？是覬覦你身體還是靈魂？他覺得你對他的想法|曖昧|愛情|戀愛|桃花|塔羅占卜"
-  ],
+  "added_titles": [],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「塔罗星象」相关选题（当前占比 3/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -41,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月26日 12:13"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月26日 21:33"
     },
     {
       "script": "generate_daily_content.py",
