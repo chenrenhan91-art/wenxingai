@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-25",
-  "updated_at_display": "2026年7月25日 21:34",
+  "updated_at": "2026-07-26",
+  "updated_at_display": "2026年7月26日 12:13",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-25T21:34:20.727766+08:00",
+    "fetched_at": "2026-07-26T12:13:55.259838+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,20 +248,20 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
-      "title": "誰即將走進你的生活？ta會給你帶來什麼？你和ta會有什麼故事？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+      "title": "他對你有想法嗎？啥想法？是覬覦你身體還是靈魂？他覺得你對他的想法|曖昧|愛情|戀愛|桃花|塔羅占卜",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJWEJBcXFsaGlsOUY0R1Q4b2E1M3k0bGlQQWdra282Q3BKOXVPWDIycGhUYi1qUDB0aVVXakxWTmFJaGEtQjUtTHY3LXZZYzVyaHJNWndB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83NW1ZMFJocUZ6b01rTDBmQURVQ3FuU250b2xuclc1bFNQQ2dRNGVnR3NRSEFWXzZodkcxbXhOSWloUl9ScmV0bmRqWFNFRzJSSDE3cEN3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-07-23",
-      "published_display": "2026-07-23",
+      "published": "2026-07-22",
+      "published_display": "2026-07-22",
       "matched_keywords": [
         "塔羅",
         "占卜",
@@ -347,16 +347,16 @@
       "event_cluster": "event-02"
     },
     {
-      "title": "萬聖節禁忌！命理師提醒7種人別扮鬼 恐「卡陰」壞運勢",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1CLUdFdDV0N01CZDFSbVZ4R1Z2M3ZUODhndTFLbWhrNjRHSlpyQkhyUzl5QWVGdm1ja1QtWEtReDRjYXRDYmtMbNIBTEFVX3lxTE5Vc1hwRWUyanJzeDR0QWpWUm13cWEtT0o5TEEyZ01iZkFsWGN5MlRhWHNIeTR0QlhxR3RZX1FfeG0ydEZzWTJBUmNkU20?oc=5",
+      "title": "八月運勢翻身了！命理師點名3星座名利雙收 天秤摩羯水瓶防過勞",
+      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56ZEwzUVhUN21SN1FydXRaWXF6TU5wVnZNR2tuMG5VODAtdWZTbnpmS2hmTkViYlFTay1mTmZnaWJmNnRINXA0SFNaU3pMSTFfQ0HSAVJBVV95cUxOemRMM1FYVDdtUjdRcnV0Wllxek1OcFZ2TUdrbjBuVTgwLXVmU256ZktoZk5FYmJRU2stZk5mZ2liZjZ0SDVwNEhTWlN6TEkxX0NB?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
+      "source": "NOWnews今日新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-25",
-      "published_display": "2026-07-25",
+      "category": "塔罗星象",
+      "published": "2026-07-26",
+      "published_display": "2026-07-26",
       "matched_keywords": [
         "命理",
         "命理師",
@@ -366,20 +366,20 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Vbk9ER1E1NlN4eVZYZmZSaG5yWXpqdVUzOVdQdWwyLWs1am1HY3pXN0VQN2s5a0xHYm1jMldkY2hsTHc1YkY0RtIBTEFVX3lxTE9CNGtweDFDRVVsZDQ3SmttVW9IRzhOeUprM0FuUldMeFBfakxPNXpmb0tPY0g3cUYyNUR4MGZaS1RpNW5qd0NYVHNQSUw?oc=5",
+      "title": "萬聖節禁忌！命理師提醒7種人別扮鬼 恐「卡陰」壞運勢",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1CLUdFdDV0N01CZDFSbVZ4R1Z2M3ZUODhndTFLbWhrNjRHSlpyQkhyUzl5QWVGdm1ja1QtWEtReDRjYXRDYmtMbNIBTEFVX3lxTE5Vc1hwRWUyanJzeDR0QWpWUm13cWEtT0o5TEEyZ01iZkFsWGN5MlRhWHNIeTR0QlhxR3RZX1FfeG0ydEZzWTJBUmNkU20?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
+      "source": "三立新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-07-24",
-      "published_display": "2026-07-24",
+      "published": "2026-07-25",
+      "published_display": "2026-07-25",
       "matched_keywords": [
         "命理",
         "命理師",
-        "流年"
+        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-04"

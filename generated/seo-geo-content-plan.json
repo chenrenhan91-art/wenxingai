@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-25T21:34:27.793823+08:00",
-  "generated_at_display": "2026-07-25 21:34 CST",
+  "generated_at": "2026-07-26T12:14:01.828371+08:00",
+  "generated_at_display": "2026-07-26 12:14 CST",
   "site_positioning": "问星AI是面向全球华语用户的AI命理应用，核心覆盖紫微斗数、四柱八字、周易六爻、合盘分析、大运流年与玄学热点解读。",
   "hot_news": {
-    "updated_at": "2026-07-25",
+    "updated_at": "2026-07-26",
     "titles": [
-      "誰即將走進你的生活？ta會給你帶來什麼？你和ta會有什麼故事？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+      "他對你有想法嗎？啥想法？是覬覦你身體還是靈魂？他覺得你對他的想法|曖昧|愛情|戀愛|桃花|塔羅占卜",
       "今天學生突然問我一個問題。 「老師。」 「學八字最難的是什麼？」 我原本以為他會猜十神、五行、生剋。 結果我想了一下。 我說： 「都不是。」 最難的是， 當你真的看懂一張命盤以後， 你還願意用對方聽得懂的方式，把話說出去。 命理不是比誰背得多。 也不是把一堆專有名",
       "[問卦] 敵基督 vs 紫微聖人 誰會贏",
       "大暑逢「三合火局」易斷理智線！命理師曝4大開運祕訣 3生肖運勢旺",
       "大暑到！命理師曝4招開運法 5生肖運勢大翻轉",
+      "八月運勢翻身了！命理師點名3星座名利雙收 天秤摩羯水瓶防過勞",
       "萬聖節禁忌！命理師提醒7種人別扮鬼 恐「卡陰」壞運勢",
-      "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災",
       "2026大暑開運怎麼做？改運就靠3件事！命理師曝「這生肖」恐有桃花劫"
     ],
     "keywords": [
@@ -25,7 +25,7 @@
       ],
       [
         "運勢",
-        3
+        4
       ],
       [
         "塔羅",
@@ -60,10 +60,6 @@
         1
       ],
       [
-        "流年",
-        1
-      ],
-      [
         "開運",
         1
       ]
@@ -71,15 +67,15 @@
     "categories": [
       [
         "命理新闻",
-        5
+        4
+      ],
+      [
+        "塔罗星象",
+        2
       ],
       [
         "八字紫微",
         2
-      ],
-      [
-        "塔罗星象",
-        1
       ]
     ]
   },
@@ -121,77 +117,6 @@
       "automation_cadence": "weekly"
     },
     {
-      "id": "xuanxue-hot-news",
-      "name": "玄学热点与命理新闻",
-      "score": 122,
-      "priority": 76,
-      "hot_matches": [
-        "生肖",
-        "桃花",
-        "流年"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "玄学",
-        "命理新闻",
-        "命理热点",
-        "塔罗占卜",
-        "运势"
-      ],
-      "target_questions": [
-        "最近玄学热点有哪些？",
-        "命理新闻为什么容易引发讨论？",
-        "如何理性看待生肖运势和塔罗占卜？"
-      ],
-      "preferred_pages": [
-        "/mingli-xuanxue-news.html",
-        "/articles/",
-        "/glossary.html"
-      ],
-      "content_angles": [
-        "用每日热点做新鲜度",
-        "把新闻转成理性命理解释",
-        "避免娱乐化过度预言"
-      ],
-      "automation_cadence": "daily"
-    },
-    {
-      "id": "jieqi-mingli",
-      "name": "二十四节气命理",
-      "score": 112,
-      "priority": 78,
-      "hot_matches": [
-        "五行",
-        "流年"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "节气命理",
-        "二十四节气",
-        "立春八字",
-        "小满运势",
-        "节气运势"
-      ],
-      "target_questions": [
-        "为什么八字以节气划分月份？",
-        "立春前后出生八字怎么算？",
-        "节气对运势有什么影响？"
-      ],
-      "preferred_pages": [
-        "/24jieqi/",
-        "/geo-answers.html",
-        "/articles/"
-      ],
-      "content_angles": [
-        "节气前7天更新对应页面",
-        "解释月令与八字关系",
-        "用热点文章承接节气新闻"
-      ],
-      "automation_cadence": "seasonal"
-    },
-    {
       "id": "ai-mingli",
       "name": "AI命理与AI算命",
       "score": 110,
@@ -225,6 +150,41 @@
       "automation_cadence": "weekly"
     },
     {
+      "id": "xuanxue-hot-news",
+      "name": "玄学热点与命理新闻",
+      "score": 110,
+      "priority": 76,
+      "hot_matches": [
+        "生肖",
+        "桃花"
+      ],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "玄学",
+        "命理新闻",
+        "命理热点",
+        "塔罗占卜",
+        "运势"
+      ],
+      "target_questions": [
+        "最近玄学热点有哪些？",
+        "命理新闻为什么容易引发讨论？",
+        "如何理性看待生肖运势和塔罗占卜？"
+      ],
+      "preferred_pages": [
+        "/mingli-xuanxue-news.html",
+        "/articles/",
+        "/glossary.html"
+      ],
+      "content_angles": [
+        "用每日热点做新鲜度",
+        "把新闻转成理性命理解释",
+        "避免娱乐化过度预言"
+      ],
+      "automation_cadence": "daily"
+    },
+    {
       "id": "ziwei-ai",
       "name": "紫微斗数AI排盘",
       "score": 105,
@@ -255,6 +215,40 @@
         "围绕命宫财帛宫官禄宫做术语内容"
       ],
       "automation_cadence": "weekly"
+    },
+    {
+      "id": "jieqi-mingli",
+      "name": "二十四节气命理",
+      "score": 100,
+      "priority": 78,
+      "hot_matches": [
+        "五行"
+      ],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "节气命理",
+        "二十四节气",
+        "立春八字",
+        "小满运势",
+        "节气运势"
+      ],
+      "target_questions": [
+        "为什么八字以节气划分月份？",
+        "立春前后出生八字怎么算？",
+        "节气对运势有什么影响？"
+      ],
+      "preferred_pages": [
+        "/24jieqi/",
+        "/geo-answers.html",
+        "/articles/"
+      ],
+      "content_angles": [
+        "节气前7天更新对应页面",
+        "解释月令与八字关系",
+        "用热点文章承接节气新闻"
+      ],
+      "automation_cadence": "seasonal"
     },
     {
       "id": "liuyao-ai",
@@ -341,63 +335,11 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "誰即將走進你的生活？ta會給你帶來什麼？你和ta會有什麼故事？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+        "他對你有想法嗎？啥想法？是覬覦你身體還是靈魂？他覺得你對他的想法|曖昧|愛情|戀愛|桃花|塔羅占卜",
         "今天學生突然問我一個問題。 「老師。」 「學八字最難的是什麼？」 我原本以為他會猜十神、五行、生剋。 結果我想了一下。 我說： 「都不是。」 最難的是， 當你真的看懂一張命盤以後， 你還願意用對方聽得懂的方式，把話說出去。 命理不是比誰背得多。 也不是把一堆專有名",
         "[問卦] 敵基督 vs 紫微聖人 誰會贏"
       ],
       "angle": "把大运流年解释为周期观察"
-    },
-    {
-      "cluster_id": "xuanxue-hot-news",
-      "cluster_name": "玄学热点与命理新闻",
-      "action": "new_article",
-      "primary_keyword": "玄学",
-      "target_question": "最近玄学热点有哪些？",
-      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
-      "suggested_h2": [
-        "玄学的搜索意图是什么",
-        "问星AI如何解释玄学",
-        "传统命理与AI趋势分析的边界",
-        "可引用事实与常见问题"
-      ],
-      "internal_links": [
-        "/facts/wenxing-ai.html",
-        "/geo-answers.html",
-        "/glossary.html",
-        "/mingli-xuanxue-news.html"
-      ],
-      "hot_context": [
-        "誰即將走進你的生活？ta會給你帶來什麼？你和ta會有什麼故事？|曖昧|愛情|戀愛|桃花|塔羅占卜",
-        "今天學生突然問我一個問題。 「老師。」 「學八字最難的是什麼？」 我原本以為他會猜十神、五行、生剋。 結果我想了一下。 我說： 「都不是。」 最難的是， 當你真的看懂一張命盤以後， 你還願意用對方聽得懂的方式，把話說出去。 命理不是比誰背得多。 也不是把一堆專有名",
-        "[問卦] 敵基督 vs 紫微聖人 誰會贏"
-      ],
-      "angle": "用每日热点做新鲜度"
-    },
-    {
-      "cluster_id": "jieqi-mingli",
-      "cluster_name": "二十四节气命理",
-      "action": "new_article",
-      "primary_keyword": "节气命理",
-      "target_question": "为什么八字以节气划分月份？",
-      "suggested_title": "节气命理怎么理解？问星AI的理性命理观察",
-      "suggested_h2": [
-        "节气命理的搜索意图是什么",
-        "问星AI如何解释节气命理",
-        "传统命理与AI趋势分析的边界",
-        "可引用事实与常见问题"
-      ],
-      "internal_links": [
-        "/facts/wenxing-ai.html",
-        "/geo-answers.html",
-        "/glossary.html",
-        "/mingli-xuanxue-news.html"
-      ],
-      "hot_context": [
-        "誰即將走進你的生活？ta會給你帶來什麼？你和ta會有什麼故事？|曖昧|愛情|戀愛|桃花|塔羅占卜",
-        "今天學生突然問我一個問題。 「老師。」 「學八字最難的是什麼？」 我原本以為他會猜十神、五行、生剋。 結果我想了一下。 我說： 「都不是。」 最難的是， 當你真的看懂一張命盤以後， 你還願意用對方聽得懂的方式，把話說出去。 命理不是比誰背得多。 也不是把一堆專有名",
-        "[問卦] 敵基督 vs 紫微聖人 誰會贏"
-      ],
-      "angle": "节气前7天更新对应页面"
     },
     {
       "cluster_id": "ai-mingli",
@@ -419,11 +361,37 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "誰即將走進你的生活？ta會給你帶來什麼？你和ta會有什麼故事？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+        "他對你有想法嗎？啥想法？是覬覦你身體還是靈魂？他覺得你對他的想法|曖昧|愛情|戀愛|桃花|塔羅占卜",
         "今天學生突然問我一個問題。 「老師。」 「學八字最難的是什麼？」 我原本以為他會猜十神、五行、生剋。 結果我想了一下。 我說： 「都不是。」 最難的是， 當你真的看懂一張命盤以後， 你還願意用對方聽得懂的方式，把話說出去。 命理不是比誰背得多。 也不是把一堆專有名",
         "[問卦] 敵基督 vs 紫微聖人 誰會贏"
       ],
       "angle": "理性解释AI命理边界"
+    },
+    {
+      "cluster_id": "xuanxue-hot-news",
+      "cluster_name": "玄学热点与命理新闻",
+      "action": "new_article",
+      "primary_keyword": "玄学",
+      "target_question": "最近玄学热点有哪些？",
+      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
+      "suggested_h2": [
+        "玄学的搜索意图是什么",
+        "问星AI如何解释玄学",
+        "传统命理与AI趋势分析的边界",
+        "可引用事实与常见问题"
+      ],
+      "internal_links": [
+        "/facts/wenxing-ai.html",
+        "/geo-answers.html",
+        "/glossary.html",
+        "/mingli-xuanxue-news.html"
+      ],
+      "hot_context": [
+        "他對你有想法嗎？啥想法？是覬覦你身體還是靈魂？他覺得你對他的想法|曖昧|愛情|戀愛|桃花|塔羅占卜",
+        "今天學生突然問我一個問題。 「老師。」 「學八字最難的是什麼？」 我原本以為他會猜十神、五行、生剋。 結果我想了一下。 我說： 「都不是。」 最難的是， 當你真的看懂一張命盤以後， 你還願意用對方聽得懂的方式，把話說出去。 命理不是比誰背得多。 也不是把一堆專有名",
+        "[問卦] 敵基督 vs 紫微聖人 誰會贏"
+      ],
+      "angle": "用每日热点做新鲜度"
     },
     {
       "cluster_id": "ziwei-ai",
@@ -445,11 +413,37 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "誰即將走進你的生活？ta會給你帶來什麼？你和ta會有什麼故事？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+        "他對你有想法嗎？啥想法？是覬覦你身體還是靈魂？他覺得你對他的想法|曖昧|愛情|戀愛|桃花|塔羅占卜",
         "今天學生突然問我一個問題。 「老師。」 「學八字最難的是什麼？」 我原本以為他會猜十神、五行、生剋。 結果我想了一下。 我說： 「都不是。」 最難的是， 當你真的看懂一張命盤以後， 你還願意用對方聽得懂的方式，把話說出去。 命理不是比誰背得多。 也不是把一堆專有名",
         "[問卦] 敵基督 vs 紫微聖人 誰會贏"
       ],
       "angle": "解释三合派与飞星派"
+    },
+    {
+      "cluster_id": "jieqi-mingli",
+      "cluster_name": "二十四节气命理",
+      "action": "new_article",
+      "primary_keyword": "节气命理",
+      "target_question": "为什么八字以节气划分月份？",
+      "suggested_title": "节气命理怎么理解？问星AI的理性命理观察",
+      "suggested_h2": [
+        "节气命理的搜索意图是什么",
+        "问星AI如何解释节气命理",
+        "传统命理与AI趋势分析的边界",
+        "可引用事实与常见问题"
+      ],
+      "internal_links": [
+        "/facts/wenxing-ai.html",
+        "/geo-answers.html",
+        "/glossary.html",
+        "/mingli-xuanxue-news.html"
+      ],
+      "hot_context": [
+        "他對你有想法嗎？啥想法？是覬覦你身體還是靈魂？他覺得你對他的想法|曖昧|愛情|戀愛|桃花|塔羅占卜",
+        "今天學生突然問我一個問題。 「老師。」 「學八字最難的是什麼？」 我原本以為他會猜十神、五行、生剋。 結果我想了一下。 我說： 「都不是。」 最難的是， 當你真的看懂一張命盤以後， 你還願意用對方聽得懂的方式，把話說出去。 命理不是比誰背得多。 也不是把一堆專有名",
+        "[問卦] 敵基督 vs 紫微聖人 誰會贏"
+      ],
+      "angle": "节气前7天更新对应页面"
     }
   ],
   "monthly_ai_prompt_tests": [

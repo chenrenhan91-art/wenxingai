@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-07-25T21:34:06.959008+08:00",
-  "ran_at_display": "2026年7月25日 21:34",
+  "ran_at": "2026-07-26T12:13:41.457341+08:00",
+  "ran_at_display": "2026年7月26日 12:13",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "6a4d1af21f6d0491864ef8fe7e6e71101a9e190e",
-  "new_signature": "4c52b47209986431199e0ce58d5741a8fbf5cbcf",
+  "previous_signature": "4c52b47209986431199e0ce58d5741a8fbf5cbcf",
+  "new_signature": "b91ca75c6045881691c06faa3a4c225aaa590fbe",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,17 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "誰即將走進你的生活？ta會給你帶來什麼？你和ta會有什麼故事？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+    "他對你有想法嗎？啥想法？是覬覦你身體還是靈魂？他覺得你對他的想法|曖昧|愛情|戀愛|桃花|塔羅占卜",
     "今天學生突然問我一個問題。 「老師。」 「學八字最難的是什麼？」 我原本以為他會猜十神、五行、生剋。 結果我想了一下。 我說： 「都不是。」 最難的是， 當你真的看懂一張命盤以後， 你還願意用對方聽得懂的方式，把話說出去。 命理不是比誰背得多。 也不是把一堆專有名",
     "[問卦] 敵基督 vs 紫微聖人 誰會贏",
     "大暑逢「三合火局」易斷理智線！命理師曝4大開運祕訣 3生肖運勢旺",
     "大暑到！命理師曝4招開運法 5生肖運勢大翻轉"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "他對你有想法嗎？啥想法？是覬覦你身體還是靈魂？他覺得你對他的想法|曖昧|愛情|戀愛|桃花|塔羅占卜"
+  ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -39,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月25日 21:34"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月26日 12:13"
     },
     {
       "script": "generate_daily_content.py",
