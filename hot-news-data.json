@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-07-27",
-  "updated_at_display": "2026年7月27日 12:18",
+  "updated_at_display": "2026年7月27日 21:50",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-27T12:18:34.415771+08:00",
+    "fetched_at": "2026-07-27T21:50:50.432051+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,9 +252,9 @@
   ],
   "items": [
     {
-      "title": "這段緣分後續發展，你們對彼此的真實情感，他的真心期待，後續走向|曖昧|愛情|戀愛|桃花|塔羅占卜",
+      "title": "誰即將走進你的生活？ta會給你帶來什麼？你和ta會有什麼故事？|曖昧|愛情|戀愛|桃花|塔羅占卜",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mMURUVlQ0QTdPY1l0blV6b3BhNEdfNmphNUkyekJnLW0yOHU1ejk5aUU1ZkpMYWJoRnZTOVBPRm1YR2NaN042ZFlDTEZjdFBRZWgtQkV3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJWEJBcXFsaGlsOUY0R1Q4b2E1M3k0bGlQQWdra282Q3BKOXVPWDIycGhUYi1qUDB0aVVXakxWTmFJaGEtQjUtTHY3LXZZYzVyaHJNWndB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -287,7 +287,7 @@
         "命盤"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-64"
+      "event_cluster": "event-67"
     },
     {
       "title": "[問卦] 敵基督 vs 紫微聖人 誰會贏",
@@ -306,7 +306,7 @@
         "讨论"
       ],
       "score": 12.616666666666665,
-      "event_cluster": "event-59"
+      "event_cluster": "event-66"
     },
     {
       "title": "大暑逢「三合火局」易斷理智線！命理師曝4大開運祕訣 3生肖運勢旺",
