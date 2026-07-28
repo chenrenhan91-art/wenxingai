@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-27",
-  "updated_at_display": "2026年7月27日 21:50",
+  "updated_at": "2026-07-28",
+  "updated_at_display": "2026年7月28日 12:03",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-27T21:50:50.432051+08:00",
+    "fetched_at": "2026-07-28T12:03:40.094821+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-09"
+      "event_cluster": "event-10"
     },
     {
       "title": "今天學生突然問我一個問題。 「老師。」 「學八字最難的是什麼？」 我原本以為他會猜十神、五行、生剋。 結果我想了一下。 我說： 「都不是。」 最難的是， 當你真的看懂一張命盤以後， 你還願意用對方聽得懂的方式，把話說出去。 命理不是比誰背得多。 也不是把一堆專有名",
@@ -287,7 +287,7 @@
         "命盤"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-67"
+      "event_cluster": "event-68"
     },
     {
       "title": "[問卦] 敵基督 vs 紫微聖人 誰會贏",
@@ -306,7 +306,7 @@
         "讨论"
       ],
       "score": 12.616666666666665,
-      "event_cluster": "event-66"
+      "event_cluster": "event-67"
     },
     {
       "title": "大暑逢「三合火局」易斷理智線！命理師曝4大開運祕訣 3生肖運勢旺",

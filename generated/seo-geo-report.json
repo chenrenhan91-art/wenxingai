@@ -1,6 +1,6 @@
 {
-  "ran_at": "2026-07-27T21:50:57.316218+08:00",
-  "ran_at_display": "2026-07-27 21:50 CST",
+  "ran_at": "2026-07-28T12:03:48.280519+08:00",
+  "ran_at_display": "2026-07-28 12:03 CST",
   "overall_status": "ok",
   "summary": {
     "pages_ok": 15,
@@ -236,7 +236,7 @@
       "content_plan": true,
       "keyword_map": true,
       "hot_news_items": 8,
-      "hot_news_updated_at": "2026-07-27"
+      "hot_news_updated_at": "2026-07-28"
     },
     "issues": []
   },
