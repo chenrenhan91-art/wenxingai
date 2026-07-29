@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-07-29",
-  "updated_at_display": "2026年7月29日 12:04",
+  "updated_at_display": "2026年7月29日 21:38",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-29T12:04:44.397825+08:00",
+    "fetched_at": "2026-07-29T21:38:26.637275+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "《宇宙找的新戀人在附近》⏳共時，是此刻與訊息相遇。⏳任何日期可抽牌❤️適用任何時間季節🔮塔羅占卜❤️愛情占卜🔮愛情解析🔮戀愛心事🔮塔羅學習",
+      "title": "2026下半年8月星象整體運勢! #shorts #手面相 #風水 #紫微 #星座 #命理 #開運",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvTVU3cXRTekdOWHBFWHk5eS1RRnF3cmhHWmZxZlpLOHNlZlRuOXZKWW9zdXhzR3FtVW9qakpabmFGdjZ5Z2dPMHptZEduNGlKeGlnZ1Nn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SYlVvdU5GN2gzV1pES3Y3eDdaQl8xbkZMRDhFWjZra2ZINVBLOTgteFdqMEZERDVvemhIRnJJWDh0eHd3bjJYZ3RfTElXZ3FxYmM0dA?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "塔罗星象",
-      "published": "2026-07-28",
-      "published_display": "2026-07-28",
+      "category": "风水玄学",
+      "published": "2026-07-29",
+      "published_display": "2026-07-29",
       "matched_keywords": [
-        "塔羅",
-        "占卜",
-        "戀愛"
+        "命理",
+        "運勢",
+        "開運"
       ],
       "score": 12.35,
-      "event_cluster": "event-34"
+      "event_cluster": "event-36"
     },
     {
       "title": "虎嚕消失三天。 不是閉關。 不是改運。 也不是被天庭抓去開會。 是真的忙到連每日運勢都沒有發。 這幾天每天睜開眼睛都想： 「晚一點來發文。」 然後下一次想起來， 已經是準備睡覺的時間。 所以今天先正式復活。 沒有補發三天運勢。 過去的就讓它過去。 畢竟連命理師",
@@ -287,7 +287,7 @@
         "運勢"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-47"
+      "event_cluster": "event-55"
     },
     {
       "title": "[問卦] 敵基督 vs 紫微聖人 誰會贏",
@@ -306,14 +306,14 @@
         "讨论"
       ],
       "score": 12.616666666666665,
-      "event_cluster": "event-70"
+      "event_cluster": "event-75"
     },
     {
-      "title": "大暑逢「三合火局」易斷理智線！命理師曝4大開運祕訣 3生肖運勢旺",
-      "summary": "来自 知新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9YVWZELVpqQk5FSTRkRUZMQnFaelFjNktYTmZld0xJYVJCQWU4WnpvMVlRVEFZbkpkXzNtd2RyWWwzSHY4Y2lHMG16ME5KTVItUFBHSDI0NzNYRlFpTmpNeFlMcjhQeUF3TGNESkxZOA?oc=5",
+      "title": "大暑到！命理師曝4招開運法 5生肖運勢大翻轉",
+      "summary": "来自 民視新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zZEd3SGFsYVpCTW11WDJGZUdscXBjVkFQQ19rSXpYNGx3WjhKdEpKXzhMUTA1dE5OcmEwWHNTN3VJUmxnYnBrblp0Z1FFMi1iTnJzdHZmZVVKMFVwUXBsNg?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "知新聞 · Google News",
+      "source": "民視新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -328,11 +328,11 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "大暑到！命理師曝4招開運法 5生肖運勢大翻轉",
-      "summary": "来自 民視新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zZEd3SGFsYVpCTW11WDJGZUdscXBjVkFQQ19rSXpYNGx3WjhKdEpKXzhMUTA1dE5OcmEwWHNTN3VJUmxnYnBrblp0Z1FFMi1iTnJzdHZmZVVKMFVwUXBsNg?oc=5",
+      "title": "大暑逢「三合火局」易斷理智線！命理師曝4大開運祕訣 3生肖運勢旺",
+      "summary": "来自 知新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9YVWZELVpqQk5FSTRkRUZMQnFaelFjNktYTmZld0xJYVJCQWU4WnpvMVlRVEFZbkpkXzNtd2RyWWwzSHY4Y2lHMG16ME5KTVItUFBHSDI0NzNYRlFpTmpNeFlMcjhQeUF3TGNESkxZOA?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "民視新聞網 · Google News",
+      "source": "知新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",

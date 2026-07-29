@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-07-29T12:04:31.100172+08:00",
-  "ran_at_display": "2026年7月29日 12:04",
+  "ran_at": "2026-07-29T21:38:09.746892+08:00",
+  "ran_at_display": "2026年7月29日 21:38",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "5a7e2e868c8e35b5c983b939630d9beeb7a57f93",
-  "new_signature": "35e924bfd9ae1d7a7b9175c2c222345797946035",
+  "previous_signature": "35e924bfd9ae1d7a7b9175c2c222345797946035",
+  "new_signature": "eb677b169d8e6cd4b7ad20d47f7991fc555213df",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,14 +21,14 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "《宇宙找的新戀人在附近》⏳共時，是此刻與訊息相遇。⏳任何日期可抽牌❤️適用任何時間季節🔮塔羅占卜❤️愛情占卜🔮愛情解析🔮戀愛心事🔮塔羅學習",
+    "2026下半年8月星象整體運勢! #shorts #手面相 #風水 #紫微 #星座 #命理 #開運",
     "虎嚕消失三天。 不是閉關。 不是改運。 也不是被天庭抓去開會。 是真的忙到連每日運勢都沒有發。 這幾天每天睜開眼睛都想： 「晚一點來發文。」 然後下一次想起來， 已經是準備睡覺的時間。 所以今天先正式復活。 沒有補發三天運勢。 過去的就讓它過去。 畢竟連命理師",
     "[問卦] 敵基督 vs 紫微聖人 誰會贏",
-    "大暑逢「三合火局」易斷理智線！命理師曝4大開運祕訣 3生肖運勢旺",
-    "大暑到！命理師曝4招開運法 5生肖運勢大翻轉"
+    "大暑到！命理師曝4招開運法 5生肖運勢大翻轉",
+    "大暑逢「三合火局」易斷理智線！命理師曝4大開運祕訣 3生肖運勢旺"
   ],
   "added_titles": [
-    "《宇宙找的新戀人在附近》⏳共時，是此刻與訊息相遇。⏳任何日期可抽牌❤️適用任何時間季節🔮塔羅占卜❤️愛情占卜🔮愛情解析🔮戀愛心事🔮塔羅學習"
+    "2026下半年8月星象整體運勢! #shorts #手面相 #風水 #紫微 #星座 #命理 #開運"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
@@ -41,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月29日 12:04"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月29日 21:38"
     },
     {
       "script": "generate_daily_content.py",
