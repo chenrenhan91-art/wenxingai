@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-28",
-  "updated_at_display": "2026年7月28日 21:37",
+  "updated_at": "2026-07-29",
+  "updated_at_display": "2026年7月29日 12:04",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-28T21:37:35.467631+08:00",
+    "fetched_at": "2026-07-29T12:04:44.397825+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,27 +248,27 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「塔罗星象」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
-      "title": "TA會是你未來的結婚對象嗎？你和TA什麼時候才會停止拉扯？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "《宇宙找的新戀人在附近》⏳共時，是此刻與訊息相遇。⏳任何日期可抽牌❤️適用任何時間季節🔮塔羅占卜❤️愛情占卜🔮愛情解析🔮戀愛心事🔮塔羅學習",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zRkYzd1RHWTFzZEtuRzBBTVkwM1d6cS03cjVUWGQ0ejNHUDJCVHRnSk9tb2RtdDMtU3dJa052SG5GMVRvZ2JUZ3lCNTRGWnktYTZHM2tB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvTVU3cXRTekdOWHBFWHk5eS1RRnF3cmhHWmZxZlpLOHNlZlRuOXZKWW9zdXhzR3FtVW9qakpabmFGdjZ5Z2dPMHptZEduNGlKeGlnZ1Nn?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-07-21",
-      "published_display": "2026-07-21",
+      "published": "2026-07-28",
+      "published_display": "2026-07-28",
       "matched_keywords": [
         "塔羅",
         "占卜",
-        "桃花"
+        "戀愛"
       ],
-      "score": 14.55,
-      "event_cluster": "event-11"
+      "score": 12.35,
+      "event_cluster": "event-34"
     },
     {
       "title": "虎嚕消失三天。 不是閉關。 不是改運。 也不是被天庭抓去開會。 是真的忙到連每日運勢都沒有發。 這幾天每天睜開眼睛都想： 「晚一點來發文。」 然後下一次想起來， 已經是準備睡覺的時間。 所以今天先正式復活。 沒有補發三天運勢。 過去的就讓它過去。 畢竟連命理師",
@@ -287,7 +287,7 @@
         "運勢"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-42"
+      "event_cluster": "event-47"
     },
     {
       "title": "[問卦] 敵基督 vs 紫微聖人 誰會贏",
@@ -306,7 +306,7 @@
         "讨论"
       ],
       "score": 12.616666666666665,
-      "event_cluster": "event-65"
+      "event_cluster": "event-70"
     },
     {
       "title": "大暑逢「三合火局」易斷理智線！命理師曝4大開運祕訣 3生肖運勢旺",
@@ -347,6 +347,25 @@
       "event_cluster": "event-02"
     },
     {
+      "title": "8／1觀音成道日！命理師揭「最強開運法」 做「5件事」增福報",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNOVJCR1RhdHVlcUFPclR6ejQ0TU5XZlJuNUVEckJnOFpKR0ZrQmJHaWFIcXROaEpkRTlLeGRDanF4R2RHWXZKTTNqemFwMm91U3o5d0Vad3RIWlFBSGJLam50T2JBOHJYYmJhcXVVYzNTMVlHaXlMeGktaHhHUVNBQkFEaUZkLU5odkQ5UU52SFJlekJmQ1N3WHNXV3EwdDZnZmlJeUM5M1JtUWxlLVMyRFdRdWRVR1ozbTJvZkZ2Tk1kdFV6TUZMUEEyWkkwaDQzbjJyUUNkQmF4Ti1Tem1rVlpjY1BwUkpQOHNVdExzRDJWZVBPNXlkVmVxdXo1SUhsX1ZCM3RJbWxOVEZYZ2pJ?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-07-29",
+      "published_display": "2026-07-29",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
       "title": "八月運勢翻身了！命理師點名3星座名利雙收 天秤摩羯水瓶防過勞",
       "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9vZ0FpelR1ZnRMNkkwVjNPZktIdm92eWFCVDd0d3ZtcXhuOWREZHYwZUVtZnV3Sk5QMS1aNGdHeEE4Qnd1d1ZqTXpsMXbSAVJBVV95cUxOemRMM1FYVDdtUjdRcnV0Wllxek1OcFZ2TUdrbjBuVTgwLXVmU256ZktoZk5FYmJRU2stZk5mZ2liZjZ0SDVwNEhTWlN6TEkxX0NB?oc=5",
@@ -363,7 +382,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "討論牆 | 越熱越旺！命理師曝大暑節氣財運最強5星座，巨蟹終於有好消息，「他」運勢來到巔峰",
@@ -376,25 +395,6 @@
       "category": "塔罗星象",
       "published": "2026-07-26",
       "published_display": "2026-07-26",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "鬼月前示警！命理師曝下半年運勢：股市急跌、熱浪延長、天災增多| 星座命理| 生活",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qT0RnN2p2SVc5QVF1SG42TmtRa3NYdmVjY2psd213ZDUzRnlFSTRnNjk1eWpka0M3bHJ6Q1VxbEgtMUFhcEdmdVUxSlhIem5T?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-07-23",
-      "published_display": "2026-07-23",
       "matched_keywords": [
         "命理",
         "命理師",

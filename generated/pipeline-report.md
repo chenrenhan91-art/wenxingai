@@ -1,9 +1,9 @@
-# 问星AI 内容自动化运行报告 2026年7月28日 21:37
+# 问星AI 内容自动化运行报告 2026年7月29日 12:04
 
 - 总体状态：failed_generate
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：5a7e2e868c8e35b5c983b939630d9beeb7a57f93
+- 变更签名：35e924bfd9ae1d7a7b9175c2c222345797946035
 - Gemini 是否执行：是
 - Gemini 审校是否执行：否
 - 规则质检是否执行：否
@@ -13,25 +13,24 @@
 - 阶段状态：抓取=ok, 生成=failed, 审校=blocked, 质检=blocked, 分发=blocked, 文章=skipped
 
 ## 本轮热点标题
-- TA會是你未來的結婚對象嗎？你和TA什麼時候才會停止拉扯？|曖昧|愛情|戀愛|桃花|塔羅占卜|
+- 《宇宙找的新戀人在附近》⏳共時，是此刻與訊息相遇。⏳任何日期可抽牌❤️適用任何時間季節🔮塔羅占卜❤️愛情占卜🔮愛情解析🔮戀愛心事🔮塔羅學習
 - 虎嚕消失三天。 不是閉關。 不是改運。 也不是被天庭抓去開會。 是真的忙到連每日運勢都沒有發。 這幾天每天睜開眼睛都想： 「晚一點來發文。」 然後下一次想起來， 已經是準備睡覺的時間。 所以今天先正式復活。 沒有補發三天運勢。 過去的就讓它過去。 畢竟連命理師
 - [問卦] 敵基督 vs 紫微聖人 誰會贏
 - 大暑逢「三合火局」易斷理智線！命理師曝4大開運祕訣 3生肖運勢旺
 - 大暑到！命理師曝4招開運法 5生肖運勢大翻轉
 
 ## 新增标题
-- TA會是你未來的結婚對象嗎？你和TA什麼時候才會停止拉扯？|曖昧|愛情|戀愛|桃花|塔羅占卜|
-- 虎嚕消失三天。 不是閉關。 不是改運。 也不是被天庭抓去開會。 是真的忙到連每日運勢都沒有發。 這幾天每天睜開眼睛都想： 「晚一點來發文。」 然後下一次想起來， 已經是準備睡覺的時間。 所以今天先正式復活。 沒有補發三天運勢。 過去的就讓它過去。 畢竟連命理師
+- 《宇宙找的新戀人在附近》⏳共時，是此刻與訊息相遇。⏳任何日期可抽牌❤️適用任何時間季節🔮塔羅占卜❤️愛情占卜🔮愛情解析🔮戀愛心事🔮塔羅學習
 
 ## 次日运营建议
-- 明日优先延展「塔罗星象」相关选题（当前占比 4/8）。
+- 明日优先延展「命理新闻」相关选题（当前占比 4/8）。
 
 ## 失败脚本
 - generate_daily_content.py
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年7月28日 21:37
+updated 8 hot news items at 2026年7月29日 12:04
 - generate_daily_content.py | failed | [warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {"error":{"message":"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.","type":"invalid_request_error","param":null,...
 [warn] DashScope model qwen3.6-flash-2026-04-16 failed; trying qwen3.5-flash. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
 [warn] DashScope model qwen3.5-flash failed; trying qwen3.5-35b-a3b. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
