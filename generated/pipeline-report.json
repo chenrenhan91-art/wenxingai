@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-07-30T21:38:08.394695+08:00",
-  "ran_at_display": "2026年7月30日 21:38",
+  "ran_at": "2026-07-31T12:10:15.491514+08:00",
+  "ran_at_display": "2026年7月31日 12:10",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "8a7d061cd5358d733b946135ccec50b5203b2d59",
-  "new_signature": "73ab2c4d91a3c004932a35b863a57310ce86ddce",
+  "previous_signature": "73ab2c4d91a3c004932a35b863a57310ce86ddce",
+  "new_signature": "915e37b2cbefcb9098833352ac960b115baaf6a1",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,18 +21,18 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "屬虎、馬、狗的朋友接喜！「寅午戌三合」8月火力全開，三大生肖聯手旺財，貴人財氣滾滾來！#屬虎運勢#屬馬運勢#屬狗運勢#寅午戌三合#生肖命理#八字開運#農曆八月#貴人運#財庫",
+    "誰會結束你的單身生活？下一個脫單的時間節點！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "官祿宮反映你的事業運勢、工作天賦、升遷機會與職場人際關係。 ✦ 吉星入宮：事業順遂，容易獲得賞識和升遷 ✦ 主星影響：紫微入宮→適合管理職；天機入宮→適合策劃分析 ✦ 化祿入宮：財運與事業雙豐收的好兆頭 #紫微斗數 #官祿宮 #命盤解析 #事業運勢 #命運屋 #Fa",
     "[問卦] 八字到底準不準？",
-    "大暑到！命理師曝4招開運法 5生肖運勢大翻轉",
-    "8／1觀音成道日！命理師揭「最強開運法」 做「5件事」增福報"
+    "8／1觀音成道日！命理師揭「最強開運法」 做「5件事」增福報",
+    "八月運勢翻身了！命理師點名3星座名利雙收 天秤摩羯水瓶防過勞"
   ],
   "added_titles": [
-    "屬虎、馬、狗的朋友接喜！「寅午戌三合」8月火力全開，三大生肖聯手旺財，貴人財氣滾滾來！#屬虎運勢#屬馬運勢#屬狗運勢#寅午戌三合#生肖命理#八字開運#農曆八月#貴人運#財庫",
-    "官祿宮反映你的事業運勢、工作天賦、升遷機會與職場人際關係。 ✦ 吉星入宮：事業順遂，容易獲得賞識和升遷 ✦ 主星影響：紫微入宮→適合管理職；天機入宮→適合策劃分析 ✦ 化祿入宮：財運與事業雙豐收的好兆頭 #紫微斗數 #官祿宮 #命盤解析 #事業運勢 #命運屋 #Fa"
+    "誰會結束你的單身生活？下一個脫單的時間節點！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "八月運勢翻身了！命理師點名3星座名利雙收 天秤摩羯水瓶防過勞"
   ],
   "ops_hints": [
-    "明日优先延展「八字紫微」相关选题（当前占比 3/8）。"
+    "明日优先延展「塔罗星象」相关选题（当前占比 3/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -42,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月30日 21:38"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月31日 12:10"
     },
     {
       "script": "generate_daily_content.py",
