@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-07-31",
-  "updated_at_display": "2026年7月31日 12:10",
+  "updated_at_display": "2026年7月31日 21:36",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-07-31T12:10:30.983398+08:00",
+    "fetched_at": "2026-07-31T21:36:53.879823+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -179,7 +179,7 @@
     "source_weights": {
       "google_news_mingli_tw": 6.55,
       "google_news_xuanxue_tw": 6.05,
-      "google_news_taluo_tw": 5.85,
+      "google_news_taluo_tw": 5.95,
       "google_news_fengshui_tw": 5.85,
       "ptt_gossiping": 5.55,
       "ptt_womentalk": 5.15,
@@ -192,7 +192,7 @@
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 4,
+        "picked_items": 5,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -202,7 +202,7 @@
       },
       "google_news_taluo_tw": {
         "status": "ok",
-        "picked_items": 1,
+        "picked_items": 0,
         "failures": 0
       },
       "google_news_fengshui_tw": {
@@ -287,7 +287,7 @@
         "斗數"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-81"
+      "event_cluster": "event-83"
     },
     {
       "title": "[問卦] 八字到底準不準？",
@@ -306,7 +306,7 @@
         "讨论"
       ],
       "score": 11.95,
-      "event_cluster": "event-66"
+      "event_cluster": "event-75"
     },
     {
       "title": "8／1觀音成道日！命理師揭「最強開運法」 做「5件事」增福報",
@@ -347,30 +347,30 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "【12星座本週運勢】7/27至8/2最旺星座TOP3，12星座整體運勢、工作運、桃花運一次看",
-      "summary": "来自 Cosmopolitan · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOHQtZ3VoTXNLd3FTcDRraFNlNlFsRFAzRlBQU2JpbVlwTVdHQmlFbktFa0o0c3pEd1Z4VkJsU3NBLWJNd3BySDNqN2R1YUlrRG14YW5WOENuVFF4ZkxDYW50M2JGdlgyMFFuUDZNYXdMNjVwdDIxV3hRR2s3WU9yelBsVXlFb09HeXJn?oc=5",
-      "source_id": "google_news_taluo_tw",
-      "source": "Cosmopolitan · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "title": "討論牆 | 越熱越旺！命理師曝大暑節氣財運最強5星座，巨蟹終於有好消息，「他」運勢來到巔峰",
+      "summary": "来自 today.line.me · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvY0h2VndvWnZRbUhSTHpNa1labXBNeDNWa2VhLXNLRXBtNUFRZE43bE5wWFd3TWFrZzdCM3hlSW1KcjlqTFpGNENTYVZkUFpDdURBMTZiMTVBMTg4Y0V4cXdBZ1o?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "today.line.me · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "塔罗星象",
       "published": "2026-07-26",
       "published_display": "2026-07-26",
       "matched_keywords": [
-        "運勢",
-        "星座",
-        "桃花"
+        "命理",
+        "命理師",
+        "運勢"
       ],
-      "score": 14.05,
+      "score": 14.750000000000002,
       "event_cluster": "event-04"
     },
     {
-      "title": "「熊本地震、王凱猝死」全說中？網重播命理師「2026下半年預言片」超毛",
-      "summary": "来自 四季線上4gTV · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5sYm51WDFtOTNEWWtSVGNYYmxfdUoweXVNaW80MGJMd08xTjFwdGtkWHI3c0Z3WnYyZzNyR1JNNWtfeHM0WU9jMHJiNEt2Qmt5MDNJenVocjFFbEVHSktBNUlfNU5rR2hfVG5ZbHhn?oc=5",
+      "title": "土星逆行來襲！命理師預言台灣恐「面臨5大危機」：這時間黑幕將徹底清算",
+      "summary": "来自 民視新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oRzNFVnlOSGdRWlh3ZnFIRGJDbE1Nd1JTeVpMbUxEUmVZZ3p4YzdUZGJMbnN6bUtZbm11ZzhiYkttTUxtSWEySmlKQ0Z0dlVaVkdQWnViU21NdFdEejBOQw?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "四季線上4gTV · Google News",
+      "source": "民視新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -381,26 +381,25 @@
         "命理師"
       ],
       "score": 12.55,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
-      "title": "討論牆 | 鬼門開倒數！命理師示警：4生肖最易「卡到陰」",
-      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ibjhlTmFRRmpDZlZHN1I2UmxLQWhUdjZMeGRDVlFoWTI0RThJVk0wQm0wM0F2WFN2OWpjRXZvUUNZcVRCS3o0SEIwODdsN0U2bmU2ZHBFQjltaEZ5Nl81Tml6VzQ?oc=5",
+      "title": "鬼月業力引爆！「猴、鼠、虎」被點名 命理師警告：千萬別鐵齒",
+      "summary": "来自 ETtoday新聞雲 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1lc1ltVkRKNzhVS2JtTDQyTEZWT25FMThuUjRaZUZLQmlVWXNtZ3dZZGxPcTFtSmhaN2VyWVV2N1ZoMlpReEVVR3pHNNIBS0FVX3lxTE1lc1ltVkRKNzhVS2JtTDQyTEZWT25FMThuUjRaZUZLQmlVWXNtZ3dZZGxPcTFtSmhaN2VyWVV2N1ZoMlpReEVVR3pHNA?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "LINE TODAY · Google News",
+      "source": "ETtoday新聞雲 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-07-30",
-      "published_display": "2026-07-30",
+      "published": "2026-07-31",
+      "published_display": "2026-07-31",
       "matched_keywords": [
         "命理",
-        "命理師",
-        "討論"
+        "命理師"
       ],
       "score": 12.55,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     }
   ]
 }

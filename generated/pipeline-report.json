@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-07-31T12:10:15.491514+08:00",
-  "ran_at_display": "2026年7月31日 12:10",
+  "ran_at": "2026-07-31T21:36:41.737449+08:00",
+  "ran_at_display": "2026年7月31日 21:36",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "73ab2c4d91a3c004932a35b863a57310ce86ddce",
-  "new_signature": "915e37b2cbefcb9098833352ac960b115baaf6a1",
+  "previous_signature": "915e37b2cbefcb9098833352ac960b115baaf6a1",
+  "new_signature": "7fc478290652bd15857077f372052fcaed04e9ff",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,10 +27,7 @@
     "8／1觀音成道日！命理師揭「最強開運法」 做「5件事」增福報",
     "八月運勢翻身了！命理師點名3星座名利雙收 天秤摩羯水瓶防過勞"
   ],
-  "added_titles": [
-    "誰會結束你的單身生活？下一個脫單的時間節點！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "八月運勢翻身了！命理師點名3星座名利雙收 天秤摩羯水瓶防過勞"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「塔罗星象」相关选题（当前占比 3/8）。"
   ],
@@ -42,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月31日 12:10"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年7月31日 21:36"
     },
     {
       "script": "generate_daily_content.py",
