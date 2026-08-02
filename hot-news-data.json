@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-01",
-  "updated_at_display": "2026年8月1日 21:33",
+  "updated_at": "2026-08-02",
+  "updated_at_display": "2026年8月2日 12:12",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-01T21:33:26.729375+08:00",
+    "fetched_at": "2026-08-02T12:12:40.298189+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 7/8）。"
   ],
   "items": [
     {
@@ -268,64 +268,45 @@
         "開運"
       ],
       "score": 12.35,
-      "event_cluster": "event-22"
+      "event_cluster": "event-25"
     },
     {
-      "title": "官祿宮反映你的事業運勢、工作天賦、升遷機會與職場人際關係。 ✦ 吉星入宮：事業順遂，容易獲得賞識和升遷 ✦ 主星影響：紫微入宮→適合管理職；天機入宮→適合策劃分析 ✦ 化祿入宮：財運與事業雙豐收的好兆頭 #紫微斗數 #官祿宮 #命盤解析 #事業運勢 #命運屋 #Fa",
+      "title": "AI 算命行業思路還是太保守了 為什麼不能做一個 AI 改運助手 根據你的八字、大運和流年 每天提醒你幾點出門、穿什麼顏色、坐哪個位置 廣告語我都想好了： Don't fight your fate. Schedule it.",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50Vi00X2tubE1tOE11Y0VFLUxpRGkzS1ZmbVNRWFNsX3ZHVVZKZ0phNlRrenkxa1JERnROTXktd3gwQVk2N2c1cHJNX0N3UUxMcFFHLUwyaVJkTXhxUzZsWUYyaEQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9oRERyalJDV25GRENVb2VYOHc3RjE1R3kxYnpuMXdBNE1sNFJkbHFOS3pLb0Z5TDBVWERRWjVnVGlBdEp3TEZIRDdpb3ZiaXlNODdjRmhCVWJ1RFZfb1JQUHVYSQ?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E7%B4%AB%E5%BE%AE%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E7%AE%97%E5%91%BD%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "八字紫微",
       "published": "2026-07-24",
       "published_display": "2026-07-24",
       "matched_keywords": [
-        "運勢",
-        "紫微",
-        "斗數"
+        "算命",
+        "流年",
+        "八字"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-84"
-    },
-    {
-      "title": "[問卦] 敵基督 vs 紫微聖人 誰會贏",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「紫微」展开讨论，推文热度 5，作者 devil157。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1784557938.A.09B.html",
-      "source_id": "ptt_gossiping",
-      "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E7%B4%AB%E5%BE%AE",
-      "source_group": "community",
-      "category": "八字紫微",
-      "published": "2026-07-20",
-      "published_display": "2026-07-20",
-      "matched_keywords": [
-        "紫微",
-        "热议",
-        "讨论"
-      ],
-      "score": 12.616666666666665,
       "event_cluster": "event-83"
     },
     {
-      "title": "2026年8月7日迎立秋！命理專家公開6大開運法，3件事別做小心影響運勢| 生活發現",
-      "summary": "来自 妞新聞niusnews · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBLTGE3ekJ5ODJKVXhnTGR0WVdrVUhOLVRnaWplS3FZeklOenZ6MmdyZmhOVHRKRmJKdEZkdzB3QjhkSFFDNDBGVnJlbw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "妞新聞niusnews · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
+      "title": "[新聞] 土星逆行釀震盪！命理師示警：8月迎毒油",
+      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 4，作者 Scorpio。",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1785596736.A.6D3.html",
+      "source_id": "ptt_gossiping",
+      "source": "PTT Gossiping",
+      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
+      "source_group": "community",
       "category": "命理新闻",
       "published": "2026-08-01",
       "published_display": "2026-08-01",
       "matched_keywords": [
         "命理",
-        "運勢",
-        "開運"
+        "命理師",
+        "热议"
       ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-01"
+      "score": 11.283333333333333,
+      "event_cluster": "event-81"
     },
     {
       "title": "觀音成道日來了！命理師揭開運法：「做5件事」累積福報",
@@ -341,6 +322,25 @@
       "matched_keywords": [
         "命理",
         "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-01"
+    },
+    {
+      "title": "2026年8月7日迎立秋！命理專家公開6大開運法，3件事別做小心影響運勢| 生活發現",
+      "summary": "来自 Niusnews 妞新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBLTGE3ekJ5ODJKVXhnTGR0WVdrVUhOLVRnaWplS3FZeklOenZ6MmdyZmhOVHRKRmJKdEZkdzB3QjhkSFFDNDBGVnJlbw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Niusnews 妞新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-08-01",
+      "published_display": "2026-08-01",
+      "matched_keywords": [
+        "命理",
+        "運勢",
         "開運"
       ],
       "score": 14.750000000000002,
@@ -385,23 +385,22 @@
       "event_cluster": "event-04"
     },
     {
-      "title": "八月運勢翻身了！命理師點名3星座名利雙收 天秤摩羯水瓶防過勞",
-      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9vZ0FpelR1ZnRMNkkwVjNPZktIdm92eWFCVDd0d3ZtcXhuOWREZHYwZUVtZnV3Sk5QMS1aNGdHeEE4Qnd1d1ZqTXpsMXbSAVJBVV95cUxOemRMM1FYVDdtUjdRcnV0Wllxek1OcFZ2TUdrbjBuVTgwLXVmU256ZktoZk5FYmJRU2stZk5mZ2liZjZ0SDVwNEhTWlN6TEkxX0NB?oc=5",
+      "title": "農曆七月鬼門開！命理師警告「3生肖」防小人破財",
+      "summary": "来自 udn.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE51eXVjMVRoSk5TOEI5ZV9iZ2RRZHR2OU5RTnFSTVpJUzRLUWtpM2l4VWVET25lcFpTWG9NNTF1T19la1dVMHdLQXVEOHlIMUxx0gFWQVVfeXFMTlRJV0p6VmxLZjByN3R3V2J6VW1YMkFKZTNITFh3S0RmM1Nhdlp3cGRtbUVrWVliNUltUG1oNzRPbUFuazkwVEplWmw1WTJGVVNDRDQxS1E?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "NOWnews今日新聞 · Google News",
+      "source": "udn.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-07-26",
-      "published_display": "2026-07-26",
+      "category": "命理新闻",
+      "published": "2026-08-02",
+      "published_display": "2026-08-02",
       "matched_keywords": [
         "命理",
-        "命理師",
-        "運勢"
+        "命理師"
       ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "score": 12.55,
+      "event_cluster": "event-06"
     }
   ]
 }
