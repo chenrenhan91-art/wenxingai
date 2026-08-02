@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-08-02",
-  "updated_at_display": "2026年8月2日 12:12",
+  "updated_at_display": "2026年8月2日 21:33",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-02T12:12:40.298189+08:00",
+    "fetched_at": "2026-08-02T21:33:32.517069+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,46 +248,46 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 7/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "items": [
     {
-      "title": "只有屬龍人才有的命格！辰逢申月三合成局，「天祿貴人」加持，8月大財小財不斷！#屬龍運勢#生肖龍#2026年運勢#辰申三合#天祿貴人#命理分析#開運指南#貴人運#財運爆發",
+      "title": "屬蛇人有福了！2026丙午年巳午相鄰得流年之力，8月再逢六合月，雙喜臨門旺到年底！#屬蛇運勢#生肖蛇#2026運勢 #丙午年#八字命理#順勢而為#流年運勢#生肖運勢",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sc3NKanJsV19ET3RsWmNpcmlGWVdtRlhmUGVVcl9tbkh4ci03d2NLTHdtZ0hib3g2QnFOOHpUSHJfY1BUa0F0bGlnWmItTnc2Z09zYjl3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuVjU4TVV2SGtMR0pKQ2d1OU0xNmpRbkMyV1ZqVmJHenRMWGVaVzcyT1pYZDNhOE5KUk1nc0RQNE9zVWJLLVU0dGxyQ0g4X3F6RzlUMV9R?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "命理新闻",
-      "published": "2026-08-01",
-      "published_display": "2026-08-01",
+      "category": "八字紫微",
+      "published": "2026-08-02",
+      "published_display": "2026-08-02",
       "matched_keywords": [
+        "八字",
         "命理",
-        "運勢",
-        "開運"
+        "流年"
       ],
       "score": 12.35,
-      "event_cluster": "event-25"
+      "event_cluster": "event-21"
     },
     {
-      "title": "AI 算命行業思路還是太保守了 為什麼不能做一個 AI 改運助手 根據你的八字、大運和流年 每天提醒你幾點出門、穿什麼顏色、坐哪個位置 廣告語我都想好了： Don't fight your fate. Schedule it.",
+      "title": "學生問我： 「老師，學會八字以後，真的可以靠命理賺錢嗎？」 我說： 「可以。」 學生眼睛瞬間亮起來。 我趕快補一句： 「但你先不要高興太早。」 會排命盤， 不等於會看命盤。 會背十神， 也不等於客人聽得懂你在講什麼。 命主問感情， 你不能盯著命盤回答： 「妳這個官殺有點",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9oRERyalJDV25GRENVb2VYOHc3RjE1R3kxYnpuMXdBNE1sNFJkbHFOS3pLb0Z5TDBVWERRWjVnVGlBdEp3TEZIRDdpb3ZiaXlNODdjRmhCVWJ1RFZfb1JQUHVYSQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3Sk5pYUxMWHZ3LUIwazd0YVVudVNSbk9rY2dyZE5OUFp4VFI1UmZnZzdnREN2ZWt1NFNhTjBpcnUwZWxlam1TRk1YanVtbTJZU3NXdG11aXZ3RlBIMEYyd3pROA?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E7%AE%97%E5%91%BD%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "八字紫微",
-      "published": "2026-07-24",
-      "published_display": "2026-07-24",
+      "published": "2026-08-02",
+      "published_display": "2026-08-02",
       "matched_keywords": [
-        "算命",
-        "流年",
-        "八字"
+        "命理",
+        "八字",
+        "命盤"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-83"
+      "event_cluster": "event-41"
     },
     {
       "title": "[新聞] 土星逆行釀震盪！命理師示警：8月迎毒油",
@@ -306,7 +306,7 @@
         "热议"
       ],
       "score": 11.283333333333333,
-      "event_cluster": "event-81"
+      "event_cluster": "event-86"
     },
     {
       "title": "觀音成道日來了！命理師揭開運法：「做5件事」累積福報",
@@ -348,10 +348,10 @@
     },
     {
       "title": "今觀音成道日命理師揭最強開運法做對5事福報翻倍- 好運到",
-      "summary": "来自 觸mii · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 truemii.chinatimes.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53QlpXZ1I5TW9xeDBCbFdJM2Z0aVBjV3ZkeDQ4T25EcFg2NXF5S3Ixbk1fRExNZm5scXZtSTJtWUZjY1dQNW9QZ3pLeXVrVk04SXBYTG9zUFhacTJvZHdiNWhGbjFqRFZ3MjBzRA?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "觸mii · Google News",
+      "source": "truemii.chinatimes.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -386,10 +386,10 @@
     },
     {
       "title": "農曆七月鬼門開！命理師警告「3生肖」防小人破財",
-      "summary": "来自 udn.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE51eXVjMVRoSk5TOEI5ZV9iZ2RRZHR2OU5RTnFSTVpJUzRLUWtpM2l4VWVET25lcFpTWG9NNTF1T19la1dVMHdLQXVEOHlIMUxx0gFWQVVfeXFMTlRJV0p6VmxLZjByN3R3V2J6VW1YMkFKZTNITFh3S0RmM1Nhdlp3cGRtbUVrWVliNUltUG1oNzRPbUFuazkwVEplWmw1WTJGVVNDRDQxS1E?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "udn.com · Google News",
+      "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -400,7 +400,7 @@
         "命理師"
       ],
       "score": 12.55,
-      "event_cluster": "event-06"
+      "event_cluster": "event-05"
     }
   ]
 }
