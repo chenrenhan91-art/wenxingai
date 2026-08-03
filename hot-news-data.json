@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-08-03",
-  "updated_at_display": "2026年8月3日 12:15",
+  "updated_at_display": "2026年8月3日 21:54",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-03T12:15:23.690617+08:00",
+    "fetched_at": "2026-08-03T21:54:35.271475+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -212,7 +212,7 @@
       },
       "ptt_gossiping": {
         "status": "ok",
-        "picked_items": 1,
+        "picked_items": 0,
         "failures": 0
       },
       "ptt_womentalk": {
@@ -232,7 +232,7 @@
       },
       "x_recent_search": {
         "status": "ok",
-        "picked_items": 1,
+        "picked_items": 2,
         "failures": 0
       },
       "reddit_search": {
@@ -268,7 +268,26 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
+    },
+    {
+      "title": "中共把300多名法轮大法弟子，投入到北京首钢的炼钢炉内，化为青烟！中共及江泽民的邪恶，真的是宇宙级别的！——天佑台灣！神算命理師廖美然2026下半年預言：凶象重疊「最危險月份」來襲！鬼月遇上「子午大衝」，警告巨大地震與年輕人猝逝爆發期！#2026 #預..",
+      "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5reXFfTkxnMncwWU5QUnRqX1NWT1F0Q2I4ZUREV3JHVzFFMmVaWmN3QzlvVWF3ZEpPbVZwT3Jpa0hvQUdiazNBaUFvckZ5b1ZZRGJFMnMyRXFBYlBmTWhkczc3TQ?oc=5",
+      "source_id": "x_recent_search",
+      "source": "X · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "community",
+      "category": "命理新闻",
+      "published": "2026-08-03",
+      "published_display": "2026-08-03",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "算命"
+      ],
+      "score": 12.149999999999999,
+      "event_cluster": "event-43"
     },
     {
       "title": "學生問我： 「老師，學會八字以後，真的可以靠命理賺錢嗎？」 我說： 「可以。」 學生眼睛瞬間亮起來。 我趕快補一句： 「但你先不要高興太早。」 會排命盤， 不等於會看命盤。 會背十神， 也不等於客人聽得懂你在講什麼。 命主問感情， 你不能盯著命盤回答： 「妳這個官殺有點",
@@ -287,26 +306,26 @@
         "命盤"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-49"
+      "event_cluster": "event-55"
     },
     {
-      "title": "[新聞] 土星逆行釀震盪！命理師示警：8月迎毒油",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 4，作者 Scorpio。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1785596736.A.6D3.html",
-      "source_id": "ptt_gossiping",
-      "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
-      "source_group": "community",
+      "title": "命理師忘記關掉螢幕分享：Threads貼文瘋傳，「視訊算命」工作流第一次被外行看見",
+      "summary": "来自 TNL The News Lens 關鍵評論網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnN2NveUc3ai0yNVlxUmJCTG1EdU1meGZENXNUSUVCa01FcGpTZHZuZUxQd0QtcEZOQkstMkNNNkNmN1lEZUFrT3lhY1puY0RhSGpmVA?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "TNL The News Lens 關鍵評論網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-08-01",
-      "published_display": "2026-08-01",
+      "published": "2026-08-03",
+      "published_display": "2026-08-03",
       "matched_keywords": [
         "命理",
         "命理師",
-        "热议"
+        "算命"
       ],
-      "score": 11.283333333333333,
-      "event_cluster": "event-94"
+      "score": 14.750000000000002,
+      "event_cluster": "event-01"
     },
     {
       "title": "觀音成道日來了！命理師揭開運法：「做5件事」累積福報",
@@ -325,7 +344,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-01"
+      "event_cluster": "event-02"
     },
     {
       "title": "2026年8月7日迎立秋！命理專家公開6大開運法，3件事別做小心影響運勢| 生活發現",
@@ -344,7 +363,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "今觀音成道日命理師揭最強開運法做對5事福報翻倍- 好運到",
@@ -363,7 +382,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "8／1觀音成道日！命理師揭「最強開運法」 做「5件事」增福報",
@@ -382,25 +401,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "周五立秋…命理師曝「火金相見」4收旺運 6生肖拉警報",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1YZkZFMWIwU0s1VGZVdTVySUhBcllQRl9UNTZidkpETktxc3RxRTJuTmJadFFsZDBoRUtNTnBjenBwUnpDaGVMbzhDX0wzckk40gFWQVVfeXFMTklsRlppbkFvc2NfaUZMazBIMk5NY21tMzJSdGctR2VKTllDOUZ2aTNqNTdLUDgxdnM2c1doRnZsSkJYT3BIclZsOV9PaUxjcUl5bWlGekE?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-08-03",
-      "published_display": "2026-08-03",
-      "matched_keywords": [
-        "命理",
-        "命理師"
-      ],
-      "score": 12.55,
-      "event_cluster": "event-06"
+      "event_cluster": "event-05"
     }
   ]
 }
