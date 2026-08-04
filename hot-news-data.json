@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-08-04",
-  "updated_at_display": "2026年8月4日 12:04",
+  "updated_at_display": "2026年8月4日 21:38",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-04T12:04:13.532017+08:00",
+    "fetched_at": "2026-08-04T21:38:08.491853+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-40"
+      "event_cluster": "event-44"
     },
     {
       "title": "中共把300多名法轮大法弟子，投入到北京首钢的炼钢炉内，化为青烟！中共及江泽民的邪恶，真的是宇宙级别的！——天佑台灣！神算命理師廖美然2026下半年預言：凶象重疊「最危險月份」來襲！鬼月遇上「子午大衝」，警告巨大地震與年輕人猝逝爆發期！#2026 #預..",
@@ -306,14 +306,14 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-50"
+      "event_cluster": "event-53"
     },
     {
       "title": "命理師忘記關掉螢幕分享：Threads貼文瘋傳，「視訊算命」工作流第一次被外行看見",
-      "summary": "来自 thenewslens.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 TNL The News Lens 關鍵評論網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnN2NveUc3ai0yNVlxUmJCTG1EdU1meGZENXNUSUVCa01FcGpTZHZuZUxQd0QtcEZOQkstMkNNNkNmN1lEZUFrT3lhY1puY0RhSGpmVA?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "thenewslens.com · Google News",
+      "source": "TNL The News Lens 關鍵評論網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -347,6 +347,25 @@
       "event_cluster": "event-02"
     },
     {
+      "title": "今觀音成道日宜開運 命理師卻說「不要求」...這2字才是關鍵",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE02QUJhdFhva2xKclI3cE5LVzNLRU9neE9WOHc1V3dHUmlxWk9VbC1QVDVQNGkwdDJHSWVTcUpXMjMwcWZXZ21zMW43eXM1TTJI0gFWQVVfeXFMTVlrVDlLOS05cXlGSEJkYy1LelFQYXJvYVN6QmtOYWs3djlJbjB0NHNaWG1idWhPZDB0ZW9rQ2xiamd5X3JfaWhvWTd6c2d1NUdmZmtkaFE?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "UDN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-08-01",
+      "published_display": "2026-08-01",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
       "title": "2026年8月7日迎立秋！命理專家公開6大開運法，3件事別做小心影響運勢| 生活發現",
       "summary": "来自 Niusnews 妞新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBLTGE3ekJ5ODJKVXhnTGR0WVdrVUhOLVRnaWplS3FZeklOenZ6MmdyZmhOVHRKRmJKdEZkdzB3QjhkSFFDNDBGVnJlbw?oc=5",
@@ -363,7 +382,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "今觀音成道日命理師揭最強開運法做對5事福報翻倍- 好運到",
@@ -376,25 +395,6 @@
       "category": "命理新闻",
       "published": "2026-08-01",
       "published_display": "2026-08-01",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "8／1觀音成道日！命理師揭「最強開運法」 做「5件事」增福報",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNOVJCR1RhdHVlcUFPclR6ejQ0TU5XZlJuNUVEckJnOFpKR0ZrQmJHaWFIcXROaEpkRTlLeGRDanF4R2RHWXZKTTNqemFwMm91U3o5d0Vad3RIWlFBSGJLam50T2JBOHJYYmJhcXVVYzNTMVlHaXlMeGktaHhHUVNBQkFEaUZkLU5odkQ5UU52SFJlekJmQ1N3WHNXV3EwdDZnZmlJeUM5M1JtUWxlLVMyRFdRdWRVR1ozbTJvZkZ2Tk1kdFV6TUZMUEEyWkkwaDQzbjJyUUNkQmF4Ti1Tem1rVlpjY1BwUkpQOHNVdExzRDJWZVBPNXlkVmVxdXo1SUhsX1ZCM3RJbWxOVEZYZ2pJ?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-07-29",
-      "published_display": "2026-07-29",
       "matched_keywords": [
         "命理",
         "命理師",
