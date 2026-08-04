@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-03",
-  "updated_at_display": "2026年8月3日 21:54",
+  "updated_at": "2026-08-04",
+  "updated_at_display": "2026年8月4日 12:04",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-03T21:54:35.271475+08:00",
+    "fetched_at": "2026-08-04T12:04:13.532017+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -181,7 +181,7 @@
       "google_news_xuanxue_tw": 6.05,
       "google_news_taluo_tw": 5.85,
       "google_news_fengshui_tw": 5.85,
-      "ptt_gossiping": 5.55,
+      "ptt_gossiping": 5.45,
       "ptt_womentalk": 5.15,
       "ptt_marvel": 4.65,
       "youtube_search": 5.55,
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 7/8）。"
   ],
   "items": [
     {
@@ -268,7 +268,26 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
+    },
+    {
+      "title": "驚天慘案：361位善良同胞被中共威逼投入1千多度沸騰的鋼水中！ 天佑台灣！神算命理師廖美然2026下半年預言：凶象重疊「最危險月份」來襲！ 鬼月遇上「子午大衝」，警告巨大地震與年輕人猝逝爆發期！ #琦玟街談巷說 全视频：👇👇",
+      "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4wbTFCbkEyb3Nka1lBMFh5Q0JzMl9PdExxR0F6Y08xbGlpVWNGYVVzSzV6VW9zS05hWVJwdW9CcXQ4emV6WWhkcUc0b0pZT2h0T3pKQVV6aURKMjdrQ3ZaejFfVk1OcGc?oc=5",
+      "source_id": "x_recent_search",
+      "source": "X · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "community",
+      "category": "命理新闻",
+      "published": "2026-08-04",
+      "published_display": "2026-08-04",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "算命"
+      ],
+      "score": 12.149999999999999,
+      "event_cluster": "event-40"
     },
     {
       "title": "中共把300多名法轮大法弟子，投入到北京首钢的炼钢炉内，化为青烟！中共及江泽民的邪恶，真的是宇宙级别的！——天佑台灣！神算命理師廖美然2026下半年預言：凶象重疊「最危險月份」來襲！鬼月遇上「子午大衝」，警告巨大地震與年輕人猝逝爆發期！#2026 #預..",
@@ -287,33 +306,14 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-43"
-    },
-    {
-      "title": "學生問我： 「老師，學會八字以後，真的可以靠命理賺錢嗎？」 我說： 「可以。」 學生眼睛瞬間亮起來。 我趕快補一句： 「但你先不要高興太早。」 會排命盤， 不等於會看命盤。 會背十神， 也不等於客人聽得懂你在講什麼。 命主問感情， 你不能盯著命盤回答： 「妳這個官殺有點",
-      "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3Sk5pYUxMWHZ3LUIwazd0YVVudVNSbk9rY2dyZE5OUFp4VFI1UmZnZzdnREN2ZWt1NFNhTjBpcnUwZWxlam1TRk1YanVtbTJZU3NXdG11aXZ3RlBIMEYyd3pROA?oc=5",
-      "source_id": "x_recent_search",
-      "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "community",
-      "category": "八字紫微",
-      "published": "2026-08-02",
-      "published_display": "2026-08-02",
-      "matched_keywords": [
-        "命理",
-        "八字",
-        "命盤"
-      ],
-      "score": 12.149999999999999,
-      "event_cluster": "event-55"
+      "event_cluster": "event-50"
     },
     {
       "title": "命理師忘記關掉螢幕分享：Threads貼文瘋傳，「視訊算命」工作流第一次被外行看見",
-      "summary": "来自 TNL The News Lens 關鍵評論網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 thenewslens.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnN2NveUc3ai0yNVlxUmJCTG1EdU1meGZENXNUSUVCa01FcGpTZHZuZUxQd0QtcEZOQkstMkNNNkNmN1lEZUFrT3lhY1puY0RhSGpmVA?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "TNL The News Lens 關鍵評論網 · Google News",
+      "source": "thenewslens.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
