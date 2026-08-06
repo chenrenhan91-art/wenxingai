@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-08-06T12:03:44.714985+08:00",
-  "ran_at_display": "2026年8月6日 12:03",
+  "ran_at": "2026-08-06T21:36:05.520111+08:00",
+  "ran_at_display": "2026年8月6日 21:36",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "c969329a4f42dd26ffecf1a9a46d7b3b88b74471",
-  "new_signature": "cd40fab9b07de9facd3cdca2c2ed49b1ea971f67",
+  "previous_signature": "cd40fab9b07de9facd3cdca2c2ed49b1ea971f67",
+  "new_signature": "7bf3bfc615328b3245b0b55aa4f9b29196a58b82",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,10 +27,7 @@
     "【農曆7月5大禁忌一次看！命理師教「3開運妙招」：可以穿金戴銀】 （#大表哥）",
     "鬼月來了！命理師曝「5大禁忌+開運3撇步」 做對旺整月"
   ],
-  "added_titles": [
-    "【農曆7月5大禁忌一次看！命理師教「3開運妙招」：可以穿金戴銀】 （#大表哥）",
-    "鬼月來了！命理師曝「5大禁忌+開運3撇步」 做對旺整月"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 7/8）。"
   ],
@@ -42,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月6日 12:04"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月6日 21:36"
     },
     {
       "script": "generate_daily_content.py",
