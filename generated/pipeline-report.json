@@ -1,9 +1,9 @@
 {
-  "ran_at": "2026-08-07T21:30:33.639812+08:00",
-  "ran_at_display": "2026年8月7日 21:30",
+  "ran_at": "2026-08-08T11:32:17.871148+08:00",
+  "ran_at_display": "2026年8月8日 11:32",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "88145cd411a17e75781f60e0dffa2aaf9cfdbcb2",
+  "previous_signature": "388b1dbb9367627746bc017057dcea947771c64b",
   "new_signature": "388b1dbb9367627746bc017057dcea947771c64b",
   "content_changed": true,
   "gemini_ran": true,
@@ -27,10 +27,7 @@
     "太常算命恐「越算越薄」？命理師揭真相：真正毀運勢的是這事",
     "今立秋運勢大翻盤！命理師點5生肖逆襲爆發、黑馬竄出| 星座命理| 生活"
   ],
-  "added_titles": [
-    "感情 #命理師#正能量#八字命理#十二属相#熱門 #流年運勢#家居風水宜忌#人生感悟#紫微斗數#易经#愛情 #婚姻 #補財庫旺財氣",
-    "太常算命恐「越算越薄」？命理師揭真相：真正毀運勢的是這事"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
@@ -42,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月7日 21:30"
+      "output": "[warn] failed to fetch PTT Gossiping: <urlopen error timed out>\n[warn] failed to fetch PTT WomenTalk: <urlopen error timed out>\n[warn] failed to fetch PTT marvel: <urlopen error timed out>\n[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月8日 11:35"
     },
     {
       "script": "generate_daily_content.py",
