@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-08-09T11:34:31.554533+08:00",
-  "ran_at_display": "2026年8月9日 11:34",
+  "ran_at": "2026-08-09T21:23:18.000409+08:00",
+  "ran_at_display": "2026年8月9日 21:23",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "1d5128916b38e2c97ff931698c2c4d9b50c35f56",
-  "new_signature": "3d8d1c664276fddec215c294dd9b787e5c794bc1",
+  "previous_signature": "3d8d1c664276fddec215c294dd9b787e5c794bc1",
+  "new_signature": "5f787af60c7efe80eccb16290a6ea08e134d826d",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,14 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "感情 #命理師#正能量#八字命理#十二属相#熱門 #流年運勢#家居風水宜忌#人生感悟#紫微斗數#易经#愛情 #婚姻 #補財庫旺財氣",
+    "#命理師 #感情 #八字命理 #家居風水宜忌 #流年運勢 #熱門 #易经 #紫微斗數",
     "驚天慘案：361位善良同胞被中共威逼投入1千多度沸騰的鋼水中！ 天佑台灣！神算命理師廖美然2026下半年預言：凶象重疊「最危險月份」來襲！ 鬼月遇上「子午大衝」，警告巨大地震與年輕人猝逝爆發期！ #琦玟街談巷說",
     "中共把300多名法轮大法弟子，投入到北京首钢的炼钢炉内，化为青烟！中共及江泽民的邪恶，真的是宇宙级别的！——天佑台灣！神算命理師廖美然2026下半年預言：凶象重疊「最危險月份」來襲！鬼月遇上「子午大衝」，警告巨大地震與年輕人猝逝爆發期！#2026 #預..",
     "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災",
-    "不准太太回娘家掃墓「媽媽會罵」命理師曝：會敗娘家運勢"
+    "今立秋運勢大翻盤！命理師點5生肖逆襲爆發、黑馬竄出| 星座命理| 生活"
   ],
   "added_titles": [
-    "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災"
+    "#命理師 #感情 #八字命理 #家居風水宜忌 #流年運勢 #熱門 #易经 #紫微斗數",
+    "今立秋運勢大翻盤！命理師點5生肖逆襲爆發、黑馬竄出| 星座命理| 生活"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -41,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月9日 11:34"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月9日 21:23"
     },
     {
       "script": "generate_daily_content.py",
