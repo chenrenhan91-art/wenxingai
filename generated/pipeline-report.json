@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-08-10T11:36:50.407690+08:00",
-  "ran_at_display": "2026年8月10日 11:36",
+  "ran_at": "2026-08-10T21:32:52.298381+08:00",
+  "ran_at_display": "2026年8月10日 21:32",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "5f787af60c7efe80eccb16290a6ea08e134d826d",
-  "new_signature": "b86e141eebc6abaf32a1e9461f27b8ee3042e05f",
+  "previous_signature": "b86e141eebc6abaf32a1e9461f27b8ee3042e05f",
+  "new_signature": "ee1bb71417e8a4673aceb6396f1425d6083ae621",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -24,12 +24,11 @@
     "他最近情緒反撲了嗎？目前心裡是怎麼想的？是否還在意你？會行動嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜",
     "驚天慘案：361位善良同胞被中共威逼投入1千多度沸騰的鋼水中！ 天佑台灣！神算命理師廖美然2026下半年預言：凶象重疊「最危險月份」來襲！ 鬼月遇上「子午大衝」，警告巨大地震與年輕人猝逝爆發期！ #琦玟街談巷說",
     "中共把300多名法轮大法弟子，投入到北京首钢的炼钢炉内，化为青烟！中共及江泽民的邪恶，真的是宇宙级别的！——天佑台灣！神算命理師廖美然2026下半年預言：凶象重疊「最危險月份」來襲！鬼月遇上「子午大衝」，警告巨大地震與年輕人猝逝爆發期！#2026 #預..",
-    "今立秋運勢大翻盤！命理師點5生肖逆襲爆發、黑馬竄出| 星座命理| 生活",
-    "2026年8月7日迎立秋！命理專家公開6大開運法，3件事別做小心影響運勢| 生活發現"
+    "狄鶯護子護成悲劇？命理師爆「前世愛太深」今生反遭獨子榨乾運勢",
+    "今立秋運勢大翻盤！命理師點5生肖逆襲爆發、黑馬竄出| 星座命理| 生活"
   ],
   "added_titles": [
-    "他最近情緒反撲了嗎？目前心裡是怎麼想的？是否還在意你？會行動嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜",
-    "2026年8月7日迎立秋！命理專家公開6大開運法，3件事別做小心影響運勢| 生活發現"
+    "狄鶯護子護成悲劇？命理師爆「前世愛太深」今生反遭獨子榨乾運勢"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -42,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月10日 11:37"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月10日 21:33"
     },
     {
       "script": "generate_daily_content.py",
