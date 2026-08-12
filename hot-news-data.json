@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-11",
-  "updated_at_display": "2026年8月11日 21:32",
+  "updated_at": "2026-08-12",
+  "updated_at_display": "2026年8月12日 11:46",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-11T21:32:40.270745+08:00",
+    "fetched_at": "2026-08-12T11:46:22.090013+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,42 @@
   ],
   "items": [
     {
-      "title": "#命理師 #感情 #八字命理 #家居風水宜忌 #流年運勢 #熱門 #易经 #紫微斗數",
+      "title": "他會不會堅定地選擇你？他對你的心意是什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBjWFk3NGJXNF9icFhQR0FoY1FDeFkxemVacEwzRGZqb3NRSGRTdDBmeGJCcVBlNUJBeGdtaDl2SGxqWjFjdC11bEpkMzVhT3pCNVFsUg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ULW5MTnRZdmtYV3FLZzFtOTBUOUZHcGoweWYyNTJWVVRXSm1mT0x3MDM0SWNfQW00M2xVLWhSN2dKSDhmSm1CWFA1dWNGM1RDR2JiVWZn?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "风水玄学",
-      "published": "2026-08-05",
-      "published_display": "2026-08-05",
+      "category": "塔罗星象",
+      "published": "2026-08-11",
+      "published_display": "2026-08-11",
       "matched_keywords": [
-        "八字",
-        "命理",
-        "命理師"
+        "塔羅",
+        "占卜",
+        "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-06"
+      "event_cluster": "event-01"
+    },
+    {
+      "title": "假借嬰靈這種厭女邪說性侵，緩刑🤡 摘錄：新竹吳男平日以命理師身分替人算命、改運，竟向一名女子聲稱身上跟著「一大一小冤魂」，若不立刻處理恐會「生病發瘋」，再以雞蛋驅邪、按摩油「保護子宮」為由，伸手指侵入女子下體。新竹地院依強制性交罪判吳男2年徒刑，緩",
+      "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14Z3YwaC1nNW9DZDYtcTItdy1oWXh2eGpBMmwxYTJRc0VYdkpaMzBjVVFjY3VYNXpUMFZuNTlRUmQwai1hTy0xYnUxVkRHQWFtNFBUUVg5aUhRNDhwY2I4eg?oc=5",
+      "source_id": "x_recent_search",
+      "source": "X · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "community",
+      "category": "命理新闻",
+      "published": "2026-08-11",
+      "published_display": "2026-08-11",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "算命"
+      ],
+      "score": 12.149999999999999,
+      "event_cluster": "event-55"
     },
     {
       "title": "驚天慘案：361位善良同胞被中共威逼投入1千多度沸騰的鋼水中！ 天佑台灣！神算命理師廖美然2026下半年預言：凶象重疊「最危險月份」來襲！ 鬼月遇上「子午大衝」，警告巨大地震與年輕人猝逝爆發期！ #琦玟街談巷說",
@@ -287,33 +306,14 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-95"
-    },
-    {
-      "title": "中共把300多名法轮大法弟子，投入到北京首钢的炼钢炉内，化为青烟！中共及江泽民的邪恶，真的是宇宙级别的！——天佑台灣！神算命理師廖美然2026下半年預言：凶象重疊「最危險月份」來襲！鬼月遇上「子午大衝」，警告巨大地震與年輕人猝逝爆發期！#2026 #預..",
-      "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5reXFfTkxnMncwWU5QUnRqX1NWT1F0Q2I4ZUREV3JHVzFFMmVaWmN3QzlvVWF3ZEpPbVZwT3Jpa0hvQUdiazNBaUFvckZ5b1ZZRGJFMnMyRXFBYlBmTWhkczc3TQ?oc=5",
-      "source_id": "x_recent_search",
-      "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-08-03",
-      "published_display": "2026-08-03",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "算命"
-      ],
-      "score": 12.149999999999999,
-      "event_cluster": "event-95"
+      "event_cluster": "event-97"
     },
     {
       "title": "狄鶯護子護成悲劇？命理師爆「前世愛太深」今生反遭獨子榨乾運勢",
-      "summary": "来自 setn.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4yR21zaXFrRmJIOFpFRkhwY2VveHl4SWhKVDBHQXJjV3hJeGY2SnZZSU5HMGhHQWpSY0t1d2cxRTQ3ZTdoQlpQddIBTEFVX3lxTE8wQWp1STQzNnprY004VG51RS1md21tSXVlc2swM24zMloyUzdBVzV1VWtMRkZTM1hmcVJkSktzOU52cEJWcTdFcDRwZjQ?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "setn.com · Google News",
+      "source": "三立新聞網SETN.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -325,7 +325,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-01"
+      "event_cluster": "event-02"
     },
     {
       "title": "今立秋運勢大翻盤！命理師點5生肖逆襲爆發、黑馬竄出| 星座命理| 生活",
@@ -344,7 +344,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "2026年8月7日迎立秋！命理專家公開6大開運法，3件事別做小心影響運勢| 生活發現",
@@ -363,7 +363,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "鬼月來了！命理師曝「5大禁忌+開運3撇步」 做對旺整月",
@@ -382,12 +382,12 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "【農曆7月5大禁忌一次看！命理師教「3開運妙招」：可以穿金戴銀】 （#大表哥）",
       "summary": "来自 facebook.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMipANBVV95cUxNRVA0TjVYX0kyVkhnUmFlZGtWdlEzNjU0VHlXeV93NlhDTDMwUG1qZURlSmZxUDNSbXdHQ1hYS3VsczdISm9HLXkwWjkzTGladzVaeGlCMVFja2Vybm1aTERYTk5TbzZ6Uk02dlFFYkdzOG1qNk1Wc3pIa2Q2aU5sZWRmTmdhWGVxY185dkxLa3I3ZS1CMDh4c3A2dWswNmNUOWoxY2lHSjU5ZFNyTmRlOHRCWmY1RVcxcVFsRng0dDRPdDJNc0ZKZ1M1bUFaTlRuZXc2c19CaGtpWi15bF9PdGo3NnBBS0NMbFJpM3JuamhsbzV5STY3NmEwckhVT3A2a2UtTG1wTHBBMmRUSHU1dDBFY1RKVGUwVXZlcUVUNFZ6U0FPbm14NHRTRExwLTlBZ09uXy1uZWZTclN5aVpCcTQ0NmFRZ1QtcFMtM3otTjM5ZDRjUTNDa0V3NnFWZ1B4dndsMjliY3FXTlYzZW5wT0NvdjZMNmFhN0wwUmlteUsyaUNYaDdWSTBiS0RUTV9uU3Bnb3VJWDVGeUpUci1XT3RBUnI?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxPTUdBOUN6TUFtNGx0ZFFHYnNGY2s2c2V3YzgtRlYwVlJpbk5PUmE4ZzR4aWtudlZzYTY2S0I2ajUzcmgtRUpJX2dCRWN0ZS1rZmVkOTVZUElTY1lyUnBTY19VUndtRGpQNkU5SHRrMDJ0X00xdkI0blhhaFI5MFZxUnR3RUxzSE9CQ2dYNkQ0d04zVFNDUmJIejF3bEpiQ2hfNFNTWTcxYnFXY1FCalJaaXhtYm53SGtqdWtvZWE5bHRnVkppeDZKVURINDV4SElMZ0twTllzRHZac05wUlE1VXNqbzZmVVBJX0trVU1Dd3pYbm5YcGZlNXJmakNvZE0yUENmVm81cTRDdy1ITlBoWllJbnZpd2NSdWRNMEFjZ2h6QlNXeFRxUDlCUW1SWjVKYTB0RWRNcE9SSGtmZmpiUDAzVXFVeE1ZSy0tdmJpSS1RY3dZR0s5a2c2aXFycXBlWnladWZ2LXZLMlFKMm16VnBfelZSdllsRnh1U3NVNC1mS3k1bEtTcC1fYnBIUnVVY0RVLU9mSTRkc25nbVpGX2d4aGZEdw?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "facebook.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -401,7 +401,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     }
   ]
 }
