@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-08-13",
-  "updated_at_display": "2026年8月13日 11:47",
+  "updated_at_display": "2026年8月13日 21:32",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-13T11:47:57.615575+08:00",
+    "fetched_at": "2026-08-13T21:32:56.892276+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -180,7 +180,7 @@
       "google_news_mingli_tw": 6.55,
       "google_news_xuanxue_tw": 6.05,
       "google_news_taluo_tw": 5.85,
-      "google_news_fengshui_tw": 5.85,
+      "google_news_fengshui_tw": 5.95,
       "ptt_gossiping": 5.45,
       "ptt_womentalk": 5.15,
       "ptt_marvel": 4.65,
@@ -192,7 +192,7 @@
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 4,
+        "picked_items": 3,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -227,7 +227,7 @@
       },
       "youtube_search": {
         "status": "ok",
-        "picked_items": 1,
+        "picked_items": 2,
         "failures": 0
       },
       "x_recent_search": {
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "假借嬰靈這種厭女邪說性侵，緩刑🤡 摘錄：新竹吳男平日以命理師身分替人算命、改運，竟向一名女子聲稱身上跟著「一大一小冤魂」，若不立刻處理恐會「生病發瘋」，再以雞蛋驅邪、按摩油「保護子宮」為由，伸手指侵入女子下體。新竹地院依強制性交罪判吳男2年徒刑，緩",
@@ -287,7 +287,7 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-70"
+      "event_cluster": "event-72"
     },
     {
       "title": "驚天慘案：361位善良同胞被中共威逼投入1千多度沸騰的鋼水中！ 天佑台灣！神算命理師廖美然2026下半年預言：凶象重疊「最危險月份」來襲！ 鬼月遇上「子午大衝」，警告巨大地震與年輕人猝逝爆發期！ #琦玟街談巷說",
@@ -298,15 +298,15 @@
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "命理新闻",
-      "published": "2026-08-03",
-      "published_display": "2026-08-03",
+      "published": "2026-08-04",
+      "published_display": "2026-08-04",
       "matched_keywords": [
         "命理",
         "命理師",
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-97"
+      "event_cluster": "event-96"
     },
     {
       "title": "討論牆 | 8大QA揭秘高雄指標豪宅設計，如何利用「科學風水」打造聚氣招財的能量磁場？",
@@ -324,20 +324,20 @@
         "磁場",
         "能量"
       ],
-      "score": 16.25,
+      "score": 16.349999999999998,
       "event_cluster": "event-01"
     },
     {
       "title": "立秋運勢大洗牌！ 命理師點名「3生肖」最凶 恐有破財血光災",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxOR1NtNDhKS2xEMXV1Tk5XZVBmQ3RWMzk2N25FaXpFOHNPbWgwRWVXQjN2QWVaX3VBVDloek1SNFRwdlpfX2ZWZmxheXNIeGozN0xRTEl2QXE3Qmo2bHN6NjBrMERubTR2ajRYSlBmT2czVWtNaG0xUUFKMkVoQm5ZUG9QdUNqakFhOGdydlRNcGp5RXdNNWs5UmRmbXNtaUlvc1NUNlVneG9CYTZ2bjVPMTRiV2JHd1ZqS3pLa0twUkFfdXhkUGhBQ2lTOC15aWVxOVZlRXhsTHZGZTdkckgyNTdCSFRoNTJ5bHlYNlRheVJBZmlnSVFTbWNDT184UEdCT25jWHNFdFN5UHpyVDhEQmNuYUxxZFlXM0h0REE1eXdKN2hlQjVVdG4xOVAyVXRFSlU5elV4cUVnSlVtWjlqMklVODhDOU1EZkJldlRXWWlHM2dsN25CSkw2elVLZWFIMlBFWFhtMGxKbld5SWc?oc=5",
+      "summary": "来自 好房網News · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrdTFHNjQzUmNseUpQZzBEYWhsTlVucVJVR0QzREp0LVQ4QmJLUzZ0Qm92NlB1S0RpU2hNVE5HblV0U1FETzBRVzF2bm9NVkxhSld1czZMQmMtaDBHX2FvUmtDSGx6QjFpN2l0STFQeEnSAXBBVV95cUxQa3UxRzY0M1JjbHlKUGcwRGFobE5VbnFSVUdEM0RKdC1UOEJiS1M2dEJvdjZQdUtEaVNoTVROR25VdFNRRE8wUVcxdm5vTVZMYUpXdXM2TEJjLWgwR19hb1JrQ0hsekIxaTdpdEkxUHhJ?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
+      "source": "好房網News · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-08-12",
-      "published_display": "2026-08-12",
+      "published": "2026-08-13",
+      "published_display": "2026-08-13",
       "matched_keywords": [
         "命理",
         "命理師",
@@ -345,6 +345,25 @@
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-02"
+    },
+    {
+      "title": "2026鬼月開運6招！命理師揭農曆七月旺偏財方法：洗熱水澡、錢水澆花、穿這顏色",
+      "summary": "来自 ELLE · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pNzVnWXljZnVzQjVpbHhFUWcwSm5nVTAtcmtvNzN3ZFo5XzB6V0ZWei1tZG1nOTU1U3V4TVVHQlFKTlU0b3NsRDQtcG5vdXFOa0Z2ZXRzZE9CUlBzYWNUUWtoMUtjRDFhbHdHaw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "ELLE · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-08-13",
+      "published_display": "2026-08-13",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
     },
     {
       "title": "今立秋運勢大翻盤！命理師點5生肖逆襲爆發、黑馬竄出| 星座命理| 生活",
@@ -363,42 +382,25 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
-      "title": "今天鬼門開！命理師揭「最易招邪」行為 籲謹守3大原則保平安",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxOcEdiTHliVWtna1JGc1ZabjB0OVdTMFcyMFNLWDA4YVpmTHFCcGlkc0ZycEJyQ3l5TDVicHFTVHgxVklydXVFLWdzWmQzMnlta3BiU2JOMHRoMXVEOXFPd29XVFFoYzBaemFjS0lHZzFXblVicDFNcXRrNUk4SnZic0laZEhfVHU1RlFuck5ReVVoUWxoUmVXTEdpVDl6VzdieGF6OG5XQ2xCTVFJODh5VndYOThEUDl4Y1d5QU1qS0Y3d01ucmxBNFdBdENQcXBWZTk5UlZTQmZCOWhfUmNEaHpmX2RRUEN0bk5mbWF0N3ROdkIzc3lIc1FpVmZwWkR5V05ndlR0dVVzcEZ2dlBwODRYNUItRVptaC1lOGE4UkRwM09Md1pvZEM2eEhiaGppdnV1YV9pbktwel9Vc2hmOU90Uy02MFRSWWFRazdpeXdlNkJOaDJrOHNpU0JpWkNqTTFmT09mOF85ZmZBSXdtZks5MWhJOHNidmc?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-08-13",
-      "published_display": "2026-08-13",
+      "title": "#命理師 #感情 #八字命理 #家居風水宜忌 #流年運勢 #熱門 #易经 #紫微斗數",
+      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBjWFk3NGJXNF9icFhQR0FoY1FDeFkxemVacEwzRGZqb3NRSGRTdDBmeGJCcVBlNUJBeGdtaDl2SGxqWjFjdC11bEpkMzVhT3pCNVFsUg?oc=5",
+      "source_id": "youtube_search",
+      "source": "YouTube · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "video",
+      "category": "风水玄学",
+      "published": "2026-08-05",
+      "published_display": "2026-08-05",
       "matched_keywords": [
+        "八字",
         "命理",
         "命理師"
       ],
-      "score": 12.55,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "【鬼門正式開啟！命理師示警「5種穿搭」少碰 4生肖更要注意】 （圖／資料照)",
-      "summary": "来自 facebook.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMipANBVV95cUxNLWpmVDcyMmV4TGgza1QycVl5d3NrYWF1blVmY3FJNlB0VjVrQUxtUlQ4Um5sSnJicDBLU2x3VXlQckExVGltV2w0bThqdGJfeWgwaXltZ0ZFVlUybEtidGhwc3dYajg2T0RjYmRPX1VXNmxHZjRod2hOeXp2U09RVER3Ymsza2tfLXVENTM3d0dmMUVwODJBaXR6NzdKS2JyQWhsUS1QTHFmZUhoN2ppUHV1QmNIZTByQl92QWZpVWxzc2lXYWRrMUU1T2xEQmcyWXd4cTFuakRKVi1BWTFoY0dlclA4NVQ1ZEJRcURYOHNsUFNOTnAteEZ0LTc0ellUakdId1owWm52cEJ5RkJ5NGFCSWh4UUh4OTJKdF9pSXFQY2pFbEFDZXVlNDVhbkJRV05XRldtQk9pNDZNckM3Z0VPM0ZpbU54Qk1hR2tJRzZmNlJFUklZVzN2TXlGaUE3RkVqNEJvZ25ObWpWWjRIbGwxZmpBeEI4YjZUcDRwaGxER3JpQ2pVSDNGc3hvVHEzWDdfdkI2dnAtQVlhRFAtUVRraWM?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "facebook.com · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-08-13",
-      "published_display": "2026-08-13",
-      "matched_keywords": [
-        "命理",
-        "命理師"
-      ],
-      "score": 12.55,
+      "score": 14.55,
       "event_cluster": "event-06"
     }
   ]
