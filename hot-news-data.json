@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-08-14",
-  "updated_at_display": "2026年8月14日 11:46",
+  "updated_at_display": "2026年8月14日 21:31",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-14T11:46:38.914376+08:00",
+    "fetched_at": "2026-08-14T21:31:57.042850+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-83"
+      "event_cluster": "event-84"
     },
     {
       "title": "驚天慘案：361位善良同胞被中共威逼投入1千多度沸騰的鋼水中！ 天佑台灣！神算命理師廖美然2026下半年預言：凶象重疊「最危險月份」來襲！ 鬼月遇上「子午大衝」，警告巨大地震與年輕人猝逝爆發期！ #琦玟街談巷說",
@@ -306,7 +306,7 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-99"
+      "event_cluster": "event-96"
     },
     {
       "title": "討論牆 | 8大QA揭秘高雄指標豪宅設計，如何利用「科學風水」打造聚氣招財的能量磁場？",
@@ -330,7 +330,7 @@
     {
       "title": "鬼月運勢翻倍！命理師點名「3星座」否極泰來、下半年好運飛升| 星座命理| 生活",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5uNmlCMm95T1pTbVNlVTg4dmFfekU4UFZPMS1Wb3FRbU81RklkMVVNYXI2SWRWc0JteTlGNUhXRkEyb3JSUkZ4NmYyUWt1eDZYT205Zy1BLVF3TUtVOGwzZDNsc1AybGNEOHNWMVZTX3J1UQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlUzh1Um8zeDljQTJlemZ2V211NWw5SnByeWN3R0xSVkJUYmJiN3BNR25TRExQSl9qblZMSEVaeWVYUWpfaWFLSTExM21FMFh4QXgxa0c0MURhMUtmQlJMZXJ2dlpOVDc4OVVQV1hRaThTc3M?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -401,7 +401,7 @@
         "命理師"
       ],
       "score": 14.55,
-      "event_cluster": "event-07"
+      "event_cluster": "event-06"
     }
   ]
 }
