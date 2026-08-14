@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-13",
-  "updated_at_display": "2026年8月13日 21:32",
+  "updated_at": "2026-08-14",
+  "updated_at_display": "2026年8月14日 11:46",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-13T21:32:56.892276+08:00",
+    "fetched_at": "2026-08-14T11:46:38.914376+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,16 +252,16 @@
   ],
   "items": [
     {
-      "title": "他的未來有你嗎？有把你列為長期發展對象嗎？他對你的情感打算|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "這段關係該放手嗎？如果你放下對方會後悔嗎？他內心的真實想法|曖昧|愛情|戀愛|桃花|塔羅占卜",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xWEVadEVfU1dFMG5MTk9uZlltR1Rmd1dGUkIxSVRwRWN0X1JoR0d0VFhTM2Zud09XbU1fdE1ZRFhtd0IxUHg5eXdpZ2RubUdwbWZEX0xR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zMTlCWUtqSnZNQ2RwWktGQWk4Q1RQRHI3NVVySVNLa3k1bkhyLTVEeTNBLVNDUTFTNGxhSWpVd1lmWWlaVi1WcjJrTy00VUtQX1hoOURn?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-08-08",
-      "published_display": "2026-08-08",
+      "published": "2026-08-13",
+      "published_display": "2026-08-13",
       "matched_keywords": [
         "塔羅",
         "占卜",
@@ -287,7 +287,7 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-72"
+      "event_cluster": "event-83"
     },
     {
       "title": "驚天慘案：361位善良同胞被中共威逼投入1千多度沸騰的鋼水中！ 天佑台灣！神算命理師廖美然2026下半年預言：凶象重疊「最危險月份」來襲！ 鬼月遇上「子午大衝」，警告巨大地震與年輕人猝逝爆發期！ #琦玟街談巷說",
@@ -298,15 +298,15 @@
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "命理新闻",
-      "published": "2026-08-04",
-      "published_display": "2026-08-04",
+      "published": "2026-08-03",
+      "published_display": "2026-08-03",
       "matched_keywords": [
         "命理",
         "命理師",
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-96"
+      "event_cluster": "event-99"
     },
     {
       "title": "討論牆 | 8大QA揭秘高雄指標豪宅設計，如何利用「科學風水」打造聚氣招財的能量磁場？",
@@ -328,6 +328,25 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "鬼月運勢翻倍！命理師點名「3星座」否極泰來、下半年好運飛升| 星座命理| 生活",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5uNmlCMm95T1pTbVNlVTg4dmFfekU4UFZPMS1Wb3FRbU81RklkMVVNYXI2SWRWc0JteTlGNUhXRkEyb3JSUkZ4NmYyUWt1eDZYT205Zy1BLVF3TUtVOGwzZDNsc1AybGNEOHNWMVZTX3J1UQ?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "UDN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-08-14",
+      "published_display": "2026-08-14",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
       "title": "立秋運勢大洗牌！ 命理師點名「3生肖」最凶 恐有破財血光災",
       "summary": "来自 好房網News · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrdTFHNjQzUmNseUpQZzBEYWhsTlVucVJVR0QzREp0LVQ4QmJLUzZ0Qm92NlB1S0RpU2hNVE5HblV0U1FETzBRVzF2bm9NVkxhSld1czZMQmMtaDBHX2FvUmtDSGx6QjFpN2l0STFQeEnSAXBBVV95cUxQa3UxRzY0M1JjbHlKUGcwRGFobE5VbnFSVUdEM0RKdC1UOEJiS1M2dEJvdjZQdUtEaVNoTVROR25VdFNRRE8wUVcxdm5vTVZMYUpXdXM2TEJjLWgwR19hb1JrQ0hsekIxaTdpdEkxUHhJ?oc=5",
@@ -344,7 +363,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "2026鬼月開運6招！命理師揭農曆七月旺偏財方法：洗熱水澡、錢水澆花、穿這顏色",
@@ -361,25 +380,6 @@
         "命理",
         "命理師",
         "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "今立秋運勢大翻盤！命理師點5生肖逆襲爆發、黑馬竄出| 星座命理| 生活",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8taXRFcmQyOUEtbFdxMjVKWWhCOTZlY2NpT1lnNkNtbFZrT1JQTnJOODJ0dkRtRlZ1TTJNR19sMmY5YnBjV1FtMUxMc1BrNnBN?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-08-07",
-      "published_display": "2026-08-07",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-04"
@@ -401,7 +401,7 @@
         "命理師"
       ],
       "score": 14.55,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     }
   ]
 }
