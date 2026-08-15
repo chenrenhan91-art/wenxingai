@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-08-15",
-  "updated_at_display": "2026年8月15日 11:16",
+  "updated_at_display": "2026年8月15日 21:14",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-15T11:16:50.810305+08:00",
+    "fetched_at": "2026-08-15T21:14:09.570795+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -212,7 +212,7 @@
       },
       "ptt_gossiping": {
         "status": "ok",
-        "picked_items": 0,
+        "picked_items": 1,
         "failures": 0
       },
       "ptt_womentalk": {
@@ -232,7 +232,7 @@
       },
       "x_recent_search": {
         "status": "ok",
-        "picked_items": 2,
+        "picked_items": 1,
         "failures": 0
       },
       "reddit_search": {
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
@@ -287,26 +287,26 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-81"
+      "event_cluster": "event-88"
     },
     {
-      "title": "驚天慘案：361位善良同胞被中共威逼投入1千多度沸騰的鋼水中！ 天佑台灣！神算命理師廖美然2026下半年預言：凶象重疊「最危險月份」來襲！ 鬼月遇上「子午大衝」，警告巨大地震與年輕人猝逝爆發期！ #琦玟街談巷說",
-      "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qekhjbUx5ZkNXVUNJSmV6Yk1UUXIxM0Z4US04S0pOSEZkRHlBa0JWVF83S0V6X3dmT0FsMnQ4enk0c0tOVTJHaVh0RzJxWVIyZEQ5T2ZwYmRWUDZMT3FBeXozZ2VMclE?oc=5",
-      "source_id": "x_recent_search",
-      "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "title": "[問卦] 俗話說科學的盡頭是玄學，那文科呢？",
+      "summary": "来自 PTT Gossiping 的热议帖，围绕「玄學」展开讨论，推文热度 9，作者 kabor。",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1786792246.A.DF3.html",
+      "source_id": "ptt_gossiping",
+      "source": "PTT Gossiping",
+      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E7%8E%84%E5%AD%B8",
       "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-08-03",
-      "published_display": "2026-08-03",
+      "category": "社区热议",
+      "published": "2026-08-15",
+      "published_display": "2026-08-15",
       "matched_keywords": [
-        "命理",
-        "命理師",
-        "算命"
+        "玄學",
+        "热议",
+        "讨论"
       ],
-      "score": 12.149999999999999,
-      "event_cluster": "event-94"
+      "score": 13.850000000000001,
+      "event_cluster": "event-08"
     },
     {
       "title": "討論牆 | 8大QA揭秘高雄指標豪宅設計，如何利用「科學風水」打造聚氣招財的能量磁場？",
@@ -348,10 +348,10 @@
     },
     {
       "title": "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Vbk9ER1E1NlN4eVZYZmZSaG5yWXpqdVUzOVdQdWwyLWs1am1HY3pXN0VQN2s5a0xHYm1jMldkY2hsTHc1YkY0RtIBTEFVX3lxTE9CNGtweDFDRVVsZDQ3SmttVW9IRzhOeUprM0FuUldMeFBfakxPNXpmb0tPY0g3cUYyNUR4MGZaS1RpNW5qd0NYVHNQSUw?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
+      "source": "三立新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
