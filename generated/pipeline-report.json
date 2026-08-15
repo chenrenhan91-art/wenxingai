@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-08-14T21:31:40.695453+08:00",
-  "ran_at_display": "2026年8月14日 21:31",
+  "ran_at": "2026-08-15T11:16:35.080990+08:00",
+  "ran_at_display": "2026年8月15日 11:16",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "fd7275fee647dad80eab4b4a18d1557cdced9d03",
-  "new_signature": "8c66f9bbe49a84d832d4ab03745b620d3dcb161e",
+  "previous_signature": "8c66f9bbe49a84d832d4ab03745b620d3dcb161e",
+  "new_signature": "2505442cb38d3deca49980b30dce5af2d8b48822",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -29,7 +29,7 @@
   ],
   "added_titles": [],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -39,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月14日 21:31"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月15日 11:16"
     },
     {
       "script": "generate_daily_content.py",
