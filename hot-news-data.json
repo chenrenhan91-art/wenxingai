@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-16",
-  "updated_at_display": "2026年8月16日 21:15",
+  "updated_at": "2026-08-17",
+  "updated_at_display": "2026年8月17日 11:21",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-16T21:15:11.910369+08:00",
+    "fetched_at": "2026-08-17T11:21:28.618380+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "#命理師 #感情 #八字命理 #家居風水宜忌 #流年運勢 #熱門 #易经 #紫微斗數",
+      "title": "他希望你主動嗎？你主動他會怎麼想？如何發展？你不主動對方會動嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBjWFk3NGJXNF9icFhQR0FoY1FDeFkxemVacEwzRGZqb3NRSGRTdDBmeGJCcVBlNUJBeGdtaDl2SGxqWjFjdC11bEpkMzVhT3pCNVFsUg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00dDhRTHM2Mk9lS3FxWmUyZk53SHFQdDQ3bENPVGtjbmMxSHdjOXVsLXo5SWlPaC1laHpKWnpNTzE2QXZfNXFYMFRYVGcxNFJhWnJWR2d3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "风水玄学",
-      "published": "2026-08-05",
-      "published_display": "2026-08-05",
+      "category": "塔罗星象",
+      "published": "2026-08-13",
+      "published_display": "2026-08-13",
       "matched_keywords": [
-        "八字",
-        "命理",
-        "命理師"
+        "塔羅",
+        "占卜",
+        "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-08"
+      "event_cluster": "event-06"
     },
     {
       "title": "假借嬰靈這種厭女邪說性侵，緩刑🤡 摘錄：新竹吳男平日以命理師身分替人算命、改運，竟向一名女子聲稱身上跟著「一大一小冤魂」，若不立刻處理恐會「生病發瘋」，再以雞蛋驅邪、按摩油「保護子宮」為由，伸手指侵入女子下體。新竹地院依強制性交罪判吳男2年徒刑，緩",
@@ -287,11 +287,11 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-82"
+      "event_cluster": "event-91"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「玄學」展开讨论，推文热度 55，作者 a111111。",
+      "summary": "来自 PTT Gossiping 的热议帖，围绕「玄學」展开讨论，推文热度 54，作者 a111111。",
       "url": "https://www.ptt.cc/bbs/Gossiping/M.1786796489.A.EEA.html",
       "source_id": "ptt_gossiping",
       "source": "PTT Gossiping",
@@ -305,7 +305,7 @@
         "热议",
         "讨论"
       ],
-      "score": 29.28333333333333,
+      "score": 28.95,
       "event_cluster": "event-01"
     },
     {
@@ -328,28 +328,9 @@
       "event_cluster": "event-02"
     },
     {
-      "title": "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Vbk9ER1E1NlN4eVZYZmZSaG5yWXpqdVUzOVdQdWwyLWs1am1HY3pXN0VQN2s5a0xHYm1jMldkY2hsTHc1YkY0RtIBTEFVX3lxTE9CNGtweDFDRVVsZDQ3SmttVW9IRzhOeUprM0FuUldMeFBfakxPNXpmb0tPY0g3cUYyNUR4MGZaS1RpNW5qd0NYVHNQSUw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-08-16",
-      "published_display": "2026-08-16",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "流年"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
       "title": "鬼月運勢翻倍！命理師點名「3星座」否極泰來、下半年好運飛升| 星座命理| 生活",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlUzh1Um8zeDljQTJlemZ2V211NWw5SnByeWN3R0xSVkJUYmJiN3BNR25TRExQSl9qblZMSEVaeWVYUWpfaWFLSTExM21FMFh4QXgxa0c0MURhMUtmQlJMZXJ2dlpOVDc4OVVQV1hRaThTc3M?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0zSzV2UF81OHhOTWhreHYtYXNVNHJGTWVOcmN0NEQ0QVctbEw4bl9ZZk5IcGFGcHlQNEZlNzVFR19hMld6VFB4YklaUzRkeHdC?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -363,7 +344,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-03"
     },
     {
       "title": "2026鬼月開運6招！命理師揭農曆七月旺偏財方法：洗熱水澡、錢水澆花、穿這顏色",
@@ -382,7 +363,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-04"
     },
     {
       "title": "立秋運勢大洗牌！ 命理師點名「3生肖」最凶 恐有破財血光災",
@@ -401,7 +382,25 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-05"
+    },
+    {
+      "title": "處暑撞鬼月…命理師曝「火土偏燥」示警7生肖當心",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mR3hZM3RvSVplemJ2UDF0TEVlNWxmT2VIOXVhMVdKYVphaGJZTURuT3hEUHhoaHlUN3QteFd4V0NoeEZiWHluVGZGeW1wemxLcXZTdldR0gFWQVVfeXFMTWZHeFkzdG9JWmV6YnZQMXRMRWU1bGZPZUg5dWExV0phWmFoYllNRG5PeERQeGhoeVQ3dC14V3hXQ2h4RmJYeW5UZkZ5bXB6bEtxdlN2V1E?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "UDN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-08-17",
+      "published_display": "2026-08-17",
+      "matched_keywords": [
+        "命理",
+        "命理師"
+      ],
+      "score": 12.55,
+      "event_cluster": "event-08"
     }
   ]
 }

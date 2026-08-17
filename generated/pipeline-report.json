@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-08-16T21:14:58.621357+08:00",
-  "ran_at_display": "2026年8月16日 21:14",
+  "ran_at": "2026-08-17T11:21:16.249120+08:00",
+  "ran_at_display": "2026年8月17日 11:21",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "47d6f992970e664f2885e735ec46d078e431dfb4",
-  "new_signature": "68937e61a16be324d21f6aa4bc6e58b0fc57dbf3",
+  "previous_signature": "68937e61a16be324d21f6aa4bc6e58b0fc57dbf3",
+  "new_signature": "dd13ee05c271876988ae42b1083b28bcb427ad2f",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "#命理師 #感情 #八字命理 #家居風水宜忌 #流年運勢 #熱門 #易经 #紫微斗數",
+    "他希望你主動嗎？你主動他會怎麼想？如何發展？你不主動對方會動嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜",
     "假借嬰靈這種厭女邪說性侵，緩刑🤡 摘錄：新竹吳男平日以命理師身分替人算命、改運，竟向一名女子聲稱身上跟著「一大一小冤魂」，若不立刻處理恐會「生病發瘋」，再以雞蛋驅邪、按摩油「保護子宮」為由，伸手指侵入女子下體。新竹地院依強制性交罪判吳男2年徒刑，緩",
     "[問卦] 中醫 是醫學還是玄學？",
     "討論牆 | 8大QA揭秘高雄指標豪宅設計，如何利用「科學風水」打造聚氣招財的能量磁場？",
-    "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災"
+    "鬼月運勢翻倍！命理師點名「3星座」否極泰來、下半年好運飛升| 星座命理| 生活"
   ],
   "added_titles": [
-    "#命理師 #感情 #八字命理 #家居風水宜忌 #流年運勢 #熱門 #易经 #紫微斗數",
-    "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災"
+    "他希望你主動嗎？你主動他會怎麼想？如何發展？你不主動對方會動嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+    "鬼月運勢翻倍！命理師點名「3星座」否極泰來、下半年好運飛升| 星座命理| 生活"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
@@ -42,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月16日 21:15"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月17日 11:21"
     },
     {
       "script": "generate_daily_content.py",
