@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-17T11:21:35.318357+08:00",
-  "generated_at_display": "2026-08-17 11:21 CST",
+  "generated_at": "2026-08-17T21:19:25.092352+08:00",
+  "generated_at_display": "2026-08-17 21:19 CST",
   "site_positioning": "问星AI是面向全球华语用户的AI命理应用，核心覆盖紫微斗数、四柱八字、周易六爻、合盘分析、大运流年与玄学热点解读。",
   "hot_news": {
     "updated_at": "2026-08-17",
@@ -8,20 +8,20 @@
       "他希望你主動嗎？你主動他會怎麼想？如何發展？你不主動對方會動嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜",
       "假借嬰靈這種厭女邪說性侵，緩刑🤡 摘錄：新竹吳男平日以命理師身分替人算命、改運，竟向一名女子聲稱身上跟著「一大一小冤魂」，若不立刻處理恐會「生病發瘋」，再以雞蛋驅邪、按摩油「保護子宮」為由，伸手指侵入女子下體。新竹地院依強制性交罪判吳男2年徒刑，緩",
       "[問卦] 中醫 是醫學還是玄學？",
-      "討論牆 | 8大QA揭秘高雄指標豪宅設計，如何利用「科學風水」打造聚氣招財的能量磁場？",
       "鬼月運勢翻倍！命理師點名「3星座」否極泰來、下半年好運飛升| 星座命理| 生活",
       "2026鬼月開運6招！命理師揭農曆七月旺偏財方法：洗熱水澡、錢水澆花、穿這顏色",
       "立秋運勢大洗牌！ 命理師點名「3生肖」最凶 恐有破財血光災",
+      "#命理師 #感情 #八字命理 #家居風水宜忌 #流年運勢 #熱門 #易经 #紫微斗數",
       "處暑撞鬼月…命理師曝「火土偏燥」示警7生肖當心"
     ],
     "keywords": [
       [
         "命理",
-        5
+        6
       ],
       [
         "命理師",
-        5
+        6
       ],
       [
         "運勢",
@@ -56,19 +56,11 @@
         1
       ],
       [
-        "風水",
-        1
-      ],
-      [
-        "磁場",
-        1
-      ],
-      [
-        "能量",
-        1
-      ],
-      [
         "開運",
+        1
+      ],
+      [
+        "八字",
         1
       ]
     ],
@@ -92,6 +84,42 @@
     ]
   },
   "scored_clusters": [
+    {
+      "id": "xuanxue-hot-news",
+      "name": "玄学热点与命理新闻",
+      "score": 122,
+      "priority": 76,
+      "hot_matches": [
+        "生肖",
+        "桃花",
+        "流年"
+      ],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "玄学",
+        "命理新闻",
+        "命理热点",
+        "塔罗占卜",
+        "运势"
+      ],
+      "target_questions": [
+        "最近玄学热点有哪些？",
+        "命理新闻为什么容易引发讨论？",
+        "如何理性看待生肖运势和塔罗占卜？"
+      ],
+      "preferred_pages": [
+        "/mingli-xuanxue-news.html",
+        "/articles/",
+        "/glossary.html"
+      ],
+      "content_angles": [
+        "用每日热点做新鲜度",
+        "把新闻转成理性命理解释",
+        "避免娱乐化过度预言"
+      ],
+      "automation_cadence": "daily"
+    },
     {
       "id": "ai-mingli",
       "name": "AI命理与AI算命",
@@ -124,41 +152,6 @@
         "用问星AI案例说明可验证性"
       ],
       "automation_cadence": "weekly"
-    },
-    {
-      "id": "xuanxue-hot-news",
-      "name": "玄学热点与命理新闻",
-      "score": 110,
-      "priority": 76,
-      "hot_matches": [
-        "生肖",
-        "桃花"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "玄学",
-        "命理新闻",
-        "命理热点",
-        "塔罗占卜",
-        "运势"
-      ],
-      "target_questions": [
-        "最近玄学热点有哪些？",
-        "命理新闻为什么容易引发讨论？",
-        "如何理性看待生肖运势和塔罗占卜？"
-      ],
-      "preferred_pages": [
-        "/mingli-xuanxue-news.html",
-        "/articles/",
-        "/glossary.html"
-      ],
-      "content_angles": [
-        "用每日热点做新鲜度",
-        "把新闻转成理性命理解释",
-        "避免娱乐化过度预言"
-      ],
-      "automation_cadence": "daily"
     },
     {
       "id": "ziwei-ai",
@@ -226,6 +219,40 @@
       "automation_cadence": "weekly"
     },
     {
+      "id": "jieqi-mingli",
+      "name": "二十四节气命理",
+      "score": 100,
+      "priority": 78,
+      "hot_matches": [
+        "流年"
+      ],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "节气命理",
+        "二十四节气",
+        "立春八字",
+        "小满运势",
+        "节气运势"
+      ],
+      "target_questions": [
+        "为什么八字以节气划分月份？",
+        "立春前后出生八字怎么算？",
+        "节气对运势有什么影响？"
+      ],
+      "preferred_pages": [
+        "/24jieqi/",
+        "/geo-answers.html",
+        "/articles/"
+      ],
+      "content_angles": [
+        "节气前7天更新对应页面",
+        "解释月令与八字关系",
+        "用热点文章承接节气新闻"
+      ],
+      "automation_cadence": "seasonal"
+    },
+    {
       "id": "liuyao-ai",
       "name": "周易六爻AI解卦",
       "score": 95,
@@ -287,67 +314,9 @@
         "把合盘定位为沟通参考"
       ],
       "automation_cadence": "biweekly"
-    },
-    {
-      "id": "jieqi-mingli",
-      "name": "二十四节气命理",
-      "score": 88,
-      "priority": 78,
-      "hot_matches": [],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "节气命理",
-        "二十四节气",
-        "立春八字",
-        "小满运势",
-        "节气运势"
-      ],
-      "target_questions": [
-        "为什么八字以节气划分月份？",
-        "立春前后出生八字怎么算？",
-        "节气对运势有什么影响？"
-      ],
-      "preferred_pages": [
-        "/24jieqi/",
-        "/geo-answers.html",
-        "/articles/"
-      ],
-      "content_angles": [
-        "节气前7天更新对应页面",
-        "解释月令与八字关系",
-        "用热点文章承接节气新闻"
-      ],
-      "automation_cadence": "seasonal"
     }
   ],
   "briefs": [
-    {
-      "cluster_id": "ai-mingli",
-      "cluster_name": "AI命理与AI算命",
-      "action": "new_article",
-      "primary_keyword": "AI命理",
-      "target_question": "AI命理和传统算命有什么区别？",
-      "suggested_title": "AI命理怎么理解？问星AI的理性命理观察",
-      "suggested_h2": [
-        "AI命理的搜索意图是什么",
-        "问星AI如何解释AI命理",
-        "传统命理与AI趋势分析的边界",
-        "可引用事实与常见问题"
-      ],
-      "internal_links": [
-        "/facts/wenxing-ai.html",
-        "/geo-answers.html",
-        "/glossary.html",
-        "/mingli-xuanxue-news.html"
-      ],
-      "hot_context": [
-        "他希望你主動嗎？你主動他會怎麼想？如何發展？你不主動對方會動嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜",
-        "假借嬰靈這種厭女邪說性侵，緩刑🤡 摘錄：新竹吳男平日以命理師身分替人算命、改運，竟向一名女子聲稱身上跟著「一大一小冤魂」，若不立刻處理恐會「生病發瘋」，再以雞蛋驅邪、按摩油「保護子宮」為由，伸手指侵入女子下體。新竹地院依強制性交罪判吳男2年徒刑，緩",
-        "[問卦] 中醫 是醫學還是玄學？"
-      ],
-      "angle": "理性解释AI命理边界"
-    },
     {
       "cluster_id": "xuanxue-hot-news",
       "cluster_name": "玄学热点与命理新闻",
@@ -373,6 +342,32 @@
         "[問卦] 中醫 是醫學還是玄學？"
       ],
       "angle": "用每日热点做新鲜度"
+    },
+    {
+      "cluster_id": "ai-mingli",
+      "cluster_name": "AI命理与AI算命",
+      "action": "new_article",
+      "primary_keyword": "AI命理",
+      "target_question": "AI命理和传统算命有什么区别？",
+      "suggested_title": "AI命理怎么理解？问星AI的理性命理观察",
+      "suggested_h2": [
+        "AI命理的搜索意图是什么",
+        "问星AI如何解释AI命理",
+        "传统命理与AI趋势分析的边界",
+        "可引用事实与常见问题"
+      ],
+      "internal_links": [
+        "/facts/wenxing-ai.html",
+        "/geo-answers.html",
+        "/glossary.html",
+        "/mingli-xuanxue-news.html"
+      ],
+      "hot_context": [
+        "他希望你主動嗎？你主動他會怎麼想？如何發展？你不主動對方會動嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+        "假借嬰靈這種厭女邪說性侵，緩刑🤡 摘錄：新竹吳男平日以命理師身分替人算命、改運，竟向一名女子聲稱身上跟著「一大一小冤魂」，若不立刻處理恐會「生病發瘋」，再以雞蛋驅邪、按摩油「保護子宮」為由，伸手指侵入女子下體。新竹地院依強制性交罪判吳男2年徒刑，緩",
+        "[問卦] 中醫 是醫學還是玄學？"
+      ],
+      "angle": "理性解释AI命理边界"
     },
     {
       "cluster_id": "ziwei-ai",
@@ -427,15 +422,15 @@
       "angle": "把大运流年解释为周期观察"
     },
     {
-      "cluster_id": "liuyao-ai",
-      "cluster_name": "周易六爻AI解卦",
+      "cluster_id": "jieqi-mingli",
+      "cluster_name": "二十四节气命理",
       "action": "new_article",
-      "primary_keyword": "六爻AI",
-      "target_question": "六爻适合问什么问题？",
-      "suggested_title": "六爻AI怎么理解？问星AI的理性命理观察",
+      "primary_keyword": "节气命理",
+      "target_question": "为什么八字以节气划分月份？",
+      "suggested_title": "节气命理怎么理解？问星AI的理性命理观察",
       "suggested_h2": [
-        "六爻AI的搜索意图是什么",
-        "问星AI如何解释六爻AI",
+        "节气命理的搜索意图是什么",
+        "问星AI如何解释节气命理",
         "传统命理与AI趋势分析的边界",
         "可引用事实与常见问题"
       ],
@@ -450,7 +445,7 @@
         "假借嬰靈這種厭女邪說性侵，緩刑🤡 摘錄：新竹吳男平日以命理師身分替人算命、改運，竟向一名女子聲稱身上跟著「一大一小冤魂」，若不立刻處理恐會「生病發瘋」，再以雞蛋驅邪、按摩油「保護子宮」為由，伸手指侵入女子下體。新竹地院依強制性交罪判吳男2年徒刑，緩",
         "[問卦] 中醫 是醫學還是玄學？"
       ],
-      "angle": "把六爻定位为具体问题判断"
+      "angle": "节气前7天更新对应页面"
     }
   ],
   "monthly_ai_prompt_tests": [
