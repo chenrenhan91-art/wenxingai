@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-17",
-  "updated_at_display": "2026年8月17日 21:19",
+  "updated_at": "2026-08-18",
+  "updated_at_display": "2026年8月18日 11:19",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-17T21:19:18.533494+08:00",
+    "fetched_at": "2026-08-18T11:19:18.471920+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -180,7 +180,7 @@
       "google_news_mingli_tw": 6.55,
       "google_news_xuanxue_tw": 6.05,
       "google_news_taluo_tw": 5.85,
-      "google_news_fengshui_tw": 5.95,
+      "google_news_fengshui_tw": 5.85,
       "ptt_gossiping": 5.55,
       "ptt_womentalk": 5.15,
       "ptt_marvel": 4.65,
@@ -192,7 +192,7 @@
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 4,
+        "picked_items": 5,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -227,7 +227,7 @@
       },
       "youtube_search": {
         "status": "ok",
-        "picked_items": 2,
+        "picked_items": 1,
         "failures": 0
       },
       "x_recent_search": {
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "items": [
     {
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
       "title": "假借嬰靈這種厭女邪說性侵，緩刑🤡 摘錄：新竹吳男平日以命理師身分替人算命、改運，竟向一名女子聲稱身上跟著「一大一小冤魂」，若不立刻處理恐會「生病發瘋」，再以雞蛋驅邪、按摩油「保護子宮」為由，伸手指侵入女子下體。新竹地院依強制性交罪判吳男2年徒刑，緩",
@@ -287,7 +287,7 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-92"
+      "event_cluster": "event-90"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -309,6 +309,25 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "別只顧著拜拜！中元節「4種人」最易出事 命理師揭2招開運",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxPeFFSTUwxMHpfMVJaS2k1a3R3UmdTQ2V5emlCb1VFNWlqYTVQTGl0THhXbkIwdi02LUN3NW5xYm0xR21pcU5sakt2eVVqR3pXczFTd2x2RXhEc2ZxS3h2c1RuUUx6YmZCNmo0T0ZqQ3BxNjRXTkJPTHBNVjllWFRMUDNKNVppdXp5S2QxOEhtZGFsOWI0TGd0UHptbVBIN0hrNTJVeVpMR1U1RFhwZDRDTG5uOXc2d190NkJOazk4NTFOR2FJM0xtR0Y2X01YdmNqTEQ5VFg3RkVoMEs2MHR6YTR1Q3VSWUpuNXVUMm9DdkEtVVRFcFpIN1g4U3podTN5WGh3YWNGdF9MaGdIT2N4ckc0X3AxNXBTQ24zUzNGZFVCVGtGeEIzNVVXRF9STFdVbzhIWWdwaDVYV2FOUXRTQkVyeklwczBnMXE5SWhZOEFfdHRYZk5VY1RKVzNobDdTenMw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-08-16",
+      "published_display": "2026-08-16",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
       "title": "鬼月運勢翻倍！命理師點名「3星座」否極泰來、下半年好運飛升| 星座命理| 生活",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0zSzV2UF81OHhOTWhreHYtYXNVNHJGTWVOcmN0NEQ0QVctbEw4bl9ZZk5IcGFGcHlQNEZlNzVFR19hMld6VFB4YklaUzRkeHdC?oc=5",
@@ -325,7 +344,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "2026鬼月開運6招！命理師揭農曆七月旺偏財方法：洗熱水澡、錢水澆花、穿這顏色",
@@ -344,7 +363,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "立秋運勢大洗牌！ 命理師點名「3生肖」最凶 恐有破財血光災",
@@ -363,44 +382,26 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
-      "title": "#命理師 #感情 #八字命理 #家居風水宜忌 #流年運勢 #熱門 #易经 #紫微斗數",
-      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBjWFk3NGJXNF9icFhQR0FoY1FDeFkxemVacEwzRGZqb3NRSGRTdDBmeGJCcVBlNUJBeGdtaDl2SGxqWjFjdC11bEpkMzVhT3pCNVFsUg?oc=5",
-      "source_id": "youtube_search",
-      "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "video",
-      "category": "风水玄学",
-      "published": "2026-08-05",
-      "published_display": "2026-08-05",
-      "matched_keywords": [
-        "八字",
-        "命理",
-        "命理師"
-      ],
-      "score": 14.55,
-      "event_cluster": "event-07"
-    },
-    {
-      "title": "處暑撞鬼月…命理師曝「火土偏燥」示警7生肖當心",
+      "title": "七夕別只約會！命理師曝「5招」旺桃花 穿破衣恐感情生變",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mR3hZM3RvSVplemJ2UDF0TEVlNWxmT2VIOXVhMVdKYVphaGJZTURuT3hEUHhoaHlUN3QteFd4V0NoeEZiWHluVGZGeW1wemxLcXZTdldR0gFWQVVfeXFMTWZHeFkzdG9JWmV6YnZQMXRMRWU1bGZPZUg5dWExV0phWmFoYllNRG5PeERQeGhoeVQ3dC14V3hXQ2h4RmJYeW5UZkZ5bXB6bEtxdlN2V1E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9NZ0s5Qjc1cVdPMWoxVXVwX191TFB0eWhmN3h0OUpRaGpvOVhQS2tkcmxpZzY0T0RlRm5MS0tuOWF2WjJZaTBIZUZwT0FPQUhw0gFWQVVfeXFMT2Fydy1wS3cyVHdnM2JqWUNXX21WZHVCeldrelhBRVpZcWJrV0kwQk1mdXZJUDY3Rk5neThsemhwcGw3QVdqSzlzZHlfbWhGa1cwWXlXUXc?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-08-17",
-      "published_display": "2026-08-17",
+      "published": "2026-08-18",
+      "published_display": "2026-08-18",
       "matched_keywords": [
         "命理",
-        "命理師"
+        "命理師",
+        "桃花"
       ],
       "score": 12.55,
-      "event_cluster": "event-08"
+      "event_cluster": "event-09"
     }
   ]
 }

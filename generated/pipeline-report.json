@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-08-17T21:19:06.133502+08:00",
-  "ran_at_display": "2026年8月17日 21:19",
+  "ran_at": "2026-08-18T11:19:03.605331+08:00",
+  "ran_at_display": "2026年8月18日 11:19",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "dd13ee05c271876988ae42b1083b28bcb427ad2f",
-  "new_signature": "d04e69782d0ed57c78ed8307e96781362ca023c4",
+  "previous_signature": "d04e69782d0ed57c78ed8307e96781362ca023c4",
+  "new_signature": "80cf66ee1258a15e35fa365e4373e71953eb9a7c",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -24,14 +24,14 @@
     "他希望你主動嗎？你主動他會怎麼想？如何發展？你不主動對方會動嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜",
     "假借嬰靈這種厭女邪說性侵，緩刑🤡 摘錄：新竹吳男平日以命理師身分替人算命、改運，竟向一名女子聲稱身上跟著「一大一小冤魂」，若不立刻處理恐會「生病發瘋」，再以雞蛋驅邪、按摩油「保護子宮」為由，伸手指侵入女子下體。新竹地院依強制性交罪判吳男2年徒刑，緩",
     "[問卦] 中醫 是醫學還是玄學？",
-    "鬼月運勢翻倍！命理師點名「3星座」否極泰來、下半年好運飛升| 星座命理| 生活",
-    "2026鬼月開運6招！命理師揭農曆七月旺偏財方法：洗熱水澡、錢水澆花、穿這顏色"
+    "別只顧著拜拜！中元節「4種人」最易出事 命理師揭2招開運",
+    "鬼月運勢翻倍！命理師點名「3星座」否極泰來、下半年好運飛升| 星座命理| 生活"
   ],
   "added_titles": [
-    "2026鬼月開運6招！命理師揭農曆七月旺偏財方法：洗熱水澡、錢水澆花、穿這顏色"
+    "別只顧著拜拜！中元節「4種人」最易出事 命理師揭2招開運"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -41,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月17日 21:19"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月18日 11:19"
     },
     {
       "script": "generate_daily_content.py",
