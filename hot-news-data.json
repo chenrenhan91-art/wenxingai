@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-08-18",
-  "updated_at_display": "2026年8月18日 11:19",
+  "updated_at_display": "2026年8月18日 21:20",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-18T11:19:18.471920+08:00",
+    "fetched_at": "2026-08-18T21:20:44.268119+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,9 +252,9 @@
   ],
   "items": [
     {
-      "title": "他希望你主動嗎？你主動他會怎麼想？如何發展？你不主動對方會動嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+      "title": "這段關係該放手嗎？如果你放下對方會後悔嗎？他內心的真實想法|曖昧|愛情|戀愛|桃花|塔羅占卜",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00dDhRTHM2Mk9lS3FxWmUyZk53SHFQdDQ3bENPVGtjbmMxSHdjOXVsLXo5SWlPaC1laHpKWnpNTzE2QXZfNXFYMFRYVGcxNFJhWnJWR2d3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zMTlCWUtqSnZNQ2RwWktGQWk4Q1RQRHI3NVVySVNLa3k1bkhyLTVEeTNBLVNDUTFTNGxhSWpVd1lmWWlaVi1WcjJrTy00VUtQX1hoOURn?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -287,7 +287,7 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-90"
+      "event_cluster": "event-89"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -329,10 +329,10 @@
     },
     {
       "title": "鬼月運勢翻倍！命理師點名「3星座」否極泰來、下半年好運飛升| 星座命理| 生活",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 udn.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0zSzV2UF81OHhOTWhreHYtYXNVNHJGTWVOcmN0NEQ0QVctbEw4bl9ZZk5IcGFGcHlQNEZlNzVFR19hMld6VFB4YklaUzRkeHdC?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
+      "source": "udn.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "塔罗星象",
@@ -386,10 +386,10 @@
     },
     {
       "title": "七夕別只約會！命理師曝「5招」旺桃花 穿破衣恐感情生變",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 udn.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9NZ0s5Qjc1cVdPMWoxVXVwX191TFB0eWhmN3h0OUpRaGpvOVhQS2tkcmxpZzY0T0RlRm5MS0tuOWF2WjJZaTBIZUZwT0FPQUhw0gFWQVVfeXFMT2Fydy1wS3cyVHdnM2JqWUNXX21WZHVCeldrelhBRVpZcWJrV0kwQk1mdXZJUDY3Rk5neThsemhwcGw3QVdqSzlzZHlfbWhGa1cwWXlXUXc?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
+      "source": "udn.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
