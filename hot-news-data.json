@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-18",
-  "updated_at_display": "2026年8月18日 21:20",
+  "updated_at": "2026-08-19",
+  "updated_at_display": "2026年8月19日 11:20",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-18T21:20:44.268119+08:00",
+    "fetched_at": "2026-08-19T11:20:07.432358+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-06"
+      "event_cluster": "event-08"
     },
     {
       "title": "假借嬰靈這種厭女邪說性侵，緩刑🤡 摘錄：新竹吳男平日以命理師身分替人算命、改運，竟向一名女子聲稱身上跟著「一大一小冤魂」，若不立刻處理恐會「生病發瘋」，再以雞蛋驅邪、按摩油「保護子宮」為由，伸手指侵入女子下體。新竹地院依強制性交罪判吳男2年徒刑，緩",
@@ -287,7 +287,7 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-89"
+      "event_cluster": "event-96"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -309,6 +309,44 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "七夕今日至！命理師授9招開運術 求子求財催桃花一次看",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QQ2JHSHlpWG15RFhtMklXMnBLZExvcTMyVnMzNlRSZ2xTVnB6NXA3aHF2d2lkZWk1TGlsX3JvcnV4TG14UVlsN0NROXRqOGlFRkg3UjFQUFNhMkZISGFpWmgwWEpvTU11UVFvdkI5UXI5QdIBVkFVX3lxTE1jTThrek1fb1NRNkZqclhIS004cXlrVkx1SHhoMVd2VXRGQ2QwYThmNTlZMHVCNUNDaDduSFlGa0NLbDJJVUkwR1dTWHd0RUpnb3EzcmhB?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "UDN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-08-19",
+      "published_display": "2026-08-19",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
+      "title": "七夕情人節不只約會！命理師曝5招開運法：求財去霉運、斬斷爛桃花",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxQOTZIb29RU2s1cWoxak9janlSY2tpN3JrRzRZb0dLVnhKYUN0cTZ1T1FVSG5KZUZxNWhNQ21WU2FhR1J2TDBtT1NpTTltbDU0cGRmREVUMmZmd2hBZmItbDBQZVdILXhVUWJja0k4a2tMd1dDd29KaEF2MDN4SWlsbWJTX1J1RnZNRUtKS2hjSUFhSllwVlRxYlQ1MlBpYWdpdEs4NXV1Z1QtR0JWQ3BFWjJQMTNzM2R6cUdaRGJ1QUoxalBKR1phZWJmbEVtdW9Qc0NzYUdtNDlIbl9mWW9BVk1ldjdDSVh4dmotazNmWUlGN1lXZ1daN18wLWlYbGJDU0h5UGRaaVlYNXk5dzk4TmNFYmw5N0tRV1hxaTdSQzhjakRuYm1UWUdPTlFXUFg5X3lFcWlwaklteDhWb2JUM2Z1bGtYRHpwSzcxTDcxQmxWX2lQckhsaURtVzFYYVlZVlNpS3RCQzFQTzhjZ0tLV2lFQzhhM29qbWRQdjIxLXlaclJqSmwxV2t0MWphMWZrM255c1hxX25aaDFy?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-08-19",
+      "published_display": "2026-08-19",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
       "title": "別只顧著拜拜！中元節「4種人」最易出事 命理師揭2招開運",
       "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxPeFFSTUwxMHpfMVJaS2k1a3R3UmdTQ2V5emlCb1VFNWlqYTVQTGl0THhXbkIwdi02LUN3NW5xYm0xR21pcU5sakt2eVVqR3pXczFTd2x2RXhEc2ZxS3h2c1RuUUx6YmZCNmo0T0ZqQ3BxNjRXTkJPTHBNVjllWFRMUDNKNVppdXp5S2QxOEhtZGFsOWI0TGd0UHptbVBIN0hrNTJVeVpMR1U1RFhwZDRDTG5uOXc2d190NkJOazk4NTFOR2FJM0xtR0Y2X01YdmNqTEQ5VFg3RkVoMEs2MHR6YTR1Q3VSWUpuNXVUMm9DdkEtVVRFcFpIN1g4U3podTN5WGh3YWNGdF9MaGdIT2N4ckc0X3AxNXBTQ24zUzNGZFVCVGtGeEIzNVVXRF9STFdVbzhIWWdwaDVYV2FOUXRTQkVyeklwczBnMXE5SWhZOEFfdHRYZk5VY1RKVzNobDdTenMw?oc=5",
@@ -325,14 +363,14 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-04"
     },
     {
       "title": "鬼月運勢翻倍！命理師點名「3星座」否極泰來、下半年好運飛升| 星座命理| 生活",
-      "summary": "来自 udn.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0zSzV2UF81OHhOTWhreHYtYXNVNHJGTWVOcmN0NEQ0QVctbEw4bl9ZZk5IcGFGcHlQNEZlNzVFR19hMld6VFB4YklaUzRkeHdC?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "udn.com · Google News",
+      "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "塔罗星象",
@@ -344,7 +382,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-05"
     },
     {
       "title": "2026鬼月開運6招！命理師揭農曆七月旺偏財方法：洗熱水澡、錢水澆花、穿這顏色",
@@ -363,45 +401,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "立秋運勢大洗牌！ 命理師點名「3生肖」最凶 恐有破財血光災",
-      "summary": "来自 Yahoo股市 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxQXzZ6UktVNlNIRHZvVlVEZDVNRU5nTkpUSEtNd0x0d0NlUUNTV2NjWjczbnJ5bndtZzd4a0hDNDdHZ21IaWJsZUVyd29kNVJLcDl4VFQzSk5JcEdPRFF1UFRSeGdIYjQwcTdjVUZQSlg4eFZyRVBEU1J4RndUMjl0T0VYREJVeW5zSWlBUHhwUFRtVE5xZFBrdVdYR1k0VTBYZWhYdWNwLXd4ZXpjT2twaUZGOUktXzdCUGVCSDJTdmJZSlgzanFmYk1RajloQXNCc1c1MjEyU0tYQWhKaU4wYkkxamVzQS1lU09YU184VlFpdXJlSWxWWWgzSmVGWHZ1cC1uOHBCNExSUHptNU5xYmVyOWtyOE9hc29sRG9qaUFqSVpoQVlIa3RsSmItZWYwNDRxdzZ6ZUttRFRndVZ3YW5Xa0p0VU56LWd2RFFkejNXckRXbTZtM3ZYR1MxYUVid0RrTWpCYldvcU5pU0JGZ2RaYVBVUQ?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo股市 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-08-12",
-      "published_display": "2026-08-12",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "七夕別只約會！命理師曝「5招」旺桃花 穿破衣恐感情生變",
-      "summary": "来自 udn.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9NZ0s5Qjc1cVdPMWoxVXVwX191TFB0eWhmN3h0OUpRaGpvOVhQS2tkcmxpZzY0T0RlRm5MS0tuOWF2WjJZaTBIZUZwT0FPQUhw0gFWQVVfeXFMT2Fydy1wS3cyVHdnM2JqWUNXX21WZHVCeldrelhBRVpZcWJrV0kwQk1mdXZJUDY3Rk5neThsemhwcGw3QVdqSzlzZHlfbWhGa1cwWXlXUXc?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "udn.com · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-08-18",
-      "published_display": "2026-08-18",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "桃花"
-      ],
-      "score": 12.55,
-      "event_cluster": "event-09"
+      "event_cluster": "event-06"
     }
   ]
 }
