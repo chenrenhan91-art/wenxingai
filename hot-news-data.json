@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-08-20",
-  "updated_at_display": "2026年8月20日 11:19",
+  "updated_at_display": "2026年8月20日 21:21",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-20T11:19:52.210112+08:00",
+    "fetched_at": "2026-08-20T21:21:58.587688+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "能量"
       ],
       "score": 12.35,
-      "event_cluster": "event-43"
+      "event_cluster": "event-53"
     },
     {
       "title": "假借嬰靈這種厭女邪說性侵，緩刑🤡 摘錄：新竹吳男平日以命理師身分替人算命、改運，竟向一名女子聲稱身上跟著「一大一小冤魂」，若不立刻處理恐會「生病發瘋」，再以雞蛋驅邪、按摩油「保護子宮」為由，伸手指侵入女子下體。新竹地院依強制性交罪判吳男2年徒刑，緩",
@@ -287,7 +287,7 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-95"
+      "event_cluster": "event-92"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -309,9 +309,28 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "8/23處暑要來了！6大禁忌別犯，命理師曝「敲9下」開運招財",
+      "summary": "来自 ELLE · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BalB0T3JEZjA5em40U3NSU2thcmZGSEJJNWhsWm1qNU5NeHFwbkxyb3NMWEFiZlBPM2kwLUFYQ3pPOGw0bGM0bUhWY0kxVXNxRzBRS1J2QjQ5UVRGSUJBM210WjlQLVYzNm9vYzN4RlhabFk?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "ELLE · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-08-20",
+      "published_display": "2026-08-20",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
       "title": "周日迎處暑！命理師曝12生肖運勢、「這動物」貴人財運雙旺",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXMUJ3WDdodmE5dDhkYzJ4UmkwVVRTcVdsNWhrUlNld1E3LS1ybGl5WTJ0ckYwZ19XcUdWU0JNYUc0bWhWdGp2cWo5Skw2Ym5FWFhlYkJB0gFWQVVfeXFMUFcxQndYN2h2YTl0OGRjMnhSaTBVVFNxV2w1aGtSU2V3UTctLXJsaXlZMnRyRjBnX1dxR1ZTQk1hRzRtaFZ0anZxajlKTDZibkVYWGViQkE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5JMF9nQkMxSHhxS2FwOHhnUEpIOGVzcGZOSEdtaVViZVlaZy1RNHdEOW9GeVRxbzVIbFZ3dk1aQXhmV2tKa1gxbGd6ZVVmZlZn0gFWQVVfeXFMUFcxQndYN2h2YTl0OGRjMnhSaTBVVFNxV2w1aGtSU2V3UTctLXJsaXlZMnRyRjBnX1dxR1ZTQk1hRzRtaFZ0anZxajlKTDZibkVYWGViQkE?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -325,7 +344,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "七夕今日至！命理師授9招開運術 求子求財催桃花一次看",
@@ -344,7 +363,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "2026七夕情人節！命理師曝9招開運法：招財去霉運、求子催桃花",
@@ -363,7 +382,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "七夕情人節不只約會！命理師曝5招開運法：求財去霉運、斬斷爛桃花",
@@ -380,25 +399,6 @@
         "命理",
         "命理師",
         "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Vbk9ER1E1NlN4eVZYZmZSaG5yWXpqdVUzOVdQdWwyLWs1am1HY3pXN0VQN2s5a0xHYm1jMldkY2hsTHc1YkY0RtIBTEFVX3lxTE9CNGtweDFDRVVsZDQ3SmttVW9IRzhOeUprM0FuUldMeFBfakxPNXpmb0tPY0g3cUYyNUR4MGZaS1RpNW5qd0NYVHNQSUw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-08-18",
-      "published_display": "2026-08-18",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "流年"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-06"
