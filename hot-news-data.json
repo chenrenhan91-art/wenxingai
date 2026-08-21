@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-08-21",
-  "updated_at_display": "2026年8月21日 11:22",
+  "updated_at_display": "2026年8月21日 21:21",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-21T11:22:51.793648+08:00",
+    "fetched_at": "2026-08-21T21:21:34.088621+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "能量"
       ],
       "score": 12.35,
-      "event_cluster": "event-58"
+      "event_cluster": "event-61"
     },
     {
       "title": "OpenFate AI｜八字・命盤・合盤 (@openfate_ai) / Posts / X",
@@ -287,7 +287,7 @@
         "合盤"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-76"
+      "event_cluster": "event-77"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -336,8 +336,8 @@
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-08-20",
-      "published_display": "2026-08-20",
+      "published": "2026-08-21",
+      "published_display": "2026-08-21",
       "matched_keywords": [
         "命理",
         "命理師",
@@ -366,11 +366,11 @@
       "event_cluster": "event-04"
     },
     {
-      "title": "七夕今日至！命理師授9招開運術 求子求財催桃花一次看",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QQ2JHSHlpWG15RFhtMklXMnBLZExvcTMyVnMzNlRSZ2xTVnB6NXA3aHF2d2lkZWk1TGlsX3JvcnV4TG14UVlsN0NROXRqOGlFRkg3UjFQUFNhMkZISGFpWmgwWEpvTU11UVFvdkI5UXI5QdIBVkFVX3lxTE1jTThrek1fb1NRNkZqclhIS004cXlrVkx1SHhoMVd2VXRGQ2QwYThmNTlZMHVCNUNDaDduSFlGa0NLbDJJVUkwR1dTWHd0RUpnb3EzcmhB?oc=5",
+      "title": "2026七夕情人節！命理師曝9招開運法：招財去霉運、求子催桃花",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQZl9kNEU0N0xoY3B3dVpmSTJzUGphS21qcF9zUF9Ub0lfZnNJTTFIdV9RaTdYMkVYZUoxTlBrTTYzSDdNcF9GWVE5Q1VyZWlhTTVabUlwSk5hZXhod3RuUFJ1Y0Y3TTNlelRnOGpmUDFNaTJINFpHTGpyb1JWV0pMZ3g2MlZPbk5yRDRZTUp3eTcwWmpzcGJyZ3ZwcXFYeElLc2l6UzJaQzc3WTBoMm9ZTHlwRTVNM3RHVC1fVlVfdW1CYnU4eWlaNmJEZW1vaHBQano1TzdfZ3lDRXphVWQxcmUybmM1YkZwQzFGeWpRc3h3cVdDSGxpd25WNzExa2hsdXZTS3QtdDJTYU5uTkhQWGVNeFZrdExROXZCVWNpQ0NBb2pWMm5nVmh1aGJYd3UxaXFTcDdhMmdkT3EzU1FBRmhheUEyLUNyUzhOeW1QYXI0b2ZRaHN6SjNhQXdSV0YzRkxLUXJwQThvUnc1?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
+      "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -385,9 +385,9 @@
       "event_cluster": "event-05"
     },
     {
-      "title": "2026七夕情人節！命理師曝9招開運法：招財去霉運、求子催桃花",
+      "title": "七夕情人節不只約會！命理師曝5招開運法：求財去霉運、斬斷爛桃花",
       "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQZl9kNEU0N0xoY3B3dVpmSTJzUGphS21qcF9zUF9Ub0lfZnNJTTFIdV9RaTdYMkVYZUoxTlBrTTYzSDdNcF9GWVE5Q1VyZWlhTTVabUlwSk5hZXhod3RuUFJ1Y0Y3TTNlelRnOGpmUDFNaTJINFpHTGpyb1JWV0pMZ3g2MlZPbk5yRDRZTUp3eTcwWmpzcGJyZ3ZwcXFYeElLc2l6UzJaQzc3WTBoMm9ZTHlwRTVNM3RHVC1fVlVfdW1CYnU4eWlaNmJEZW1vaHBQano1TzdfZ3lDRXphVWQxcmUybmM1YkZwQzFGeWpRc3h3cVdDSGxpd25WNzExa2hsdXZTS3QtdDJTYU5uTkhQWGVNeFZrdExROXZCVWNpQ0NBb2pWMm5nVmh1aGJYd3UxaXFTcDdhMmdkT3EzU1FBRmhheUEyLUNyUzhOeW1QYXI0b2ZRaHN6SjNhQXdSV0YzRkxLUXJwQThvUnc1?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxQOTZIb29RU2s1cWoxak9janlSY2tpN3JrRzRZb0dLVnhKYUN0cTZ1T1FVSG5KZUZxNWhNQ21WU2FhR1J2TDBtT1NpTTltbDU0cGRmREVUMmZmd2hBZmItbDBQZVdILXhVUWJja0k4a2tMd1dDd29KaEF2MDN4SWlsbWJTX1J1RnZNRUtKS2hjSUFhSllwVlRxYlQ1MlBpYWdpdEs4NXV1Z1QtR0JWQ3BFWjJQMTNzM2R6cUdaRGJ1QUoxalBKR1phZWJmbEVtdW9Qc0NzYUdtNDlIbl9mWW9BVk1ldjdDSVh4dmotazNmWUlGN1lXZ1daN18wLWlYbGJDU0h5UGRaaVlYNXk5dzk4TmNFYmw5N0tRV1hxaTdSQzhjakRuYm1UWUdPTlFXUFg5X3lFcWlwaklteDhWb2JUM2Z1bGtYRHpwSzcxTDcxQmxWX2lQckhsaURtVzFYYVlZVlNpS3RCQzFQTzhjZ0tLV2lFQzhhM29qbWRQdjIxLXlaclJqSmwxV2t0MWphMWZrM255c1hxX25aaDFy?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",

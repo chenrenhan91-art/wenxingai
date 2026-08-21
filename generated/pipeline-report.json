@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-08-21T11:22:38.575533+08:00",
-  "ran_at_display": "2026年8月21日 11:22",
+  "ran_at": "2026-08-21T21:21:20.014546+08:00",
+  "ran_at_display": "2026年8月21日 21:21",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "b3b4d439eb415682d4f199e5592d9b1114be7973",
-  "new_signature": "f161ed946183ea1ecc964e53179cffa1be172430",
+  "previous_signature": "f161ed946183ea1ecc964e53179cffa1be172430",
+  "new_signature": "b85111dd5587243812c0f5eb9490f1b14ed354e7",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,10 +27,7 @@
     "「家裡5物品」快丟掉！命理師曝鬼月禁忌：做錯財運全跑光、 毀掉整年運勢",
     "8/23處暑要來了！6大禁忌別犯，命理師曝「敲9下」開運招財"
   ],
-  "added_titles": [
-    "OpenFate AI｜八字・命盤・合盤 (@openfate_ai) / Posts / X",
-    "「家裡5物品」快丟掉！命理師曝鬼月禁忌：做錯財運全跑光、 毀掉整年運勢"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
@@ -42,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月21日 11:22"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月21日 21:21"
     },
     {
       "script": "generate_daily_content.py",
