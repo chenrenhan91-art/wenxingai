@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-08-20T21:21:45.920466+08:00",
-  "ran_at_display": "2026年8月20日 21:21",
+  "ran_at": "2026-08-21T11:22:38.575533+08:00",
+  "ran_at_display": "2026年8月21日 11:22",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "72d7a6c38495da11a272e27c0d0b837049222a48",
-  "new_signature": "b3b4d439eb415682d4f199e5592d9b1114be7973",
+  "previous_signature": "b3b4d439eb415682d4f199e5592d9b1114be7973",
+  "new_signature": "f161ed946183ea1ecc964e53179cffa1be172430",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -22,16 +22,17 @@
   },
   "new_titles": [
     "【瘋Show同學會】爆笑玄學創業×直播賣水晶 宇宙能量睇風水秘笈",
-    "假借嬰靈這種厭女邪說性侵，緩刑🤡 摘錄：新竹吳男平日以命理師身分替人算命、改運，竟向一名女子聲稱身上跟著「一大一小冤魂」，若不立刻處理恐會「生病發瘋」，再以雞蛋驅邪、按摩油「保護子宮」為由，伸手指侵入女子下體。新竹地院依強制性交罪判吳男2年徒刑，緩",
+    "OpenFate AI｜八字・命盤・合盤 (@openfate_ai) / Posts / X",
     "[問卦] 中醫 是醫學還是玄學？",
-    "8/23處暑要來了！6大禁忌別犯，命理師曝「敲9下」開運招財",
-    "周日迎處暑！命理師曝12生肖運勢、「這動物」貴人財運雙旺"
-  ],
-  "added_titles": [
+    "「家裡5物品」快丟掉！命理師曝鬼月禁忌：做錯財運全跑光、 毀掉整年運勢",
     "8/23處暑要來了！6大禁忌別犯，命理師曝「敲9下」開運招財"
   ],
+  "added_titles": [
+    "OpenFate AI｜八字・命盤・合盤 (@openfate_ai) / Posts / X",
+    "「家裡5物品」快丟掉！命理師曝鬼月禁忌：做錯財運全跑光、 毀掉整年運勢"
+  ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -41,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月20日 21:21"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月21日 11:22"
     },
     {
       "script": "generate_daily_content.py",
