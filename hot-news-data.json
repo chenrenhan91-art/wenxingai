@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-21",
-  "updated_at_display": "2026年8月21日 21:21",
+  "updated_at": "2026-08-22",
+  "updated_at_display": "2026年8月22日 11:18",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-21T21:21:34.088621+08:00",
+    "fetched_at": "2026-08-22T11:18:16.749850+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "【瘋Show同學會】爆笑玄學創業×直播賣水晶 宇宙能量睇風水秘笈",
+      "title": "接下來的感情對象已經出現了嗎🌹塔羅占卜│感情│曖昧│桃花│姻緣│無時間限制🪄自選字幕OK",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hMFpKNUdzMkNNX2tCazR4R3Jrb0ZfNzhPZWtYdXZGRFlKenAzMmVrZ1p5ODlFLTNieVY5ZzZvMzlxOHJMOEhkY2dweF9vN2JnUXdkaHd3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MWFN3OTd4Vm1OaXlSemlnRzZLLVd1UFRxZ3hxd3hfX0p6VGlxUzdOcUFuZUpsc09yNUxfS3NSYmdUQkxmVGZsMVhmR1Zuby1NS1U1dlBB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%8E%84%E5%AD%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "风水玄学",
-      "published": "2026-08-18",
-      "published_display": "2026-08-18",
+      "category": "塔罗星象",
+      "published": "2026-08-21",
+      "published_display": "2026-08-21",
       "matched_keywords": [
-        "玄學",
-        "風水",
-        "能量"
+        "塔羅",
+        "占卜",
+        "桃花"
       ],
       "score": 12.35,
-      "event_cluster": "event-61"
+      "event_cluster": "event-31"
     },
     {
       "title": "OpenFate AI｜八字・命盤・合盤 (@openfate_ai) / Posts / X",
@@ -287,7 +287,7 @@
         "合盤"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-77"
+      "event_cluster": "event-79"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",

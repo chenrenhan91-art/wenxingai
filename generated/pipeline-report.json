@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-08-21T21:21:20.014546+08:00",
-  "ran_at_display": "2026年8月21日 21:21",
+  "ran_at": "2026-08-22T11:18:02.391690+08:00",
+  "ran_at_display": "2026年8月22日 11:18",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "f161ed946183ea1ecc964e53179cffa1be172430",
-  "new_signature": "b85111dd5587243812c0f5eb9490f1b14ed354e7",
+  "previous_signature": "b85111dd5587243812c0f5eb9490f1b14ed354e7",
+  "new_signature": "c52a9c81a036aba9e3043e0499b4cc7d5951ca06",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,13 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "【瘋Show同學會】爆笑玄學創業×直播賣水晶 宇宙能量睇風水秘笈",
+    "接下來的感情對象已經出現了嗎🌹塔羅占卜│感情│曖昧│桃花│姻緣│無時間限制🪄自選字幕OK",
     "OpenFate AI｜八字・命盤・合盤 (@openfate_ai) / Posts / X",
     "[問卦] 中醫 是醫學還是玄學？",
     "「家裡5物品」快丟掉！命理師曝鬼月禁忌：做錯財運全跑光、 毀掉整年運勢",
     "8/23處暑要來了！6大禁忌別犯，命理師曝「敲9下」開運招財"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "接下來的感情對象已經出現了嗎🌹塔羅占卜│感情│曖昧│桃花│姻緣│無時間限制🪄自選字幕OK"
+  ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
@@ -39,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月21日 21:21"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月22日 11:18"
     },
     {
       "script": "generate_daily_content.py",
