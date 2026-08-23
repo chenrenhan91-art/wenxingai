@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-08-23T11:22:36.930576+08:00",
-  "ran_at_display": "2026年8月23日 11:22",
+  "ran_at": "2026-08-23T21:15:49.130239+08:00",
+  "ran_at_display": "2026年8月23日 21:15",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "06c16507e946d69fea8948e3ed7b7034b398c9ed",
-  "new_signature": "2ca5666ae8d990e4c3fefede08c8b481a45a956f",
+  "previous_signature": "2ca5666ae8d990e4c3fefede08c8b481a45a956f",
+  "new_signature": "d217ec443d00d776c98e4b2ad8ecd122dbe1e683",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -25,11 +25,10 @@
     "假借嬰靈這種厭女邪說性侵，緩刑🤡 摘錄：新竹吳男平日以命理師身分替人算命、改運，竟向一名女子聲稱身上跟著「一大一小冤魂」，若不立刻處理恐會「生病發瘋」，再以雞蛋驅邪、按摩油「保護子宮」為由，伸手指侵入女子下體。新竹地院依強制性交罪判吳男2年徒刑，緩",
     "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲",
     "「處暑到」秋老虎發威！4生肖運勢亮紅燈…命理師：千萬別做2件事",
-    "明處暑！命理師揭5生肖運勢翻盤 從「陪跑」一舉變主角"
+    "周日迎處暑！命理師曝12生肖運勢、「這動物」貴人財運雙旺"
   ],
   "added_titles": [
-    "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲",
-    "「處暑到」秋老虎發威！4生肖運勢亮紅燈…命理師：千萬別做2件事"
+    "周日迎處暑！命理師曝12生肖運勢、「這動物」貴人財運雙旺"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 7/8）。"
@@ -42,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月23日 11:22"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月23日 21:16"
     },
     {
       "script": "generate_daily_content.py",

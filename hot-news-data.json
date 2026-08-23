@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-08-23",
-  "updated_at_display": "2026年8月23日 11:22",
+  "updated_at_display": "2026年8月23日 21:16",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-23T11:22:51.133220+08:00",
+    "fetched_at": "2026-08-23T21:16:01.757969+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 12.35,
-      "event_cluster": "event-40"
+      "event_cluster": "event-44"
     },
     {
       "title": "假借嬰靈這種厭女邪說性侵，緩刑🤡 摘錄：新竹吳男平日以命理師身分替人算命、改運，竟向一名女子聲稱身上跟著「一大一小冤魂」，若不立刻處理恐會「生病發瘋」，再以雞蛋驅邪、按摩油「保護子宮」為由，伸手指侵入女子下體。新竹地院依強制性交罪判吳男2年徒刑，緩",
@@ -291,7 +291,7 @@
     },
     {
       "title": "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 59，作者 la1aco。",
+      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 65，作者 la1aco。",
       "url": "https://www.ptt.cc/bbs/Gossiping/M.1787412465.A.460.html",
       "source_id": "ptt_gossiping",
       "source": "PTT Gossiping",
@@ -305,7 +305,7 @@
         "命理師",
         "热议"
       ],
-      "score": 29.616666666666667,
+      "score": 31.616666666666667,
       "event_cluster": "event-01"
     },
     {
@@ -328,6 +328,63 @@
       "event_cluster": "event-03"
     },
     {
+      "title": "周日迎處暑！命理師曝12生肖運勢、「這動物」貴人財運雙旺",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5JMF9nQkMxSHhxS2FwOHhnUEpIOGVzcGZOSEdtaVViZVlaZy1RNHdEOW9GeVRxbzVIbFZ3dk1aQXhmV2tKa1gxbGd6ZVVmZlZn0gFWQVVfeXFMUFcxQndYN2h2YTl0OGRjMnhSaTBVVFNxV2w1aGtSU2V3UTctLXJsaXlZMnRyRjBnX1dxR1ZTQk1hRzRtaFZ0anZxajlKTDZibkVYWGViQkE?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "UDN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-08-23",
+      "published_display": "2026-08-23",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
+    },
+    {
+      "title": "4大運勢前三名出爐！命理師點名「2生肖」旺爆屬牛防小人| 生活",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5vYWxMWTM2NHRQYzNLSl9kU3h3OW5kajl4dlJfNEw0R0xsUExUX2hQVjN5cHdvN2ZpLUVXc2dWelBsYnlBbmpNeA?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞網SETN.com · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-08-23",
+      "published_display": "2026-08-23",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-05"
+    },
+    {
+      "title": "處暑到4生肖運勢危機！命理師：別做這2事",
+      "summary": "来自 鏡週刊Mirror Media · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ud2V0Y25sMElsU2ExcXFBV0xNXzVjM2xsTDJQeVVLY25xTEJmOFJ4VzdFNW9TWGZWUE1rdDVTdXFiODFvR3MwaDZ2QV9IbC1sY1lKa2xtdXZjbEJJNm5mM2pn0gFiQVVfeXFMT253ZXRjbmwwSWxTYTFxcUFXTE1fNWMzbGxMMlB5VUtjbnFMQmY4UnhXN0U1b1NYZlZQTWt0NVN1cWI4MW9HczBoNnZBX0hsLWxjWUprbG11dmNsQkk2bmYzamc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "鏡週刊Mirror Media · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-08-23",
+      "published_display": "2026-08-23",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-06"
+    },
+    {
       "title": "明處暑！命理師揭5生肖運勢翻盤 從「陪跑」一舉變主角",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBRV2VSdDlZUjlsN2VwN0VMVjFzdFM1QWt4LTVQVVJMdk00V1JremxLQ3NHUjFWLUVKX09YTF9STGRoZHZjMGIyaDl5RE0waVA10gFWQVVfeXFMT255VjdGU3hVb3dscHpwMkREcG1MemI5dlgwU1N1ajdud1lRNEVlcU9zNExVZVRlb0FyT2VMaUNFQVVrQkpxNHVjamJFWnBlMUpiTElSUkE?oc=5",
@@ -338,63 +395,6 @@
       "category": "命理新闻",
       "published": "2026-08-22",
       "published_display": "2026-08-22",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "明天8/23處暑！6大禁忌別犯，命理師曝「最佳時辰」：敲9下開運招財",
-      "summary": "来自 ELLE · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1PU2RFcUVaX2IyZmlfd1FTM24yekdPYzVCSTlQdi15ZmlrNXlJUXZreVdtNXdISEdnQ3pNOFFmQnc3QUFWdWMtenBkczh4WGZFRW9UU1U5M1NyNlFzTU50Z2FsZEU3QVM4a1hEYk1rb21EOGFVLXJqaw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "ELLE · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-08-22",
-      "published_display": "2026-08-22",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "「家裡5物品」快丟掉！命理師曝鬼月禁忌：做錯財運全跑光、 毀掉整年運勢",
-      "summary": "来自 風傳媒 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5VSU5qVDJ1dWJBQUFmSVlRSzVkVEtycmNESG1OajNrZDNqc3VTUDl3WTRYRGJMamQ2My11T3hoX2xBZDZsdXExenlTUHhhX3Br?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "風傳媒 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-08-21",
-      "published_display": "2026-08-21",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-06"
-    },
-    {
-      "title": "周日迎處暑！命理師曝12生肖運勢、「這動物」貴人財運雙旺",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5JMF9nQkMxSHhxS2FwOHhnUEpIOGVzcGZOSEdtaVViZVlaZy1RNHdEOW9GeVRxbzVIbFZ3dk1aQXhmV2tKa1gxbGd6ZVVmZlZn0gFWQVVfeXFMUFcxQndYN2h2YTl0OGRjMnhSaTBVVFNxV2w1aGtSU2V3UTctLXJsaXlZMnRyRjBnX1dxR1ZTQk1hRzRtaFZ0anZxajlKTDZibkVYWGViQkE?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-08-19",
-      "published_display": "2026-08-19",
       "matched_keywords": [
         "命理",
         "命理師",
