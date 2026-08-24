@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-23",
-  "updated_at_display": "2026年8月23日 21:16",
+  "updated_at": "2026-08-24",
+  "updated_at_display": "2026年8月24日 11:23",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-23T21:16:01.757969+08:00",
+    "fetched_at": "2026-08-24T11:23:33.727947+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,46 +248,45 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 7/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "items": [
     {
-      "title": "接下來的感情對象已經出現了嗎🌹塔羅占卜│感情│曖昧│桃花│姻緣│無時間限制🪄自選字幕OK",
+      "title": "【金牛座】專注地朝向想要抵達的終點你最終的成績將會令人稱羨｜月能量運勢｜#塔羅占卜#運勢 #星座",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MWFN3OTd4Vm1OaXlSemlnRzZLLVd1UFRxZ3hxd3hfX0p6VGlxUzdOcUFuZUpsc09yNUxfS3NSYmdUQkxmVGZsMVhmR1Zuby1NS1U1dlBB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvZTJfTlV2bndDaU5jM1cwWUpIcTBMcUVDNlFhengwdGVjR1UyT0pvTWhXaUNfYVhtdDkxMnkzalhpaGxHY3RIMkdFMFlVQndVWXpHVzdR?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-08-21",
-      "published_display": "2026-08-21",
+      "published": "2026-08-23",
+      "published_display": "2026-08-23",
       "matched_keywords": [
-        "塔羅",
-        "占卜",
-        "桃花"
+        "運勢",
+        "能量",
+        "塔羅"
       ],
       "score": 12.35,
-      "event_cluster": "event-44"
+      "event_cluster": "event-29"
     },
     {
-      "title": "假借嬰靈這種厭女邪說性侵，緩刑🤡 摘錄：新竹吳男平日以命理師身分替人算命、改運，竟向一名女子聲稱身上跟著「一大一小冤魂」，若不立刻處理恐會「生病發瘋」，再以雞蛋驅邪、按摩油「保護子宮」為由，伸手指侵入女子下體。新竹地院依強制性交罪判吳男2年徒刑，緩",
+      "title": "我發現我好像一直沒把一件事講清楚。 我沒有自己開一堂「虎嚕八字班」。 現在跟著我學八字的學生， 正式課程是由專業老師上課。 而我的位置比較像—— 陪你一路學下去的上線。 上課聽不懂？ 可以來問我。 回家看命盤看到懷疑人生？ 可以來找我。 開始接觸案例，不",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14Z3YwaC1nNW9DZDYtcTItdy1oWXh2eGpBMmwxYTJRc0VYdkpaMzBjVVFjY3VYNXpUMFZuNTlRUmQwai1hTy0xYnUxVkRHQWFtNFBUUVg5aUhRNDhwY2I4eg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE00eWFBcHlJN28teFdtLTVVMUFiaWMwSlBpUDUxVEt0QUp6UFhqTURaaHlza2ZtVVhIaTBKQ2U1cTlPUkpjcmllWU1jUEQwdHk0Ym5FQmJsQ1VGcTJ3RWR5QUNodw?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-08-11",
-      "published_display": "2026-08-11",
+      "category": "八字紫微",
+      "published": "2026-08-22",
+      "published_display": "2026-08-22",
       "matched_keywords": [
-        "命理",
-        "命理師",
-        "算命"
+        "八字",
+        "命盤"
       ],
-      "score": 12.149999999999999,
-      "event_cluster": "event-95"
+      "score": 9.95,
+      "event_cluster": "event-117"
     },
     {
       "title": "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲",
