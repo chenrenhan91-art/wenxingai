@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-08-25",
-  "updated_at_display": "2026年8月25日 11:21",
+  "updated_at_display": "2026年8月25日 21:22",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-25T11:21:06.047731+08:00",
+    "fetched_at": "2026-08-25T21:22:17.316435+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 7/8）。"
   ],
   "items": [
     {
@@ -271,23 +271,22 @@
       "event_cluster": "event-10"
     },
     {
-      "title": "塔羅牌與占星洞察相互交會，便形成了「塔羅星座運勢」（Tarotscope）。2026年8月24日至30日這一週，十二星座將迎來什麼課題？以下透過每個星座對應的一張塔羅牌，解讀本週值得留意的情緒、關係與人生方向。",
+      "title": "農曆七月的小禁忌，命理師提醒有些生肖要特別注意，信者恆信，不信也能當參考！ #中元節",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBPVTBRY0x4RU9wUVFybzlzYXZzMnJ3V2lnWTZCLXVQeG55OE1BZWV6RVFrSk5jOElEWU5Nd09Xa21wd25NR0htcVZibnU2cngzYmVDVDVHLUVlZXZhemZVck5oZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1pMEx4SmE5Q1VXY0t1dW9QOEJzUUk5by1CVTVJakZWVHdzd2lVX3dqSlpyZ3pnTnZ2MEhJX3k2enJZeFRRQ0RkeFE1MkRoemVvaEJQUnp3ZVVrVDktUjItOWtQMXI?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "塔罗星象",
-      "published": "2026-08-24",
-      "published_display": "2026-08-24",
+      "category": "命理新闻",
+      "published": "2026-08-25",
+      "published_display": "2026-08-25",
       "matched_keywords": [
-        "運勢",
-        "塔羅",
-        "星座"
+        "命理",
+        "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-112"
+      "event_cluster": "event-109"
     },
     {
       "title": "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲",
@@ -347,11 +346,11 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "周日迎處暑！命理師曝12生肖運勢、「這動物」貴人財運雙旺",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5JMF9nQkMxSHhxS2FwOHhnUEpIOGVzcGZOSEdtaVViZVlaZy1RNHdEOW9GeVRxbzVIbFZ3dk1aQXhmV2tKa1gxbGd6ZVVmZlZn0gFWQVVfeXFMUFcxQndYN2h2YTl0OGRjMnhSaTBVVFNxV2w1aGtSU2V3UTctLXJsaXlZMnRyRjBnX1dxR1ZTQk1hRzRtaFZ0anZxajlKTDZibkVYWGViQkE?oc=5",
+      "title": "「處暑到」秋老虎發威！4生肖運勢亮紅燈…命理師：千萬別做2件事",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxNT1QzRmxjUGdYMGV2MWdVdWtVSnhOQnh0Q3NkSGt4XzJ6VmFIUTZiaVdSc2JwVHdkTFV1N1NRYlA0MW0yS0djSHZ2T0NtcEhEQ3VtRzhGcUVJTm90N1o0YnFEcXpBcHhiNmxYUGdNa3hvUms1TVVsdGhGeTNKOFcwWmFwMnFlaUdma29aV19sa2ZRX3Fmd2FfU1pJVkM0QlNqR1ZRLU1OYzNLU2tnbHlTUHkxenc2LVUzTUlWZ3haZkNrVmRfc1VCdXlnTFJ2T3RDSTI2dko1Z2pxb2ZCaXNrck41ekx3bmlzVWgtRG4zcmhoM1RaMS1SNVZrb2FmckdMUkw4QjZMRUpjNE1GTGNXdDZPR0NQZU15dW9mSVJtTTJ6Nmp0eE1QaXgtV3J1SmRkdXZkWDJUZGJVU1hkZGxjTjM0ZFlKOXFBYVFod0FGbThuenFyN2ZUbFh0Q1A1TU5aU1J4OTVGOVJ4YzFKbXNKRllPRTAtM3JHSzA4?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
+      "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -366,11 +365,11 @@
       "event_cluster": "event-04"
     },
     {
-      "title": "「處暑到」秋老虎發威！4生肖運勢亮紅燈…命理師：千萬別做2件事",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxNT1QzRmxjUGdYMGV2MWdVdWtVSnhOQnh0Q3NkSGt4XzJ6VmFIUTZiaVdSc2JwVHdkTFV1N1NRYlA0MW0yS0djSHZ2T0NtcEhEQ3VtRzhGcUVJTm90N1o0YnFEcXpBcHhiNmxYUGdNa3hvUms1TVVsdGhGeTNKOFcwWmFwMnFlaUdma29aV19sa2ZRX3Fmd2FfU1pJVkM0QlNqR1ZRLU1OYzNLU2tnbHlTUHkxenc2LVUzTUlWZ3haZkNrVmRfc1VCdXlnTFJ2T3RDSTI2dko1Z2pxb2ZCaXNrck41ekx3bmlzVWgtRG4zcmhoM1RaMS1SNVZrb2FmckdMUkw4QjZMRUpjNE1GTGNXdDZPR0NQZU15dW9mSVJtTTJ6Nmp0eE1QaXgtV3J1SmRkdXZkWDJUZGJVU1hkZGxjTjM0ZFlKOXFBYVFod0FGbThuenFyN2ZUbFh0Q1A1TU5aU1J4OTVGOVJ4YzFKbXNKRllPRTAtM3JHSzA4?oc=5",
+      "title": "周日迎處暑！命理師曝12生肖運勢、「這動物」貴人財運雙旺",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5JMF9nQkMxSHhxS2FwOHhnUEpIOGVzcGZOSEdtaVViZVlaZy1RNHdEOW9GeVRxbzVIbFZ3dk1aQXhmV2tKa1gxbGd6ZVVmZlZn0gFWQVVfeXFMUFcxQndYN2h2YTl0OGRjMnhSaTBVVFNxV2w1aGtSU2V3UTctLXJsaXlZMnRyRjBnX1dxR1ZTQk1hRzRtaFZ0anZxajlKTDZibkVYWGViQkE?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
+      "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",

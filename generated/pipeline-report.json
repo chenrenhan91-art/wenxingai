@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-08-25T11:20:50.705764+08:00",
-  "ran_at_display": "2026年8月25日 11:20",
+  "ran_at": "2026-08-25T21:22:01.668464+08:00",
+  "ran_at_display": "2026年8月25日 21:22",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "5378001d606db4a4e04d19d615e3ff4474f488ac",
-  "new_signature": "6745602cecadba2a2bf3cc934c1cf459abff82b4",
+  "previous_signature": "6745602cecadba2a2bf3cc934c1cf459abff82b4",
+  "new_signature": "05f9f6a75256c0addf3483d5a4316a541228d7f6",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -22,17 +22,16 @@
   },
   "new_titles": [
     "他心裡有別人嗎？你是不是他的唯一？他對你和對別人有什麼區別？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "塔羅牌與占星洞察相互交會，便形成了「塔羅星座運勢」（Tarotscope）。2026年8月24日至30日這一週，十二星座將迎來什麼課題？以下透過每個星座對應的一張塔羅牌，解讀本週值得留意的情緒、關係與人生方向。",
+    "農曆七月的小禁忌，命理師提醒有些生肖要特別注意，信者恆信，不信也能當參考！ #中元節",
     "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲",
     "【鬼月最重要一天來了！命理師示警「4種人」當心 最簡單開運法曝光】 就在這個星期四～（#豬頭皮）",
     "鬼月最重要一天來了！命理師示警「4種人」當心 最簡單開運法曝光"
   ],
   "added_titles": [
-    "他心裡有別人嗎？你是不是他的唯一？他對你和對別人有什麼區別？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "塔羅牌與占星洞察相互交會，便形成了「塔羅星座運勢」（Tarotscope）。2026年8月24日至30日這一週，十二星座將迎來什麼課題？以下透過每個星座對應的一張塔羅牌，解讀本週值得留意的情緒、關係與人生方向。"
+    "農曆七月的小禁忌，命理師提醒有些生肖要特別注意，信者恆信，不信也能當參考！ #中元節"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 7/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -42,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月25日 11:21"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月25日 21:22"
     },
     {
       "script": "generate_daily_content.py",
