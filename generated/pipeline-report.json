@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-08-25T21:22:01.668464+08:00",
-  "ran_at_display": "2026年8月25日 21:22",
+  "ran_at": "2026-08-26T11:23:59.407246+08:00",
+  "ran_at_display": "2026年8月26日 11:23",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "6745602cecadba2a2bf3cc934c1cf459abff82b4",
-  "new_signature": "05f9f6a75256c0addf3483d5a4316a541228d7f6",
+  "previous_signature": "05f9f6a75256c0addf3483d5a4316a541228d7f6",
+  "new_signature": "00db325b22c730bfa2bc3efd4c5a1679c94b7a43",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,14 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "他心裡有別人嗎？你是不是他的唯一？他對你和對別人有什麼區別？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "農曆七月的小禁忌，命理師提醒有些生肖要特別注意，信者恆信，不信也能當參考！ #中元節",
+    "當下的他到底想怎麼樣？他心裡的真心話究竟是什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "🐯 虎嚕命理𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.08.26（三）壬申日🔮 🔔 先穩住自己，才能穩穩接住好運。 壬水遇申金，思緒靈活、行動力提升✨ 今天適合掌握資訊與機會，但別因心急而起衝突。 ✨ 十神開運指南｜請對照日主 🌳甲木｜偏印：遠離暗中是非 🌿乙木｜正印：貴人及時相助",
     "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲",
     "【鬼月最重要一天來了！命理師示警「4種人」當心 最簡單開運法曝光】 就在這個星期四～（#豬頭皮）",
     "鬼月最重要一天來了！命理師示警「4種人」當心 最簡單開運法曝光"
   ],
   "added_titles": [
-    "農曆七月的小禁忌，命理師提醒有些生肖要特別注意，信者恆信，不信也能當參考！ #中元節"
+    "當下的他到底想怎麼樣？他心裡的真心話究竟是什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "🐯 虎嚕命理𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.08.26（三）壬申日🔮 🔔 先穩住自己，才能穩穩接住好運。 壬水遇申金，思緒靈活、行動力提升✨ 今天適合掌握資訊與機會，但別因心急而起衝突。 ✨ 十神開運指南｜請對照日主 🌳甲木｜偏印：遠離暗中是非 🌿乙木｜正印：貴人及時相助"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 7/8）。"
@@ -41,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月25日 21:22"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月26日 11:24"
     },
     {
       "script": "generate_daily_content.py",

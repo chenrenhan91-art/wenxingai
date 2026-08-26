@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-25",
-  "updated_at_display": "2026年8月25日 21:22",
+  "updated_at": "2026-08-26",
+  "updated_at_display": "2026年8月26日 11:24",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-25T21:22:17.316435+08:00",
+    "fetched_at": "2026-08-26T11:24:14.499421+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,41 +252,42 @@
   ],
   "items": [
     {
-      "title": "他心裡有別人嗎？你是不是他的唯一？他對你和對別人有什麼區別？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "當下的他到底想怎麼樣？他心裡的真心話究竟是什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1xVUJnMTdMYXNCS2t5aGdPRGlMdXRCeGloT3VHZDVpVXNsWlVGMjNReWo2cWhQRzVNa1RHbUh5cVBhREd0SzYyS3pyeHVlWms3TmRXamtR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIUzVRVnExTjE4VTRidFNVUnNMS25hLVFHNTNfMGMzTnFma1FrMWNvZDZ6aFY4ZFZuNmh2Qi1GRWhWZVc2SGFjWFFNUG4xMm9pcE02UmZ3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-08-23",
-      "published_display": "2026-08-23",
+      "published": "2026-08-25",
+      "published_display": "2026-08-25",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-10"
+      "event_cluster": "event-04"
     },
     {
-      "title": "農曆七月的小禁忌，命理師提醒有些生肖要特別注意，信者恆信，不信也能當參考！ #中元節",
+      "title": "🐯 虎嚕命理𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.08.26（三）壬申日🔮 🔔 先穩住自己，才能穩穩接住好運。 壬水遇申金，思緒靈活、行動力提升✨ 今天適合掌握資訊與機會，但別因心急而起衝突。 ✨ 十神開運指南｜請對照日主 🌳甲木｜偏印：遠離暗中是非 🌿乙木｜正印：貴人及時相助",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1pMEx4SmE5Q1VXY0t1dW9QOEJzUUk5by1CVTVJakZWVHdzd2lVX3dqSlpyZ3pnTnZ2MEhJX3k2enJZeFRRQ0RkeFE1MkRoemVvaEJQUnp3ZVVrVDktUjItOWtQMXI?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96OGRyLUk2NFgzbnVYdmFKUjVVOTJyX1BxeERIM3M0ZTdyMTc3S1lFcFRMN1ZkZ0JlYjlsVmJHMHRsSHIzY2xpRVd2WXN2NmhDejRlNHRsOHRvVm9ESUEwcUFaMA?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "命理新闻",
-      "published": "2026-08-25",
-      "published_display": "2026-08-25",
+      "published": "2026-08-26",
+      "published_display": "2026-08-26",
       "matched_keywords": [
         "命理",
-        "命理師"
+        "開運",
+        "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-109"
+      "event_cluster": "event-118"
     },
     {
       "title": "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲",
@@ -362,7 +363,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "周日迎處暑！命理師曝12生肖運勢、「這動物」貴人財運雙旺",
@@ -381,7 +382,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
       "title": "4大運勢前三名出爐！命理師點名「2生肖」旺爆屬牛防小人| 生活",
@@ -400,7 +401,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     }
   ]
 }
