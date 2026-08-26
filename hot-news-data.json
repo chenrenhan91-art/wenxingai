@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-08-26",
-  "updated_at_display": "2026年8月26日 11:24",
+  "updated_at_display": "2026年8月26日 21:24",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-26T11:24:14.499421+08:00",
+    "fetched_at": "2026-08-26T21:24:37.885994+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,9 +252,9 @@
   ],
   "items": [
     {
-      "title": "當下的他到底想怎麼樣？他心裡的真心話究竟是什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "【#2503】【塔罗·字卡·占卜】他/她對你有多心動呢？ | 浮世塔羅牌| 小確幸勵志卡| 天使祈禱神諭卡(無時間限制)",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIUzVRVnExTjE4VTRidFNVUnNMS25hLVFHNTNfMGMzTnFma1FrMWNvZDZ6aFY4ZFZuNmh2Qi1GRWhWZVc2SGFjWFFNUG4xMm9pcE02UmZ3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWSENjZldIaVF2N29hVXB0RnV4Q1p1Z2trWUQ0YVBOMTQ1Mzg1SmZsV0piQmJ4RVhiMzlMdjVSTmVRc0lEMHNRVHM1ZXloZ3JzM1VjZ3lB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -264,11 +264,11 @@
       "published_display": "2026-08-25",
       "matched_keywords": [
         "塔羅",
-        "占卜",
-        "桃花"
+        "塔罗",
+        "占卜"
       ],
-      "score": 14.55,
-      "event_cluster": "event-04"
+      "score": 12.35,
+      "event_cluster": "event-60"
     },
     {
       "title": "🐯 虎嚕命理𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.08.26（三）壬申日🔮 🔔 先穩住自己，才能穩穩接住好運。 壬水遇申金，思緒靈活、行動力提升✨ 今天適合掌握資訊與機會，但別因心急而起衝突。 ✨ 十神開運指南｜請對照日主 🌳甲木｜偏印：遠離暗中是非 🌿乙木｜正印：貴人及時相助",
@@ -287,7 +287,7 @@
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-118"
+      "event_cluster": "event-119"
     },
     {
       "title": "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲",
@@ -363,7 +363,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-04"
     },
     {
       "title": "周日迎處暑！命理師曝12生肖運勢、「這動物」貴人財運雙旺",
@@ -382,7 +382,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-05"
     },
     {
       "title": "4大運勢前三名出爐！命理師點名「2生肖」旺爆屬牛防小人| 生活",
@@ -401,7 +401,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-06"
     }
   ]
 }
