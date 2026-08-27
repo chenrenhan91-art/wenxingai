@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-26",
-  "updated_at_display": "2026年8月26日 21:24",
+  "updated_at": "2026-08-27",
+  "updated_at_display": "2026年8月27日 12:51",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-26T21:24:37.885994+08:00",
+    "fetched_at": "2026-08-27T12:51:08.989079+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,42 +252,42 @@
   ],
   "items": [
     {
-      "title": "【#2503】【塔罗·字卡·占卜】他/她對你有多心動呢？ | 浮世塔羅牌| 小確幸勵志卡| 天使祈禱神諭卡(無時間限制)",
+      "title": "【施敏玲玄學應用】免費風水催財、催事業運教學︱9月、10月派福利︱換季能量變動注意事項︱節目精華",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWSENjZldIaVF2N29hVXB0RnV4Q1p1Z2trWUQ0YVBOMTQ1Mzg1SmZsV0piQmJ4RVhiMzlMdjVSTmVRc0lEMHNRVHM1ZXloZ3JzM1VjZ3lB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1M05Xc3pJdVo1c0cxS1RkTEVrRkFkUko0MW9OTTBNQWdJRGhJWHJnNkltYjB1dXhDR0I0SFF2NHJHUWF6bXJZUlNHbXQwQ0lUaktGR3Jn?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%8E%84%E5%AD%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "塔罗星象",
-      "published": "2026-08-25",
-      "published_display": "2026-08-25",
+      "category": "风水玄学",
+      "published": "2026-08-26",
+      "published_display": "2026-08-26",
       "matched_keywords": [
-        "塔羅",
-        "塔罗",
-        "占卜"
+        "玄學",
+        "風水",
+        "能量"
       ],
       "score": 12.35,
-      "event_cluster": "event-60"
+      "event_cluster": "event-66"
     },
     {
-      "title": "🐯 虎嚕命理𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.08.26（三）壬申日🔮 🔔 先穩住自己，才能穩穩接住好運。 壬水遇申金，思緒靈活、行動力提升✨ 今天適合掌握資訊與機會，但別因心急而起衝突。 ✨ 十神開運指南｜請對照日主 🌳甲木｜偏印：遠離暗中是非 🌿乙木｜正印：貴人及時相助",
+      "title": "🐯 虎嚕命理𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.08.27（四）癸酉日🔮 🔔 認錯不難，難的是願意改；低頭不難，難的是不再重犯。 金生水的癸酉日，觀察力敏銳、容易看清問題，也可能因為太有自己的判斷，說話顯得直接。 今天不只要看見別人的錯，也要願意整理自己。 ✨ 十神開運指南",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96OGRyLUk2NFgzbnVYdmFKUjVVOTJyX1BxeERIM3M0ZTdyMTc3S1lFcFRMN1ZkZ0JlYjlsVmJHMHRsSHIzY2xpRVd2WXN2NmhDejRlNHRsOHRvVm9ESUEwcUFaMA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBLNFFFM1JmdmhzbkhRUHo5ZWVrQU11cGdPLVNSZm5ZdlhScV9EQ3JaOU82ZGpybW13eFJxR2ZGLVVpbnZDUGdBdVczYXFpRm9zRjJ2TDNJTEc1SnF2bXJZcW01dw?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "命理新闻",
-      "published": "2026-08-26",
-      "published_display": "2026-08-26",
+      "published": "2026-08-27",
+      "published_display": "2026-08-27",
       "matched_keywords": [
         "命理",
         "開運",
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-119"
+      "event_cluster": "event-120"
     },
     {
       "title": "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲",
@@ -309,6 +309,44 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "中元節今天當心！命理師曝「4種人易出事」 快打掃會旺：4招開運",
+      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MQUk3Y1FuYldzMnlXRjJXVXF1dmJRSzZ5ZGJuMHF6Nk5obGItd1pnRkhSVlBHTVgxOWZkZWIzUXJ4cUFtR2tidDRmdDFYaFR3V1HSAVJBVV95cUxPTEFJN2NRbmJXczJ5V0YyV1VxdXZiUUs2eWRibjBxejZOaGxiLXdaZ0ZIUlZQR01YMTlmZGViM1FyeHFBbUdrYnQ0ZnQxWGhUd1dR?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "NOWnews今日新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-08-27",
+      "published_display": "2026-08-27",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
+      "title": "鬼月最重要一天！4類人當心 命理師曝3大開運法",
+      "summary": "来自 緯來新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQd3JFNWRPTGdQSm9jZEFUcnNiYmlUMnBBdVVBTHNoTHNSQUJxekpKMGM1bXlTOWctUnAxd0J3VUY3TUJOQlVkc3NlM004VVNOVE85MVhLZHFtRGd1c2U2MzB5U1gyTEVDLTJQbEx5Qkp2ZklRMVkxUDRtSE9US3lneEdhTnAxdw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "緯來新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-08-27",
+      "published_display": "2026-08-27",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
+    },
+    {
       "title": "【鬼月最重要一天來了！命理師示警「4種人」當心 最簡單開運法曝光】 就在這個星期四～（#豬頭皮）",
       "summary": "来自 facebook.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMimwRBVV95cUxNdnc0MXI1V3NiNTNvcjZaOEpIRGRqaVktWEFUY25LXzJMdTZ6TlBZOVRQb1YwN0NqOVdRbW9CM042YWIyUXduZXlPWGhNUmpHdm13ZVRVTlkxZUZFaE9VZnpHUHJOU1VjTm5FUFlSY1ltSWpqYmw3alNvVVNOUDgyTHV4WWtiZ19nVlhQY3R5SGpweTgydWVmVGlzaVlIWUFRX3NXVEFiTEVzbGI4WHZVZWVkTWFLM0hMU3JnZ1NEcGIzZ2dOWjdncVFBbmpKMjdTWkZ1UVo3Q19jX3c1dS1pUW1Pc3VkS2xZWV8ycjN6WU90UGFTSjlfcUxES3RublB4S052WlJrdVVROWZ6RGhsVFM5bl9veUUxWVVpeS1XMTdDckV5MFhzRlJWMVFiTy11ZVoyZ3lUSjRHbW5haXZaUjBERXBoRzlrQi1JeVktWVpqVGV3d01pRHY3VG5UV0VmMkVmUzc4WFhFZkI4VUF2UFJrZ1BtekxrSW03eUhlNkVDcWRnNHBHQll6dVVsOHkyaHJoN180Nk1FUFZTczZFeU5XZVladnBxT3QyQUhTU1lkZlR6c05qM2dUMjJNd3RmVkJUdEdKRlMwa0hydTBZUkpVNzQ3dGZIaEh6Q2JsM2ZjMDFnSm9mSTBWSmJPdGNfRmNjNEhnS21oSFZqR1hybVp4WEoySEMydmM2ZmNXMjFTVndMejkyMXZ5cw?oc=5",
@@ -325,7 +363,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-05"
     },
     {
       "title": "鬼月最重要一天來了！命理師示警「4種人」當心 最簡單開運法曝光",
@@ -344,7 +382,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-05"
     },
     {
       "title": "「處暑到」秋老虎發威！4生肖運勢亮紅燈…命理師：千萬別做2件事",
@@ -352,44 +390,6 @@
       "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxNT1QzRmxjUGdYMGV2MWdVdWtVSnhOQnh0Q3NkSGt4XzJ6VmFIUTZiaVdSc2JwVHdkTFV1N1NRYlA0MW0yS0djSHZ2T0NtcEhEQ3VtRzhGcUVJTm90N1o0YnFEcXpBcHhiNmxYUGdNa3hvUms1TVVsdGhGeTNKOFcwWmFwMnFlaUdma29aV19sa2ZRX3Fmd2FfU1pJVkM0QlNqR1ZRLU1OYzNLU2tnbHlTUHkxenc2LVUzTUlWZ3haZkNrVmRfc1VCdXlnTFJ2T3RDSTI2dko1Z2pxb2ZCaXNrck41ekx3bmlzVWgtRG4zcmhoM1RaMS1SNVZrb2FmckdMUkw4QjZMRUpjNE1GTGNXdDZPR0NQZU15dW9mSVJtTTJ6Nmp0eE1QaXgtV3J1SmRkdXZkWDJUZGJVU1hkZGxjTjM0ZFlKOXFBYVFod0FGbThuenFyN2ZUbFh0Q1A1TU5aU1J4OTVGOVJ4YzFKbXNKRllPRTAtM3JHSzA4?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-08-23",
-      "published_display": "2026-08-23",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "周日迎處暑！命理師曝12生肖運勢、「這動物」貴人財運雙旺",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5JMF9nQkMxSHhxS2FwOHhnUEpIOGVzcGZOSEdtaVViZVlaZy1RNHdEOW9GeVRxbzVIbFZ3dk1aQXhmV2tKa1gxbGd6ZVVmZlZn0gFWQVVfeXFMUFcxQndYN2h2YTl0OGRjMnhSaTBVVFNxV2w1aGtSU2V3UTctLXJsaXlZMnRyRjBnX1dxR1ZTQk1hRzRtaFZ0anZxajlKTDZibkVYWGViQkE?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-08-23",
-      "published_display": "2026-08-23",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "4大運勢前三名出爐！命理師點名「2生肖」旺爆屬牛防小人| 生活",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5vYWxMWTM2NHRQYzNLSl9kU3h3OW5kajl4dlJfNEw0R0xsUExUX2hQVjN5cHdvN2ZpLUVXc2dWelBsYnlBbmpNeA?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
