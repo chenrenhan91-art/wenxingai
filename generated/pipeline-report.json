@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-08-28T13:45:20.070889+08:00",
-  "ran_at_display": "2026年8月28日 13:45",
+  "ran_at": "2026-08-29T01:04:18.102279+08:00",
+  "ran_at_display": "2026年8月29日 01:04",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "b86aeb09653dc67cccc2193944ee98ae3e077beb",
-  "new_signature": "f49324b9f6b92e0672a17bf8ad6ddfeb088e2d49",
+  "previous_signature": "f49324b9f6b92e0672a17bf8ad6ddfeb088e2d49",
+  "new_signature": "f41d32c366ffe6d095f91895e7d5511c1b339cde",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -22,16 +22,16 @@
   },
   "new_titles": [
     "他心裡有別人嗎？你是不是他的唯一？他對你和對別人有什麼區別？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "🐯 虎嚕命理𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.08.27（四）癸酉日🔮 🔔 認錯不難，難的是願意改；低頭不難，難的是不再重犯。 金生水的癸酉日，觀察力敏銳、容易看清問題，也可能因為太有自己的判斷，說話顯得直接。 今天不只要看見別人的錯，也要願意整理自己。 ✨ 十神開運指南",
+    "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
     "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲",
     "鬼月最重要一天！4類人當心 命理師曝3大開運法",
     "中元節今天當心！命理師曝「4種人易出事」 快打掃會旺：4招開運"
   ],
   "added_titles": [
-    "他心裡有別人嗎？你是不是他的唯一？他對你和對別人有什麼區別？|曖昧|愛情|戀愛|桃花|塔羅占卜|"
+    "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 7/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -41,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月28日 13:45"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月29日 01:04"
     },
     {
       "script": "generate_daily_content.py",

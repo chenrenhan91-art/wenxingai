@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-28",
-  "updated_at_display": "2026年8月28日 13:45",
+  "updated_at": "2026-08-29",
+  "updated_at_display": "2026年8月29日 01:04",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-28T13:45:32.962256+08:00",
+    "fetched_at": "2026-08-29T01:04:32.426386+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 7/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "items": [
     {
@@ -271,23 +271,23 @@
       "event_cluster": "event-11"
     },
     {
-      "title": "🐯 虎嚕命理𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.08.27（四）癸酉日🔮 🔔 認錯不難，難的是願意改；低頭不難，難的是不再重犯。 金生水的癸酉日，觀察力敏銳、容易看清問題，也可能因為太有自己的判斷，說話顯得直接。 今天不只要看見別人的錯，也要願意整理自己。 ✨ 十神開運指南",
+      "title": "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBLNFFFM1JmdmhzbkhRUHo5ZWVrQU11cGdPLVNSZm5ZdlhScV9EQ3JaOU82ZGpybW13eFJxR2ZGLVVpbnZDUGdBdVczYXFpRm9zRjJ2TDNJTEc1SnF2bXJZcW01dw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1tV3Azc2pxa0tOMWZWUjd2ajRDQk5WZFJUUUc0TDBibVdBbS14VTFZUHZvcGRLX1JSSUxkMWZocnV3S2NTNy12eTcwTzFoTlg0Z1UteEQtdkY3U3psMWQwSQ?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-08-27",
-      "published_display": "2026-08-27",
+      "category": "塔罗星象",
+      "published": "2026-08-28",
+      "published_display": "2026-08-28",
       "matched_keywords": [
-        "命理",
-        "開運",
-        "十神"
+        "運勢",
+        "塔羅",
+        "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-127"
+      "event_cluster": "event-115"
     },
     {
       "title": "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲",
@@ -385,11 +385,11 @@
       "event_cluster": "event-05"
     },
     {
-      "title": "周日迎處暑！命理師曝12生肖運勢、「這動物」貴人財運雙旺",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5JMF9nQkMxSHhxS2FwOHhnUEpIOGVzcGZOSEdtaVViZVlaZy1RNHdEOW9GeVRxbzVIbFZ3dk1aQXhmV2tKa1gxbGd6ZVVmZlZn0gFWQVVfeXFMUFcxQndYN2h2YTl0OGRjMnhSaTBVVFNxV2w1aGtSU2V3UTctLXJsaXlZMnRyRjBnX1dxR1ZTQk1hRzRtaFZ0anZxajlKTDZibkVYWGViQkE?oc=5",
+      "title": "「處暑到」秋老虎發威！4生肖運勢亮紅燈…命理師：千萬別做2件事",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxNT1QzRmxjUGdYMGV2MWdVdWtVSnhOQnh0Q3NkSGt4XzJ6VmFIUTZiaVdSc2JwVHdkTFV1N1NRYlA0MW0yS0djSHZ2T0NtcEhEQ3VtRzhGcUVJTm90N1o0YnFEcXpBcHhiNmxYUGdNa3hvUms1TVVsdGhGeTNKOFcwWmFwMnFlaUdma29aV19sa2ZRX3Fmd2FfU1pJVkM0QlNqR1ZRLU1OYzNLU2tnbHlTUHkxenc2LVUzTUlWZ3haZkNrVmRfc1VCdXlnTFJ2T3RDSTI2dko1Z2pxb2ZCaXNrck41ekx3bmlzVWgtRG4zcmhoM1RaMS1SNVZrb2FmckdMUkw4QjZMRUpjNE1GTGNXdDZPR0NQZU15dW9mSVJtTTJ6Nmp0eE1QaXgtV3J1SmRkdXZkWDJUZGJVU1hkZGxjTjM0ZFlKOXFBYVFod0FGbThuenFyN2ZUbFh0Q1A1TU5aU1J4OTVGOVJ4YzFKbXNKRllPRTAtM3JHSzA4?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
+      "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
