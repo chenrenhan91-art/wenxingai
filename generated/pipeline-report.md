@@ -1,9 +1,9 @@
-# 问星AI 内容自动化运行报告 2026年8月28日 00:45
+# 问星AI 内容自动化运行报告 2026年8月28日 13:45
 
 - 总体状态：failed_generate
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：b86aeb09653dc67cccc2193944ee98ae3e077beb
+- 变更签名：f49324b9f6b92e0672a17bf8ad6ddfeb088e2d49
 - Gemini 是否执行：是
 - Gemini 审校是否执行：否
 - 规则质检是否执行：否
@@ -13,11 +13,14 @@
 - 阶段状态：抓取=ok, 生成=failed, 审校=blocked, 质检=blocked, 分发=blocked, 文章=skipped
 
 ## 本轮热点标题
-- 【施敏玲玄學應用】免費風水催財、催事業運教學︱9月、10月派福利︱換季能量變動注意事項︱節目精華
+- 他心裡有別人嗎？你是不是他的唯一？他對你和對別人有什麼區別？|曖昧|愛情|戀愛|桃花|塔羅占卜|
 - 🐯 虎嚕命理𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.08.27（四）癸酉日🔮 🔔 認錯不難，難的是願意改；低頭不難，難的是不再重犯。 金生水的癸酉日，觀察力敏銳、容易看清問題，也可能因為太有自己的判斷，說話顯得直接。 今天不只要看見別人的錯，也要願意整理自己。 ✨ 十神開運指南
 - [新聞]台灣命理師說「北京沒冰箱」中國網友群嘲
 - 鬼月最重要一天！4類人當心 命理師曝3大開運法
 - 中元節今天當心！命理師曝「4種人易出事」 快打掃會旺：4招開運
+
+## 新增标题
+- 他心裡有別人嗎？你是不是他的唯一？他對你和對別人有什麼區別？|曖昧|愛情|戀愛|桃花|塔羅占卜|
 
 ## 次日运营建议
 - 明日优先延展「命理新闻」相关选题（当前占比 7/8）。
@@ -27,7 +30,7 @@
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年8月28日 00:45
+updated 8 hot news items at 2026年8月28日 13:45
 - generate_daily_content.py | failed | [warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {"error":{"message":"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.","type":"invalid_request_error","param":null,...
 [warn] DashScope model qwen3.6-flash-2026-04-16 failed; trying qwen3.5-flash. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
 [warn] DashScope model qwen3.5-flash failed; trying qwen3.5-35b-a3b. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
