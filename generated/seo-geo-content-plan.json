@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-29T11:14:02.089875+08:00",
-  "generated_at_display": "2026-08-29 11:14 CST",
+  "generated_at": "2026-08-29T21:12:37.690918+08:00",
+  "generated_at_display": "2026-08-29 21:12 CST",
   "site_positioning": "问星AI是面向全球华语用户的AI命理应用，核心覆盖紫微斗数、四柱八字、周易六爻、合盘分析、大运流年与玄学热点解读。",
   "hot_news": {
     "updated_at": "2026-08-29",
     "titles": [
-      "他心裡有別人嗎？你是不是他的唯一？他對你和對別人有什麼區別？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "《對的人己經抵達》⏳善用時間戳⏳任何日期可抽牌❤️適用任何時間季節⏳共時，是此刻與訊息相遇🔮塔羅占卜❤️愛情占卜🔮愛情解析🔮戀愛心事🔮塔羅學習",
       "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
       "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲",
       "鬼月最重要一天！4類人當心 命理師曝3大開運法",
@@ -40,7 +40,7 @@
         2
       ],
       [
-        "桃花",
+        "戀愛",
         1
       ],
       [
@@ -92,41 +92,6 @@
         "用问星AI案例说明可验证性"
       ],
       "automation_cadence": "weekly"
-    },
-    {
-      "id": "xuanxue-hot-news",
-      "name": "玄学热点与命理新闻",
-      "score": 110,
-      "priority": 76,
-      "hot_matches": [
-        "生肖",
-        "桃花"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "玄学",
-        "命理新闻",
-        "命理热点",
-        "塔罗占卜",
-        "运势"
-      ],
-      "target_questions": [
-        "最近玄学热点有哪些？",
-        "命理新闻为什么容易引发讨论？",
-        "如何理性看待生肖运势和塔罗占卜？"
-      ],
-      "preferred_pages": [
-        "/mingli-xuanxue-news.html",
-        "/articles/",
-        "/glossary.html"
-      ],
-      "content_angles": [
-        "用每日热点做新鲜度",
-        "把新闻转成理性命理解释",
-        "避免娱乐化过度预言"
-      ],
-      "automation_cadence": "daily"
     },
     {
       "id": "ziwei-ai",
@@ -192,6 +157,40 @@
         "解释八字不是单看生肖"
       ],
       "automation_cadence": "weekly"
+    },
+    {
+      "id": "xuanxue-hot-news",
+      "name": "玄学热点与命理新闻",
+      "score": 98,
+      "priority": 76,
+      "hot_matches": [
+        "生肖"
+      ],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "玄学",
+        "命理新闻",
+        "命理热点",
+        "塔罗占卜",
+        "运势"
+      ],
+      "target_questions": [
+        "最近玄学热点有哪些？",
+        "命理新闻为什么容易引发讨论？",
+        "如何理性看待生肖运势和塔罗占卜？"
+      ],
+      "preferred_pages": [
+        "/mingli-xuanxue-news.html",
+        "/articles/",
+        "/glossary.html"
+      ],
+      "content_angles": [
+        "用每日热点做新鲜度",
+        "把新闻转成理性命理解释",
+        "避免娱乐化过度预言"
+      ],
+      "automation_cadence": "daily"
     },
     {
       "id": "liuyao-ai",
@@ -310,37 +309,11 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "他心裡有別人嗎？你是不是他的唯一？他對你和對別人有什麼區別？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "《對的人己經抵達》⏳善用時間戳⏳任何日期可抽牌❤️適用任何時間季節⏳共時，是此刻與訊息相遇🔮塔羅占卜❤️愛情占卜🔮愛情解析🔮戀愛心事🔮塔羅學習",
         "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
         "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲"
       ],
       "angle": "理性解释AI命理边界"
-    },
-    {
-      "cluster_id": "xuanxue-hot-news",
-      "cluster_name": "玄学热点与命理新闻",
-      "action": "new_article",
-      "primary_keyword": "玄学",
-      "target_question": "最近玄学热点有哪些？",
-      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
-      "suggested_h2": [
-        "玄学的搜索意图是什么",
-        "问星AI如何解释玄学",
-        "传统命理与AI趋势分析的边界",
-        "可引用事实与常见问题"
-      ],
-      "internal_links": [
-        "/facts/wenxing-ai.html",
-        "/geo-answers.html",
-        "/glossary.html",
-        "/mingli-xuanxue-news.html"
-      ],
-      "hot_context": [
-        "他心裡有別人嗎？你是不是他的唯一？他對你和對別人有什麼區別？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-        "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
-        "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲"
-      ],
-      "angle": "用每日热点做新鲜度"
     },
     {
       "cluster_id": "ziwei-ai",
@@ -362,7 +335,7 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "他心裡有別人嗎？你是不是他的唯一？他對你和對別人有什麼區別？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "《對的人己經抵達》⏳善用時間戳⏳任何日期可抽牌❤️適用任何時間季節⏳共時，是此刻與訊息相遇🔮塔羅占卜❤️愛情占卜🔮愛情解析🔮戀愛心事🔮塔羅學習",
         "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
         "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲"
       ],
@@ -388,11 +361,37 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "他心裡有別人嗎？你是不是他的唯一？他對你和對別人有什麼區別？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "《對的人己經抵達》⏳善用時間戳⏳任何日期可抽牌❤️適用任何時間季節⏳共時，是此刻與訊息相遇🔮塔羅占卜❤️愛情占卜🔮愛情解析🔮戀愛心事🔮塔羅學習",
         "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
         "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲"
       ],
       "angle": "把大运流年解释为周期观察"
+    },
+    {
+      "cluster_id": "xuanxue-hot-news",
+      "cluster_name": "玄学热点与命理新闻",
+      "action": "new_article",
+      "primary_keyword": "玄学",
+      "target_question": "最近玄学热点有哪些？",
+      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
+      "suggested_h2": [
+        "玄学的搜索意图是什么",
+        "问星AI如何解释玄学",
+        "传统命理与AI趋势分析的边界",
+        "可引用事实与常见问题"
+      ],
+      "internal_links": [
+        "/facts/wenxing-ai.html",
+        "/geo-answers.html",
+        "/glossary.html",
+        "/mingli-xuanxue-news.html"
+      ],
+      "hot_context": [
+        "《對的人己經抵達》⏳善用時間戳⏳任何日期可抽牌❤️適用任何時間季節⏳共時，是此刻與訊息相遇🔮塔羅占卜❤️愛情占卜🔮愛情解析🔮戀愛心事🔮塔羅學習",
+        "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
+        "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲"
+      ],
+      "angle": "用每日热点做新鲜度"
     },
     {
       "cluster_id": "liuyao-ai",
@@ -414,7 +413,7 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "他心裡有別人嗎？你是不是他的唯一？他對你和對別人有什麼區別？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "《對的人己經抵達》⏳善用時間戳⏳任何日期可抽牌❤️適用任何時間季節⏳共時，是此刻與訊息相遇🔮塔羅占卜❤️愛情占卜🔮愛情解析🔮戀愛心事🔮塔羅學習",
         "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
         "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲"
       ],

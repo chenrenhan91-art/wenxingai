@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-08-29T11:13:38.250049+08:00",
-  "ran_at_display": "2026年8月29日 11:13",
+  "ran_at": "2026-08-29T21:12:13.738783+08:00",
+  "ran_at_display": "2026年8月29日 21:12",
   "overall_status": "failed_generate",
   "force_refresh": true,
   "previous_signature": "f41d32c366ffe6d095f91895e7d5511c1b339cde",
-  "new_signature": "f41d32c366ffe6d095f91895e7d5511c1b339cde",
+  "new_signature": "2c2ec770bd3751d92eeb03fca6981510fcd4df99",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,13 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "他心裡有別人嗎？你是不是他的唯一？他對你和對別人有什麼區別？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "《對的人己經抵達》⏳善用時間戳⏳任何日期可抽牌❤️適用任何時間季節⏳共時，是此刻與訊息相遇🔮塔羅占卜❤️愛情占卜🔮愛情解析🔮戀愛心事🔮塔羅學習",
     "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
     "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲",
     "鬼月最重要一天！4類人當心 命理師曝3大開運法",
     "中元節今天當心！命理師曝「4種人易出事」 快打掃會旺：4招開運"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "《對的人己經抵達》⏳善用時間戳⏳任何日期可抽牌❤️適用任何時間季節⏳共時，是此刻與訊息相遇🔮塔羅占卜❤️愛情占卜🔮愛情解析🔮戀愛心事🔮塔羅學習"
+  ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
@@ -39,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月29日 11:13"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月29日 21:12"
     },
     {
       "script": "generate_daily_content.py",
