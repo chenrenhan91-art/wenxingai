@@ -1,9 +1,9 @@
 {
-  "ran_at": "2026-08-29T01:04:18.102279+08:00",
-  "ran_at_display": "2026年8月29日 01:04",
+  "ran_at": "2026-08-29T11:13:38.250049+08:00",
+  "ran_at_display": "2026年8月29日 11:13",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "f49324b9f6b92e0672a17bf8ad6ddfeb088e2d49",
+  "previous_signature": "f41d32c366ffe6d095f91895e7d5511c1b339cde",
   "new_signature": "f41d32c366ffe6d095f91895e7d5511c1b339cde",
   "content_changed": true,
   "gemini_ran": true,
@@ -27,9 +27,7 @@
     "鬼月最重要一天！4類人當心 命理師曝3大開運法",
     "中元節今天當心！命理師曝「4種人易出事」 快打掃會旺：4招開運"
   ],
-  "added_titles": [
-    "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
@@ -41,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月29日 01:04"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月29日 11:13"
     },
     {
       "script": "generate_daily_content.py",

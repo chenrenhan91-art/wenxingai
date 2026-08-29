@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-08-29",
-  "updated_at_display": "2026年8月29日 01:04",
+  "updated_at_display": "2026年8月29日 11:13",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-29T01:04:32.426386+08:00",
+    "fetched_at": "2026-08-29T11:13:53.836228+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-115"
+      "event_cluster": "event-118"
     },
     {
       "title": "[新聞]台灣命理師說「北京沒冰箱」中國網友群嘲",
