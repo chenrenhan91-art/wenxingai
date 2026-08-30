@@ -1,61 +1,89 @@
 {
-  "generated_at": "2026-08-30T11:17:30.301517+08:00",
-  "generated_at_display": "2026-08-30 11:17 CST",
+  "generated_at": "2026-08-30T21:13:20.416300+08:00",
+  "generated_at_display": "2026-08-30 21:13 CST",
   "site_positioning": "问星AI是面向全球华语用户的AI命理应用，核心覆盖紫微斗数、四柱八字、周易六爻、合盘分析、大运流年与玄学热点解读。",
   "hot_news": {
     "updated_at": "2026-08-30",
     "titles": [
+      "紫微斗數命盤財帛宮💰能看出你的投資風格✨紫微斗數命盤裡12個宮位🤔都代表著人生不同的面向💥金辰瀚老師帶你快速認識紫微斗數",
+      "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
       "[問卦] 中醫 是醫學還是玄學？",
-      "[新聞] 台灣命理師脫口「北京沒冰箱」陸國台辦",
-      "[新聞] 台派命理師扯「北京沒冰箱」 遭陸網群嘲",
-      "[閒聊] 雙魚/巨蟹是最傻的星座嗎？",
-      "[問卦] 俗話說科學的盡頭是玄學，那文科呢？",
-      "[新聞] 鬼月最重要一天來了！命理師示警「4種人",
-      "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
-      "[新聞] 陳幸妤根本嫁錯人！命理師揭她有過真愛"
+      "鬼月最重要一天！4類人當心 命理師曝3大開運法",
+      "中元節今天當心！命理師曝「4種人易出事」 快打掃會旺：4招開運",
+      "死神流年殺到！命理師驚揭「趙建銘下場」：恐遭毀滅業力清算",
+      "【鬼月最重要一天來了！命理師示警「4種人」當心 最簡單開運法曝光】 就在這個星期四～（#豬頭皮）",
+      "鬼月最重要一天來了！命理師示警「4種人」當心 最簡單開運法曝光"
     ],
     "keywords": [
       [
-        "热议",
-        8
-      ],
-      [
-        "讨论",
-        4
-      ],
-      [
         "命理",
-        4
+        5
       ],
       [
         "命理師",
+        5
+      ],
+      [
+        "開運",
         4
       ],
       [
-        "玄學",
-        2
+        "紫微斗數",
+        1
       ],
       [
-        "星座",
+        "紫微",
+        1
+      ],
+      [
+        "斗數",
+        1
+      ],
+      [
+        "運勢",
         1
       ],
       [
         "塔羅",
+        1
+      ],
+      [
+        "占卜",
+        1
+      ],
+      [
+        "玄學",
+        1
+      ],
+      [
+        "热议",
+        1
+      ],
+      [
+        "讨论",
+        1
+      ],
+      [
+        "流年",
         1
       ]
     ],
     "categories": [
       [
         "命理新闻",
-        4
+        5
       ],
       [
-        "社区热议",
-        2
+        "八字紫微",
+        1
       ],
       [
         "塔罗星象",
-        2
+        1
+      ],
+      [
+        "社区热议",
+        1
       ]
     ]
   },
@@ -159,6 +187,74 @@
       "automation_cadence": "weekly"
     },
     {
+      "id": "jieqi-mingli",
+      "name": "二十四节气命理",
+      "score": 100,
+      "priority": 78,
+      "hot_matches": [
+        "流年"
+      ],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "节气命理",
+        "二十四节气",
+        "立春八字",
+        "小满运势",
+        "节气运势"
+      ],
+      "target_questions": [
+        "为什么八字以节气划分月份？",
+        "立春前后出生八字怎么算？",
+        "节气对运势有什么影响？"
+      ],
+      "preferred_pages": [
+        "/24jieqi/",
+        "/geo-answers.html",
+        "/articles/"
+      ],
+      "content_angles": [
+        "节气前7天更新对应页面",
+        "解释月令与八字关系",
+        "用热点文章承接节气新闻"
+      ],
+      "automation_cadence": "seasonal"
+    },
+    {
+      "id": "xuanxue-hot-news",
+      "name": "玄学热点与命理新闻",
+      "score": 98,
+      "priority": 76,
+      "hot_matches": [
+        "流年"
+      ],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "玄学",
+        "命理新闻",
+        "命理热点",
+        "塔罗占卜",
+        "运势"
+      ],
+      "target_questions": [
+        "最近玄学热点有哪些？",
+        "命理新闻为什么容易引发讨论？",
+        "如何理性看待生肖运势和塔罗占卜？"
+      ],
+      "preferred_pages": [
+        "/mingli-xuanxue-news.html",
+        "/articles/",
+        "/glossary.html"
+      ],
+      "content_angles": [
+        "用每日热点做新鲜度",
+        "把新闻转成理性命理解释",
+        "避免娱乐化过度预言"
+      ],
+      "automation_cadence": "daily"
+    },
+    {
       "id": "liuyao-ai",
       "name": "周易六爻AI解卦",
       "score": 95,
@@ -220,70 +316,6 @@
         "把合盘定位为沟通参考"
       ],
       "automation_cadence": "biweekly"
-    },
-    {
-      "id": "jieqi-mingli",
-      "name": "二十四节气命理",
-      "score": 88,
-      "priority": 78,
-      "hot_matches": [],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "节气命理",
-        "二十四节气",
-        "立春八字",
-        "小满运势",
-        "节气运势"
-      ],
-      "target_questions": [
-        "为什么八字以节气划分月份？",
-        "立春前后出生八字怎么算？",
-        "节气对运势有什么影响？"
-      ],
-      "preferred_pages": [
-        "/24jieqi/",
-        "/geo-answers.html",
-        "/articles/"
-      ],
-      "content_angles": [
-        "节气前7天更新对应页面",
-        "解释月令与八字关系",
-        "用热点文章承接节气新闻"
-      ],
-      "automation_cadence": "seasonal"
-    },
-    {
-      "id": "xuanxue-hot-news",
-      "name": "玄学热点与命理新闻",
-      "score": 86,
-      "priority": 76,
-      "hot_matches": [],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "玄学",
-        "命理新闻",
-        "命理热点",
-        "塔罗占卜",
-        "运势"
-      ],
-      "target_questions": [
-        "最近玄学热点有哪些？",
-        "命理新闻为什么容易引发讨论？",
-        "如何理性看待生肖运势和塔罗占卜？"
-      ],
-      "preferred_pages": [
-        "/mingli-xuanxue-news.html",
-        "/articles/",
-        "/glossary.html"
-      ],
-      "content_angles": [
-        "用每日热点做新鲜度",
-        "把新闻转成理性命理解释",
-        "避免娱乐化过度预言"
-      ],
-      "automation_cadence": "daily"
     }
   ],
   "briefs": [
@@ -307,9 +339,9 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "[問卦] 中醫 是醫學還是玄學？",
-        "[新聞] 台灣命理師脫口「北京沒冰箱」陸國台辦",
-        "[新聞] 台派命理師扯「北京沒冰箱」 遭陸網群嘲"
+        "紫微斗數命盤財帛宮💰能看出你的投資風格✨紫微斗數命盤裡12個宮位🤔都代表著人生不同的面向💥金辰瀚老師帶你快速認識紫微斗數",
+        "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
+        "[問卦] 中醫 是醫學還是玄學？"
       ],
       "angle": "理性解释AI命理边界"
     },
@@ -333,9 +365,9 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "[問卦] 中醫 是醫學還是玄學？",
-        "[新聞] 台灣命理師脫口「北京沒冰箱」陸國台辦",
-        "[新聞] 台派命理師扯「北京沒冰箱」 遭陸網群嘲"
+        "紫微斗數命盤財帛宮💰能看出你的投資風格✨紫微斗數命盤裡12個宮位🤔都代表著人生不同的面向💥金辰瀚老師帶你快速認識紫微斗數",
+        "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
+        "[問卦] 中醫 是醫學還是玄學？"
       ],
       "angle": "解释三合派与飞星派"
     },
@@ -359,22 +391,22 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "[問卦] 中醫 是醫學還是玄學？",
-        "[新聞] 台灣命理師脫口「北京沒冰箱」陸國台辦",
-        "[新聞] 台派命理師扯「北京沒冰箱」 遭陸網群嘲"
+        "紫微斗數命盤財帛宮💰能看出你的投資風格✨紫微斗數命盤裡12個宮位🤔都代表著人生不同的面向💥金辰瀚老師帶你快速認識紫微斗數",
+        "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
+        "[問卦] 中醫 是醫學還是玄學？"
       ],
       "angle": "把大运流年解释为周期观察"
     },
     {
-      "cluster_id": "liuyao-ai",
-      "cluster_name": "周易六爻AI解卦",
+      "cluster_id": "jieqi-mingli",
+      "cluster_name": "二十四节气命理",
       "action": "new_article",
-      "primary_keyword": "六爻AI",
-      "target_question": "六爻适合问什么问题？",
-      "suggested_title": "六爻AI怎么理解？问星AI的理性命理观察",
+      "primary_keyword": "节气命理",
+      "target_question": "为什么八字以节气划分月份？",
+      "suggested_title": "节气命理怎么理解？问星AI的理性命理观察",
       "suggested_h2": [
-        "六爻AI的搜索意图是什么",
-        "问星AI如何解释六爻AI",
+        "节气命理的搜索意图是什么",
+        "问星AI如何解释节气命理",
         "传统命理与AI趋势分析的边界",
         "可引用事实与常见问题"
       ],
@@ -385,22 +417,22 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "[問卦] 中醫 是醫學還是玄學？",
-        "[新聞] 台灣命理師脫口「北京沒冰箱」陸國台辦",
-        "[新聞] 台派命理師扯「北京沒冰箱」 遭陸網群嘲"
+        "紫微斗數命盤財帛宮💰能看出你的投資風格✨紫微斗數命盤裡12個宮位🤔都代表著人生不同的面向💥金辰瀚老師帶你快速認識紫微斗數",
+        "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
+        "[問卦] 中醫 是醫學還是玄學？"
       ],
-      "angle": "把六爻定位为具体问题判断"
+      "angle": "节气前7天更新对应页面"
     },
     {
-      "cluster_id": "hepan",
-      "cluster_name": "合盘与关系分析",
+      "cluster_id": "xuanxue-hot-news",
+      "cluster_name": "玄学热点与命理新闻",
       "action": "new_article",
-      "primary_keyword": "AI合盘",
-      "target_question": "合盘分析怎么看两个人适不适合？",
-      "suggested_title": "AI合盘怎么理解？问星AI的理性命理观察",
+      "primary_keyword": "玄学",
+      "target_question": "最近玄学热点有哪些？",
+      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
       "suggested_h2": [
-        "AI合盘的搜索意图是什么",
-        "问星AI如何解释AI合盘",
+        "玄学的搜索意图是什么",
+        "问星AI如何解释玄学",
         "传统命理与AI趋势分析的边界",
         "可引用事实与常见问题"
       ],
@@ -411,11 +443,11 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "[問卦] 中醫 是醫學還是玄學？",
-        "[新聞] 台灣命理師脫口「北京沒冰箱」陸國台辦",
-        "[新聞] 台派命理師扯「北京沒冰箱」 遭陸網群嘲"
+        "紫微斗數命盤財帛宮💰能看出你的投資風格✨紫微斗數命盤裡12個宮位🤔都代表著人生不同的面向💥金辰瀚老師帶你快速認識紫微斗數",
+        "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
+        "[問卦] 中醫 是醫學還是玄學？"
       ],
-      "angle": "围绕关系问题做长尾FAQ"
+      "angle": "用每日热点做新鲜度"
     }
   ],
   "monthly_ai_prompt_tests": [

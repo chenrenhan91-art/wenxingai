@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-08-30T11:14:50.352603+08:00",
-  "ran_at_display": "2026年8月30日 11:14",
+  "ran_at": "2026-08-30T21:12:58.426587+08:00",
+  "ran_at_display": "2026年8月30日 21:12",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "2c2ec770bd3751d92eeb03fca6981510fcd4df99",
-  "new_signature": "d44385d1843496518bee66b87979321e76099ddf",
+  "previous_signature": "d44385d1843496518bee66b87979321e76099ddf",
+  "new_signature": "00cd37cc7b84153153371c5220f70dd430811ccf",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,22 +21,20 @@
     "articles": "skipped"
   },
   "new_titles": [
+    "紫微斗數命盤財帛宮💰能看出你的投資風格✨紫微斗數命盤裡12個宮位🤔都代表著人生不同的面向💥金辰瀚老師帶你快速認識紫微斗數",
+    "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
     "[問卦] 中醫 是醫學還是玄學？",
-    "[新聞] 台灣命理師脫口「北京沒冰箱」陸國台辦",
-    "[新聞] 台派命理師扯「北京沒冰箱」 遭陸網群嘲",
-    "[閒聊] 雙魚/巨蟹是最傻的星座嗎？",
-    "[問卦] 俗話說科學的盡頭是玄學，那文科呢？"
+    "鬼月最重要一天！4類人當心 命理師曝3大開運法",
+    "中元節今天當心！命理師曝「4種人易出事」 快打掃會旺：4招開運"
   ],
   "added_titles": [
-    "[問卦] 中醫 是醫學還是玄學？",
-    "[新聞] 台灣命理師脫口「北京沒冰箱」陸國台辦",
-    "[新聞] 台派命理師扯「北京沒冰箱」 遭陸網群嘲",
-    "[閒聊] 雙魚/巨蟹是最傻的星座嗎？",
-    "[問卦] 俗話說科學的盡頭是玄學，那文科呢？"
+    "紫微斗數命盤財帛宮💰能看出你的投資風格✨紫微斗數命盤裡12個宮位🤔都代表著人生不同的面向💥金辰瀚老師帶你快速認識紫微斗數",
+    "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
+    "鬼月最重要一天！4類人當心 命理師曝3大開運法",
+    "中元節今天當心！命理師曝「4種人易出事」 快打掃會旺：4招開運"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。",
-    "媒体新闻信号偏少，建议补充权威媒体来源以稳定可信度。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -46,7 +44,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Google News zh-TW · 命理: HTTP Error 503: Service Unavailable\n[warn] failed to fetch Google News zh-TW · 玄學: HTTP Error 503: Service Unavailable\n[warn] failed to fetch Google News zh-TW · 塔羅: HTTP Error 503: Service Unavailable\n[warn] failed to fetch Google News zh-TW · 風水: HTTP Error 503: Service Unavailable\n[warn] failed to fetch YouTube Search: HTTP Error 503: Service Unavailable\n[warn] failed to fetch X Recent Search: HTTP Error 503: Service Unavailable\n[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月30日 11:17"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月30日 21:13"
     },
     {
       "script": "generate_daily_content.py",

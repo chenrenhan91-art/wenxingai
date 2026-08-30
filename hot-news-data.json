@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-08-30",
-  "updated_at_display": "2026年8月30日 11:17",
+  "updated_at_display": "2026年8月30日 21:13",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,38 +168,8 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-30T11:17:25.121251+08:00",
+    "fetched_at": "2026-08-30T21:13:13.049040+08:00",
     "failed_sources": [
-      {
-        "source_id": "google_news_mingli_tw",
-        "name": "Google News zh-TW · 命理",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source_id": "google_news_xuanxue_tw",
-        "name": "Google News zh-TW · 玄學",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source_id": "google_news_taluo_tw",
-        "name": "Google News zh-TW · 塔羅",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source_id": "google_news_fengshui_tw",
-        "name": "Google News zh-TW · 風水",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source_id": "youtube_search",
-        "name": "YouTube Search",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source_id": "x_recent_search",
-        "name": "X Recent Search",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
       {
         "source_id": "reddit_search",
         "name": "Reddit Search",
@@ -207,47 +177,47 @@
       }
     ],
     "source_weights": {
-      "google_news_mingli_tw": 6.55,
-      "google_news_xuanxue_tw": 6.05,
-      "google_news_taluo_tw": 5.85,
-      "google_news_fengshui_tw": 5.85,
-      "ptt_gossiping": 5.55,
-      "ptt_womentalk": 5.15,
+      "google_news_mingli_tw": 5.4,
+      "google_news_xuanxue_tw": 5.2,
+      "google_news_taluo_tw": 5.0,
+      "google_news_fengshui_tw": 5.0,
+      "ptt_gossiping": 5.75,
+      "ptt_womentalk": 5.25,
       "ptt_marvel": 4.65,
-      "youtube_search": 5.55,
-      "x_recent_search": 5.35,
+      "youtube_search": 4.6,
+      "x_recent_search": 4.4,
       "reddit_search": 4.0,
       "xiaohongshu_watch": 5.05
     },
     "by_source": {
       "google_news_mingli_tw": {
-        "status": "failed",
-        "picked_items": 0,
-        "failures": 1
+        "status": "ok",
+        "picked_items": 5,
+        "failures": 0
       },
       "google_news_xuanxue_tw": {
-        "status": "failed",
+        "status": "ok",
         "picked_items": 0,
-        "failures": 1
+        "failures": 0
       },
       "google_news_taluo_tw": {
-        "status": "failed",
+        "status": "ok",
         "picked_items": 0,
-        "failures": 1
+        "failures": 0
       },
       "google_news_fengshui_tw": {
-        "status": "failed",
+        "status": "ok",
         "picked_items": 0,
-        "failures": 1
+        "failures": 0
       },
       "ptt_gossiping": {
         "status": "ok",
-        "picked_items": 7,
+        "picked_items": 1,
         "failures": 0
       },
       "ptt_womentalk": {
         "status": "ok",
-        "picked_items": 1,
+        "picked_items": 0,
         "failures": 0
       },
       "ptt_marvel": {
@@ -256,14 +226,14 @@
         "failures": 0
       },
       "youtube_search": {
-        "status": "failed",
-        "picked_items": 0,
-        "failures": 1
+        "status": "ok",
+        "picked_items": 1,
+        "failures": 0
       },
       "x_recent_search": {
-        "status": "failed",
-        "picked_items": 0,
-        "failures": 1
+        "status": "ok",
+        "picked_items": 1,
+        "failures": 0
       },
       "reddit_search": {
         "status": "failed",
@@ -278,10 +248,47 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。",
-    "媒体新闻信号偏少，建议补充权威媒体来源以稳定可信度。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "items": [
+    {
+      "title": "紫微斗數命盤財帛宮💰能看出你的投資風格✨紫微斗數命盤裡12個宮位🤔都代表著人生不同的面向💥金辰瀚老師帶你快速認識紫微斗數",
+      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5xOGs2dUl3SnN6Zl9sSXBkZEg3N3g5MHNSVGVzcnpuSF8tdmI4LVpIN0ZQd3RYd1pWa2ZlRm9EMWpTZzIyLWVkNnVMamRWVHowbXYxektR?oc=5",
+      "source_id": "youtube_search",
+      "source": "YouTube · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "video",
+      "category": "八字紫微",
+      "published": "2026-08-29",
+      "published_display": "2026-08-29",
+      "matched_keywords": [
+        "紫微斗數",
+        "紫微",
+        "斗數"
+      ],
+      "score": 11.399999999999999,
+      "event_cluster": "event-15"
+    },
+    {
+      "title": "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
+      "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1tV3Azc2pxa0tOMWZWUjd2ajRDQk5WZFJUUUc0TDBibVdBbS14VTFZUHZvcGRLX1JSSUxkMWZocnV3S2NTNy12eTcwTzFoTlg0Z1UteEQtdkY3U3psMWQwSQ?oc=5",
+      "source_id": "x_recent_search",
+      "source": "X · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "community",
+      "category": "塔罗星象",
+      "published": "2026-08-28",
+      "published_display": "2026-08-28",
+      "matched_keywords": [
+        "運勢",
+        "塔羅",
+        "占卜"
+      ],
+      "score": 9.0,
+      "event_cluster": "event-123"
+    },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
       "summary": "来自 PTT Gossiping 的热议帖，围绕「玄學」展开讨论，推文热度 54，作者 a111111。",
@@ -298,141 +305,103 @@
         "热议",
         "讨论"
       ],
-      "score": 28.95,
+      "score": 29.15,
       "event_cluster": "event-01"
     },
     {
-      "title": "[新聞] 台灣命理師脫口「北京沒冰箱」陸國台辦",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 8，作者 ggyang。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787914377.A.6F5.html",
-      "source_id": "ptt_gossiping",
-      "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
-      "source_group": "community",
+      "title": "鬼月最重要一天！4類人當心 命理師曝3大開運法",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNZzJvZTJ2WHRBU1BTRUFRS1NmWWYxZXV1emdhS0h2cmR6bm5QNmo5cEpfeXllek1xZlZ0UDdIUVYtVDBBdFNFc1BLMzJVSlI3a2VSRnlmdnA5Rzg3UUxrN3B2WTVNeFg4X3I2bHVxY2dudHF3Tzc4eFZsLUtiaWJpM2FyS1l1S01Qc3pPRk1wTkhhcVlIaVUyNThySldIajRvd3FkVDU3RnIxQm13bUVXQ3VlY21YMHVXVVdZdl9LZ3FtSWlOZ2hhVXIyUmZVTVppTjlEa3c3S2p5NXpWNV9ZNl9SczFfLVY3Z2FrR0JCUWtiSnpzRmFFa29tRGgtZ3pqc3l2OVR6WkRSY3gwWEdTSFlLRUxSdmotVzRCY0xPeXRUeEZtV2JsT3E3b2YzcVdjeXc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-08-28",
-      "published_display": "2026-08-28",
+      "published": "2026-08-27",
+      "published_display": "2026-08-27",
       "matched_keywords": [
         "命理",
         "命理師",
-        "热议"
+        "開運"
       ],
-      "score": 12.616666666666665,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "[新聞] 台派命理師扯「北京沒冰箱」 遭陸網群嘲",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 6，作者 Scorpio。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787498079.A.450.html",
-      "source_id": "ptt_gossiping",
-      "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
-      "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-08-23",
-      "published_display": "2026-08-23",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "热议"
-      ],
-      "score": 11.95,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "[閒聊] 雙魚/巨蟹是最傻的星座嗎？",
-      "summary": "来自 PTT WomenTalk 的热议帖，围绕「星座」展开讨论，推文热度 16，作者 rsbbs0611428。",
-      "url": "https://www.ptt.cc/bbs/WomenTalk/M.1786793473.A.CA2.html",
-      "source_id": "ptt_womentalk",
-      "source": "PTT WomenTalk",
-      "source_url": "https://www.ptt.cc/bbs/WomenTalk/search?page=1&q=%E6%98%9F%E5%BA%A7",
-      "source_group": "community",
-      "category": "塔罗星象",
-      "published": "2026-08-15",
-      "published_display": "2026-08-15",
-      "matched_keywords": [
-        "星座",
-        "热议",
-        "讨论"
-      ],
-      "score": 14.683333333333334,
+      "score": 13.600000000000001,
       "event_cluster": "event-02"
     },
     {
-      "title": "[問卦] 俗話說科學的盡頭是玄學，那文科呢？",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「玄學」展开讨论，推文热度 10，作者 kabor。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1786792246.A.DF3.html",
-      "source_id": "ptt_gossiping",
-      "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E7%8E%84%E5%AD%B8",
-      "source_group": "community",
-      "category": "社区热议",
-      "published": "2026-08-15",
-      "published_display": "2026-08-15",
+      "title": "中元節今天當心！命理師曝「4種人易出事」 快打掃會旺：4招開運",
+      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5KN2ZGcGE2TXFWMl9KSURpWS1VRjQ5VjNBZENQNTBNVWZHeWVQNmc5bmkxd1hVR1dQSk9pVFlZRk5TaGpvRUZMWnFwQmXSAVJBVV95cUxPTEFJN2NRbmJXczJ5V0YyV1VxdXZiUUs2eWRibjBxejZOaGxiLXdaZ0ZIUlZQR01YMTlmZGViM1FyeHFBbUdrYnQ0ZnQxWGhUd1dR?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "NOWnews今日新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-08-27",
+      "published_display": "2026-08-27",
       "matched_keywords": [
-        "玄學",
-        "热议",
-        "讨论"
+        "命理",
+        "命理師",
+        "開運"
       ],
-      "score": 14.283333333333333,
+      "score": 13.600000000000001,
       "event_cluster": "event-03"
     },
     {
-      "title": "[新聞] 鬼月最重要一天來了！命理師示警「4種人",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 5，作者 TsaiIngWen。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787638641.A.5D4.html",
-      "source_id": "ptt_gossiping",
-      "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
-      "source_group": "community",
+      "title": "死神流年殺到！命理師驚揭「趙建銘下場」：恐遭毀滅業力清算",
+      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wR1dlalMyakh3TUt6QmRVNTBSbmdZaU9Scy1XVUt4VXJfTVBLY0pfYkotdmM2NFBpZm5qdGJsdTAydnRGSGRMV2FzYmNhU0dqbHdF?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "TVBS新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-08-25",
-      "published_display": "2026-08-25",
+      "published": "2026-08-27",
+      "published_display": "2026-08-27",
       "matched_keywords": [
         "命理",
         "命理師",
-        "热议"
+        "流年"
       ],
-      "score": 11.616666666666665,
-      "event_cluster": "event-05"
+      "score": 13.600000000000001,
+      "event_cluster": "event-04"
     },
     {
-      "title": "[新聞] 黑熊變國師！沈伯洋「塔羅牌算台北未來命",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「塔羅」展开讨论，推文热度 21，作者 chopper594。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1781421303.A.752.html",
-      "source_id": "ptt_gossiping",
-      "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%A1%94%E7%BE%85",
-      "source_group": "community",
-      "category": "塔罗星象",
-      "published": "2026-06-14",
-      "published_display": "2026-06-14",
+      "title": "【鬼月最重要一天來了！命理師示警「4種人」當心 最簡單開運法曝光】 就在這個星期四～（#豬頭皮）",
+      "summary": "来自 facebook.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMimwRBVV95cUxNdnc0MXI1V3NiNTNvcjZaOEpIRGRqaVktWEFUY25LXzJMdTZ6TlBZOVRQb1YwN0NqOVdRbW9CM042YWIyUXduZXlPWGhNUmpHdm13ZVRVTlkxZUZFaE9VZnpHUHJOU1VjTm5FUFlSY1ltSWpqYmw3alNvVVNOUDgyTHV4WWtiZ19nVlhQY3R5SGpweTgydWVmVGlzaVlIWUFRX3NXVEFiTEVzbGI4WHZVZWVkTWFLM0hMU3JnZ1NEcGIzZ2dOWjdncVFBbmpKMjdTWkZ1UVo3Q19jX3c1dS1pUW1Pc3VkS2xZWV8ycjN6WU90UGFTSjlfcUxES3RublB4S052WlJrdVVROWZ6RGhsVFM5bl9veUUxWVVpeS1XMTdDckV5MFhzRlJWMVFiTy11ZVoyZ3lUSjRHbW5haXZaUjBERXBoRzlrQi1JeVktWVpqVGV3d01pRHY3VG5UV0VmMkVmUzc4WFhFZkI4VUF2UFJrZ1BtekxrSW03eUhlNkVDcWRnNHBHQll6dVVsOHkyaHJoN180Nk1FUFZTczZFeU5XZVladnBxT3QyQUhTU1lkZlR6c05qM2dUMjJNd3RmVkJUdEdKRlMwa0hydTBZUkpVNzQ3dGZIaEh6Q2JsM2ZjMDFnSm9mSTBWSmJPdGNfRmNjNEhnS21oSFZqR1hybVp4WEoySEMydmM2ZmNXMjFTVndMejkyMXZ5cw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "facebook.com · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-08-24",
+      "published_display": "2026-08-24",
       "matched_keywords": [
-        "塔羅",
-        "热议",
-        "讨论"
+        "命理",
+        "命理師",
+        "開運"
       ],
-      "score": 15.75,
+      "score": 13.600000000000001,
       "event_cluster": "event-06"
     },
     {
-      "title": "[新聞] 陳幸妤根本嫁錯人！命理師揭她有過真愛",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 5，作者 Scorpio。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787152270.A.09B.html",
-      "source_id": "ptt_gossiping",
-      "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
-      "source_group": "community",
+      "title": "鬼月最重要一天來了！命理師示警「4種人」當心 最簡單開運法曝光",
+      "summary": "来自 ETtoday新聞雲 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5peHdvNnpvUHNUbjFOUHE2NWFuRHVVQ2R2SjA4Zk1XOU9uU0NSRnpzbFJBdWZzdFRDdXBCOUVFLXdZb25oWW8zWFIwN1hQTGJpQWlHU0JFX1RYSmhkOUHSAUtBVV95cUxOa3pCNV9ITTRheWtyel9fTGtXWlFfbkVCMGhnWXNWb2Z1SmYxLTQySEpfcFdkdWRfMDEyWU55X0xHQ0hVUGxOZGtqN3c?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "ETtoday新聞雲 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-08-19",
-      "published_display": "2026-08-19",
+      "published": "2026-08-24",
+      "published_display": "2026-08-24",
       "matched_keywords": [
         "命理",
         "命理師",
-        "热议"
+        "開運"
       ],
-      "score": 11.616666666666665,
-      "event_cluster": "event-05"
+      "score": 13.600000000000001,
+      "event_cluster": "event-06"
     }
   ]
 }
