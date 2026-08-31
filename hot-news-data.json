@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-30",
-  "updated_at_display": "2026年8月30日 21:13",
+  "updated_at": "2026-08-31",
+  "updated_at_display": "2026年8月31日 11:16",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-30T21:13:13.049040+08:00",
+    "fetched_at": "2026-08-31T11:16:40.285045+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -177,15 +177,15 @@
       }
     ],
     "source_weights": {
-      "google_news_mingli_tw": 5.4,
-      "google_news_xuanxue_tw": 5.2,
-      "google_news_taluo_tw": 5.0,
-      "google_news_fengshui_tw": 5.0,
-      "ptt_gossiping": 5.75,
-      "ptt_womentalk": 5.25,
+      "google_news_mingli_tw": 6.55,
+      "google_news_xuanxue_tw": 6.05,
+      "google_news_taluo_tw": 5.85,
+      "google_news_fengshui_tw": 5.85,
+      "ptt_gossiping": 5.55,
+      "ptt_womentalk": 5.15,
       "ptt_marvel": 4.65,
-      "youtube_search": 4.6,
-      "x_recent_search": 4.4,
+      "youtube_search": 5.55,
+      "x_recent_search": 5.35,
       "reddit_search": 4.0,
       "xiaohongshu_watch": 5.05
     },
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "紫微斗數命盤財帛宮💰能看出你的投資風格✨紫微斗數命盤裡12個宮位🤔都代表著人生不同的面向💥金辰瀚老師帶你快速認識紫微斗數",
+      "title": "這幾天他的新感受，對你的新感情，對關係的新想法，以及近期的發展|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5xOGs2dUl3SnN6Zl9sSXBkZEg3N3g5MHNSVGVzcnpuSF8tdmI4LVpIN0ZQd3RYd1pWa2ZlRm9EMWpTZzIyLWVkNnVMamRWVHowbXYxektR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BczZtZmZUdWZQYk5PWVhUeUdPVElrV25qOFAzQl95V0ZiRjdIRlI5T1lsRXJ1blpld0kxbFJ0Z01RRHQxbWlLNWRncnduVFFZSnBpTVRB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "八字紫微",
-      "published": "2026-08-29",
-      "published_display": "2026-08-29",
+      "category": "塔罗星象",
+      "published": "2026-08-26",
+      "published_display": "2026-08-26",
       "matched_keywords": [
-        "紫微斗數",
-        "紫微",
-        "斗數"
+        "塔羅",
+        "占卜",
+        "桃花"
       ],
-      "score": 11.399999999999999,
-      "event_cluster": "event-15"
+      "score": 14.55,
+      "event_cluster": "event-05"
     },
     {
       "title": "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
@@ -286,8 +286,8 @@
         "塔羅",
         "占卜"
       ],
-      "score": 9.0,
-      "event_cluster": "event-123"
+      "score": 9.95,
+      "event_cluster": "event-127"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -305,7 +305,7 @@
         "热议",
         "讨论"
       ],
-      "score": 29.15,
+      "score": 28.95,
       "event_cluster": "event-01"
     },
     {
@@ -324,7 +324,7 @@
         "命理師",
         "開運"
       ],
-      "score": 13.600000000000001,
+      "score": 14.750000000000002,
       "event_cluster": "event-02"
     },
     {
@@ -343,7 +343,7 @@
         "命理師",
         "開運"
       ],
-      "score": 13.600000000000001,
+      "score": 14.750000000000002,
       "event_cluster": "event-03"
     },
     {
@@ -362,7 +362,7 @@
         "命理師",
         "流年"
       ],
-      "score": 13.600000000000001,
+      "score": 14.750000000000002,
       "event_cluster": "event-04"
     },
     {
@@ -381,7 +381,7 @@
         "命理師",
         "開運"
       ],
-      "score": 13.600000000000001,
+      "score": 14.750000000000002,
       "event_cluster": "event-06"
     },
     {
@@ -400,7 +400,7 @@
         "命理師",
         "開運"
       ],
-      "score": 13.600000000000001,
+      "score": 14.750000000000002,
       "event_cluster": "event-06"
     }
   ]
