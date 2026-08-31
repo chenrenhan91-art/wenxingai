@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-08-31",
-  "updated_at_display": "2026年8月31日 11:16",
+  "updated_at_display": "2026年8月31日 21:18",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-08-31T11:16:40.285045+08:00",
+    "fetched_at": "2026-08-31T21:18:20.373168+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,27 +248,27 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
-      "title": "這幾天他的新感受，對你的新感情，對關係的新想法，以及近期的發展|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "他最近想你了嗎？想對你做什麼？希望你怎麼對待他？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BczZtZmZUdWZQYk5PWVhUeUdPVElrV25qOFAzQl95V0ZiRjdIRlI5T1lsRXJ1blpld0kxbFJ0Z01RRHQxbWlLNWRncnduVFFZSnBpTVRB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DbkV0Z2J2TGxCT25qcmtpSndVNExqX2hvMzJBdmRfb0diVGVUYUpYV0pReUV2cVk5VHpXTXJoTWNabThfeTlSV0s5c1ROaXptOGo4Snhn?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-08-26",
-      "published_display": "2026-08-26",
+      "published": "2026-08-27",
+      "published_display": "2026-08-27",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
       "title": "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
@@ -287,7 +287,7 @@
         "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-127"
+      "event_cluster": "event-129"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -309,6 +309,25 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "2026年9月星座運勢出爐！命理師點名這3星座旺到翻，水瓶千萬別亂吃瓜！",
+      "summary": "来自 udn 女子漾 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52MVdfS0FNUkJaTUZXSldmbkRhTkJxMGh3T181Y3RvVFFyMEpBT0hGNDRhejhybmhzelNrU0NMUlZkc09Sajcwb3FfWjV1OThYYWdGTG11Vm1lMDlZ0gFiQVVfeXFMUHF5N091SVlIUmZjbGVzLWFjTFRiU0pKNkhuNmYxU1FfaWdad1JaclF5VnZPZTIxd0E4R2NEVjlOcXlmZ0wtdXZXd1dOd1Q2bVBNM3NoN0VvREhaT1REN1d3LWc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "udn 女子漾 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-08-31",
+      "published_display": "2026-08-31",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
       "title": "鬼月最重要一天！4類人當心 命理師曝3大開運法",
       "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNZzJvZTJ2WHRBU1BTRUFRS1NmWWYxZXV1emdhS0h2cmR6bm5QNmo5cEpfeXllek1xZlZ0UDdIUVYtVDBBdFNFc1BLMzJVSlI3a2VSRnlmdnA5Rzg3UUxrN3B2WTVNeFg4X3I2bHVxY2dudHF3Tzc4eFZsLUtiaWJpM2FyS1l1S01Qc3pPRk1wTkhhcVlIaVUyNThySldIajRvd3FkVDU3RnIxQm13bUVXQ3VlY21YMHVXVVdZdl9LZ3FtSWlOZ2hhVXIyUmZVTVppTjlEa3c3S2p5NXpWNV9ZNl9SczFfLVY3Z2FrR0JCUWtiSnpzRmFFa29tRGgtZ3pqc3l2OVR6WkRSY3gwWEdTSFlLRUxSdmotVzRCY0xPeXRUeEZtV2JsT3E3b2YzcVdjeXc?oc=5",
@@ -325,7 +344,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "中元節今天當心！命理師曝「4種人易出事」 快打掃會旺：4招開運",
@@ -344,14 +363,14 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "死神流年殺到！命理師驚揭「趙建銘下場」：恐遭毀滅業力清算",
-      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 news.tvbs.com.tw · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wR1dlalMyakh3TUt6QmRVNTBSbmdZaU9Scy1XVUt4VXJfTVBLY0pfYkotdmM2NFBpZm5qdGJsdTAydnRGSGRMV2FzYmNhU0dqbHdF?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "TVBS新聞網 · Google News",
+      "source": "news.tvbs.com.tw · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -363,45 +382,25 @@
         "流年"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
-      "title": "【鬼月最重要一天來了！命理師示警「4種人」當心 最簡單開運法曝光】 就在這個星期四～（#豬頭皮）",
-      "summary": "来自 facebook.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMimwRBVV95cUxNdnc0MXI1V3NiNTNvcjZaOEpIRGRqaVktWEFUY25LXzJMdTZ6TlBZOVRQb1YwN0NqOVdRbW9CM042YWIyUXduZXlPWGhNUmpHdm13ZVRVTlkxZUZFaE9VZnpHUHJOU1VjTm5FUFlSY1ltSWpqYmw3alNvVVNOUDgyTHV4WWtiZ19nVlhQY3R5SGpweTgydWVmVGlzaVlIWUFRX3NXVEFiTEVzbGI4WHZVZWVkTWFLM0hMU3JnZ1NEcGIzZ2dOWjdncVFBbmpKMjdTWkZ1UVo3Q19jX3c1dS1pUW1Pc3VkS2xZWV8ycjN6WU90UGFTSjlfcUxES3RublB4S052WlJrdVVROWZ6RGhsVFM5bl9veUUxWVVpeS1XMTdDckV5MFhzRlJWMVFiTy11ZVoyZ3lUSjRHbW5haXZaUjBERXBoRzlrQi1JeVktWVpqVGV3d01pRHY3VG5UV0VmMkVmUzc4WFhFZkI4VUF2UFJrZ1BtekxrSW03eUhlNkVDcWRnNHBHQll6dVVsOHkyaHJoN180Nk1FUFZTczZFeU5XZVladnBxT3QyQUhTU1lkZlR6c05qM2dUMjJNd3RmVkJUdEdKRlMwa0hydTBZUkpVNzQ3dGZIaEh6Q2JsM2ZjMDFnSm9mSTBWSmJPdGNfRmNjNEhnS21oSFZqR1hybVp4WEoySEMydmM2ZmNXMjFTVndMejkyMXZ5cw?oc=5",
+      "title": "藝人五熊油潑日本國寶遭逮 命理師：素食性生肖、姓名「帶肉帶刀」須謹慎",
+      "summary": "来自 鏡週刊Mirror Media · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE42ODJ1TE1mVUs3OGd4N01BNDJZalR2dEljQTZXdGN2YVFZNWlBUjFHdEN6cXFJNEk4VzdScEhZMFVjeW5jTkhxX3BSODNkRzFVNEVmU1d2a2tCb0xMdmh6OHRMdDZWd9IBa0FVX3lxTE1INEllVmJmczlRS3lwTWFWRmRIZ25vR3BxcktETHU0U0dmdmxYNXc2ZG5lUVJBbVpBcElBa2pVSGpMWWZ1X1FDdnZ1Z0FFZFhDWndHTjFfVld1QlVoTjc5MC1uSm54djM3Vmd3?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "facebook.com · Google News",
+      "source": "鏡週刊Mirror Media · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-08-24",
-      "published_display": "2026-08-24",
+      "published": "2026-08-31",
+      "published_display": "2026-08-31",
       "matched_keywords": [
         "命理",
-        "命理師",
-        "開運"
+        "命理師"
       ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-06"
-    },
-    {
-      "title": "鬼月最重要一天來了！命理師示警「4種人」當心 最簡單開運法曝光",
-      "summary": "来自 ETtoday新聞雲 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5peHdvNnpvUHNUbjFOUHE2NWFuRHVVQ2R2SjA4Zk1XOU9uU0NSRnpzbFJBdWZzdFRDdXBCOUVFLXdZb25oWW8zWFIwN1hQTGJpQWlHU0JFX1RYSmhkOUHSAUtBVV95cUxOa3pCNV9ITTRheWtyel9fTGtXWlFfbkVCMGhnWXNWb2Z1SmYxLTQySEpfcFdkdWRfMDEyWU55X0xHQ0hVUGxOZGtqN3c?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "ETtoday新聞雲 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-08-24",
-      "published_display": "2026-08-24",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "score": 12.55,
+      "event_cluster": "event-10"
     }
   ]
 }

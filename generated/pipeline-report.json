@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-08-31T11:16:25.581889+08:00",
-  "ran_at_display": "2026年8月31日 11:16",
+  "ran_at": "2026-08-31T21:18:04.122293+08:00",
+  "ran_at_display": "2026年8月31日 21:18",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "00cd37cc7b84153153371c5220f70dd430811ccf",
-  "new_signature": "60ceee1d872faca999113e382405902ecaa0ef60",
+  "previous_signature": "60ceee1d872faca999113e382405902ecaa0ef60",
+  "new_signature": "6c52062945c3e0659413ef478456199dcca65abf",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,17 +21,18 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "這幾天他的新感受，對你的新感情，對關係的新想法，以及近期的發展|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "他最近想你了嗎？想對你做什麼？希望你怎麼對待他？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
     "[問卦] 中醫 是醫學還是玄學？",
-    "鬼月最重要一天！4類人當心 命理師曝3大開運法",
-    "中元節今天當心！命理師曝「4種人易出事」 快打掃會旺：4招開運"
+    "2026年9月星座運勢出爐！命理師點名這3星座旺到翻，水瓶千萬別亂吃瓜！",
+    "鬼月最重要一天！4類人當心 命理師曝3大開運法"
   ],
   "added_titles": [
-    "這幾天他的新感受，對你的新感情，對關係的新想法，以及近期的發展|曖昧|愛情|戀愛|桃花|塔羅占卜|"
+    "他最近想你了嗎？想對你做什麼？希望你怎麼對待他？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "2026年9月星座運勢出爐！命理師點名這3星座旺到翻，水瓶千萬別亂吃瓜！"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -41,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月31日 11:16"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年8月31日 21:18"
     },
     {
       "script": "generate_daily_content.py",

@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-31T11:16:48.698459+08:00",
-  "generated_at_display": "2026-08-31 11:16 CST",
+  "generated_at": "2026-08-31T21:18:28.232605+08:00",
+  "generated_at_display": "2026-08-31 21:18 CST",
   "site_positioning": "问星AI是面向全球华语用户的AI命理应用，核心覆盖紫微斗数、四柱八字、周易六爻、合盘分析、大运流年与玄学热点解读。",
   "hot_news": {
     "updated_at": "2026-08-31",
     "titles": [
-      "這幾天他的新感受，對你的新感情，對關係的新想法，以及近期的發展|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "他最近想你了嗎？想對你做什麼？希望你怎麼對待他？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
       "[問卦] 中醫 是醫學還是玄學？",
+      "2026年9月星座運勢出爐！命理師點名這3星座旺到翻，水瓶千萬別亂吃瓜！",
       "鬼月最重要一天！4類人當心 命理師曝3大開運法",
       "中元節今天當心！命理師曝「4種人易出事」 快打掃會旺：4招開運",
       "死神流年殺到！命理師驚揭「趙建銘下場」：恐遭毀滅業力清算",
-      "【鬼月最重要一天來了！命理師示警「4種人」當心 最簡單開運法曝光】 就在這個星期四～（#豬頭皮）",
-      "鬼月最重要一天來了！命理師示警「4種人」當心 最簡單開運法曝光"
+      "藝人五熊油潑日本國寶遭逮 命理師：素食性生肖、姓名「帶肉帶刀」須謹慎"
     ],
     "keywords": [
       [
@@ -24,10 +24,6 @@
         5
       ],
       [
-        "開運",
-        4
-      ],
-      [
         "塔羅",
         2
       ],
@@ -36,11 +32,15 @@
         2
       ],
       [
-        "桃花",
-        1
+        "運勢",
+        2
       ],
       [
-        "運勢",
+        "開運",
+        2
+      ],
+      [
+        "桃花",
         1
       ],
       [
@@ -63,11 +63,11 @@
     "categories": [
       [
         "命理新闻",
-        5
+        4
       ],
       [
         "塔罗星象",
-        2
+        3
       ],
       [
         "社区热议",
@@ -76,6 +76,42 @@
     ]
   },
   "scored_clusters": [
+    {
+      "id": "xuanxue-hot-news",
+      "name": "玄学热点与命理新闻",
+      "score": 122,
+      "priority": 76,
+      "hot_matches": [
+        "生肖",
+        "桃花",
+        "流年"
+      ],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "玄学",
+        "命理新闻",
+        "命理热点",
+        "塔罗占卜",
+        "运势"
+      ],
+      "target_questions": [
+        "最近玄学热点有哪些？",
+        "命理新闻为什么容易引发讨论？",
+        "如何理性看待生肖运势和塔罗占卜？"
+      ],
+      "preferred_pages": [
+        "/mingli-xuanxue-news.html",
+        "/articles/",
+        "/glossary.html"
+      ],
+      "content_angles": [
+        "用每日热点做新鲜度",
+        "把新闻转成理性命理解释",
+        "避免娱乐化过度预言"
+      ],
+      "automation_cadence": "daily"
+    },
     {
       "id": "ai-mingli",
       "name": "AI命理与AI算命",
@@ -108,41 +144,6 @@
         "用问星AI案例说明可验证性"
       ],
       "automation_cadence": "weekly"
-    },
-    {
-      "id": "xuanxue-hot-news",
-      "name": "玄学热点与命理新闻",
-      "score": 110,
-      "priority": 76,
-      "hot_matches": [
-        "桃花",
-        "流年"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "玄学",
-        "命理新闻",
-        "命理热点",
-        "塔罗占卜",
-        "运势"
-      ],
-      "target_questions": [
-        "最近玄学热点有哪些？",
-        "命理新闻为什么容易引发讨论？",
-        "如何理性看待生肖运势和塔罗占卜？"
-      ],
-      "preferred_pages": [
-        "/mingli-xuanxue-news.html",
-        "/articles/",
-        "/glossary.html"
-      ],
-      "content_angles": [
-        "用每日热点做新鲜度",
-        "把新闻转成理性命理解释",
-        "避免娱乐化过度预言"
-      ],
-      "automation_cadence": "daily"
     },
     {
       "id": "ziwei-ai",
@@ -309,32 +310,6 @@
   ],
   "briefs": [
     {
-      "cluster_id": "ai-mingli",
-      "cluster_name": "AI命理与AI算命",
-      "action": "new_article",
-      "primary_keyword": "AI命理",
-      "target_question": "AI命理和传统算命有什么区别？",
-      "suggested_title": "AI命理怎么理解？问星AI的理性命理观察",
-      "suggested_h2": [
-        "AI命理的搜索意图是什么",
-        "问星AI如何解释AI命理",
-        "传统命理与AI趋势分析的边界",
-        "可引用事实与常见问题"
-      ],
-      "internal_links": [
-        "/facts/wenxing-ai.html",
-        "/geo-answers.html",
-        "/glossary.html",
-        "/mingli-xuanxue-news.html"
-      ],
-      "hot_context": [
-        "這幾天他的新感受，對你的新感情，對關係的新想法，以及近期的發展|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-        "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
-        "[問卦] 中醫 是醫學還是玄學？"
-      ],
-      "angle": "理性解释AI命理边界"
-    },
-    {
       "cluster_id": "xuanxue-hot-news",
       "cluster_name": "玄学热点与命理新闻",
       "action": "new_article",
@@ -354,11 +329,37 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "這幾天他的新感受，對你的新感情，對關係的新想法，以及近期的發展|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "他最近想你了嗎？想對你做什麼？希望你怎麼對待他？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
         "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
         "[問卦] 中醫 是醫學還是玄學？"
       ],
       "angle": "用每日热点做新鲜度"
+    },
+    {
+      "cluster_id": "ai-mingli",
+      "cluster_name": "AI命理与AI算命",
+      "action": "new_article",
+      "primary_keyword": "AI命理",
+      "target_question": "AI命理和传统算命有什么区别？",
+      "suggested_title": "AI命理怎么理解？问星AI的理性命理观察",
+      "suggested_h2": [
+        "AI命理的搜索意图是什么",
+        "问星AI如何解释AI命理",
+        "传统命理与AI趋势分析的边界",
+        "可引用事实与常见问题"
+      ],
+      "internal_links": [
+        "/facts/wenxing-ai.html",
+        "/geo-answers.html",
+        "/glossary.html",
+        "/mingli-xuanxue-news.html"
+      ],
+      "hot_context": [
+        "他最近想你了嗎？想對你做什麼？希望你怎麼對待他？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
+        "[問卦] 中醫 是醫學還是玄學？"
+      ],
+      "angle": "理性解释AI命理边界"
     },
     {
       "cluster_id": "ziwei-ai",
@@ -380,7 +381,7 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "這幾天他的新感受，對你的新感情，對關係的新想法，以及近期的發展|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "他最近想你了嗎？想對你做什麼？希望你怎麼對待他？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
         "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
         "[問卦] 中醫 是醫學還是玄學？"
       ],
@@ -406,7 +407,7 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "這幾天他的新感受，對你的新感情，對關係的新想法，以及近期的發展|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "他最近想你了嗎？想對你做什麼？希望你怎麼對待他？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
         "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
         "[問卦] 中醫 是醫學還是玄學？"
       ],
@@ -432,7 +433,7 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "這幾天他的新感受，對你的新感情，對關係的新想法，以及近期的發展|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "他最近想你了嗎？想對你做什麼？希望你怎麼對待他？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
         "【夢境占卜】測測你的九月運勢👋 https://t.co/Pv9mnMXTER #塔羅",
         "[問卦] 中醫 是醫學還是玄學？"
       ],
