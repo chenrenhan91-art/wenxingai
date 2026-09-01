@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-01T11:16:50.260778+08:00",
-  "ran_at_display": "2026年9月1日 11:16",
+  "ran_at": "2026-09-01T21:16:36.359494+08:00",
+  "ran_at_display": "2026年9月1日 21:16",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "6c52062945c3e0659413ef478456199dcca65abf",
-  "new_signature": "2f63f859d45b95230d1b3eb5d9d554c63ea32b9a",
+  "previous_signature": "2f63f859d45b95230d1b3eb5d9d554c63ea32b9a",
+  "new_signature": "83cbf74f05844b1a8db13365695e8f98c6c508f6",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,17 +21,18 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "他最近想你了嗎？想對你做什麼？希望你怎麼對待他？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "他正在想著你嗎？他對你隱藏的真實想法有多少？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "研究孫宇晨的八字，找了一批跟牠同樣價值觀的八字做對比，一個比孫宇晨「割學」，稍差一點的八字。 2028轉大運「傷官見官，為禍百端」，驚蟄就有事立秋最凶。再練練手，用鐵算心易和連山大定核實了一下，這一關闖不過去，極端情況下就跟郭文貴一樣了。具體是誰，應",
     "[問卦] 中醫 是醫學還是玄學？",
     "2026年9月星座運勢出爐！命理師點名這3星座旺到翻，水瓶千萬別亂吃瓜！",
-    "鬼月最重要一天！4類人當心 命理師曝3大開運法"
+    "8月運勢出爐！美女命理師：「5星座」遇貴人、升遷機會高"
   ],
   "added_titles": [
-    "研究孫宇晨的八字，找了一批跟牠同樣價值觀的八字做對比，一個比孫宇晨「割學」，稍差一點的八字。 2028轉大運「傷官見官，為禍百端」，驚蟄就有事立秋最凶。再練練手，用鐵算心易和連山大定核實了一下，這一關闖不過去，極端情況下就跟郭文貴一樣了。具體是誰，應"
+    "他正在想著你嗎？他對你隱藏的真實想法有多少？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "8月運勢出爐！美女命理師：「5星座」遇貴人、升遷機會高"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「塔罗星象」相关选题（当前占比 3/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -41,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月1日 11:17"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月1日 21:16"
     },
     {
       "script": "generate_daily_content.py",
