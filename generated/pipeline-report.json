@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-02T21:16:31.994131+08:00",
-  "ran_at_display": "2026年9月2日 21:16",
+  "ran_at": "2026-09-03T12:28:25.382314+08:00",
+  "ran_at_display": "2026年9月3日 12:28",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "3b435cc9b6f5a07f0515cd75d26c156ebe624f14",
-  "new_signature": "13a23e6b4d18b1266461bfae0958f2de53f56f9e",
+  "previous_signature": "13a23e6b4d18b1266461bfae0958f2de53f56f9e",
+  "new_signature": "619a3c7368a093808f337fa11285568c68e9651d",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,17 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "《吸引》⏳善用時間戳⏳CC字幕⏳任何日期可抽牌⏳適用任何時間季節⏳共時，是此刻與訊息相遇🔮塔羅占卜🔮愛情占卜🔮愛情解析🔮戀愛心事🔮塔羅學習",
+    "[極致反差]他眼中vs心底的你！什麼出乎意料的割裂反差？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.01（二）戊寅日 🔮 🔔 不看人笑話，也別讓自己活成笑話。 戊土遇寅木，今天容易被事情追著跑，忙起來脾氣也跟著上線。 別人的熱鬧看看就好，先把自己的人生顧好比較重要。 ✨ 十神開運指南｜請對照日主 🌳甲木｜偏財：財運機會",
     "[問卦] 中醫 是醫學還是玄學？",
-    "2026年9月星座運勢出爐！命理師點名這3星座旺到翻，水瓶千萬別亂吃瓜！",
-    "8月運勢出爐！美女命理師：「5星座」遇貴人、升遷機會高"
+    "8月運勢出爐！美女命理師：「5星座」遇貴人、升遷機會高",
+    "2026年9月星座運勢出爐！命理師點名這3星座旺到翻，水瓶千萬別亂吃瓜！"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "[極致反差]他眼中vs心底的你！什麼出乎意料的割裂反差？|曖昧|愛情|戀愛|桃花|塔羅占卜|"
+  ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「塔罗星象」相关选题（当前占比 3/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -39,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月2日 21:16"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月3日 12:28"
     },
     {
       "script": "generate_daily_content.py",

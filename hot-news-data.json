@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-02",
-  "updated_at_display": "2026年9月2日 21:16",
+  "updated_at": "2026-09-03",
+  "updated_at_display": "2026年9月3日 12:28",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-02T21:16:44.792461+08:00",
+    "fetched_at": "2026-09-03T12:28:38.608123+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,27 +248,27 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「塔罗星象」相关选题（当前占比 3/8）。"
   ],
   "items": [
     {
-      "title": "《吸引》⏳善用時間戳⏳CC字幕⏳任何日期可抽牌⏳適用任何時間季節⏳共時，是此刻與訊息相遇🔮塔羅占卜🔮愛情占卜🔮愛情解析🔮戀愛心事🔮塔羅學習",
+      "title": "[極致反差]他眼中vs心底的你！什麼出乎意料的割裂反差？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pRDZ1YmhOcHBrMTJCS09mVlRWZkRqTGpudVVBNVVfYzRjXzd5Rk5BcjlzM0lQSmh4ZXlTbEFxZHZSSUd1eDNYNDhmdkYxSHgyQ1V5b2FR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zLUQ1NWNRd1pNSXdVdWFBMkRtYkdxejdKNUoyZ0VfdGtqVUFoaFRITXlvOWVGQ1cyaDFPeUFfT0Vzd3NnUmFRampBcVhPQW9LcFc5dWRn?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-09-01",
-      "published_display": "2026-09-01",
+      "published": "2026-09-02",
+      "published_display": "2026-09-02",
       "matched_keywords": [
         "塔羅",
         "占卜",
-        "戀愛"
+        "桃花"
       ],
-      "score": 12.35,
-      "event_cluster": "event-43"
+      "score": 14.55,
+      "event_cluster": "event-02"
     },
     {
       "title": "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.01（二）戊寅日 🔮 🔔 不看人笑話，也別讓自己活成笑話。 戊土遇寅木，今天容易被事情追著跑，忙起來脾氣也跟著上線。 別人的熱鬧看看就好，先把自己的人生顧好比較重要。 ✨ 十神開運指南｜請對照日主 🌳甲木｜偏財：財運機會",
@@ -287,7 +287,7 @@
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-124"
+      "event_cluster": "event-94"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -309,25 +309,6 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "2026年9月星座運勢出爐！命理師點名這3星座旺到翻，水瓶千萬別亂吃瓜！",
-      "summary": "来自 udn 女子漾 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaFdlTnhUTzZSVXNiTkc3Tk1LYnVSTlFoVlJDbVBFdm5JWDYyekhlb0dkV2RsVEZyV1hLc1Y1U1BCMjc5QVRRdGRjZzVHUGpMQ0NWRTd0Nzhobm9DMlRvOVdldDcwT3k0WGZjS0VtR3pTa1FCMDVYWWZ2ZVhERzl5alFBSdIBYkFVX3lxTFBxeTdPdUlZSFJmY2xlcy1hY0xUYlNKSjZIbjZmMVNRX2lnWndSWnJReVZ2T2UyMXdBOEdjRFY5TnF5ZmdMLXV2V3dXTndUNm1QTTNzaDdFb0RIWk9URDdXdy1n?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "udn 女子漾 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-08-31",
-      "published_display": "2026-08-31",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-02"
-    },
-    {
       "title": "8月運勢出爐！美女命理師：「5星座」遇貴人、升遷機會高",
       "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1KaXlkUDNTRnBrWTQ4Q0szMzZwdTJlbjUzeXYwYlAxMnhsTzF3dzhQVlZfUENlOUh2eVRNTFgwcTFMLVphVkVj0gFLQVVfeXFMUDk2VXJwMUF6VWFZcWV6TEw4aU1ma1Ywd28zMzF6ZnY5NHphWVZ3cnZyYlYxX1J1UVhhcVFDWGtaamdteG95aVJTNXBN?oc=5",
@@ -347,30 +328,30 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "鬼月最重要一天！4類人當心 命理師曝3大開運法",
-      "summary": "来自 緯來新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQd3JFNWRPTGdQSm9jZEFUcnNiYmlUMnBBdVVBTHNoTHNSQUJxekpKMGM1bXlTOWctUnAxd0J3VUY3TUJOQlVkc3NlM004VVNOVE85MVhLZHFtRGd1c2U2MzB5U1gyTEVDLTJQbEx5Qkp2ZklRMVkxUDRtSE9US3lneEdhTnAxdw?oc=5",
+      "title": "2026年9月星座運勢出爐！命理師點名這3星座旺到翻，水瓶千萬別亂吃瓜！",
+      "summary": "来自 udn 女子漾 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52MVdfS0FNUkJaTUZXSldmbkRhTkJxMGh3T181Y3RvVFFyMEpBT0hGNDRhejhybmhzelNrU0NMUlZkc09Sajcwb3FfWjV1OThYYWdGTG11Vm1lMDlZ0gFiQVVfeXFMUHF5N091SVlIUmZjbGVzLWFjTFRiU0pKNkhuNmYxU1FfaWdad1JaclF5VnZPZTIxd0E4R2NEVjlOcXlmZ0wtdXZXd1dOd1Q2bVBNM3NoN0VvREhaT1REN1d3LWc?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "緯來新聞網 · Google News",
+      "source": "udn 女子漾 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-08-27",
-      "published_display": "2026-08-27",
+      "category": "塔罗星象",
+      "published": "2026-08-31",
+      "published_display": "2026-08-31",
       "matched_keywords": [
         "命理",
         "命理師",
-        "開運"
+        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-04"
     },
     {
       "title": "死神流年殺到！命理師驚揭「趙建銘下場」：恐遭毀滅業力清算",
-      "summary": "来自 news.tvbs.com.tw · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wR1dlalMyakh3TUt6QmRVNTBSbmdZaU9Scy1XVUt4VXJfTVBLY0pfYkotdmM2NFBpZm5qdGJsdTAydnRGSGRMV2FzYmNhU0dqbHdF?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "news.tvbs.com.tw · Google News",
+      "source": "TVBS新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -385,23 +366,41 @@
       "event_cluster": "event-05"
     },
     {
-      "title": "中元節今天當心！命理師曝「4種人易出事」 快打掃會旺：4招開運",
-      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5KN2ZGcGE2TXFWMl9KSURpWS1VRjQ5VjNBZENQNTBNVWZHeWVQNmc5bmkxd1hVR1dQSk9pVFlZRk5TaGpvRUZMWnFwQmXSAVJBVV95cUxPTEFJN2NRbmJXczJ5V0YyV1VxdXZiUUs2eWRibjBxejZOaGxiLXdaZ0ZIUlZQR01YMTlmZGViM1FyeHFBbUdrYnQ0ZnQxWGhUd1dR?oc=5",
+      "title": "翻身變有錢卻守不住？命理師示警走下坡「3大毀滅徵兆」",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxPN3FSblFaMlNYUE0zOTQtM0NMRjJkZk9wVUdCOElfZjc5QzRadTJUV3diQU9XM1c0S0Vwd0d2YjdkSXg4V2hMUHVRV1h6bnJXMGlqNnc1UVhRVFg2aXhSemZVNnVUVDlNYzZfYWZmQ1NxZXZVSWNUREczY2lfYS0za2xueFNCMWhIMS1VSVdQU1lVU3Z0R0M2ZnJzWVRueHFiTE5LNGFrbE9TWW1iNFZOb0w5RkNFZ1hyZnNaY2xpRWp1bFV3X0hrMmxHbFUxTG5NM2RDWkM0cmdfdEppWVpqNG4yQ1FMQ095LVp2Q0VmdVJKQjQtQjFpQkRGOHQ3MzdBWFVwX1BXTmdkY2k2ekhtbzhzS1pLQkJiQ2hxbnpFb0Y2S1dvYkpNb1g2VHRLMDBZcVFIZHRHZG5OSlpSbkpfdGFTVWp3QlpXQlo0cDB2bndXcnpaeFF0eVRMcDdBaUU?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "NOWnews今日新聞 · Google News",
+      "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-08-27",
-      "published_display": "2026-08-27",
+      "published": "2026-09-03",
+      "published_display": "2026-09-03",
+      "matched_keywords": [
+        "命理",
+        "命理師"
+      ],
+      "score": 12.55,
+      "event_cluster": "event-08"
+    },
+    {
+      "title": "冰箱擺錯恐破財！命理師點名6大風水禁忌 這位置最傷財運",
+      "summary": "来自 udn.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB4NVVOaks5bUtpekRTVmM0TDIycXlzMG9aQkt3bU1lQmt1VXNEdTdyd0loNlBMbkRuYjczLXFqMW9VVjdtY3NrbzVObkhGaU5t0gFWQVVfeXFMUFpSX2c1WUhoa21yNzEyYW0xdG5xX2ZqODgxNUljREJEMW55aEt3d0FpVWlrVHVsVThlR3JKZDdVU3JKWncwSlFWQWRlRl9hUVVnN0tZTXc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "udn.com · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "风水玄学",
+      "published": "2026-09-03",
+      "published_display": "2026-09-03",
       "matched_keywords": [
         "命理",
         "命理師",
-        "開運"
+        "風水"
       ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "score": 12.55,
+      "event_cluster": "event-09"
     }
   ]
 }
