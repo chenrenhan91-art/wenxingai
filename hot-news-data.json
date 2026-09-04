@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-09-04",
-  "updated_at_display": "2026年9月4日 11:15",
+  "updated_at_display": "2026年9月4日 21:15",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-04T11:15:39.255237+08:00",
+    "fetched_at": "2026-09-04T21:15:54.385475+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -177,11 +177,11 @@
       }
     ],
     "source_weights": {
-      "google_news_mingli_tw": 6.25,
+      "google_news_mingli_tw": 6.55,
       "google_news_xuanxue_tw": 6.05,
-      "google_news_taluo_tw": 6.15,
+      "google_news_taluo_tw": 5.95,
       "google_news_fengshui_tw": 5.85,
-      "ptt_gossiping": 5.75,
+      "ptt_gossiping": 5.55,
       "ptt_womentalk": 5.15,
       "ptt_marvel": 4.65,
       "youtube_search": 5.55,
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「塔罗星象」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "線下看了一個命理師，本來看著玩，結果把我前面的都說的非常准，還說我工作變動大會轉行（實話），我現在在幹啥都說的很準。然後我問了未來財運，他說會有人給我錢花……？？？這啥意思？",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-87"
+      "event_cluster": "event-95"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -304,46 +304,27 @@
         "热议",
         "讨论"
       ],
-      "score": 29.15,
+      "score": 28.95,
       "event_cluster": "event-01"
     },
     {
-      "title": "【12星座本週運勢】8/31至9/6最旺星座TOP3，12星座整體運勢、工作運、桃花運一次看",
-      "summary": "来自 Cosmopolitan · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZG1JSUVZZ0p0a2JwcTRrVXlPMHZaNjhheXpqUFRPMUFPX25LR0JJRVZKX0JQeFM1b3NsY3FIck1peDFzVl93d1F5aVRWSGVLUmVrSHhVcXdSeURqRGRESFFQbmZjU1d3cjJPSDNuME9vUHdxRkl5c25MdmJvRzdFMFdiMmxrWHhJRXFkdlFn?oc=5",
-      "source_id": "google_news_taluo_tw",
-      "source": "Cosmopolitan · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-09-03",
-      "published_display": "2026-09-03",
-      "matched_keywords": [
-        "運勢",
-        "星座",
-        "桃花"
-      ],
-      "score": 14.350000000000001,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "8月運勢出爐！美女命理師：「5星座」遇貴人、升遷機會高",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1KaXlkUDNTRnBrWTQ4Q0szMzZwdTJlbjUzeXYwYlAxMnhsTzF3dzhQVlZfUENlOUh2eVRNTFgwcTFMLVphVkVj0gFLQVVfeXFMUDk2VXJwMUF6VWFZcWV6TEw4aU1ma1Ywd28zMzF6ZnY5NHphWVZ3cnZyYlYxX1J1UVhhcVFDWGtaamdteG95aVJTNXBN?oc=5",
+      "title": "運勢走下坡有徵兆！命理師揭3大警訊 「這舉動」是破財開始",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxNdENYQnRoNzB1dEVBT1JVZTVJY181QXBuY0l3MGdaLWR6R2VnWGV4c1lfc0pfNzI2RGdwcWxPNkFfdmFycWJ5anowQWxCVjZjN0lycjVMQmJ1VGNRQXhGTmtVdG1UWUxBbXdkOUZEQ3gyYUVRSlVLcFVfTU5Ibnd2dk9HOXl0UU5wTXhRcm91aGczOEYtazA0cGZfX3U5cnRoNEZyTHhrMWY0dFkycEJIUkNtaGFxaFdXMUM3S195Z2Q2Q3dQR0ZBYjZEd2YtZEpURWowNmN6YmgxU1NKOGJJdWdqakFQU3Q4djdBajhxRVpUaTgxS1Y4MDNNeXY5ejlWSWVYQ1FqRzZLNXlmbVBOTENNdnE3RTNyb2VlUnpuZTIwTHJUei1GVW41ZENKZVdHaWdSb3dnd1JZcTExbEpNbTMzNWM2OHY3T3V0Qm1ycEk1Y0ZjSzVnZG5vb0lCV0dWbWhlY1laVms1cnlY?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
+      "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-08-31",
-      "published_display": "2026-08-31",
+      "category": "命理新闻",
+      "published": "2026-09-04",
+      "published_display": "2026-09-04",
       "matched_keywords": [
         "命理",
         "命理師",
         "運勢"
       ],
-      "score": 14.450000000000001,
-      "event_cluster": "event-04"
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
     },
     {
       "title": "2026年9月星座運勢出爐！命理師點名這3星座旺到翻，水瓶千萬別亂吃瓜！",
@@ -361,15 +342,34 @@
         "命理師",
         "運勢"
       ],
-      "score": 14.450000000000001,
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
+    },
+    {
+      "title": "【12星座本週運勢】8/31至9/6最旺星座TOP3，12星座整體運勢、工作運、桃花運一次看",
+      "summary": "来自 Cosmopolitan · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZG1JSUVZZ0p0a2JwcTRrVXlPMHZaNjhheXpqUFRPMUFPX25LR0JJRVZKX0JQeFM1b3NsY3FIck1peDFzVl93d1F5aVRWSGVLUmVrSHhVcXdSeURqRGRESFFQbmZjU1d3cjJPSDNuME9vUHdxRkl5c25MdmJvRzdFMFdiMmxrWHhJRXFkdlFn?oc=5",
+      "source_id": "google_news_taluo_tw",
+      "source": "Cosmopolitan · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-09-03",
+      "published_display": "2026-09-03",
+      "matched_keywords": [
+        "運勢",
+        "星座",
+        "桃花"
+      ],
+      "score": 14.15,
       "event_cluster": "event-05"
     },
     {
-      "title": "乩童都是騙人的？命理師揭「2舉動」出現就別再信",
-      "summary": "来自 teepr.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdjJ0dWpuMmx3S3JzYkxqbUdhUllmTVk4VlF3aDlkOS1OeHZidkJZSUZOMF92U3lkSEZLdGNrcWFtM3pFRmllS3NzR3Y2ODVSakhEM2pROVNDYXJwbDJmb3YtdThIWXZTbDZoYTFjcllTM1dIV3hjYlZiQklGMGtHZWJB?oc=5",
+      "title": "五熊為什麼會犯大錯？命理師批「藝名太爛」害了她...致命傷曝光",
+      "summary": "来自 鏡報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5iSEw1UzBvS3JKMkRRLUhILUZ1NTNVYTVUOXpUU1gxRHB4RjFiX0VFZC1xdEdHcHR2cnlkSG5mWnhXOUF3bFFQYk9CSFptMkJtM1E?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "teepr.com · Google News",
+      "source": "鏡報 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -379,8 +379,8 @@
         "命理",
         "命理師"
       ],
-      "score": 12.250000000000002,
-      "event_cluster": "event-10"
+      "score": 12.55,
+      "event_cluster": "event-08"
     },
     {
       "title": "地藏王菩薩誕辰將至 命理師曝5類人可祈福求好運",
@@ -397,8 +397,8 @@
         "命理",
         "命理師"
       ],
-      "score": 12.250000000000002,
-      "event_cluster": "event-11"
+      "score": 12.55,
+      "event_cluster": "event-09"
     }
   ]
 }

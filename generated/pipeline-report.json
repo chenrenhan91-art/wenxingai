@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-04T11:15:23.356434+08:00",
-  "ran_at_display": "2026年9月4日 11:15",
+  "ran_at": "2026-09-04T21:15:37.855058+08:00",
+  "ran_at_display": "2026年9月4日 21:15",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "a58c4a9f6ec4dd1d3d08599db8153f03eedfcb0e",
-  "new_signature": "cc54b98b4556dfc952a640f5550d04b1b73f4f18",
+  "previous_signature": "cc54b98b4556dfc952a640f5550d04b1b73f4f18",
+  "new_signature": "c772c2954fe946178068a6142b2efced4993b2c3",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -24,15 +24,15 @@
     "你會走入怎樣的婚姻？你的結婚對象是個怎樣的人？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "線下看了一個命理師，本來看著玩，結果把我前面的都說的非常准，還說我工作變動大會轉行（實話），我現在在幹啥都說的很準。然後我問了未來財運，他說會有人給我錢花……？？？這啥意思？",
     "[問卦] 中醫 是醫學還是玄學？",
-    "【12星座本週運勢】8/31至9/6最旺星座TOP3，12星座整體運勢、工作運、桃花運一次看",
-    "8月運勢出爐！美女命理師：「5星座」遇貴人、升遷機會高"
+    "運勢走下坡有徵兆！命理師揭3大警訊 「這舉動」是破財開始",
+    "2026年9月星座運勢出爐！命理師點名這3星座旺到翻，水瓶千萬別亂吃瓜！"
   ],
   "added_titles": [
-    "你會走入怎樣的婚姻？你的結婚對象是個怎樣的人？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "8月運勢出爐！美女命理師：「5星座」遇貴人、升遷機會高"
+    "運勢走下坡有徵兆！命理師揭3大警訊 「這舉動」是破財開始",
+    "2026年9月星座運勢出爐！命理師點名這3星座旺到翻，水瓶千萬別亂吃瓜！"
   ],
   "ops_hints": [
-    "明日优先延展「塔罗星象」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -42,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月4日 11:15"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月4日 21:15"
     },
     {
       "script": "generate_daily_content.py",
