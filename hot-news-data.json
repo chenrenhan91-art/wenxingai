@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-03",
-  "updated_at_display": "2026年9月3日 21:16",
+  "updated_at": "2026-09-04",
+  "updated_at_display": "2026年9月4日 11:15",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-03T21:16:52.076714+08:00",
+    "fetched_at": "2026-09-04T11:15:39.255237+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -177,11 +177,11 @@
       }
     ],
     "source_weights": {
-      "google_news_mingli_tw": 6.55,
+      "google_news_mingli_tw": 6.25,
       "google_news_xuanxue_tw": 6.05,
-      "google_news_taluo_tw": 5.85,
+      "google_news_taluo_tw": 6.15,
       "google_news_fengshui_tw": 5.85,
-      "ptt_gossiping": 5.55,
+      "ptt_gossiping": 5.75,
       "ptt_womentalk": 5.15,
       "ptt_marvel": 4.65,
       "youtube_search": 5.55,
@@ -192,7 +192,7 @@
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 0,
+        "picked_items": 4,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -202,7 +202,7 @@
       },
       "google_news_taluo_tw": {
         "status": "ok",
-        "picked_items": 3,
+        "picked_items": 1,
         "failures": 0
       },
       "google_news_fengshui_tw": {
@@ -212,7 +212,7 @@
       },
       "ptt_gossiping": {
         "status": "ok",
-        "picked_items": 3,
+        "picked_items": 1,
         "failures": 0
       },
       "ptt_womentalk": {
@@ -252,16 +252,16 @@
   ],
   "items": [
     {
-      "title": "[極致反差]他眼中vs心底的你！什麼出乎意料的割裂反差？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "你會走入怎樣的婚姻？你的結婚對象是個怎樣的人？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zLUQ1NWNRd1pNSXdVdWFBMkRtYkdxejdKNUoyZ0VfdGtqVUFoaFRITXlvOWVGQ1cyaDFPeUFfT0Vzd3NnUmFRampBcVhPQW9LcFc5dWRn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KWDZ1UEpwWFFXTmFENmxtV0hZMDlwRTBYOEx6a1hPVWFPdVJNWnpQV3E2UFd6Y19UZzBSWWdaWkoxSjBZZ3NJaW1GQjRJLVNEVTB2aHl3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-09-02",
-      "published_display": "2026-09-02",
+      "published": "2026-09-03",
+      "published_display": "2026-09-03",
       "matched_keywords": [
         "塔羅",
         "占卜",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-21"
+      "event_cluster": "event-87"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -304,7 +304,7 @@
         "热议",
         "讨论"
       ],
-      "score": 28.95,
+      "score": 29.15,
       "event_cluster": "event-01"
     },
     {
@@ -323,82 +323,82 @@
         "星座",
         "桃花"
       ],
-      "score": 14.05,
+      "score": 14.350000000000001,
       "event_cluster": "event-03"
     },
     {
-      "title": "塔羅星座- 副刊",
-      "summary": "来自 香港文匯報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53SS1ybkZRcWhZNW1BcWgwSmp4LWdtcG5nV0hfekZJVHExbWNrSzA3a3FUWExRemlUeXk3MGFOSEplWTU1TkVhMDBNRVdCaEpsUXJSNTVJMURNcW50QUJzUnhadER1NlplZk9MUFJHdmRqZENrRWZZ?oc=5",
-      "source_id": "google_news_taluo_tw",
-      "source": "香港文匯報 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-09-02",
-      "published_display": "2026-09-02",
-      "matched_keywords": [
-        "塔羅",
-        "星座"
-      ],
-      "score": 11.85,
-      "event_cluster": "event-09"
-    },
-    {
-      "title": "塔羅週報｜8/31-9/6：這4個星座即將突破停滯，事業與人生迎來關鍵進展",
-      "summary": "来自 Vogue Taiwan · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5BVDBNQ0FQYnZ3QmtHQnd2MC1BZGs3T0NtakVxTE56d24yV1pJOGxYNkZOUWdwQVNwVVRtUHFjWFZfM0tGTGZENXVac1QyV3lsclRGTjFHWWxfaEZxYW1tamk0bkM1Wk42T0lQamNCUlZPdTkxekNOSUVR?oc=5",
-      "source_id": "google_news_taluo_tw",
-      "source": "Vogue Taiwan · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "title": "8月運勢出爐！美女命理師：「5星座」遇貴人、升遷機會高",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1KaXlkUDNTRnBrWTQ4Q0szMzZwdTJlbjUzeXYwYlAxMnhsTzF3dzhQVlZfUENlOUh2eVRNTFgwcTFMLVphVkVj0gFLQVVfeXFMUDk2VXJwMUF6VWFZcWV6TEw4aU1ma1Ywd28zMzF6ZnY5NHphWVZ3cnZyYlYxX1J1UVhhcVFDWGtaamdteG95aVJTNXBN?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "塔罗星象",
       "published": "2026-08-31",
       "published_display": "2026-08-31",
       "matched_keywords": [
-        "塔羅",
-        "星座"
+        "命理",
+        "命理師",
+        "運勢"
       ],
-      "score": 11.85,
+      "score": 14.450000000000001,
+      "event_cluster": "event-04"
+    },
+    {
+      "title": "2026年9月星座運勢出爐！命理師點名這3星座旺到翻，水瓶千萬別亂吃瓜！",
+      "summary": "来自 udn 女子漾 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52MVdfS0FNUkJaTUZXSldmbkRhTkJxMGh3T181Y3RvVFFyMEpBT0hGNDRhejhybmhzelNrU0NMUlZkc09Sajcwb3FfWjV1OThYYWdGTG11Vm1lMDlZ0gFiQVVfeXFMUHF5N091SVlIUmZjbGVzLWFjTFRiU0pKNkhuNmYxU1FfaWdad1JaclF5VnZPZTIxd0E4R2NEVjlOcXlmZ0wtdXZXd1dOd1Q2bVBNM3NoN0VvREhaT1REN1d3LWc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "udn 女子漾 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-08-31",
+      "published_display": "2026-08-31",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.450000000000001,
+      "event_cluster": "event-05"
+    },
+    {
+      "title": "乩童都是騙人的？命理師揭「2舉動」出現就別再信",
+      "summary": "来自 teepr.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdjJ0dWpuMmx3S3JzYkxqbUdhUllmTVk4VlF3aDlkOS1OeHZidkJZSUZOMF92U3lkSEZLdGNrcWFtM3pFRmllS3NzR3Y2ODVSakhEM2pROVNDYXJwbDJmb3YtdThIWXZTbDZoYTFjcllTM1dIV3hjYlZiQklGMGtHZWJB?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "teepr.com · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-09-04",
+      "published_display": "2026-09-04",
+      "matched_keywords": [
+        "命理",
+        "命理師"
+      ],
+      "score": 12.250000000000002,
       "event_cluster": "event-10"
     },
     {
-      "title": "[新聞] 台灣命理師脫口「北京沒冰箱」陸國台辦",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 8，作者 ggyang。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787914377.A.6F5.html",
-      "source_id": "ptt_gossiping",
-      "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
-      "source_group": "community",
+      "title": "地藏王菩薩誕辰將至 命理師曝5類人可祈福求好運",
+      "summary": "来自 自由時報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ITnZVTkhvUm13QjlyaVhGS0ZKN2NaazNEN281NkFJa21maVJaeGVnV3puNkVrazBfY1lVUHVFUXk2SGpIQjM4UkZfRGIxSlhEVFVKZWpKUm9vREQ5ZGFTd3BCblTSAWpBVV95cUxOSXE3cUxsMWxnS3ZHSzBWMEo0cGs4a28yakdicURvMnBkU09rTmJyclJGSi13NTBYY0ViYjZYWnVLMnFUanhiY28wRnR5WmR2Tlp1OG5lZHhhRlBnNXhSemwxSHNFdG94UjZR?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "自由時報 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-08-28",
-      "published_display": "2026-08-28",
+      "published": "2026-09-04",
+      "published_display": "2026-09-04",
       "matched_keywords": [
         "命理",
-        "命理師",
-        "热议"
+        "命理師"
       ],
-      "score": 12.616666666666665,
-      "event_cluster": "event-06"
-    },
-    {
-      "title": "[新聞] 台派命理師扯「北京沒冰箱」 遭陸網群嘲",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 6，作者 Scorpio。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787498079.A.450.html",
-      "source_id": "ptt_gossiping",
-      "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
-      "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-08-23",
-      "published_display": "2026-08-23",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "热议"
-      ],
-      "score": 11.95,
-      "event_cluster": "event-06"
+      "score": 12.250000000000002,
+      "event_cluster": "event-11"
     }
   ]
 }
