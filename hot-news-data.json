@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-04",
-  "updated_at_display": "2026年9月4日 21:15",
+  "updated_at": "2026-09-05",
+  "updated_at_display": "2026年9月5日 11:14",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-04T21:15:54.385475+08:00",
+    "fetched_at": "2026-09-05T11:14:41.540698+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "你會走入怎樣的婚姻？你的結婚對象是個怎樣的人？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "現在的TA正在猶豫什麼？是要靠近你，還是想要退開|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KWDZ1UEpwWFFXTmFENmxtV0hZMDlwRTBYOEx6a1hPVWFPdVJNWnpQV3E2UFd6Y19UZzBSWWdaWkoxSjBZZ3NJaW1GQjRJLVNEVTB2aHl3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XRFp1Qlp1UC1ONVNheUlOcFVtTEc4MExxQWhMZ1V0bS1aNUR4NmtBVFp4eF95MmZFRmZVaG9IUkdGd0p1b0NhZWRyNXBpeHhyQkpUS2t3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-09-03",
-      "published_display": "2026-09-03",
+      "published": "2026-09-01",
+      "published_display": "2026-09-01",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "線下看了一個命理師，本來看著玩，結果把我前面的都說的非常准，還說我工作變動大會轉行（實話），我現在在幹啥都說的很準。然後我問了未來財運，他說會有人給我錢花……？？？這啥意思？",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-95"
+      "event_cluster": "event-102"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -343,7 +343,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-03"
     },
     {
       "title": "【12星座本週運勢】8/31至9/6最旺星座TOP3，12星座整體運勢、工作運、桃花運一次看",
@@ -365,16 +365,16 @@
       "event_cluster": "event-05"
     },
     {
-      "title": "五熊為什麼會犯大錯？命理師批「藝名太爛」害了她...致命傷曝光",
-      "summary": "来自 鏡報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5iSEw1UzBvS3JKMkRRLUhILUZ1NTNVYTVUOXpUU1gxRHB4RjFiX0VFZC1xdEdHcHR2cnlkSG5mWnhXOUF3bFFQYk9CSFptMkJtM1E?oc=5",
+      "title": "鬼門關怎麼拜？命理師揭密「5大禁忌話」：說錯好兄弟不走了",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxPejNHbDF0d0JKQnNfSkJYVVRBa1VXaURNb0hSRnFwLVRzSmpBOFByeGZLcTVSVW5pN3ZsZVcxYjh0OEl4dktibUtaVjkwQ3gxdTJqRko1M2xUTW9jTkx4SG05ZHRQY3ZfV1pFUlpJelJiUW1NdF9wTjNmYlltVi1xYlQ1UWY4X0JzSWloeXBNU1o3YWFBcVFjdUlHR3BhY2ZmNXZYRlREWmswcnVzdkhqa2hOc2NEOHJrWXIxS0JWeDNvdU1ndG14X3gzODNDVDhaelpWWm9DYVZOYVp0X1pha2lIVHJqeV9OVjNkc19MQlR3a0xiOGpGUVpYZERjSVpxc243bDZjWkxLaV9XN091cUNid0g5Vl81M1hYU1UxRE9kZi1sZzc4ZTlxVDJsejdDSC16NnpoRXFXbWkxSTlSQ0t0LUR4bFpOYkhRUzVFNnBXQzEwa2h0aE4tSVJzM2RraDVwY3k4NVVOYk5L?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "鏡報 · Google News",
+      "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-09-04",
-      "published_display": "2026-09-04",
+      "published": "2026-09-05",
+      "published_display": "2026-09-05",
       "matched_keywords": [
         "命理",
         "命理師"
@@ -383,11 +383,11 @@
       "event_cluster": "event-08"
     },
     {
-      "title": "地藏王菩薩誕辰將至 命理師曝5類人可祈福求好運",
-      "summary": "来自 自由時報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ITnZVTkhvUm13QjlyaVhGS0ZKN2NaazNEN281NkFJa21maVJaeGVnV3puNkVrazBfY1lVUHVFUXk2SGpIQjM4UkZfRGIxSlhEVFVKZWpKUm9vREQ5ZGFTd3BCblTSAWpBVV95cUxOSXE3cUxsMWxnS3ZHSzBWMEo0cGs4a28yakdicURvMnBkU09rTmJyclJGSi13NTBYY0ViYjZYWnVLMnFUanhiY28wRnR5WmR2Tlp1OG5lZHhhRlBnNXhSemwxSHNFdG94UjZR?oc=5",
+      "title": "走大運反而更危險 命理師示警「出現3徵兆」恐是衰敗開始",
+      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13ZlVONG5tSEhvSG90NHgyYVNiOHBjMjJIdjVMN3dGU2VVLWtsdDgwZy14QklmT1p4MXc5X0tndWVxSzhFV1d2NHhucHBqcTZFNVVLeE91T3h1MDRm?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "自由時報 · Google News",
+      "source": "自由娛樂 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -395,7 +395,8 @@
       "published_display": "2026-09-04",
       "matched_keywords": [
         "命理",
-        "命理師"
+        "命理師",
+        "大運"
       ],
       "score": 12.55,
       "event_cluster": "event-09"
