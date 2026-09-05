@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-05T11:14:27.479878+08:00",
-  "ran_at_display": "2026年9月5日 11:14",
+  "ran_at": "2026-09-05T21:12:40.805904+08:00",
+  "ran_at_display": "2026年9月5日 21:12",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "c772c2954fe946178068a6142b2efced4993b2c3",
-  "new_signature": "246d24edea4e875aa9e0a2ca066d758abeab2b56",
+  "previous_signature": "246d24edea4e875aa9e0a2ca066d758abeab2b56",
+  "new_signature": "5b831e38c9c3853bf6bc54cac9e4e77d59037ac0",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,17 +21,18 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "現在的TA正在猶豫什麼？是要靠近你，還是想要退開|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "他對這段關係的認真程度有幾分？是否想和你走得更遠？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "線下看了一個命理師，本來看著玩，結果把我前面的都說的非常准，還說我工作變動大會轉行（實話），我現在在幹啥都說的很準。然後我問了未來財運，他說會有人給我錢花……？？？這啥意思？",
     "[問卦] 中醫 是醫學還是玄學？",
-    "運勢走下坡有徵兆！命理師揭3大警訊 「這舉動」是破財開始",
-    "2026年9月星座運勢出爐！命理師點名這3星座旺到翻，水瓶千萬別亂吃瓜！"
+    "流年步入犧牲！蔣萬安「吊人牌苦行」 命理師驚吐連任之戰結局",
+    "運勢走下坡有徵兆！命理師揭3大警訊 「這舉動」是破財開始"
   ],
   "added_titles": [
-    "現在的TA正在猶豫什麼？是要靠近你，還是想要退開|曖昧|愛情|戀愛|桃花|塔羅占卜|"
+    "他對這段關係的認真程度有幾分？是否想和你走得更遠？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "流年步入犧牲！蔣萬安「吊人牌苦行」 命理師驚吐連任之戰結局"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -41,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月5日 11:14"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月5日 21:12"
     },
     {
       "script": "generate_daily_content.py",
