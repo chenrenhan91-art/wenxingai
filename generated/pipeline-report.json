@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-06T11:15:11.683652+08:00",
-  "ran_at_display": "2026年9月6日 11:15",
+  "ran_at": "2026-09-06T21:13:03.820380+08:00",
+  "ran_at_display": "2026年9月6日 21:13",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "5b831e38c9c3853bf6bc54cac9e4e77d59037ac0",
-  "new_signature": "2773d04143c60f34970419255e1e1e346d71ddf7",
+  "previous_signature": "2773d04143c60f34970419255e1e1e346d71ddf7",
+  "new_signature": "8728e374a1ae4a941cf3de222f1c5ead86e28d3c",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,12 +27,9 @@
     "流年步入犧牲！蔣萬安「吊人牌苦行」 命理師驚吐連任之戰結局",
     "運勢走下坡有徵兆！命理師揭3大警訊 「這舉動」是破財開始"
   ],
-  "added_titles": [
-    "對方最近對你的想法、感情，面對關係的心態如何？以及他的行動力|曖昧|愛情|戀愛|桃花|塔羅占卜",
-    "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.06（日）癸未日 🔮 🐯 今日虎嚕語錄： 「別人怎麼輕賤你都不要緊，重要的是你別跟著輕賤自己。」 💧 癸未日容易把情緒壓在心裡，表面說著沒關係，腦袋卻已經偷偷重播八十遍。 別人的評價聽聽就好，別拿回家供著。 ✨ 十神開運指南"
-  ],
+  "added_titles": [],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -42,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月6日 11:15"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月6日 21:13"
     },
     {
       "script": "generate_daily_content.py",

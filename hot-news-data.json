@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-09-06",
-  "updated_at_display": "2026年9月6日 11:15",
+  "updated_at_display": "2026年9月6日 21:13",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-06T11:15:27.291307+08:00",
+    "fetched_at": "2026-09-06T21:13:17.445688+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -192,7 +192,7 @@
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 5,
+        "picked_items": 4,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -227,7 +227,7 @@
       },
       "youtube_search": {
         "status": "ok",
-        "picked_items": 1,
+        "picked_items": 2,
         "failures": 0
       },
       "x_recent_search": {
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
@@ -287,7 +287,7 @@
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-94"
+      "event_cluster": "event-98"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -366,27 +366,28 @@
       "event_cluster": "event-06"
     },
     {
-      "title": "鬼門關怎麼拜？命理師揭密「8大禁忌」：別喊姓名、說再見、放鞭炮",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNeWhsaFNxTEZ6OVRyNXVkOU10Yk5rVjNDXzBQVHFfbXJWQ041cjN5Y2ZBTmRsQzgyVXZoeHZpQ0I4WDhDUmZfQVhkRWZmVElybTh3YzdacDZEbldSUk9mNzBPQ01sUUtWQktES2hYYnVJTGsyMEtSMTNIRnJ4SWNXQmgxODlqS2puRDFhNHFHSWxVYUxGY1FCeEJpSFlhNktXSGdKZC1DTUd0N3dLcFRtbDhXckc2Sm5pWHNOaFFKVVpqY1FFMTI5U2drYmhNQkw3Z0R2Q21Ha2Y0MU9Oc2E2aGdNSGFLVEV3cnNUWm1QcUZJczBSVmIwSVMtWnM3b0xyTm1yZllzMmVTSnU4U09JTm5jM1pLSFZoenJZVUlEb2tqclZTSkVxUWpObzg2MElmS2xYVWVLWlVFQ1lyb2c1SlJOSjNqanVSM2NlUkJpV3Z5Mnh1ekE?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-09-06",
-      "published_display": "2026-09-06",
+      "title": "從八字看你這輩子會不會結婚?! #八字 #命盤#結婚 #大運 #流年 #命理 #牧光#前世今生命理師#Jenny",
+      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9qcGJySnNHQnlhdVZzWi1qLXo5YXRMdnZ4LTNEN3hwRjd4NFZHT3VGZlpFMmpCX0FsSTdidE5TUF9UN1plVFRCd1dia2VXWS1MRXJ5UA?oc=5",
+      "source_id": "youtube_search",
+      "source": "YouTube · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "video",
+      "category": "八字紫微",
+      "published": "2026-08-25",
+      "published_display": "2026-08-25",
       "matched_keywords": [
+        "八字",
         "命理",
         "命理師"
       ],
-      "score": 12.55,
+      "score": 14.55,
       "event_cluster": "event-09"
     },
     {
       "title": "9月7日入白露轉涼秋燥上身 命理師曝有4生肖要當心",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GblhOTFJqa0ZWSGhQWkFfSldFdXJYcjczcnBtLUozSjl5d0h5MlBIUjdnd3JRN0lRaHgwdXRYV0Z3NWs1U0lfMzl4VVBMbzRtZmwxeGdn0gFWQVVfeXFMTUZuWE5MUmprRlZIaFBaQV9KV0V1clhyNzNycG0tSjNKOXl3SHkyUEhSN2d3clE3SVFoeDB1dFhXRnc1azVTSV8zOXhVUExvNG1mbDF4Z2c?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUbWZrMXNoTG1JeVRLOUpZel96c1BtLUZoOVV6QjA4V2Q1LWhhREU2NzFOMTRQTTl0N1hvUDhFUWNSWmNYSU52WUdnUi01bFNO0gFWQVVfeXFMTUZuWE5MUmprRlZIaFBaQV9KV0V1clhyNzNycG0tSjNKOXl3SHkyUEhSN2d3clE3SVFoeDB1dFhXRnc1azVTSV8zOXhVUExvNG1mbDF4Z2c?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
