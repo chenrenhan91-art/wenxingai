@@ -1,9 +1,9 @@
-# 问星AI 内容自动化运行报告 2026年9月5日 21:12
+# 问星AI 内容自动化运行报告 2026年9月6日 11:15
 
 - 总体状态：failed_generate
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：5b831e38c9c3853bf6bc54cac9e4e77d59037ac0
+- 变更签名：2773d04143c60f34970419255e1e1e346d71ddf7
 - Gemini 是否执行：是
 - Gemini 审校是否执行：否
 - 规则质检是否执行：否
@@ -13,15 +13,15 @@
 - 阶段状态：抓取=ok, 生成=failed, 审校=blocked, 质检=blocked, 分发=blocked, 文章=skipped
 
 ## 本轮热点标题
-- 他對這段關係的認真程度有幾分？是否想和你走得更遠？|曖昧|愛情|戀愛|桃花|塔羅占卜|
-- 線下看了一個命理師，本來看著玩，結果把我前面的都說的非常准，還說我工作變動大會轉行（實話），我現在在幹啥都說的很準。然後我問了未來財運，他說會有人給我錢花……？？？這啥意思？
+- 對方最近對你的想法、感情，面對關係的心態如何？以及他的行動力|曖昧|愛情|戀愛|桃花|塔羅占卜
+- 🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.06（日）癸未日 🔮 🐯 今日虎嚕語錄： 「別人怎麼輕賤你都不要緊，重要的是你別跟著輕賤自己。」 💧 癸未日容易把情緒壓在心裡，表面說著沒關係，腦袋卻已經偷偷重播八十遍。 別人的評價聽聽就好，別拿回家供著。 ✨ 十神開運指南
 - [問卦] 中醫 是醫學還是玄學？
 - 流年步入犧牲！蔣萬安「吊人牌苦行」 命理師驚吐連任之戰結局
 - 運勢走下坡有徵兆！命理師揭3大警訊 「這舉動」是破財開始
 
 ## 新增标题
-- 他對這段關係的認真程度有幾分？是否想和你走得更遠？|曖昧|愛情|戀愛|桃花|塔羅占卜|
-- 流年步入犧牲！蔣萬安「吊人牌苦行」 命理師驚吐連任之戰結局
+- 對方最近對你的想法、感情，面對關係的心態如何？以及他的行動力|曖昧|愛情|戀愛|桃花|塔羅占卜
+- 🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.06（日）癸未日 🔮 🐯 今日虎嚕語錄： 「別人怎麼輕賤你都不要緊，重要的是你別跟著輕賤自己。」 💧 癸未日容易把情緒壓在心裡，表面說著沒關係，腦袋卻已經偷偷重播八十遍。 別人的評價聽聽就好，別拿回家供著。 ✨ 十神開運指南
 
 ## 次日运营建议
 - 明日优先延展「命理新闻」相关选题（当前占比 5/8）。
@@ -31,7 +31,7 @@
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年9月5日 21:12
+updated 8 hot news items at 2026年9月6日 11:15
 - generate_daily_content.py | failed | [warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {"error":{"message":"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.","type":"invalid_request_error","param":null,...
 [warn] DashScope model qwen3.6-flash-2026-04-16 failed; trying qwen3.5-flash. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
 [warn] DashScope model qwen3.5-flash failed; trying qwen3.5-35b-a3b. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...

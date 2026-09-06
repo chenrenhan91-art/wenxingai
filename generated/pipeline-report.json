@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-05T21:12:40.805904+08:00",
-  "ran_at_display": "2026年9月5日 21:12",
+  "ran_at": "2026-09-06T11:15:11.683652+08:00",
+  "ran_at_display": "2026年9月6日 11:15",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "246d24edea4e875aa9e0a2ca066d758abeab2b56",
-  "new_signature": "5b831e38c9c3853bf6bc54cac9e4e77d59037ac0",
+  "previous_signature": "5b831e38c9c3853bf6bc54cac9e4e77d59037ac0",
+  "new_signature": "2773d04143c60f34970419255e1e1e346d71ddf7",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "他對這段關係的認真程度有幾分？是否想和你走得更遠？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "線下看了一個命理師，本來看著玩，結果把我前面的都說的非常准，還說我工作變動大會轉行（實話），我現在在幹啥都說的很準。然後我問了未來財運，他說會有人給我錢花……？？？這啥意思？",
+    "對方最近對你的想法、感情，面對關係的心態如何？以及他的行動力|曖昧|愛情|戀愛|桃花|塔羅占卜",
+    "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.06（日）癸未日 🔮 🐯 今日虎嚕語錄： 「別人怎麼輕賤你都不要緊，重要的是你別跟著輕賤自己。」 💧 癸未日容易把情緒壓在心裡，表面說著沒關係，腦袋卻已經偷偷重播八十遍。 別人的評價聽聽就好，別拿回家供著。 ✨ 十神開運指南",
     "[問卦] 中醫 是醫學還是玄學？",
     "流年步入犧牲！蔣萬安「吊人牌苦行」 命理師驚吐連任之戰結局",
     "運勢走下坡有徵兆！命理師揭3大警訊 「這舉動」是破財開始"
   ],
   "added_titles": [
-    "他對這段關係的認真程度有幾分？是否想和你走得更遠？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "流年步入犧牲！蔣萬安「吊人牌苦行」 命理師驚吐連任之戰結局"
+    "對方最近對你的想法、感情，面對關係的心態如何？以及他的行動力|曖昧|愛情|戀愛|桃花|塔羅占卜",
+    "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.06（日）癸未日 🔮 🐯 今日虎嚕語錄： 「別人怎麼輕賤你都不要緊，重要的是你別跟著輕賤自己。」 💧 癸未日容易把情緒壓在心裡，表面說著沒關係，腦袋卻已經偷偷重播八十遍。 別人的評價聽聽就好，別拿回家供著。 ✨ 十神開運指南"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -42,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月5日 21:12"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月6日 11:15"
     },
     {
       "script": "generate_daily_content.py",

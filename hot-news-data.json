@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-05",
-  "updated_at_display": "2026年9月5日 21:12",
+  "updated_at": "2026-09-06",
+  "updated_at_display": "2026年9月6日 11:15",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-05T21:12:55.791139+08:00",
+    "fetched_at": "2026-09-06T11:15:27.291307+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -179,7 +179,7 @@
     "source_weights": {
       "google_news_mingli_tw": 6.55,
       "google_news_xuanxue_tw": 6.05,
-      "google_news_taluo_tw": 5.95,
+      "google_news_taluo_tw": 5.85,
       "google_news_fengshui_tw": 5.85,
       "ptt_gossiping": 5.55,
       "ptt_womentalk": 5.15,
@@ -252,16 +252,16 @@
   ],
   "items": [
     {
-      "title": "他對這段關係的認真程度有幾分？是否想和你走得更遠？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "對方最近對你的想法、感情，面對關係的心態如何？以及他的行動力|曖昧|愛情|戀愛|桃花|塔羅占卜",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sVVBQSWwtR2JsTTJpSDh4S05jMGk2eVpqYjlVWGNyQzlMVTQzVEs3cC1fNTRyMnNTQkhkbVpqWnh2MlRIVThUaDM5SWZ4eXNiaUI0eGt3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaNVoxRE5mb1FtVVcxazN4b3EzLTVNNkthU0hZN2xRYTh2WkpqeHZLaXc5NGVJZmFJU2R0TnFkY1luU2ExZF9aMGdySGtpUE02c1Mtd1dn?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-09-04",
-      "published_display": "2026-09-04",
+      "published": "2026-09-05",
+      "published_display": "2026-09-05",
       "matched_keywords": [
         "塔羅",
         "占卜",
@@ -271,22 +271,23 @@
       "event_cluster": "event-04"
     },
     {
-      "title": "線下看了一個命理師，本來看著玩，結果把我前面的都說的非常准，還說我工作變動大會轉行（實話），我現在在幹啥都說的很準。然後我問了未來財運，他說會有人給我錢花……？？？這啥意思？",
+      "title": "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.06（日）癸未日 🔮 🐯 今日虎嚕語錄： 「別人怎麼輕賤你都不要緊，重要的是你別跟著輕賤自己。」 💧 癸未日容易把情緒壓在心裡，表面說著沒關係，腦袋卻已經偷偷重播八十遍。 別人的評價聽聽就好，別拿回家供著。 ✨ 十神開運指南",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tbkJXUllVaGU0NmZCeV9fRHluaXZwZEk4Q2Q3c0FLUTQ2WTVSQW5XbGlyNjFWTmJoNFFkSUI0czlzN05nc2RBZXF4N1Vhb3pFSElwcldrWEhaQzVvTGpNLWlRWE83T1VQbnZz?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5Pd2NidWZwRXRzQ1RtcjlSQ1VjZ3oyU0xacHBReDExRmttU09TN0EyamIwaXlBdnZSdVExWDFFVEtiQVp4MGcyRDJYNEZMemtLVHJoRVh6c29SelQ2N1RVRkN6cw?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "命理新闻",
-      "published": "2026-09-03",
-      "published_display": "2026-09-03",
+      "published": "2026-09-06",
+      "published_display": "2026-09-06",
       "matched_keywords": [
         "命理",
-        "命理師"
+        "開運",
+        "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-107"
+      "event_cluster": "event-94"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -362,19 +363,19 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
-      "title": "鬼門關怎麼拜？命理師揭密「5大禁忌話」：說錯好兄弟不走了",
+      "title": "鬼門關怎麼拜？命理師揭密「8大禁忌」：別喊姓名、說再見、放鞭炮",
       "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxPejNHbDF0d0JKQnNfSkJYVVRBa1VXaURNb0hSRnFwLVRzSmpBOFByeGZLcTVSVW5pN3ZsZVcxYjh0OEl4dktibUtaVjkwQ3gxdTJqRko1M2xUTW9jTkx4SG05ZHRQY3ZfV1pFUlpJelJiUW1NdF9wTjNmYlltVi1xYlQ1UWY4X0JzSWloeXBNU1o3YWFBcVFjdUlHR3BhY2ZmNXZYRlREWmswcnVzdkhqa2hOc2NEOHJrWXIxS0JWeDNvdU1ndG14X3gzODNDVDhaelpWWm9DYVZOYVp0X1pha2lIVHJqeV9OVjNkc19MQlR3a0xiOGpGUVpYZERjSVpxc243bDZjWkxLaV9XN091cUNid0g5Vl81M1hYU1UxRE9kZi1sZzc4ZTlxVDJsejdDSC16NnpoRXFXbWkxSTlSQ0t0LUR4bFpOYkhRUzVFNnBXQzEwa2h0aE4tSVJzM2RraDVwY3k4NVVOYk5L?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNeWhsaFNxTEZ6OVRyNXVkOU10Yk5rVjNDXzBQVHFfbXJWQ041cjN5Y2ZBTmRsQzgyVXZoeHZpQ0I4WDhDUmZfQVhkRWZmVElybTh3YzdacDZEbldSUk9mNzBPQ01sUUtWQktES2hYYnVJTGsyMEtSMTNIRnJ4SWNXQmgxODlqS2puRDFhNHFHSWxVYUxGY1FCeEJpSFlhNktXSGdKZC1DTUd0N3dLcFRtbDhXckc2Sm5pWHNOaFFKVVpqY1FFMTI5U2drYmhNQkw3Z0R2Q21Ha2Y0MU9Oc2E2aGdNSGFLVEV3cnNUWm1QcUZJczBSVmIwSVMtWnM3b0xyTm1yZllzMmVTSnU4U09JTm5jM1pLSFZoenJZVUlEb2tqclZTSkVxUWpObzg2MElmS2xYVWVLWlVFQ1lyb2c1SlJOSjNqanVSM2NlUkJpV3Z5Mnh1ekE?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-09-05",
-      "published_display": "2026-09-05",
+      "published": "2026-09-06",
+      "published_display": "2026-09-06",
       "matched_keywords": [
         "命理",
         "命理師"
@@ -383,16 +384,16 @@
       "event_cluster": "event-09"
     },
     {
-      "title": "鬼門關怎麼拜？命理師揭密「8大禁忌」：別喊姓名、說再見、放鞭炮",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBHcHpmcEpwTFY2S1lTSzU4RHNYaDE1NmRPMjV3RDN0ckVqTUZLTHNITXg0bHZ1Z09MOGJjMmVOVHphZmdnUW10StIBX0FVX3lxTFB3X0U4LXdrM1REczlDdFpUOFFVZ1UtZ1d5ODNGYlZEVVZxTjlsQVZCS214WDFpa1hmb2tCSlZ4OC1ic0pUMVZtaHRjMkdOaUxibzJIX2UweHVtdUhWWEdN?oc=5",
+      "title": "9月7日入白露轉涼秋燥上身 命理師曝有4生肖要當心",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GblhOTFJqa0ZWSGhQWkFfSldFdXJYcjczcnBtLUozSjl5d0h5MlBIUjdnd3JRN0lRaHgwdXRYV0Z3NWs1U0lfMzl4VVBMbzRtZmwxeGdn0gFWQVVfeXFMTUZuWE5MUmprRlZIaFBaQV9KV0V1clhyNzNycG0tSjNKOXl3SHkyUEhSN2d3clE3SVFoeDB1dFhXRnc1azVTSV8zOXhVUExvNG1mbDF4Z2c?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
+      "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-09-05",
-      "published_display": "2026-09-05",
+      "published": "2026-09-06",
+      "published_display": "2026-09-06",
       "matched_keywords": [
         "命理",
         "命理師"
