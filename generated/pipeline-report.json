@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-07T11:16:05.961814+08:00",
-  "ran_at_display": "2026年9月7日 11:16",
+  "ran_at": "2026-09-07T21:17:26.082601+08:00",
+  "ran_at_display": "2026年9月7日 21:17",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "8728e374a1ae4a941cf3de222f1c5ead86e28d3c",
-  "new_signature": "e6ade2a5850e0052e5e54f037f8f36a3a1809e05",
+  "previous_signature": "e6ade2a5850e0052e5e54f037f8f36a3a1809e05",
+  "new_signature": "4331ed43063bb81ec4baa739f9066a7f986f3dc1",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -24,12 +24,11 @@
     "【高能預警】下一次見面or聯繫時，TA會對你做出什麼出人意料的舉動？|曖昧|愛情|戀愛|桃花|塔羅占卜",
     "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.06（日）癸未日 🔮 🐯 今日虎嚕語錄： 「別人怎麼輕賤你都不要緊，重要的是你別跟著輕賤自己。」 💧 癸未日容易把情緒壓在心裡，表面說著沒關係，腦袋卻已經偷偷重播八十遍。 別人的評價聽聽就好，別拿回家供著。 ✨ 十神開運指南",
     "[問卦] 中醫 是醫學還是玄學？",
-    "9/7白露運勢大逆轉！5星座嗨了 命理師：把握這16天好機會找上門",
-    "流年步入犧牲！蔣萬安「吊人牌苦行」 命理師驚吐連任之戰結局"
+    "流年步入犧牲！蔣萬安「吊人牌苦行」 命理師驚吐連任之戰結局",
+    "運勢走下坡有徵兆！命理師揭3大警訊 「這舉動」是破財開始"
   ],
   "added_titles": [
-    "【高能預警】下一次見面or聯繫時，TA會對你做出什麼出人意料的舉動？|曖昧|愛情|戀愛|桃花|塔羅占卜",
-    "9/7白露運勢大逆轉！5星座嗨了 命理師：把握這16天好機會找上門"
+    "運勢走下坡有徵兆！命理師揭3大警訊 「這舉動」是破財開始"
   ],
   "ops_hints": [
     "明日优先延展「塔罗星象」相关选题（当前占比 3/8）。"
@@ -42,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月7日 11:16"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月7日 21:17"
     },
     {
       "script": "generate_daily_content.py",

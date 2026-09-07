@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-09-07",
-  "updated_at_display": "2026年9月7日 11:16",
+  "updated_at_display": "2026年9月7日 21:17",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-07T11:16:19.503682+08:00",
+    "fetched_at": "2026-09-07T21:17:38.711856+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -192,7 +192,7 @@
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 4,
+        "picked_items": 2,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -202,12 +202,12 @@
       },
       "google_news_taluo_tw": {
         "status": "ok",
-        "picked_items": 0,
+        "picked_items": 1,
         "failures": 0
       },
       "google_news_fengshui_tw": {
         "status": "ok",
-        "picked_items": 0,
+        "picked_items": 1,
         "failures": 0
       },
       "ptt_gossiping": {
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-04"
+      "event_cluster": "event-03"
     },
     {
       "title": "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.06（日）癸未日 🔮 🐯 今日虎嚕語錄： 「別人怎麼輕賤你都不要緊，重要的是你別跟著輕賤自己。」 💧 癸未日容易把情緒壓在心裡，表面說著沒關係，腦袋卻已經偷偷重播八十遍。 別人的評價聽聽就好，別拿回家供著。 ✨ 十神開運指南",
@@ -287,7 +287,7 @@
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-115"
+      "event_cluster": "event-116"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -309,25 +309,6 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "9/7白露運勢大逆轉！5星座嗨了 命理師：把握這16天好機會找上門",
-      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBQSFJoNEt4eGNIMm1JZmMtOTYzOXg3SWl6enNRS3JQd0dIMmtpRE1sYlEyU01mWkJYXzd1SklXendMRVdFSVJ0TjF5YlXSAVJBVV95cUxPdWcyclY5S1BxRWNWNXFNekI0QjlDTU9MVUt1U2dzODI4UzdJNTZPRmpybEJac0NSeEpNWjdVaDNpbU5DUV9UMTIyQm92cm5NRXNn?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "NOWnews今日新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-09-07",
-      "published_display": "2026-09-07",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-02"
-    },
-    {
       "title": "流年步入犧牲！蔣萬安「吊人牌苦行」 命理師驚吐連任之戰結局",
       "summary": "来自 news.tvbs.com.tw · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1oZE12UVZKdW1rUGhwZi1RZzE2VWVnS1JjQURqM0tLRGxMWExLRWpqbXlqVmptUzVFRlVSTlAwUEM0em1JeXNtSTVGTFRlTmpuUHpj?oc=5",
@@ -344,14 +325,14 @@
         "流年"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-02"
     },
     {
       "title": "運勢走下坡有徵兆！命理師揭3大警訊 「這舉動」是破財開始",
-      "summary": "来自 tw.news.yahoo.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxNdENYQnRoNzB1dEVBT1JVZTVJY181QXBuY0l3MGdaLWR6R2VnWGV4c1lfc0pfNzI2RGdwcWxPNkFfdmFycWJ5anowQWxCVjZjN0lycjVMQmJ1VGNRQXhGTmtVdG1UWUxBbXdkOUZEQ3gyYUVRSlVLcFVfTU5Ibnd2dk9HOXl0UU5wTXhRcm91aGczOEYtazA0cGZfX3U5cnRoNEZyTHhrMWY0dFkycEJIUkNtaGFxaFdXMUM3S195Z2Q2Q3dQR0ZBYjZEd2YtZEpURWowNmN6YmgxU1NKOGJJdWdqakFQU3Q4djdBajhxRVpUaTgxS1Y4MDNNeXY5ejlWSWVYQ1FqRzZLNXlmbVBOTENNdnE3RTNyb2VlUnpuZTIwTHJUei1GVW41ZENKZVdHaWdSb3dnd1JZcTExbEpNbTMzNWM2OHY3T3V0Qm1ycEk1Y0ZjSzVnZG5vb0lCV0dWbWhlY1laVms1cnlY?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "tw.news.yahoo.com · Google News",
+      "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -363,26 +344,26 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-04"
     },
     {
-      "title": "2026年9月星座運勢出爐！命理師點名這3星座旺到翻，水瓶千萬別亂吃瓜！",
-      "summary": "来自 udn 女子漾 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52MVdfS0FNUkJaTUZXSldmbkRhTkJxMGh3T181Y3RvVFFyMEpBT0hGNDRhejhybmhzelNrU0NMUlZkc09Sajcwb3FfWjV1OThYYWdGTG11Vm1lMDlZ0gFiQVVfeXFMUHF5N091SVlIUmZjbGVzLWFjTFRiU0pKNkhuNmYxU1FfaWdad1JaclF5VnZPZTIxd0E4R2NEVjlOcXlmZ0wtdXZXd1dOd1Q2bVBNM3NoN0VvREhaT1REN1d3LWc?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "udn 女子漾 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "title": "Candice塔羅占卜🔮你跟他會修成正果嗎❤️給你的訊息 /愛情/金錢/健康/運勢/頻率/感情/幸福/喜悅/傳訊/靈性/星座/塔羅/占卜/有選項",
+      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBqRUpnNjJQMUtPdG1QTGltb2REdWZ3WnJBV1NqU1ROR1R6Qm95UU9rTl9iNFFoMUZ6eFJ2RTFmSEl0Q0FHY0RhdmlxSWR1ZVAtVHU1RklIUGw5dENn?oc=5",
+      "source_id": "google_news_taluo_tw",
+      "source": "YouTube · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "塔罗星象",
-      "published": "2026-08-31",
-      "published_display": "2026-08-31",
+      "published": "2026-09-05",
+      "published_display": "2026-09-05",
       "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
+        "運勢",
+        "塔羅",
+        "占卜"
       ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "score": 14.05,
+      "event_cluster": "event-05"
     },
     {
       "title": "從八字看你這輩子會不會結婚?! #八字 #命盤#結婚 #大運 #流年 #命理 #牧光#前世今生命理師#Jenny",
@@ -401,7 +382,26 @@
         "命理師"
       ],
       "score": 14.55,
-      "event_cluster": "event-10"
+      "event_cluster": "event-07"
+    },
+    {
+      "title": "9/7白露運勢大逆轉！5星座嗨了 命理師：把握這16天好機會找上門",
+      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE91ZzJyVjlLUHFFY1Y1cU16QjRCOUNNT0xVS3VTZ3M4MjhTN0k1Nk9GanJsQlpzQ1J4Sk1aN1VoM2ltTkNRX1QxMjJCb3Zybk1Fc2fSAVJBVV95cUxPdWcyclY5S1BxRWNWNXFNekI0QjlDTU9MVUt1U2dzODI4UzdJNTZPRmpybEJac0NSeEpNWjdVaDNpbU5DUV9UMTIyQm92cm5NRXNn?oc=5",
+      "source_id": "google_news_fengshui_tw",
+      "source": "NOWnews今日新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E9%A2%A8%E6%B0%B4+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-09-07",
+      "published_display": "2026-09-07",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 12.85,
+      "event_cluster": "event-09"
     }
   ]
 }
