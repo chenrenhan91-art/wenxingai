@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-07",
-  "updated_at_display": "2026年9月7日 21:17",
+  "updated_at": "2026-09-08",
+  "updated_at_display": "2026年9月8日 11:15",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-07T21:17:38.711856+08:00",
+    "fetched_at": "2026-09-08T11:15:21.037052+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -177,10 +177,10 @@
       }
     ],
     "source_weights": {
-      "google_news_mingli_tw": 6.55,
+      "google_news_mingli_tw": 6.35,
       "google_news_xuanxue_tw": 6.05,
-      "google_news_taluo_tw": 5.85,
-      "google_news_fengshui_tw": 5.85,
+      "google_news_taluo_tw": 5.95,
+      "google_news_fengshui_tw": 5.95,
       "ptt_gossiping": 5.55,
       "ptt_womentalk": 5.15,
       "ptt_marvel": 4.65,
@@ -248,43 +248,42 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「塔罗星象」相关选题（当前占比 3/8）。"
+    "明日优先延展「塔罗星象」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
-      "title": "【高能預警】下一次見面or聯繫時，TA會對你做出什麼出人意料的舉動？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+      "title": "【暗戀速看】他發現你喜歡他嗎？想和你當朋友or戀人？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oZmV4NU5RMDR4X2laMkkwZDFmZFZpcUhuQXNXbVYwVDU4SW8xUGs5ZTJUSWcxZlZtcjc0XzVOZDB6ZnVwWnJhaDN2NE53a1JnSlJKYmhn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zWElPclpBTmk3ZWJCaEkwUnpEcVR0cHBqV1NUZmlPZVJXa3lqRmRTc1V4VW9aSnJLNE0xZTZhU1FZMEc4SkV1QWtjUkZDQzhiNnF0UlZB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-09-06",
-      "published_display": "2026-09-06",
+      "published": "2026-09-04",
+      "published_display": "2026-09-04",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
-      "title": "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.06（日）癸未日 🔮 🐯 今日虎嚕語錄： 「別人怎麼輕賤你都不要緊，重要的是你別跟著輕賤自己。」 💧 癸未日容易把情緒壓在心裡，表面說著沒關係，腦袋卻已經偷偷重播八十遍。 別人的評價聽聽就好，別拿回家供著。 ✨ 十神開運指南",
+      "title": "2026年9月7日至13日這一週，十二星座將迎來哪些轉折與課題？以下透過每個星座所對應的一張塔羅牌，解讀本週值得留意的情緒、關係與人生方向。 https://t.co/kRZqQnhbH1",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5Pd2NidWZwRXRzQ1RtcjlSQ1VjZ3oyU0xacHBReDExRmttU09TN0EyamIwaXlBdnZSdVExWDFFVEtiQVp4MGcyRDJYNEZMemtLVHJoRVh6c29SelQ2N1RVRkN6cw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oSlJQbU1YS1JCalNxb3lUUUtQcGVCOEo0emI3NDV1Q29scHhGSmQzbHBrVVlLMmRqODR4OU03ajRBSlBNQmFFbzAwX2dneFlfeklPdw?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-09-06",
-      "published_display": "2026-09-06",
+      "category": "塔罗星象",
+      "published": "2026-09-07",
+      "published_display": "2026-09-07",
       "matched_keywords": [
-        "命理",
-        "開運",
-        "十神"
+        "塔羅",
+        "星座"
       ],
       "score": 9.95,
       "event_cluster": "event-116"
@@ -310,10 +309,10 @@
     },
     {
       "title": "流年步入犧牲！蔣萬安「吊人牌苦行」 命理師驚吐連任之戰結局",
-      "summary": "来自 news.tvbs.com.tw · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1oZE12UVZKdW1rUGhwZi1RZzE2VWVnS1JjQURqM0tLRGxMWExLRWpqbXlqVmptUzVFRlVSTlAwUEM0em1JeXNtSTVGTFRlTmpuUHpj?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "news.tvbs.com.tw · Google News",
+      "source": "TVBS新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -324,7 +323,7 @@
         "命理師",
         "流年"
       ],
-      "score": 14.750000000000002,
+      "score": 14.55,
       "event_cluster": "event-02"
     },
     {
@@ -343,8 +342,8 @@
         "命理師",
         "運勢"
       ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "score": 14.55,
+      "event_cluster": "event-03"
     },
     {
       "title": "Candice塔羅占卜🔮你跟他會修成正果嗎❤️給你的訊息 /愛情/金錢/健康/運勢/頻率/感情/幸福/喜悅/傳訊/靈性/星座/塔羅/占卜/有選項",
@@ -362,7 +361,7 @@
         "塔羅",
         "占卜"
       ],
-      "score": 14.05,
+      "score": 14.15,
       "event_cluster": "event-05"
     },
     {
@@ -400,8 +399,8 @@
         "命理師",
         "運勢"
       ],
-      "score": 12.85,
-      "event_cluster": "event-09"
+      "score": 12.950000000000001,
+      "event_cluster": "event-08"
     }
   ]
 }
