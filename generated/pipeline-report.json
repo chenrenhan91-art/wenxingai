@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-08T11:15:06.823171+08:00",
-  "ran_at_display": "2026年9月8日 11:15",
+  "ran_at": "2026-09-08T21:17:06.333839+08:00",
+  "ran_at_display": "2026年9月8日 21:17",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "4331ed43063bb81ec4baa739f9066a7f986f3dc1",
-  "new_signature": "62f22f76b70b4f115c20b06f6c6c56e030305cdf",
+  "previous_signature": "62f22f76b70b4f115c20b06f6c6c56e030305cdf",
+  "new_signature": "f94b61e7816f4e2d8856b20f839e56872884755a",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,10 +27,7 @@
     "流年步入犧牲！蔣萬安「吊人牌苦行」 命理師驚吐連任之戰結局",
     "運勢走下坡有徵兆！命理師揭3大警訊 「這舉動」是破財開始"
   ],
-  "added_titles": [
-    "【暗戀速看】他發現你喜歡他嗎？想和你當朋友or戀人？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "2026年9月7日至13日這一週，十二星座將迎來哪些轉折與課題？以下透過每個星座所對應的一張塔羅牌，解讀本週值得留意的情緒、關係與人生方向。 https://t.co/kRZqQnhbH1"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「塔罗星象」相关选题（当前占比 4/8）。"
   ],
@@ -42,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月8日 11:15"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月8日 21:17"
     },
     {
       "script": "generate_daily_content.py",

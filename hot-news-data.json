@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-09-08",
-  "updated_at_display": "2026年9月8日 11:15",
+  "updated_at_display": "2026年9月8日 21:17",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-08T11:15:21.037052+08:00",
+    "fetched_at": "2026-09-08T21:17:22.842275+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -286,7 +286,7 @@
         "星座"
       ],
       "score": 9.95,
-      "event_cluster": "event-116"
+      "event_cluster": "event-120"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -346,16 +346,16 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "Candice塔羅占卜🔮你跟他會修成正果嗎❤️給你的訊息 /愛情/金錢/健康/運勢/頻率/感情/幸福/喜悅/傳訊/靈性/星座/塔羅/占卜/有選項",
+      "title": "Candice塔羅占卜🔮他對你的下一步❤️給你的訊息/愛情/金錢/健康/運勢/頻率/感情/幸福/喜悅/傳訊/靈性/星座/塔羅/占卜/有選項",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBqRUpnNjJQMUtPdG1QTGltb2REdWZ3WnJBV1NqU1ROR1R6Qm95UU9rTl9iNFFoMUZ6eFJ2RTFmSEl0Q0FHY0RhdmlxSWR1ZVAtVHU1RklIUGw5dENn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fWFlPNEt1M0dLdVZxNmswekJRcVFQbDNsWWFFXzhhdWI1Q1JFS2tRcFN6cDJLRS03WTlwd1dPNEZrdmdpVEdwSVJ5RW1jWkhUMUFuSjRRa1JMWlZO?oc=5",
       "source_id": "google_news_taluo_tw",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "塔罗星象",
-      "published": "2026-09-05",
-      "published_display": "2026-09-05",
+      "published": "2026-09-07",
+      "published_display": "2026-09-07",
       "matched_keywords": [
         "運勢",
         "塔羅",
