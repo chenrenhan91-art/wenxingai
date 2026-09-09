@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-09-09",
-  "updated_at_display": "2026年9月9日 11:15",
+  "updated_at_display": "2026年9月9日 21:15",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-09T11:15:46.124650+08:00",
+    "fetched_at": "2026-09-09T21:15:46.089850+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -177,10 +177,10 @@
       }
     ],
     "source_weights": {
-      "google_news_mingli_tw": 6.35,
+      "google_news_mingli_tw": 6.55,
       "google_news_xuanxue_tw": 6.05,
       "google_news_taluo_tw": 5.95,
-      "google_news_fengshui_tw": 5.95,
+      "google_news_fengshui_tw": 5.85,
       "ptt_gossiping": 5.55,
       "ptt_womentalk": 5.15,
       "ptt_marvel": 4.65,
@@ -192,7 +192,7 @@
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 3,
+        "picked_items": 5,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -202,7 +202,7 @@
       },
       "google_news_taluo_tw": {
         "status": "ok",
-        "picked_items": 1,
+        "picked_items": 0,
         "failures": 0
       },
       "google_news_fengshui_tw": {
@@ -227,7 +227,7 @@
       },
       "youtube_search": {
         "status": "ok",
-        "picked_items": 2,
+        "picked_items": 1,
         "failures": 0
       },
       "x_recent_search": {
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "items": [
     {
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.09（三）丙戌日 🔮 🐯 今日虎嚕語錄： 「別把同事當底牌，也別把主管當靠山。」 🔥 丙戌日容易把職場情義看得太重。 同事可以合作 主管可以尊重 但真正的底牌，還是自己手上的能力與選擇權。 ✨ 十神開運指南｜請對照日主 🌳甲木｜",
@@ -287,7 +287,7 @@
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-110"
+      "event_cluster": "event-112"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -309,30 +309,30 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "【12星座本週運勢】9/14至9/20最旺星座TOP3，12星座整體運勢、工作運、桃花運一次看",
-      "summary": "来自 Cosmopolitan · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVHlSRU9zeXpyVzZBSmZDN1FvVkJyZnVVNllDQnFTZmdUQTJzVVJoOGVwWHpJX0dnN2tKOFZmbEI2alpMdG5kVlhldUp5V1FVRW5QNHEwWTdfTHBzbFV4UUg5T2poZTRkX1VLT0VmY2tHU0hwR19falBCX1hDckNwLVZmUHZlMWJqLXVN?oc=5",
-      "source_id": "google_news_taluo_tw",
-      "source": "Cosmopolitan · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "title": "你名字中有「這64字」嗎？命理師：投資運勢一路旺到年底",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HM1RnVFEwM3JZUjdmRFlkVHEwb2ZwbjE2aXdJeC1tUm1oYU9mVnp5Mks1eGluV3UwMldhYWQ3Y3BNSzMtaF9FQkZpZmJMaU1zZXlrU05R0gFWQVVfeXFMT0czVGdUUTAzcllSN2ZEWWRUcTBvZnBuMTZpd0l4LW1SbWhhT2ZWenkySzV4aW5XdTAyV2FhZDdjcE1LMy1oX0VCRmlmYkxpTXNleWtTTlE?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "UDN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "塔罗星象",
+      "category": "命理新闻",
       "published": "2026-09-09",
       "published_display": "2026-09-09",
       "matched_keywords": [
-        "運勢",
-        "星座",
-        "桃花"
+        "命理",
+        "命理師",
+        "運勢"
       ],
-      "score": 14.15,
-      "event_cluster": "event-03"
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
     },
     {
       "title": "流年步入犧牲！蔣萬安「吊人牌苦行」 命理師驚吐連任之戰結局",
-      "summary": "来自 news.tvbs.com.tw · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1oZE12UVZKdW1rUGhwZi1RZzE2VWVnS1JjQURqM0tLRGxMWExLRWpqbXlqVmptUzVFRlVSTlAwUEM0em1JeXNtSTVGTFRlTmpuUHpj?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "news.tvbs.com.tw · Google News",
+      "source": "TVBS新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -343,7 +343,7 @@
         "命理師",
         "流年"
       ],
-      "score": 14.55,
+      "score": 14.750000000000002,
       "event_cluster": "event-04"
     },
     {
@@ -362,27 +362,8 @@
         "命理師",
         "運勢"
       ],
-      "score": 14.55,
+      "score": 14.750000000000002,
       "event_cluster": "event-05"
-    },
-    {
-      "title": "從八字看你這輩子會不會結婚?! #八字 #命盤#結婚 #大運 #流年 #命理 #牧光#前世今生命理師#Jenny",
-      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9qcGJySnNHQnlhdVZzWi1qLXo5YXRMdnZ4LTNEN3hwRjd4NFZHT3VGZlpFMmpCX0FsSTdidE5TUF9UN1plVFRCd1dia2VXWS1MRXJ5UA?oc=5",
-      "source_id": "youtube_search",
-      "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "video",
-      "category": "八字紫微",
-      "published": "2026-08-25",
-      "published_display": "2026-08-25",
-      "matched_keywords": [
-        "八字",
-        "命理",
-        "命理師"
-      ],
-      "score": 14.55,
-      "event_cluster": "event-07"
     },
     {
       "title": "陳時中連2次酸蔣萬安面相 命理師揭蔣、沈泊洋面相差異",
@@ -399,8 +380,26 @@
         "命理",
         "命理師"
       ],
-      "score": 12.35,
-      "event_cluster": "event-08"
+      "score": 12.55,
+      "event_cluster": "event-09"
+    },
+    {
+      "title": "剪頭髮避開下午5點後 命理師詹惟中：容易剪掉貴人運",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxOLUtIcGRNSXFOUTFsbk9wY0ZSMGt6cHBobENubnZZaXZmdGVBLUJrb25lQUY2T2xEMjAtWjBJRzRPalNJTy0xS0N5U0RrYmdwbDFod0FteVdZUVN1dzZlRDhuVjRSWm5SWGwzSVlsSjJzYUJicVFJMkV2ZnY4SkZ5cGdWdHpCX19wZzJiNm9OVklIYWttUzdKSTQzSHFHYlFwenhsZ2RTTnYybFk4OUZGVnlxQzJPLU5WdFJNNXowMFM3cFB4b1VrOWFyRkw3TTJlTWRmYjgtSmI1M1F5aE9EaWJnM3V2S2x6V2xpTWVPOWFGa1FZM0JPR2N1V0hiMXJvb2hoWHJZMEtzVnNjUWZqekRXMVFrWlNsN2tuR2xMODVnU3ZwYWlWSEtDeHZVZkZRYW83amU4QTdKcVl0VlBkaUd1US1Mc0x1S3V5Vm1iQ2l2cERuSUloQzVWZmJtWjQ?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-09-09",
+      "published_display": "2026-09-09",
+      "matched_keywords": [
+        "命理",
+        "命理師"
+      ],
+      "score": 12.55,
+      "event_cluster": "event-10"
     }
   ]
 }

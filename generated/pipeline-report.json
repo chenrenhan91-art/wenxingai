@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-09T11:15:30.770249+08:00",
-  "ran_at_display": "2026年9月9日 11:15",
+  "ran_at": "2026-09-09T21:15:30.344225+08:00",
+  "ran_at_display": "2026年9月9日 21:15",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "f94b61e7816f4e2d8856b20f839e56872884755a",
-  "new_signature": "5e7e833fdcbb537d2eb6e8abcc47aa793554f05b",
+  "previous_signature": "5e7e833fdcbb537d2eb6e8abcc47aa793554f05b",
+  "new_signature": "be1f767397a42ae6430c4b28adf5351d0048d241",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -24,16 +24,14 @@
     "在TA當下的現實生活和內心深處，你到底排在第幾位？(附TA對你的真實打分)|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.09（三）丙戌日 🔮 🐯 今日虎嚕語錄： 「別把同事當底牌，也別把主管當靠山。」 🔥 丙戌日容易把職場情義看得太重。 同事可以合作 主管可以尊重 但真正的底牌，還是自己手上的能力與選擇權。 ✨ 十神開運指南｜請對照日主 🌳甲木｜",
     "[問卦] 中醫 是醫學還是玄學？",
-    "【12星座本週運勢】9/14至9/20最旺星座TOP3，12星座整體運勢、工作運、桃花運一次看",
+    "你名字中有「這64字」嗎？命理師：投資運勢一路旺到年底",
     "流年步入犧牲！蔣萬安「吊人牌苦行」 命理師驚吐連任之戰結局"
   ],
   "added_titles": [
-    "在TA當下的現實生活和內心深處，你到底排在第幾位？(附TA對你的真實打分)|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.09（三）丙戌日 🔮 🐯 今日虎嚕語錄： 「別把同事當底牌，也別把主管當靠山。」 🔥 丙戌日容易把職場情義看得太重。 同事可以合作 主管可以尊重 但真正的底牌，還是自己手上的能力與選擇權。 ✨ 十神開運指南｜請對照日主 🌳甲木｜",
-    "【12星座本週運勢】9/14至9/20最旺星座TOP3，12星座整體運勢、工作運、桃花運一次看"
+    "你名字中有「這64字」嗎？命理師：投資運勢一路旺到年底"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -43,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月9日 11:15"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月9日 21:15"
     },
     {
       "script": "generate_daily_content.py",
