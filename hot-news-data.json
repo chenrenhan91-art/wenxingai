@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-08",
-  "updated_at_display": "2026年9月8日 21:17",
+  "updated_at": "2026-09-09",
+  "updated_at_display": "2026年9月9日 11:15",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-08T21:17:22.842275+08:00",
+    "fetched_at": "2026-09-09T11:15:46.124650+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -192,7 +192,7 @@
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 2,
+        "picked_items": 3,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -207,7 +207,7 @@
       },
       "google_news_fengshui_tw": {
         "status": "ok",
-        "picked_items": 1,
+        "picked_items": 0,
         "failures": 0
       },
       "ptt_gossiping": {
@@ -248,45 +248,46 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「塔罗星象」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
-      "title": "【暗戀速看】他發現你喜歡他嗎？想和你當朋友or戀人？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "在TA當下的現實生活和內心深處，你到底排在第幾位？(附TA對你的真實打分)|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zWElPclpBTmk3ZWJCaEkwUnpEcVR0cHBqV1NUZmlPZVJXa3lqRmRTc1V4VW9aSnJLNE0xZTZhU1FZMEc4SkV1QWtjUkZDQzhiNnF0UlZB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjMm5NNkZaV2RzT0lxTWYta3o4QzhDU0s3Tmc0Q0xHM2pOOEJHakNvTTVKYUdNVkljWnhMQnRiTEx5OTdRNXM5ZWxENXRZYzBVY1N3UUtB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-09-04",
-      "published_display": "2026-09-04",
+      "published": "2026-09-08",
+      "published_display": "2026-09-08",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-04"
+      "event_cluster": "event-02"
     },
     {
-      "title": "2026年9月7日至13日這一週，十二星座將迎來哪些轉折與課題？以下透過每個星座所對應的一張塔羅牌，解讀本週值得留意的情緒、關係與人生方向。 https://t.co/kRZqQnhbH1",
+      "title": "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.09（三）丙戌日 🔮 🐯 今日虎嚕語錄： 「別把同事當底牌，也別把主管當靠山。」 🔥 丙戌日容易把職場情義看得太重。 同事可以合作 主管可以尊重 但真正的底牌，還是自己手上的能力與選擇權。 ✨ 十神開運指南｜請對照日主 🌳甲木｜",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oSlJQbU1YS1JCalNxb3lUUUtQcGVCOEo0emI3NDV1Q29scHhGSmQzbHBrVVlLMmRqODR4OU03ajRBSlBNQmFFbzAwX2dneFlfeklPdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yQ0tqRnA2WjR6OWRRbkpxNUtyTGZnNFJlRy0teXdaWThvWVY2UlRvQnhxUk81a1MtODJNMmpoOUhMUjU1RkN2MEoxNFpCenAybG50djJZNjBFSGR5cU43N0l2TQ?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "塔罗星象",
-      "published": "2026-09-07",
-      "published_display": "2026-09-07",
+      "category": "命理新闻",
+      "published": "2026-09-09",
+      "published_display": "2026-09-09",
       "matched_keywords": [
-        "塔羅",
-        "星座"
+        "命理",
+        "開運",
+        "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-120"
+      "event_cluster": "event-110"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -308,11 +309,30 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "【12星座本週運勢】9/14至9/20最旺星座TOP3，12星座整體運勢、工作運、桃花運一次看",
+      "summary": "来自 Cosmopolitan · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVHlSRU9zeXpyVzZBSmZDN1FvVkJyZnVVNllDQnFTZmdUQTJzVVJoOGVwWHpJX0dnN2tKOFZmbEI2alpMdG5kVlhldUp5V1FVRW5QNHEwWTdfTHBzbFV4UUg5T2poZTRkX1VLT0VmY2tHU0hwR19falBCX1hDckNwLVZmUHZlMWJqLXVN?oc=5",
+      "source_id": "google_news_taluo_tw",
+      "source": "Cosmopolitan · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-09-09",
+      "published_display": "2026-09-09",
+      "matched_keywords": [
+        "運勢",
+        "星座",
+        "桃花"
+      ],
+      "score": 14.15,
+      "event_cluster": "event-03"
+    },
+    {
       "title": "流年步入犧牲！蔣萬安「吊人牌苦行」 命理師驚吐連任之戰結局",
-      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 news.tvbs.com.tw · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1oZE12UVZKdW1rUGhwZi1RZzE2VWVnS1JjQURqM0tLRGxMWExLRWpqbXlqVmptUzVFRlVSTlAwUEM0em1JeXNtSTVGTFRlTmpuUHpj?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "TVBS新聞網 · Google News",
+      "source": "news.tvbs.com.tw · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -324,7 +344,7 @@
         "流年"
       ],
       "score": 14.55,
-      "event_cluster": "event-02"
+      "event_cluster": "event-04"
     },
     {
       "title": "運勢走下坡有徵兆！命理師揭3大警訊 「這舉動」是破財開始",
@@ -343,25 +363,6 @@
         "運勢"
       ],
       "score": 14.55,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "Candice塔羅占卜🔮他對你的下一步❤️給你的訊息/愛情/金錢/健康/運勢/頻率/感情/幸福/喜悅/傳訊/靈性/星座/塔羅/占卜/有選項",
-      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fWFlPNEt1M0dLdVZxNmswekJRcVFQbDNsWWFFXzhhdWI1Q1JFS2tRcFN6cDJLRS03WTlwd1dPNEZrdmdpVEdwSVJ5RW1jWkhUMUFuSjRRa1JMWlZO?oc=5",
-      "source_id": "google_news_taluo_tw",
-      "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-09-07",
-      "published_display": "2026-09-07",
-      "matched_keywords": [
-        "運勢",
-        "塔羅",
-        "占卜"
-      ],
-      "score": 14.15,
       "event_cluster": "event-05"
     },
     {
@@ -384,22 +385,21 @@
       "event_cluster": "event-07"
     },
     {
-      "title": "9/7白露運勢大逆轉！5星座嗨了 命理師：把握這16天好機會找上門",
-      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE91ZzJyVjlLUHFFY1Y1cU16QjRCOUNNT0xVS3VTZ3M4MjhTN0k1Nk9GanJsQlpzQ1J4Sk1aN1VoM2ltTkNRX1QxMjJCb3Zybk1Fc2fSAVJBVV95cUxPdWcyclY5S1BxRWNWNXFNekI0QjlDTU9MVUt1U2dzODI4UzdJNTZPRmpybEJac0NSeEpNWjdVaDNpbU5DUV9UMTIyQm92cm5NRXNn?oc=5",
-      "source_id": "google_news_fengshui_tw",
-      "source": "NOWnews今日新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E9%A2%A8%E6%B0%B4+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "title": "陳時中連2次酸蔣萬安面相 命理師揭蔣、沈泊洋面相差異",
+      "summary": "来自 自由時報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NdXhHRXZlYy1PaFFnOE45Q0dzbmltWjJPbDVERWdnekhSTmFYbFdfNVY1bHplTlVLaG1Wd19rMzFJNXcySmx6QUkxNzRZeVotb1JxYlhNd01UcWZOZkZqNGpfclp2X2IxSEHSAW9BVV95cUxQTXdTa0FnSzBLM1RlaUtSOUlLa0pHWklrcURpZURtWFI5NGdTOHhBZkw5OHhRQWE3LTJCY2x1OWpya0dia0V6YTRiN3k4SkdhVEhKOEpBaGh0bGo3RHMtUmR4SVBXUTlFUHJlWXFUTGM?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "自由時報 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-09-07",
-      "published_display": "2026-09-07",
+      "category": "命理新闻",
+      "published": "2026-09-09",
+      "published_display": "2026-09-09",
       "matched_keywords": [
         "命理",
-        "命理師",
-        "運勢"
+        "命理師"
       ],
-      "score": 12.950000000000001,
+      "score": 12.35,
       "event_cluster": "event-08"
     }
   ]
