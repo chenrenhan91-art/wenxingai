@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-10T11:15:22.025683+08:00",
-  "ran_at_display": "2026年9月10日 11:15",
+  "ran_at": "2026-09-10T21:14:59.517611+08:00",
+  "ran_at_display": "2026年9月10日 21:14",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "be1f767397a42ae6430c4b28adf5351d0048d241",
-  "new_signature": "3770b251088f0663ad04c3d36bac5c9ad04ac7e8",
+  "previous_signature": "3770b251088f0663ad04c3d36bac5c9ad04ac7e8",
+  "new_signature": "844fa516b23ae799393263ae542c7d34e75be1bd",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "他想到你的第一反應，開心、鬱悶、心動？你給他的第一感覺如何？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "紫微斗數命盤，到底藏了多少資訊🔍個性、事業、財運、感情、人際……這支影片📹影片帶你快速了解",
     "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.09（三）丙戌日 🔮 🐯 今日虎嚕語錄： 「別把同事當底牌，也別把主管當靠山。」 🔥 丙戌日容易把職場情義看得太重。 同事可以合作 主管可以尊重 但真正的底牌，還是自己手上的能力與選擇權。 ✨ 十神開運指南｜請對照日主 🌳甲木｜",
     "[問卦] 中醫 是醫學還是玄學？",
     "今鬼門關！4生肖運勢差 命理師示警：早點回家",
-    "你名字中有「這64字」嗎？命理師：投資運勢一路旺到年底"
+    "鬼門關倒數！命理師曝10大禁忌別做 恐影響運勢"
   ],
   "added_titles": [
-    "他想到你的第一反應，開心、鬱悶、心動？你給他的第一感覺如何？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "今鬼門關！4生肖運勢差 命理師示警：早點回家"
+    "紫微斗數命盤，到底藏了多少資訊🔍個性、事業、財運、感情、人際……這支影片📹影片帶你快速了解",
+    "鬼門關倒數！命理師曝10大禁忌別做 恐影響運勢"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -42,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月10日 11:15"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月10日 21:15"
     },
     {
       "script": "generate_daily_content.py",
