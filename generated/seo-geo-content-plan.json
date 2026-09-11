@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11T11:15:19.676733+08:00",
-  "generated_at_display": "2026-09-11 11:15 CST",
+  "generated_at": "2026-09-11T21:15:55.792871+08:00",
+  "generated_at_display": "2026-09-11 21:15 CST",
   "site_positioning": "问星AI是面向全球华语用户的AI命理应用，核心覆盖紫微斗数、四柱八字、周易六爻、合盘分析、大运流年与玄学热点解读。",
   "hot_news": {
     "updated_at": "2026-09-11",
@@ -8,11 +8,11 @@
       "下一段緣分中的ta，是新人還是舊人？各方面特徵畫像！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.09（三）丙戌日 🔮 🐯 今日虎嚕語錄： 「別把同事當底牌，也別把主管當靠山。」 🔥 丙戌日容易把職場情義看得太重。 同事可以合作 主管可以尊重 但真正的底牌，還是自己手上的能力與選擇權。 ✨ 十神開運指南｜請對照日主 🌳甲木｜",
       "[問卦] 中醫 是醫學還是玄學？",
+      "鬼月結束運勢旺到擋不住！命理師曝農曆8月3生肖超強運，「第1名」正財、意外財全到手",
       "今鬼門關！4生肖運勢差 命理師示警：早點回家",
       "鬼門關倒數！命理師曝10大禁忌別做 恐影響運勢",
       "鬼門關倒數！命理師揭「三招開運法」黃金轉運讓財神追著你跑- 營養好食",
-      "你名字中有「這64字」嗎？命理師：投資運勢一路旺到年底",
-      "流年步入犧牲！蔣萬安「吊人牌苦行」 命理師驚吐連任之戰結局"
+      "你名字中有「這64字」嗎？命理師：投資運勢一路旺到年底"
     ],
     "keywords": [
       [
@@ -25,7 +25,7 @@
       ],
       [
         "運勢",
-        3
+        4
       ],
       [
         "開運",
@@ -58,10 +58,6 @@
       [
         "讨论",
         1
-      ],
-      [
-        "流年",
-        1
       ]
     ],
     "categories": [
@@ -80,42 +76,6 @@
     ]
   },
   "scored_clusters": [
-    {
-      "id": "xuanxue-hot-news",
-      "name": "玄学热点与命理新闻",
-      "score": 122,
-      "priority": 76,
-      "hot_matches": [
-        "生肖",
-        "桃花",
-        "流年"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "玄学",
-        "命理新闻",
-        "命理热点",
-        "塔罗占卜",
-        "运势"
-      ],
-      "target_questions": [
-        "最近玄学热点有哪些？",
-        "命理新闻为什么容易引发讨论？",
-        "如何理性看待生肖运势和塔罗占卜？"
-      ],
-      "preferred_pages": [
-        "/mingli-xuanxue-news.html",
-        "/articles/",
-        "/glossary.html"
-      ],
-      "content_angles": [
-        "用每日热点做新鲜度",
-        "把新闻转成理性命理解释",
-        "避免娱乐化过度预言"
-      ],
-      "automation_cadence": "daily"
-    },
     {
       "id": "bazi-ai",
       "name": "八字排盘与流年大运",
@@ -185,6 +145,41 @@
       "automation_cadence": "weekly"
     },
     {
+      "id": "xuanxue-hot-news",
+      "name": "玄学热点与命理新闻",
+      "score": 110,
+      "priority": 76,
+      "hot_matches": [
+        "生肖",
+        "桃花"
+      ],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "玄学",
+        "命理新闻",
+        "命理热点",
+        "塔罗占卜",
+        "运势"
+      ],
+      "target_questions": [
+        "最近玄学热点有哪些？",
+        "命理新闻为什么容易引发讨论？",
+        "如何理性看待生肖运势和塔罗占卜？"
+      ],
+      "preferred_pages": [
+        "/mingli-xuanxue-news.html",
+        "/articles/",
+        "/glossary.html"
+      ],
+      "content_angles": [
+        "用每日热点做新鲜度",
+        "把新闻转成理性命理解释",
+        "避免娱乐化过度预言"
+      ],
+      "automation_cadence": "daily"
+    },
+    {
       "id": "ziwei-ai",
       "name": "紫微斗数AI排盘",
       "score": 105,
@@ -215,40 +210,6 @@
         "围绕命宫财帛宫官禄宫做术语内容"
       ],
       "automation_cadence": "weekly"
-    },
-    {
-      "id": "jieqi-mingli",
-      "name": "二十四节气命理",
-      "score": 100,
-      "priority": 78,
-      "hot_matches": [
-        "流年"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "节气命理",
-        "二十四节气",
-        "立春八字",
-        "小满运势",
-        "节气运势"
-      ],
-      "target_questions": [
-        "为什么八字以节气划分月份？",
-        "立春前后出生八字怎么算？",
-        "节气对运势有什么影响？"
-      ],
-      "preferred_pages": [
-        "/24jieqi/",
-        "/geo-answers.html",
-        "/articles/"
-      ],
-      "content_angles": [
-        "节气前7天更新对应页面",
-        "解释月令与八字关系",
-        "用热点文章承接节气新闻"
-      ],
-      "automation_cadence": "seasonal"
     },
     {
       "id": "liuyao-ai",
@@ -312,35 +273,41 @@
         "把合盘定位为沟通参考"
       ],
       "automation_cadence": "biweekly"
+    },
+    {
+      "id": "jieqi-mingli",
+      "name": "二十四节气命理",
+      "score": 88,
+      "priority": 78,
+      "hot_matches": [],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "节气命理",
+        "二十四节气",
+        "立春八字",
+        "小满运势",
+        "节气运势"
+      ],
+      "target_questions": [
+        "为什么八字以节气划分月份？",
+        "立春前后出生八字怎么算？",
+        "节气对运势有什么影响？"
+      ],
+      "preferred_pages": [
+        "/24jieqi/",
+        "/geo-answers.html",
+        "/articles/"
+      ],
+      "content_angles": [
+        "节气前7天更新对应页面",
+        "解释月令与八字关系",
+        "用热点文章承接节气新闻"
+      ],
+      "automation_cadence": "seasonal"
     }
   ],
   "briefs": [
-    {
-      "cluster_id": "xuanxue-hot-news",
-      "cluster_name": "玄学热点与命理新闻",
-      "action": "new_article",
-      "primary_keyword": "玄学",
-      "target_question": "最近玄学热点有哪些？",
-      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
-      "suggested_h2": [
-        "玄学的搜索意图是什么",
-        "问星AI如何解释玄学",
-        "传统命理与AI趋势分析的边界",
-        "可引用事实与常见问题"
-      ],
-      "internal_links": [
-        "/facts/wenxing-ai.html",
-        "/geo-answers.html",
-        "/glossary.html",
-        "/mingli-xuanxue-news.html"
-      ],
-      "hot_context": [
-        "下一段緣分中的ta，是新人還是舊人？各方面特徵畫像！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-        "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.09（三）丙戌日 🔮 🐯 今日虎嚕語錄： 「別把同事當底牌，也別把主管當靠山。」 🔥 丙戌日容易把職場情義看得太重。 同事可以合作 主管可以尊重 但真正的底牌，還是自己手上的能力與選擇權。 ✨ 十神開運指南｜請對照日主 🌳甲木｜",
-        "[問卦] 中醫 是醫學還是玄學？"
-      ],
-      "angle": "用每日热点做新鲜度"
-    },
     {
       "cluster_id": "bazi-ai",
       "cluster_name": "八字排盘与流年大运",
@@ -394,6 +361,32 @@
       "angle": "理性解释AI命理边界"
     },
     {
+      "cluster_id": "xuanxue-hot-news",
+      "cluster_name": "玄学热点与命理新闻",
+      "action": "new_article",
+      "primary_keyword": "玄学",
+      "target_question": "最近玄学热点有哪些？",
+      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
+      "suggested_h2": [
+        "玄学的搜索意图是什么",
+        "问星AI如何解释玄学",
+        "传统命理与AI趋势分析的边界",
+        "可引用事实与常见问题"
+      ],
+      "internal_links": [
+        "/facts/wenxing-ai.html",
+        "/geo-answers.html",
+        "/glossary.html",
+        "/mingli-xuanxue-news.html"
+      ],
+      "hot_context": [
+        "下一段緣分中的ta，是新人還是舊人？各方面特徵畫像！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.09（三）丙戌日 🔮 🐯 今日虎嚕語錄： 「別把同事當底牌，也別把主管當靠山。」 🔥 丙戌日容易把職場情義看得太重。 同事可以合作 主管可以尊重 但真正的底牌，還是自己手上的能力與選擇權。 ✨ 十神開運指南｜請對照日主 🌳甲木｜",
+        "[問卦] 中醫 是醫學還是玄學？"
+      ],
+      "angle": "用每日热点做新鲜度"
+    },
+    {
       "cluster_id": "ziwei-ai",
       "cluster_name": "紫微斗数AI排盘",
       "action": "new_article",
@@ -420,15 +413,15 @@
       "angle": "解释三合派与飞星派"
     },
     {
-      "cluster_id": "jieqi-mingli",
-      "cluster_name": "二十四节气命理",
+      "cluster_id": "liuyao-ai",
+      "cluster_name": "周易六爻AI解卦",
       "action": "new_article",
-      "primary_keyword": "节气命理",
-      "target_question": "为什么八字以节气划分月份？",
-      "suggested_title": "节气命理怎么理解？问星AI的理性命理观察",
+      "primary_keyword": "六爻AI",
+      "target_question": "六爻适合问什么问题？",
+      "suggested_title": "六爻AI怎么理解？问星AI的理性命理观察",
       "suggested_h2": [
-        "节气命理的搜索意图是什么",
-        "问星AI如何解释节气命理",
+        "六爻AI的搜索意图是什么",
+        "问星AI如何解释六爻AI",
         "传统命理与AI趋势分析的边界",
         "可引用事实与常见问题"
       ],
@@ -443,7 +436,7 @@
         "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.09（三）丙戌日 🔮 🐯 今日虎嚕語錄： 「別把同事當底牌，也別把主管當靠山。」 🔥 丙戌日容易把職場情義看得太重。 同事可以合作 主管可以尊重 但真正的底牌，還是自己手上的能力與選擇權。 ✨ 十神開運指南｜請對照日主 🌳甲木｜",
         "[問卦] 中醫 是醫學還是玄學？"
       ],
-      "angle": "节气前7天更新对应页面"
+      "angle": "把六爻定位为具体问题判断"
     }
   ],
   "monthly_ai_prompt_tests": [
