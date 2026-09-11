@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-10",
-  "updated_at_display": "2026年9月10日 21:15",
+  "updated_at": "2026-09-11",
+  "updated_at_display": "2026年9月11日 11:15",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-10T21:15:14.120284+08:00",
+    "fetched_at": "2026-09-11T11:15:12.755278+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "紫微斗數命盤，到底藏了多少資訊🔍個性、事業、財運、感情、人際……這支影片📹影片帶你快速了解",
+      "title": "下一段緣分中的ta，是新人還是舊人？各方面特徵畫像！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UdzM4WGMyeFAtS1VERlN0eXRNVk9lREFfOWpMZ09GNGZVWWZ0d3VLTFRhVUdBN1BYbXBnZkJYS0E0QU4zY3lpNnNyaUgybURZOWdnUw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kV0w4Q29WM2Y5ZzRsX092YjFGT01rbE1Pb1hqLUQ4cjV1encyUEF3SDEzZmo2TXNWVkhySnVidU16WnZKbWJ5MnJWZG1KeHRWUURiRThB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "八字紫微",
-      "published": "2026-09-08",
-      "published_display": "2026-09-08",
+      "category": "塔罗星象",
+      "published": "2026-09-10",
+      "published_display": "2026-09-10",
       "matched_keywords": [
-        "紫微斗數",
-        "紫微",
-        "斗數"
+        "塔羅",
+        "占卜",
+        "桃花"
       ],
-      "score": 12.35,
-      "event_cluster": "event-58"
+      "score": 14.55,
+      "event_cluster": "event-06"
     },
     {
       "title": "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.09（三）丙戌日 🔮 🐯 今日虎嚕語錄： 「別把同事當底牌，也別把主管當靠山。」 🔥 丙戌日容易把職場情義看得太重。 同事可以合作 主管可以尊重 但真正的底牌，還是自己手上的能力與選擇權。 ✨ 十神開運指南｜請對照日主 🌳甲木｜",
@@ -287,7 +287,7 @@
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-120"
+      "event_cluster": "event-130"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -310,10 +310,10 @@
     },
     {
       "title": "今鬼門關！4生肖運勢差 命理師示警：早點回家",
-      "summary": "来自 news.ebc.net.tw · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 東森新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xTkNIS2NtUkItaU1ldVc3UTdVVTEzbG8zcTNwWHFaY2VEMUs5UVRQQ05JeGxVWFFJRWxMOFFfeUZ0ZUtWemxhTHNYVGM1S2FHZndxZg?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "news.ebc.net.tw · Google News",
+      "source": "東森新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -386,10 +386,10 @@
     },
     {
       "title": "流年步入犧牲！蔣萬安「吊人牌苦行」 命理師驚吐連任之戰結局",
-      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 news.tvbs.com.tw · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1oZE12UVZKdW1rUGhwZi1RZzE2VWVnS1JjQURqM0tLRGxMWExLRWpqbXlqVmptUzVFRlVSTlAwUEM0em1JeXNtSTVGTFRlTmpuUHpj?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "TVBS新聞網 · Google News",
+      "source": "news.tvbs.com.tw · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -401,7 +401,7 @@
         "流年"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     }
   ]
 }
