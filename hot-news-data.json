@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-11",
-  "updated_at_display": "2026年9月11日 21:15",
+  "updated_at": "2026-09-12",
+  "updated_at_display": "2026年9月12日 11:14",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-11T21:15:48.046893+08:00",
+    "fetched_at": "2026-09-12T11:14:40.496367+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,20 +248,20 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "items": [
     {
-      "title": "下一段緣分中的ta，是新人還是舊人？各方面特徵畫像！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "你們會在一起嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kV0w4Q29WM2Y5ZzRsX092YjFGT01rbE1Pb1hqLUQ4cjV1encyUEF3SDEzZmo2TXNWVkhySnVidU16WnZKbWJ5MnJWZG1KeHRWUURiRThB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XZzUtaG1SQkJFWUFKRS1uejd6Y0tPN0w3TlNCVS1SeTVVaVFzWWpveDBVNkp3VzMyTUVKV2pUUmVmZmg5bk1abTJiMnpwY284ZjhvRUtR?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-09-10",
-      "published_display": "2026-09-10",
+      "published": "2026-09-11",
+      "published_display": "2026-09-11",
       "matched_keywords": [
         "塔羅",
         "占卜",
@@ -287,7 +287,7 @@
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-137"
+      "event_cluster": "event-128"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -385,16 +385,16 @@
       "event_cluster": "event-05"
     },
     {
-      "title": "你名字中有「這64字」嗎？命理師：投資運勢一路旺到年底",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HM1RnVFEwM3JZUjdmRFlkVHEwb2ZwbjE2aXdJeC1tUm1oYU9mVnp5Mks1eGluV3UwMldhYWQ3Y3BNSzMtaF9FQkZpZmJMaU1zZXlrU05R0gFWQVVfeXFMT0czVGdUUTAzcllSN2ZEWWRUcTBvZnBuMTZpd0l4LW1SbWhhT2ZWenkySzV4aW5XdTAyV2FhZDdjcE1LMy1oX0VCRmlmYkxpTXNleWtTTlE?oc=5",
+      "title": "8月運勢出爐！美女命理師：「5星座」遇貴人、升遷機會高",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1KaXlkUDNTRnBrWTQ4Q0szMzZwdTJlbjUzeXYwYlAxMnhsTzF3dzhQVlZfUENlOUh2eVRNTFgwcTFMLVphVkVj0gFLQVVfeXFMUDk2VXJwMUF6VWFZcWV6TEw4aU1ma1Ywd28zMzF6ZnY5NHphWVZ3cnZyYlYxX1J1UVhhcVFDWGtaamdteG95aVJTNXBN?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
+      "source": "三立新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-09-09",
-      "published_display": "2026-09-09",
+      "category": "塔罗星象",
+      "published": "2026-09-10",
+      "published_display": "2026-09-10",
       "matched_keywords": [
         "命理",
         "命理師",
