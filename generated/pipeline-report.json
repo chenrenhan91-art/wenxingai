@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-13T11:15:22.543988+08:00",
-  "ran_at_display": "2026年9月13日 11:15",
+  "ran_at": "2026-09-13T21:13:21.088164+08:00",
+  "ran_at_display": "2026年9月13日 21:13",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "9ae18fcef89f94c9ed856f952dad735c4cc1976b",
-  "new_signature": "2446cbe61db4c77fe31428a4fad51c9ed204e216",
+  "previous_signature": "2446cbe61db4c77fe31428a4fad51c9ed204e216",
+  "new_signature": "f5f90ecbe291a13cbb73c853063778be4b8ac2e5",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,13 +21,18 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "你們會在一起嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.09（三）丙戌日 🔮 🐯 今日虎嚕語錄： 「別把同事當底牌，也別把主管當靠山。」 🔥 丙戌日容易把職場情義看得太重。 同事可以合作 主管可以尊重 但真正的底牌，還是自己手上的能力與選擇權。 ✨ 十神開運指南｜請對照日主 🌳甲木｜",
+    "他今天想你了嗎？怎麼想的？想了什麼？對你的感情、對關係的想法|曖昧|愛情|戀愛|桃花|塔羅占卜",
+    "今天的塔羅占卜改明後天開台喔 忙碌兩天做餅全身痠痛 有點累等身體好點再占占唷🙏",
     "[問卦] 中醫 是醫學還是玄學？",
-    "鬼月結束運勢旺到擋不住！命理師曝農曆8月3生肖超強運，「第1名」正財、意外財全到手",
-    "今鬼門關！4生肖運勢差 命理師示警：早點回家"
+    "入秋運勢變化了！命理師曝「3生肖」最旺 屬牛財運、貴人全都有",
+    "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "他今天想你了嗎？怎麼想的？想了什麼？對你的感情、對關係的想法|曖昧|愛情|戀愛|桃花|塔羅占卜",
+    "今天的塔羅占卜改明後天開台喔 忙碌兩天做餅全身痠痛 有點累等身體好點再占占唷🙏",
+    "入秋運勢變化了！命理師曝「3生肖」最旺 屬牛財運、貴人全都有",
+    "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災"
+  ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
@@ -39,7 +44,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月13日 11:15"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月13日 21:13"
     },
     {
       "script": "generate_daily_content.py",
