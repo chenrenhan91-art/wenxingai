@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-12T21:13:07.831835+08:00",
-  "ran_at_display": "2026年9月12日 21:13",
+  "ran_at": "2026-09-13T11:15:22.543988+08:00",
+  "ran_at_display": "2026年9月13日 11:15",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "d84b78b4b1c48f2cb23f88350b69b7354867e3b4",
-  "new_signature": "9ae18fcef89f94c9ed856f952dad735c4cc1976b",
+  "previous_signature": "9ae18fcef89f94c9ed856f952dad735c4cc1976b",
+  "new_signature": "2446cbe61db4c77fe31428a4fad51c9ed204e216",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -39,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月12日 21:13"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月13日 11:15"
     },
     {
       "script": "generate_daily_content.py",

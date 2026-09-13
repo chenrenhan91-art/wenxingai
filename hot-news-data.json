@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-12",
-  "updated_at_display": "2026年9月12日 21:13",
+  "updated_at": "2026-09-13",
+  "updated_at_display": "2026年9月13日 11:15",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-12T21:13:22.440684+08:00",
+    "fetched_at": "2026-09-13T11:15:37.188257+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-140"
+      "event_cluster": "event-146"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -329,10 +329,10 @@
     },
     {
       "title": "今鬼門關！4生肖運勢差 命理師示警：早點回家",
-      "summary": "来自 東森新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 news.ebc.net.tw · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xTkNIS2NtUkItaU1ldVc3UTdVVTEzbG8zcTNwWHFaY2VEMUs5UVRQQ05JeGxVWFFJRWxMOFFfeUZ0ZUtWemxhTHNYVGM1S2FHZndxZg?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "東森新聞 · Google News",
+      "source": "news.ebc.net.tw · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -386,10 +386,10 @@
     },
     {
       "title": "8月運勢出爐！美女命理師：「5星座」遇貴人、升遷機會高",
-      "summary": "来自 setn.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1KaXlkUDNTRnBrWTQ4Q0szMzZwdTJlbjUzeXYwYlAxMnhsTzF3dzhQVlZfUENlOUh2eVRNTFgwcTFMLVphVkVj0gFLQVVfeXFMUDk2VXJwMUF6VWFZcWV6TEw4aU1ma1Ywd28zMzF6ZnY5NHphWVZ3cnZyYlYxX1J1UVhhcVFDWGtaamdteG95aVJTNXBN?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "setn.com · Google News",
+      "source": "三立新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "塔罗星象",
