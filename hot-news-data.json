@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13",
-  "updated_at_display": "2026年9月13日 21:13",
+  "updated_at": "2026-09-14",
+  "updated_at_display": "2026年9月14日 11:17",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-13T21:13:36.844298+08:00",
+    "fetched_at": "2026-09-14T11:17:16.946702+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "他今天想你了嗎？怎麼想的？想了什麼？對你的感情、對關係的想法|曖昧|愛情|戀愛|桃花|塔羅占卜",
+      "title": "Ta深埋心裡的悄悄話！隱藏著Ta對你的哪些情感？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wd1RyYVJhNlFaZm83MEJBcFNFT211dDZKazQ0Tm9FY1h3NmpYcU5sazNqeFplMFV3eVplN0RLMWp4RjJvajZFVmZhTHNRSkxHd19hRFln?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkaXBsdTl3dDNQd1JoaVhXUUY2dEZqaWxWdlp5YVFoS2NyODFEQ3poZzVBUzdmU2Y4Z1lMMWdhM0R3NUdaR1dRMmxJclVNSDlZYm5yTGJR?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-09-10",
-      "published_display": "2026-09-10",
+      "published": "2026-09-13",
+      "published_display": "2026-09-13",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-08"
+      "event_cluster": "event-05"
     },
     {
       "title": "今天的塔羅占卜改明後天開台喔 忙碌兩天做餅全身痠痛 有點累等身體好點再占占唷🙏",
@@ -286,7 +286,7 @@
         "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-113"
+      "event_cluster": "event-118"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -328,15 +328,15 @@
     },
     {
       "title": "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災",
-      "summary": "来自 setn.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Vbk9ER1E1NlN4eVZYZmZSaG5yWXpqdVUzOVdQdWwyLWs1am1HY3pXN0VQN2s5a0xHYm1jMldkY2hsTHc1YkY0RtIBTEFVX3lxTE9CNGtweDFDRVVsZDQ3SmttVW9IRzhOeUprM0FuUldMeFBfakxPNXpmb0tPY0g3cUYyNUR4MGZaS1RpNW5qd0NYVHNQSUw?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "setn.com · Google News",
+      "source": "三立新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-09-12",
-      "published_display": "2026-09-12",
+      "published": "2026-09-13",
+      "published_display": "2026-09-13",
       "matched_keywords": [
         "命理",
         "命理師",
@@ -344,6 +344,25 @@
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-03"
+    },
+    {
+      "title": "換手機桌布運氣超順！比奇堡居民系列爆紅 命理師認：行動開運符",
+      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDR293dHlGVXFGVGxDc0NpWEg5RE5lTXJJRE9FQ2ZuajUwaW5UOHBJY3NmTHpESTE2OE1xd1J3M3FwZDdoNmd3aTdaQUFTRkE3WGfSAVJBVV95cUxQQ0dvd3R5RlVxRlRsQ3NDaVhIOUROZU1ySURPRUNmbmo1MGluVDhwSWNzZkx6REkxNjhNcXdSdzNxcGQ3aDZnd2k3WkFBU0ZBN1hn?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "NOWnews今日新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-09-13",
+      "published_display": "2026-09-13",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
     },
     {
       "title": "鬼月結束運勢旺到擋不住！命理師曝農曆8月3生肖超強運，「第1名」正財、意外財全到手",
@@ -362,7 +381,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-06"
     },
     {
       "title": "今鬼門關！4生肖運勢差 命理師示警：早點回家",
@@ -381,26 +400,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "鬼門關倒數！命理師揭「三招開運法」黃金轉運讓財神追著你跑- 營養好食",
-      "summary": "来自 TVBS 健康2.0 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CWWtfY3o4dm5ETEUxN3dicEJwa1hxamljMVRzWGpPdFo1ZHlwa2d3MGxob0l0SG0wQjZXQW9scTFqR3ZhZ3ZUVFdyRi05aVRvOThrZVJ3?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "TVBS 健康2.0 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-09-10",
-      "published_display": "2026-09-10",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     }
   ]
 }
