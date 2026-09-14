@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-09-14",
-  "updated_at_display": "2026年9月14日 11:17",
+  "updated_at_display": "2026年9月14日 21:17",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-14T11:17:16.946702+08:00",
+    "fetched_at": "2026-09-14T21:17:07.564682+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -286,7 +286,7 @@
         "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-118"
+      "event_cluster": "event-122"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -308,6 +308,25 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "「比奇堡居民」桌布掀開運風潮 命理師：有形就有象",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNZjltZzNULUhyWmE1OFdaZGU0bGxlaXBtcF9wWU5LckFZWnBaUlFMTkh1b2F6NHY5X013LXVMaFNSVzlYZkExWnFCdUI3cGxyRnd1eGJNY1d3aU5wdjRzTDhfMUtTZk5KQ2pUMlFvX1J3YUFobEo0UmRUZzJyOHJXbTRhYjU4cGNiQkdfMEFhRW5Fb1A4MGdDMjRRWU5wdkJHVU5WaXlBaUtWR3RnM3I2T2hzMy1ER2sxMjdVTENSYTBmWnNMZ3Z3eVF5Skwxb2NGaWRjWVFVZ2lVWllJRnlvWDl1S0UtZjBZS0hzX0lMdjExOU9RNUhNaURaTElCbGotWmdYal85c1h0ZmxCRVZENXhtaGxlZzFMUFJ0WWU1NTAwSGh1ZnNNSk5YSElHbFNNbWRZU0FHVEtqbkRFRDY2dG9nX1RxU0U?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-09-14",
+      "published_display": "2026-09-14",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
       "title": "入秋運勢變化了！命理師曝「3生肖」最旺 屬牛財運、貴人全都有",
       "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5BM0lCeXlCRjdCU1ZlN0NkSElLaTdhc2hlaDlwNUtxZWoyb1pQeDFfdkZXdjVMaXlnbG1RZW9uWVRiMkhsclowNkNlTVgyTXo1aGfSAVJBVV95cUxOQTNJQnl5QkY3QlNWZTdDZEhJS2k3YXNoZWg5cDVLcWVqMm9aUHgxX3ZGV3Y1TGl5Z2xtUWVvbllUYjJIbHJaMDZDZU1YMk16NWhn?oc=5",
@@ -322,25 +341,6 @@
         "命理",
         "命理師",
         "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-02"
-    },
-    {
-      "title": "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Vbk9ER1E1NlN4eVZYZmZSaG5yWXpqdVUzOVdQdWwyLWs1am1HY3pXN0VQN2s5a0xHYm1jMldkY2hsTHc1YkY0RtIBTEFVX3lxTE9CNGtweDFDRVVsZDQ3SmttVW9IRzhOeUprM0FuUldMeFBfakxPNXpmb0tPY0g3cUYyNUR4MGZaS1RpNW5qd0NYVHNQSUw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-09-13",
-      "published_display": "2026-09-13",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "流年"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-03"
@@ -385,10 +385,10 @@
     },
     {
       "title": "今鬼門關！4生肖運勢差 命理師示警：早點回家",
-      "summary": "来自 news.ebc.net.tw · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 東森新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xTkNIS2NtUkItaU1ldVc3UTdVVTEzbG8zcTNwWHFaY2VEMUs5UVRQQ05JeGxVWFFJRWxMOFFfeUZ0ZUtWemxhTHNYVGM1S2FHZndxZg?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "news.ebc.net.tw · Google News",
+      "source": "東森新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",

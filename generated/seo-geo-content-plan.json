@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-14T11:17:23.721141+08:00",
-  "generated_at_display": "2026-09-14 11:17 CST",
+  "generated_at": "2026-09-14T21:17:15.859600+08:00",
+  "generated_at_display": "2026-09-14 21:17 CST",
   "site_positioning": "问星AI是面向全球华语用户的AI命理应用，核心覆盖紫微斗数、四柱八字、周易六爻、合盘分析、大运流年与玄学热点解读。",
   "hot_news": {
     "updated_at": "2026-09-14",
@@ -8,8 +8,8 @@
       "Ta深埋心裡的悄悄話！隱藏著Ta對你的哪些情感？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "今天的塔羅占卜改明後天開台喔 忙碌兩天做餅全身痠痛 有點累等身體好點再占占唷🙏",
       "[問卦] 中醫 是醫學還是玄學？",
+      "「比奇堡居民」桌布掀開運風潮 命理師：有形就有象",
       "入秋運勢變化了！命理師曝「3生肖」最旺 屬牛財運、貴人全都有",
-      "孫安佐遭羈押禁見！命理師2年前預言「今年走死神流年」：難逃牢獄之災",
       "換手機桌布運氣超順！比奇堡居民系列爆紅 命理師認：行動開運符",
       "鬼月結束運勢旺到擋不住！命理師曝農曆8月3生肖超強運，「第1名」正財、意外財全到手",
       "今鬼門關！4生肖運勢差 命理師示警：早點回家"
@@ -36,6 +36,10 @@
         2
       ],
       [
+        "開運",
+        2
+      ],
+      [
         "桃花",
         1
       ],
@@ -49,14 +53,6 @@
       ],
       [
         "讨论",
-        1
-      ],
-      [
-        "流年",
-        1
-      ],
-      [
-        "開運",
         1
       ]
     ],
@@ -76,42 +72,6 @@
     ]
   },
   "scored_clusters": [
-    {
-      "id": "xuanxue-hot-news",
-      "name": "玄学热点与命理新闻",
-      "score": 122,
-      "priority": 76,
-      "hot_matches": [
-        "生肖",
-        "桃花",
-        "流年"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "玄学",
-        "命理新闻",
-        "命理热点",
-        "塔罗占卜",
-        "运势"
-      ],
-      "target_questions": [
-        "最近玄学热点有哪些？",
-        "命理新闻为什么容易引发讨论？",
-        "如何理性看待生肖运势和塔罗占卜？"
-      ],
-      "preferred_pages": [
-        "/mingli-xuanxue-news.html",
-        "/articles/",
-        "/glossary.html"
-      ],
-      "content_angles": [
-        "用每日热点做新鲜度",
-        "把新闻转成理性命理解释",
-        "避免娱乐化过度预言"
-      ],
-      "automation_cadence": "daily"
-    },
     {
       "id": "ai-mingli",
       "name": "AI命理与AI算命",
@@ -144,6 +104,41 @@
         "用问星AI案例说明可验证性"
       ],
       "automation_cadence": "weekly"
+    },
+    {
+      "id": "xuanxue-hot-news",
+      "name": "玄学热点与命理新闻",
+      "score": 110,
+      "priority": 76,
+      "hot_matches": [
+        "生肖",
+        "桃花"
+      ],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "玄学",
+        "命理新闻",
+        "命理热点",
+        "塔罗占卜",
+        "运势"
+      ],
+      "target_questions": [
+        "最近玄学热点有哪些？",
+        "命理新闻为什么容易引发讨论？",
+        "如何理性看待生肖运势和塔罗占卜？"
+      ],
+      "preferred_pages": [
+        "/mingli-xuanxue-news.html",
+        "/articles/",
+        "/glossary.html"
+      ],
+      "content_angles": [
+        "用每日热点做新鲜度",
+        "把新闻转成理性命理解释",
+        "避免娱乐化过度预言"
+      ],
+      "automation_cadence": "daily"
     },
     {
       "id": "ziwei-ai",
@@ -211,40 +206,6 @@
       "automation_cadence": "weekly"
     },
     {
-      "id": "jieqi-mingli",
-      "name": "二十四节气命理",
-      "score": 100,
-      "priority": 78,
-      "hot_matches": [
-        "流年"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "节气命理",
-        "二十四节气",
-        "立春八字",
-        "小满运势",
-        "节气运势"
-      ],
-      "target_questions": [
-        "为什么八字以节气划分月份？",
-        "立春前后出生八字怎么算？",
-        "节气对运势有什么影响？"
-      ],
-      "preferred_pages": [
-        "/24jieqi/",
-        "/geo-answers.html",
-        "/articles/"
-      ],
-      "content_angles": [
-        "节气前7天更新对应页面",
-        "解释月令与八字关系",
-        "用热点文章承接节气新闻"
-      ],
-      "automation_cadence": "seasonal"
-    },
-    {
       "id": "liuyao-ai",
       "name": "周易六爻AI解卦",
       "score": 95,
@@ -306,35 +267,41 @@
         "把合盘定位为沟通参考"
       ],
       "automation_cadence": "biweekly"
+    },
+    {
+      "id": "jieqi-mingli",
+      "name": "二十四节气命理",
+      "score": 88,
+      "priority": 78,
+      "hot_matches": [],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "节气命理",
+        "二十四节气",
+        "立春八字",
+        "小满运势",
+        "节气运势"
+      ],
+      "target_questions": [
+        "为什么八字以节气划分月份？",
+        "立春前后出生八字怎么算？",
+        "节气对运势有什么影响？"
+      ],
+      "preferred_pages": [
+        "/24jieqi/",
+        "/geo-answers.html",
+        "/articles/"
+      ],
+      "content_angles": [
+        "节气前7天更新对应页面",
+        "解释月令与八字关系",
+        "用热点文章承接节气新闻"
+      ],
+      "automation_cadence": "seasonal"
     }
   ],
   "briefs": [
-    {
-      "cluster_id": "xuanxue-hot-news",
-      "cluster_name": "玄学热点与命理新闻",
-      "action": "new_article",
-      "primary_keyword": "玄学",
-      "target_question": "最近玄学热点有哪些？",
-      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
-      "suggested_h2": [
-        "玄学的搜索意图是什么",
-        "问星AI如何解释玄学",
-        "传统命理与AI趋势分析的边界",
-        "可引用事实与常见问题"
-      ],
-      "internal_links": [
-        "/facts/wenxing-ai.html",
-        "/geo-answers.html",
-        "/glossary.html",
-        "/mingli-xuanxue-news.html"
-      ],
-      "hot_context": [
-        "Ta深埋心裡的悄悄話！隱藏著Ta對你的哪些情感？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-        "今天的塔羅占卜改明後天開台喔 忙碌兩天做餅全身痠痛 有點累等身體好點再占占唷🙏",
-        "[問卦] 中醫 是醫學還是玄學？"
-      ],
-      "angle": "用每日热点做新鲜度"
-    },
     {
       "cluster_id": "ai-mingli",
       "cluster_name": "AI命理与AI算命",
@@ -360,6 +327,32 @@
         "[問卦] 中醫 是醫學還是玄學？"
       ],
       "angle": "理性解释AI命理边界"
+    },
+    {
+      "cluster_id": "xuanxue-hot-news",
+      "cluster_name": "玄学热点与命理新闻",
+      "action": "new_article",
+      "primary_keyword": "玄学",
+      "target_question": "最近玄学热点有哪些？",
+      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
+      "suggested_h2": [
+        "玄学的搜索意图是什么",
+        "问星AI如何解释玄学",
+        "传统命理与AI趋势分析的边界",
+        "可引用事实与常见问题"
+      ],
+      "internal_links": [
+        "/facts/wenxing-ai.html",
+        "/geo-answers.html",
+        "/glossary.html",
+        "/mingli-xuanxue-news.html"
+      ],
+      "hot_context": [
+        "Ta深埋心裡的悄悄話！隱藏著Ta對你的哪些情感？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "今天的塔羅占卜改明後天開台喔 忙碌兩天做餅全身痠痛 有點累等身體好點再占占唷🙏",
+        "[問卦] 中醫 是醫學還是玄學？"
+      ],
+      "angle": "用每日热点做新鲜度"
     },
     {
       "cluster_id": "ziwei-ai",
@@ -414,15 +407,15 @@
       "angle": "把大运流年解释为周期观察"
     },
     {
-      "cluster_id": "jieqi-mingli",
-      "cluster_name": "二十四节气命理",
+      "cluster_id": "liuyao-ai",
+      "cluster_name": "周易六爻AI解卦",
       "action": "new_article",
-      "primary_keyword": "节气命理",
-      "target_question": "为什么八字以节气划分月份？",
-      "suggested_title": "节气命理怎么理解？问星AI的理性命理观察",
+      "primary_keyword": "六爻AI",
+      "target_question": "六爻适合问什么问题？",
+      "suggested_title": "六爻AI怎么理解？问星AI的理性命理观察",
       "suggested_h2": [
-        "节气命理的搜索意图是什么",
-        "问星AI如何解释节气命理",
+        "六爻AI的搜索意图是什么",
+        "问星AI如何解释六爻AI",
         "传统命理与AI趋势分析的边界",
         "可引用事实与常见问题"
       ],
@@ -437,7 +430,7 @@
         "今天的塔羅占卜改明後天開台喔 忙碌兩天做餅全身痠痛 有點累等身體好點再占占唷🙏",
         "[問卦] 中醫 是醫學還是玄學？"
       ],
-      "angle": "节气前7天更新对应页面"
+      "angle": "把六爻定位为具体问题判断"
     }
   ],
   "monthly_ai_prompt_tests": [
