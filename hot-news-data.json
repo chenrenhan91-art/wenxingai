@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-09-15",
-  "updated_at_display": "2026年9月15日 11:15",
+  "updated_at_display": "2026年9月15日 21:17",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-15T11:15:57.703743+08:00",
+    "fetched_at": "2026-09-15T21:17:05.697762+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "items": [
     {
@@ -271,22 +271,23 @@
       "event_cluster": "event-05"
     },
     {
-      "title": "今天的塔羅占卜改明後天開台喔 忙碌兩天做餅全身痠痛 有點累等身體好點再占占唷🙏",
+      "title": "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.15（二）壬辰日 🔮 🐯 今日虎嚕語錄： 「做了跌倒，至少知道哪裡有坑；站著不動，只會一直猜。」 🌊 壬水遇辰土 有些事容易卡在「到底要不要做」的門口 行動不保證一次成功 但能讓真正的答案出現 ✨ 十神開運指南｜請對照日主 🌳甲木",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CWWNvRmdBNE5tU2ZNTHFheHZabDhkNmlmSGJCWU9FaVQ3ZTlCRmdtaHByRlVkeGdhQTBRcXdBU0ZFRmFibXNBQ0s4aVVTN3RfT2VWTTZaWXRTeU9SNGp1Zldn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE83bGtUeW9MeUZWRzBPWURYQkF4V3FaNjMtQ0ZIMENqWkJldDBDdUVhYmNoNUVGQkM1RjNkZGQyWXkwZWZlUmxjTGpka3Z1TEtlNWZWcS02bTZlQ29OV3dOMFBlWQ?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "塔罗星象",
-      "published": "2026-09-13",
-      "published_display": "2026-09-13",
+      "category": "命理新闻",
+      "published": "2026-09-15",
+      "published_display": "2026-09-15",
       "matched_keywords": [
-        "塔羅",
-        "占卜"
+        "命理",
+        "開運",
+        "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-127"
+      "event_cluster": "event-109"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
