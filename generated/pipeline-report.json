@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-14T21:16:52.331407+08:00",
-  "ran_at_display": "2026年9月14日 21:16",
+  "ran_at": "2026-09-15T11:15:42.638465+08:00",
+  "ran_at_display": "2026年9月15日 11:15",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "b6728e4d60d077793cc8d6b4600c935f3988a6cf",
-  "new_signature": "9a70851e9d0735454bff0ffbe5ce1756ed850f6f",
+  "previous_signature": "9a70851e9d0735454bff0ffbe5ce1756ed850f6f",
+  "new_signature": "0337b0375494a3914c3942b95e24be611e241417",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,14 +21,14 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "Ta深埋心裡的悄悄話！隱藏著Ta對你的哪些情感？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "他對關係的深層渴望？到底想要你怎麼做？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "今天的塔羅占卜改明後天開台喔 忙碌兩天做餅全身痠痛 有點累等身體好點再占占唷🙏",
     "[問卦] 中醫 是醫學還是玄學？",
     "「比奇堡居民」桌布掀開運風潮 命理師：有形就有象",
     "入秋運勢變化了！命理師曝「3生肖」最旺 屬牛財運、貴人全都有"
   ],
   "added_titles": [
-    "「比奇堡居民」桌布掀開運風潮 命理師：有形就有象"
+    "他對關係的深層渴望？到底想要你怎麼做？|曖昧|愛情|戀愛|桃花|塔羅占卜|"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -41,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月14日 21:17"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月15日 11:15"
     },
     {
       "script": "generate_daily_content.py",

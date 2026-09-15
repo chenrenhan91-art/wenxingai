@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-14",
-  "updated_at_display": "2026年9月14日 21:17",
+  "updated_at": "2026-09-15",
+  "updated_at_display": "2026年9月15日 11:15",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-14T21:17:07.564682+08:00",
+    "fetched_at": "2026-09-15T11:15:57.703743+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,16 +252,16 @@
   ],
   "items": [
     {
-      "title": "Ta深埋心裡的悄悄話！隱藏著Ta對你的哪些情感？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "他對關係的深層渴望？到底想要你怎麼做？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkaXBsdTl3dDNQd1JoaVhXUUY2dEZqaWxWdlp5YVFoS2NyODFEQ3poZzVBUzdmU2Y4Z1lMMWdhM0R3NUdaR1dRMmxJclVNSDlZYm5yTGJR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1iLTJIbGlBMWdLbGpYejd6WUpTdWloWFB6dmI3MUF6U0kydzZ4MjQtQ1IyMm1wMDEwRXV0elZpVHNjRE1xUVExT05zQ3RORzcwSUtOVU93?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-09-13",
-      "published_display": "2026-09-13",
+      "published": "2026-09-14",
+      "published_display": "2026-09-14",
       "matched_keywords": [
         "塔羅",
         "占卜",
@@ -286,7 +286,7 @@
         "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-122"
+      "event_cluster": "event-127"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
