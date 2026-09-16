@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-15T21:16:49.311213+08:00",
-  "ran_at_display": "2026年9月15日 21:16",
+  "ran_at": "2026-09-16T11:15:13.704060+08:00",
+  "ran_at_display": "2026年9月16日 11:15",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "0337b0375494a3914c3942b95e24be611e241417",
-  "new_signature": "e1639297f38e6f0c3dc9ef7ff51b7ba25b22e1bd",
+  "previous_signature": "e1639297f38e6f0c3dc9ef7ff51b7ba25b22e1bd",
+  "new_signature": "578283dd6057a3ad781976807ffb29f2681183b6",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,17 +21,19 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "他對關係的深層渴望？到底想要你怎麼做？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.15（二）壬辰日 🔮 🐯 今日虎嚕語錄： 「做了跌倒，至少知道哪裡有坑；站著不動，只會一直猜。」 🌊 壬水遇辰土 有些事容易卡在「到底要不要做」的門口 行動不保證一次成功 但能讓真正的答案出現 ✨ 十神開運指南｜請對照日主 🌳甲木",
+    "他怎麼評價你？他對你的感覺？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "今天的塔羅占卜改明後天開台喔 忙碌兩天做餅全身痠痛 有點累等身體好點再占占唷🙏",
     "[問卦] 中醫 是醫學還是玄學？",
-    "「比奇堡居民」桌布掀開運風潮 命理師：有形就有象",
-    "入秋運勢變化了！命理師曝「3生肖」最旺 屬牛財運、貴人全都有"
+    "秋季運勢亮紅燈！命理師曝3生肖當心「健康出大事」",
+    "「比奇堡居民」桌布掀開運風潮 命理師：有形就有象"
   ],
   "added_titles": [
-    "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.15（二）壬辰日 🔮 🐯 今日虎嚕語錄： 「做了跌倒，至少知道哪裡有坑；站著不動，只會一直猜。」 🌊 壬水遇辰土 有些事容易卡在「到底要不要做」的門口 行動不保證一次成功 但能讓真正的答案出現 ✨ 十神開運指南｜請對照日主 🌳甲木"
+    "他怎麼評價你？他對你的感覺？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "今天的塔羅占卜改明後天開台喔 忙碌兩天做餅全身痠痛 有點累等身體好點再占占唷🙏",
+    "秋季運勢亮紅燈！命理師曝3生肖當心「健康出大事」"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -41,7 +43,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月15日 21:17"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月16日 11:15"
     },
     {
       "script": "generate_daily_content.py",
