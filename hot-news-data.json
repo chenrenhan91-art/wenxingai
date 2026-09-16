@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-09-16",
-  "updated_at_display": "2026年9月16日 11:15",
+  "updated_at_display": "2026年9月16日 21:15",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,8 +168,23 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-16T11:15:28.949674+08:00",
+    "fetched_at": "2026-09-16T21:15:48.098862+08:00",
     "failed_sources": [
+      {
+        "source_id": "ptt_gossiping",
+        "name": "PTT Gossiping",
+        "error": "HTTP Error 500: Internal Server Error"
+      },
+      {
+        "source_id": "ptt_womentalk",
+        "name": "PTT WomenTalk",
+        "error": "HTTP Error 500: Internal Server Error"
+      },
+      {
+        "source_id": "ptt_marvel",
+        "name": "PTT marvel",
+        "error": "HTTP Error 500: Internal Server Error"
+      },
       {
         "source_id": "reddit_search",
         "name": "Reddit Search",
@@ -211,19 +226,19 @@
         "failures": 0
       },
       "ptt_gossiping": {
-        "status": "ok",
-        "picked_items": 1,
-        "failures": 0
+        "status": "failed",
+        "picked_items": 0,
+        "failures": 1
       },
       "ptt_womentalk": {
-        "status": "ok",
+        "status": "failed",
         "picked_items": 0,
-        "failures": 0
+        "failures": 1
       },
       "ptt_marvel": {
-        "status": "ok",
+        "status": "failed",
         "picked_items": 0,
-        "failures": 0
+        "failures": 1
       },
       "youtube_search": {
         "status": "ok",
@@ -232,7 +247,7 @@
       },
       "x_recent_search": {
         "status": "ok",
-        "picked_items": 1,
+        "picked_items": 2,
         "failures": 0
       },
       "reddit_search": {
@@ -248,7 +263,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "items": [
     {
@@ -268,7 +283,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "今天的塔羅占卜改明後天開台喔 忙碌兩天做餅全身痠痛 有點累等身體好點再占占唷🙏",
@@ -286,26 +301,26 @@
         "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-136"
+      "event_cluster": "event-138"
     },
     {
-      "title": "[問卦] 中醫 是醫學還是玄學？",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「玄學」展开讨论，推文热度 54，作者 a111111。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1786796489.A.EEA.html",
-      "source_id": "ptt_gossiping",
-      "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E7%8E%84%E5%AD%B8",
+      "title": "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.09（三）丙戌日 🔮 🐯 今日虎嚕語錄： 「別把同事當底牌，也別把主管當靠山。」 🔥 丙戌日容易把職場情義看得太重。 同事可以合作 主管可以尊重 但真正的底牌，還是自己手上的能力與選擇權。 ✨ 十神開運指南｜請對照日主 🌳甲木｜",
+      "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yQ0tqRnA2WjR6OWRRbkpxNUtyTGZnNFJlRy0teXdaWThvWVY2UlRvQnhxUk81a1MtODJNMmpoOUhMUjU1RkN2MEoxNFpCenAybG50djJZNjBFSGR5cU43N0l2TQ?oc=5",
+      "source_id": "x_recent_search",
+      "source": "X · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "社区热议",
-      "published": "2026-08-15",
-      "published_display": "2026-08-15",
+      "category": "命理新闻",
+      "published": "2026-09-09",
+      "published_display": "2026-09-09",
       "matched_keywords": [
-        "玄學",
-        "热议",
-        "讨论"
+        "命理",
+        "開運",
+        "十神"
       ],
-      "score": 28.95,
-      "event_cluster": "event-01"
+      "score": 9.95,
+      "event_cluster": "event-176"
     },
     {
       "title": "秋季運勢亮紅燈！命理師曝3生肖當心「健康出大事」",
@@ -324,7 +339,45 @@
         "運勢"
       ],
       "score": 14.750000000000002,
+      "event_cluster": "event-01"
+    },
+    {
+      "title": "中秋賞月恐影響運勢？命理師點名「4大生肖」遇極陰日 宜躲月防煞 | 生活 | CTWANT",
+      "summary": "来自 CTWANT · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Ld3FvZWx0NUROay1VXzY1MF9fZ1JuY1JKaXB4Z08yQ0FSeDRiemZBMlN6eF95cUwzcU11NzZIT3I5QVZiN0Z1WXBnTjhXNjTSAVRBVV95cUxQai1rR3c5ZE1NbkdHZkp2ZmZzTFJ2eExIWDFxYzNseGczOWhlbm56cTdsQXZlZk5MbHNsa3ltWGF4QWM1QzdlQm9hUkczOGx1MnNPaWI?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "CTWANT · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-09-16",
+      "published_display": "2026-09-16",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
       "event_cluster": "event-02"
+    },
+    {
+      "title": "入秋運勢拉警報！命理師示警「3生肖」健康有狀況 屬狗慎防車關",
+      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBJTi1mX1dUWlRPN25ncXZCUU9VOXJpTGlDUkpJc1Y5MEhkSjU2RXAzdXdjUHV0OHQxTTFvT0U0dThnNEgtbWxTTG5jLXTSAVJBVV95cUxPWmFuREVhb0kweWNSa3lYd0VZRk5VbkRodG1iMVc2alFwc1NYcHM5YkI3bElyRkJoQy1LeDBZTE9PaUZGQVQzcXVDaXpRQ3JxSmJ3?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "NOWnews今日新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-09-16",
+      "published_display": "2026-09-16",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
     },
     {
       "title": "「比奇堡居民」桌布掀開運風潮 命理師：有形就有象",
@@ -343,7 +396,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "入秋運勢變化了！命理師曝「3生肖」最旺 屬牛財運、貴人全都有",
@@ -362,45 +415,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "換手機桌布運氣超順！比奇堡居民系列爆紅 命理師認：行動開運符",
-      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDR293dHlGVXFGVGxDc0NpWEg5RE5lTXJJRE9FQ2ZuajUwaW5UOHBJY3NmTHpESTE2OE1xd1J3M3FwZDdoNmd3aTdaQUFTRkE3WGfSAVJBVV95cUxQQ0dvd3R5RlVxRlRsQ3NDaVhIOUROZU1ySURPRUNmbmo1MGluVDhwSWNzZkx6REkxNjhNcXdSdzNxcGQ3aDZnd2k3WkFBU0ZBN1hn?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "NOWnews今日新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-09-13",
-      "published_display": "2026-09-13",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
       "event_cluster": "event-06"
-    },
-    {
-      "title": "鬼月結束運勢旺到擋不住！命理師曝農曆8月3生肖超強運，「第1名」正財、意外財全到手",
-      "summary": "来自 女人我最大 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9PZHVoeEp1QWhpUEpJSnlpLVZpd3gtb1RZSl9WTVJhZTVkcDR2NV9MUVd1S0tfQVFLWTQ5LVdzYkpUOUpuMTliWm16RVlQcFBDb3ItQWtwYzg?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "女人我最大 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-09-11",
-      "published_display": "2026-09-11",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-07"
     }
   ]
 }
