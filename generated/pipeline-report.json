@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-17T21:16:19.328429+08:00",
-  "ran_at_display": "2026年9月17日 21:16",
+  "ran_at": "2026-09-18T11:14:51.749698+08:00",
+  "ran_at_display": "2026年9月18日 11:14",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "fab40e206cf4258ae37a3ba118ac584a31ecd479",
-  "new_signature": "60418762dae0a4d185e4b81b2a29c192a139b674",
+  "previous_signature": "60418762dae0a4d185e4b81b2a29c192a139b674",
+  "new_signature": "f232fcbdfa91b29f933e78933dc378a0b10b51da",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,16 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "他怎麼評價你？他對你的感覺？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "【客觀評價】他對你有幾分真心？對關係有幾分認真？他最最真實的想法|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.17（四）甲午日 🔮 🐯 今日虎嚕語錄： 「人可以被毀滅，但不能被打敗。」 🌳 甲木遇午火 今天的行動力像油門被踩下去 想做的事很多 不服輸的心也很強 但衝得再快 也別忘了看一下自己的血條還剩多少🙂 ✨ 十神開運指南｜請對照日主",
     "[問卦] 中醫 是醫學還是玄學？",
-    "錯過再等一年！命理師揭「中秋5大開運法」 隨身帶「1物」吸貴人",
-    "中秋別只吃烤肉！命理師揭5大開運法 拜「3供品」祈財祿"
+    "討論牆 | 中秋賞月恐影響運勢？命理師點名「4大生肖」遇極陰日 宜躲月防煞",
+    "錯過再等一年！命理師揭「中秋5大開運法」 隨身帶「1物」吸貴人"
   ],
   "added_titles": [
-    "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.17（四）甲午日 🔮 🐯 今日虎嚕語錄： 「人可以被毀滅，但不能被打敗。」 🌳 甲木遇午火 今天的行動力像油門被踩下去 想做的事很多 不服輸的心也很強 但衝得再快 也別忘了看一下自己的血條還剩多少🙂 ✨ 十神開運指南｜請對照日主",
-    "錯過再等一年！命理師揭「中秋5大開運法」 隨身帶「1物」吸貴人",
-    "中秋別只吃烤肉！命理師揭5大開運法 拜「3供品」祈財祿"
+    "【客觀評價】他對你有幾分真心？對關係有幾分認真？他最最真實的想法|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "討論牆 | 中秋賞月恐影響運勢？命理師點名「4大生肖」遇極陰日 宜躲月防煞"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -43,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月17日 21:16"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月18日 11:15"
     },
     {
       "script": "generate_daily_content.py",
