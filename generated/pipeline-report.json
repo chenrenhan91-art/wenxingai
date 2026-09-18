@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-18T11:14:51.749698+08:00",
-  "ran_at_display": "2026年9月18日 11:14",
+  "ran_at": "2026-09-18T21:14:42.770068+08:00",
+  "ran_at_display": "2026年9月18日 21:14",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "60418762dae0a4d185e4b81b2a29c192a139b674",
-  "new_signature": "f232fcbdfa91b29f933e78933dc378a0b10b51da",
+  "previous_signature": "f232fcbdfa91b29f933e78933dc378a0b10b51da",
+  "new_signature": "5ea46c010b7fbf0c2d450a90e143529d0ad8256a",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,16 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "【客觀評價】他對你有幾分真心？對關係有幾分認真？他最最真實的想法|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "你們會在一起嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.17（四）甲午日 🔮 🐯 今日虎嚕語錄： 「人可以被毀滅，但不能被打敗。」 🌳 甲木遇午火 今天的行動力像油門被踩下去 想做的事很多 不服輸的心也很強 但衝得再快 也別忘了看一下自己的血條還剩多少🙂 ✨ 十神開運指南｜請對照日主",
     "[問卦] 中醫 是醫學還是玄學？",
-    "討論牆 | 中秋賞月恐影響運勢？命理師點名「4大生肖」遇極陰日 宜躲月防煞",
-    "錯過再等一年！命理師揭「中秋5大開運法」 隨身帶「1物」吸貴人"
+    "秋分到好運來！命理師揭「做3事」助開運 生肖龍事業遇貴人",
+    "秋分4生肖注意！命理師曝「白開水開運法」 4禁忌千萬別犯"
   ],
   "added_titles": [
-    "【客觀評價】他對你有幾分真心？對關係有幾分認真？他最最真實的想法|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "討論牆 | 中秋賞月恐影響運勢？命理師點名「4大生肖」遇極陰日 宜躲月防煞"
+    "你們會在一起嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "秋分到好運來！命理師揭「做3事」助開運 生肖龍事業遇貴人",
+    "秋分4生肖注意！命理師曝「白開水開運法」 4禁忌千萬別犯"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -42,7 +43,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月18日 11:15"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月18日 21:14"
     },
     {
       "script": "generate_daily_content.py",
