@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-09-19",
-  "updated_at_display": "2026年9月19日 11:14",
+  "updated_at_display": "2026年9月19日 21:14",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-19T11:14:43.644687+08:00",
+    "fetched_at": "2026-09-19T21:14:27.180717+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "如果你主動，他的想法如何？你和他未來發展會怎樣？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "【會員版】10月運勢｜處女座Virgo ｜小心處理舊記憶｜2026 Horoscope for October｜塔羅&占星 🔮西洋命理師Renee",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBweVhHVmctSEwxRmZKdVNnbHR0WFlvakpOa0k2S1lQNmh4VEEyZEdHbXFfZndlNl9oSTNwXzcya0ZWMlhiZjQ1NExIRi04cDJaWEpiSTdR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CZ01kSVg4NDdtYmw0c0JKLTY4TThmd01sN1dzRmh0VHkyNnBQZkFtU01ueEJydEpJUW1XVWRnY2xzaTZES3RhY3ZfYzNSd2VHd3NZaTR3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-09-17",
-      "published_display": "2026-09-17",
+      "published": "2026-09-19",
+      "published_display": "2026-09-19",
       "matched_keywords": [
-        "塔羅",
-        "占卜",
-        "桃花"
+        "命理",
+        "命理師",
+        "運勢"
       ],
-      "score": 14.55,
-      "event_cluster": "event-10"
+      "score": 12.35,
+      "event_cluster": "event-25"
     },
     {
       "title": "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.09.17（四）甲午日 🔮 🐯 今日虎嚕語錄： 「人可以被毀滅，但不能被打敗。」 🌳 甲木遇午火 今天的行動力像油門被踩下去 想做的事很多 不服輸的心也很強 但衝得再快 也別忘了看一下自己的血條還剩多少🙂 ✨ 十神開運指南｜請對照日主",
@@ -287,7 +287,7 @@
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-114"
+      "event_cluster": "event-127"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -309,6 +309,25 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "中秋招財、求姻緣錯過等一年！命理師揭「未婚男女晚睡」開運法- 娛樂",
+      "summary": "来自 中時新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54a1E0cHZxVy0wcmxzX2kwUnRvbGNnaEJaZFlJdVN3cWh2d204c1BseFFQaWdDR2JHbFkyVk9PSWVxWUJLcTRYb3ZuNTZOUmVaRkVUbEx0eWRpWkFUQW5pUnJtUlpKNHU3WTdsT0pn?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "中時新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-09-19",
+      "published_display": "2026-09-19",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
       "title": "秋分到好運來！命理師揭「做3事」助開運 生肖龍事業遇貴人",
       "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxOR1dheVB4cTB4X0dkTW1zbGE5OTV1ZlpEMlM2M3loYWJoaUNVMllxUVlBenQ3bnIweFZkc0VCZ2JaS19PcXBublJINmJhUXlHeUVDeFNEN1ZEY2d0dWxoVmJzdlA0LTlReTQxWGtwSEVvY2pDSkhUX252elpNSk0yS2lIM1JDZDRJeHVtVkc1WGZZLV9Nbl9xNEExX0FIMGxaV1N2LUp0aVdCYmZRNzIzY1FiMDN3a2dWVUR5QTZvUW1FdkpsWDFSVVg5NjAtRk1KRUFENGxsSjZFNkN0WGh0Q3F3VmtNaVFDWEtZNDdyd1NycEFmNDRsMl9LZmFKeXFJbUx6V05xVHVYYldhYTJ6cGw5ODEtWkRKaldYdHdOUW40YXF5MEl2MVRpMFphNG9lZVdBREt3RUNJQkFESFJBVFk2MUJ5S3A1aEIyVzRPdHZWZGR6U2tzdnJzdDUyMGxFdUg4bkZTdWJPU0ltMHc?oc=5",
@@ -325,7 +344,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "秋分4生肖注意！命理師曝「白開水開運法」 4禁忌千萬別犯",
@@ -342,25 +361,6 @@
         "命理",
         "命理師",
         "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "討論牆 | 中秋賞月恐影響運勢？命理師點名「4大生肖」遇極陰日 宜躲月防煞",
-      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9aR181VHhBb3dla2dkeW50UGUxWVF2LXVVYnZzOEhGejRwSUxhdXlNUnppTURoNFVpU2tJMlRMYWhTRUpHYjVLeG9OWThZVVptdjRtMUZxajhsb1dRZG9zT2lERUk?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "LINE TODAY · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-09-18",
-      "published_display": "2026-09-18",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-04"
