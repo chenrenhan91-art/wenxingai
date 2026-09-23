@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-23T11:16:12.474032+08:00",
-  "ran_at_display": "2026年9月23日 11:16",
+  "ran_at": "2026-09-23T21:15:57.305356+08:00",
+  "ran_at_display": "2026年9月23日 21:15",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "595e4f38130f7852d8f58249f3b7f86a03db7648",
-  "new_signature": "02e5b5907c7bcb66828b82e9def123f1fe1d05e8",
+  "previous_signature": "02e5b5907c7bcb66828b82e9def123f1fe1d05e8",
+  "new_signature": "b96ca5d50790413ee8f7654a88de19852c0a3195",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,11 +27,7 @@
     "10/1天赦日！命理師曝「168煮錢水」招財 6步驟開運",
     "秋分發大財就靠許願？必學「開運4祕訣」！命理師揭「這生肖」貴人運最旺"
   ],
-  "added_titles": [
-    "他從你眼裡讀懂什麼？你的情緒，他接收到了多少？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "2026年9月21日至27日這一週，十二星座將迎來哪些轉折與課題？以下透過每個星座所對應的一張塔羅牌，解讀本週值得留意的情緒、關係與人生方向。 https://t.co/92Kk6gFjL5",
-    "秋分發大財就靠許願？必學「開運4祕訣」！命理師揭「這生肖」貴人運最旺"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
@@ -43,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月23日 11:16"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月23日 21:16"
     },
     {
       "script": "generate_daily_content.py",
