@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-24T11:15:28.311489+08:00",
-  "ran_at_display": "2026年9月24日 11:15",
+  "ran_at": "2026-09-24T21:15:42.004060+08:00",
+  "ran_at_display": "2026年9月24日 21:15",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "b96ca5d50790413ee8f7654a88de19852c0a3195",
-  "new_signature": "d50dd0faf31d23b4d1a1da860813ccb55158fd72",
+  "previous_signature": "d50dd0faf31d23b4d1a1da860813ccb55158fd72",
+  "new_signature": "ee0d1a8e257304673a9c02bb4dbf531558d2d33f",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,17 +21,18 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "他從你眼裡讀懂什麼？你的情緒，他接收到了多少？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "「可期待戀情」正在發生❗️甜蜜戀情｜♥️ 有字幕🟣無時間限制占卜#塔羅#占卜#愛 #戀愛 #貴人 #事業 #工作 #婚姻 #喜歡 #戀情 #情感 #感情 #愛情 #金錢 #桃花 #財富",
     "2026年9月21日至27日這一週，十二星座將迎來哪些轉折與課題？以下透過每個星座所對應的一張塔羅牌，解讀本週值得留意的情緒、關係與人生方向。 https://t.co/92Kk6gFjL5",
     "[問卦] 中醫 是醫學還是玄學？",
-    "獨家／中秋節12生肖運勢一次看！風水輪流轉 命理師指6生肖將發大財",
+    "今年中秋節火超旺！命理師曝「3招」開運 2027年八方來財",
     "10/1天赦日！命理師曝「168煮錢水」招財 6步驟開運"
   ],
   "added_titles": [
-    "獨家／中秋節12生肖運勢一次看！風水輪流轉 命理師指6生肖將發大財"
+    "「可期待戀情」正在發生❗️甜蜜戀情｜♥️ 有字幕🟣無時間限制占卜#塔羅#占卜#愛 #戀愛 #貴人 #事業 #工作 #婚姻 #喜歡 #戀情 #情感 #感情 #愛情 #金錢 #桃花 #財富",
+    "今年中秋節火超旺！命理師曝「3招」開運 2027年八方來財"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -41,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月24日 11:15"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月24日 21:15"
     },
     {
       "script": "generate_daily_content.py",
