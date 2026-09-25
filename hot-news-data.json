@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-09-25",
-  "updated_at_display": "2026年9月25日 11:14",
+  "updated_at_display": "2026年9月25日 21:15",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-25T11:14:48.994023+08:00",
+    "fetched_at": "2026-09-25T21:15:52.877217+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "2026年9月21日至27日這一週，十二星座將迎來哪些轉折與課題？以下透過每個星座所對應的一張塔羅牌，解讀本週值得留意的情緒、關係與人生方向。 https://t.co/92Kk6gFjL5",
@@ -286,7 +286,7 @@
         "星座"
       ],
       "score": 9.95,
-      "event_cluster": "event-145"
+      "event_cluster": "event-159"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -308,11 +308,11 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "中秋10禁忌曝！命理師警告「4生肖恐沖煞」 教戰三大開運法旺爆| 生活",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5uRlZuZ2NFS1RhTHc1QkY0dUkwdjN4a0xyMUh1LWcyWHpyQS1hemJ4dFM0ZTI4aVRhTlc3XzlaTWQyODNVUXZYcg?oc=5",
+      "title": "中秋10禁忌曝！命理師警告「4生肖恐沖煞」 教戰三大開運法旺爆",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5uRlZuZ2NFS1RhTHc1QkY0dUkwdjN4a0xyMUh1LWcyWHpyQS1hemJ4dFM0ZTI4aVRhTlc3XzlaTWQyODNVUXZYctIBTEFVX3lxTE1vTnhqU25QelhtVzlmaGFiWTBQdTgtSlFJTm5FWUxYSkgxd1F2b0ZnN3hLakpNMjdvbUlXaFh4Z2l4YlhxVlRQcTZnOVM?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
+      "source": "三立新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -346,6 +346,25 @@
       "event_cluster": "event-03"
     },
     {
+      "title": "獨家／中秋節12生肖運勢一次看！風水輪流轉 命理師指6生肖將發大財",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9hSmRjeWVOY05TTjJIMkFNa05WM2hVQW5RejRsRFY3X0FvVVFLRkdNbUMwRlItRWRVaEkwaXpOWEY0MDZZdHJ2X9IBTEFVX3lxTE03MjNmZkRGUmdXRWJJVWJXRDRZaERKa2hBNEV2ekJzNk9zb1piU1lDLTZoZHFtNl8tVTZNaERaUWNKUnBhWWhDMkFNSmg?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "风水玄学",
+      "published": "2026-09-24",
+      "published_display": "2026-09-24",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
+    },
+    {
       "title": "10/1天赦日！命理師曝「168煮錢水」招財 6步驟開運",
       "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOaHZsVUdaSHZsaHNVMFBwRDl4THBGZUJfazJ1d2g2Qnk3VUY2ZldiWmcwaDFjQUN1UzVvX1lZTGl3dlhyN2VDVVF5Si1kUi13Wnh6WjI1TFA3TVRiaW0zYzBhdjNVWi11bDBRc1o0X0xNTS1vUjFIMjVDcWpPWGowcnVPT19qNXVZQVVOMEszX01ybExIWWV2TjdSMzlIUldIX2VqRTdzT3libFNJV2JLeUp2Q0lyaHJXN1ZnbVBFU0J4WjVPZTRId2FfN1NScDVQdWxZTkVrLV9qYm03YjU4VlItX2p3Q1lSeDVjeDRtRnQ?oc=5",
@@ -362,7 +381,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-07"
     },
     {
       "title": "秋分發大財就靠許願？必學「開運4祕訣」！命理師揭「這生肖」貴人運最旺",
@@ -381,26 +400,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
-    },
-    {
-      "title": "討論牆 | 秋分週三登場！命理師曝「開運3招」 3生肖有機會遇桃花、貴人",
-      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ZRUZBY1VidmQ1ZTRUYTNMX1U0RnZ1MXVJUDRXOVg2LVRUSjBwSUlNUXdRT1ZTN3ZsQXF5c3BMbTQ0ZGwwSDhPVTlHQndyWjhjQWY5a3Z1TE83UkVMWFBUUmZ4Snk?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "LINE TODAY · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-09-22",
-      "published_display": "2026-09-22",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-08"
     }
   ]
 }
