@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-25T21:15:44.755294+08:00",
-  "ran_at_display": "2026年9月25日 21:15",
+  "ran_at": "2026-09-26T11:14:38.522946+08:00",
+  "ran_at_display": "2026年9月26日 11:14",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "7a3d4220dbda378b3e7bace2be37304b2997fc52",
-  "new_signature": "63a16da8fea13f779e0e64735465617fe993d7b2",
+  "previous_signature": "63a16da8fea13f779e0e64735465617fe993d7b2",
+  "new_signature": "f211c05983391be81e7078223fdc18a40b91cf80",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,14 +21,14 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "是你的單戀嗎？他也喜歡你嗎？對你心動嗎？想過跟你進一步嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+    "ta對你的所有隱瞞！秘密、想法、行為、計劃都是什麼！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "2026年9月21日至27日這一週，十二星座將迎來哪些轉折與課題？以下透過每個星座所對應的一張塔羅牌，解讀本週值得留意的情緒、關係與人生方向。 https://t.co/92Kk6gFjL5",
     "[問卦] 中醫 是醫學還是玄學？",
     "中秋10禁忌曝！命理師警告「4生肖恐沖煞」 教戰三大開運法旺爆",
     "今年中秋節火超旺！命理師曝「3招」開運 2027年八方來財"
   ],
   "added_titles": [
-    "中秋10禁忌曝！命理師警告「4生肖恐沖煞」 教戰三大開運法旺爆"
+    "ta對你的所有隱瞞！秘密、想法、行為、計劃都是什麼！|曖昧|愛情|戀愛|桃花|塔羅占卜|"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
@@ -41,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月25日 21:15"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月26日 11:14"
     },
     {
       "script": "generate_daily_content.py",

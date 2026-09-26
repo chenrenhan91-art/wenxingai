@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-25",
-  "updated_at_display": "2026年9月25日 21:15",
+  "updated_at": "2026-09-26",
+  "updated_at_display": "2026年9月26日 11:14",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-25T21:15:52.877217+08:00",
+    "fetched_at": "2026-09-26T11:14:47.089684+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,16 +252,16 @@
   ],
   "items": [
     {
-      "title": "是你的單戀嗎？他也喜歡你嗎？對你心動嗎？想過跟你進一步嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+      "title": "ta對你的所有隱瞞！秘密、想法、行為、計劃都是什麼！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tM3dkM29vUF9hQnJlV0J6S05WRnp1dWNCVzlrQWFHU1BERU5PRUtPYVBYcGw5azNjWF91cjdtbzVoN044bllYRVMzeDZraFhaNGFianJn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9qaGNSNlVmLVRkS2VvYTFtam1EOXExWDNjb1NDRlRFVFlQMDBBcWZLeHVqYTBqYWl4MXZwbUxmcVVSc0tpNkIwLUcyV1g5YVFUU2p2STR3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-09-24",
-      "published_display": "2026-09-24",
+      "published": "2026-09-25",
+      "published_display": "2026-09-25",
       "matched_keywords": [
         "塔羅",
         "占卜",
@@ -286,7 +286,7 @@
         "星座"
       ],
       "score": 9.95,
-      "event_cluster": "event-159"
+      "event_cluster": "event-155"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -309,10 +309,10 @@
     },
     {
       "title": "中秋10禁忌曝！命理師警告「4生肖恐沖煞」 教戰三大開運法旺爆",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5uRlZuZ2NFS1RhTHc1QkY0dUkwdjN4a0xyMUh1LWcyWHpyQS1hemJ4dFM0ZTI4aVRhTlc3XzlaTWQyODNVUXZYctIBTEFVX3lxTE1vTnhqU25QelhtVzlmaGFiWTBQdTgtSlFJTm5FWUxYSkgxd1F2b0ZnN3hLakpNMjdvbUlXaFh4Z2l4YlhxVlRQcTZnOVM?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
+      "source": "三立新聞網SETN.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -328,10 +328,10 @@
     },
     {
       "title": "今年中秋節火超旺！命理師曝「3招」開運 2027年八方來財",
-      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 news.tvbs.com.tw · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4tX3RDdmNiLUYyTTFqVVZCcXotcndrX1pJQmY0WE1EZzRlSFgzcG1SOXI5VzU4blBSYjkzOWo3bjRDZ3FUYTBNR0ozT3N1dw?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "TVBS新聞網 · Google News",
+      "source": "news.tvbs.com.tw · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -347,10 +347,10 @@
     },
     {
       "title": "獨家／中秋節12生肖運勢一次看！風水輪流轉 命理師指6生肖將發大財",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9hSmRjeWVOY05TTjJIMkFNa05WM2hVQW5RejRsRFY3X0FvVVFLRkdNbUMwRlItRWRVaEkwaXpOWEY0MDZZdHJ2X9IBTEFVX3lxTE03MjNmZkRGUmdXRWJJVWJXRDRZaERKa2hBNEV2ekJzNk9zb1piU1lDLTZoZHFtNl8tVTZNaERaUWNKUnBhWWhDMkFNSmg?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
+      "source": "三立新聞網SETN.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "风水玄学",
@@ -381,7 +381,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-08"
     },
     {
       "title": "秋分發大財就靠許願？必學「開運4祕訣」！命理師揭「這生肖」貴人運最旺",
@@ -400,7 +400,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-08"
+      "event_cluster": "event-09"
     }
   ]
 }
