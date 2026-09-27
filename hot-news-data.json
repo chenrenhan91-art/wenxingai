@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-26",
-  "updated_at_display": "2026年9月26日 21:13",
+  "updated_at": "2026-09-27",
+  "updated_at_display": "2026年9月27日 11:16",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-26T21:13:31.053879+08:00",
+    "fetched_at": "2026-09-27T11:16:42.059673+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,16 +252,16 @@
   ],
   "items": [
     {
-      "title": "ta對你的所有隱瞞！秘密、想法、行為、計劃都是什麼！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "「可期待戀情」正在發生❗️甜蜜戀情｜♥️ 有字幕🟣無時間限制占卜#塔羅#占卜#愛 #戀愛 #貴人 #事業 #工作 #婚姻 #喜歡 #戀情 #情感 #感情 #愛情 #金錢 #桃花 #財富",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9qaGNSNlVmLVRkS2VvYTFtam1EOXExWDNjb1NDRlRFVFlQMDBBcWZLeHVqYTBqYWl4MXZwbUxmcVVSc0tpNkIwLUcyV1g5YVFUU2p2STR3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jdktJMEU3dDZrU2FWZEVHQ1ViMlFZRmRPT3ZZTlBheFFDd015V05ZVUMya0dhdGZFYmpsRDJPT1ZwS2JMcUd5MXcwdl9vNXlJLUM4Mi1R?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-09-25",
-      "published_display": "2026-09-25",
+      "published": "2026-09-24",
+      "published_display": "2026-09-24",
       "matched_keywords": [
         "塔羅",
         "占卜",
@@ -286,7 +286,7 @@
         "斗數"
       ],
       "score": 9.95,
-      "event_cluster": "event-120"
+      "event_cluster": "event-122"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -327,9 +327,28 @@
       "event_cluster": "event-02"
     },
     {
-      "title": "中秋10禁忌曝！命理師警告「4生肖恐沖煞」 教戰三大開運法旺爆",
+      "title": "討論牆 | 戒指戴錯影響運勢？命理師揭「5手指寓意」 招財、旺桃花這樣戴",
+      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04UmtMMVdfZGtrblVDd3pSOTU1cGRrQl9hWFh0TEo3TFNDWlptc1JmSzhvNFhTVjhZdERNRjRBNnZ2NHZ1ZDAxbk9GeVpwV1R5ZEl2bTluX3k5clRoQjZ4ejEzUHI?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "LINE TODAY · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-09-26",
+      "published_display": "2026-09-26",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
+      "title": "中秋10禁忌曝！命理師警告「4生肖恐沖煞」 教戰三大開運法旺爆| 生活",
       "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5uRlZuZ2NFS1RhTHc1QkY0dUkwdjN4a0xyMUh1LWcyWHpyQS1hemJ4dFM0ZTI4aVRhTlc3XzlaTWQyODNVUXZYctIBTEFVX3lxTE1vTnhqU25QelhtVzlmaGFiWTBQdTgtSlFJTm5FWUxYSkgxd1F2b0ZnN3hLakpNMjdvbUlXaFh4Z2l4YlhxVlRQcTZnOVM?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5uRlZuZ2NFS1RhTHc1QkY0dUkwdjN4a0xyMUh1LWcyWHpyQS1hemJ4dFM0ZTI4aVRhTlc3XzlaTWQyODNVUXZYcg?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "三立新聞網SETN.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -382,25 +401,6 @@
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-05"
-    },
-    {
-      "title": "秋分發大財就靠許願？必學「開運4祕訣」！命理師揭「這生肖」貴人運最旺",
-      "summary": "来自 康健雜誌 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1GeHBDMzY0R09uV0Vnd20yTFhzNXB1aFZkSkNlWmpsZWFJRmVJRHVOT2JjbFpwaWhNVGdvb2Y4OFdWbFRFZXpnMW1Fak9qS2J6UkxnWjgxMlU?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "康健雜誌 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-09-22",
-      "published_display": "2026-09-22",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-09"
     }
   ]
 }
