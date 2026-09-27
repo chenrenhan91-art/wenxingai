@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-09-27",
-  "updated_at_display": "2026年9月27日 11:16",
+  "updated_at_display": "2026年9月27日 21:14",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-27T11:16:42.059673+08:00",
+    "fetched_at": "2026-09-27T21:14:01.890604+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,28 +252,28 @@
   ],
   "items": [
     {
-      "title": "「可期待戀情」正在發生❗️甜蜜戀情｜♥️ 有字幕🟣無時間限制占卜#塔羅#占卜#愛 #戀愛 #貴人 #事業 #工作 #婚姻 #喜歡 #戀情 #情感 #感情 #愛情 #金錢 #桃花 #財富",
+      "title": "ゼロから学ぶ紫微斗数｜命盤の基礎から、仕事・財運・人間関係・流年まで読み解く実践講座",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jdktJMEU3dDZrU2FWZEVHQ1ViMlFZRmRPT3ZZTlBheFFDd015V05ZVUMya0dhdGZFYmpsRDJPT1ZwS2JMcUd5MXcwdl9vNXlJLUM4Mi1R?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9yVnduWWxLbEJNdHU3VDRsWFVRcXlYTE95bFRYMm1JLUtxMWhHZkVid3JxU0g1cjV1YWFFVm92TVZ3bnJKWUZNZVVVS0VMeGFoVFBmYmJ3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "塔罗星象",
-      "published": "2026-09-24",
-      "published_display": "2026-09-24",
+      "category": "八字紫微",
+      "published": "2026-09-21",
+      "published_display": "2026-09-21",
       "matched_keywords": [
-        "塔羅",
-        "占卜",
-        "桃花"
+        "流年",
+        "紫微",
+        "斗数"
       ],
       "score": 14.55,
-      "event_cluster": "event-06"
+      "event_cluster": "event-13"
     },
     {
       "title": "#歲次乙未2015年回顧詩展_羊仙詩卷_站著寫詩_AIG+26卷 最新創作對手出現在眼前高108公分這張木桌勁敵 時間不限而空間只會不斷無限延伸展示人存在當下可能性 此刻108顆紫微斗數星盤想區域跨界到哪邊呢 詩者寫上作品題名後開始走來晃去七步百步腳印佈滿",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnbGthVGdzY255UmFKbklFaVBrMnlIbEJURkIyXzR3UlJTVUtFR0g2UDR6dnEtLVlnb3k0cVhQdTd6OTg4UGd0cjVjem02Yy1MMjd0X0JOY0R6ODhIVW9CeUdRVmpsNjd6aWtHSw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1zdHZGNW9xZzBabkFkd0ViYnE3bi1EeUdIQUdmeWpCbVlUYkpQSG1POTUwOTZsRWF6ODA1SFVTaVZCLVlzZXlaUE9PNnFZc1FBNFgtRGgyZ2tLMUszNFZPZk53?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E7%B4%AB%E5%BE%AE%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -286,7 +286,7 @@
         "斗數"
       ],
       "score": 9.95,
-      "event_cluster": "event-122"
+      "event_cluster": "event-119"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -308,6 +308,44 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "中秋節後運勢翻轉！命理師點名「4生肖」擺脫包袱、迎接新轉機| 星座",
+      "summary": "来自 太報 TaiSounds · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfMU0ta2xhMGNwRUIzWnhhbnktbERMY3cxUENSUDVGNkVQNlB2Y2ZKNWZQTk9KRXV5TFpJOXB5ckZvTUdHbGVqcWJJOFk2bDlwbk85Wkx4bTdBWl9YZmc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "太報 TaiSounds · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-09-27",
+      "published_display": "2026-09-27",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
+      "title": "中秋節後運勢翻轉！命理師點名「4生肖」迎好運 屬馬行動力大增",
+      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9aQ1RRaE1CcXk0cXZYd0FOcnJtX3FxZGlmbEN6QUI3SVJOMUxUcGc4NlBCYUE0RWdHaHpEUlNvWGhibXZQVk55VC1tYTjSAVJBVV95cUxObTBaLW9oRTV3WTJEdGF3NlBRaVNSZzlWOXhpX0NDSFUzb3Jzbm0zRDhTS2doNlJ6NkRWRnRienBndnVJaW5EUmxUNFdYSlpFZURR?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "NOWnews今日新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-09-27",
+      "published_display": "2026-09-27",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
       "title": "戒指戴錯影響運勢？命理師揭「5手指寓意」 招財、旺桃花這樣戴",
       "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1NmZYUkNKWjdVRVMtY21qZ3lGc1lJOTV3VHZNZkN5cFl2Y01BU1JjQm1DR0FZcEZSRjRqNXdyWGhINGhzVG9SUENrcGpOQQ?oc=5",
@@ -324,7 +362,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-04"
     },
     {
       "title": "討論牆 | 戒指戴錯影響運勢？命理師揭「5手指寓意」 招財、旺桃花這樣戴",
@@ -343,12 +381,12 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-04"
     },
     {
-      "title": "中秋10禁忌曝！命理師警告「4生肖恐沖煞」 教戰三大開運法旺爆| 生活",
+      "title": "中秋10禁忌曝！命理師警告「4生肖恐沖煞」 教戰三大開運法旺爆",
       "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5uRlZuZ2NFS1RhTHc1QkY0dUkwdjN4a0xyMUh1LWcyWHpyQS1hemJ4dFM0ZTI4aVRhTlc3XzlaTWQyODNVUXZYcg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5uRlZuZ2NFS1RhTHc1QkY0dUkwdjN4a0xyMUh1LWcyWHpyQS1hemJ4dFM0ZTI4aVRhTlc3XzlaTWQyODNVUXZYctIBTEFVX3lxTE1vTnhqU25QelhtVzlmaGFiWTBQdTgtSlFJTm5FWUxYSkgxd1F2b0ZnN3hLakpNMjdvbUlXaFh4Z2l4YlhxVlRQcTZnOVM?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "三立新聞網SETN.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -360,44 +398,6 @@
         "命理",
         "命理師",
         "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "今年中秋節火超旺！命理師曝「3招」開運 2027年八方來財",
-      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4tX3RDdmNiLUYyTTFqVVZCcXotcndrX1pJQmY0WE1EZzRlSFgzcG1SOXI5VzU4blBSYjkzOWo3bjRDZ3FUYTBNR0ozT3N1dw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "TVBS新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-09-24",
-      "published_display": "2026-09-24",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "獨家／中秋節12生肖運勢一次看！風水輪流轉 命理師指6生肖將發大財",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9hSmRjeWVOY05TTjJIMkFNa05WM2hVQW5RejRsRFY3X0FvVVFLRkdNbUMwRlItRWRVaEkwaXpOWEY0MDZZdHJ2X9IBTEFVX3lxTE03MjNmZkRGUmdXRWJJVWJXRDRZaERKa2hBNEV2ekJzNk9zb1piU1lDLTZoZHFtNl8tVTZNaERaUWNKUnBhWWhDMkFNSmg?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "风水玄学",
-      "published": "2026-09-24",
-      "published_display": "2026-09-24",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-05"

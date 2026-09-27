@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-27T11:16:33.470093+08:00",
-  "ran_at_display": "2026年9月27日 11:16",
+  "ran_at": "2026-09-27T21:13:51.765439+08:00",
+  "ran_at_display": "2026年9月27日 21:13",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "3d180d31ca381aeb7b7ca548797440df6b1a8449",
-  "new_signature": "9a1ee505105c1030f86122f4d3dce1a1756f5b4c",
+  "previous_signature": "9a1ee505105c1030f86122f4d3dce1a1756f5b4c",
+  "new_signature": "67be073f38124f64264fe5087540758579af68dd",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,16 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "「可期待戀情」正在發生❗️甜蜜戀情｜♥️ 有字幕🟣無時間限制占卜#塔羅#占卜#愛 #戀愛 #貴人 #事業 #工作 #婚姻 #喜歡 #戀情 #情感 #感情 #愛情 #金錢 #桃花 #財富",
+    "ゼロから学ぶ紫微斗数｜命盤の基礎から、仕事・財運・人間関係・流年まで読み解く実践講座",
     "#歲次乙未2015年回顧詩展_羊仙詩卷_站著寫詩_AIG+26卷 最新創作對手出現在眼前高108公分這張木桌勁敵 時間不限而空間只會不斷無限延伸展示人存在當下可能性 此刻108顆紫微斗數星盤想區域跨界到哪邊呢 詩者寫上作品題名後開始走來晃去七步百步腳印佈滿",
     "[問卦] 中醫 是醫學還是玄學？",
-    "戒指戴錯影響運勢？命理師揭「5手指寓意」 招財、旺桃花這樣戴",
-    "討論牆 | 戒指戴錯影響運勢？命理師揭「5手指寓意」 招財、旺桃花這樣戴"
+    "中秋節後運勢翻轉！命理師點名「4生肖」擺脫包袱、迎接新轉機| 星座",
+    "中秋節後運勢翻轉！命理師點名「4生肖」迎好運 屬馬行動力大增"
   ],
   "added_titles": [
-    "「可期待戀情」正在發生❗️甜蜜戀情｜♥️ 有字幕🟣無時間限制占卜#塔羅#占卜#愛 #戀愛 #貴人 #事業 #工作 #婚姻 #喜歡 #戀情 #情感 #感情 #愛情 #金錢 #桃花 #財富",
-    "討論牆 | 戒指戴錯影響運勢？命理師揭「5手指寓意」 招財、旺桃花這樣戴"
+    "ゼロから学ぶ紫微斗数｜命盤の基礎から、仕事・財運・人間関係・流年まで読み解く実践講座",
+    "中秋節後運勢翻轉！命理師點名「4生肖」擺脫包袱、迎接新轉機| 星座",
+    "中秋節後運勢翻轉！命理師點名「4生肖」迎好運 屬馬行動力大增"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
@@ -42,7 +43,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月27日 11:16"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月27日 21:14"
     },
     {
       "script": "generate_daily_content.py",
