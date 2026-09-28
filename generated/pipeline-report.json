@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-27T21:13:51.765439+08:00",
-  "ran_at_display": "2026年9月27日 21:13",
+  "ran_at": "2026-09-28T11:19:34.213971+08:00",
+  "ran_at_display": "2026年9月28日 11:19",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "9a1ee505105c1030f86122f4d3dce1a1756f5b4c",
-  "new_signature": "67be073f38124f64264fe5087540758579af68dd",
+  "previous_signature": "67be073f38124f64264fe5087540758579af68dd",
+  "new_signature": "e59e01e773409caeb5a61ec330754395e81e3e2d",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,16 +21,16 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "ゼロから学ぶ紫微斗数｜命盤の基礎から、仕事・財運・人間関係・流年まで読み解く実践講座",
+    "他有為你內耗嗎？你有/會虐到他嗎？他會如何想你？希望你為他怎樣？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "#歲次乙未2015年回顧詩展_羊仙詩卷_站著寫詩_AIG+26卷 最新創作對手出現在眼前高108公分這張木桌勁敵 時間不限而空間只會不斷無限延伸展示人存在當下可能性 此刻108顆紫微斗數星盤想區域跨界到哪邊呢 詩者寫上作品題名後開始走來晃去七步百步腳印佈滿",
     "[問卦] 中醫 是醫學還是玄學？",
-    "中秋節後運勢翻轉！命理師點名「4生肖」擺脫包袱、迎接新轉機| 星座",
-    "中秋節後運勢翻轉！命理師點名「4生肖」迎好運 屬馬行動力大增"
+    "10/1天赦日！命理師曝「開運關鍵」：做錯1事恐白忙",
+    "周四天赦日拜天公、煮錢水 命理師揭真正開運關鍵：做錯恐白忙"
   ],
   "added_titles": [
-    "ゼロから学ぶ紫微斗数｜命盤の基礎から、仕事・財運・人間関係・流年まで読み解く実践講座",
-    "中秋節後運勢翻轉！命理師點名「4生肖」擺脫包袱、迎接新轉機| 星座",
-    "中秋節後運勢翻轉！命理師點名「4生肖」迎好運 屬馬行動力大增"
+    "他有為你內耗嗎？你有/會虐到他嗎？他會如何想你？希望你為他怎樣？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "10/1天赦日！命理師曝「開運關鍵」：做錯1事恐白忙",
+    "周四天赦日拜天公、煮錢水 命理師揭真正開運關鍵：做錯恐白忙"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
@@ -43,7 +43,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月27日 21:14"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月28日 11:19"
     },
     {
       "script": "generate_daily_content.py",
