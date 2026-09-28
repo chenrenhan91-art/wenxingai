@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-09-28",
-  "updated_at_display": "2026年9月28日 11:19",
+  "updated_at_display": "2026年9月28日 21:19",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-28T11:19:45.931434+08:00",
+    "fetched_at": "2026-09-28T21:19:38.544386+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,27 +248,27 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「塔罗星象」相关选题（当前占比 3/8）。"
   ],
   "items": [
     {
-      "title": "他有為你內耗嗎？你有/會虐到他嗎？他會如何想你？希望你為他怎樣？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "這波拉扯何時突破？你們還要糾纏多久？會是什麼結果？他的想法打算|曖昧|愛情|戀愛|桃花|塔羅占卜",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rN0ZvS2ZJX0RtRFJ0ZkNCOXdqcGNHSC1aUUIwbmRHdmw0bGY1dUdVckNBUUdOdjdTa1pKb0hIeTdCa1Q0UUU4OEllR2ZNUmlXZTVvUV9n?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oM1FJd0ZVQ0lidHpVUk5IdnB0eEZUVi1CYUkxdTlUUTFhb3lfVE1HRnN5Y1FYOG5CUk5sRnFMWW9vZ2JpM0ozNFZoNGN0ZUdGdlRoaHhR?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-09-26",
-      "published_display": "2026-09-26",
+      "published": "2026-09-28",
+      "published_display": "2026-09-28",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-10"
+      "event_cluster": "event-09"
     },
     {
       "title": "#歲次乙未2015年回顧詩展_羊仙詩卷_站著寫詩_AIG+26卷 最新創作對手出現在眼前高108公分這張木桌勁敵 時間不限而空間只會不斷無限延伸展示人存在當下可能性 此刻108顆紫微斗數星盤想區域跨界到哪邊呢 詩者寫上作品題名後開始走來晃去七步百步腳印佈滿",
@@ -308,6 +308,44 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "周四天赦日補財庫命理師揭開運關鍵做錯恐白忙- 好運到",
+      "summary": "来自 truemii.chinatimes.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vcVl2RGlSdXZxUlBuNk9jZldFWm1ENUJ0NnhjU2dDUDRTT2cyQTJwcEF1T1RtMzJfVkFBQk1MT0FHM0I5aEdXSVdxNnBuWmh5cnUzcFNrNl9UbmJTX3ZPU0FVZmk2dHdQVnBDMQ?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "truemii.chinatimes.com · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-09-28",
+      "published_display": "2026-09-28",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
+      "title": "周四天赦日拜天公、煮錢水命理師揭真正開運關鍵：做錯恐白忙| 星座命理| 生活",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95Qmprb3dDVVZZN1R2UU1Wa3ZvX1o2ODlGckZMejY0UzhOWVVEcnIxTEhEbWprVVJwYkxDdV9HMWE4M1ZYeEJkU0t5eUhBSVUteGdOMDVXWTJjQ001cXVrUW9kVFZZcDFnZm5wa3NqN2xLRVpEVXUtRjVNenI?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "UDN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-09-28",
+      "published_display": "2026-09-28",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
       "title": "10/1天赦日！命理師曝「開運關鍵」：做錯1事恐白忙",
       "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxObllQczFtd2VGVlIzSzJOT3FocUw0NkpTOWViZVVmLVNIN2FSTHdXakRWRWp2WUxhYU9xLThRVUJvbXlTRVRPaDZsaFR6SHMwMlN3MG4ySm5maXRWUDRLZmQ5ZTZlSklKbmVLS1VmZ2Z0RC1hcGtBMkRNVHowdVR5ZzJGSGN2VU1fNjJGeHY5UXFwejNmY2JkVmdZQi1UdEZtVkhHY3FYSUgtem5IUGE3RFkxcXdqMEhLTWh0UE1hNzZwajRmalUtWDJVN0JnRVRpQTh6TWFlMGJ5YTlONWF1YmdveU5NSEQtVk9vQ3RJLVB3bFh1U1ZaUzNsT3ZjTWlCQWlQWnQzLUZ4NGVGNnVpMnhabngtQnUtSVI5d1JzbkItRGtzaXhXeVB3?oc=5",
@@ -324,45 +362,26 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
-    },
-    {
-      "title": "周四天赦日拜天公、煮錢水 命理師揭真正開運關鍵：做錯恐白忙",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fSS1FVy1uSVpTUHlIMHJfTWgxWWZfNVdXOFRGTVlBVnE2dVNuTUs0MUdOVzBqZlZtLXRXTS02RXlDbUVkWnV1dGJaLVpzNUl3a3BIWmhB0gFWQVVfeXFMT19JLUVXLW5JWlNQeUgwcl9NaDFZZl81V1c4VEZNWUFWcTZ1U25NSzQxR05XMGpmVm0tdFdNLTZFeUNtRWRadXV0YlotWnM1SXdrcEhaaEE?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-09-28",
-      "published_display": "2026-09-28",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "周四天赦日補財庫命理師揭開運關鍵做錯恐白忙- 好運到",
-      "summary": "来自 觸mii · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT2M2QkhyWnBvVGctY1lxc21oS2lEX0R4YmM2RHo1WUQ5VGZFdm5WeU8tSXdydVhyU1d1ejY5WndoSXBPLUIxMXd2dmhRcklYOU1sRzJnQ21TWWd0dllJbUdzM1I0N2dRN3N1X1JJY2JWNEV6MUV1bjlEN0hoeEpOOGowZVlwV1NLQ1pJQ1N3?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "觸mii · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-09-28",
-      "published_display": "2026-09-28",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
       "event_cluster": "event-04"
+    },
+    {
+      "title": "「秋季唯一天赦日」要來了！命理師親揭「168硬幣」開運發財6步驟：1事別做",
+      "summary": "来自 民視新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ubXZwOUZoR2szcVA2UDJXMi1pY3hqU0g0YjFZdUF2X2FsTXpDS1VKUGFIMHBGWVpTRW1aS1RRdm9VM1plRXhTTXBzWVVXOXpUcG81UHhOMVVGREZmVXYzRg?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "民視新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-09-28",
+      "published_display": "2026-09-28",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-05"
     },
     {
       "title": "中秋節後運勢翻轉！命理師點名「4生肖」擺脫包袱、迎接新轉機| 星座",
@@ -373,25 +392,6 @@
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "塔罗星象",
-      "published": "2026-09-27",
-      "published_display": "2026-09-27",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "中秋節後運勢翻轉！命理師點名「4生肖」迎好運 屬馬行動力大增",
-      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9aQ1RRaE1CcXk0cXZYd0FOcnJtX3FxZGlmbEN6QUI3SVJOMUxUcGc4NlBCYUE0RWdHaHpEUlNvWGhibXZQVk55VC1tYTjSAVJBVV95cUxObTBaLW9oRTV3WTJEdGF3NlBRaVNSZzlWOXhpX0NDSFUzb3Jzbm0zRDhTS2doNlJ6NkRWRnRienBndnVJaW5EUmxUNFdYSlpFZURR?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "NOWnews今日新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
       "published": "2026-09-27",
       "published_display": "2026-09-27",
       "matched_keywords": [
