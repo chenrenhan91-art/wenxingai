@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-28",
-  "updated_at_display": "2026年9月28日 21:19",
+  "updated_at": "2026-09-29",
+  "updated_at_display": "2026年9月29日 11:16",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-28T21:19:38.544386+08:00",
+    "fetched_at": "2026-09-29T11:16:08.698842+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「塔罗星象」相关选题（当前占比 3/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-09"
+      "event_cluster": "event-08"
     },
     {
       "title": "#歲次乙未2015年回顧詩展_羊仙詩卷_站著寫詩_AIG+26卷 最新創作對手出現在眼前高108公分這張木桌勁敵 時間不限而空間只會不斷無限延伸展示人存在當下可能性 此刻108顆紫微斗數星盤想區域跨界到哪邊呢 詩者寫上作品題名後開始走來晃去七步百步腳印佈滿",
@@ -286,7 +286,7 @@
         "斗數"
       ],
       "score": 9.95,
-      "event_cluster": "event-128"
+      "event_cluster": "event-134"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -308,11 +308,11 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "周四天赦日補財庫命理師揭開運關鍵做錯恐白忙- 好運到",
-      "summary": "来自 truemii.chinatimes.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vcVl2RGlSdXZxUlBuNk9jZldFWm1ENUJ0NnhjU2dDUDRTT2cyQTJwcEF1T1RtMzJfVkFBQk1MT0FHM0I5aEdXSVdxNnBuWmh5cnUzcFNrNl9UbmJTX3ZPU0FVZmk2dHdQVnBDMQ?oc=5",
+      "title": "周四天赦日拜天公、煮錢水 命理師揭真正開運關鍵：做錯恐白忙",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5CYURpNEVvbVIzdzVpYjhDbGdfVU1KRHZGQVo0anV6QU5UQ0pCemU3MUk4bklucjV5Mlh4MWw3TzhIbUR0dFFyRDhqWk1IZkxG0gFWQVVfeXFMT19JLUVXLW5JWlNQeUgwcl9NaDFZZl81V1c4VEZNWUFWcTZ1U25NSzQxR05XMGpmVm0tdFdNLTZFeUNtRWRadXV0YlotWnM1SXdrcEhaaEE?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "truemii.chinatimes.com · Google News",
+      "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -327,14 +327,14 @@
       "event_cluster": "event-02"
     },
     {
-      "title": "周四天赦日拜天公、煮錢水命理師揭真正開運關鍵：做錯恐白忙| 星座命理| 生活",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95Qmprb3dDVVZZN1R2UU1Wa3ZvX1o2ODlGckZMejY0UzhOWVVEcnIxTEhEbWprVVJwYkxDdV9HMWE4M1ZYeEJkU0t5eUhBSVUteGdOMDVXWTJjQ001cXVrUW9kVFZZcDFnZm5wa3NqN2xLRVpEVXUtRjVNenI?oc=5",
+      "title": "10/1天赦日！命理師曝「開運關鍵」：做錯1事恐白忙",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxObllQczFtd2VGVlIzSzJOT3FocUw0NkpTOWViZVVmLVNIN2FSTHdXakRWRWp2WUxhYU9xLThRVUJvbXlTRVRPaDZsaFR6SHMwMlN3MG4ySm5maXRWUDRLZmQ5ZTZlSklKbmVLS1VmZ2Z0RC1hcGtBMkRNVHowdVR5ZzJGSGN2VU1fNjJGeHY5UXFwejNmY2JkVmdZQi1UdEZtVkhHY3FYSUgtem5IUGE3RFkxcXdqMEhLTWh0UE1hNzZwajRmalUtWDJVN0JnRVRpQTh6TWFlMGJ5YTlONWF1YmdveU5NSEQtVk9vQ3RJLVB3bFh1U1ZaUzNsT3ZjTWlCQWlQWnQzLUZ4NGVGNnVpMnhabngtQnUtSVI5d1JzbkItRGtzaXhXeVB3?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
+      "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "塔罗星象",
+      "category": "命理新闻",
       "published": "2026-09-28",
       "published_display": "2026-09-28",
       "matched_keywords": [
@@ -346,11 +346,11 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "10/1天赦日！命理師曝「開運關鍵」：做錯1事恐白忙",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxObllQczFtd2VGVlIzSzJOT3FocUw0NkpTOWViZVVmLVNIN2FSTHdXakRWRWp2WUxhYU9xLThRVUJvbXlTRVRPaDZsaFR6SHMwMlN3MG4ySm5maXRWUDRLZmQ5ZTZlSklKbmVLS1VmZ2Z0RC1hcGtBMkRNVHowdVR5ZzJGSGN2VU1fNjJGeHY5UXFwejNmY2JkVmdZQi1UdEZtVkhHY3FYSUgtem5IUGE3RFkxcXdqMEhLTWh0UE1hNzZwajRmalUtWDJVN0JnRVRpQTh6TWFlMGJ5YTlONWF1YmdveU5NSEQtVk9vQ3RJLVB3bFh1U1ZaUzNsT3ZjTWlCQWlQWnQzLUZ4NGVGNnVpMnhabngtQnUtSVI5d1JzbkItRGtzaXhXeVB3?oc=5",
+      "title": "周四天赦日補財庫命理師揭開運關鍵做錯恐白忙- 好運到",
+      "summary": "来自 觸mii · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vcVl2RGlSdXZxUlBuNk9jZldFWm1ENUJ0NnhjU2dDUDRTT2cyQTJwcEF1T1RtMzJfVkFBQk1MT0FHM0I5aEdXSVdxNnBuWmh5cnUzcFNrNl9UbmJTX3ZPU0FVZmk2dHdQVnBDMQ?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
+      "source": "觸mii · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
