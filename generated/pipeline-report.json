@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-09-29T21:20:44.180159+08:00",
-  "ran_at_display": "2026年9月29日 21:20",
+  "ran_at": "2026-09-30T11:17:44.519643+08:00",
+  "ran_at_display": "2026年9月30日 11:17",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "99b71049d83d8b1e1a1bf076823f724a7981ad80",
-  "new_signature": "f5254af10fe08adb4a34e2bdbba41c502c0454c4",
+  "previous_signature": "f5254af10fe08adb4a34e2bdbba41c502c0454c4",
+  "new_signature": "a98f5123c5386ecf77ad4416e9b867e1a30dc8fe",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,17 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "面對你，他在剋制還是放縱？他會為了你而改變多少？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "他內心給你的定位！他認為你們的緣分VS實際上你和他的緣分？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "來看看你的本周運勢吧~ 【塔羅占卜】下週運勢搶先看：是好運還是挑戰？小千為你解析💜 https://t.co/bAS4HFRkiC 來自 @YouTube",
     "[問卦] 中醫 是醫學還是玄學？",
     "獨家／中秋後3生肖運勢轉衰 命理師曝「開運破解法」：穩住身心最重要",
-    "家門口「這地方」堵住恐漏財 命理師示警：運勢低落、錢進不來"
+    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
   ],
   "added_titles": [
-    "面對你，他在剋制還是放縱？他會為了你而改變多少？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "來看看你的本周運勢吧~ 【塔羅占卜】下週運勢搶先看：是好運還是挑戰？小千為你解析💜 https://t.co/bAS4HFRkiC 來自 @YouTube",
-    "獨家／中秋後3生肖運勢轉衰 命理師曝「開運破解法」：穩住身心最重要",
-    "家門口「這地方」堵住恐漏財 命理師示警：運勢低落、錢進不來"
+    "他內心給你的定位！他認為你們的緣分VS實際上你和他的緣分？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -44,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月29日 21:20"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年9月30日 11:17"
     },
     {
       "script": "generate_daily_content.py",
