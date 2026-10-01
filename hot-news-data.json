@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-30",
-  "updated_at_display": "2026年9月30日 21:19",
+  "updated_at": "2026-10-01",
+  "updated_at_display": "2026年10月1日 11:20",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-09-30T21:19:55.958743+08:00",
+    "fetched_at": "2026-10-01T11:20:11.377730+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-120"
+      "event_cluster": "event-124"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
