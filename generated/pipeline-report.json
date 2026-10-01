@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-01T11:20:00.691289+08:00",
-  "ran_at_display": "2026年10月1日 11:20",
+  "ran_at": "2026-10-01T21:19:57.678585+08:00",
+  "ran_at_display": "2026年10月1日 21:19",
   "overall_status": "failed_generate",
   "force_refresh": true,
   "previous_signature": "63e189413f82a85338b9d5877264f7d8e15c687a",
-  "new_signature": "63e189413f82a85338b9d5877264f7d8e15c687a",
+  "new_signature": "8481d3701484774e29177840a51d27a86130ce48",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,13 +21,16 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "你們下個月的發展，彼此的心態感受，以及雙方的行動力，發展走向|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "他有為你內耗嗎？你有/會虐到他嗎？他會如何想你？希望你為他怎樣？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "「西邊的太陽快要」的第二集 已經開始⋯⋯ 我作為命理師 只負責提前預測 不幹落井下石的事 何況我跟金文聲老先生的⋯⋯ 綜上 我聊郭德綱那期油管節目 已經私藏下架 等今年熱點過去了 再提供以學習為目的的觀看 還是那句話 郭德綱早期的一些活 後來寫的一些書 都很",
     "[問卦] 中醫 是醫學還是玄學？",
     "獨家／中秋後3生肖運勢轉衰 命理師曝「開運破解法」：穩住身心最重要",
-    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
+    "寒露要來了！命理師示警2生肖和「這類人」恐出事開運招曝光| 生活"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "他有為你內耗嗎？你有/會虐到他嗎？他會如何想你？希望你為他怎樣？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "寒露要來了！命理師示警2生肖和「這類人」恐出事開運招曝光| 生活"
+  ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
@@ -39,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月1日 11:20"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月1日 21:20"
     },
     {
       "script": "generate_daily_content.py",

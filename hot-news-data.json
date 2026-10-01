@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-01",
-  "updated_at_display": "2026年10月1日 11:20",
+  "updated_at_display": "2026年10月1日 21:20",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-01T11:20:11.377730+08:00",
+    "fetched_at": "2026-10-01T21:20:08.375567+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "你們下個月的發展，彼此的心態感受，以及雙方的行動力，發展走向|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "他有為你內耗嗎？你有/會虐到他嗎？他會如何想你？希望你為他怎樣？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XN1h5eEpnNzB5S3VtcFVmMXVBSUVpODVicWx1dnhRWmszZEhhUXdlU0JyYUNtUjJTTjNSQm11N3hNVjFWRG9Ca3o2RVhaMTlBZHRLVndB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rN0ZvS2ZJX0RtRFJ0ZkNCOXdqcGNHSC1aUUIwbmRHdmw0bGY1dUdVckNBUUdOdjdTa1pKb0hIeTdCa1Q0UUU4OEllR2ZNUmlXZTVvUV9n?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-09-30",
-      "published_display": "2026-09-30",
+      "published": "2026-09-26",
+      "published_display": "2026-09-26",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-08"
+      "event_cluster": "event-15"
     },
     {
       "title": "「西邊的太陽快要」的第二集 已經開始⋯⋯ 我作為命理師 只負責提前預測 不幹落井下石的事 何況我跟金文聲老先生的⋯⋯ 綜上 我聊郭德綱那期油管節目 已經私藏下架 等今年熱點過去了 再提供以學習為目的的觀看 還是那句話 郭德綱早期的一些活 後來寫的一些書 都很",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-124"
+      "event_cluster": "event-129"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -327,9 +327,9 @@
       "event_cluster": "event-02"
     },
     {
-      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
+      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事開運招曝光| 生活",
       "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RQ?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "三立新聞網SETN.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -365,11 +365,11 @@
       "event_cluster": "event-04"
     },
     {
-      "title": "今天赦日遇虎爺聖誕！命理師籲「起床先別做這事」 3招開運旺到年底",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAwY1ZRc2lnZkZ3enJxT1NOZGUwNjU4dEZoX1Z0M0I0OHpFb3BxRmwtci1FMkVxdDl1a2w2X0dqNE1HVUFTamRneNIBTEFVX3lxTE10a3B3akZJU3ZwNjYzR215aHR5SmlFcTR2eEZNN0tzXzd3OUxTR3hUdDNpaGdZOXlyRXNMd0ttM3dYa2hBdHlySk9uc3E?oc=5",
+      "title": "家門口「這地方」堵住恐漏財 命理師示警：運勢低落、錢進不來",
+      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA5QWIxcmItdmxEXzlvaFVFb3NvOHZhSjVRVGQtTmVMeW5kS2U1MDJDR3BiSXRUeGl4MU5YR1dlSTJZZV9DUXhKNXJuYmFMSHNONlZXSjV0bWp4WjU4bkJ6ek130gFiQVVfeXFMUDlBYjFyYi12bERfOW9oVUVvc284dmFKNVFUZC1OZUx5bmRLZTUwMkNHcGJJdFR4aXgxTlhHV2VJMlllX0NReEo1cm5iYUxIc042VldKNXRtanhaNThuQnp6TXc?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
+      "source": "自由娛樂 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -378,17 +378,17 @@
       "matched_keywords": [
         "命理",
         "命理師",
-        "開運"
+        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-05"
     },
     {
-      "title": "家門口「這地方」堵住恐漏財 命理師示警：運勢低落、錢進不來",
-      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA5QWIxcmItdmxEXzlvaFVFb3NvOHZhSjVRVGQtTmVMeW5kS2U1MDJDR3BiSXRUeGl4MU5YR1dlSTJZZV9DUXhKNXJuYmFMSHNONlZXSjV0bWp4WjU4bkJ6ek130gFiQVVfeXFMUDlBYjFyYi12bERfOW9oVUVvc284dmFKNVFUZC1OZUx5bmRLZTUwMkNHcGJJdFR4aXgxTlhHV2VJMlllX0NReEo1cm5iYUxIc042VldKNXRtanhaNThuQnp6TXc?oc=5",
+      "title": "家門口水溝竟攸關全家財運？命理師揭避免1狀況：運勢會低落- 綜合星聞",
+      "summary": "来自 中時新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNWswX3gwLXNhd1A0dTRnZVlyazRkZUlzYkhzd0stZVFqbEZjcC15Mml5NjM4eE9VOWFfQlFZLXhPLUJ5VEFIZ0JkSks4VVVmOW12d2JYTVpQQVMtSjBlSUdnMmVqMjFoWVZHTkZ5V2VuamdXMEx5dEtkNWRzTkxneE5QM1c0TVZIRUcwb2oyZw?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "自由娛樂 · Google News",
+      "source": "中時新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
