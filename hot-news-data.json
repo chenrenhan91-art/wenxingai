@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-02",
-  "updated_at_display": "2026年10月2日 11:16",
+  "updated_at_display": "2026年10月2日 21:17",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-02T11:16:31.956814+08:00",
+    "fetched_at": "2026-10-02T21:17:37.950718+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "他最近怎麼想你的？對你的內心情感，想約你見面嗎？會行動嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+      "title": "你還會單身多久？馬上會和你交往的是一個什麼樣的人？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zandMWWhKbU55RHFoUk9lLUN2R1dDdmhCbExxRllpQkQ4d1ZGOEtTOFVOY0daN25DX0t1cm9QVlg3Yk1NZ2VFeUxNM2RKU1AzYXB5WWJR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1IRTl5OFhEZmdEeUNGQUE1aEpDQmQ0ZGJLczRPdjZiaVB0RUtVMHVVZG1vS3lTS3dSRlE5TkxMZ0t4SndnelMyTWhZZkd5NjdNei02Z2F3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-10-01",
-      "published_display": "2026-10-01",
+      "published": "2026-09-28",
+      "published_display": "2026-09-28",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-04"
+      "event_cluster": "event-14"
     },
     {
       "title": "「西邊的太陽快要」的第二集 已經開始⋯⋯ 我作為命理師 只負責提前預測 不幹落井下石的事 何況我跟金文聲老先生的⋯⋯ 綜上 我聊郭德綱那期油管節目 已經私藏下架 等今年熱點過去了 再提供以學習為目的的觀看 還是那句話 郭德綱早期的一些活 後來寫的一些書 都很",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-134"
+      "event_cluster": "event-131"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -327,6 +327,44 @@
       "event_cluster": "event-02"
     },
     {
+      "title": "寒露將至！開運關鍵在「收」 命理師提醒3種人要注意",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFY0ZBZ1VtMmJLUzNBM2lqcUtRMzNTZUJRNDA5Yy1mUUJrNGoxSGNUZ09EckFYdWJzaUdWbWdGVW1IeENrSl9HMkVma1FhS2E0Ni1TMGRn0gFWQVVfeXFMUEVjRkFnVW0yYktTM0EzaWpxS1EzM1NlQlE0MDljLWZRQms0ajFIY1RnT0RyQVh1YnNpR1ZtZ0ZVbUh4Q2tKX0cyRWZrUWFLYTQ2LVMwZGc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "UDN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-02",
+      "published_display": "2026-10-02",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
+      "title": "家門口水溝竟攸關全家財運？命理師揭避免1狀況：運勢會低落",
+      "summary": "来自 house.chinatimes.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55TFZna3Z3VDdoSzVwSlVOR1NNd0dyeXpVYUx4QUR5cWtFdEgwLTM1Y0JKU0tOemxTZlhzSUd0SlU5aWxPYzlhbWQyVUFJb05GOF9XbFpnQVNqZW16NFk0?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "house.chinatimes.com · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-02",
+      "published_display": "2026-10-02",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
+    },
+    {
       "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事開運招曝光| 生活",
       "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RQ?oc=5",
@@ -343,7 +381,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-05"
     },
     {
       "title": "寒露10/8報到！命理師點名「3種人」恐出事 開運3方法曝",
@@ -362,45 +400,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "家門口「這地方」堵住恐漏財 命理師示警：運勢低落、錢進不來",
-      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA5QWIxcmItdmxEXzlvaFVFb3NvOHZhSjVRVGQtTmVMeW5kS2U1MDJDR3BiSXRUeGl4MU5YR1dlSTJZZV9DUXhKNXJuYmFMSHNONlZXSjV0bWp4WjU4bkJ6ek130gFiQVVfeXFMUDlBYjFyYi12bERfOW9oVUVvc284dmFKNVFUZC1OZUx5bmRLZTUwMkNHcGJJdFR4aXgxTlhHV2VJMlllX0NReEo1cm5iYUxIc042VldKNXRtanhaNThuQnp6TXc?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "自由娛樂 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-09-29",
-      "published_display": "2026-09-29",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
       "event_cluster": "event-06"
-    },
-    {
-      "title": "家門口水溝竟攸關全家財運？命理師揭避免1狀況：運勢會低落- 綜合星聞",
-      "summary": "来自 中時新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNWswX3gwLXNhd1A0dTRnZVlyazRkZUlzYkhzd0stZVFqbEZjcC15Mml5NjM4eE9VOWFfQlFZLXhPLUJ5VEFIZ0JkSks4VVVmOW12d2JYTVpQQVMtSjBlSUdnMmVqMjFoWVZHTkZ5V2VuamdXMEx5dEtkNWRzTkxneE5QM1c0TVZIRUcwb2oyZw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "中時新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-09-29",
-      "published_display": "2026-09-29",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-07"
     }
   ]
 }
