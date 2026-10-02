@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-01",
-  "updated_at_display": "2026年10月1日 21:20",
+  "updated_at": "2026-10-02",
+  "updated_at_display": "2026年10月2日 11:16",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-01T21:20:08.375567+08:00",
+    "fetched_at": "2026-10-02T11:16:31.956814+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "他有為你內耗嗎？你有/會虐到他嗎？他會如何想你？希望你為他怎樣？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "他最近怎麼想你的？對你的內心情感，想約你見面嗎？會行動嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rN0ZvS2ZJX0RtRFJ0ZkNCOXdqcGNHSC1aUUIwbmRHdmw0bGY1dUdVckNBUUdOdjdTa1pKb0hIeTdCa1Q0UUU4OEllR2ZNUmlXZTVvUV9n?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zandMWWhKbU55RHFoUk9lLUN2R1dDdmhCbExxRllpQkQ4d1ZGOEtTOFVOY0daN25DX0t1cm9QVlg3Yk1NZ2VFeUxNM2RKU1AzYXB5WWJR?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-09-26",
-      "published_display": "2026-09-26",
+      "published": "2026-10-01",
+      "published_display": "2026-10-01",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-15"
+      "event_cluster": "event-04"
     },
     {
       "title": "「西邊的太陽快要」的第二集 已經開始⋯⋯ 我作為命理師 只負責提前預測 不幹落井下石的事 何況我跟金文聲老先生的⋯⋯ 綜上 我聊郭德綱那期油管節目 已經私藏下架 等今年熱點過去了 再提供以學習為目的的觀看 還是那句話 郭德綱早期的一些活 後來寫的一些書 都很",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-129"
+      "event_cluster": "event-134"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -362,7 +362,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "家門口「這地方」堵住恐漏財 命理師示警：運勢低落、錢進不來",
@@ -381,7 +381,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
       "title": "家門口水溝竟攸關全家財運？命理師揭避免1狀況：運勢會低落- 綜合星聞",
@@ -400,7 +400,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     }
   ]
 }
