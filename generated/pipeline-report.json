@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-03T11:23:58.545198+08:00",
-  "ran_at_display": "2026年10月3日 11:23",
+  "ran_at": "2026-10-03T22:33:00.650045+08:00",
+  "ran_at_display": "2026年10月3日 22:33",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "2214d420237278b21c785ba63d2dfaf1e9541c4f",
-  "new_signature": "72cf494dec1b07fc70f5644193aa17e0626e2d5c",
+  "previous_signature": "72cf494dec1b07fc70f5644193aa17e0626e2d5c",
+  "new_signature": "61813448f547985704769eb5cae6bc483a601e56",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,14 +21,14 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "他最近怎麼想你的？對你的內心情感，想約你見面嗎？會行動嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+    "他內心給你的定位！他認為你們的緣分VS實際上你和他的緣分？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "「西邊的太陽快要」的第二集 已經開始⋯⋯ 我作為命理師 只負責提前預測 不幹落井下石的事 何況我跟金文聲老先生的⋯⋯ 綜上 我聊郭德綱那期油管節目 已經私藏下架 等今年熱點過去了 再提供以學習為目的的觀看 還是那句話 郭德綱早期的一些活 後來寫的一些書 都很",
     "[問卦] 中醫 是醫學還是玄學？",
     "獨家／中秋後3生肖運勢轉衰 命理師曝「開運破解法」：穩住身心最重要",
     "寒露將至！開運關鍵在「收」 命理師提醒3種人要注意"
   ],
   "added_titles": [
-    "他最近怎麼想你的？對你的內心情感，想約你見面嗎？會行動嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜"
+    "他內心給你的定位！他認為你們的緣分VS實際上你和他的緣分？|曖昧|愛情|戀愛|桃花|塔羅占卜|"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -41,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月3日 11:24"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月3日 22:33"
     },
     {
       "script": "generate_daily_content.py",
