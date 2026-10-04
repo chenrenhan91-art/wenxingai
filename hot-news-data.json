@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-04",
-  "updated_at_display": "2026年10月4日 12:15",
+  "updated_at_display": "2026年10月4日 22:51",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-04T12:15:55.008874+08:00",
+    "fetched_at": "2026-10-04T22:51:57.253646+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -271,22 +271,22 @@
       "event_cluster": "event-07"
     },
     {
-      "title": "「西邊的太陽快要」的第二集 已經開始⋯⋯ 我作為命理師 只負責提前預測 不幹落井下石的事 何況我跟金文聲老先生的⋯⋯ 綜上 我聊郭德綱那期油管節目 已經私藏下架 等今年熱點過去了 再提供以學習為目的的觀看 還是那句話 郭德綱早期的一些活 後來寫的一些書 都很",
+      "title": "寒露10/8來臨 命理師示警「這類人」要注意(圖) www.​secretchina.​com/news/b5/2026/10/04/1105572.​html",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5teGRKUFlNaEJmbmZ6REI4UUhBQllYakpGc0NwMGpERWpZU2hURm5ZaDVXRFVLNFZfZnpRQ0pqdlFOT3REc2RZS0J4cExhSTZwdVR1bGhjcjJjNDRFTkR3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1YUDBpVWx6VkNFaldSaUZnX3o3Z1ZiRmxiN0FmNnlMdUZ6SXZPRjQ0MVJDanlVVV96d3NVaHl4QlZMc3IzWk9FY1dack5CQ0xZN2JPX1d6c1ctT3E5MFYyMkVB?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "命理新闻",
-      "published": "2026-09-30",
-      "published_display": "2026-09-30",
+      "published": "2026-10-04",
+      "published_display": "2026-10-04",
       "matched_keywords": [
         "命理",
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-156"
+      "event_cluster": "event-118"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -309,10 +309,10 @@
     },
     {
       "title": "獨家／中秋後3生肖運勢轉衰 命理師曝「開運破解法」：穩住身心最重要",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1ZbUNQdGFrU2V0ZTI4TlVVMFVzVE50SFQ2SmQ3MEJCMllBazlIRmtqNll0WmMxYkt0UmlFT29Ecm5UbmpzZlBLTdIBTEFVX3lxTE56Y0xlTWJOVkVjN3BsQ1N0NGpJdHJyQWtyZlc2NmtTcGMyWFlpY1pFWkdyNFgtQ1hHdE1PMEdUSHh1X3dkX01WUzNZTGc?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
+      "source": "三立新聞網SETN.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -347,10 +347,10 @@
     },
     {
       "title": "「蘇巧慧VS李四川」新北大激戰！命理師解鎖「面相+流年」勝負玄機…秒點名這人",
-      "summary": "来自 民視新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 ftvnews.com.tw · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nWldQdHZhNlEzYi1IZDZMc3V6dnYxQVNGaTZLbmhCUnJsc0RwTTBSZ3JxckpqQmM3TkFMa0ozdERXRVdBa2N6c29QOW1Oel8xVjFRMTQ0eWJvSFJqQ2VoUw?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "民視新聞網 · Google News",
+      "source": "ftvnews.com.tw · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
