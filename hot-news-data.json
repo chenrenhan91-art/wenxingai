@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-05",
-  "updated_at_display": "2026年10月5日 11:21",
+  "updated_at_display": "2026年10月5日 21:24",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-05T11:21:57.476728+08:00",
+    "fetched_at": "2026-10-05T21:24:29.202069+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "他有默默為你做過些什麼嗎？他的真實想法和最終目的是什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "ta從沒表達過的內心戲！ta現在迫切想讓你做什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIYjZhOV9lQld6TjEzRFpheWdtQndjUFFLUUNGYkFSandHNi1RX1MwdWNrWFdVYnJhcDNTSmhsdkMycVg1VjZES0JQUDJEclg4TlE1a2pn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WVUN2Zl9idXFYZkxxVmhFSldheW5iWHd5QWktNlpvZXMtSmp0QmFsV3lQMjZQSmhJUkpHMU1zcm5teEtUVVhiNXA4bzIxTGJDaWZzQThn?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-09-29",
-      "published_display": "2026-09-29",
+      "published": "2026-10-02",
+      "published_display": "2026-10-02",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-12"
+      "event_cluster": "event-08"
     },
     {
       "title": "寒露10/8來臨 命理師示警「這類人」要注意(圖) www.​secretchina.​com/news/b5/2026/10/04/1105572.​html",
@@ -327,6 +327,44 @@
       "event_cluster": "event-02"
     },
     {
+      "title": "週四迎寒露！命理師點名「3類人」運勢大震盪 工作健康恐陷危機",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxOSFkyVnM5MkI5RWNFU0hqMnVxYUFoY3d0N3ZTbFNtQ2R1WDZJTEcxdGp3UmdzWUxMWmlUZVpxRklxSmNYdEJlRVAzSzlzOUZWdHpybS11ZXNObFRJSXdGTEUyaTRzWHBqZldIcTFuNUhXb2Fpby1qTzd2ZC1MRnBqOU5UQTgwbTJ6Q0FYT3pEVUV5bkJnUDlTX1RtZXpaNUtmQTlDNll5NkUzeEJIY2pSaEVnLWdJWWFfYWlOTlBzTWJDX0w5OGlvb0lidmpKczNIaGZhU3NXMWt4NzE1RkdXa3R2OWxFNk9uYWl3dzRSMkdUUGNtVWpPeVQtbWhOQ05HZUlXcTNGN2hyWFJ6VEVmY0xWLVFKZFFMcHRFOVl2enR4WlhOZUVJWm9wNEZ5UmEwc0ZQeXJzYUJRNXRzcmNSQXNtTERlMWcwTDdPX29Mbl9NV0Q1RkdSNTc1b0k0ZGZsUGctYWpNMDZERnZ4cjZKaE1mQUMyX0lwQXhJa0NhdlExN1FSUHc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-05",
+      "published_display": "2026-10-05",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
+      "title": "討論牆 | 蘇巧慧、李四川新北大激戰！命理師解鎖「面相+流年」秒點名這人",
+      "summary": "来自 today.line.me · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBkVDdFRjFzZWFmR01nejBtNmNkTEdkSWtfbTFGQ3ZhWEFpbDJLRm5tcTZ6Q2xDX2ZiLUdQTHJVX1lHeHc1U2hOcU5vTDJTMldXYnhQV1liTS1tXzhnRE5PYi1PWWE?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "today.line.me · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-04",
+      "published_display": "2026-10-04",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "流年"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
+    },
+    {
       "title": "蘇巧慧、李四川新北大激戰！命理師解鎖「面相+流年」秒點名這人",
       "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNUjBMYXc3T1d4eGVpSjJJREVEZWU3MlFJdzlTcmotYlNKME1sSFY5RjJOMWVxV3liaXNHTFFjTzRUdFFJckpWWDZZVS02bXZmOUF5U1lOaDhtNHBTZGotVnUwUEZ4UWMtX2JSQk9BcWFlNjJRMUM4VlhkdGlVMmF1dHdqZUx3Vy1MRmU1aHFDTUhMazQwU1hmWjhoS3I0WHRrQXlvZllTMFFvbzc4MzF1NzhvZ0NHWV95djAwQkJoWENJOTN0aTJXRXJDZmhReW4xZ1JUWDRwMmladDdSenVJemI3X3g2ZV9qNDkyRWR2Qi1tNzNUdVl2d1BQb0loY2lBQU9lcy1lclBIMmhxbW55VGU5UUlaaC1ra2Vjc29LemRfSUp5cW9PTkZYRFp0NS1Zc1BkYmdiU0EtMXFMdWpRVXd4YW4yV2d4?oc=5",
@@ -343,7 +381,7 @@
         "流年"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "「蘇巧慧VS李四川」新北大激戰！命理師解鎖「面相+流年」勝負玄機…秒點名這人",
@@ -362,45 +400,7 @@
         "流年"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "寒露將至！開運關鍵在「收」 命理師提醒3種人要注意",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zZ0lWTnZKX0dlbzNVUnh4MTZXMFNobmstTTZmOTV2c1hzMl9MX1FiOGdnS2FGd2RzZWcwWFRIUy1FOVBvbXk2bjk1SUk3MjBS0gFWQVVfeXFMUEVjRkFnVW0yYktTM0EzaWpxS1EzM1NlQlE0MDljLWZRQms0ajFIY1RnT0RyQVh1YnNpR1ZtZ0ZVbUh4Q2tKX0cyRWZrUWFLYTQ2LVMwZGc?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-02",
-      "published_display": "2026-10-02",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
       "event_cluster": "event-05"
-    },
-    {
-      "title": "家門口水溝竟攸關全家財運？命理師揭避免1狀況：運勢會低落",
-      "summary": "来自 中時新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55TFZna3Z3VDdoSzVwSlVOR1NNd0dyeXpVYUx4QUR5cWtFdEgwLTM1Y0JKU0tOemxTZlhzSUd0SlU5aWxPYzlhbWQyVUFJb05GOF9XbFpnQVNqZW16NFk0?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "中時新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-02",
-      "published_display": "2026-10-02",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-06"
     }
   ]
 }
