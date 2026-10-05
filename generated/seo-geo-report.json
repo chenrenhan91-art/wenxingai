@@ -1,6 +1,6 @@
 {
-  "ran_at": "2026-10-04T22:52:06.608647+08:00",
-  "ran_at_display": "2026-10-04 22:52 CST",
+  "ran_at": "2026-10-05T11:22:04.501740+08:00",
+  "ran_at_display": "2026-10-05 11:22 CST",
   "overall_status": "ok",
   "summary": {
     "pages_ok": 15,
@@ -236,7 +236,7 @@
       "content_plan": true,
       "keyword_map": true,
       "hot_news_items": 8,
-      "hot_news_updated_at": "2026-10-04"
+      "hot_news_updated_at": "2026-10-05"
     },
     "issues": []
   },

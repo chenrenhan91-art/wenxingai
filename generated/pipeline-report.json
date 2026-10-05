@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-04T22:51:46.421211+08:00",
-  "ran_at_display": "2026年10月4日 22:51",
+  "ran_at": "2026-10-05T11:21:47.036175+08:00",
+  "ran_at_display": "2026年10月5日 11:21",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "d6ecbd5e6ddd2f9cea6a40061db00db5d3d78be5",
-  "new_signature": "af8bdab62858f58b5035b4fa0bde8fe3632f34d4",
+  "previous_signature": "af8bdab62858f58b5035b4fa0bde8fe3632f34d4",
+  "new_signature": "bbba48ba01bbf025a394da74d2c7247e21a25a5b",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,14 +21,14 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "他對你動心or走腎？心動程度有多少？更在意什麼？怎麼看待關係的？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+    "他有默默為你做過些什麼嗎？他的真實想法和最終目的是什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "寒露10/8來臨 命理師示警「這類人」要注意(圖) www.​secretchina.​com/news/b5/2026/10/04/1105572.​html",
     "[問卦] 中醫 是醫學還是玄學？",
     "獨家／中秋後3生肖運勢轉衰 命理師曝「開運破解法」：穩住身心最重要",
     "蘇巧慧、李四川新北大激戰！命理師解鎖「面相+流年」秒點名這人"
   ],
   "added_titles": [
-    "寒露10/8來臨 命理師示警「這類人」要注意(圖) www.​secretchina.​com/news/b5/2026/10/04/1105572.​html"
+    "他有默默為你做過些什麼嗎？他的真實想法和最終目的是什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -41,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月4日 22:51"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月5日 11:21"
     },
     {
       "script": "generate_daily_content.py",

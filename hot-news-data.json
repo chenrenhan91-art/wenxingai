@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-04",
-  "updated_at_display": "2026年10月4日 22:51",
+  "updated_at": "2026-10-05",
+  "updated_at_display": "2026年10月5日 11:21",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-04T22:51:57.253646+08:00",
+    "fetched_at": "2026-10-05T11:21:57.476728+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "他對你動心or走腎？心動程度有多少？更在意什麼？怎麼看待關係的？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+      "title": "他有默默為你做過些什麼嗎？他的真實想法和最終目的是什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUWW5VSzRmV3hIWlNtUmhMMjdnZGllYlVrcXpaQzRjRWFWSk9VVHZITllUcFdvdklWMEdMMThzaDBaZTYwaWR5UXltaEh0NG9rRV9MRWp3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIYjZhOV9lQld6TjEzRFpheWdtQndjUFFLUUNGYkFSandHNi1RX1MwdWNrWFdVYnJhcDNTSmhsdkMycVg1VjZES0JQUDJEclg4TlE1a2pn?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-10-03",
-      "published_display": "2026-10-03",
+      "published": "2026-09-29",
+      "published_display": "2026-09-29",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-07"
+      "event_cluster": "event-12"
     },
     {
       "title": "寒露10/8來臨 命理師示警「這類人」要注意(圖) www.​secretchina.​com/news/b5/2026/10/04/1105572.​html",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-118"
+      "event_cluster": "event-114"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -347,10 +347,10 @@
     },
     {
       "title": "「蘇巧慧VS李四川」新北大激戰！命理師解鎖「面相+流年」勝負玄機…秒點名這人",
-      "summary": "来自 ftvnews.com.tw · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 民視新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nWldQdHZhNlEzYi1IZDZMc3V6dnYxQVNGaTZLbmhCUnJsc0RwTTBSZ3JxckpqQmM3TkFMa0ozdERXRVdBa2N6c29QOW1Oel8xVjFRMTQ0eWJvSFJqQ2VoUw?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "ftvnews.com.tw · Google News",
+      "source": "民視新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -367,7 +367,7 @@
     {
       "title": "寒露將至！開運關鍵在「收」 命理師提醒3種人要注意",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFY0ZBZ1VtMmJLUzNBM2lqcUtRMzNTZUJRNDA5Yy1mUUJrNGoxSGNUZ09EckFYdWJzaUdWbWdGVW1IeENrSl9HMkVma1FhS2E0Ni1TMGRn0gFWQVVfeXFMUEVjRkFnVW0yYktTM0EzaWpxS1EzM1NlQlE0MDljLWZRQms0ajFIY1RnT0RyQVh1YnNpR1ZtZ0ZVbUh4Q2tKX0cyRWZrUWFLYTQ2LVMwZGc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zZ0lWTnZKX0dlbzNVUnh4MTZXMFNobmstTTZmOTV2c1hzMl9MX1FiOGdnS2FGd2RzZWcwWFRIUy1FOVBvbXk2bjk1SUk3MjBS0gFWQVVfeXFMUEVjRkFnVW0yYktTM0EzaWpxS1EzM1NlQlE0MDljLWZRQms0ajFIY1RnT0RyQVh1YnNpR1ZtZ0ZVbUh4Q2tKX0cyRWZrUWFLYTQ2LVMwZGc?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
