@@ -1,9 +1,9 @@
-# 问星AI 内容自动化运行报告 2026年10月5日 21:24
+# 问星AI 内容自动化运行报告 2026年10月6日 11:16
 
 - 总体状态：failed_generate
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：e22c29b24518b6353540e8047d93c9cd7f7ec451
+- 变更签名：13d3726c1ad6dd413b6350bcf7dda46c42d11210
 - Gemini 是否执行：是
 - Gemini 审校是否执行：否
 - 规则质检是否执行：否
@@ -14,14 +14,13 @@
 
 ## 本轮热点标题
 - ta從沒表達過的內心戲！ta現在迫切想讓你做什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|
-- 寒露10/8來臨 命理師示警「這類人」要注意(圖) www.​secretchina.​com/news/b5/2026/10/04/1105572.​html
+- 天色漸漸光啦！ 青鳥發文說沈伯洋演講「出現聖光」，文章破4萬讚，一堆青鳥喊太神啦！ 更有命理師指出，雲層裂開，一道道金光穿雲而出，玄學的角度有「撥雲見日」的意象。 還有青鳥聽完命理師的分析驚呼：「我在光裡看到大佛！」 我猜沈伯洋出生的那天，天上一定是
 - [問卦] 中醫 是醫學還是玄學？
 - 獨家／中秋後3生肖運勢轉衰 命理師曝「開運破解法」：穩住身心最重要
 - 週四迎寒露！命理師點名「3類人」運勢大震盪 工作健康恐陷危機
 
 ## 新增标题
-- ta從沒表達過的內心戲！ta現在迫切想讓你做什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|
-- 週四迎寒露！命理師點名「3類人」運勢大震盪 工作健康恐陷危機
+- 天色漸漸光啦！ 青鳥發文說沈伯洋演講「出現聖光」，文章破4萬讚，一堆青鳥喊太神啦！ 更有命理師指出，雲層裂開，一道道金光穿雲而出，玄學的角度有「撥雲見日」的意象。 還有青鳥聽完命理師的分析驚呼：「我在光裡看到大佛！」 我猜沈伯洋出生的那天，天上一定是
 
 ## 次日运营建议
 - 明日优先延展「命理新闻」相关选题（当前占比 6/8）。
@@ -31,7 +30,7 @@
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年10月5日 21:24
+updated 8 hot news items at 2026年10月6日 11:16
 - generate_daily_content.py | failed | [warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {"error":{"message":"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.","type":"invalid_request_error","param":null,...
 [warn] DashScope model qwen3.6-flash-2026-04-16 failed; trying qwen3.5-flash. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
 [warn] DashScope model qwen3.5-flash failed; trying qwen3.5-35b-a3b. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...

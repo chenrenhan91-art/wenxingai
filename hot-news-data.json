@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-05",
-  "updated_at_display": "2026年10月5日 21:24",
+  "updated_at": "2026-10-06",
+  "updated_at_display": "2026年10月6日 11:16",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-05T21:24:29.202069+08:00",
+    "fetched_at": "2026-10-06T11:16:42.427065+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -271,22 +271,23 @@
       "event_cluster": "event-08"
     },
     {
-      "title": "寒露10/8來臨 命理師示警「這類人」要注意(圖) www.​secretchina.​com/news/b5/2026/10/04/1105572.​html",
+      "title": "天色漸漸光啦！ 青鳥發文說沈伯洋演講「出現聖光」，文章破4萬讚，一堆青鳥喊太神啦！ 更有命理師指出，雲層裂開，一道道金光穿雲而出，玄學的角度有「撥雲見日」的意象。 還有青鳥聽完命理師的分析驚呼：「我在光裡看到大佛！」 我猜沈伯洋出生的那天，天上一定是",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1YUDBpVWx6VkNFaldSaUZnX3o3Z1ZiRmxiN0FmNnlMdUZ6SXZPRjQ0MVJDanlVVV96d3NVaHl4QlZMc3IzWk9FY1dack5CQ0xZN2JPX1d6c1ctT3E5MFYyMkVB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBob0tpcjRKWXRweWU5NlRmMWN5TUpSMDVfdGdlZGtUUkkycmJfd3J0YU1RLXVOMHFpMDV0TnRDUVhTLU4wbEtzV2hoMTU4TEdfSk9yY1lJRGd3VjZEcTJmMGhickhMMks0Y0d5N1JnOXZ2dw?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "命理新闻",
-      "published": "2026-10-04",
-      "published_display": "2026-10-04",
+      "published": "2026-10-05",
+      "published_display": "2026-10-05",
       "matched_keywords": [
         "命理",
-        "命理師"
+        "命理師",
+        "玄學"
       ],
       "score": 9.95,
-      "event_cluster": "event-114"
+      "event_cluster": "event-106"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
