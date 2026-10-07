@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-07T11:18:42.912213+08:00",
-  "ran_at_display": "2026年10月7日 11:18",
+  "ran_at": "2026-10-07T21:21:10.372908+08:00",
+  "ran_at_display": "2026年10月7日 21:21",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "8933a30374a9bd0fa6b7ef8a79bb1f69631fd20f",
-  "new_signature": "b3918de1fb5221316e857541d84d659b0163dd05",
+  "previous_signature": "b3918de1fb5221316e857541d84d659b0163dd05",
+  "new_signature": "2407ae459a19bc00f7d8fb6369782efacb8bf887",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,19 +21,17 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "ta是否還值得你繼續堅持和付出？ta最終會讓你收穫什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "他對你的潛意識想法！對你最直接的情感感覺|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
     "[問卦] 中醫 是醫學還是玄學？",
     "寒露10/8到了！命理師點名「3類人」運勢動盪要小心，開運「3招」先整理帳目",
     "明天寒露交節宜開運命理師授「一字訣」：3招迎好運| 星座命理| 生活"
   ],
   "added_titles": [
-    "ta是否還值得你繼續堅持和付出？ta最終會讓你收穫什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
-    "明天寒露交節宜開運命理師授「一字訣」：3招迎好運| 星座命理| 生活"
+    "他對你的潛意識想法！對你最直接的情感感覺|曖昧|愛情|戀愛|桃花|塔羅占卜|"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -43,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月7日 11:18"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月7日 21:21"
     },
     {
       "script": "generate_daily_content.py",
