@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-06",
-  "updated_at_display": "2026年10月6日 21:18",
+  "updated_at": "2026-10-07",
+  "updated_at_display": "2026年10月7日 11:18",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-06T21:18:43.525138+08:00",
+    "fetched_at": "2026-10-07T11:18:55.601277+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,46 +248,45 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
-      "title": "他對你動心or走腎？心動程度有多少？更在意什麼？怎麼看待關係的？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+      "title": "ta是否還值得你繼續堅持和付出？ta最終會讓你收穫什麼？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUWW5VSzRmV3hIWlNtUmhMMjdnZGllYlVrcXpaQzRjRWFWSk9VVHZITllUcFdvdklWMEdMMThzaDBaZTYwaWR5UXltaEh0NG9rRV9MRWp3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ncDluVllEdHFuVmRQcjNQeWlxRG96WTh3bkpjNldWMzdPeDNlMnJ5eGJvRHVzaXJHbzhVLUpSY2RrZW9fR0dGWll3UEp5MkRpdWZPLTN3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-10-03",
-      "published_display": "2026-10-03",
+      "published": "2026-10-06",
+      "published_display": "2026-10-06",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-12"
+      "event_cluster": "event-09"
     },
     {
-      "title": "天色漸漸光啦！ 青鳥發文說沈伯洋演講「出現聖光」，文章破4萬讚，一堆青鳥喊太神啦！ 更有命理師指出，雲層裂開，一道道金光穿雲而出，玄學的角度有「撥雲見日」的意象。 還有青鳥聽完命理師的分析驚呼：「我在光裡看到大佛！」 我猜沈伯洋出生的那天，天上一定是",
+      "title": "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBob0tpcjRKWXRweWU5NlRmMWN5TUpSMDVfdGdlZGtUUkkycmJfd3J0YU1RLXVOMHFpMDV0TnRDUVhTLU4wbEtzV2hoMTU4TEdfSk9yY1lJRGd3VjZEcTJmMGhickhMMks0Y0d5N1JnOXZ2dw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9KWjhVX1Z5NzhUZnFQTnpRQi01UjVWZEhEYXR3Y0s1ZlUwcHhRTTF1YWJidW1Fdk9IXzlLUmNXWUZiQ0VHVkluc3JpaGtkRWRGSHhSSmtNNmpkYkVaVkRnR1hR?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "命理新闻",
-      "published": "2026-10-05",
-      "published_display": "2026-10-05",
+      "published": "2026-10-06",
+      "published_display": "2026-10-06",
       "matched_keywords": [
         "命理",
-        "命理師",
-        "玄學"
+        "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-101"
+      "event_cluster": "event-97"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -328,6 +327,25 @@
       "event_cluster": "event-02"
     },
     {
+      "title": "明天寒露交節宜開運命理師授「一字訣」：3招迎好運| 星座命理| 生活",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBXeHlSNUY2NXhqNzRkRkFfaGNWRV9aWmg0NHJaMDVyZE04ZTlqOGtmc1UxM2kwV0I1dUxteFlpWTNaeGhKdVdlSS1VQUlzMWZmc2JhOWFyd2ozbzQ3Vk9TMlZac2pkZjkwcVdvVk1DOEN6UQ?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "UDN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-10-07",
+      "published_display": "2026-10-07",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
       "title": "獨家／寒露10月8日到！日夜溫差轉大 命理師點名「4生肖」運勢有變化",
       "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBWVWloTnZoRENWTDl0QUJvTVgwRzRoUUp2UE52VjROQkYyODhldG4tcUMtcjJWUGFpYVN1bWd5YkR4RU94N2dUT9IBTEFVX3lxTE1SLVJYcW53RTZQUGpwZ2RUWlA2akh6cEM5cy1XRXBPNXZEQ3JtdUdGUDJzdFdlSjJaeXJVU1c1Y0hZV3Z0SU11bVMzSWk?oc=5",
@@ -344,7 +362,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "週四迎寒露「收」出好運！命理師曝開運3招 3類人近期要留意 | 生活 | CTWANT",
@@ -363,7 +381,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "寒露運勢洗牌！命理師點名5星座最旺，獅子迎貴人、水瓶掌握主導權",
@@ -380,25 +398,6 @@
         "命理",
         "命理師",
         "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "2026寒露10/8交節氣！早晚溫差大 命理師點名2生肖1類人留意、開運3招整理生活",
-      "summary": "来自 基隆海嗨 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE80Y3RPQTlreTlFSFozSHVEakJtM0VvQlZmSVJFMlUwa09DNjZtbzNGSk02bk9fWUt4QnRoOUtqbE1MaFhKU1Vn?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "基隆海嗨 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-06",
-      "published_display": "2026-10-06",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-06"
