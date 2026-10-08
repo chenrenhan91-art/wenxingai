@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-08T11:18:55.136085+08:00",
-  "ran_at_display": "2026年10月8日 11:18",
+  "ran_at": "2026-10-08T21:21:38.722564+08:00",
+  "ran_at_display": "2026年10月8日 21:21",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "2407ae459a19bc00f7d8fb6369782efacb8bf887",
-  "new_signature": "4d5428bf317e188c44141534ffb940dde844017f",
+  "previous_signature": "4d5428bf317e188c44141534ffb940dde844017f",
+  "new_signature": "6ed4690447c940249cee9f3f032f305b7ff1a961",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -24,14 +24,14 @@
     "他對你的潛意識想法！對你最直接的情感感覺|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
     "[問卦] 中醫 是醫學還是玄學？",
-    "寒露10/8到了！命理師點名「3類人」運勢動盪要小心，開運「3招」先整理帳目",
-    "寒露來了！開運3秘訣大公開 命理師點名3類人注意"
+    "寒露節氣2026｜命理師點名4生肖運勢低迷小心破財 教3招居家開運",
+    "寒露10/8到了！命理師點名「3類人」運勢動盪要小心，開運「3招」先整理帳目"
   ],
   "added_titles": [
-    "寒露來了！開運3秘訣大公開 命理師點名3類人注意"
+    "寒露節氣2026｜命理師點名4生肖運勢低迷小心破財 教3招居家開運"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -41,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月8日 11:19"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月8日 21:21"
     },
     {
       "script": "generate_daily_content.py",

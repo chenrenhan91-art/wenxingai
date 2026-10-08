@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-08T11:19:12.937587+08:00",
-  "generated_at_display": "2026-10-08 11:19 CST",
+  "generated_at": "2026-10-08T21:21:59.269225+08:00",
+  "generated_at_display": "2026-10-08 21:21 CST",
   "site_positioning": "问星AI是面向全球华语用户的AI命理应用，核心覆盖紫微斗数、四柱八字、周易六爻、合盘分析、大运流年与玄学热点解读。",
   "hot_news": {
     "updated_at": "2026-10-08",
@@ -8,11 +8,11 @@
       "他對你的潛意識想法！對你最直接的情感感覺|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
       "[問卦] 中醫 是醫學還是玄學？",
+      "寒露節氣2026｜命理師點名4生肖運勢低迷小心破財 教3招居家開運",
       "寒露10/8到了！命理師點名「3類人」運勢動盪要小心，開運「3招」先整理帳目",
+      "寒露交節宜開運 命理師授「一字訣」：3招迎好運",
       "寒露來了！開運3秘訣大公開 命理師點名3類人注意",
-      "今迎寒露！命理師點名2類人恐出事 開運3方法曝",
-      "明天寒露交節宜開運命理師授「一字訣」：3招迎好運| 星座命理| 生活",
-      "明天「寒露」！命理師教開運3招：整理玄關、清單據 擺脫不順迎好運"
+      "寒露運勢翻轉！ 命理師揭「8動作」：守財運穩事業"
     ],
     "keywords": [
       [
@@ -24,8 +24,12 @@
         6
       ],
       [
+        "運勢",
+        3
+      ],
+      [
         "開運",
-        4
+        2
       ],
       [
         "塔羅",
@@ -50,20 +54,16 @@
       [
         "讨论",
         1
-      ],
-      [
-        "運勢",
-        1
       ]
     ],
     "categories": [
       [
         "命理新闻",
-        5
+        6
       ],
       [
         "塔罗星象",
-        2
+        1
       ],
       [
         "社区热议",
@@ -141,6 +141,41 @@
       "automation_cadence": "weekly"
     },
     {
+      "id": "xuanxue-hot-news",
+      "name": "玄学热点与命理新闻",
+      "score": 110,
+      "priority": 76,
+      "hot_matches": [
+        "生肖",
+        "桃花"
+      ],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "玄学",
+        "命理新闻",
+        "命理热点",
+        "塔罗占卜",
+        "运势"
+      ],
+      "target_questions": [
+        "最近玄学热点有哪些？",
+        "命理新闻为什么容易引发讨论？",
+        "如何理性看待生肖运势和塔罗占卜？"
+      ],
+      "preferred_pages": [
+        "/mingli-xuanxue-news.html",
+        "/articles/",
+        "/glossary.html"
+      ],
+      "content_angles": [
+        "用每日热点做新鲜度",
+        "把新闻转成理性命理解释",
+        "避免娱乐化过度预言"
+      ],
+      "automation_cadence": "daily"
+    },
+    {
       "id": "ziwei-ai",
       "name": "紫微斗数AI排盘",
       "score": 105,
@@ -205,40 +240,6 @@
         "用热点文章承接节气新闻"
       ],
       "automation_cadence": "seasonal"
-    },
-    {
-      "id": "xuanxue-hot-news",
-      "name": "玄学热点与命理新闻",
-      "score": 98,
-      "priority": 76,
-      "hot_matches": [
-        "桃花"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "玄学",
-        "命理新闻",
-        "命理热点",
-        "塔罗占卜",
-        "运势"
-      ],
-      "target_questions": [
-        "最近玄学热点有哪些？",
-        "命理新闻为什么容易引发讨论？",
-        "如何理性看待生肖运势和塔罗占卜？"
-      ],
-      "preferred_pages": [
-        "/mingli-xuanxue-news.html",
-        "/articles/",
-        "/glossary.html"
-      ],
-      "content_angles": [
-        "用每日热点做新鲜度",
-        "把新闻转成理性命理解释",
-        "避免娱乐化过度预言"
-      ],
-      "automation_cadence": "daily"
     },
     {
       "id": "liuyao-ai",
@@ -358,6 +359,32 @@
       "angle": "理性解释AI命理边界"
     },
     {
+      "cluster_id": "xuanxue-hot-news",
+      "cluster_name": "玄学热点与命理新闻",
+      "action": "new_article",
+      "primary_keyword": "玄学",
+      "target_question": "最近玄学热点有哪些？",
+      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
+      "suggested_h2": [
+        "玄学的搜索意图是什么",
+        "问星AI如何解释玄学",
+        "传统命理与AI趋势分析的边界",
+        "可引用事实与常见问题"
+      ],
+      "internal_links": [
+        "/facts/wenxing-ai.html",
+        "/geo-answers.html",
+        "/glossary.html",
+        "/mingli-xuanxue-news.html"
+      ],
+      "hot_context": [
+        "他對你的潛意識想法！對你最直接的情感感覺|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
+        "[問卦] 中醫 是醫學還是玄學？"
+      ],
+      "angle": "用每日热点做新鲜度"
+    },
+    {
       "cluster_id": "ziwei-ai",
       "cluster_name": "紫微斗数AI排盘",
       "action": "new_article",
@@ -408,32 +435,6 @@
         "[問卦] 中醫 是醫學還是玄學？"
       ],
       "angle": "节气前7天更新对应页面"
-    },
-    {
-      "cluster_id": "xuanxue-hot-news",
-      "cluster_name": "玄学热点与命理新闻",
-      "action": "new_article",
-      "primary_keyword": "玄学",
-      "target_question": "最近玄学热点有哪些？",
-      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
-      "suggested_h2": [
-        "玄学的搜索意图是什么",
-        "问星AI如何解释玄学",
-        "传统命理与AI趋势分析的边界",
-        "可引用事实与常见问题"
-      ],
-      "internal_links": [
-        "/facts/wenxing-ai.html",
-        "/geo-answers.html",
-        "/glossary.html",
-        "/mingli-xuanxue-news.html"
-      ],
-      "hot_context": [
-        "他對你的潛意識想法！對你最直接的情感感覺|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-        "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
-        "[問卦] 中醫 是醫學還是玄學？"
-      ],
-      "angle": "用每日热点做新鲜度"
     }
   ],
   "monthly_ai_prompt_tests": [
