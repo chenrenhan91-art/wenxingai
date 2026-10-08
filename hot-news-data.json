@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-07",
-  "updated_at_display": "2026年10月7日 21:21",
+  "updated_at": "2026-10-08",
+  "updated_at_display": "2026年10月8日 11:19",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-07T21:21:19.108116+08:00",
+    "fetched_at": "2026-10-08T11:19:04.557581+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-11"
+      "event_cluster": "event-14"
     },
     {
       "title": "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-107"
+      "event_cluster": "event-116"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -327,6 +327,44 @@
       "event_cluster": "event-02"
     },
     {
+      "title": "寒露來了！開運3秘訣大公開 命理師點名3類人注意",
+      "summary": "来自 緯來新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRzVuSUdCMGh2Ykh6THZMOEthMjIwc01Nbk1vM1hCM1JLU1RvT3BhVmFmdi1qWnpjSDYzd1pKelJ1UlRXNVNPUE5lMDVvRTVpVElMaGlEaXBYTGtxeTRUYXZxWWhTWjJEeFFqMUVVcjJOOGRILVRydFFxZEJfRGdyNHpNQVZsdw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "緯來新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-08",
+      "published_display": "2026-10-08",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
+      "title": "今迎寒露！命理師點名2類人恐出事 開運3方法曝",
+      "summary": "来自 鏡新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBEd25GRnRWYXNwdHF1b0dWaFdlQ2RpOFBISHcxcThNNkJ3aWRYM0V3cDZ3MXJlM3IxXzIzaEtGUUJWWFVKRjNLQzAxSDRTMURMRGlUZnRCSDDSAV5BVV95cUxOYmVOcHN3Z3BvcDVnVmE5a00tN2pIWjJSdGZnM1pyS3ZUelZWT21Zdnk2RTF4WktjRmRyeDR4cFRKOHpFTDNrRnVzY3E5VnRGRU5HUDdBOE10aGN5ZE1B?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "鏡新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-08",
+      "published_display": "2026-10-08",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
+    },
+    {
       "title": "明天寒露交節宜開運命理師授「一字訣」：3招迎好運| 星座命理| 生活",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBXeHlSNUY2NXhqNzRkRkFfaGNWRV9aWmg0NHJaMDVyZE04ZTlqOGtmc1UxM2kwV0I1dUxteFlpWTNaeGhKdVdlSS1VQUlzMWZmc2JhOWFyd2ozbzQ3Vk9TMlZac2pkZjkwcVdvVk1DOEN6UQ?oc=5",
@@ -343,26 +381,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "迎寒露交節！命理師點名「3類人」要留意 開運方法曝光",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNbDkwVTNYc0xxeHFQSkE1ZnBVTWRHRjJjTmlLMVZXbTVYX2JEQ3FEQy1XanRuTHFZcWZNZ3RmMHJZQVlxUGtKa3NfeTYzbGxYOHhEME8tUUNrb2VDYm9VOUlPZWRRY2pJV2NTd1BjSFlQS3NzeFRlRDI4QUs3ZE1hb2ZNWDdELVhpNC01Z2RTcFdfdWRLQ2c3aW40cVpHMWREbi12dW8wTTFtSVdxMlBZbEpyU2dURVpyY3F3TFRTTlJUT0tzdW1wMEIxSmY0dGlxb2RBNlRuaUk0VnQ0dVFZWXFWYnhZOUF1VURXcFZKWlFfekszc3JvT0R6R2ZHN1BqclVYRzE0Xy1qOG1NYmszREJXUkxVdXhTSTU2VU0yM1h4Y1R2TkZEb1AwbUdwRHppbk5FSnhUSzNhX1NjRHh3TUV4Rk9Fa2Nwb19OWjdQWDZ2bHhNX0E?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-07",
-      "published_display": "2026-10-07",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "明天「寒露」！命理師教開運3招：整理玄關、清單據 擺脫不順迎好運",
@@ -370,25 +389,6 @@
       "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNYmptX0kxMjhVbDVYYnVweEJBUkpRVlJqVDM2cFpyNnM4UXRPcHdDeEJIS3RWMWlNcFVmWmtPbkExWnVVajVYZ2RhZGxhUHJRSVJKMFJ6eVpFbWNSYkNlSzlKbXRXaTNjcFd3ajZPME9uZmt1OC1hVVpUd2ZyaTFDOEZ2Q0o3VE5INVdxWmo4X2dLeU9qbGV3X0h4WnZfcXlRdVgtcFNzb0IzNDlILTJjUHNzNllqY3A4OTVzcHVPRlRWcFdEUzBSUHJVUEFyZXBLbm16czVKZkY2RDlnMV9SdVFoY1BQS25uT1Vac29LR255U0U2b0tSdGotaFZvWV9iS2w2d09YLTRpVDRqOGJZMFZKQktGQ1lvZ2pZb2xNVnJmWjczUWN6R2dLU2U3bXN6Znc?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-07",
-      "published_display": "2026-10-07",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "明迎「寒露」！命理師曝開運3招 點名2生肖和「這類人」要小心",
-      "summary": "来自 ETtoday新聞雲 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5iNFpkTXVSTm5vcENaTlRvYWNiMHJEUk5KamxMMDF1ay1SYmpBWmx3QjRUN2xTVGdLUGhuN3Z0VmZpT1BjQXRrNVk3SdIBS0FVX3lxTE5iNFpkTXVSTm5vcENaTlRvYWNiMHJEUk5KamxMMDF1ay1SYmpBWmx3QjRUN2xTVGdLUGhuN3Z0VmZpT1BjQXRrNVk3SQ?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "ETtoday新聞雲 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
