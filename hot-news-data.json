@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-08",
-  "updated_at_display": "2026年10月8日 21:21",
+  "updated_at": "2026-10-09",
+  "updated_at_display": "2026年10月9日 11:19",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-08T21:21:51.366637+08:00",
+    "fetched_at": "2026-10-09T11:19:26.229509+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-17"
+      "event_cluster": "event-18"
     },
     {
       "title": "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
