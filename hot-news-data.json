@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-09",
-  "updated_at_display": "2026年10月9日 21:20",
+  "updated_at": "2026-10-10",
+  "updated_at_display": "2026年10月10日 11:18",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-09T21:20:08.067299+08:00",
+    "fetched_at": "2026-10-10T11:18:45.342168+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,9 +252,9 @@
   ],
   "items": [
     {
-      "title": "他對你的潛意識想法！對你最直接的情感感覺|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "你們對彼此的情感，雙方的想法，對關係的在意程度，希望如何？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BN0Q1ODRuZzVVN0JQSVVTS1VHZnp5M3E3X3ljQUxoZ3VvS3Voa1k1S3hUdEZTMDdNNlBsM29PWHdmWnp5RTdSNjZnMjVRMllhdFRKQUNB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE41M190aTl5dWM3TzVVUWxyRG5ibzRWanc0MklIZXBQR2VHSGY3Q3hpMW5Nb0VGa2FYSlB4b0RaWlBwVFdHVW0tQjJXWWlBY0NOVkY3aWlB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-23"
+      "event_cluster": "event-24"
     },
     {
       "title": "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-124"
+      "event_cluster": "event-131"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -346,16 +346,16 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "雙十節開運！命理師公開「3祕法」 財運旺整年",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQNkY1Z25yRmFwcndCUzgzOE94VFZLdktYdEVjVlVnMnlsTjRPaHBnTUNkNjNrRDlEUTZBcThUamlPaWVCbmtUcTgzV01KSWZKVm5RbnNYX0JlSEpSX01pNm5wNHZCV3dKQ2pkbS14di1rcFo5RVBEMVhtSDV2eC04Qmp2STN4NXFVdFIzT2ZLdzVFdEI1LTBDV2h0dDB0VEc1YmE2aHdOTU9iWUgzMnlJSEVSWEdTMDVUWjA3S1ZfU3ZBQjlOUU9LbnJVR1M2ZmtYREd2Z0hCVmFvYjBQUGE4QjdMbjlvQ1dCeVEybUZLOEFuZXdiWG9ONnhNZzh6RVBzbzJLX1JpU2VEeGx4cmhJTGl6Qi14YmdySVlLNEFnWUtaaFV0?oc=5",
+      "title": "今天雙十節！命理師教4招開運旺財求桃花：房間放硬幣、1010元紅包放床下",
+      "summary": "来自 ELLE · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vZUdUaDNtdUpLalZvWGtiVkg5WC1DcXd5UGdxWTZQT2VoVnFxdmZKZVNkV0JCQTRCUVp1dmFrV0VHeDlweHRIcnpFOWU2NXVhQ3Z2SUt2aWlaVFpiZ1M2dGlnU0d1V2lpbndybw?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
+      "source": "ELLE · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-10-09",
-      "published_display": "2026-10-09",
+      "published": "2026-10-10",
+      "published_display": "2026-10-10",
       "matched_keywords": [
         "命理",
         "命理師",
@@ -384,11 +384,11 @@
       "event_cluster": "event-05"
     },
     {
-      "title": "雙十節開運！命理師傳授3祕法旺財、招桃花- 好運到",
-      "summary": "来自 觸mii · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpQjZaS2V1Y3c3Y3lsQ25HbmJfNnBiTkU1Y1BoOVNfc2NiX1hmTTJwcHNJUE9aa2xRRFZ3Q0Z6VXliX3RIY1A4bXUtTFMyZ1N0RXdyWVlYejFMTF9kUnJiYTZXXzdIal81Vl9feg?oc=5",
+      "title": "雙十節開運！命理師公開「3祕法」 財運旺整年",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQNkY1Z25yRmFwcndCUzgzOE94VFZLdktYdEVjVlVnMnlsTjRPaHBnTUNkNjNrRDlEUTZBcThUamlPaWVCbmtUcTgzV01KSWZKVm5RbnNYX0JlSEpSX01pNm5wNHZCV3dKQ2pkbS14di1rcFo5RVBEMVhtSDV2eC04Qmp2STN4NXFVdFIzT2ZLdzVFdEI1LTBDV2h0dDB0VEc1YmE2aHdOTU9iWUgzMnlJSEVSWEdTMDVUWjA3S1ZfU3ZBQjlOUU9LbnJVR1M2ZmtYREd2Z0hCVmFvYjBQUGE4QjdMbjlvQ1dCeVEybUZLOEFuZXdiWG9ONnhNZzh6RVBzbzJLX1JpU2VEeGx4cmhJTGl6Qi14YmdySVlLNEFnWUtaaFV0?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "觸mii · Google News",
+      "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
