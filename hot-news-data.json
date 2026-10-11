@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-11",
-  "updated_at_display": "2026年10月11日 11:20",
+  "updated_at_display": "2026年10月11日 21:15",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-11T11:20:20.519306+08:00",
+    "fetched_at": "2026-10-11T21:15:28.126170+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "深挖你的命定之事【近期运势】你的好运即将启动！事业、感情与生活会出现什么新变化？| #塔罗占卜| 塔羅2026 | 2026 感情塔羅【超准】",
+      "title": "他對你的潛意識想法！對你最直接的情感感覺|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hU1BtbGNVc0w0a2NIYUwyM3RodFJJd1g3djZQbEZoWjFhNThXSHN2WUJwR2lYdXFvQVBkenYxNHVGMXVwR3Q3NHk2MUE3NldjVnVvRVJR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BN0Q1ODRuZzVVN0JQSVVTS1VHZnp5M3E3X3ljQUxoZ3VvS3Voa1k1S3hUdEZTMDdNNlBsM29PWHdmWnp5RTdSNjZnMjVRMllhdFRKQUNB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-10-11",
-      "published_display": "2026-10-11",
+      "published": "2026-10-07",
+      "published_display": "2026-10-07",
       "matched_keywords": [
-        "运势",
         "塔羅",
-        "塔罗"
+        "占卜",
+        "桃花"
       ],
-      "score": 12.35,
-      "event_cluster": "event-34"
+      "score": 14.55,
+      "event_cluster": "event-22"
     },
     {
       "title": "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-136"
+      "event_cluster": "event-144"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -310,7 +310,7 @@
     {
       "title": "寒露節氣2026｜命理師點名4生肖運勢低迷小心破財 教3招居家開運",
       "summary": "来自 香港01 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE93NDY5ak0tdE9UWERWYTJqbHNXWEFVcWZxdzFqNXFkTjZxbXdZd1lsZVhmV1ZqRkNTQjhXTTZ4eFFnNTN3N1pJcHp0VGhEZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirANBVV95cUxPbUZvblI1TC1XUC1MOXh5ODNrdXJPRXZ4QUM0MTd2dUJrM0o2aXJGazBqVW5SRjZaeDJoTms1Y2daMU1KbWFLSUVpUUpuS3I5YWJpNUQ1cF9yQ3FyTjdTdUptOU1tMGw1TmtwVmRNbmZja01NM1Q4NUl3VHJFMEZfWnJfalB6YnhMcFREbmN4d2JDTFU3dkNVNlkwUTJUZ2lpQXJyWnNMQ2xsZWF4bTVYenJwTDlZUkhOR1YtdDdWS1FuWnZ5bGRtVTZFRk1TaVhUdzlUWk50dk1qSUYwX0pPTHR6WE5DdDNOUWhMazJzVlZpVzZuLXliXzlmQTdYQm1EQThrODdhamVTdG1zX3Z1aGN0NWpZSzZvN3lrV0FxNmxCT05HMFJCVEc3ek9yZnJWNmJVYU54R3I5SzRDR19sb3Fid1ZpbUR3REg2d2pJVWM5b2tRV2tEZi04T3UzQWduS3ljXzJoaVRjZXlaSndjWVViVDduVTAtVW94SFBnaFQxM2FCQzR6ZmFDLXpHRXFsNjhXWUU1Q3RVV3RUU1R1RnM2c2M2SXgyQnJTWQ?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "香港01 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -365,16 +365,16 @@
       "event_cluster": "event-04"
     },
     {
-      "title": "討論牆 | 寒露來了！開運3秘訣大公開 命理師點名3類人注意",
-      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XWXJkSWJEdjFHalZCdW9lUmM0NTBTLVdiNnVHc2VkQnBXQnBYNUlKNGRDcnJzRGduZUJkTjNGVFVMcHdrSDdGellzZUc1a3c2REJWOXZNMk5TT256V3lHTmFZcGI?oc=5",
+      "title": "雙十節開運！命理師公開「3祕法」 財運旺整年",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQNkY1Z25yRmFwcndCUzgzOE94VFZLdktYdEVjVlVnMnlsTjRPaHBnTUNkNjNrRDlEUTZBcThUamlPaWVCbmtUcTgzV01KSWZKVm5RbnNYX0JlSEpSX01pNm5wNHZCV3dKQ2pkbS14di1rcFo5RVBEMVhtSDV2eC04Qmp2STN4NXFVdFIzT2ZLdzVFdEI1LTBDV2h0dDB0VEc1YmE2aHdOTU9iWUgzMnlJSEVSWEdTMDVUWjA3S1ZfU3ZBQjlOUU9LbnJVR1M2ZmtYREd2Z0hCVmFvYjBQUGE4QjdMbjlvQ1dCeVEybUZLOEFuZXdiWG9ONnhNZzh6RVBzbzJLX1JpU2VEeGx4cmhJTGl6Qi14YmdySVlLNEFnWUtaaFV0?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "LINE TODAY · Google News",
+      "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-10-10",
-      "published_display": "2026-10-10",
+      "published": "2026-10-09",
+      "published_display": "2026-10-09",
       "matched_keywords": [
         "命理",
         "命理師",
