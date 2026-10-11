@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-10T21:14:11.407746+08:00",
-  "ran_at_display": "2026年10月10日 21:14",
+  "ran_at": "2026-10-11T11:20:11.815054+08:00",
+  "ran_at_display": "2026年10月11日 11:20",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "6115e84dd0d54f5d69efc74ecf85d8816098fe78",
-  "new_signature": "56ecf4e693872a272097ba2bb483ac1c39a15430",
+  "previous_signature": "56ecf4e693872a272097ba2bb483ac1c39a15430",
+  "new_signature": "21e783a40711e67ad33866bfb7c2cbfc03f4f4b8",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,14 +21,14 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "深挖你的命定之事【灵性觉醒】选中这颗夜明珠，你身上隐藏着什么特殊能量？你的天赋与守护力量即将显现！| #塔罗占卜 | 塔羅 2026 | 2026 感情 塔羅【超准】",
+    "深挖你的命定之事【近期运势】你的好运即将启动！事业、感情与生活会出现什么新变化？| #塔罗占卜| 塔羅2026 | 2026 感情塔羅【超准】",
     "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
     "[問卦] 中醫 是醫學還是玄學？",
     "寒露節氣2026｜命理師點名4生肖運勢低迷小心破財 教3招居家開運",
     "寒露10/8到了！命理師點名「3類人」運勢動盪要小心，開運「3招」先整理帳目"
   ],
   "added_titles": [
-    "深挖你的命定之事【灵性觉醒】选中这颗夜明珠，你身上隐藏着什么特殊能量？你的天赋与守护力量即将显现！| #塔罗占卜 | 塔羅 2026 | 2026 感情 塔羅【超准】"
+    "深挖你的命定之事【近期运势】你的好运即将启动！事业、感情与生活会出现什么新变化？| #塔罗占卜| 塔羅2026 | 2026 感情塔羅【超准】"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -41,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月10日 21:14"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月11日 11:20"
     },
     {
       "script": "generate_daily_content.py",

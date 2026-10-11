@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-10",
-  "updated_at_display": "2026年10月10日 21:14",
+  "updated_at": "2026-10-11",
+  "updated_at_display": "2026年10月11日 11:20",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-10T21:14:22.282709+08:00",
+    "fetched_at": "2026-10-11T11:20:20.519306+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "深挖你的命定之事【灵性觉醒】选中这颗夜明珠，你身上隐藏着什么特殊能量？你的天赋与守护力量即将显现！| #塔罗占卜 | 塔羅 2026 | 2026 感情 塔羅【超准】",
+      "title": "深挖你的命定之事【近期运势】你的好运即将启动！事业、感情与生活会出现什么新变化？| #塔罗占卜| 塔羅2026 | 2026 感情塔羅【超准】",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wbWYxbUhWR2l3VUlrdEpOWXowcFBNM2lQR0hHc0VqRkVmWHo1U183UTF3SU56N0hKc29GOTdpWGU4ck90SG9tTEdjbG16cl9BODF1VU5B?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hU1BtbGNVc0w0a2NIYUwyM3RodFJJd1g3djZQbEZoWjFhNThXSHN2WUJwR2lYdXFvQVBkenYxNHVGMXVwR3Q3NHk2MUE3NldjVnVvRVJR?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-10-10",
-      "published_display": "2026-10-10",
+      "published": "2026-10-11",
+      "published_display": "2026-10-11",
       "matched_keywords": [
-        "能量",
+        "运势",
         "塔羅",
         "塔罗"
       ],
       "score": 12.35,
-      "event_cluster": "event-46"
+      "event_cluster": "event-34"
     },
     {
       "title": "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-132"
+      "event_cluster": "event-136"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -384,9 +384,9 @@
       "event_cluster": "event-05"
     },
     {
-      "title": "雙十節開運！命理師公開「3祕法」 財運旺整年",
+      "title": "大運流年有助益 命理師點名黃世杰是大黑馬",
       "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQNkY1Z25yRmFwcndCUzgzOE94VFZLdktYdEVjVlVnMnlsTjRPaHBnTUNkNjNrRDlEUTZBcThUamlPaWVCbmtUcTgzV01KSWZKVm5RbnNYX0JlSEpSX01pNm5wNHZCV3dKQ2pkbS14di1rcFo5RVBEMVhtSDV2eC04Qmp2STN4NXFVdFIzT2ZLdzVFdEI1LTBDV2h0dDB0VEc1YmE2aHdOTU9iWUgzMnlJSEVSWEdTMDVUWjA3S1ZfU3ZBQjlOUU9LbnJVR1M2ZmtYREd2Z0hCVmFvYjBQUGE4QjdMbjlvQ1dCeVEybUZLOEFuZXdiWG9ONnhNZzh6RVBzbzJLX1JpU2VEeGx4cmhJTGl6Qi14YmdySVlLNEFnWUtaaFV0?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQWnVBMlFrbGx3ck5MN2NlV0JmZkF3VExPc1lIcThGTlZudXhEMUFuZnJya2NPdmkzb2ZZQy1HeGFQYnRlSlU3eDlZZHNnck5udndqVE1WNlJiZ202UjVGN0UycWtLYUx1WkJpWTJyZWJDMlBJZ3FNUUZDQzFtZDR4dkwxX0lRWG41Zl9idlNBaV9WUFZMeW1laFQtWDQ3RTdjRjY3VU1rSEhjOXpReWJVVDV0cjJrZFU3X0xnQUJWTGJXZjR4OUNpaExqZ0dUQ3pCd3RuWGMxLVhKcjdHb1ZfQ19xcjNJS01Ua3RoeEIwbmpIVFJnTlJTM2xpUWpBQW1FZEFXUTlIOVV2Q0VQSHluZDh4VDZ1cXhSVE9RUlNJMDBSaXRIc0k3YnFTZ2hORE5fV2ZXa2pDdGM?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -397,7 +397,7 @@
       "matched_keywords": [
         "命理",
         "命理師",
-        "開運"
+        "流年"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-06"
