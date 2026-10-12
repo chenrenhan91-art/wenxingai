@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-12",
-  "updated_at_display": "2026年10月12日 11:27",
+  "updated_at_display": "2026年10月12日 21:38",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-12T11:27:31.132009+08:00",
+    "fetched_at": "2026-10-12T21:38:00.354165+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "他對你的潛意識想法！對你最直接的情感感覺|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "其實ta是不是真的心動了？心動的信號和表現！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BN0Q1ODRuZzVVN0JQSVVTS1VHZnp5M3E3X3ljQUxoZ3VvS3Voa1k1S3hUdEZTMDdNNlBsM29PWHdmWnp5RTdSNjZnMjVRMllhdFRKQUNB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6WG5iTFRtbmFVcUtRZVJhNDU1a3dfR1pHbGpoZ2tjQlFpcG5TRFVaMnJ4SWJrSTRjaFlLdmljOE1wcjFlOTFXRmNUMURZdXlKUUNxUGdR?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-10-07",
-      "published_display": "2026-10-07",
+      "published": "2026-10-11",
+      "published_display": "2026-10-11",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-23"
+      "event_cluster": "event-09"
     },
     {
       "title": "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
@@ -286,7 +286,7 @@
         "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-149"
+      "event_cluster": "event-167"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -346,6 +346,44 @@
       "event_cluster": "event-03"
     },
     {
+      "title": "秋天最後節氣！命理師曝「霜降開運法」 5生肖要小心",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPN19wcmhZTzY3eWxYbEI3T3I0N0tnSkdURGdOMEdob3hGajJmRDFTRjU0c1duWnJwSEt2VmRYdkdUTXhvSDJDbExmS0tYeHJaSHRFV3RxaC1NamYyUm9TM3oxeVpmeDZGbExJVDhaM3BtUWNPZS1DSWJjbE9jUWdiRGlzSXo3T1FtNHNJVDR1dWlqOWF6M0I1SnJLaXN0Q1VzVVFOY2RwTHcyb1FVWXhQVVhQLUhueUp6YWVkZTVGazJyRFZsdWs1NXFydkJUenBjZDgyTjBTbDdWcEtWaFdmQUlldmFqRTJqekRRc3h4bnUwSHVWNUw3Z2M4Y2pETVRULXRDaTZtV3NOU3pCeXcwWElNbkJMay1DdkZuVFo0X0tlbHRKbV9DeFZsb0M2QlF4UDJGUEpudmtDM2JtRXZVb2VFaThZOXlv?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-12",
+      "published_display": "2026-10-12",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
+    },
+    {
+      "title": "霜降將至！命理師曝開運法 5生肖要小心",
+      "summary": "来自 鏡週刊Mirror Media · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA2OHBEd0t1b2h2cFRzNHFJQWpGaE02T1ZXbGRYQ0dXZkFfbTN1V2dPZVNCNWRpZDNFQzBWOEVBMzdSR0E2ZDVtTV93MlUxQnRidDFPVmxEU3BMZS16QmVBbjdR0gFiQVVfeXFMUDY4cER3S3VvaHZwVHM0cUlBakZoTTZPVldsZFhDR1dmQV9tM3VXZ09lU0I1ZGlkM0VDMFY4RUEzN1JHQTZkNW1NX3cyVTFCdGJ0MU9WbERTcExlLXpCZUFuN1E?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "鏡週刊Mirror Media · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-12",
+      "published_display": "2026-10-12",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-05"
+    },
+    {
       "title": "討論牆 | 重陽節逢九運勢逆轉勝！命理師曝4生肖好運飛天大翻身，「他」破財衰運終於改善",
       "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91eUpWYlpOT0VTamsxZm03UmxWUHhYMV80b3otY2gzTkZqOVdkeDB2OHJ5NGthMTdTLXFwZ0NtXzB3czhxX1c3TmJ0LXRrOHlJaFNEb3QyS2l0a1NpN2tWQm9FbFE?oc=5",
@@ -360,44 +398,6 @@
         "命理",
         "命理師",
         "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "10月23日入霜降節氣！命理師：慎防心浮氣躁 5生肖運勢遇波折",
-      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5iSnlaangzUVZpa0tLendHREl2emFtNm5fSlZuLWwxY2lGWVIyUlRfb05EX3VEWHY2YXN3RWpRUGw4bGl6WEQ2ZE1FYVRTTDJEcXfSAVJBVV95cUxOYkp5Wmp4M1FWaWtLS3p3R0RJdnphbTZuX0pWbi1sMWNpRllSMlJUX29ORF91RFh2NmFzd0VqUVBsOGxpelhENmRNRWFUU0wyRHF3?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "NOWnews今日新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-11",
-      "published_display": "2026-10-11",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-11",
-      "published_display": "2026-10-11",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-06"

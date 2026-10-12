@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-12T11:27:21.344484+08:00",
-  "ran_at_display": "2026年10月12日 11:27",
+  "ran_at": "2026-10-12T21:37:49.147170+08:00",
+  "ran_at_display": "2026年10月12日 21:37",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "357eaafe49e02ad7d9dbdeb82e1964379fbba4e5",
-  "new_signature": "06a468e611891c71b96db83fe718c599250abd3f",
+  "previous_signature": "06a468e611891c71b96db83fe718c599250abd3f",
+  "new_signature": "44e0e2f39093c72f2ed0e6f3ab70c7c6d4e2b38d",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,13 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "他對你的潛意識想法！對你最直接的情感感覺|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "其實ta是不是真的心動了？心動的信號和表現！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
     "[問卦] 中醫 是醫學還是玄學？",
     "寒露節氣2026｜命理師點名4生肖運勢低迷小心破財 教3招居家開運",
     "寒露10/8到了！命理師點名「3類人」運勢動盪要小心，開運「3招」先整理帳目"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "其實ta是不是真的心動了？心動的信號和表現！|曖昧|愛情|戀愛|桃花|塔羅占卜|"
+  ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
@@ -39,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月12日 11:27"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月12日 21:38"
     },
     {
       "script": "generate_daily_content.py",
