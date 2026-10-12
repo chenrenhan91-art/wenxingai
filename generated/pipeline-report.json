@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-11T21:15:17.894204+08:00",
-  "ran_at_display": "2026年10月11日 21:15",
+  "ran_at": "2026-10-12T11:27:21.344484+08:00",
+  "ran_at_display": "2026年10月12日 11:27",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "21e783a40711e67ad33866bfb7c2cbfc03f4f4b8",
-  "new_signature": "357eaafe49e02ad7d9dbdeb82e1964379fbba4e5",
+  "previous_signature": "357eaafe49e02ad7d9dbdeb82e1964379fbba4e5",
+  "new_signature": "06a468e611891c71b96db83fe718c599250abd3f",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,9 +27,7 @@
     "寒露節氣2026｜命理師點名4生肖運勢低迷小心破財 教3招居家開運",
     "寒露10/8到了！命理師點名「3類人」運勢動盪要小心，開運「3招」先整理帳目"
   ],
-  "added_titles": [
-    "他對你的潛意識想法！對你最直接的情感感覺|曖昧|愛情|戀愛|桃花|塔羅占卜|"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
@@ -41,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月11日 21:15"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月12日 11:27"
     },
     {
       "script": "generate_daily_content.py",
