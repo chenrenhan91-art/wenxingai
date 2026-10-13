@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-12T21:38:06.667006+08:00",
-  "generated_at_display": "2026-10-12 21:38 CST",
+  "generated_at": "2026-10-13T11:21:08.815925+08:00",
+  "generated_at_display": "2026-10-13 11:21 CST",
   "site_positioning": "问星AI是面向全球华语用户的AI命理应用，核心覆盖紫微斗数、四柱八字、周易六爻、合盘分析、大运流年与玄学热点解读。",
   "hot_news": {
-    "updated_at": "2026-10-12",
+    "updated_at": "2026-10-13",
     "titles": [
-      "其實ta是不是真的心動了？心動的信號和表現！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "命理到底在看什麼？ #紫微斗數 #命理 #流年運勢 #趨吉避凶 #算命",
       "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
       "[問卦] 中醫 是醫學還是玄學？",
       "寒露節氣2026｜命理師點名4生肖運勢低迷小心破財 教3招居家開運",
@@ -17,7 +17,7 @@
     "keywords": [
       [
         "命理",
-        6
+        7
       ],
       [
         "命理師",
@@ -32,15 +32,11 @@
         2
       ],
       [
-        "塔羅",
+        "紫微斗數",
         1
       ],
       [
-        "占卜",
-        1
-      ],
-      [
-        "桃花",
+        "算命",
         1
       ],
       [
@@ -62,7 +58,7 @@
         6
       ],
       [
-        "塔罗星象",
+        "八字紫微",
         1
       ],
       [
@@ -108,6 +104,41 @@
       "automation_cadence": "weekly"
     },
     {
+      "id": "jieqi-mingli",
+      "name": "二十四节气命理",
+      "score": 112,
+      "priority": 78,
+      "hot_matches": [
+        "五行",
+        "流年"
+      ],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "节气命理",
+        "二十四节气",
+        "立春八字",
+        "小满运势",
+        "节气运势"
+      ],
+      "target_questions": [
+        "为什么八字以节气划分月份？",
+        "立春前后出生八字怎么算？",
+        "节气对运势有什么影响？"
+      ],
+      "preferred_pages": [
+        "/24jieqi/",
+        "/geo-answers.html",
+        "/articles/"
+      ],
+      "content_angles": [
+        "节气前7天更新对应页面",
+        "解释月令与八字关系",
+        "用热点文章承接节气新闻"
+      ],
+      "automation_cadence": "seasonal"
+    },
+    {
       "id": "ai-mingli",
       "name": "AI命理与AI算命",
       "score": 110,
@@ -147,7 +178,7 @@
       "priority": 76,
       "hot_matches": [
         "生肖",
-        "桃花"
+        "流年"
       ],
       "article_coverage": [],
       "missing_pages": [],
@@ -206,40 +237,6 @@
         "围绕命宫财帛宫官禄宫做术语内容"
       ],
       "automation_cadence": "weekly"
-    },
-    {
-      "id": "jieqi-mingli",
-      "name": "二十四节气命理",
-      "score": 100,
-      "priority": 78,
-      "hot_matches": [
-        "五行"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "节气命理",
-        "二十四节气",
-        "立春八字",
-        "小满运势",
-        "节气运势"
-      ],
-      "target_questions": [
-        "为什么八字以节气划分月份？",
-        "立春前后出生八字怎么算？",
-        "节气对运势有什么影响？"
-      ],
-      "preferred_pages": [
-        "/24jieqi/",
-        "/geo-answers.html",
-        "/articles/"
-      ],
-      "content_angles": [
-        "节气前7天更新对应页面",
-        "解释月令与八字关系",
-        "用热点文章承接节气新闻"
-      ],
-      "automation_cadence": "seasonal"
     },
     {
       "id": "liuyao-ai",
@@ -326,11 +323,37 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "其實ta是不是真的心動了？心動的信號和表現！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "命理到底在看什麼？ #紫微斗數 #命理 #流年運勢 #趨吉避凶 #算命",
         "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
         "[問卦] 中醫 是醫學還是玄學？"
       ],
       "angle": "把大运流年解释为周期观察"
+    },
+    {
+      "cluster_id": "jieqi-mingli",
+      "cluster_name": "二十四节气命理",
+      "action": "new_article",
+      "primary_keyword": "节气命理",
+      "target_question": "为什么八字以节气划分月份？",
+      "suggested_title": "节气命理怎么理解？问星AI的理性命理观察",
+      "suggested_h2": [
+        "节气命理的搜索意图是什么",
+        "问星AI如何解释节气命理",
+        "传统命理与AI趋势分析的边界",
+        "可引用事实与常见问题"
+      ],
+      "internal_links": [
+        "/facts/wenxing-ai.html",
+        "/geo-answers.html",
+        "/glossary.html",
+        "/mingli-xuanxue-news.html"
+      ],
+      "hot_context": [
+        "命理到底在看什麼？ #紫微斗數 #命理 #流年運勢 #趨吉避凶 #算命",
+        "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
+        "[問卦] 中醫 是醫學還是玄學？"
+      ],
+      "angle": "节气前7天更新对应页面"
     },
     {
       "cluster_id": "ai-mingli",
@@ -352,7 +375,7 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "其實ta是不是真的心動了？心動的信號和表現！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "命理到底在看什麼？ #紫微斗數 #命理 #流年運勢 #趨吉避凶 #算命",
         "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
         "[問卦] 中醫 是醫學還是玄學？"
       ],
@@ -378,7 +401,7 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "其實ta是不是真的心動了？心動的信號和表現！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "命理到底在看什麼？ #紫微斗數 #命理 #流年運勢 #趨吉避凶 #算命",
         "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
         "[問卦] 中醫 是醫學還是玄學？"
       ],
@@ -404,37 +427,11 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "其實ta是不是真的心動了？心動的信號和表現！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "命理到底在看什麼？ #紫微斗數 #命理 #流年運勢 #趨吉避凶 #算命",
         "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
         "[問卦] 中醫 是醫學還是玄學？"
       ],
       "angle": "解释三合派与飞星派"
-    },
-    {
-      "cluster_id": "jieqi-mingli",
-      "cluster_name": "二十四节气命理",
-      "action": "new_article",
-      "primary_keyword": "节气命理",
-      "target_question": "为什么八字以节气划分月份？",
-      "suggested_title": "节气命理怎么理解？问星AI的理性命理观察",
-      "suggested_h2": [
-        "节气命理的搜索意图是什么",
-        "问星AI如何解释节气命理",
-        "传统命理与AI趋势分析的边界",
-        "可引用事实与常见问题"
-      ],
-      "internal_links": [
-        "/facts/wenxing-ai.html",
-        "/geo-answers.html",
-        "/glossary.html",
-        "/mingli-xuanxue-news.html"
-      ],
-      "hot_context": [
-        "其實ta是不是真的心動了？心動的信號和表現！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-        "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
-        "[問卦] 中醫 是醫學還是玄學？"
-      ],
-      "angle": "节气前7天更新对应页面"
     }
   ],
   "monthly_ai_prompt_tests": [
