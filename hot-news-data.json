@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-13",
-  "updated_at_display": "2026年10月13日 11:21",
+  "updated_at_display": "2026年10月13日 21:24",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-13T11:21:01.478655+08:00",
+    "fetched_at": "2026-10-13T21:24:48.540445+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "items": [
     {
@@ -271,22 +271,23 @@
       "event_cluster": "event-08"
     },
     {
-      "title": "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
+      "title": "今天的運勢，桃波米幫你算🔮 全新功能「Luck！運勢」上線✨ https://t.co/mWf4wQmJ4e 拜完媽祖再看星座，開運雙重保障！ 馬上去找桃波米，看看今天有多幸運🍀 #BOMTOON_TW #撲通撲通讀漫中",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9KWjhVX1Z5NzhUZnFQTnpRQi01UjVWZEhEYXR3Y0s1ZlUwcHhRTTF1YWJidW1Fdk9IXzlLUmNXWUZiQ0VHVkluc3JpaGtkRWRGSHhSSmtNNmpkYkVaVkRnR1hR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBEbGdRV0MwYzRiQ0xicnp1RGx2dFRkYU9rVXJVa3RKQmswSzhiUzJTdWJsektkQTJiUndNR2FoaXhSd0FJSjNicElGTktxbnotOGhhTk5adE1GVzRCYzZj?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E7%AE%97%E5%91%BD%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-10-06",
-      "published_display": "2026-10-06",
+      "category": "塔罗星象",
+      "published": "2026-10-13",
+      "published_display": "2026-10-13",
       "matched_keywords": [
-        "命理",
-        "命理師"
+        "運勢",
+        "開運",
+        "星座"
       ],
       "score": 9.95,
-      "event_cluster": "event-168"
+      "event_cluster": "event-96"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -327,22 +328,22 @@
       "event_cluster": "event-02"
     },
     {
-      "title": "寒露10/8到了！命理師點名「3類人」運勢動盪要小心，開運「3招」先整理帳目",
-      "summary": "来自 造咖 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1FNzlPTG1lS1ZWSXlPcDYzczA1OWJGWEtrVnhxWUFSOTZ5aTAwSE9xQkxzLUw2eUF3UnBUZUFYNXNtcDJPbmdhZkVBQ3VpdFZURWFIcUlB?oc=5",
+      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "造咖 · Google News",
+      "source": "三立新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-10-06",
-      "published_display": "2026-10-06",
+      "published": "2026-10-13",
+      "published_display": "2026-10-13",
       "matched_keywords": [
         "命理",
         "命理師",
-        "運勢"
+        "開運"
       ],
-      "score": 16.95,
+      "score": 14.750000000000002,
       "event_cluster": "event-03"
     },
     {

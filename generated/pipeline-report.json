@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-13T11:20:50.356982+08:00",
-  "ran_at_display": "2026年10月13日 11:20",
+  "ran_at": "2026-10-13T21:24:39.887185+08:00",
+  "ran_at_display": "2026年10月13日 21:24",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "44e0e2f39093c72f2ed0e6f3ab70c7c6d4e2b38d",
-  "new_signature": "c05a74131b107068b232b3bef38de4ad125e2615",
+  "previous_signature": "c05a74131b107068b232b3bef38de4ad125e2615",
+  "new_signature": "4cb9e6b3363fa0f8489a29bfd077c97d4f7812cd",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -22,16 +22,17 @@
   },
   "new_titles": [
     "命理到底在看什麼？ #紫微斗數 #命理 #流年運勢 #趨吉避凶 #算命",
-    "الردود بواسطة 🐯虎嚕命理🐾五行療癒命理師🪭 (@hoolu_vtuber)",
+    "今天的運勢，桃波米幫你算🔮 全新功能「Luck！運勢」上線✨ https://t.co/mWf4wQmJ4e 拜完媽祖再看星座，開運雙重保障！ 馬上去找桃波米，看看今天有多幸運🍀 #BOMTOON_TW #撲通撲通讀漫中",
     "[問卦] 中醫 是醫學還是玄學？",
     "寒露節氣2026｜命理師點名4生肖運勢低迷小心破財 教3招居家開運",
-    "寒露10/8到了！命理師點名「3類人」運勢動盪要小心，開運「3招」先整理帳目"
+    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
   ],
   "added_titles": [
-    "命理到底在看什麼？ #紫微斗數 #命理 #流年運勢 #趨吉避凶 #算命"
+    "今天的運勢，桃波米幫你算🔮 全新功能「Luck！運勢」上線✨ https://t.co/mWf4wQmJ4e 拜完媽祖再看星座，開運雙重保障！ 馬上去找桃波米，看看今天有多幸運🍀 #BOMTOON_TW #撲通撲通讀漫中",
+    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -41,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月13日 11:21"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月13日 21:24"
     },
     {
       "script": "generate_daily_content.py",
