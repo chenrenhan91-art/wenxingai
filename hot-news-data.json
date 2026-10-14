@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-14",
-  "updated_at_display": "2026年10月14日 11:15",
+  "updated_at_display": "2026年10月14日 21:14",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-14T11:15:14.752568+08:00",
+    "fetched_at": "2026-10-14T21:14:39.244520+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "2027年12星座運勢關鍵字！牡羊座、金牛座、雙子座必做與禁忌全公開！ #shorts #手面相#風水 #紫微#星座 #命理 #開運",
+      "title": "十年大運不好，就要倒楣十年？#紫微斗數#命理 #流年運勢#趨吉避凶#算命 #財運 #感情 #人生選擇#魁哥OpenMic",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IcDZwRmpRcUgtS0otSVNjVU4tS0tMb0pYajBSVnpTVHNRUndPNURvbkhsalNNY0hGNDVEYklZWFFBWV81NlM0MUl6OGFVY1lNdzk0aQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KVzdRbHB3b2lCQl9nR1JEd1lYVDJRWHNBX0Z0UGNSM0JtcTFmZEJybDVzOEdaZzRIOUU1amZHam5pX0dISWxXVHZ5WmpWWGRBcDk3dA?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "风水玄学",
-      "published": "2026-10-12",
-      "published_display": "2026-10-12",
+      "category": "八字紫微",
+      "published": "2026-10-13",
+      "published_display": "2026-10-13",
       "matched_keywords": [
+        "紫微斗數",
         "命理",
-        "運勢",
-        "開運"
+        "算命"
       ],
-      "score": 12.35,
-      "event_cluster": "event-42"
+      "score": 14.55,
+      "event_cluster": "event-06"
     },
     {
       "title": "今天的運勢，桃波米幫你算🔮 全新功能「Luck！運勢」上線✨ https://t.co/mWf4wQmJ4e 拜完媽祖再看星座，開運雙重保障！ 馬上去找桃波米，看看今天有多幸運🍀 #BOMTOON_TW #撲通撲通讀漫中",
@@ -287,7 +287,7 @@
         "星座"
       ],
       "score": 9.95,
-      "event_cluster": "event-101"
+      "event_cluster": "event-105"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -347,28 +347,9 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "秋天最後節氣！命理師曝「霜降開運法」 5生肖要小心",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPN19wcmhZTzY3eWxYbEI3T3I0N0tnSkdURGdOMEdob3hGajJmRDFTRjU0c1duWnJwSEt2VmRYdkdUTXhvSDJDbExmS0tYeHJaSHRFV3RxaC1NamYyUm9TM3oxeVpmeDZGbExJVDhaM3BtUWNPZS1DSWJjbE9jUWdiRGlzSXo3T1FtNHNJVDR1dWlqOWF6M0I1SnJLaXN0Q1VzVVFOY2RwTHcyb1FVWXhQVVhQLUhueUp6YWVkZTVGazJyRFZsdWs1NXFydkJUenBjZDgyTjBTbDdWcEtWaFdmQUlldmFqRTJqekRRc3h4bnUwSHVWNUw3Z2M4Y2pETVRULXRDaTZtV3NOU3pCeXcwWElNbkJMay1DdkZuVFo0X0tlbHRKbV9DeFZsb0M2QlF4UDJGUEpudmtDM2JtRXZVb2VFaThZOXlv?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-12",
-      "published_display": "2026-10-12",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
       "title": "霜降將至！命理師曝開運法 5生肖要小心",
       "summary": "来自 鏡週刊Mirror Media · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA2OHBEd0t1b2h2cFRzNHFJQWpGaE02T1ZXbGRYQ0dXZkFfbTN1V2dPZVNCNWRpZDNFQzBWOEVBMzdSR0E2ZDVtTV93MlUxQnRidDFPVmxEU3BMZS16QmVBbjdR0gFiQVVfeXFMUDY4cER3S3VvaHZwVHM0cUlBakZoTTZPVldsZFhDR1dmQV9tM3VXZ09lU0I1ZGlkM0VDMFY4RUEzN1JHQTZkNW1NX3cyVTFCdGJ0MU9WbERTcExlLXpCZUFuN1E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xTXNwaUFJaUF1R0YxYnZIelB3cTRBbXVLaVdqaTNZdUR6dkZkZkZBS2NxMElFbFY3SWhKUjlyeUdPdGlKQm5CRG1NTG8wZ1NtV01WVU5nQkdlVlBs0gFiQVVfeXFMUDY4cER3S3VvaHZwVHM0cUlBakZoTTZPVldsZFhDR1dmQV9tM3VXZ09lU0I1ZGlkM0VDMFY4RUEzN1JHQTZkNW1NX3cyVTFCdGJ0MU9WbERTcExlLXpCZUFuN1E?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "鏡週刊Mirror Media · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -382,7 +363,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-04"
     },
     {
       "title": "討論牆 | 重陽節逢九運勢逆轉勝！命理師曝4生肖好運飛天大翻身，「他」破財衰運終於改善",
@@ -401,7 +382,26 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-05"
+    },
+    {
+      "title": "10月23日入霜降節氣！命理師：慎防心浮氣躁 5生肖運勢遇波折",
+      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9uc1dSbjhjNHZaVmMyc2NUSDNQeWYxTl95dnYwWTBVQkg2MzM0OVZvcWY4bnJQQzRoXzVzeEp6V1I0ZnRnLXNaY1ZHak3SAVJBVV95cUxOYkp5Wmp4M1FWaWtLS3p3R0RJdnphbTZuX0pWbi1sMWNpRllSMlJUX29ORF91RFh2NmFzd0VqUVBsOGxpelhENmRNRWFUU0wyRHF3?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "NOWnews今日新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-11",
+      "published_display": "2026-10-11",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-07"
     }
   ]
 }
