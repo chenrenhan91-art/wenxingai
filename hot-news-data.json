@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-13",
-  "updated_at_display": "2026年10月13日 21:24",
+  "updated_at": "2026-10-14",
+  "updated_at_display": "2026年10月14日 11:15",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-13T21:24:48.540445+08:00",
+    "fetched_at": "2026-10-14T11:15:14.752568+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "命理到底在看什麼？ #紫微斗數 #命理 #流年運勢 #趨吉避凶 #算命",
+      "title": "2027年12星座運勢關鍵字！牡羊座、金牛座、雙子座必做與禁忌全公開！ #shorts #手面相#風水 #紫微#星座 #命理 #開運",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fVzZoejNORTFKN0RPUWxKcVByYjR3cnNMbzlTTDJPX2haZnAycjA0TFVUNVdMb3ljaUd2Zm9WZWd3b1dJSWpJWmFVcnZZVkJwc2FyaA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IcDZwRmpRcUgtS0otSVNjVU4tS0tMb0pYajBSVnpTVHNRUndPNURvbkhsalNNY0hGNDVEYklZWFFBWV81NlM0MUl6OGFVY1lNdzk0aQ?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "八字紫微",
+      "category": "风水玄学",
       "published": "2026-10-12",
       "published_display": "2026-10-12",
       "matched_keywords": [
-        "紫微斗數",
         "命理",
-        "算命"
+        "運勢",
+        "開運"
       ],
-      "score": 14.55,
-      "event_cluster": "event-08"
+      "score": 12.35,
+      "event_cluster": "event-42"
     },
     {
       "title": "今天的運勢，桃波米幫你算🔮 全新功能「Luck！運勢」上線✨ https://t.co/mWf4wQmJ4e 拜完媽祖再看星座，開運雙重保障！ 馬上去找桃波米，看看今天有多幸運🍀 #BOMTOON_TW #撲通撲通讀漫中",
@@ -287,7 +287,7 @@
         "星座"
       ],
       "score": 9.95,
-      "event_cluster": "event-96"
+      "event_cluster": "event-101"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
