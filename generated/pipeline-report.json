@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-14T21:14:30.724837+08:00",
-  "ran_at_display": "2026年10月14日 21:14",
+  "ran_at": "2026-10-15T11:14:49.584516+08:00",
+  "ran_at_display": "2026年10月15日 11:14",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "cdbff74514f6c15c301748598cc5d3f7287a38cd",
-  "new_signature": "7579822b60250704a3582a08df110a485f8fb6be",
+  "previous_signature": "7579822b60250704a3582a08df110a485f8fb6be",
+  "new_signature": "be84d50012d6fd635e68dddb59520bb87a35e639",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -22,13 +22,14 @@
   },
   "new_titles": [
     "十年大運不好，就要倒楣十年？#紫微斗數#命理 #流年運勢#趨吉避凶#算命 #財運 #感情 #人生選擇#魁哥OpenMic",
-    "今天的運勢，桃波米幫你算🔮 全新功能「Luck！運勢」上線✨ https://t.co/mWf4wQmJ4e 拜完媽祖再看星座，開運雙重保障！ 馬上去找桃波米，看看今天有多幸運🍀 #BOMTOON_TW #撲通撲通讀漫中",
+    "學八字之前 以為天干地支就22個字 應該沒有很難吧 學八字之後 天干要看合 地支要看沖 還有刑害破 藏干打開 裡面又住了三個十神 我只是想了解自己 怎麼感覺誤入 一個大型家族恩怨現場🤣 但八字有趣的地方 就是你越學 越能發現每個人 思考和面對事情的方式都不同",
     "[問卦] 中醫 是醫學還是玄學？",
     "寒露節氣2026｜命理師點名4生肖運勢低迷小心破財 教3招居家開運",
-    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
+    "重陽節想招財！命理師教拿午時水「擦這地方」 11招開運方法曝"
   ],
   "added_titles": [
-    "十年大運不好，就要倒楣十年？#紫微斗數#命理 #流年運勢#趨吉避凶#算命 #財運 #感情 #人生選擇#魁哥OpenMic"
+    "學八字之前 以為天干地支就22個字 應該沒有很難吧 學八字之後 天干要看合 地支要看沖 還有刑害破 藏干打開 裡面又住了三個十神 我只是想了解自己 怎麼感覺誤入 一個大型家族恩怨現場🤣 但八字有趣的地方 就是你越學 越能發現每個人 思考和面對事情的方式都不同",
+    "重陽節想招財！命理師教拿午時水「擦這地方」 11招開運方法曝"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -41,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月14日 21:14"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月15日 11:15"
     },
     {
       "script": "generate_daily_content.py",
