@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15",
-  "updated_at_display": "2026年10月15日 21:16",
+  "updated_at": "2026-10-16",
+  "updated_at_display": "2026年10月16日 11:14",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-15T21:16:47.628345+08:00",
+    "fetched_at": "2026-10-16T11:14:58.755295+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     },
     {
       "title": "學八字之前 以為天干地支就22個字 應該沒有很難吧 學八字之後 天干要看合 地支要看沖 還有刑害破 藏干打開 裡面又住了三個十神 我只是想了解自己 怎麼感覺誤入 一個大型家族恩怨現場🤣 但八字有趣的地方 就是你越學 越能發現每個人 思考和面對事情的方式都不同",
@@ -286,7 +286,7 @@
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-98"
+      "event_cluster": "event-100"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -327,6 +327,25 @@
       "event_cluster": "event-02"
     },
     {
+      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-15",
+      "published_display": "2026-10-15",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
       "title": "重陽節想招財！命理師教拿午時水「擦這地方」 11招開運方法曝",
       "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9pMzBpZlE1RUpOci1zbm51SGI5UWxtNXozdGszLWFqS0pBNEZXMEdjcUo3aW1qeE9aYXcyUFBlUnEyT3RKZjEza9IBTEFVX3lxTE05amRvMHJPTjN4Q0JvMHY5WU9vdmY4ZDY5UndvZy1rNWZlQU5SZEl5RU1weG96bGFHQ25ELUZoMUtIa0EzS1lFd2d3aXU?oc=5",
@@ -343,7 +362,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "重陽節想開運 命理師教11招：午時水擦這",
@@ -362,12 +381,12 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "2026重陽節禁忌︱命理師警告6件事千萬不能做別讓長輩煮飯！夫妻同房恐陰陽失調【附3招開運法】",
       "summary": "来自 香港經濟日報HKET · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi0gRBVV95cUxNenFIQWllMFdaWnQ2LW1LbEtzZE92YW1iUHM0QVlPWnF4ZWZvdm5jQUlkUm92TTN5YThmSVVQOUpEUkJCU1hSb1lZSnVLV3V2NU1BVm9yOFZCMnpaVl95ZnA2b283bWxScDdlY0FQZjlWV05PWUgxVURZTEE1bjluTENYOVpkTGxOVlM4cEx1VUJWQzNmaG1PMWt3U0xSTUJsbFdCT2dkdVhyenJmbnc0NE5TN2c3ZUZsenBRdW9RT2dQZ3MxSGxWbHVNTW5vLWl1aFRZZ0Y2dGFfeldUZ0JaTWZsMHJfUXJRWEEtdEVfSzRWMFBjYXgzMF9TMi13NE5fSzBmMUxRaHc1SVFHek1tNUwxaXUyZjZQdDR5bFE3bC1NVXo4cmpTdmo4SHJYei1GNnZibEhZMDBJS3VIRWVYZnhzZm8zcWhpZmVLMkU5VHZIU3YyN2xKb25VQTA5LVV5Q0F6b3hmQ1JHZGFGVGNhYzZOVzZzeE5ESFJVWUR1ODNIOUlNRjRyazBENGZtUHVMTjN1M21POHIxYU9SUlN0bzBQSVdSb2tFbDJwQlZQa1JrUlA3LXNtdmNzRnJsVjRLSXJ5TGlHMlBUUHVZckRBUnhPWHNvMEdJdzZETDRpNXV1LWUyb3p3dWZuV1lVMEdiSXhybXNXV244LXhUQm50OGpMQXNMYk1neFVZbnVEcHlmeGlubWtjZzdGY1ROUmctVEs3N0JEWjcydklDc2Y2WFo3a1ZLb0JPMDNscmFNSHNoUWRKQWR1alFtdG85TUl5amc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxNLVJBZ0RhcVdLUDBVazdqdHl0S09ieVkwRUcwalRtX3dnd0o0a3BBeEtZX2NmN2l2N1N4YmRmTWNXRk1scFk3WHdwNG9BQ2Z0a0dEck94QnBhNTZQRWVMVVJXd0NnYms1NXplVFZQODFpdjhUakVqRW0yanZpN2NGOVhiX2hMRVJRd05ybzJTRjVlSFg0WkRMdTY0SlJXc3BNcndkYXl5a253Nm92UXdRQ19QTFdzMTdZS0xUR0ctUEV5ekh3QTJqcm1YQVp1SHh0V25kQ0wtQ1RTaEpST3IyR0ROSFI2WFVicE91cFlObklaRU1MbjJhV0d4N213TEpyVmhMNlZpMkk3SkNXdGhWQXRTMF9SZ2hENVR4LTFzb3R3cEYwNHlPbi03amxoQVBxTWNGUV9IelBCTldSUDFmbnBUYTBLNXBpVk94UDZwb0RkNjlzNS1WMVNhbG54YmtjOEQ2bFhNNTRsSGlXbTZ1ZEhlUE9RTXFwZmxkaXE2VGo0aUpFVVYwTTUwUzRGQk5PajBINy13OERTYzVJNDQtUDRtVGlHeE4yN1FXcUpoNzFnUW5FRzdobWNwSF9uMDc5N3YyWExCcFdzNUFLS180cHpqRW1CaHp0UEdVTVdSQklaT0hlLW5pQmU3NGtjcUh6N3RkV2NEaVNFUFptUFdMajhHNXJoc3BhaXVLZE9fWkVqQ2xDQlgzUW83VDYyc0g2RG0yYTFmRGRqQ3VoTlJxMXJWdjJXREt6cHExVnVWaHg2RWI4RVdjNmFieVphczBJX2NBYTA0S25CcldoWDVJ?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "香港經濟日報HKET · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -381,26 +400,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-13",
-      "published_display": "2026-10-13",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-06"
     }
   ]
 }

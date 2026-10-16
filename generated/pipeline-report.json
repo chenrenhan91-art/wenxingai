@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-15T21:16:34.836822+08:00",
-  "ran_at_display": "2026年10月15日 21:16",
+  "ran_at": "2026-10-16T11:14:47.700779+08:00",
+  "ran_at_display": "2026年10月16日 11:14",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "be84d50012d6fd635e68dddb59520bb87a35e639",
-  "new_signature": "b712d83cec5b685e5281426066f19988f9a1b3a5",
+  "previous_signature": "b712d83cec5b685e5281426066f19988f9a1b3a5",
+  "new_signature": "eb38c4717bd5b715bf6f9fd48faee7c36ebc3e2d",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -25,11 +25,10 @@
     "學八字之前 以為天干地支就22個字 應該沒有很難吧 學八字之後 天干要看合 地支要看沖 還有刑害破 藏干打開 裡面又住了三個十神 我只是想了解自己 怎麼感覺誤入 一個大型家族恩怨現場🤣 但八字有趣的地方 就是你越學 越能發現每個人 思考和面對事情的方式都不同",
     "[問卦] 中醫 是醫學還是玄學？",
     "重陽節怎麼開運？命理師教3招求好運 祝賀語講「這句」恐犯禁忌",
-    "重陽節想招財！命理師教拿午時水「擦這地方」 11招開運方法曝"
+    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
   ],
   "added_titles": [
-    "【粉絲投稿】三個月內能複合嗎？對方的想法、對你的情感？會主動嗎？能複合嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "重陽節怎麼開運？命理師教3招求好運 祝賀語講「這句」恐犯禁忌"
+    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -42,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月15日 21:16"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月16日 11:14"
     },
     {
       "script": "generate_daily_content.py",
