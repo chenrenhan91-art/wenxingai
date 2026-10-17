@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-16T21:15:38.028916+08:00",
-  "ran_at_display": "2026年10月16日 21:15",
+  "ran_at": "2026-10-17T11:13:28.114492+08:00",
+  "ran_at_display": "2026年10月17日 11:13",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "eb38c4717bd5b715bf6f9fd48faee7c36ebc3e2d",
-  "new_signature": "cb27a9975790bdfbe5126d7760417b145b96ee78",
+  "previous_signature": "cb27a9975790bdfbe5126d7760417b145b96ee78",
+  "new_signature": "4af45f96de03bec14ebe8983717e139ae9252d35",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,16 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "AI 很會說，命盤真的排對了嗎？｜打造你的 AI 命理師：八字 × 紫微 × 合盤｜MasterTalks",
+    "他的心思你懂嗎？你腦補的他vs真實的他，差別有多大？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "學八字之前 以為天干地支就22個字 應該沒有很難吧 學八字之後 天干要看合 地支要看沖 還有刑害破 藏干打開 裡面又住了三個十神 我只是想了解自己 怎麼感覺誤入 一個大型家族恩怨現場🤣 但八字有趣的地方 就是你越學 越能發現每個人 思考和面對事情的方式都不同",
     "[問卦] 中醫 是醫學還是玄學？",
-    "重陽節怎麼開運？命理師教3招求好運 祝賀語講「這句」恐犯禁忌",
-    "討論牆 | 重陽節怎麼開運？命理師教3招求好運 祝賀語講「這句」恐犯禁忌"
+    "明重陽節招財好日子！命理師曝11招開運法",
+    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
   ],
   "added_titles": [
-    "AI 很會說，命盤真的排對了嗎？｜打造你的 AI 命理師：八字 × 紫微 × 合盤｜MasterTalks",
-    "討論牆 | 重陽節怎麼開運？命理師教3招求好運 祝賀語講「這句」恐犯禁忌"
+    "他的心思你懂嗎？你腦補的他vs真實的他，差別有多大？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "明重陽節招財好日子！命理師曝11招開運法",
+    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -42,7 +43,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月16日 21:15"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月17日 11:13"
     },
     {
       "script": "generate_daily_content.py",
