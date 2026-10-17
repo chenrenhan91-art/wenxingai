@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-17T11:13:46.354866+08:00",
-  "generated_at_display": "2026-10-17 11:13 CST",
+  "generated_at": "2026-10-17T21:12:45.696969+08:00",
+  "generated_at_display": "2026-10-17 21:12 CST",
   "site_positioning": "问星AI是面向全球华语用户的AI命理应用，核心覆盖紫微斗数、四柱八字、周易六爻、合盘分析、大运流年与玄学热点解读。",
   "hot_news": {
     "updated_at": "2026-10-17",
     "titles": [
-      "他的心思你懂嗎？你腦補的他vs真實的他，差別有多大？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "老闆必看的辦公室座位佈局玄學#國學智慧#格局 #財運 #公司 #辦公室 #傳統文化#五行 #能量 #裝修 #風水 #玄學 #磁場 #fengshui #boss",
       "學八字之前 以為天干地支就22個字 應該沒有很難吧 學八字之後 天干要看合 地支要看沖 還有刑害破 藏干打開 裡面又住了三個十神 我只是想了解自己 怎麼感覺誤入 一個大型家族恩怨現場🤣 但八字有趣的地方 就是你越學 越能發現每個人 思考和面對事情的方式都不同",
       "[問卦] 中醫 是醫學還是玄學？",
       "明重陽節招財好日子！命理師曝11招開運法",
@@ -28,15 +28,15 @@
         5
       ],
       [
-        "塔羅",
+        "玄學",
+        2
+      ],
+      [
+        "風水",
         1
       ],
       [
-        "占卜",
-        1
-      ],
-      [
-        "桃花",
+        "磁場",
         1
       ],
       [
@@ -45,10 +45,6 @@
       ],
       [
         "十神",
-        1
-      ],
-      [
-        "玄學",
         1
       ],
       [
@@ -66,7 +62,7 @@
         5
       ],
       [
-        "塔罗星象",
+        "风水玄学",
         1
       ],
       [
@@ -83,9 +79,10 @@
     {
       "id": "bazi-ai",
       "name": "八字排盘与流年大运",
-      "score": 112,
+      "score": 124,
       "priority": 90,
       "hot_matches": [
+        "五行",
         "十神"
       ],
       "article_coverage": [],
@@ -149,41 +146,6 @@
       "automation_cadence": "weekly"
     },
     {
-      "id": "xuanxue-hot-news",
-      "name": "玄学热点与命理新闻",
-      "score": 110,
-      "priority": 76,
-      "hot_matches": [
-        "生肖",
-        "桃花"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "玄学",
-        "命理新闻",
-        "命理热点",
-        "塔罗占卜",
-        "运势"
-      ],
-      "target_questions": [
-        "最近玄学热点有哪些？",
-        "命理新闻为什么容易引发讨论？",
-        "如何理性看待生肖运势和塔罗占卜？"
-      ],
-      "preferred_pages": [
-        "/mingli-xuanxue-news.html",
-        "/articles/",
-        "/glossary.html"
-      ],
-      "content_angles": [
-        "用每日热点做新鲜度",
-        "把新闻转成理性命理解释",
-        "避免娱乐化过度预言"
-      ],
-      "automation_cadence": "daily"
-    },
-    {
       "id": "ziwei-ai",
       "name": "紫微斗数AI排盘",
       "score": 105,
@@ -214,6 +176,74 @@
         "围绕命宫财帛宫官禄宫做术语内容"
       ],
       "automation_cadence": "weekly"
+    },
+    {
+      "id": "jieqi-mingli",
+      "name": "二十四节气命理",
+      "score": 100,
+      "priority": 78,
+      "hot_matches": [
+        "五行"
+      ],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "节气命理",
+        "二十四节气",
+        "立春八字",
+        "小满运势",
+        "节气运势"
+      ],
+      "target_questions": [
+        "为什么八字以节气划分月份？",
+        "立春前后出生八字怎么算？",
+        "节气对运势有什么影响？"
+      ],
+      "preferred_pages": [
+        "/24jieqi/",
+        "/geo-answers.html",
+        "/articles/"
+      ],
+      "content_angles": [
+        "节气前7天更新对应页面",
+        "解释月令与八字关系",
+        "用热点文章承接节气新闻"
+      ],
+      "automation_cadence": "seasonal"
+    },
+    {
+      "id": "xuanxue-hot-news",
+      "name": "玄学热点与命理新闻",
+      "score": 98,
+      "priority": 76,
+      "hot_matches": [
+        "生肖"
+      ],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "玄学",
+        "命理新闻",
+        "命理热点",
+        "塔罗占卜",
+        "运势"
+      ],
+      "target_questions": [
+        "最近玄学热点有哪些？",
+        "命理新闻为什么容易引发讨论？",
+        "如何理性看待生肖运势和塔罗占卜？"
+      ],
+      "preferred_pages": [
+        "/mingli-xuanxue-news.html",
+        "/articles/",
+        "/glossary.html"
+      ],
+      "content_angles": [
+        "用每日热点做新鲜度",
+        "把新闻转成理性命理解释",
+        "避免娱乐化过度预言"
+      ],
+      "automation_cadence": "daily"
     },
     {
       "id": "liuyao-ai",
@@ -277,38 +307,6 @@
         "把合盘定位为沟通参考"
       ],
       "automation_cadence": "biweekly"
-    },
-    {
-      "id": "jieqi-mingli",
-      "name": "二十四节气命理",
-      "score": 88,
-      "priority": 78,
-      "hot_matches": [],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "节气命理",
-        "二十四节气",
-        "立春八字",
-        "小满运势",
-        "节气运势"
-      ],
-      "target_questions": [
-        "为什么八字以节气划分月份？",
-        "立春前后出生八字怎么算？",
-        "节气对运势有什么影响？"
-      ],
-      "preferred_pages": [
-        "/24jieqi/",
-        "/geo-answers.html",
-        "/articles/"
-      ],
-      "content_angles": [
-        "节气前7天更新对应页面",
-        "解释月令与八字关系",
-        "用热点文章承接节气新闻"
-      ],
-      "automation_cadence": "seasonal"
     }
   ],
   "briefs": [
@@ -332,7 +330,7 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "他的心思你懂嗎？你腦補的他vs真實的他，差別有多大？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "老闆必看的辦公室座位佈局玄學#國學智慧#格局 #財運 #公司 #辦公室 #傳統文化#五行 #能量 #裝修 #風水 #玄學 #磁場 #fengshui #boss",
         "學八字之前 以為天干地支就22個字 應該沒有很難吧 學八字之後 天干要看合 地支要看沖 還有刑害破 藏干打開 裡面又住了三個十神 我只是想了解自己 怎麼感覺誤入 一個大型家族恩怨現場🤣 但八字有趣的地方 就是你越學 越能發現每個人 思考和面對事情的方式都不同",
         "[問卦] 中醫 是醫學還是玄學？"
       ],
@@ -358,37 +356,11 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "他的心思你懂嗎？你腦補的他vs真實的他，差別有多大？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "老闆必看的辦公室座位佈局玄學#國學智慧#格局 #財運 #公司 #辦公室 #傳統文化#五行 #能量 #裝修 #風水 #玄學 #磁場 #fengshui #boss",
         "學八字之前 以為天干地支就22個字 應該沒有很難吧 學八字之後 天干要看合 地支要看沖 還有刑害破 藏干打開 裡面又住了三個十神 我只是想了解自己 怎麼感覺誤入 一個大型家族恩怨現場🤣 但八字有趣的地方 就是你越學 越能發現每個人 思考和面對事情的方式都不同",
         "[問卦] 中醫 是醫學還是玄學？"
       ],
       "angle": "理性解释AI命理边界"
-    },
-    {
-      "cluster_id": "xuanxue-hot-news",
-      "cluster_name": "玄学热点与命理新闻",
-      "action": "new_article",
-      "primary_keyword": "玄学",
-      "target_question": "最近玄学热点有哪些？",
-      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
-      "suggested_h2": [
-        "玄学的搜索意图是什么",
-        "问星AI如何解释玄学",
-        "传统命理与AI趋势分析的边界",
-        "可引用事实与常见问题"
-      ],
-      "internal_links": [
-        "/facts/wenxing-ai.html",
-        "/geo-answers.html",
-        "/glossary.html",
-        "/mingli-xuanxue-news.html"
-      ],
-      "hot_context": [
-        "他的心思你懂嗎？你腦補的他vs真實的他，差別有多大？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-        "學八字之前 以為天干地支就22個字 應該沒有很難吧 學八字之後 天干要看合 地支要看沖 還有刑害破 藏干打開 裡面又住了三個十神 我只是想了解自己 怎麼感覺誤入 一個大型家族恩怨現場🤣 但八字有趣的地方 就是你越學 越能發現每個人 思考和面對事情的方式都不同",
-        "[問卦] 中醫 是醫學還是玄學？"
-      ],
-      "angle": "用每日热点做新鲜度"
     },
     {
       "cluster_id": "ziwei-ai",
@@ -410,22 +382,22 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "他的心思你懂嗎？你腦補的他vs真實的他，差別有多大？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "老闆必看的辦公室座位佈局玄學#國學智慧#格局 #財運 #公司 #辦公室 #傳統文化#五行 #能量 #裝修 #風水 #玄學 #磁場 #fengshui #boss",
         "學八字之前 以為天干地支就22個字 應該沒有很難吧 學八字之後 天干要看合 地支要看沖 還有刑害破 藏干打開 裡面又住了三個十神 我只是想了解自己 怎麼感覺誤入 一個大型家族恩怨現場🤣 但八字有趣的地方 就是你越學 越能發現每個人 思考和面對事情的方式都不同",
         "[問卦] 中醫 是醫學還是玄學？"
       ],
       "angle": "解释三合派与飞星派"
     },
     {
-      "cluster_id": "liuyao-ai",
-      "cluster_name": "周易六爻AI解卦",
+      "cluster_id": "jieqi-mingli",
+      "cluster_name": "二十四节气命理",
       "action": "new_article",
-      "primary_keyword": "六爻AI",
-      "target_question": "六爻适合问什么问题？",
-      "suggested_title": "六爻AI怎么理解？问星AI的理性命理观察",
+      "primary_keyword": "节气命理",
+      "target_question": "为什么八字以节气划分月份？",
+      "suggested_title": "节气命理怎么理解？问星AI的理性命理观察",
       "suggested_h2": [
-        "六爻AI的搜索意图是什么",
-        "问星AI如何解释六爻AI",
+        "节气命理的搜索意图是什么",
+        "问星AI如何解释节气命理",
         "传统命理与AI趋势分析的边界",
         "可引用事实与常见问题"
       ],
@@ -436,11 +408,37 @@
         "/mingli-xuanxue-news.html"
       ],
       "hot_context": [
-        "他的心思你懂嗎？你腦補的他vs真實的他，差別有多大？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+        "老闆必看的辦公室座位佈局玄學#國學智慧#格局 #財運 #公司 #辦公室 #傳統文化#五行 #能量 #裝修 #風水 #玄學 #磁場 #fengshui #boss",
         "學八字之前 以為天干地支就22個字 應該沒有很難吧 學八字之後 天干要看合 地支要看沖 還有刑害破 藏干打開 裡面又住了三個十神 我只是想了解自己 怎麼感覺誤入 一個大型家族恩怨現場🤣 但八字有趣的地方 就是你越學 越能發現每個人 思考和面對事情的方式都不同",
         "[問卦] 中醫 是醫學還是玄學？"
       ],
-      "angle": "把六爻定位为具体问题判断"
+      "angle": "节气前7天更新对应页面"
+    },
+    {
+      "cluster_id": "xuanxue-hot-news",
+      "cluster_name": "玄学热点与命理新闻",
+      "action": "new_article",
+      "primary_keyword": "玄学",
+      "target_question": "最近玄学热点有哪些？",
+      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
+      "suggested_h2": [
+        "玄学的搜索意图是什么",
+        "问星AI如何解释玄学",
+        "传统命理与AI趋势分析的边界",
+        "可引用事实与常见问题"
+      ],
+      "internal_links": [
+        "/facts/wenxing-ai.html",
+        "/geo-answers.html",
+        "/glossary.html",
+        "/mingli-xuanxue-news.html"
+      ],
+      "hot_context": [
+        "老闆必看的辦公室座位佈局玄學#國學智慧#格局 #財運 #公司 #辦公室 #傳統文化#五行 #能量 #裝修 #風水 #玄學 #磁場 #fengshui #boss",
+        "學八字之前 以為天干地支就22個字 應該沒有很難吧 學八字之後 天干要看合 地支要看沖 還有刑害破 藏干打開 裡面又住了三個十神 我只是想了解自己 怎麼感覺誤入 一個大型家族恩怨現場🤣 但八字有趣的地方 就是你越學 越能發現每個人 思考和面對事情的方式都不同",
+        "[問卦] 中醫 是醫學還是玄學？"
+      ],
+      "angle": "用每日热点做新鲜度"
     }
   ],
   "monthly_ai_prompt_tests": [
