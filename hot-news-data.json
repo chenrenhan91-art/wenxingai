@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-18",
-  "updated_at_display": "2026年10月18日 11:14",
+  "updated_at_display": "2026年10月18日 21:12",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-18T11:14:54.391515+08:00",
+    "fetched_at": "2026-10-18T21:12:36.150057+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-05"
+      "event_cluster": "event-07"
     },
     {
       "title": "學八字之前 以為天干地支就22個字 應該沒有很難吧 學八字之後 天干要看合 地支要看沖 還有刑害破 藏干打開 裡面又住了三個十神 我只是想了解自己 怎麼感覺誤入 一個大型家族恩怨現場🤣 但八字有趣的地方 就是你越學 越能發現每個人 思考和面對事情的方式都不同",
@@ -286,7 +286,7 @@
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-126"
+      "event_cluster": "event-134"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -327,6 +327,25 @@
       "event_cluster": "event-02"
     },
     {
+      "title": "命理師曝重陽節3招開運、1禁忌 這句祝福別亂說",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUZzNjU0Y0R0pMUTJSU0JDUU1TSDJ6bnNIVU1RVXFGQnl3LWo5QWxPa2JjbGVTTzdUbTUzZDktbkY1Mm1RUS1SUTFZQ29nWTBrNFBKQkxR0gFWQVVfeXFMUFRnM2NTRjRHSkxRMlJTQkNRTVNIMnpuc0hVTVFVcUZCeXctajlBbE9rYmNsZVNPN1RtNTNkOS1uRjUybVFRLVJRMVlDb2dZMGs0UEpCTFE?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "UDN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-18",
+      "published_display": "2026-10-18",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
       "title": "明重陽節招財好日子！命理師曝11招開運法",
       "summary": "来自 自由時報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QZnJEd1VLUzNjLUFpVENOU3lOSGRsbTUzU21waUQwUGdmVmhEYzlyS0h6TlRPYWFvYzBXOS1GNmp0NHBjTGpvTHl6a1Z2aGJtMTRqd2JSZjFRUmw0N3p1X3JOa3HSAWpBVV95cUxNY0d6ZTJlWjIwVTRxTWQ2UmRld040V1hpVnJZRWJ3NFhheGxCWE0wMThVRDVuSDlGUHFFdWJNT2ZSV0U3YlVEZEpjaWlFMnh4QkUySElNUTRUUFByYm1nc3YyZXdITlBzNzZn?oc=5",
@@ -343,7 +362,26 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
+    },
+    {
+      "title": "今天赦日遇虎爺聖誕！命理師籲「起床先別做這事」 3招開運旺到年底",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAwY1ZRc2lnZkZ3enJxT1NOZGUwNjU4dEZoX1Z0M0I0OHpFb3BxRmwtci1FMkVxdDl1a2w2X0dqNE1HVUFTamRneNIBTEFVX3lxTE10a3B3akZJU3ZwNjYzR215aHR5SmlFcTR2eEZNN0tzXzd3OUxTR3hUdDNpaGdZOXlyRXNMd0ttM3dYa2hBdHlySk9uc3E?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-17",
+      "published_display": "2026-10-17",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-05"
     },
     {
       "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
@@ -354,46 +392,8 @@
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-10-16",
-      "published_display": "2026-10-16",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "重陽節怎麼開運？命理師教3招求好運 祝賀語講「這句」恐犯禁忌",
-      "summary": "来自 鏡週刊Mirror Media · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5dUFiRjNVbXJpWVNpa1ZKak03UVZjdzlmbGdrY0pwQkhYaG9XSVVOc2JZbmJaRzlVbkJwSS1VcmE1SUpwUnJ2dTVtQ3N0N2U4TXk3cmVaVzdIZnfSAWBBVV95cUxNTWhERTl5c2pXYWlZZHlLM3VJSG51emoxd3dWbzZmTXpuQUZPVXh5V2x6eEJZSFM0T0E2MzJtVTIzd2N4M2Vyb29LQlp3ZktXSUVXcWVxTEpxSS1GQi1XNUY?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "鏡週刊Mirror Media · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-15",
-      "published_display": "2026-10-15",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-06"
-    },
-    {
-      "title": "討論牆 | 重陽節怎麼開運？命理師教3招求好運 祝賀語講「這句」恐犯禁忌",
-      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tSE5zN0E0Z1YxRklNMjl6em5QZXRpbG4xcWg4YVRta0I0dG94SjBHVlBGVjhkTWdKcmxGVThLNXljUzhNNmFfQUN2eDNGb3dsS3VmYVVVaGdtdUkyeXFsa0UycTg?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "LINE TODAY · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-15",
-      "published_display": "2026-10-15",
+      "published": "2026-10-17",
+      "published_display": "2026-10-17",
       "matched_keywords": [
         "命理",
         "命理師",
