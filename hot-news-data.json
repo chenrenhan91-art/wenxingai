@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-17",
-  "updated_at_display": "2026年10月17日 21:12",
+  "updated_at": "2026-10-18",
+  "updated_at_display": "2026年10月18日 11:14",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-17T21:12:37.447011+08:00",
+    "fetched_at": "2026-10-18T11:14:54.391515+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,20 +252,20 @@
   ],
   "items": [
     {
-      "title": "老闆必看的辦公室座位佈局玄學#國學智慧#格局 #財運 #公司 #辦公室 #傳統文化#五行 #能量 #裝修 #風水 #玄學 #磁場 #fengshui #boss",
+      "title": "此刻他想你了嗎？對你的思念有多深？對你的情感有多濃？希望如何發展|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zUkFPMkcxZjhYQWRScXFwM3R2TXVRUnBWMlAyODIxUXpkazRCNVRkUE9HRVQ1aHpFT0YyaXd6RVREeWVUcC1sTXp6Ny16Uk1kbzZNMw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDUEdjNjc5VDJQWFFMdFNVbHhTYjZpOXZTLXpJYXVNRnJqSXF5Q2NYXzVVVzg3NWs5WkRjNktLdktCOERHbWtMQkxVM1c5dnJWcEt5SXp3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%8E%84%E5%AD%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "风水玄学",
-      "published": "2026-10-16",
-      "published_display": "2026-10-16",
+      "category": "塔罗星象",
+      "published": "2026-10-17",
+      "published_display": "2026-10-17",
       "matched_keywords": [
-        "玄學",
-        "風水",
-        "磁場"
+        "塔羅",
+        "占卜",
+        "桃花"
       ],
       "score": 14.55,
       "event_cluster": "event-05"
@@ -286,7 +286,7 @@
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-118"
+      "event_cluster": "event-126"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -308,6 +308,25 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "剪髮也能開運？命理師揭「農曆4吉日」：財運大提升",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOaDlZNElMa2hDMWJPVDZnWkhUMVlnNEZTRzBxZVd6TUx3NTJHTGl2Y25tbnFjbmZhTUIwWXgxUElLVnduVk43ZlpCZXBvMXNESkhtSlJ0THBEMnNIV2poT1pNTm5ObFJ5UjNEUnRMbWtPLUtfVjBvZi16NHRKVnJLUVpmX0dkMkszRDhaLWEwVnIxRGxycWVJdzA1WGR1akY5Y0o1aXZYUENtVWpXbjRRcW9NM255emQzdmhKZmJwbGJEVE1PMTEwWmJkdng4RkIzeXRLYS00d3EtSFlhMXBFOHFyM2twbWR3aUptMTdxX3FsRnpxeTRFT2VOY2x3ZlpQYjZrY3BCTkRpSjJYY1FoNzNBVjRMYmVETnVjZ3c2cy01ckhrNVlBWUM5dkJrT0IyOEhSX1hFNFZWdDFr?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-18",
+      "published_display": "2026-10-18",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
       "title": "明重陽節招財好日子！命理師曝11招開運法",
       "summary": "来自 自由時報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QZnJEd1VLUzNjLUFpVENOU3lOSGRsbTUzU21waUQwUGdmVmhEYzlyS0h6TlRPYWFvYzBXOS1GNmp0NHBjTGpvTHl6a1Z2aGJtMTRqd2JSZjFRUmw0N3p1X3JOa3HSAWpBVV95cUxNY0d6ZTJlWjIwVTRxTWQ2UmRld040V1hpVnJZRWJ3NFhheGxCWE0wMThVRDVuSDlGUHFFdWJNT2ZSV0U3YlVEZEpjaWlFMnh4QkUySElNUTRUUFByYm1nc3YyZXdITlBzNzZn?oc=5",
@@ -324,7 +343,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
@@ -343,7 +362,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "重陽節怎麼開運？命理師教3招求好運 祝賀語講「這句」恐犯禁忌",
@@ -362,7 +381,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "event_cluster": "event-06"
     },
     {
       "title": "討論牆 | 重陽節怎麼開運？命理師教3招求好運 祝賀語講「這句」恐犯禁忌",
@@ -381,26 +400,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "重陽節想招財！命理師教拿午時水「擦這地方」 11招開運方法曝",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxPTExUNGM0MGVOUWUyYW9sQmo5SEx4OHU0dVdKV0x2SU5RMG1Ec0VfTC1WMmxhNk1tdUtVV2NQWXhnemgwMDF0djlubVpzVXQ3UmdwMGlKalBHTHVzV05MLTQ0d3hHdmJJNnVEWmNBSXRxWXpTQmlkVHJ0UDNjWktmc0NlS002Y3ZhWjFmSnlFdWU3MlE4eEk5ZHZhLTk4dzlId1F5UjBkdXZHTE5zUTRvaTNIWmVOY1lwMkNBYjgwTlRGQUJwa1ZVdzZkbnl1UzhLY21UaEFybHgtWklpUDkyLWIya3dBOGo2WFNKckdxRnVKWjNBVG9VdzhCUDNJTzQxQ2lmcS0tOXMxSjdCTlBxNWsxaTVNbUdBVXpTaUpBZmROeFZ4bHIyNV9mZnpoS3plLU1oNjd3SnE4TGU4bkVTZnZpcXc4dGpJT2xnYjFkbU1odDdsZDc4cWNWbWN4RnhsbWJNZTVJcG5JMExzcGJVRGdHbXNCY0RUTUE?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-14",
-      "published_display": "2026-10-14",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-06"
     }
   ]
 }
