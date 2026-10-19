@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-19T11:16:12.924287+08:00",
-  "ran_at_display": "2026年10月19日 11:16",
+  "ran_at": "2026-10-19T21:19:11.415239+08:00",
+  "ran_at_display": "2026年10月19日 21:19",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "72d2c3b59184d973988284135f6e04dae5d971b7",
-  "new_signature": "c3e5a78863e3fea6a81bb8ceca4b91daa213228a",
+  "previous_signature": "c3e5a78863e3fea6a81bb8ceca4b91daa213228a",
+  "new_signature": "7e8569b5af1288906569cc5e3003945421ac552a",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,14 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "老闆必看的辦公室座位佈局玄學#國學智慧#格局 #財運 #公司 #辦公室 #傳統文化#五行 #能量 #裝修 #風水 #玄學 #磁場 #fengshui #boss",
+    "他視角下的你是什麼樣的？他現在對你的感覺以及想法！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "學八字之前 以為天干地支就22個字 應該沒有很難吧 學八字之後 天干要看合 地支要看沖 還有刑害破 藏干打開 裡面又住了三個十神 我只是想了解自己 怎麼感覺誤入 一個大型家族恩怨現場🤣 但八字有趣的地方 就是你越學 越能發現每個人 思考和面對事情的方式都不同",
     "[問卦] 中醫 是醫學還是玄學？",
-    "命理師曝重陽節3招開運、1禁忌 這句祝福別亂說",
-    "剪髮也能開運？命理師揭「農曆4吉日」：財運大提升"
+    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
+    "命理師曝重陽節3招開運、1禁忌 這句祝福別亂說"
   ],
   "added_titles": [
-    "老闆必看的辦公室座位佈局玄學#國學智慧#格局 #財運 #公司 #辦公室 #傳統文化#五行 #能量 #裝修 #風水 #玄學 #磁場 #fengshui #boss"
+    "他視角下的你是什麼樣的？他現在對你的感覺以及想法！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -41,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月19日 11:16"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月19日 21:19"
     },
     {
       "script": "generate_daily_content.py",

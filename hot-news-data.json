@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-19",
-  "updated_at_display": "2026年10月19日 11:16",
+  "updated_at_display": "2026年10月19日 21:19",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-19T11:16:23.064629+08:00",
+    "fetched_at": "2026-10-19T21:19:21.818795+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "老闆必看的辦公室座位佈局玄學#國學智慧#格局 #財運 #公司 #辦公室 #傳統文化#五行 #能量 #裝修 #風水 #玄學 #磁場 #fengshui #boss",
+      "title": "他視角下的你是什麼樣的？他現在對你的感覺以及想法！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zUkFPMkcxZjhYQWRScXFwM3R2TXVRUnBWMlAyODIxUXpkazRCNVRkUE9HRVQ1aHpFT0YyaXd6RVREeWVUcC1sTXp6Ny16Uk1kbzZNMw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rQWF6UWc3cVJ1a1JXRjdvTVVib3N4LWNQU1hMQ2hTYlN1cUZmS3QwVlIyMG1CSURRWkI4SnROdHp5WXVpeDJaZGFkRWRlX2w1NzgwZlJn?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%8E%84%E5%AD%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "风水玄学",
-      "published": "2026-10-16",
-      "published_display": "2026-10-16",
+      "category": "塔罗星象",
+      "published": "2026-10-18",
+      "published_display": "2026-10-18",
       "matched_keywords": [
-        "玄學",
-        "風水",
-        "磁場"
+        "塔羅",
+        "占卜",
+        "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-08"
+      "event_cluster": "event-07"
     },
     {
       "title": "學八字之前 以為天干地支就22個字 應該沒有很難吧 學八字之後 天干要看合 地支要看沖 還有刑害破 藏干打開 裡面又住了三個十神 我只是想了解自己 怎麼感覺誤入 一個大型家族恩怨現場🤣 但八字有趣的地方 就是你越學 越能發現每個人 思考和面對事情的方式都不同",
@@ -286,7 +286,7 @@
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-129"
+      "event_cluster": "event-141"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -308,6 +308,25 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-19",
+      "published_display": "2026-10-19",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
       "title": "命理師曝重陽節3招開運、1禁忌 這句祝福別亂說",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUZzNjU0Y0R0pMUTJSU0JDUU1TSDJ6bnNIVU1RVXFGQnl3LWo5QWxPa2JjbGVTTzdUbTUzZDktbkY1Mm1RUS1SUTFZQ29nWTBrNFBKQkxR0gFWQVVfeXFMUFRnM2NTRjRHSkxRMlJTQkNRTVNIMnpuc0hVTVFVcUZCeXctajlBbE9rYmNsZVNPN1RtNTNkOS1uRjUybVFRLVJRMVlDb2dZMGs0UEpCTFE?oc=5",
@@ -324,7 +343,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
     },
     {
       "title": "剪髮也能開運？命理師揭「農曆4吉日」：財運大提升",
@@ -343,33 +362,14 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-18",
-      "published_display": "2026-10-18",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
       "event_cluster": "event-04"
     },
     {
-      "title": "明重陽節招財好日子！命理師曝11招開運法",
-      "summary": "来自 自由時報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QZnJEd1VLUzNjLUFpVENOU3lOSGRsbTUzU21waUQwUGdmVmhEYzlyS0h6TlRPYWFvYzBXOS1GNmp0NHBjTGpvTHl6a1Z2aGJtMTRqd2JSZjFRUmw0N3p1X3JOa3HSAWpBVV95cUxNY0d6ZTJlWjIwVTRxTWQ2UmRld040V1hpVnJZRWJ3NFhheGxCWE0wMThVRDVuSDlGUHFFdWJNT2ZSV0U3YlVEZEpjaWlFMnh4QkUySElNUTRUUFByYm1nc3YyZXdITlBzNzZn?oc=5",
+      "title": "今天赦日遇虎爺聖誕！命理師籲「起床先別做這事」 3招開運旺到年底",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAwY1ZRc2lnZkZ3enJxT1NOZGUwNjU4dEZoX1Z0M0I0OHpFb3BxRmwtci1FMkVxdDl1a2w2X0dqNE1HVUFTamRneNIBTEFVX3lxTE10a3B3akZJU3ZwNjYzR215aHR5SmlFcTR2eEZNN0tzXzd3OUxTR3hUdDNpaGdZOXlyRXNMd0ttM3dYa2hBdHlySk9uc3E?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "自由時報 · Google News",
+      "source": "三立新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -384,11 +384,11 @@
       "event_cluster": "event-05"
     },
     {
-      "title": "今天赦日遇虎爺聖誕！命理師籲「起床先別做這事」 3招開運旺到年底",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAwY1ZRc2lnZkZ3enJxT1NOZGUwNjU4dEZoX1Z0M0I0OHpFb3BxRmwtci1FMkVxdDl1a2w2X0dqNE1HVUFTamRneNIBTEFVX3lxTE10a3B3akZJU3ZwNjYzR215aHR5SmlFcTR2eEZNN0tzXzd3OUxTR3hUdDNpaGdZOXlyRXNMd0ttM3dYa2hBdHlySk9uc3E?oc=5",
+      "title": "明重陽節招財好日子！命理師曝11招開運法- 生活",
+      "summary": "来自 自由時報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QZnJEd1VLUzNjLUFpVENOU3lOSGRsbTUzU21waUQwUGdmVmhEYzlyS0h6TlRPYWFvYzBXOS1GNmp0NHBjTGpvTHl6a1Z2aGJtMTRqd2JSZjFRUmw0N3p1X3JOa3E?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
+      "source": "自由時報 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
