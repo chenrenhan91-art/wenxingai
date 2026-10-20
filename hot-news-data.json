@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-20",
-  "updated_at_display": "2026年10月20日 11:15",
+  "updated_at_display": "2026年10月20日 21:17",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-20T11:15:02.784932+08:00",
+    "fetched_at": "2026-10-20T21:17:18.940050+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -192,7 +192,7 @@
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 5,
+        "picked_items": 4,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -227,7 +227,7 @@
       },
       "youtube_search": {
         "status": "ok",
-        "picked_items": 1,
+        "picked_items": 2,
         "failures": 0
       },
       "x_recent_search": {
@@ -248,45 +248,45 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
-      "title": "他認為你對他的感情有喜歡嗎實際上呢他還喜歡你嗎他會行動嗎曖昧愛情戀愛桃花塔羅占卜",
+      "title": "他這兩天對你的想法下一步的行動關係的發展曖昧愛情戀愛桃花塔羅占卜",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VcFJKcDdNQ0JQYnM4Mi1GZjk2cjZjRmFoZVZsM2dLR21lQUVCWENXNzctNkNJcy15c3lXS2YxV1lHTzZ4TG8tUk5uRUNxWktYc0pPUW5n?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5IRjNUVWVhWlNzY2NBOUNLTDU2Tmx2N001TW00MlV4WGU4aHdXYjRKc2U2TDNYSVBOTzB1eW9PM1ZFbUxoY3lQYi04NDZvRUppVGlDMGZR?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-10-19",
-      "published_display": "2026-10-19",
+      "published": "2026-10-20",
+      "published_display": "2026-10-20",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-05"
+      "event_cluster": "event-04"
     },
     {
-      "title": "學八字之前 以為天干地支就22個字 應該沒有很難吧 學八字之後 天干要看合 地支要看沖 還有刑害破 藏干打開 裡面又住了三個十神 我只是想了解自己 怎麼感覺誤入 一個大型家族恩怨現場🤣 但八字有趣的地方 就是你越學 越能發現每個人 思考和面對事情的方式都不同",
+      "title": "2026年10月19日至25日這一週，十二星座將迎來哪些課題與轉折？以下透過每個星座對應的一張塔羅牌，解讀本週值得留意的情緒、關係與行動方向。 https://t.co/ogbx6ZJhz3",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE41NW40N1EyWThIdXVyMTEyVXBzZ19uN2gzX2dndXROWjNZX0JBYlRsNWVnNXo5bnZsemZyYXdCcVBCNzdxTzNNLW53Q1hUMUYxN1Z4VWl6U2Z6UW5wVmNEb2NKTQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1OMmFEeDBRbDlXQjFkLUN3TXhlOU01RXdaM1o0SWxjUm1SRGxvY3VxMkJoOWJfeUNNT2VFdzhaNGwtV3A3R3BYZDU2VXFiN29Kc1VHcXd1Y0lBMENScmVHX3l3bw?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "八字紫微",
-      "published": "2026-10-14",
-      "published_display": "2026-10-14",
+      "category": "塔罗星象",
+      "published": "2026-10-19",
+      "published_display": "2026-10-19",
       "matched_keywords": [
-        "八字",
-        "十神"
+        "塔羅",
+        "星座"
       ],
       "score": 9.95,
-      "event_cluster": "event-144"
+      "event_cluster": "event-117"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -308,6 +308,44 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "獨家／霜降逢戊戌月！命理師指3生肖運勢有變 兔桃花最旺、虎事業翻紅",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9LYUJwdHFCZXk4eWhGVW5kSDRlQkI0UzFOLXk3bFlnd1FpcW9taXBfWWFDdHBlcVg4Z2N6NFdwN1hhVVZFb3NUStIBTEFVX3lxTE4wS0FENDdmczVQM3p4WkFxLUJUR0JTQWl2Slo1U1BHanRlZi1pSUYweGdSU2RkbWxrOE81LU5aU0NHdmpIN3hZQnViUEQ?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-20",
+      "published_display": "2026-10-20",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
+    },
+    {
+      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-20",
+      "published_display": "2026-10-20",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
       "title": "命理師曝重陽節3招開運、1禁忌 這句祝福別亂說",
       "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUZzNjU0Y0R0pMUTJSU0JDUU1TSDJ6bnNIVU1RVXFGQnl3LWo5QWxPa2JjbGVTTzdUbTUzZDktbkY1Mm1RUS1SUTFZQ29nWTBrNFBKQkxR0gFWQVVfeXFMUFRnM2NTRjRHSkxRMlJTQkNRTVNIMnpuc0hVTVFVcUZCeXctajlBbE9rYmNsZVNPN1RtNTNkOS1uRjUybVFRLVJRMVlDb2dZMGs0UEpCTFE?oc=5",
@@ -324,71 +362,33 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-02"
+      "event_cluster": "event-05"
     },
     {
-      "title": "剪髮也能開運？命理師揭「農曆4吉日」：財運大提升",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOaDlZNElMa2hDMWJPVDZnWkhUMVlnNEZTRzBxZVd6TUx3NTJHTGl2Y25tbnFjbmZhTUIwWXgxUElLVnduVk43ZlpCZXBvMXNESkhtSlJ0THBEMnNIV2poT1pNTm5ObFJ5UjNEUnRMbWtPLUtfVjBvZi16NHRKVnJLUVpmX0dkMkszRDhaLWEwVnIxRGxycWVJdzA1WGR1akY5Y0o1aXZYUENtVWpXbjRRcW9NM255emQzdmhKZmJwbGJEVE1PMTEwWmJkdng4RkIzeXRLYS00d3EtSFlhMXBFOHFyM2twbWR3aUptMTdxX3FsRnpxeTRFT2VOY2x3ZlpQYjZrY3BCTkRpSjJYY1FoNzNBVjRMYmVETnVjZ3c2cy01ckhrNVlBWUM5dkJrT0IyOEhSX1hFNFZWdDFr?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-18",
-      "published_display": "2026-10-18",
+      "title": "【紫微斗數】流年遇到擎羊、陀羅、火星、鈴星，真的會倒黴嗎？四大煞星其實暗藏翻身機會！#紫微斗數#四大煞星#擎羊陀羅火星鈴星#流年運勢#命理 #改運#流年命盤#煞星化解#命理解析",
+      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95ajVWM21HazdEXzBLT3JPREZzUEJ0aTdpdXNPaVNPeTAtNjBBVzlNb3RnaW8zV2ZXaDZCT1dKODNaTHN5elRLek9yQ05RX0NSekktc3h3?oc=5",
+      "source_id": "youtube_search",
+      "source": "YouTube · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "video",
+      "category": "八字紫微",
+      "published": "2026-10-19",
+      "published_display": "2026-10-19",
       "matched_keywords": [
+        "紫微斗數",
         "命理",
-        "命理師",
-        "開運"
+        "流年"
       ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
-    },
-    {
-      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-18",
-      "published_display": "2026-10-18",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "明重陽節招財好日子！命理師曝11招開運法- 生活",
-      "summary": "来自 自由時報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QZnJEd1VLUzNjLUFpVENOU3lOSGRsbTUzU21waUQwUGdmVmhEYzlyS0h6TlRPYWFvYzBXOS1GNmp0NHBjTGpvTHl6a1Z2aGJtMTRqd2JSZjFRUmw0N3p1X3JOa3E?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "自由時報 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-17",
-      "published_display": "2026-10-17",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
+      "score": 14.55,
       "event_cluster": "event-08"
     },
     {
-      "title": "今天赦日遇虎爺聖誕！命理師籲「起床先別做這事」 3招開運旺到年底",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAwY1ZRc2lnZkZ3enJxT1NOZGUwNjU4dEZoX1Z0M0I0OHpFb3BxRmwtci1FMkVxdDl1a2w2X0dqNE1HVUFTamRneNIBTEFVX3lxTE10a3B3akZJU3ZwNjYzR215aHR5SmlFcTR2eEZNN0tzXzd3OUxTR3hUdDNpaGdZOXlyRXNMd0ttM3dYa2hBdHlySk9uc3E?oc=5",
+      "title": "明重陽節招財好日子！命理師曝11招開運法",
+      "summary": "来自 自由時報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QZnJEd1VLUzNjLUFpVENOU3lOSGRsbTUzU21waUQwUGdmVmhEYzlyS0h6TlRPYWFvYzBXOS1GNmp0NHBjTGpvTHl6a1Z2aGJtMTRqd2JSZjFRUmw0N3p1X3JOa3HSAWpBVV95cUxNY0d6ZTJlWjIwVTRxTWQ2UmRld040V1hpVnJZRWJ3NFhheGxCWE0wMThVRDVuSDlGUHFFdWJNT2ZSV0U3YlVEZEpjaWlFMnh4QkUySElNUTRUUFByYm1nc3YyZXdITlBzNzZn?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
+      "source": "自由時報 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
