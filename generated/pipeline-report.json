@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-21T11:15:28.256402+08:00",
-  "ran_at_display": "2026年10月21日 11:15",
+  "ran_at": "2026-10-21T21:16:57.135189+08:00",
+  "ran_at_display": "2026年10月21日 21:16",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "05fea5f76757e965304e4ea7c7a1a6df4776ae14",
-  "new_signature": "7f9bd4d81ab2f87caa041f9f453ef4cd8045a846",
+  "previous_signature": "7f9bd4d81ab2f87caa041f9f453ef4cd8045a846",
+  "new_signature": "c5b717dfa5b9ba1a447824e7f9a2b334ea2be7f2",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,18 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "他這兩天對你的想法下一步的行動關係的發展曖昧愛情戀愛桃花塔羅占卜",
+    "【紫微斗數】流年遇到擎羊、陀羅、火星、鈴星，真的會倒黴嗎？四大煞星其實暗藏翻身機會！#紫微斗數#四大煞星#擎羊陀羅火星鈴星#流年運勢#命理 #改運#流年命盤#煞星化解#命理解析",
     "2026年10月19日至25日這一週，十二星座將迎來哪些課題與轉折？以下透過每個星座對應的一張塔羅牌，解讀本週值得留意的情緒、關係與行動方向。 https://t.co/ogbx6ZJhz3",
     "[問卦] 中醫 是醫學還是玄學？",
-    "獨家／霜降逢戊戌月！命理師指3生肖運勢有變 兔桃花最旺、虎事業翻紅",
-    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
+    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
+    "手機桌布放「前任照」恐影響運勢！命理師皆「3類照片」禁忌"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "【紫微斗數】流年遇到擎羊、陀羅、火星、鈴星，真的會倒黴嗎？四大煞星其實暗藏翻身機會！#紫微斗數#四大煞星#擎羊陀羅火星鈴星#流年運勢#命理 #改運#流年命盤#煞星化解#命理解析",
+    "手機桌布放「前任照」恐影響運勢！命理師皆「3類照片」禁忌"
+  ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -39,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月21日 11:15"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月21日 21:17"
     },
     {
       "script": "generate_daily_content.py",
