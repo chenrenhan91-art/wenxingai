@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-20",
-  "updated_at_display": "2026年10月20日 21:17",
+  "updated_at": "2026-10-21",
+  "updated_at_display": "2026年10月21日 11:15",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-20T21:17:18.940050+08:00",
+    "fetched_at": "2026-10-21T11:15:37.797927+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -286,7 +286,7 @@
         "星座"
       ],
       "score": 9.95,
-      "event_cluster": "event-117"
+      "event_cluster": "event-122"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -365,6 +365,25 @@
       "event_cluster": "event-05"
     },
     {
+      "title": "剪髮也能開運？命理師揭「農曆4吉日」：財運大提升",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOaDlZNElMa2hDMWJPVDZnWkhUMVlnNEZTRzBxZVd6TUx3NTJHTGl2Y25tbnFjbmZhTUIwWXgxUElLVnduVk43ZlpCZXBvMXNESkhtSlJ0THBEMnNIV2poT1pNTm5ObFJ5UjNEUnRMbWtPLUtfVjBvZi16NHRKVnJLUVpmX0dkMkszRDhaLWEwVnIxRGxycWVJdzA1WGR1akY5Y0o1aXZYUENtVWpXbjRRcW9NM255emQzdmhKZmJwbGJEVE1PMTEwWmJkdng4RkIzeXRLYS00d3EtSFlhMXBFOHFyM2twbWR3aUptMTdxX3FsRnpxeTRFT2VOY2x3ZlpQYjZrY3BCTkRpSjJYY1FoNzNBVjRMYmVETnVjZ3c2cy01ckhrNVlBWUM5dkJrT0IyOEhSX1hFNFZWdDFr?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-18",
+      "published_display": "2026-10-18",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-06"
+    },
+    {
       "title": "【紫微斗數】流年遇到擎羊、陀羅、火星、鈴星，真的會倒黴嗎？四大煞星其實暗藏翻身機會！#紫微斗數#四大煞星#擎羊陀羅火星鈴星#流年運勢#命理 #改運#流年命盤#煞星化解#命理解析",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95ajVWM21HazdEXzBLT3JPREZzUEJ0aTdpdXNPaVNPeTAtNjBBVzlNb3RnaW8zV2ZXaDZCT1dKODNaTHN5elRLek9yQ05RX0NSekktc3h3?oc=5",
@@ -382,25 +401,6 @@
       ],
       "score": 14.55,
       "event_cluster": "event-08"
-    },
-    {
-      "title": "明重陽節招財好日子！命理師曝11招開運法",
-      "summary": "来自 自由時報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QZnJEd1VLUzNjLUFpVENOU3lOSGRsbTUzU21waUQwUGdmVmhEYzlyS0h6TlRPYWFvYzBXOS1GNmp0NHBjTGpvTHl6a1Z2aGJtMTRqd2JSZjFRUmw0N3p1X3JOa3HSAWpBVV95cUxNY0d6ZTJlWjIwVTRxTWQ2UmRld040V1hpVnJZRWJ3NFhheGxCWE0wMThVRDVuSDlGUHFFdWJNT2ZSV0U3YlVEZEpjaWlFMnh4QkUySElNUTRUUFByYm1nc3YyZXdITlBzNzZn?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "自由時報 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-17",
-      "published_display": "2026-10-17",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-09"
     }
   ]
 }
