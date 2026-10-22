@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-22",
-  "updated_at_display": "2026年10月22日 11:14",
+  "updated_at_display": "2026年10月22日 21:17",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-22T11:14:54.148112+08:00",
+    "fetched_at": "2026-10-22T21:17:53.927465+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
@@ -268,25 +268,25 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-07"
+      "event_cluster": "event-09"
     },
     {
-      "title": "周映君命理師再度鐵口直斷。",
+      "title": "有時候幫客人看感情合盤 真的很像在看兩個人吵架的監視器🤣 客人： 「老師 我們八字合很多 是不是代表很適合？」 我： 「那你們平常怎麼相處？」 客人： 「就很常吵架啊」 「但我們八字很合耶！」 等一下 你是不是把天干地支的合 當成結婚保證書了 八字裡的合 有可能是吸",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JRGhBRDQwWDUxTnhydlNPQnMtdTVFSE42a282c1ZaZndBSGhNYkJQUTI5ZW40ZEM5TkxUVHRqeC1fTGIwQ2lWTWI5NjkzUEl5MUN1MU1ESERWZGs?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBybGs0bzZ3UGUyOG9lUXkxQWI5UE9CTzhhbTJjc3hvdzlGbENBYU1FRWxLZ0kxNURPOHhGXy1sNGRqaWlJelg0bjd0YWQ5MWZSVVZSMURoTDJRLVluTkQyUUlQZw?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "命理新闻",
+      "category": "八字紫微",
       "published": "2026-10-22",
       "published_display": "2026-10-22",
       "matched_keywords": [
-        "命理",
-        "命理師"
+        "八字",
+        "合盤"
       ],
       "score": 9.95,
-      "event_cluster": "event-78"
+      "event_cluster": "event-99"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -327,6 +327,44 @@
       "event_cluster": "event-02"
     },
     {
+      "title": "討論牆 | 蘇巧慧、李四川新北大激戰！命理師解鎖「面相+流年」秒點名這人",
+      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBkVDdFRjFzZWFmR01nejBtNmNkTEdkSWtfbTFGQ3ZhWEFpbDJLRm5tcTZ6Q2xDX2ZiLUdQTHJVX1lHeHc1U2hOcU5vTDJTMldXYnhQV1liTS1tXzhnRE5PYi1PWWE?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "LINE TODAY · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-22",
+      "published_display": "2026-10-22",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "流年"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
+      "title": "10/24水逆到！命理師曝3星座運勢反而出現正面轉機，獅子有望突破僵局，「他」能解開誤會",
+      "summary": "来自 女人我最大 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oY1Iwb25UNGREWkZ5Z0lobnQ3WU1lVW15cDFrbXg4UUV3RVFlWlRRV2N4NUxlSkx5aE43UkZZZUdJR2p3cEpTSnNWajNEQUh2bUJqb3NEOE8?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "女人我最大 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-10-22",
+      "published_display": "2026-10-22",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
+    },
+    {
       "title": "手機桌布放「前任照」恐影響運勢！命理師皆「3類照片」禁忌",
       "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPQ1NhUnI3WjJPQlg3ODAzcWloczJ0NFNSZDE1bGV2RWtzX1otSzk4c28tZjhTbmt3SUozUnktTzliRW9qMGtQaVVwY3hvdkktdkFSU2tFWmtneEZsU1lIb2l3NkhucXRnVElLTVRfaHhTVFYtUFcxMWJBdjhnNl9IRnltMUJvRzZZVGJNS3preThlX0xkVlE2Y0pYRVVNOXVrcXU2UF9ZWFdTR0pPM3JNZ3JXMV9aRlhZSDgxUmJqZm9kLUgxMnBMMUU1bk9oV1hQcjQySVRyR0RxRDBTYWlTdVVUclJhdVAydXlXTmNvdnVpRHRjb21tTlJIbUhVOXJVWU1XNGNmRUtuMzhFcWFkb011YW05Z0dkMXRNanBwTFQxTlRNcjBqODFHOEE1U1JnMGdsNTA0N2FqUUFKR1dTRUhJSmpCR3cybHc?oc=5",
@@ -343,7 +381,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-05"
     },
     {
       "title": "手機桌布暗藏玄機！命理師曝「這3種照片」影響運勢和財氣",
@@ -362,45 +400,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "手機桌布禁忌曝光！命理師警告「3種照片」影響運勢，過世寵物、親人也要留意",
-      "summary": "来自 女人我最大 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAyaWRkMXQ1RzVGSmNhbklyR0o3cU1TaTVJZHN2Y1BucndtWVBRWjdULXVzajJOdGpsOXhtVGJSRXUxS2d3UWlub0wxMW9rUFFxR3RrZzFZeGc?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "女人我最大 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-21",
-      "published_display": "2026-10-21",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "手機桌布放「前任照」恐影響運勢！命理師揭「3類照片」禁忌 顏色竟藏玄機",
-      "summary": "来自 民視新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZNDg3cnhxQURQcXJRRGxKeXdDenRFSFQzblhkb2RUVDRtbGNVMEhFTkpTcHlYUlgySkZoZGo0bkpFRHJGOTZJVG1uRF85bzZXaE51cXY0SW1uUDdKU3F6TA?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "民視新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-21",
-      "published_display": "2026-10-21",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-06"
     }
   ]
 }
