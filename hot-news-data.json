@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-21",
-  "updated_at_display": "2026年10月21日 21:17",
+  "updated_at": "2026-10-22",
+  "updated_at_display": "2026年10月22日 11:14",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-21T21:17:06.874421+08:00",
+    "fetched_at": "2026-10-22T11:14:54.148112+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,45 +248,45 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "items": [
     {
-      "title": "【紫微斗數】流年遇到擎羊、陀羅、火星、鈴星，真的會倒黴嗎？四大煞星其實暗藏翻身機會！#紫微斗數#四大煞星#擎羊陀羅火星鈴星#流年運勢#命理 #改運#流年命盤#煞星化解#命理解析",
+      "title": "假如你疏遠他，他會怎麼樣、感受、想法、行動力是如何的？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95ajVWM21HazdEXzBLT3JPREZzUEJ0aTdpdXNPaVNPeTAtNjBBVzlNb3RnaW8zV2ZXaDZCT1dKODNaTHN5elRLek9yQ05RX0NSekktc3h3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0SmswMnAzczJpcC1XRVVWcmVBYmxuRzdCNll1SkppanJKdHd6bXMxQURiWDJkUm1YbjQxSDBEaVh0bGswMC1zSGxibk9TeUdEZWFVV25B?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "八字紫微",
-      "published": "2026-10-19",
-      "published_display": "2026-10-19",
-      "matched_keywords": [
-        "紫微斗數",
-        "命理",
-        "流年"
-      ],
-      "score": 14.55,
-      "event_cluster": "event-08"
-    },
-    {
-      "title": "2026年10月19日至25日這一週，十二星座將迎來哪些課題與轉折？以下透過每個星座對應的一張塔羅牌，解讀本週值得留意的情緒、關係與行動方向。 https://t.co/ogbx6ZJhz3",
-      "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1OMmFEeDBRbDlXQjFkLUN3TXhlOU01RXdaM1o0SWxjUm1SRGxvY3VxMkJoOWJfeUNNT2VFdzhaNGwtV3A3R3BYZDU2VXFiN29Kc1VHcXd1Y0lBMENScmVHX3l3bw?oc=5",
-      "source_id": "x_recent_search",
-      "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "community",
       "category": "塔罗星象",
-      "published": "2026-10-19",
-      "published_display": "2026-10-19",
+      "published": "2026-10-21",
+      "published_display": "2026-10-21",
       "matched_keywords": [
         "塔羅",
-        "星座"
+        "占卜",
+        "桃花"
+      ],
+      "score": 14.55,
+      "event_cluster": "event-07"
+    },
+    {
+      "title": "周映君命理師再度鐵口直斷。",
+      "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JRGhBRDQwWDUxTnhydlNPQnMtdTVFSE42a282c1ZaZndBSGhNYkJQUTI5ZW40ZEM5TkxUVHRqeC1fTGIwQ2lWTWI5NjkzUEl5MUN1MU1ESERWZGs?oc=5",
+      "source_id": "x_recent_search",
+      "source": "X · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "community",
+      "category": "命理新闻",
+      "published": "2026-10-22",
+      "published_display": "2026-10-22",
+      "matched_keywords": [
+        "命理",
+        "命理師"
       ],
       "score": 9.95,
-      "event_cluster": "event-118"
+      "event_cluster": "event-78"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -316,8 +316,8 @@
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-10-21",
-      "published_display": "2026-10-21",
+      "published": "2026-10-22",
+      "published_display": "2026-10-22",
       "matched_keywords": [
         "命理",
         "命理師",
