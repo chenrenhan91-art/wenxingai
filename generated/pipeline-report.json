@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-23T11:15:02.743707+08:00",
-  "ran_at_display": "2026年10月23日 11:15",
+  "ran_at": "2026-10-23T21:15:02.187662+08:00",
+  "ran_at_display": "2026年10月23日 21:15",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "19ad91a1b86529940af1ae808df212c396f8f9f6",
-  "new_signature": "f6e15e374e1e2b7c3cc9044395aab59ef5f908b1",
+  "previous_signature": "f6e15e374e1e2b7c3cc9044395aab59ef5f908b1",
+  "new_signature": "baebf1f0ea4f8a26a9097b37f31d974efef90035",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -22,15 +22,15 @@
   },
   "new_titles": [
     "他對你最新的想法打算不想讓你知道事兒希望你怎麼做曖昧愛情戀愛桃花塔羅占卜",
-    "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.10.22（四）己巳日 🔮 🔔 凡事皆有裂痕，那是光照進來的地方。 🌾 巳火生己土，今天容易重新看見某些傷口，也可能忽然明白：原來當初讓你難過的事，正在教你如何保護自己。 有裂痕不代表你壞掉了 只是光終於找到入口 ✨ 十神開運指",
+    "戴立安主修民調，副修是不是紫微斗數？ 怎麼準成這樣？",
     "[問卦] 中醫 是醫學還是玄學？",
-    "【手機桌布也會影響運勢！命理師曝「這三種別放」：恐進入低頻狀態】 桌布不要亂放 （#起啵）",
-    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
+    "霜降到！命理師點名5生肖運勢大翻盤…開運致富關鍵曝光",
+    "霜降來襲！5大生肖運勢大翻盤 命理師曝開運關鍵"
   ],
   "added_titles": [
-    "他對你最新的想法打算不想讓你知道事兒希望你怎麼做曖昧愛情戀愛桃花塔羅占卜",
-    "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.10.22（四）己巳日 🔮 🔔 凡事皆有裂痕，那是光照進來的地方。 🌾 巳火生己土，今天容易重新看見某些傷口，也可能忽然明白：原來當初讓你難過的事，正在教你如何保護自己。 有裂痕不代表你壞掉了 只是光終於找到入口 ✨ 十神開運指",
-    "【手機桌布也會影響運勢！命理師曝「這三種別放」：恐進入低頻狀態】 桌布不要亂放 （#起啵）"
+    "戴立安主修民調，副修是不是紫微斗數？ 怎麼準成這樣？",
+    "霜降到！命理師點名5生肖運勢大翻盤…開運致富關鍵曝光",
+    "霜降來襲！5大生肖運勢大翻盤 命理師曝開運關鍵"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -43,7 +43,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月23日 11:15"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月23日 21:15"
     },
     {
       "script": "generate_daily_content.py",

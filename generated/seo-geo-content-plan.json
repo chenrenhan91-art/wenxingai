@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-23T11:15:18.913853+08:00",
-  "generated_at_display": "2026-10-23 11:15 CST",
+  "generated_at": "2026-10-23T21:15:19.748844+08:00",
+  "generated_at_display": "2026-10-23 21:15 CST",
   "site_positioning": "问星AI是面向全球华语用户的AI命理应用，核心覆盖紫微斗数、四柱八字、周易六爻、合盘分析、大运流年与玄学热点解读。",
   "hot_news": {
     "updated_at": "2026-10-23",
     "titles": [
       "他對你最新的想法打算不想讓你知道事兒希望你怎麼做曖昧愛情戀愛桃花塔羅占卜",
-      "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.10.22（四）己巳日 🔮 🔔 凡事皆有裂痕，那是光照進來的地方。 🌾 巳火生己土，今天容易重新看見某些傷口，也可能忽然明白：原來當初讓你難過的事，正在教你如何保護自己。 有裂痕不代表你壞掉了 只是光終於找到入口 ✨ 十神開運指",
+      "戴立安主修民調，副修是不是紫微斗數？ 怎麼準成這樣？",
       "[問卦] 中醫 是醫學還是玄學？",
-      "【手機桌布也會影響運勢！命理師曝「這三種別放」：恐進入低頻狀態】 桌布不要亂放 （#起啵）",
+      "霜降到！命理師點名5生肖運勢大翻盤…開運致富關鍵曝光",
+      "霜降來襲！5大生肖運勢大翻盤 命理師曝開運關鍵",
       "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
-      "手機桌布也會影響運勢！命理師曝「這三種別放」：恐進入低頻狀態",
-      "討論牆 | 蘇巧慧、李四川新北大激戰！命理師解鎖「面相+流年」秒點名這人",
-      "10/24水逆到！命理師曝3星座運勢反而出現正面轉機，獅子有望突破僵局，「他」能解開誤會"
+      "【手機桌布也會影響運勢！命理師曝「這三種別放」：恐進入低頻狀態】 桌布不要亂放 （#起啵）",
+      "手機桌布也會影響運勢！命理師曝「這三種別放」：恐進入低頻狀態"
     ],
     "keywords": [
       [
         "命理",
-        6
+        5
       ],
       [
         "命理師",
@@ -25,11 +25,7 @@
       ],
       [
         "運勢",
-        3
-      ],
-      [
-        "開運",
-        2
+        4
       ],
       [
         "塔羅",
@@ -44,7 +40,11 @@
         1
       ],
       [
-        "十神",
+        "紫微",
+        1
+      ],
+      [
+        "斗數",
         1
       ],
       [
@@ -60,7 +60,7 @@
         1
       ],
       [
-        "流年",
+        "開運",
         1
       ]
     ],
@@ -71,7 +71,11 @@
       ],
       [
         "塔罗星象",
-        2
+        1
+      ],
+      [
+        "八字紫微",
+        1
       ],
       [
         "社区热议",
@@ -80,77 +84,6 @@
     ]
   },
   "scored_clusters": [
-    {
-      "id": "xuanxue-hot-news",
-      "name": "玄学热点与命理新闻",
-      "score": 122,
-      "priority": 76,
-      "hot_matches": [
-        "生肖",
-        "桃花",
-        "流年"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "玄学",
-        "命理新闻",
-        "命理热点",
-        "塔罗占卜",
-        "运势"
-      ],
-      "target_questions": [
-        "最近玄学热点有哪些？",
-        "命理新闻为什么容易引发讨论？",
-        "如何理性看待生肖运势和塔罗占卜？"
-      ],
-      "preferred_pages": [
-        "/mingli-xuanxue-news.html",
-        "/articles/",
-        "/glossary.html"
-      ],
-      "content_angles": [
-        "用每日热点做新鲜度",
-        "把新闻转成理性命理解释",
-        "避免娱乐化过度预言"
-      ],
-      "automation_cadence": "daily"
-    },
-    {
-      "id": "bazi-ai",
-      "name": "八字排盘与流年大运",
-      "score": 112,
-      "priority": 90,
-      "hot_matches": [
-        "十神"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "八字AI",
-        "八字排盘",
-        "四柱八字",
-        "流年运势",
-        "大运"
-      ],
-      "target_questions": [
-        "八字排盘怎么看流年？",
-        "大运和流年有什么区别？",
-        "大运K线图是什么意思？",
-        "AI如何分析八字五行？"
-      ],
-      "preferred_pages": [
-        "/geo-answers.html",
-        "/glossary.html",
-        "/articles/"
-      ],
-      "content_angles": [
-        "把大运流年解释为周期观察",
-        "用大运K线图承接年轻用户",
-        "解释八字不是单看生肖"
-      ],
-      "automation_cadence": "weekly"
-    },
     {
       "id": "ai-mingli",
       "name": "AI命理与AI算命",
@@ -185,6 +118,41 @@
       "automation_cadence": "weekly"
     },
     {
+      "id": "xuanxue-hot-news",
+      "name": "玄学热点与命理新闻",
+      "score": 110,
+      "priority": 76,
+      "hot_matches": [
+        "生肖",
+        "桃花"
+      ],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "玄学",
+        "命理新闻",
+        "命理热点",
+        "塔罗占卜",
+        "运势"
+      ],
+      "target_questions": [
+        "最近玄学热点有哪些？",
+        "命理新闻为什么容易引发讨论？",
+        "如何理性看待生肖运势和塔罗占卜？"
+      ],
+      "preferred_pages": [
+        "/mingli-xuanxue-news.html",
+        "/articles/",
+        "/glossary.html"
+      ],
+      "content_angles": [
+        "用每日热点做新鲜度",
+        "把新闻转成理性命理解释",
+        "避免娱乐化过度预言"
+      ],
+      "automation_cadence": "daily"
+    },
+    {
       "id": "ziwei-ai",
       "name": "紫微斗数AI排盘",
       "score": 105,
@@ -217,38 +185,37 @@
       "automation_cadence": "weekly"
     },
     {
-      "id": "jieqi-mingli",
-      "name": "二十四节气命理",
+      "id": "bazi-ai",
+      "name": "八字排盘与流年大运",
       "score": 100,
-      "priority": 78,
-      "hot_matches": [
-        "流年"
-      ],
+      "priority": 90,
+      "hot_matches": [],
       "article_coverage": [],
       "missing_pages": [],
       "primary_keywords": [
-        "节气命理",
-        "二十四节气",
-        "立春八字",
-        "小满运势",
-        "节气运势"
+        "八字AI",
+        "八字排盘",
+        "四柱八字",
+        "流年运势",
+        "大运"
       ],
       "target_questions": [
-        "为什么八字以节气划分月份？",
-        "立春前后出生八字怎么算？",
-        "节气对运势有什么影响？"
+        "八字排盘怎么看流年？",
+        "大运和流年有什么区别？",
+        "大运K线图是什么意思？",
+        "AI如何分析八字五行？"
       ],
       "preferred_pages": [
-        "/24jieqi/",
         "/geo-answers.html",
+        "/glossary.html",
         "/articles/"
       ],
       "content_angles": [
-        "节气前7天更新对应页面",
-        "解释月令与八字关系",
-        "用热点文章承接节气新闻"
+        "把大运流年解释为周期观察",
+        "用大运K线图承接年轻用户",
+        "解释八字不是单看生肖"
       ],
-      "automation_cadence": "seasonal"
+      "automation_cadence": "weekly"
     },
     {
       "id": "liuyao-ai",
@@ -312,61 +279,41 @@
         "把合盘定位为沟通参考"
       ],
       "automation_cadence": "biweekly"
+    },
+    {
+      "id": "jieqi-mingli",
+      "name": "二十四节气命理",
+      "score": 88,
+      "priority": 78,
+      "hot_matches": [],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "节气命理",
+        "二十四节气",
+        "立春八字",
+        "小满运势",
+        "节气运势"
+      ],
+      "target_questions": [
+        "为什么八字以节气划分月份？",
+        "立春前后出生八字怎么算？",
+        "节气对运势有什么影响？"
+      ],
+      "preferred_pages": [
+        "/24jieqi/",
+        "/geo-answers.html",
+        "/articles/"
+      ],
+      "content_angles": [
+        "节气前7天更新对应页面",
+        "解释月令与八字关系",
+        "用热点文章承接节气新闻"
+      ],
+      "automation_cadence": "seasonal"
     }
   ],
   "briefs": [
-    {
-      "cluster_id": "xuanxue-hot-news",
-      "cluster_name": "玄学热点与命理新闻",
-      "action": "new_article",
-      "primary_keyword": "玄学",
-      "target_question": "最近玄学热点有哪些？",
-      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
-      "suggested_h2": [
-        "玄学的搜索意图是什么",
-        "问星AI如何解释玄学",
-        "传统命理与AI趋势分析的边界",
-        "可引用事实与常见问题"
-      ],
-      "internal_links": [
-        "/facts/wenxing-ai.html",
-        "/geo-answers.html",
-        "/glossary.html",
-        "/mingli-xuanxue-news.html"
-      ],
-      "hot_context": [
-        "他對你最新的想法打算不想讓你知道事兒希望你怎麼做曖昧愛情戀愛桃花塔羅占卜",
-        "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.10.22（四）己巳日 🔮 🔔 凡事皆有裂痕，那是光照進來的地方。 🌾 巳火生己土，今天容易重新看見某些傷口，也可能忽然明白：原來當初讓你難過的事，正在教你如何保護自己。 有裂痕不代表你壞掉了 只是光終於找到入口 ✨ 十神開運指",
-        "[問卦] 中醫 是醫學還是玄學？"
-      ],
-      "angle": "用每日热点做新鲜度"
-    },
-    {
-      "cluster_id": "bazi-ai",
-      "cluster_name": "八字排盘与流年大运",
-      "action": "new_article",
-      "primary_keyword": "八字AI",
-      "target_question": "八字排盘怎么看流年？",
-      "suggested_title": "八字AI怎么理解？问星AI的理性命理观察",
-      "suggested_h2": [
-        "八字AI的搜索意图是什么",
-        "问星AI如何解释八字AI",
-        "传统命理与AI趋势分析的边界",
-        "可引用事实与常见问题"
-      ],
-      "internal_links": [
-        "/facts/wenxing-ai.html",
-        "/geo-answers.html",
-        "/glossary.html",
-        "/mingli-xuanxue-news.html"
-      ],
-      "hot_context": [
-        "他對你最新的想法打算不想讓你知道事兒希望你怎麼做曖昧愛情戀愛桃花塔羅占卜",
-        "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.10.22（四）己巳日 🔮 🔔 凡事皆有裂痕，那是光照進來的地方。 🌾 巳火生己土，今天容易重新看見某些傷口，也可能忽然明白：原來當初讓你難過的事，正在教你如何保護自己。 有裂痕不代表你壞掉了 只是光終於找到入口 ✨ 十神開運指",
-        "[問卦] 中醫 是醫學還是玄學？"
-      ],
-      "angle": "把大运流年解释为周期观察"
-    },
     {
       "cluster_id": "ai-mingli",
       "cluster_name": "AI命理与AI算命",
@@ -388,10 +335,36 @@
       ],
       "hot_context": [
         "他對你最新的想法打算不想讓你知道事兒希望你怎麼做曖昧愛情戀愛桃花塔羅占卜",
-        "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.10.22（四）己巳日 🔮 🔔 凡事皆有裂痕，那是光照進來的地方。 🌾 巳火生己土，今天容易重新看見某些傷口，也可能忽然明白：原來當初讓你難過的事，正在教你如何保護自己。 有裂痕不代表你壞掉了 只是光終於找到入口 ✨ 十神開運指",
+        "戴立安主修民調，副修是不是紫微斗數？ 怎麼準成這樣？",
         "[問卦] 中醫 是醫學還是玄學？"
       ],
       "angle": "理性解释AI命理边界"
+    },
+    {
+      "cluster_id": "xuanxue-hot-news",
+      "cluster_name": "玄学热点与命理新闻",
+      "action": "new_article",
+      "primary_keyword": "玄学",
+      "target_question": "最近玄学热点有哪些？",
+      "suggested_title": "玄学怎么理解？问星AI的理性命理观察",
+      "suggested_h2": [
+        "玄学的搜索意图是什么",
+        "问星AI如何解释玄学",
+        "传统命理与AI趋势分析的边界",
+        "可引用事实与常见问题"
+      ],
+      "internal_links": [
+        "/facts/wenxing-ai.html",
+        "/geo-answers.html",
+        "/glossary.html",
+        "/mingli-xuanxue-news.html"
+      ],
+      "hot_context": [
+        "他對你最新的想法打算不想讓你知道事兒希望你怎麼做曖昧愛情戀愛桃花塔羅占卜",
+        "戴立安主修民調，副修是不是紫微斗數？ 怎麼準成這樣？",
+        "[問卦] 中醫 是醫學還是玄學？"
+      ],
+      "angle": "用每日热点做新鲜度"
     },
     {
       "cluster_id": "ziwei-ai",
@@ -414,21 +387,21 @@
       ],
       "hot_context": [
         "他對你最新的想法打算不想讓你知道事兒希望你怎麼做曖昧愛情戀愛桃花塔羅占卜",
-        "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.10.22（四）己巳日 🔮 🔔 凡事皆有裂痕，那是光照進來的地方。 🌾 巳火生己土，今天容易重新看見某些傷口，也可能忽然明白：原來當初讓你難過的事，正在教你如何保護自己。 有裂痕不代表你壞掉了 只是光終於找到入口 ✨ 十神開運指",
+        "戴立安主修民調，副修是不是紫微斗數？ 怎麼準成這樣？",
         "[問卦] 中醫 是醫學還是玄學？"
       ],
       "angle": "解释三合派与飞星派"
     },
     {
-      "cluster_id": "jieqi-mingli",
-      "cluster_name": "二十四节气命理",
+      "cluster_id": "bazi-ai",
+      "cluster_name": "八字排盘与流年大运",
       "action": "new_article",
-      "primary_keyword": "节气命理",
-      "target_question": "为什么八字以节气划分月份？",
-      "suggested_title": "节气命理怎么理解？问星AI的理性命理观察",
+      "primary_keyword": "八字AI",
+      "target_question": "八字排盘怎么看流年？",
+      "suggested_title": "八字AI怎么理解？问星AI的理性命理观察",
       "suggested_h2": [
-        "节气命理的搜索意图是什么",
-        "问星AI如何解释节气命理",
+        "八字AI的搜索意图是什么",
+        "问星AI如何解释八字AI",
         "传统命理与AI趋势分析的边界",
         "可引用事实与常见问题"
       ],
@@ -440,10 +413,36 @@
       ],
       "hot_context": [
         "他對你最新的想法打算不想讓你知道事兒希望你怎麼做曖昧愛情戀愛桃花塔羅占卜",
-        "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.10.22（四）己巳日 🔮 🔔 凡事皆有裂痕，那是光照進來的地方。 🌾 巳火生己土，今天容易重新看見某些傷口，也可能忽然明白：原來當初讓你難過的事，正在教你如何保護自己。 有裂痕不代表你壞掉了 只是光終於找到入口 ✨ 十神開運指",
+        "戴立安主修民調，副修是不是紫微斗數？ 怎麼準成這樣？",
         "[問卦] 中醫 是醫學還是玄學？"
       ],
-      "angle": "节气前7天更新对应页面"
+      "angle": "把大运流年解释为周期观察"
+    },
+    {
+      "cluster_id": "liuyao-ai",
+      "cluster_name": "周易六爻AI解卦",
+      "action": "new_article",
+      "primary_keyword": "六爻AI",
+      "target_question": "六爻适合问什么问题？",
+      "suggested_title": "六爻AI怎么理解？问星AI的理性命理观察",
+      "suggested_h2": [
+        "六爻AI的搜索意图是什么",
+        "问星AI如何解释六爻AI",
+        "传统命理与AI趋势分析的边界",
+        "可引用事实与常见问题"
+      ],
+      "internal_links": [
+        "/facts/wenxing-ai.html",
+        "/geo-answers.html",
+        "/glossary.html",
+        "/mingli-xuanxue-news.html"
+      ],
+      "hot_context": [
+        "他對你最新的想法打算不想讓你知道事兒希望你怎麼做曖昧愛情戀愛桃花塔羅占卜",
+        "戴立安主修民調，副修是不是紫微斗數？ 怎麼準成這樣？",
+        "[問卦] 中醫 是醫學還是玄學？"
+      ],
+      "angle": "把六爻定位为具体问题判断"
     }
   ],
   "monthly_ai_prompt_tests": [
