@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23",
-  "updated_at_display": "2026年10月23日 21:15",
+  "updated_at": "2026-10-24",
+  "updated_at_display": "2026年10月24日 11:14",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-23T21:15:12.878768+08:00",
+    "fetched_at": "2026-10-24T11:14:03.258912+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,41 +252,41 @@
   ],
   "items": [
     {
-      "title": "他對你最新的想法打算不想讓你知道事兒希望你怎麼做曖昧愛情戀愛桃花塔羅占卜",
+      "title": "這段關係結束了嗎？他心裡作何打算？還能有未來嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QcE5YNTJDYnVoVmdfQWoyUGdKdzhOZU15VjdzajN3X0xUcU5Ya1JsZHpTZGxWd0U1eFdMRVNHN083NzBlblQ3QUNadlRrNlpqaGs4eHJn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5icWVnQzExNXRDS1V0eEsyLW5uVFVtbUM2WVRMOWpJZDFLbWpSUl9PSHRMMXVxVkN6N25jZFhTWk55VnVDQndrdHFuazEyXzJvbkwzWDBn?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-10-22",
-      "published_display": "2026-10-22",
+      "published": "2026-10-23",
+      "published_display": "2026-10-23",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-11"
+      "event_cluster": "event-08"
     },
     {
-      "title": "戴立安主修民調，副修是不是紫微斗數？ 怎麼準成這樣？",
+      "title": "fal 開放 Kling 4.0 視訊 API，英國 AISI 揭露 Mythos 5 越界攻擊事故，微軟發表登上 Science 的醫療診斷架構；GitHub 上紫微斗數開源引擎與 DeepSeek Harness 遠端工具單日大漲。重點動態與趨勢清單： 1. Kling 4.0 在 fal 上線並全面開放 API fal 正式向所有開發者開",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2ZjJpeWRHZkN6YmU5M3BPWFhzWGdDSldmWm16eDZnbWY3LU5jRFExbVJVYkZXUFNKZzJFbXFZXzRXTnowS3FzTnRoNmNObjEtbXJCamxRSG9hWWhuTEN0ZTNoZTJBUXh3UlJnVkI2cl8?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oVGNlSnY3Q1VRQWNxTDI3Ti1udHJEVEQwOExpbmEtNTBDeEZ2YXdHUVdvWnpUUlhncFBfb3NsdEZCeDNscF85UnAzQWlRdUs1NjJhc3pMX19kMWpjRFE?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E7%B4%AB%E5%BE%AE%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "八字紫微",
-      "published": "2026-10-23",
-      "published_display": "2026-10-23",
+      "published": "2026-10-24",
+      "published_display": "2026-10-24",
       "matched_keywords": [
         "紫微",
         "斗數"
       ],
       "score": 9.95,
-      "event_cluster": "event-112"
+      "event_cluster": "event-105"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -328,10 +328,10 @@
     },
     {
       "title": "霜降來襲！5大生肖運勢大翻盤 命理師曝開運關鍵",
-      "summary": "来自 Life 生活網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQd2F0R1BOOU9MNVhPbG8ySTllMm5ORU83VldiRjhCcVdDMDFSWER1OTJDb1VXRTJNQWRnanhTQVoxaUhNV2IyR1hmN3BJOGZuT0ZtOWo3UnRpeUZOZldpbEFvOFRyS254ZU1PeVFacWFSdXlnaGlWNzBQc212amtGSEVSS3ktc2o1M1RnaVFtNUpyTnpBWWxyVHRCeVg5YzhtWGxwUzVaNmdRNXgxekJXdUlLM3Y5TlVNeDhWYndEbV9IUUtwVGhTc0lvb0U3TzhhbTBOOHBOT0NpREhYUWk4ekdlc085b3lIbnE2Rm1aN3owbXY5ZENUTEkzNmUzMEd2MGdYTlFTOFlyVGZ0YXdONksxeTdCbzJiSDV5cWg3bDdDcjFjQV9XaElONi1pTEVSdEpMRHFLQnpMQjA?oc=5",
+      "summary": "来自 蕃新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE45cy1FdTYxT1ZnLWFuRlZKNl9fWWw5czJoNF9oUmotX1djcnlKbjVKbUluX1ZlQ05qTGRQWjgyTVI0Rk9CbndpOEt4NDJrTDgtY3c?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Life 生活網 · Google News",
+      "source": "蕃新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -344,25 +344,6 @@
       ],
       "score": 16.95,
       "event_cluster": "event-03"
-    },
-    {
-      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-23",
-      "published_display": "2026-10-23",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
     },
     {
       "title": "【手機桌布也會影響運勢！命理師曝「這三種別放」：恐進入低頻狀態】 桌布不要亂放 （#起啵）",
@@ -379,6 +360,25 @@
         "命理",
         "命理師",
         "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
+    },
+    {
+      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-23",
+      "published_display": "2026-10-23",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-05"
@@ -400,7 +400,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-04"
     }
   ]
 }

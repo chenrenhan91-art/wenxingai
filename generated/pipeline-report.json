@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-23T21:15:02.187662+08:00",
-  "ran_at_display": "2026年10月23日 21:15",
+  "ran_at": "2026-10-24T11:13:53.597171+08:00",
+  "ran_at_display": "2026年10月24日 11:13",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "f6e15e374e1e2b7c3cc9044395aab59ef5f908b1",
-  "new_signature": "baebf1f0ea4f8a26a9097b37f31d974efef90035",
+  "previous_signature": "baebf1f0ea4f8a26a9097b37f31d974efef90035",
+  "new_signature": "cbe86afb04351e2755f50dab0063dff01858afc2",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,16 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "他對你最新的想法打算不想讓你知道事兒希望你怎麼做曖昧愛情戀愛桃花塔羅占卜",
-    "戴立安主修民調，副修是不是紫微斗數？ 怎麼準成這樣？",
+    "這段關係結束了嗎？他心裡作何打算？還能有未來嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "fal 開放 Kling 4.0 視訊 API，英國 AISI 揭露 Mythos 5 越界攻擊事故，微軟發表登上 Science 的醫療診斷架構；GitHub 上紫微斗數開源引擎與 DeepSeek Harness 遠端工具單日大漲。重點動態與趨勢清單： 1. Kling 4.0 在 fal 上線並全面開放 API fal 正式向所有開發者開",
     "[問卦] 中醫 是醫學還是玄學？",
     "霜降到！命理師點名5生肖運勢大翻盤…開運致富關鍵曝光",
     "霜降來襲！5大生肖運勢大翻盤 命理師曝開運關鍵"
   ],
   "added_titles": [
-    "戴立安主修民調，副修是不是紫微斗數？ 怎麼準成這樣？",
-    "霜降到！命理師點名5生肖運勢大翻盤…開運致富關鍵曝光",
-    "霜降來襲！5大生肖運勢大翻盤 命理師曝開運關鍵"
+    "這段關係結束了嗎？他心裡作何打算？還能有未來嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "fal 開放 Kling 4.0 視訊 API，英國 AISI 揭露 Mythos 5 越界攻擊事故，微軟發表登上 Science 的醫療診斷架構；GitHub 上紫微斗數開源引擎與 DeepSeek Harness 遠端工具單日大漲。重點動態與趨勢清單： 1. Kling 4.0 在 fal 上線並全面開放 API fal 正式向所有開發者開"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -43,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月23日 21:15"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月24日 11:14"
     },
     {
       "script": "generate_daily_content.py",
