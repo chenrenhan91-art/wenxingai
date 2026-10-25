@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-25",
-  "updated_at_display": "2026年10月25日 11:15",
+  "updated_at_display": "2026年10月25日 21:12",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-25T11:15:12.002181+08:00",
+    "fetched_at": "2026-10-25T21:12:45.005580+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -286,7 +286,7 @@
         "斗數"
       ],
       "score": 9.95,
-      "event_cluster": "event-109"
+      "event_cluster": "event-112"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -309,10 +309,10 @@
     },
     {
       "title": "霜降到！命理師點名5生肖運勢大翻盤…開運致富關鍵曝光",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1POEdQOGhLcUR2a01MT3kwNWh5eTI3SjZzUktMRWZQa0dBc2tHcFc5TWJJNjJZY0paYTU0bVpILXIwdGx5eURCT9IBTEFVX3lxTE5acHlzQURLRDBkamxFaE1FM3NJVmg2aGFITWwtRVExVEw4WWtfbHhMYWhfckhubmUzcWxPSmZDSFhqZHJBelBQNkFvcHk?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
+      "source": "三立新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
