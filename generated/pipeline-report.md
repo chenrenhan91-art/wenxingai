@@ -1,9 +1,9 @@
-# 问星AI 内容自动化运行报告 2026年10月24日 21:13
+# 问星AI 内容自动化运行报告 2026年10月25日 11:15
 
 - 总体状态：failed_generate
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：d510b6a9b05b7f9b87b8399a84f523ef6ce19dc4
+- 变更签名：0b2c0a73393782287cd22aeae8d4db29cc480139
 - Gemini 是否执行：是
 - Gemini 审校是否执行：否
 - 规则质检是否执行：否
@@ -13,21 +13,24 @@
 - 阶段状态：抓取=ok, 生成=failed, 审校=blocked, 质检=blocked, 分发=blocked, 文章=skipped
 
 ## 本轮热点标题
-- 這段關係結束了嗎？他心裡作何打算？還能有未來嗎？|曖昧|愛情|戀愛|桃花|塔羅占卜|
+- 他到底想怎樣？想要什麼？怎麼想你的？希望關係怎麼樣？|曖昧|愛情|戀愛|桃花|塔羅占卜|
 - fal 開放 Kling 4.0 視訊 API，英國 AISI 揭露 Mythos 5 越界攻擊事故，微軟發表登上 Science 的醫療診斷架構；GitHub 上紫微斗數開源引擎與 DeepSeek Harness 遠端工具單日大漲。重點動態與趨勢清單： 1. Kling 4.0 在 fal 上線並全面開放 API fal 正式向所有開發者開
 - [問卦] 中醫 是醫學還是玄學？
 - 霜降到！命理師點名5生肖運勢大翻盤…開運致富關鍵曝光
 - 霜降來襲！5大生肖運勢大翻盤 命理師曝開運關鍵
 
+## 新增标题
+- 他到底想怎樣？想要什麼？怎麼想你的？希望關係怎麼樣？|曖昧|愛情|戀愛|桃花|塔羅占卜|
+
 ## 次日运营建议
-- 明日优先延展「命理新闻」相关选题（当前占比 5/8）。
+- 明日优先延展「命理新闻」相关选题（当前占比 4/8）。
 
 ## 失败脚本
 - generate_daily_content.py
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年10月24日 21:13
+updated 8 hot news items at 2026年10月25日 11:15
 - generate_daily_content.py | failed | [warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {"error":{"message":"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.","type":"invalid_request_error","param":null,...
 [warn] DashScope model qwen3.6-flash-2026-04-16 failed; trying qwen3.5-flash. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
 [warn] DashScope model qwen3.5-flash failed; trying qwen3.5-35b-a3b. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
