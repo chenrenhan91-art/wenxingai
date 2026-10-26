@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-26",
-  "updated_at_display": "2026年10月26日 11:18",
+  "updated_at_display": "2026年10月26日 22:44",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-26T11:18:26.559662+08:00",
+    "fetched_at": "2026-10-26T22:44:41.022228+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "他對你幾分真心？是養魚還是真喜歡？你在他心裡到底佔了多少分量？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+      "title": "【走心版】你對他有多重要？他眼裡是否只有你？有哪些話想對你說？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RRGJRVUd6aUhMTVhNaXVLWXJUbHFnaTFEeVE2cmlvMHZ6TE1JRVF4ak5nLU5EN05rZlA3eEtKd2M3YXMxaXlwOWw3MXhYT3NJVFlIQjJ3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5VFRGTTNTSTR0S2pvVkZKd29Cd0NBSldqcVdZdFJzdzlIMEJNdTlIY1ZtNE11Uk9nTF9zdF8wLUhhREhKdDhidDdiUkdpUklSYVN1cDVn?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-10-22",
-      "published_display": "2026-10-22",
+      "published": "2026-10-26",
+      "published_display": "2026-10-26",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-11"
+      "event_cluster": "event-07"
     },
     {
       "title": "fal 開放 Kling 4.0 視訊 API，英國 AISI 揭露 Mythos 5 越界攻擊事故，微軟發表登上 Science 的醫療診斷架構；GitHub 上紫微斗數開源引擎與 DeepSeek Harness 遠端工具單日大漲。重點動態與趨勢清單： 1. Kling 4.0 在 fal 上線並全面開放 API fal 正式向所有開發者開",
@@ -286,7 +286,7 @@
         "斗數"
       ],
       "score": 9.95,
-      "event_cluster": "event-117"
+      "event_cluster": "event-122"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -346,6 +346,44 @@
       "event_cluster": "event-03"
     },
     {
+      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-26",
+      "published_display": "2026-10-26",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
+    },
+    {
+      "title": "11月生肖運勢搶先看！4生肖財運最旺 命理師：屬狗喜迎額外財源",
+      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5vdEFITmdXbGE3ckNFRG9ySEJWQWRKUXZIOHd5VUlrdWNjTHRTU2ctTTV6Wl9LZy1haFNLRVZudGZqakd5eUEtSnFLczhqS3AwR3fSAVJBVV95cUxOb3RBSE5nV2xhN3JDRURvckhCVkFkSlF2SDh3eVVJa3VjY0x0U1NnLU01elpfS2ctYWhTS0VWbnRmampHeXlBLUpxS3M4aktwMEd3?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "NOWnews今日新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-26",
+      "published_display": "2026-10-26",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-05"
+    },
+    {
       "title": "討論牆| 10/24水逆到！命理師曝3星座運勢反而出現正面轉機，獅子有望突破僵局，「他」能解開誤會",
       "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ua2Vzbm5vejNOd2Q0ckRUNUVjMU5mVnFwdDU3OFc5cVZ6VFdRV21CZ25pTkp1QmppMFUtUHNVVnBzWGZxbGF3NDUzMER5Ul9GWVoxNzQ3dWlZWUk1SXYyb0VmVGs?oc=5",
@@ -356,44 +394,6 @@
       "category": "塔罗星象",
       "published": "2026-10-25",
       "published_display": "2026-10-25",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-24",
-      "published_display": "2026-10-24",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "手機桌布也會影響運勢！命理師曝「這三種別放」：恐進入低頻狀態",
-      "summary": "来自 ETtoday新聞雲 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xOEI5bU9WczZFaGNJWm94aUxvS05wWGMtZTEyY1MtY2RuckpNZG9tUnJFOU5RTmJ1cDQ4X05OWWprTjMxaU44cEFFaGwxY2F1OF95ckY4SURFcFdzNWfSAUtBVV95cUxON3o0RUNQMS03djRRbFliSG1QVnpkd290N3pYVkxqMFB1UUI4QjA5Q3ZVbDRiRVVEd2Zva0FYQXhWZFp2QTl0b0tOTXM?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "ETtoday新聞雲 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-22",
-      "published_display": "2026-10-22",
       "matched_keywords": [
         "命理",
         "命理師",
