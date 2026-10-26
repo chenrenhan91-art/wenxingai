@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-25T21:12:34.697022+08:00",
-  "ran_at_display": "2026年10月25日 21:12",
+  "ran_at": "2026-10-26T11:18:15.836469+08:00",
+  "ran_at_display": "2026年10月26日 11:18",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "0b2c0a73393782287cd22aeae8d4db29cc480139",
-  "new_signature": "60e2a44c1ee04aab813e9f5403dd017ad43a5e1e",
+  "previous_signature": "60e2a44c1ee04aab813e9f5403dd017ad43a5e1e",
+  "new_signature": "521fc63213b1ca371874a2645ab562b9e7887348",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,13 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "他到底想怎樣？想要什麼？怎麼想你的？希望關係怎麼樣？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "他對你幾分真心？是養魚還是真喜歡？你在他心裡到底佔了多少分量？|曖昧|愛情|戀愛|桃花|塔羅占卜",
     "fal 開放 Kling 4.0 視訊 API，英國 AISI 揭露 Mythos 5 越界攻擊事故，微軟發表登上 Science 的醫療診斷架構；GitHub 上紫微斗數開源引擎與 DeepSeek Harness 遠端工具單日大漲。重點動態與趨勢清單： 1. Kling 4.0 在 fal 上線並全面開放 API fal 正式向所有開發者開",
     "[問卦] 中醫 是醫學還是玄學？",
     "霜降到！命理師點名5生肖運勢大翻盤…開運致富關鍵曝光",
     "霜降來襲！5大生肖運勢大翻盤 命理師曝開運關鍵"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "他對你幾分真心？是養魚還是真喜歡？你在他心裡到底佔了多少分量？|曖昧|愛情|戀愛|桃花|塔羅占卜"
+  ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
@@ -39,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月25日 21:12"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月26日 11:18"
     },
     {
       "script": "generate_daily_content.py",

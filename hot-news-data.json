@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-25",
-  "updated_at_display": "2026年10月25日 21:12",
+  "updated_at": "2026-10-26",
+  "updated_at_display": "2026年10月26日 11:18",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-25T21:12:45.005580+08:00",
+    "fetched_at": "2026-10-26T11:18:26.559662+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,23 +252,23 @@
   ],
   "items": [
     {
-      "title": "他到底想怎樣？想要什麼？怎麼想你的？希望關係怎麼樣？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "他對你幾分真心？是養魚還是真喜歡？你在他心裡到底佔了多少分量？|曖昧|愛情|戀愛|桃花|塔羅占卜",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDU3FiRHV6eURiaWdtS1M1R2NBYWtLRTZlNkhYZ2c2d1gwOGc4SXBvUTQ5YUhuREpHU21HYVRjdVlVM3JFVjEtQlNEREEyU3FUT3RoSER3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RRGJRVUd6aUhMTVhNaXVLWXJUbHFnaTFEeVE2cmlvMHZ6TE1JRVF4ak5nLU5EN05rZlA3eEtKd2M3YXMxaXlwOWw3MXhYT3NJVFlIQjJ3?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-10-24",
-      "published_display": "2026-10-24",
+      "published": "2026-10-22",
+      "published_display": "2026-10-22",
       "matched_keywords": [
         "塔羅",
         "占卜",
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-06"
+      "event_cluster": "event-11"
     },
     {
       "title": "fal 開放 Kling 4.0 視訊 API，英國 AISI 揭露 Mythos 5 越界攻擊事故，微軟發表登上 Science 的醫療診斷架構；GitHub 上紫微斗數開源引擎與 DeepSeek Harness 遠端工具單日大漲。重點動態與趨勢清單： 1. Kling 4.0 在 fal 上線並全面開放 API fal 正式向所有開發者開",
@@ -286,7 +286,7 @@
         "斗數"
       ],
       "score": 9.95,
-      "event_cluster": "event-112"
+      "event_cluster": "event-117"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -400,7 +400,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-06"
     }
   ]
 }
