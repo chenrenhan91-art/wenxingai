@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-26",
-  "updated_at_display": "2026年10月26日 22:44",
+  "updated_at": "2026-10-27",
+  "updated_at_display": "2026年10月27日 11:15",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-26T22:44:41.022228+08:00",
+    "fetched_at": "2026-10-27T11:15:17.758389+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -271,22 +271,22 @@
       "event_cluster": "event-07"
     },
     {
-      "title": "fal 開放 Kling 4.0 視訊 API，英國 AISI 揭露 Mythos 5 越界攻擊事故，微軟發表登上 Science 的醫療診斷架構；GitHub 上紫微斗數開源引擎與 DeepSeek Harness 遠端工具單日大漲。重點動態與趨勢清單： 1. Kling 4.0 在 fal 上線並全面開放 API fal 正式向所有開發者開",
+      "title": "好一陣子沒有開占卜台 今天占占了好開心🔮 前兩天下訂了麥當當塔羅牌 金幣土元素是用漢堡取代~超可愛的吧🍔 收到以後再拍給大家看",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oVGNlSnY3Q1VRQWNxTDI3Ti1udHJEVEQwOExpbmEtNTBDeEZ2YXdHUVdvWnpUUlhncFBfb3NsdEZCeDNscF85UnAzQWlRdUs1NjJhc3pMX19kMWpjRFE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBMaXVTLXcwN0c0elRYa01NZnp5UUU5QzNrVHJQd0k3M284RVdZRHNyNENUNEViLTdvVHVDb0t2ZWpFVFRFWW4wVFRTbUMwV1FNUGpRN0czOVhpamktTWVMalFR?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%A1%94%E7%BE%85%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "八字紫微",
-      "published": "2026-10-24",
-      "published_display": "2026-10-24",
+      "category": "塔罗星象",
+      "published": "2026-10-26",
+      "published_display": "2026-10-26",
       "matched_keywords": [
-        "紫微",
-        "斗數"
+        "塔羅",
+        "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-122"
+      "event_cluster": "event-110"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
