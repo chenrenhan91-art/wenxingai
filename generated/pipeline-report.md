@@ -1,9 +1,9 @@
-# 问星AI 内容自动化运行报告 2026年10月27日 11:15
+# 问星AI 内容自动化运行报告 2026年10月27日 21:20
 
 - 总体状态：failed_generate
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：8b5229a46485ea69136da207a3b5a57b5df42765
+- 变更签名：80cf62011c6ab8b0ccca4da096507f2e16ab196e
 - Gemini 是否执行：是
 - Gemini 审校是否执行：否
 - 规则质检是否执行：否
@@ -19,18 +19,15 @@
 - 霜降到！命理師點名5生肖運勢大翻盤…開運致富關鍵曝光
 - 霜降來襲！5大生肖運勢大翻盤 命理師曝開運關鍵
 
-## 新增标题
-- 好一陣子沒有開占卜台 今天占占了好開心🔮 前兩天下訂了麥當當塔羅牌 金幣土元素是用漢堡取代~超可愛的吧🍔 收到以後再拍給大家看
-
 ## 次日运营建议
-- 明日优先延展「命理新闻」相关选题（当前占比 4/8）。
+- 明日优先延展「命理新闻」相关选题（当前占比 5/8）。
 
 ## 失败脚本
 - generate_daily_content.py
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年10月27日 11:15
+updated 8 hot news items at 2026年10月27日 21:20
 - generate_daily_content.py | failed | [warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {"error":{"message":"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.","type":"invalid_request_error","param":null,...
 [warn] DashScope model qwen3.6-flash-2026-04-16 failed; trying qwen3.5-flash. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
 [warn] DashScope model qwen3.5-flash failed; trying qwen3.5-35b-a3b. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...

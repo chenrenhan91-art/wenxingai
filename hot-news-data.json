@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-27",
-  "updated_at_display": "2026年10月27日 11:15",
+  "updated_at_display": "2026年10月27日 21:20",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-27T11:15:17.758389+08:00",
+    "fetched_at": "2026-10-27T21:20:57.160316+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "items": [
     {
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-07"
+      "event_cluster": "event-06"
     },
     {
       "title": "好一陣子沒有開占卜台 今天占占了好開心🔮 前兩天下訂了麥當當塔羅牌 金幣土元素是用漢堡取代~超可愛的吧🍔 收到以後再拍給大家看",
@@ -286,7 +286,7 @@
         "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-110"
+      "event_cluster": "event-111"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -384,23 +384,23 @@
       "event_cluster": "event-05"
     },
     {
-      "title": "討論牆| 10/24水逆到！命理師曝3星座運勢反而出現正面轉機，獅子有望突破僵局，「他」能解開誤會",
-      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ua2Vzbm5vejNOd2Q0ckRUNUVjMU5mVnFwdDU3OFc5cVZ6VFdRV21CZ25pTkp1QmppMFUtUHNVVnBzWGZxbGF3NDUzMER5Ul9GWVoxNzQ3dWlZWUk1SXYyb0VmVGs?oc=5",
+      "title": "【手機桌布也會影響運勢！命理師曝「這三種別放」：恐進入低頻狀態】 桌布不要亂放 （#起啵）",
+      "summary": "来自 Facebook · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiggRBVV95cUxPQVM1OWM1UlYzeGV0UXltZnF1RWRkWWpnT1RaZ3kyY25wdGFJVmQ1X0VRaUItcnRoQ2xKUGMwUEN1ckRDdVhMNU5iRzJ6LWNLSEtCc1YtNC04bnRWOWI2THhVY2kxazhla2ZWTmVxRVM2MC11aXN6cnBUclV1LUtYMDV3Ri1FVGNHNGZsUlczYjZxbnNyejJFS2JCOWEyVzJDT3pIaXBkblR5Vnp6V2hCWkN4SkZ5Zzd0SFVZZG5kdFVYYTNhUGY0OVAwRWcteEIwQ3pEU1VpVEdaMDk5Qk1lMy1zN3RCSVk2QS05SUhwbWJNa250Z3hsNDZzSkVLX2xZSGFOczRDaWJCbWtuX3NoR1k1ZHFYazNiWGtEZzNGeE9yWnpzS2p3Vm92NFZIRlk4T2ZzRm1Pc0t3dWE3c29jaVFDYXQzTU9wMXlkZnJHa2tiSGFnUV9OVm4tdXpwQi1wSGVpZmNsdk1vOXB0MHRRdVdSSC1jaU9yZWxLTElxWXYwRVZGRTBZaFItRVZ3TEpwUkJzTDhIZ2sydTJJYXNCdS1nRE5lQnpWVmdxc3lxSzBodkpVWHR4MjRDSGtOei04NGpzVUtOZ2NNVW9fSG4zMDJxcUQyX05pZTZRQUUwWlR3eEd4bVZrejcxaktGT0w4YTJmUTNEemJ4a3dXWnJkQzdR?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "LINE TODAY · Google News",
+      "source": "Facebook · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-10-25",
-      "published_display": "2026-10-25",
+      "category": "命理新闻",
+      "published": "2026-10-23",
+      "published_display": "2026-10-23",
       "matched_keywords": [
         "命理",
         "命理師",
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     }
   ]
 }

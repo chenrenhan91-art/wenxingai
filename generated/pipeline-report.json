@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-27T11:15:07.652084+08:00",
-  "ran_at_display": "2026年10月27日 11:15",
+  "ran_at": "2026-10-27T21:20:46.244486+08:00",
+  "ran_at_display": "2026年10月27日 21:20",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "865764d5cb4bab36d1c1ff48862a59c88b45413b",
-  "new_signature": "8b5229a46485ea69136da207a3b5a57b5df42765",
+  "previous_signature": "8b5229a46485ea69136da207a3b5a57b5df42765",
+  "new_signature": "80cf62011c6ab8b0ccca4da096507f2e16ab196e",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,11 +27,9 @@
     "霜降到！命理師點名5生肖運勢大翻盤…開運致富關鍵曝光",
     "霜降來襲！5大生肖運勢大翻盤 命理師曝開運關鍵"
   ],
-  "added_titles": [
-    "好一陣子沒有開占卜台 今天占占了好開心🔮 前兩天下訂了麥當當塔羅牌 金幣土元素是用漢堡取代~超可愛的吧🍔 收到以後再拍給大家看"
-  ],
+  "added_titles": [],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -41,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月27日 11:15"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月27日 21:20"
     },
     {
       "script": "generate_daily_content.py",
