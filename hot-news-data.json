@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-27",
-  "updated_at_display": "2026年10月27日 21:20",
+  "updated_at": "2026-10-28",
+  "updated_at_display": "2026年10月28日 11:11",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-27T21:20:57.160316+08:00",
+    "fetched_at": "2026-10-28T11:11:54.064197+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,16 +252,16 @@
   ],
   "items": [
     {
-      "title": "【走心版】你對他有多重要？他眼裡是否只有你？有哪些話想對你說？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "從初見到現在，你在ta心裡的份量是升了還是降了？目前排在第幾順位？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5VFRGTTNTSTR0S2pvVkZKd29Cd0NBSldqcVdZdFJzdzlIMEJNdTlIY1ZtNE11Uk9nTF9zdF8wLUhhREhKdDhidDdiUkdpUklSYVN1cDVn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FRklSZGw3ekg2RWJEX25ieVBiY2R4eWlDbmlyaEJpNWdrcWlDTnh4SElKV0RMZXIxMURMNGZ6bG9NYk43OWlFT19jUDN0bzFhR0xMeE5R?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "塔罗星象",
-      "published": "2026-10-26",
-      "published_display": "2026-10-26",
+      "published": "2026-10-27",
+      "published_display": "2026-10-27",
       "matched_keywords": [
         "塔羅",
         "占卜",
@@ -286,7 +286,7 @@
         "占卜"
       ],
       "score": 9.95,
-      "event_cluster": "event-111"
+      "event_cluster": "event-124"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -354,8 +354,8 @@
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-10-26",
-      "published_display": "2026-10-26",
+      "published": "2026-10-27",
+      "published_display": "2026-10-27",
       "matched_keywords": [
         "命理",
         "命理師",
@@ -384,23 +384,23 @@
       "event_cluster": "event-05"
     },
     {
-      "title": "【手機桌布也會影響運勢！命理師曝「這三種別放」：恐進入低頻狀態】 桌布不要亂放 （#起啵）",
-      "summary": "来自 Facebook · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiggRBVV95cUxPQVM1OWM1UlYzeGV0UXltZnF1RWRkWWpnT1RaZ3kyY25wdGFJVmQ1X0VRaUItcnRoQ2xKUGMwUEN1ckRDdVhMNU5iRzJ6LWNLSEtCc1YtNC04bnRWOWI2THhVY2kxazhla2ZWTmVxRVM2MC11aXN6cnBUclV1LUtYMDV3Ri1FVGNHNGZsUlczYjZxbnNyejJFS2JCOWEyVzJDT3pIaXBkblR5Vnp6V2hCWkN4SkZ5Zzd0SFVZZG5kdFVYYTNhUGY0OVAwRWcteEIwQ3pEU1VpVEdaMDk5Qk1lMy1zN3RCSVk2QS05SUhwbWJNa250Z3hsNDZzSkVLX2xZSGFOczRDaWJCbWtuX3NoR1k1ZHFYazNiWGtEZzNGeE9yWnpzS2p3Vm92NFZIRlk4T2ZzRm1Pc0t3dWE3c29jaVFDYXQzTU9wMXlkZnJHa2tiSGFnUV9OVm4tdXpwQi1wSGVpZmNsdk1vOXB0MHRRdVdSSC1jaU9yZWxLTElxWXYwRVZGRTBZaFItRVZ3TEpwUkJzTDhIZ2sydTJJYXNCdS1nRE5lQnpWVmdxc3lxSzBodkpVWHR4MjRDSGtOei04NGpzVUtOZ2NNVW9fSG4zMDJxcUQyX05pZTZRQUUwWlR3eEd4bVZrejcxaktGT0w4YTJmUTNEemJ4a3dXWnJkQzdR?oc=5",
+      "title": "手機桌布也會影響運勢！命理師曝「這三種別放」：恐進入低頻狀態",
+      "summary": "来自 ETtoday新聞雲 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xOEI5bU9WczZFaGNJWm94aUxvS05wWGMtZTEyY1MtY2RuckpNZG9tUnJFOU5RTmJ1cDQ4X05OWWprTjMxaU44cEFFaGwxY2F1OF95ckY4SURFcFdzNWfSAUtBVV95cUxON3o0RUNQMS03djRRbFliSG1QVnpkd290N3pYVkxqMFB1UUI4QjA5Q3ZVbDRiRVVEd2Zva0FYQXhWZFp2QTl0b0tOTXM?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Facebook · Google News",
+      "source": "ETtoday新聞雲 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-10-23",
-      "published_display": "2026-10-23",
+      "published": "2026-10-22",
+      "published_display": "2026-10-22",
       "matched_keywords": [
         "命理",
         "命理師",
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-09"
     }
   ]
 }

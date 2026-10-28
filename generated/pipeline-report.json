@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-27T21:20:46.244486+08:00",
-  "ran_at_display": "2026年10月27日 21:20",
+  "ran_at": "2026-10-28T11:11:43.628735+08:00",
+  "ran_at_display": "2026年10月28日 11:11",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "8b5229a46485ea69136da207a3b5a57b5df42765",
-  "new_signature": "80cf62011c6ab8b0ccca4da096507f2e16ab196e",
+  "previous_signature": "80cf62011c6ab8b0ccca4da096507f2e16ab196e",
+  "new_signature": "fc2a31f55ddbeab70c63d669a5f27b5e517db800",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,13 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "【走心版】你對他有多重要？他眼裡是否只有你？有哪些話想對你說？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "從初見到現在，你在ta心裡的份量是升了還是降了？目前排在第幾順位？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "好一陣子沒有開占卜台 今天占占了好開心🔮 前兩天下訂了麥當當塔羅牌 金幣土元素是用漢堡取代~超可愛的吧🍔 收到以後再拍給大家看",
     "[問卦] 中醫 是醫學還是玄學？",
     "霜降到！命理師點名5生肖運勢大翻盤…開運致富關鍵曝光",
     "霜降來襲！5大生肖運勢大翻盤 命理師曝開運關鍵"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "從初見到現在，你在ta心裡的份量是升了還是降了？目前排在第幾順位？|曖昧|愛情|戀愛|桃花|塔羅占卜|"
+  ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
@@ -39,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月27日 21:20"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月28日 11:11"
     },
     {
       "script": "generate_daily_content.py",
