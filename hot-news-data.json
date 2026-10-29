@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-28",
-  "updated_at_display": "2026年10月28日 21:12",
+  "updated_at": "2026-10-29",
+  "updated_at_display": "2026年10月29日 11:11",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-28T21:12:17.544063+08:00",
+    "fetched_at": "2026-10-29T11:11:47.565100+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-115"
+      "event_cluster": "event-118"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -348,15 +348,15 @@
     },
     {
       "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
+      "source": "三立新聞網SETN.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-10-27",
-      "published_display": "2026-10-27",
+      "published": "2026-10-28",
+      "published_display": "2026-10-28",
       "matched_keywords": [
         "命理",
         "命理師",

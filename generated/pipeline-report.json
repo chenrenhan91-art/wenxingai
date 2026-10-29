@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-28T21:11:52.497564+08:00",
-  "ran_at_display": "2026年10月28日 21:11",
+  "ran_at": "2026-10-29T11:11:37.506625+08:00",
+  "ran_at_display": "2026年10月29日 11:11",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "fc2a31f55ddbeab70c63d669a5f27b5e517db800",
-  "new_signature": "8aadd7f8e64d5c4ea656ab4ca985cd926155eb31",
+  "previous_signature": "8aadd7f8e64d5c4ea656ab4ca985cd926155eb31",
+  "new_signature": "52a35cd927ed97edde4f35f4635c82ff9b984796",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,9 +27,7 @@
     "霜降到！命理師點名5生肖運勢大翻盤…開運致富關鍵曝光",
     "霜降來襲！5大生肖運勢大翻盤 命理師曝開運關鍵"
   ],
-  "added_titles": [
-    "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.10.27（二）甲戌日 🔮 🔔 不要因為走得太遠，而忘記了自己為什麼出發。 🌳 甲木遇戌土，今天容易忙著完成目標、證明自己，卻忘了當初真正想守住的是什麼。 走得快很厲害 但方向對，才不會努力半天跑去別人家 ✨ 十神開運指南｜請對"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
@@ -41,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月28日 21:12"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月29日 11:11"
     },
     {
       "script": "generate_daily_content.py",
