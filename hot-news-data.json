@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-29",
-  "updated_at_display": "2026年10月29日 11:11",
+  "updated_at_display": "2026年10月29日 21:12",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-29T11:11:47.565100+08:00",
+    "fetched_at": "2026-10-29T21:12:16.475878+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,13 +248,13 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "items": [
     {
-      "title": "從初見到現在，你在ta心裡的份量是升了還是降了？目前排在第幾順位？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+      "title": "他對他對你是否還有留戀？為什麼不主動？他是真不在意，還是裝冷漠偷偷想你？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FRklSZGw3ekg2RWJEX25ieVBiY2R4eWlDbmlyaEJpNWdrcWlDTnh4SElKV0RMZXIxMURMNGZ6bG9NYk43OWlFT19jUDN0bzFhR0xMeE5R?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XeXdWcHIweDN3aW5OQTk5aVVWeU9hQkhBVHNLVXlFcjFVSVJvenlNMjVLM2U2ak94dlA1NlFqMk5rclEzYU9DMndxeXBRLXppZDJZLWxn?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
@@ -268,7 +268,7 @@
         "桃花"
       ],
       "score": 14.55,
-      "event_cluster": "event-08"
+      "event_cluster": "event-05"
     },
     {
       "title": "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.10.27（二）甲戌日 🔮 🔔 不要因為走得太遠，而忘記了自己為什麼出發。 🌳 甲木遇戌土，今天容易忙著完成目標、證明自己，卻忘了當初真正想守住的是什麼。 走得快很厲害 但方向對，才不會努力半天跑去別人家 ✨ 十神開運指南｜請對",
@@ -287,7 +287,7 @@
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-118"
+      "event_cluster": "event-115"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -310,10 +310,10 @@
     },
     {
       "title": "霜降到！命理師點名5生肖運勢大翻盤…開運致富關鍵曝光",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1POEdQOGhLcUR2a01MT3kwNWh5eTI3SjZzUktMRWZQa0dBc2tHcFc5TWJJNjJZY0paYTU0bVpILXIwdGx5eURCT9IBTEFVX3lxTE5acHlzQURLRDBkamxFaE1FM3NJVmg2aGFITWwtRVExVEw4WWtfbHhMYWhfckhubmUzcWxPSmZDSFhqZHJBelBQNkFvcHk?oc=5",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxQOXdnYi1aYXhsS1pFZ1NDb0Z0dnBSbkhXQjg3QnZESEx4ZUFyZ1hWX251RjBTOXJMZGFzNmtuQllZeHZaUmpTV3ZKSE9USTNselNoMXFPZ1NNbHVpSDQ5cTBWNF81V3E2bnliTC14a09NTlJTOTl3YU5oLUdrY1pSblh2bkJpUjRaa2xjankyU1V3RUduR2pfV3YzWlh4QkZrM29DZU5kYk93YXE2U2tMLV9La2FDWmE3QnpKU0pUMGYxNlNUdHM3dGRxaVVuQTBwbUxGTU1kSGptdEEtcHduVjF1VkFKb29wQ3NNYWNER2xtN2p2U0V5M1VVVHpyRFZTcngzZTQwQWdFWHV1UjBpalp5YVFzVXZKQ0FMU2xIVFZQZnBrSDZHOFFhM016clcyQjhud0NDZE93d0NKc21IVWlCdG0zVlJNZkRFTGkwbjZfbzdqaEVKRTRUcjJxcG14c0l3TGlRNjJtUTQ?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
+      "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -326,25 +326,6 @@
       ],
       "score": 16.95,
       "event_cluster": "event-02"
-    },
-    {
-      "title": "霜降來襲！5大生肖運勢大翻盤 命理師曝開運關鍵",
-      "summary": "来自 蕃新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE45cy1FdTYxT1ZnLWFuRlZKNl9fWWw5czJoNF9oUmotX1djcnlKbjVKbUluX1ZlQ05qTGRQWjgyTVI0Rk9CbndpOEt4NDJrTDgtY3c?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "蕃新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-23",
-      "published_display": "2026-10-23",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 16.95,
-      "event_cluster": "event-03"
     },
     {
       "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
@@ -363,26 +344,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-04"
-    },
-    {
-      "title": "討論牆| 10/24水逆到！命理師曝3星座運勢反而出現正面轉機，獅子有望突破僵局，「他」能解開誤會",
-      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ua2Vzbm5vejNOd2Q0ckRUNUVjMU5mVnFwdDU3OFc5cVZ6VFdRV21CZ25pTkp1QmppMFUtUHNVVnBzWGZxbGF3NDUzMER5Ul9GWVoxNzQ3dWlZWUk1SXYyb0VmVGs?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "LINE TODAY · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-10-27",
-      "published_display": "2026-10-27",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-03"
     },
     {
       "title": "11月生肖運勢搶先看！4生肖財運最旺 命理師：屬狗喜迎額外財源",
@@ -395,6 +357,44 @@
       "category": "命理新闻",
       "published": "2026-10-26",
       "published_display": "2026-10-26",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
+    },
+    {
+      "title": "【手機桌布也會影響運勢！命理師曝「這三種別放」：恐進入低頻狀態】 桌布不要亂放 （#起啵）",
+      "summary": "来自 Facebook · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiggRBVV95cUxPQVM1OWM1UlYzeGV0UXltZnF1RWRkWWpnT1RaZ3kyY25wdGFJVmQ1X0VRaUItcnRoQ2xKUGMwUEN1ckRDdVhMNU5iRzJ6LWNLSEtCc1YtNC04bnRWOWI2THhVY2kxazhla2ZWTmVxRVM2MC11aXN6cnBUclV1LUtYMDV3Ri1FVGNHNGZsUlczYjZxbnNyejJFS2JCOWEyVzJDT3pIaXBkblR5Vnp6V2hCWkN4SkZ5Zzd0SFVZZG5kdFVYYTNhUGY0OVAwRWcteEIwQ3pEU1VpVEdaMDk5Qk1lMy1zN3RCSVk2QS05SUhwbWJNa250Z3hsNDZzSkVLX2xZSGFOczRDaWJCbWtuX3NoR1k1ZHFYazNiWGtEZzNGeE9yWnpzS2p3Vm92NFZIRlk4T2ZzRm1Pc0t3dWE3c29jaVFDYXQzTU9wMXlkZnJHa2tiSGFnUV9OVm4tdXpwQi1wSGVpZmNsdk1vOXB0MHRRdVdSSC1jaU9yZWxLTElxWXYwRVZGRTBZaFItRVZ3TEpwUkJzTDhIZ2sydTJJYXNCdS1nRE5lQnpWVmdxc3lxSzBodkpVWHR4MjRDSGtOei04NGpzVUtOZ2NNVW9fSG4zMDJxcUQyX05pZTZRQUUwWlR3eEd4bVZrejcxaktGT0w4YTJmUTNEemJ4a3dXWnJkQzdR?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Facebook · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-23",
+      "published_display": "2026-10-23",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-06"
+    },
+    {
+      "title": "手機桌布也會影響運勢！命理師曝「這三種別放」：恐進入低頻狀態",
+      "summary": "来自 ETtoday新聞雲 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xOEI5bU9WczZFaGNJWm94aUxvS05wWGMtZTEyY1MtY2RuckpNZG9tUnJFOU5RTmJ1cDQ4X05OWWprTjMxaU44cEFFaGwxY2F1OF95ckY4SURFcFdzNWfSAUtBVV95cUxON3o0RUNQMS03djRRbFliSG1QVnpkd290N3pYVkxqMFB1UUI4QjA5Q3ZVbDRiRVVEd2Zva0FYQXhWZFp2QTl0b0tOTXM?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "ETtoday新聞雲 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-22",
+      "published_display": "2026-10-22",
       "matched_keywords": [
         "命理",
         "命理師",

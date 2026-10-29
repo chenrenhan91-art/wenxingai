@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-29T11:11:37.506625+08:00",
-  "ran_at_display": "2026年10月29日 11:11",
+  "ran_at": "2026-10-29T21:12:05.488675+08:00",
+  "ran_at_display": "2026年10月29日 21:12",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "8aadd7f8e64d5c4ea656ab4ca985cd926155eb31",
-  "new_signature": "52a35cd927ed97edde4f35f4635c82ff9b984796",
+  "previous_signature": "52a35cd927ed97edde4f35f4635c82ff9b984796",
+  "new_signature": "c1e7d5757a5684a49b06a550180590ec59e706e5",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,18 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "從初見到現在，你在ta心裡的份量是升了還是降了？目前排在第幾順位？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "他對他對你是否還有留戀？為什麼不主動？他是真不在意，還是裝冷漠偷偷想你？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.10.27（二）甲戌日 🔮 🔔 不要因為走得太遠，而忘記了自己為什麼出發。 🌳 甲木遇戌土，今天容易忙著完成目標、證明自己，卻忘了當初真正想守住的是什麼。 走得快很厲害 但方向對，才不會努力半天跑去別人家 ✨ 十神開運指南｜請對",
     "[問卦] 中醫 是醫學還是玄學？",
     "霜降到！命理師點名5生肖運勢大翻盤…開運致富關鍵曝光",
-    "霜降來襲！5大生肖運勢大翻盤 命理師曝開運關鍵"
+    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "他對他對你是否還有留戀？為什麼不主動？他是真不在意，還是裝冷漠偷偷想你？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
+  ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -39,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月29日 11:11"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月29日 21:12"
     },
     {
       "script": "generate_daily_content.py",
