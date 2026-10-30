@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-30",
-  "updated_at_display": "2026年10月30日 11:11",
+  "updated_at_display": "2026年10月30日 21:12",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-30T11:11:37.669809+08:00",
+    "fetched_at": "2026-10-30T21:12:13.065538+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -184,7 +184,7 @@
       "ptt_gossiping": 5.55,
       "ptt_womentalk": 5.15,
       "ptt_marvel": 4.65,
-      "youtube_search": 5.55,
+      "youtube_search": 5.75,
       "x_recent_search": 5.35,
       "reddit_search": 4.0,
       "xiaohongshu_watch": 5.05
@@ -192,7 +192,7 @@
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 3,
+        "picked_items": 2,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -202,7 +202,7 @@
       },
       "google_news_taluo_tw": {
         "status": "ok",
-        "picked_items": 0,
+        "picked_items": 1,
         "failures": 0
       },
       "google_news_fengshui_tw": {
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 3/8）。"
   ],
   "items": [
     {
@@ -267,8 +267,8 @@
         "占卜",
         "桃花"
       ],
-      "score": 14.55,
-      "event_cluster": "event-04"
+      "score": 14.75,
+      "event_cluster": "event-03"
     },
     {
       "title": "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.10.27（二）甲戌日 🔮 🔔 不要因為走得太遠，而忘記了自己為什麼出發。 🌳 甲木遇戌土，今天容易忙著完成目標、證明自己，卻忘了當初真正想守住的是什麼。 走得快很厲害 但方向對，才不會努力半天跑去別人家 ✨ 十神開運指南｜請對",
@@ -287,7 +287,7 @@
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-117"
+      "event_cluster": "event-134"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -309,25 +309,6 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "霜降到！命理師點名5生肖運勢大翻盤…開運致富關鍵曝光",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxQOXdnYi1aYXhsS1pFZ1NDb0Z0dnBSbkhXQjg3QnZESEx4ZUFyZ1hWX251RjBTOXJMZGFzNmtuQllZeHZaUmpTV3ZKSE9USTNselNoMXFPZ1NNbHVpSDQ5cTBWNF81V3E2bnliTC14a09NTlJTOTl3YU5oLUdrY1pSblh2bkJpUjRaa2xjankyU1V3RUduR2pfV3YzWlh4QkZrM29DZU5kYk93YXE2U2tMLV9La2FDWmE3QnpKU0pUMGYxNlNUdHM3dGRxaVVuQTBwbUxGTU1kSGptdEEtcHduVjF1VkFKb29wQ3NNYWNER2xtN2p2U0V5M1VVVHpyRFZTcngzZTQwQWdFWHV1UjBpalp5YVFzVXZKQ0FMU2xIVFZQZnBrSDZHOFFhM016clcyQjhud0NDZE93d0NKc21IVWlCdG0zVlJNZkRFTGkwbjZfbzdqaEVKRTRUcjJxcG14c0l3TGlRNjJtUTQ?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-23",
-      "published_display": "2026-10-23",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 16.95,
-      "event_cluster": "event-02"
-    },
-    {
       "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
       "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
@@ -336,15 +317,15 @@
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-10-28",
-      "published_display": "2026-10-28",
+      "published": "2026-10-30",
+      "published_display": "2026-10-30",
       "matched_keywords": [
         "命理",
         "命理師",
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-03"
+      "event_cluster": "event-02"
     },
     {
       "title": "11月生肖運勢搶先看！4生肖財運最旺 命理師：屬狗喜迎額外財源",
@@ -363,7 +344,26 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
+    },
+    {
+      "title": "Candice塔羅占卜🔮他想和你見面嗎❤️給你的訊息 /愛情/金錢/健康/運勢/頻率/感情/幸福/喜悅/傳訊/靈性/星座/塔羅/占卜/有選項",
+      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5sMjcxTm03WXBXc2lVRlpXOGl1VmFwZnBjcUxBWE4xS25HcU5SYjA1S3pIY0kweDhHN3RnVE5odlFPQkUwdHRicmFQVlJRTUw4VW51U01RX3BsLXpY?oc=5",
+      "source_id": "google_news_taluo_tw",
+      "source": "YouTube · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A1%94%E7%BE%85+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-10-28",
+      "published_display": "2026-10-28",
+      "matched_keywords": [
+        "運勢",
+        "塔羅",
+        "占卜"
+      ],
+      "score": 14.05,
+      "event_cluster": "event-07"
     },
     {
       "title": "【紫微斗數】流年遇到擎羊、陀羅、火星、鈴星，真的會倒黴嗎？四大煞星其實暗藏翻身機會！#紫微斗數#四大煞星#擎羊陀羅火星鈴星#流年運勢#命理 #改運#流年命盤#煞星化解#命理解析",
@@ -381,27 +381,27 @@
         "命理",
         "流年"
       ],
-      "score": 14.55,
-      "event_cluster": "event-09"
+      "score": 14.75,
+      "event_cluster": "event-08"
     },
     {
-      "title": "AI 很會說，命盤真的排對了嗎？｜打造你的 AI 命理師：八字 × 紫微 × 合盤｜MasterTalks",
+      "title": "換工作、換對象，為什麼問題還是一樣？#紫微斗數#命理 #流年運勢#趨吉避凶#算命 #財運 #感情 #人生選擇#魁哥OpenMic",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wWTJQcUdFWVBqNmtiLVhyQko2Tmtsd1JGeFo2aWN4N3JkR0pwZkpLMUV1eVc1aTh2R08xenR3YzVCcl9jWFhrRmw2NjdkYlk4RTg2anpn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5PZ3VlMW0tOWd6NWptY3R2MzVGY093dXFoVWlUMDhMZ2ZUdm5tQmo3ZF9JeU45QXVCRHlHYzh1OHhYMjdUdHhCU2F1eFNmLW84cTVWVQ?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "八字紫微",
-      "published": "2026-10-14",
-      "published_display": "2026-10-14",
+      "published": "2026-10-15",
+      "published_display": "2026-10-15",
       "matched_keywords": [
         "命理",
-        "命理師",
-        "八字"
+        "算命",
+        "流年"
       ],
-      "score": 14.55,
-      "event_cluster": "event-10"
+      "score": 14.75,
+      "event_cluster": "event-09"
     }
   ]
 }

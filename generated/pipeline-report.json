@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-30T11:11:27.342109+08:00",
-  "ran_at_display": "2026年10月30日 11:11",
+  "ran_at": "2026-10-30T21:12:03.512604+08:00",
+  "ran_at_display": "2026年10月30日 21:12",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "c1e7d5757a5684a49b06a550180590ec59e706e5",
-  "new_signature": "7ed2ff66f9ee2cb906ed49f1f4eea1dcd74cc8fa",
+  "previous_signature": "7ed2ff66f9ee2cb906ed49f1f4eea1dcd74cc8fa",
+  "new_signature": "104af3db91de64b4734623233ae9d55f5b984bcb",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -24,14 +24,14 @@
     "最近他對你的心裡話？(含字卡)想讓你知道什麼？聽他講大實話、說小秘密！|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.10.27（二）甲戌日 🔮 🔔 不要因為走得太遠，而忘記了自己為什麼出發。 🌳 甲木遇戌土，今天容易忙著完成目標、證明自己，卻忘了當初真正想守住的是什麼。 走得快很厲害 但方向對，才不會努力半天跑去別人家 ✨ 十神開運指南｜請對",
     "[問卦] 中醫 是醫學還是玄學？",
-    "霜降到！命理師點名5生肖運勢大翻盤…開運致富關鍵曝光",
-    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
+    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
+    "11月生肖運勢搶先看！4生肖財運最旺 命理師：屬狗喜迎額外財源"
   ],
   "added_titles": [
-    "最近他對你的心裡話？(含字卡)想讓你知道什麼？聽他講大實話、說小秘密！|曖昧|愛情|戀愛|桃花|塔羅占卜|"
+    "11月生肖運勢搶先看！4生肖財運最旺 命理師：屬狗喜迎額外財源"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 3/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -41,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月30日 11:11"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月30日 21:12"
     },
     {
       "script": "generate_daily_content.py",
