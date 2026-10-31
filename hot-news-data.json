@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-31",
-  "updated_at_display": "2026年10月31日 11:09",
+  "updated_at_display": "2026年10月31日 21:08",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-10-31T11:09:00.438698+08:00",
+    "fetched_at": "2026-10-31T21:08:29.351892+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -177,14 +177,14 @@
       }
     ],
     "source_weights": {
-      "google_news_mingli_tw": 6.35,
+      "google_news_mingli_tw": 6.55,
       "google_news_xuanxue_tw": 6.05,
-      "google_news_taluo_tw": 5.95,
+      "google_news_taluo_tw": 5.85,
       "google_news_fengshui_tw": 5.85,
       "ptt_gossiping": 5.55,
       "ptt_womentalk": 5.15,
       "ptt_marvel": 4.65,
-      "youtube_search": 5.75,
+      "youtube_search": 5.55,
       "x_recent_search": 5.35,
       "reddit_search": 4.0,
       "xiaohongshu_watch": 5.05
@@ -267,8 +267,8 @@
         "占卜",
         "桃花"
       ],
-      "score": 14.75,
-      "event_cluster": "event-02"
+      "score": 14.55,
+      "event_cluster": "event-06"
     },
     {
       "title": "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.10.27（二）甲戌日 🔮 🔔 不要因為走得太遠，而忘記了自己為什麼出發。 🌳 甲木遇戌土，今天容易忙著完成目標、證明自己，卻忘了當初真正想守住的是什麼。 走得快很厲害 但方向對，才不會努力半天跑去別人家 ✨ 十神開運指南｜請對",
@@ -287,7 +287,7 @@
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-150"
+      "event_cluster": "event-128"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -317,34 +317,53 @@
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-10-30",
-      "published_display": "2026-10-30",
+      "published": "2026-10-31",
+      "published_display": "2026-10-31",
       "matched_keywords": [
         "命理",
         "命理師",
         "開運"
       ],
-      "score": 14.55,
-      "event_cluster": "event-04"
+      "score": 14.750000000000002,
+      "event_cluster": "event-02"
     },
     {
-      "title": "討論牆| 10/24水逆到！命理師曝3星座運勢反而出現正面轉機，獅子有望突破僵局，「他」能解開誤會",
-      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ua2Vzbm5vejNOd2Q0ckRUNUVjMU5mVnFwdDU3OFc5cVZ6VFdRV21CZ25pTkp1QmppMFUtUHNVVnBzWGZxbGF3NDUzMER5Ul9GWVoxNzQ3dWlZWUk1SXYyb0VmVGs?oc=5",
+      "title": "百歲流年看台北戰局！命理師點名「他」迎掌權：後勢看好",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE03SlVNV2xIWE1peGU5NlY1R19MeV9aREtYT3dNT1RpZmMwS1ZMR2l3cUdxa2ZkZzNQQjRsbG5xemlRMDJLbFJ4b9IBTEFVX3lxTE1DMDgyamYwQ1hTQzFjN19KVXNnTHlHZldpemhKMzVnWUVIbW9jdUNmamFQdmVvaFJlTEJ4RWxJRjdsUTZiXzdTSUdEV08?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "LINE TODAY · Google News",
+      "source": "三立新聞網SETN.com · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-31",
+      "published_display": "2026-10-31",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "流年"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-03"
+    },
+    {
+      "title": "舊愛恐回頭、錢財要當心！11月首週12星座運勢曝光 命理師示警",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxNcTZXVGhYLW5lc3h1aW4tRkl0RmszWl9waWRqc2ZvNC1FTGlnbFRiSlc1eW92S1djRGIycmg5d0c3NVJvYUFjamJVb3ByNDNpbGZLWTJ5ZTRIZDdyVGhHVjlfT1dLTW5HUy1Gc2VVWkVJUkwzOWV2ZUptYzNpSWJJaVplM3ZrQUhqeHpFNzVHRmR4d04wNjN1U2g5M2JCS0pRZHM2djFpWElJNXlEVUZybHFmYVQtOXQ4OVljMUV4ZUI1S1hESnBaUDE2QlV5dXI2ZXRQYThHVkFIemVNaUJLX21PT1RhNWcwT1VWcDBDdWtaNHNKMlZJS1B2R3pJVGg2YjVyNDE5SnZqTERVNlYwNmZVdDFiNW9Vd185cGNVenZ0eXJwVmVmSnJZMVloZkE4c1BsUVlMR0lZUHB1VnBEbkJfbGVQVmJfNWJPVk1nTWJnN0E2RXhGSXdkcHpxdEl1YTJmSWVUWGtKdVB6d014cDhrTmhOdC1yM2MtUw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "塔罗星象",
-      "published": "2026-10-27",
-      "published_display": "2026-10-27",
+      "published": "2026-10-31",
+      "published_display": "2026-10-31",
       "matched_keywords": [
         "命理",
         "命理師",
         "運勢"
       ],
-      "score": 14.55,
-      "event_cluster": "event-07"
+      "score": 14.750000000000002,
+      "event_cluster": "event-04"
     },
     {
       "title": "11月生肖運勢搶先看！4生肖財運最旺 命理師：屬狗喜迎額外財源",
@@ -362,27 +381,8 @@
         "命理師",
         "運勢"
       ],
-      "score": 14.55,
+      "score": 14.750000000000002,
       "event_cluster": "event-08"
-    },
-    {
-      "title": "討論牆 | 手機桌布禁忌曝光！命理師警告「3種照片」影響運勢，過世寵物、親人也要留意",
-      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ySXc3cGRybWJPcHpaYXJuRGFyUlNrN3ZfSHhqMkJlcFkyeDQ4dXd5Um1tbXdHcFBfMTNyZ0U5RkZiRm5UWThHM2owa3MyRDktQTRPcUpKRkR6ZWpMUl9hOFFvemw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "LINE TODAY · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-10-26",
-      "published_display": "2026-10-26",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.55,
-      "event_cluster": "event-09"
     },
     {
       "title": "【紫微斗數】流年遇到擎羊、陀羅、火星、鈴星，真的會倒黴嗎？四大煞星其實暗藏翻身機會！#紫微斗數#四大煞星#擎羊陀羅火星鈴星#流年運勢#命理 #改運#流年命盤#煞星化解#命理解析",
@@ -400,8 +400,8 @@
         "命理",
         "流年"
       ],
-      "score": 14.75,
-      "event_cluster": "event-12"
+      "score": 14.55,
+      "event_cluster": "event-14"
     }
   ]
 }

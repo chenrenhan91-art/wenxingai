@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-10-31T11:08:50.941265+08:00",
-  "ran_at_display": "2026年10月31日 11:08",
+  "ran_at": "2026-10-31T21:08:20.376125+08:00",
+  "ran_at_display": "2026年10月31日 21:08",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "104af3db91de64b4734623233ae9d55f5b984bcb",
-  "new_signature": "aecaab55bdfa454ef9114edabeba0d678b1a0452",
+  "previous_signature": "aecaab55bdfa454ef9114edabeba0d678b1a0452",
+  "new_signature": "1b28e36efca26560233ab13da125f8354be9eb7d",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -25,11 +25,10 @@
     "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.10.27（二）甲戌日 🔮 🔔 不要因為走得太遠，而忘記了自己為什麼出發。 🌳 甲木遇戌土，今天容易忙著完成目標、證明自己，卻忘了當初真正想守住的是什麼。 走得快很厲害 但方向對，才不會努力半天跑去別人家 ✨ 十神開運指南｜請對",
     "[問卦] 中醫 是醫學還是玄學？",
     "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
-    "討論牆| 10/24水逆到！命理師曝3星座運勢反而出現正面轉機，獅子有望突破僵局，「他」能解開誤會"
+    "百歲流年看台北戰局！命理師點名「他」迎掌權：後勢看好"
   ],
   "added_titles": [
-    "時光機：明年今日你是他的誰？愛不愛你？你和他各對感情的感受看法？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
-    "討論牆| 10/24水逆到！命理師曝3星座運勢反而出現正面轉機，獅子有望突破僵局，「他」能解開誤會"
+    "百歲流年看台北戰局！命理師點名「他」迎掌權：後勢看好"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
@@ -42,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月31日 11:09"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年10月31日 21:08"
     },
     {
       "script": "generate_daily_content.py",
