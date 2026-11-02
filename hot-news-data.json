@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-01",
-  "updated_at_display": "2026年11月1日 21:08",
+  "updated_at": "2026-11-02",
+  "updated_at_display": "2026年11月2日 11:10",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-11-01T21:08:42.623079+08:00",
+    "fetched_at": "2026-11-02T11:10:33.955180+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -192,7 +192,7 @@
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 4,
+        "picked_items": 5,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -227,7 +227,7 @@
       },
       "youtube_search": {
         "status": "ok",
-        "picked_items": 2,
+        "picked_items": 1,
         "failures": 0
       },
       "x_recent_search": {
@@ -271,23 +271,22 @@
       "event_cluster": "event-02"
     },
     {
-      "title": "🐯 虎嚕命理 𝐃𝐚𝐲 𝐆𝐮𝐢𝐝𝐞 🗓️ 2026.10.27（二）甲戌日 🔮 🔔 不要因為走得太遠，而忘記了自己為什麼出發。 🌳 甲木遇戌土，今天容易忙著完成目標、證明自己，卻忘了當初真正想守住的是什麼。 走得快很厲害 但方向對，才不會努力半天跑去別人家 ✨ 十神開運指南｜請對",
+      "title": "今天萬聖節 來分享幾個 八字十神的恐怖故事 比肩： 朋友說一起創業 結果兩個人都想當老闆 劫財： 月底打開銀行帳戶 發現錢不知道去哪了 食神： 半夜說只吃一口 結果整包零食不見了 傷官： 主管說了一句話 腦袋已經準備好八百字反駁 正財： 記帳記得很認真 但看到購",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBJOVhwWTMxWEdZOVpYN3RNODRidHdSTURaRDFlWS1XRW1fLTFJS1pxbVBEQUFNcVJuaXowbG9tQWwwM294cU85T2t5WmJwX0tiTW1NZEJ1X3hDcHNoQjZWbVNOdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9wTkNqcWNXWjlDREg5Zk1xdUxEVUFPUktYVFFBWGlVejBwdVJDMnFlU053d2NwQWEyTEJ1RnZVeVBLcUs5TkgxZEN2Yzd4dG1xeHZQX21JZWNBTzBqOVRlUHZDbw?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-10-27",
-      "published_display": "2026-10-27",
+      "category": "八字紫微",
+      "published": "2026-10-31",
+      "published_display": "2026-10-31",
       "matched_keywords": [
-        "命理",
-        "開運",
+        "八字",
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-157"
+      "event_cluster": "event-119"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -317,8 +316,8 @@
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-10-31",
-      "published_display": "2026-10-31",
+      "published": "2026-11-01",
+      "published_display": "2026-11-01",
       "matched_keywords": [
         "命理",
         "命理師",
@@ -347,23 +346,42 @@
       "event_cluster": "event-05"
     },
     {
-      "title": "舊愛恐回頭、錢財要當心！11月首週12星座運勢曝光 命理師示警 | 生活 | CTWANT",
-      "summary": "来自 CTWANT · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJbTEtMERCRWNhWExjT1pVcVJKYWttejg5OU9CelhkR2RKQmRQQWtMOGxETmNwNzJkSTBZZTZTU1E0TGstUlZMb2ZkS2w4cGfSAVRBVV95cUxPaEJTSEllaUp3TktUVXlOeUtKbVBEOVVaNTlyekpBY1hXQjlaT1hjM2lTSlJ4MjN2UFFJRXpac1FYT3IyRFNWSjdDS24zTG10eTZDTkw?oc=5",
+      "title": "百歲流年看台北戰局！命理師點名他迎掌權",
+      "summary": "来自 鏡週刊Mirror Media · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrM3F5WlpLRmJDNHRBQlpGSk11V09YR0NNaW42S0tiNERDRXNvb3dON0ozdkx0NUFUQkxqanpPRUFua2FKOFhwWG5DcExfOW9DRDBmSE1TZ21KeV8xVFHSAWJBVV95cUxNMFhuY29kcXFhUk0yQTc2UzFCTFBaR1lwcERWZTFaQnAyQ0R0ekFldTFRb3RuQm9FazlVNVRqMURhNnJpS3dfWk1Bc0NpRlBMaXkzdy1hU2E2SU92R0x3TUk1Zw?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "CTWANT · Google News",
+      "source": "鏡週刊Mirror Media · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-10-31",
+      "published_display": "2026-10-31",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "流年"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-06"
+    },
+    {
+      "title": "討論牆| 10/24水逆到！命理師曝3星座運勢反而出現正面轉機，獅子有望突破僵局，「他」能解開誤會",
+      "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ua2Vzbm5vejNOd2Q0ckRUNUVjMU5mVnFwdDU3OFc5cVZ6VFdRV21CZ25pTkp1QmppMFUtUHNVVnBzWGZxbGF3NDUzMER5Ul9GWVoxNzQ3dWlZWUk1SXYyb0VmVGs?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "LINE TODAY · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "塔罗星象",
-      "published": "2026-10-31",
-      "published_display": "2026-10-31",
+      "published": "2026-10-27",
+      "published_display": "2026-10-27",
       "matched_keywords": [
         "命理",
         "命理師",
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-08"
     },
     {
       "title": "11月生肖運勢搶先看！4生肖財運最旺 命理師：屬狗喜迎額外財源",
@@ -382,26 +400,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-11"
-    },
-    {
-      "title": "【紫微斗數】流年遇到擎羊、陀羅、火星、鈴星，真的會倒黴嗎？四大煞星其實暗藏翻身機會！#紫微斗數 #四大煞星 #擎羊陀羅火星鈴星 #流年運勢 #命理 #改運 #流年命盤 #煞星化解 #命理解析",
-      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95ajVWM21HazdEXzBLT3JPREZzUEJ0aTdpdXNPaVNPeTAtNjBBVzlNb3RnaW8zV2ZXaDZCT1dKODNaTHN5elRLek9yQ05RX0NSekktc3h3?oc=5",
-      "source_id": "youtube_search",
-      "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "video",
-      "category": "八字紫微",
-      "published": "2026-10-19",
-      "published_display": "2026-10-19",
-      "matched_keywords": [
-        "紫微斗數",
-        "命理",
-        "流年"
-      ],
-      "score": 14.55,
-      "event_cluster": "event-14"
+      "event_cluster": "event-10"
     }
   ]
 }
