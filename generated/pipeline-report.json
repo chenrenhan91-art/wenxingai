@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-11-02T11:10:22.609599+08:00",
-  "ran_at_display": "2026年11月2日 11:10",
+  "ran_at": "2026-11-02T21:11:52.611645+08:00",
+  "ran_at_display": "2026年11月2日 21:11",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "38702a04c582de793f76fe0cdb15d05bc8606bad",
-  "new_signature": "39164ba2825d1f81ac7faf1e8d8d0959020d88a2",
+  "previous_signature": "39164ba2825d1f81ac7faf1e8d8d0959020d88a2",
+  "new_signature": "49483961ded8eddc2244b08b8050d668fb10bc70",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,9 +27,7 @@
     "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
     "百歲流年看台北戰局！命理師點名「他」迎掌權：後勢看好"
   ],
-  "added_titles": [
-    "今天萬聖節 來分享幾個 八字十神的恐怖故事 比肩： 朋友說一起創業 結果兩個人都想當老闆 劫財： 月底打開銀行帳戶 發現錢不知道去哪了 食神： 半夜說只吃一口 結果整包零食不見了 傷官： 主管說了一句話 腦袋已經準備好八百字反駁 正財： 記帳記得很認真 但看到購"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
@@ -41,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月2日 11:10"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月2日 21:12"
     },
     {
       "script": "generate_daily_content.py",

@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-02",
-  "updated_at_display": "2026年11月2日 11:10",
+  "updated_at_display": "2026年11月2日 21:12",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-11-02T11:10:33.955180+08:00",
+    "fetched_at": "2026-11-02T21:12:02.864869+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -286,7 +286,7 @@
         "十神"
       ],
       "score": 9.95,
-      "event_cluster": "event-119"
+      "event_cluster": "event-115"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -309,10 +309,10 @@
     },
     {
       "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
+      "source": "三立新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -328,10 +328,10 @@
     },
     {
       "title": "百歲流年看台北戰局！命理師點名「他」迎掌權：後勢看好",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE03SlVNV2xIWE1peGU5NlY1R19MeV9aREtYT3dNT1RpZmMwS1ZMR2l3cUdxa2ZkZzNQQjRsbG5xemlRMDJLbFJ4b9IBTEFVX3lxTE1DMDgyamYwQ1hTQzFjN19KVXNnTHlHZldpemhKMzVnWUVIbW9jdUNmamFQdmVvaFJlTEJ4RWxJRjdsUTZiXzdTSUdEV08?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
+      "source": "三立新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -346,61 +346,60 @@
       "event_cluster": "event-05"
     },
     {
-      "title": "百歲流年看台北戰局！命理師點名他迎掌權",
-      "summary": "来自 鏡週刊Mirror Media · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrM3F5WlpLRmJDNHRBQlpGSk11V09YR0NNaW42S0tiNERDRXNvb3dON0ozdkx0NUFUQkxqanpPRUFua2FKOFhwWG5DcExfOW9DRDBmSE1TZ21KeV8xVFHSAWJBVV95cUxNMFhuY29kcXFhUk0yQTc2UzFCTFBaR1lwcERWZTFaQnAyQ0R0ekFldTFRb3RuQm9FazlVNVRqMURhNnJpS3dfWk1Bc0NpRlBMaXkzdy1hU2E2SU92R0x3TUk1Zw?oc=5",
+      "title": "舊愛恐回頭、錢財要當心！11月首週12星座運勢曝光 命理師示警 | 生活 | CTWANT",
+      "summary": "来自 CTWANT · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJbTEtMERCRWNhWExjT1pVcVJKYWttejg5OU9CelhkR2RKQmRQQWtMOGxETmNwNzJkSTBZZTZTU1E0TGstUlZMb2ZkS2w4cGfSAVRBVV95cUxPaEJTSEllaUp3TktUVXlOeUtKbVBEOVVaNTlyekpBY1hXQjlaT1hjM2lTSlJ4MjN2UFFJRXpac1FYT3IyRFNWSjdDS24zTG10eTZDTkw?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "鏡週刊Mirror Media · Google News",
+      "source": "CTWANT · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "命理新闻",
+      "category": "塔罗星象",
       "published": "2026-10-31",
       "published_display": "2026-10-31",
       "matched_keywords": [
         "命理",
         "命理師",
-        "流年"
+        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-06"
     },
     {
-      "title": "討論牆| 10/24水逆到！命理師曝3星座運勢反而出現正面轉機，獅子有望突破僵局，「他」能解開誤會",
+      "title": "迎立冬！不是只要進補 命理師揭「6大禁忌」太早出門小心了",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5WcXNaSE5JejVyYnpFbklfam9ydGZxdnhIcG1uUUtvckhOV3g4aU9ESGtOOXJLRnNYaUhGaTRZYjUtVTBwV3c2UNIBTEFVX3lxTE9ObTJrZGpGLUZpODdwbHE4Z2FQT3RNbV95SzNUd2ZaN0dSV1dPbS04ZDFNbmhrM2taMW45cmJGcGtBalE1NndCbnM1ZXc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-11-02",
+      "published_display": "2026-11-02",
+      "matched_keywords": [
+        "命理",
+        "命理師"
+      ],
+      "score": 12.55,
+      "event_cluster": "event-13"
+    },
+    {
+      "title": "討論牆 | 台北市長誰的贏面大？命理師抽「1牌」：看的懂的就知道",
       "summary": "来自 LINE TODAY · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ua2Vzbm5vejNOd2Q0ckRUNUVjMU5mVnFwdDU3OFc5cVZ6VFdRV21CZ25pTkp1QmppMFUtUHNVVnBzWGZxbGF3NDUzMER5Ul9GWVoxNzQ3dWlZWUk1SXYyb0VmVGs?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VUGtJM002U3E1MlhObkFlWHlxTmFvRjBJODBtblkwUjBGSUczRmxuVWlSVzBSa1BNTUtreE1NYjBWekNTZ2tUZmVfVVNjWmN6VU9IYlhlSkNYZlM2endSbmtwLS0?oc=5",
       "source_id": "google_news_mingli_tw",
       "source": "LINE TODAY · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-10-27",
-      "published_display": "2026-10-27",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-08"
-    },
-    {
-      "title": "11月生肖運勢搶先看！4生肖財運最旺 命理師：屬狗喜迎額外財源",
-      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9XNUxhVHB1M2xWeUh4RnR3MlZ0VTNaSmxCdmp1LWo2QXBnamU2ejFTc2pMdWRORXFaU2xPUF9PUEM2Z3R0VGpubWFVRU7SAVJBVV95cUxOb3RBSE5nV2xhN3JDRURvckhCVkFkSlF2SDh3eVVJa3VjY0x0U1NnLU01elpfS2ctYWhTS0VWbnRmampHeXlBLUpxS3M4aktwMEd3?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "NOWnews今日新聞 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-10-26",
-      "published_display": "2026-10-26",
+      "published": "2026-11-02",
+      "published_display": "2026-11-02",
       "matched_keywords": [
         "命理",
         "命理師",
-        "運勢"
+        "討論"
       ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-10"
+      "score": 12.55,
+      "event_cluster": "event-14"
     }
   ]
 }
