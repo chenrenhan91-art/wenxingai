@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-11-03T11:09:30.162767+08:00",
-  "ran_at_display": "2026年11月3日 11:09",
+  "ran_at": "2026-11-03T21:10:20.328928+08:00",
+  "ran_at_display": "2026年11月3日 21:10",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "49483961ded8eddc2244b08b8050d668fb10bc70",
-  "new_signature": "34c5a74b1bf4966d1ad1cdfcdc24ea4b63f7352f",
+  "previous_signature": "34c5a74b1bf4966d1ad1cdfcdc24ea4b63f7352f",
+  "new_signature": "b62b08307d59533df65022f080de2f8c6aae932e",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -25,15 +25,13 @@
     "GitHub 熱榜上居然有人在排紫微斗數 專案叫 ziwei-doushu 照倪海廈《天紀》那套體系寫的 排盤、四化、格局判斷、古籍原文，全部開源 這幾天一天漲一千多顆星，現在破 1.2 萬 作者說前 1 萬顆星花了 180 天 最後 1000 顆只用了 16 個小時 而且作者是一個人用 AI 把整",
     "[問卦] 中醫 是醫學還是玄學？",
     "立冬開運！12生肖掌握「旺點」 命理師急喊：這事沒做別亂衝",
-    "2026下午立冬暖烘烘！命理師授「立冬開運4招」必吃1水果"
+    "立冬將至！命理師揭「開運穿搭」：這些顏色是首選"
   ],
   "added_titles": [
-    "GitHub 熱榜上居然有人在排紫微斗數 專案叫 ziwei-doushu 照倪海廈《天紀》那套體系寫的 排盤、四化、格局判斷、古籍原文，全部開源 這幾天一天漲一千多顆星，現在破 1.2 萬 作者說前 1 萬顆星花了 180 天 最後 1000 顆只用了 16 個小時 而且作者是一個人用 AI 把整",
-    "立冬開運！12生肖掌握「旺點」 命理師急喊：這事沒做別亂衝",
-    "2026下午立冬暖烘烘！命理師授「立冬開運4招」必吃1水果"
+    "立冬將至！命理師揭「開運穿搭」：這些顏色是首選"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -43,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月3日 11:09"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月3日 21:10"
     },
     {
       "script": "generate_daily_content.py",
