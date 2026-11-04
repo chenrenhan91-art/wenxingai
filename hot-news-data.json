@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-03",
-  "updated_at_display": "2026年11月3日 21:10",
+  "updated_at": "2026-11-04",
+  "updated_at_display": "2026年11月4日 11:09",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-11-03T21:10:30.594599+08:00",
+    "fetched_at": "2026-11-04T11:09:27.361438+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -286,7 +286,7 @@
         "斗數"
       ],
       "score": 9.95,
-      "event_cluster": "event-123"
+      "event_cluster": "event-126"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -308,11 +308,11 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "立冬開運！12生肖掌握「旺點」 命理師急喊：這事沒做別亂衝",
-      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBZVXlyTkdZU1pmUHQ5NHMtMkd4bG45VmdqVFE5cy1WZHBCSFo1SXRHTWw4emdacTJ3emFqRDhhc2tlS1RyeE9wRWE1VFJsZXNLX2ZLMlVhM1BHenI4Yl9KbVNR?oc=5",
+      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "自由娛樂 · Google News",
+      "source": "三立新聞網SETN.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -327,11 +327,11 @@
       "event_cluster": "event-04"
     },
     {
-      "title": "立冬將至！命理師揭「開運穿搭」：這些顏色是首選",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1uMHY5TzJJQTI4aldLN0pXSHRCaDVzS2FQem9uTE5JaDZhSTFVb2JZcThvZy1Zc3ZyZkpBOUhGNGtxOE11dEJrctIBTEFVX3lxTE5CT29nU2pGdW5hNGhYYXdLSzF6UzdDUkExNnBHakdsU1RWSGt0b0RoblRfbjBpUXhVdlliWV8yWEFxUGNjbGxweXRMRFQ?oc=5",
+      "title": "11月7日入立冬節氣！命理師：4生肖忌暴飲暴食 食衣住行開運教學",
+      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDdGxfdDZGQUp1Z3QzOWlMTm1uZXNIWGpYQ2xfMDZZamI3UVdkSmZoYVRWZlFIV3NwTHhNeHY2aE1KWTdMWU1rb0Z5Mm5CLWttNGfSAVJBVV95cUxQQ3RsX3Q2RkFKdWd0MzlpTE5tbmVzSFhqWENsXzA2WWpiN1FXZEpmaGFUVmZRSFdzcEx4TXh2NmhNSlk3TFlNa29GeTJuQi1rbTRn?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
+      "source": "NOWnews今日新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -346,11 +346,11 @@
       "event_cluster": "event-05"
     },
     {
-      "title": "立冬運勢出爐 命理師謝沅瑾點名5生肖千萬注意",
-      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1UdzlmV1Vsd3BoTHV6em03ZGdCQ0pvU2MtdnZqcnFONE45cFc3ZTNaR01PV2xUdDUyb1hMOWY4V3NFc1hsVmlrTW1KSG04XzZDcjVlNC1reGxxQjEt?oc=5",
+      "title": "立冬將至！命理師揭「開運穿搭」：這些顏色是首選",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1uMHY5TzJJQTI4aldLN0pXSHRCaDVzS2FQem9uTE5JaDZhSTFVb2JZcThvZy1Zc3ZyZkpBOUhGNGtxOE11dEJrctIBTEFVX3lxTE5CT29nU2pGdW5hNGhYYXdLSzF6UzdDUkExNnBHakdsU1RWSGt0b0RoblRfbjBpUXhVdlliWV8yWEFxUGNjbGxweXRMRFQ?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "自由娛樂 · Google News",
+      "source": "三立新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -359,7 +359,7 @@
       "matched_keywords": [
         "命理",
         "命理師",
-        "運勢"
+        "開運"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-06"
@@ -384,11 +384,11 @@
       "event_cluster": "event-07"
     },
     {
-      "title": "11月7日入立冬節氣！命理師：4生肖忌暴飲暴食 食衣住行開運教學",
-      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5OeXdKb1VXbW5aRVNCbDc2a2c2eFhxZXd5NGVBcWZ4QWNsemI1Z2lQT2F5dUF5a0tSZjdYY2J5OVM5Z0xjZndLUEpuZ0nSAVJBVV95cUxQQ3RsX3Q2RkFKdWd0MzlpTE5tbmVzSFhqWENsXzA2WWpiN1FXZEpmaGFUVmZRSFdzcEx4TXh2NmhNSlk3TFlNa29GeTJuQi1rbTRn?oc=5",
+      "title": "立冬運勢出爐 命理師謝沅瑾點名5生肖千萬注意",
+      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1UdzlmV1Vsd3BoTHV6em03ZGdCQ0pvU2MtdnZqcnFONE45cFc3ZTNaR01PV2xUdDUyb1hMOWY4V3NFc1hsVmlrTW1KSG04XzZDcjVlNC1reGxxQjEt?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "NOWnews今日新聞 · Google News",
+      "source": "自由娛樂 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -397,7 +397,7 @@
       "matched_keywords": [
         "命理",
         "命理師",
-        "開運"
+        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-08"
