@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-11-05T11:09:43.712295+08:00",
-  "ran_at_display": "2026年11月5日 11:09",
+  "ran_at": "2026-11-05T21:10:20.598529+08:00",
+  "ran_at_display": "2026年11月5日 21:10",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "61400e77828fde86ca2db46a634aa8e564a3271d",
-  "new_signature": "add3166a10f4a9c26f36e5a8f0f2c5faae38885c",
+  "previous_signature": "add3166a10f4a9c26f36e5a8f0f2c5faae38885c",
+  "new_signature": "c91dce9367c8b202f09929625e08ffc6e60259c8",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -25,11 +25,10 @@
     "一名12歲男童迷上網絡上的「玄學服務」，短短一年竟付出88萬多元人民幣。對方自稱「玄學大師」，聲稱可以透過塔羅占卜、蠟燭許願，甚至「入夢祈福」幫他實現願望、改變運勢。 據深圳市中級法院通報，男子楊某某得知男童未成年後，仍不斷吹噓服務效果。當男童覺得許",
     "[問卦] 中醫 是醫學還是玄學？",
     "2026立冬運勢全解析！翻轉財運3大關鍵、事業人際洗牌，命理師教你拜拜開運色穿搭",
-    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
+    "立冬最強生肖運勢出爐！命理師曝：這「3生肖」財運翻身、事業貴人上門"
   ],
   "added_titles": [
-    "2026立冬運勢全解析！翻轉財運3大關鍵、事業人際洗牌，命理師教你拜拜開運色穿搭",
-    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
+    "立冬最強生肖運勢出爐！命理師曝：這「3生肖」財運翻身、事業貴人上門"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -42,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月5日 11:09"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月5日 21:10"
     },
     {
       "script": "generate_daily_content.py",

@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-05",
-  "updated_at_display": "2026年11月5日 11:09",
+  "updated_at_display": "2026年11月5日 21:10",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-11-05T11:09:52.782543+08:00",
+    "fetched_at": "2026-11-05T21:10:29.811509+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "塔羅"
       ],
       "score": 9.95,
-      "event_cluster": "event-105"
+      "event_cluster": "event-113"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -328,49 +328,49 @@
       "event_cluster": "event-02"
     },
     {
-      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
+      "title": "立冬最強生肖運勢出爐！命理師曝：這「3生肖」財運翻身、事業貴人上門",
+      "summary": "来自 康健雜誌 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4xVGFCRExrRElEWVdpdXFuY0hlbWpFaXl0NC1yeS12ZnU1WVpFY19Qb19wSVNPSmZ0UTVlQTNaNFZ6UWoyS29ZNjN5Q1l4V1FOU2RHQTFPYmg?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
+      "source": "康健雜誌 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-11-04",
-      "published_display": "2026-11-04",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-05"
-    },
-    {
-      "title": "蔣萬安、沈伯洋誰贏？命理師綜觀3大運勢：他險勝！",
-      "summary": "来自 壹蘋新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQejZFRE9lTUlDVWllTXB2ZUNpeTV2dlBaeVFwX2xLMXpLZ29JNE5BajZDOGFRdWZOZTRFQl9aS2NOZXBTTW9JRFpUdlFOTXcwX2hjcGl4TkJGSV9VQnZmcGF1VWxoVVBoRUs1U3p2T1RtVXhWN2dkYU9mdGM2eFBwNjR2cw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "壹蘋新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-11-04",
-      "published_display": "2026-11-04",
+      "published": "2026-11-05",
+      "published_display": "2026-11-05",
       "matched_keywords": [
         "命理",
         "命理師",
         "運勢"
       ],
       "score": 14.750000000000002,
+      "event_cluster": "event-05"
+    },
+    {
+      "title": "立冬要來了！命理專家曝5大開運法、12生肖運勢排行出爐",
+      "summary": "来自 蕃新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBOQVJGaWpwMDBXa3FXM0hrWm8zQ2Z6cWZXcnJ1YXVLS3g2d1Z5SWs3bGg3Yk1fUzFnOHJacWdwNXBJZzhLejAtRVl0bnBHNUxjbHc?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "蕃新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-11-05",
+      "published_display": "2026-11-05",
+      "matched_keywords": [
+        "命理",
+        "運勢",
+        "開運"
+      ],
+      "score": 14.750000000000002,
       "event_cluster": "event-06"
     },
     {
-      "title": "北市蔣沈大戰！命理師解析「2人運勢姓名」：他恐險勝- 生活",
-      "summary": "来自 中時新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtMzVNbUxnbFhEeDN5ZHF4ek1BV2lCeGlXVVplQnN0ekE3VTBEVkJaYldBdUo2TjdOR214Qy1KcVNsQ0RhSWZEN0hvRkl2WEhUMHIxaVpaVnJrMmFrT09YMGpsMi01c0pxbUo0eldR?oc=5",
+      "title": "立冬將報到！命理師曝「3生肖」運勢開掛 貴人、財運接連來",
+      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9sYm5JSk1FSDdMRzZYcUswZnNWR1BGeDZ2ZjEyX1BSNFlaamxQVUhqQWRUcWpZQlVWRmZ0bkpnVmJQM1BuMzlTNWdrRXFaZw?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "中時新聞網 · Google News",
+      "source": "TVBS新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -385,11 +385,11 @@
       "event_cluster": "event-07"
     },
     {
-      "title": "立冬將報到！命理師曝「3生肖」運勢開掛 貴人、財運接連來",
-      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9sYm5JSk1FSDdMRzZYcUswZnNWR1BGeDZ2ZjEyX1BSNFlaamxQVUhqQWRUcWpZQlVWRmZ0bkpnVmJQM1BuMzlTNWdrRXFaZw?oc=5",
+      "title": "立冬｜命理師點名5生肖運勢大變化 屬兔防破財 屬雞有桃花運",
+      "summary": "来自 香港01 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQNTFFUDJuamxTSGJpemtFcEVGOXBiV2NrckZ2NVExWjFQVTJRZV81UTdWVUV5N2RLNWV5UUJNVEZLdElVOEhiQnFidTlWUVBzZDZkM21OMHZBR0FfOU82aUlkTkM1NlZFWkNQOTcyc2Q5Zmt2MG0zSWp3eE55RHlveFpacUVSQkxOZmc5c1g5UjNCU3Q0Q05ORGc3bzkwMmhkSUo3dGJJMDlSdmJHSlpkMXFKSUdWemlhWjl1V0VEaFhybE9jREx3a1F5S2hRN0hsRmJudTc0WGIwTUkwdnEwT2tOSzJya2ZOTjRfV3F4NktTakFZd2RSMFlEU0kwMjdsSkk1N2lMYmtmbk9xckJqT212Z1J3aVlnOVNmWjJNT2ZJLWRIRHYtMTRnUGFhZUNUNFFhNjVNTnhQLUZ6S0FZZ21pdEdaaTVZNGVrVGkxMFcwdThMb2sxRFY1R3hsWGRvOTdtWUZPRnQ5eFhQVW1lU1VMVEdycjhDMXFJTnBONmg5XzY1YVRmWU9DWHZ6MHJLOWI3QXY5ZXlFaHY2X280dERJVzNxb0E?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "TVBS新聞網 · Google News",
+      "source": "香港01 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
