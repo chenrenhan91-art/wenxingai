@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-04",
-  "updated_at_display": "2026年11月4日 21:09",
+  "updated_at": "2026-11-05",
+  "updated_at_display": "2026年11月5日 11:09",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-11-04T21:09:49.825131+08:00",
+    "fetched_at": "2026-11-05T11:09:52.782543+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "运势"
       ],
       "score": 16.75,
-      "event_cluster": "event-03"
+      "event_cluster": "event-04"
     },
     {
       "title": "一名12歲男童迷上網絡上的「玄學服務」，短短一年竟付出88萬多元人民幣。對方自稱「玄學大師」，聲稱可以透過塔羅占卜、蠟燭許願，甚至「入夢祈福」幫他實現願望、改變運勢。 據深圳市中級法院通報，男子楊某某得知男童未成年後，仍不斷吹噓服務效果。當男童覺得許",
@@ -287,7 +287,7 @@
         "塔羅"
       ],
       "score": 9.95,
-      "event_cluster": "event-101"
+      "event_cluster": "event-105"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -309,30 +309,30 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "立冬將報到！命理師曝「3生肖」運勢開掛 貴人、財運接連來",
-      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9sYm5JSk1FSDdMRzZYcUswZnNWR1BGeDZ2ZjEyX1BSNFlaamxQVUhqQWRUcWpZQlVWRmZ0bkpnVmJQM1BuMzlTNWdrRXFaZw?oc=5",
+      "title": "2026立冬運勢全解析！翻轉財運3大關鍵、事業人際洗牌，命理師教你拜拜開運色穿搭",
+      "summary": "来自 Marie Claire 美麗佳人 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UOU14ZjdDMEhMMl80WkR2bjNPMFJiNTlxOEVxRVhGRHk3Uks2dkZPcEw5aXVEX09YbXVkSlJNbExuYWJSWU5kRXhENGpXNmZjY2tvX1VpZjg0c29UalFKYQ?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "TVBS新聞網 · Google News",
+      "source": "Marie Claire 美麗佳人 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-11-04",
-      "published_display": "2026-11-04",
+      "published": "2026-11-05",
+      "published_display": "2026-11-05",
       "matched_keywords": [
         "命理",
         "命理師",
         "運勢"
       ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-04"
+      "score": 16.95,
+      "event_cluster": "event-02"
     },
     {
-      "title": "立冬｜命理師點名5生肖運勢大變化 屬兔防破財 屬雞有桃花運",
-      "summary": "来自 香港01 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQNTFFUDJuamxTSGJpemtFcEVGOXBiV2NrckZ2NVExWjFQVTJRZV81UTdWVUV5N2RLNWV5UUJNVEZLdElVOEhiQnFidTlWUVBzZDZkM21OMHZBR0FfOU82aUlkTkM1NlZFWkNQOTcyc2Q5Zmt2MG0zSWp3eE55RHlveFpacUVSQkxOZmc5c1g5UjNCU3Q0Q05ORGc3bzkwMmhkSUo3dGJJMDlSdmJHSlpkMXFKSUdWemlhWjl1V0VEaFhybE9jREx3a1F5S2hRN0hsRmJudTc0WGIwTUkwdnEwT2tOSzJya2ZOTjRfV3F4NktTakFZd2RSMFlEU0kwMjdsSkk1N2lMYmtmbk9xckJqT212Z1J3aVlnOVNmWjJNT2ZJLWRIRHYtMTRnUGFhZUNUNFFhNjVNTnhQLUZ6S0FZZ21pdEdaaTVZNGVrVGkxMFcwdThMb2sxRFY1R3hsWGRvOTdtWUZPRnQ5eFhQVW1lU1VMVEdycjhDMXFJTnBONmg5XzY1YVRmWU9DWHZ6MHJLOWI3QXY5ZXlFaHY2X280dERJVzNxb0E?oc=5",
+      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
+      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "香港01 · Google News",
+      "source": "三立新聞 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -341,7 +341,7 @@
       "matched_keywords": [
         "命理",
         "命理師",
-        "運勢"
+        "開運"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-05"
@@ -366,39 +366,39 @@
       "event_cluster": "event-06"
     },
     {
-      "title": "立冬開運！12生肖掌握「旺點」 命理師急喊：這事沒做別亂衝",
-      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1DUzFoXzZXcGNXcF9iYS12UHh0QmpwaHBmTEpwLTB0Ymk0RFBfOF9PVnRaSWl3TXdrc2JJcEZDeWVIRDJObnlaMUZoYnc3azBfbXJHTUF3c0dzOVlQ?oc=5",
+      "title": "北市蔣沈大戰！命理師解析「2人運勢姓名」：他恐險勝- 生活",
+      "summary": "来自 中時新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtMzVNbUxnbFhEeDN5ZHF4ek1BV2lCeGlXVVplQnN0ekE3VTBEVkJaYldBdUo2TjdOR214Qy1KcVNsQ0RhSWZEN0hvRkl2WEhUMHIxaVpaVnJrMmFrT09YMGpsMi01c0pxbUo0eldR?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "自由娛樂 · Google News",
+      "source": "中時新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-11-03",
-      "published_display": "2026-11-03",
+      "published": "2026-11-04",
+      "published_display": "2026-11-04",
       "matched_keywords": [
         "命理",
         "命理師",
-        "開運"
+        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-07"
     },
     {
-      "title": "11月7日入立冬節氣！命理師：4生肖忌暴飲暴食 食衣住行開運教學",
-      "summary": "来自 NOWnews今日新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDdGxfdDZGQUp1Z3QzOWlMTm1uZXNIWGpYQ2xfMDZZamI3UVdkSmZoYVRWZlFIV3NwTHhNeHY2aE1KWTdMWU1rb0Z5Mm5CLWttNGfSAVJBVV95cUxQQ3RsX3Q2RkFKdWd0MzlpTE5tbmVzSFhqWENsXzA2WWpiN1FXZEpmaGFUVmZRSFdzcEx4TXh2NmhNSlk3TFlNa29GeTJuQi1rbTRn?oc=5",
+      "title": "立冬將報到！命理師曝「3生肖」運勢開掛 貴人、財運接連來",
+      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9sYm5JSk1FSDdMRzZYcUswZnNWR1BGeDZ2ZjEyX1BSNFlaamxQVUhqQWRUcWpZQlVWRmZ0bkpnVmJQM1BuMzlTNWdrRXFaZw?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "NOWnews今日新聞 · Google News",
+      "source": "TVBS新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-11-03",
-      "published_display": "2026-11-03",
+      "published": "2026-11-04",
+      "published_display": "2026-11-04",
       "matched_keywords": [
         "命理",
         "命理師",
-        "開運"
+        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-08"
