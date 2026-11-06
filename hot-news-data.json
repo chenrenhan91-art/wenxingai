@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-05",
-  "updated_at_display": "2026年11月5日 21:10",
+  "updated_at": "2026-11-06",
+  "updated_at_display": "2026年11月6日 11:10",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-11-05T21:10:29.811509+08:00",
+    "fetched_at": "2026-11-06T11:10:11.667613+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "塔羅"
       ],
       "score": 9.95,
-      "event_cluster": "event-113"
+      "event_cluster": "event-130"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -328,6 +328,25 @@
       "event_cluster": "event-02"
     },
     {
+      "title": "明天立冬逢丙午年「火氣爆棚」！命理師揭開運法：這方位放1物事業大翻身",
+      "summary": "来自 自由時報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tak1kc1I4endhZXd3WUctS2M3QmF4Mk1OdzNKU3Y0aWpkUFYxdGVyZFhaemtjTGJYbm5hN2pUTTdEc1paaXJ0M2xKTVd1QUJqRWMzbHFJb3ZsMk8zRkU0SEJMNXPSAWpBVV95cUxOTlh1VDhwMFJOOUdIRzYtSTVyZXAtR2pLV1FpenZSdXB4ckFkMmNfNDNVcXpwUHdjdVNJODdXTjFCd2F4QUdkaE9RTC0tZVZNOWttSnZqMVMxNzViZzJvaVJBYmxIYXEtY25R?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "自由時報 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-11-06",
+      "published_display": "2026-11-06",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-05"
+    },
+    {
       "title": "立冬最強生肖運勢出爐！命理師曝：這「3生肖」財運翻身、事業貴人上門",
       "summary": "来自 康健雜誌 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4xVGFCRExrRElEWVdpdXFuY0hlbWpFaXl0NC1yeS12ZnU1WVpFY19Qb19wSVNPSmZ0UTVlQTNaNFZ6UWoyS29ZNjN5Q1l4V1FOU2RHQTFPYmg?oc=5",
@@ -344,7 +363,26 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
+    },
+    {
+      "title": "立冬報到！命理師提醒冬令進補別過量 穿暖色系、居家換暖燈有助提升運勢",
+      "summary": "来自 壹蘋新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1VOHVDOGxDbmFtaURBU1FaUGdacFp4Tm5pYU1IakNHZVRFUXQ0cnVFY2pCeXN5UnJJa3UyZVJTMURWdE9rUjJKZG5ReU1pUjhINkZRRTVMdS13M3ZGM1JrQUl5dkcwcVJLOTl2X3ByQTVPQjV5QzNnekx6ekktdw?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "壹蘋新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-11-05",
+      "published_display": "2026-11-05",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-07"
     },
     {
       "title": "立冬要來了！命理專家曝5大開運法、12生肖運勢排行出爐",
@@ -361,44 +399,6 @@
         "命理",
         "運勢",
         "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-06"
-    },
-    {
-      "title": "立冬將報到！命理師曝「3生肖」運勢開掛 貴人、財運接連來",
-      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9sYm5JSk1FSDdMRzZYcUswZnNWR1BGeDZ2ZjEyX1BSNFlaamxQVUhqQWRUcWpZQlVWRmZ0bkpnVmJQM1BuMzlTNWdrRXFaZw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "TVBS新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-11-04",
-      "published_display": "2026-11-04",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-07"
-    },
-    {
-      "title": "立冬｜命理師點名5生肖運勢大變化 屬兔防破財 屬雞有桃花運",
-      "summary": "来自 香港01 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQNTFFUDJuamxTSGJpemtFcEVGOXBiV2NrckZ2NVExWjFQVTJRZV81UTdWVUV5N2RLNWV5UUJNVEZLdElVOEhiQnFidTlWUVBzZDZkM21OMHZBR0FfOU82aUlkTkM1NlZFWkNQOTcyc2Q5Zmt2MG0zSWp3eE55RHlveFpacUVSQkxOZmc5c1g5UjNCU3Q0Q05ORGc3bzkwMmhkSUo3dGJJMDlSdmJHSlpkMXFKSUdWemlhWjl1V0VEaFhybE9jREx3a1F5S2hRN0hsRmJudTc0WGIwTUkwdnEwT2tOSzJya2ZOTjRfV3F4NktTakFZd2RSMFlEU0kwMjdsSkk1N2lMYmtmbk9xckJqT212Z1J3aVlnOVNmWjJNT2ZJLWRIRHYtMTRnUGFhZUNUNFFhNjVNTnhQLUZ6S0FZZ21pdEdaaTVZNGVrVGkxMFcwdThMb2sxRFY1R3hsWGRvOTdtWUZPRnQ5eFhQVW1lU1VMVEdycjhDMXFJTnBONmg5XzY1YVRmWU9DWHZ6MHJLOWI3QXY5ZXlFaHY2X280dERJVzNxb0E?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "香港01 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-11-04",
-      "published_display": "2026-11-04",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-08"
