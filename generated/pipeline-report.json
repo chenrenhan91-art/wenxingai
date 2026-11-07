@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-11-07T11:08:49.884881+08:00",
-  "ran_at_display": "2026年11月7日 11:08",
+  "ran_at": "2026-11-07T21:08:32.342082+08:00",
+  "ran_at_display": "2026年11月7日 21:08",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "c7ef899fbb01ec7ea0ebcbf7f2b1ea12d33e0222",
-  "new_signature": "8606a734cc1618f66ca069278413f9cd08fe26f0",
+  "previous_signature": "8606a734cc1618f66ca069278413f9cd08fe26f0",
+  "new_signature": "3f7600dd4e40faba73ec72ce8068c9beb672ce35",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -25,11 +25,10 @@
     "有人問我 「老師 我八字財星很多」 「是不是代表我很有錢？」 我看了一下命盤 再看了一下他 突然不知道該怎麼回答🤣 因為八字裡 財星多 不代表銀行存款就一定多 財星在十神中 除了與金錢有關 也可以延伸到 資源、經營、現實責任 以及對財物的掌握 但財星能不能為自",
     "[問卦] 中醫 是醫學還是玄學？",
     "2026立冬運勢全解析！翻轉財運3大關鍵、事業人際洗牌，命理師教你拜拜開運色穿搭",
-    "選戰藏變數？超正命理師剖析蔣萬安、沈伯洋星盤運勢 驚喊：包裝時代結束了"
+    "神準！韓命理師3個月前預言台股「這時段」震盪 網驚：以後不分析、直接算命"
   ],
   "added_titles": [
-    "有人問我 「老師 我八字財星很多」 「是不是代表我很有錢？」 我看了一下命盤 再看了一下他 突然不知道該怎麼回答🤣 因為八字裡 財星多 不代表銀行存款就一定多 財星在十神中 除了與金錢有關 也可以延伸到 資源、經營、現實責任 以及對財物的掌握 但財星能不能為自",
-    "選戰藏變數？超正命理師剖析蔣萬安、沈伯洋星盤運勢 驚喊：包裝時代結束了"
+    "神準！韓命理師3個月前預言台股「這時段」震盪 網驚：以後不分析、直接算命"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -42,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月7日 11:09"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月7日 21:09"
     },
     {
       "script": "generate_daily_content.py",
