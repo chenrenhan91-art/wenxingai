@@ -1,9 +1,9 @@
-# 问星AI 内容自动化运行报告 2026年11月6日 21:09
+# 问星AI 内容自动化运行报告 2026年11月7日 11:08
 
 - 总体状态：failed_generate
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：c7ef899fbb01ec7ea0ebcbf7f2b1ea12d33e0222
+- 变更签名：8606a734cc1618f66ca069278413f9cd08fe26f0
 - Gemini 是否执行：是
 - Gemini 审校是否执行：否
 - 规则质检是否执行：否
@@ -14,14 +14,14 @@
 
 ## 本轮热点标题
 - 【紫微斗数】天相星落在哪裏更容易遇到貴人？從紫微命盤看你的人脈與資源變現機會！#紫微斗数#天相星#贵人运#命盘解析#十二宫#事业运势#命理科普#紫微教学#印星#流年运势
-- 每次有人聽到八字裡有「剋」 第一個反應通常都是 「老師 那是不是不好？」 先不要緊張🤣 五行相剋 不代表一定是壞事 例如木剋土 土剋水 水剋火 火剋金 金剋木 這是五行之間 相互制約的關係 就像一棵樹 如果只知道一直長 卻完全沒有修剪 也不一定能長得漂亮 命盤也是
+- 有人問我 「老師 我八字財星很多」 「是不是代表我很有錢？」 我看了一下命盤 再看了一下他 突然不知道該怎麼回答🤣 因為八字裡 財星多 不代表銀行存款就一定多 財星在十神中 除了與金錢有關 也可以延伸到 資源、經營、現實責任 以及對財物的掌握 但財星能不能為自
 - [問卦] 中醫 是醫學還是玄學？
 - 2026立冬運勢全解析！翻轉財運3大關鍵、事業人際洗牌，命理師教你拜拜開運色穿搭
-- 神準！韓命理師3個月前預言台股「這時段」震盪 網驚：以後不分析、直接算命
+- 選戰藏變數？超正命理師剖析蔣萬安、沈伯洋星盤運勢 驚喊：包裝時代結束了
 
 ## 新增标题
-- 每次有人聽到八字裡有「剋」 第一個反應通常都是 「老師 那是不是不好？」 先不要緊張🤣 五行相剋 不代表一定是壞事 例如木剋土 土剋水 水剋火 火剋金 金剋木 這是五行之間 相互制約的關係 就像一棵樹 如果只知道一直長 卻完全沒有修剪 也不一定能長得漂亮 命盤也是
-- 神準！韓命理師3個月前預言台股「這時段」震盪 網驚：以後不分析、直接算命
+- 有人問我 「老師 我八字財星很多」 「是不是代表我很有錢？」 我看了一下命盤 再看了一下他 突然不知道該怎麼回答🤣 因為八字裡 財星多 不代表銀行存款就一定多 財星在十神中 除了與金錢有關 也可以延伸到 資源、經營、現實責任 以及對財物的掌握 但財星能不能為自
+- 選戰藏變數？超正命理師剖析蔣萬安、沈伯洋星盤運勢 驚喊：包裝時代結束了
 
 ## 次日运营建议
 - 明日优先延展「命理新闻」相关选题（当前占比 5/8）。
@@ -31,7 +31,7 @@
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年11月6日 21:10
+updated 8 hot news items at 2026年11月7日 11:09
 - generate_daily_content.py | failed | [warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {"error":{"message":"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.","type":"invalid_request_error","param":null,...
 [warn] DashScope model qwen3.6-flash-2026-04-16 failed; trying qwen3.5-flash. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
 [warn] DashScope model qwen3.5-flash failed; trying qwen3.5-35b-a3b. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
