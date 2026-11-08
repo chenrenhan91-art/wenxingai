@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-08",
-  "updated_at_display": "2026年11月8日 11:10",
+  "updated_at_display": "2026年11月8日 21:08",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-11-08T11:10:27.535958+08:00",
+    "fetched_at": "2026-11-08T21:08:49.671218+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "十神"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-86"
+      "event_cluster": "event-91"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -328,11 +328,49 @@
       "event_cluster": "event-03"
     },
     {
-      "title": "今天立冬快把握！命理師曝6招「開運秘訣」 財運、福氣一次集齊",
-      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxOQTRQSG5NcVNoX3R3X3dZYjFZUVVGQVJLcDYxRmRfZ013R1F1TU5nYnlOek82VE5ubHVyYlRlYUJ3bzhBU0p6M1dwaGp6cEF0bTJmOGk5bWhHYzhFTUtPeXJsTUppaXlaaVZxa0tJdkpDWHJyUG9iT1JBT1dQTXdmcS00c256aVJFU2pFeWtiRDRzejdzVHJTb05iUWlpblhUUjhRQXVPV2tXZzNUNXJ1T0lzSWpjZmYtc3dldHdIMjlSelVpY3NIOC1SSG9FLUE3eko4TlhNd3VBMloyQlpsaG1Od0t4SnVSZjdvQnVkX3dLbEp0RGJJaVlrN1k3WXN3cXVvXzRwUU5LZUE3N1QxRjNNbWRyNkRVbTB3dnpjT2lDemZ6Z2xCclU2MUxGNGVJcW5sclVuLUV6eWNwa2hZQ2ZvdHdObWs3MEE?oc=5",
+      "title": "11月8至14日生肖運勢 命理師點名3生肖有望賺進大筆財富",
+      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWMWxKVlpsdzR5TU8tTG1mWVEzaXBJRHZQRWpIcW9KNURwMzB1X290clVZcmgxNWV1TU5sX2hpTmktem1MUzQ2Y2tyelJSVi02WkI5SkdYTDdOdWhx?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Yahoo新聞 · Google News",
+      "source": "自由娛樂 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-11-08",
+      "published_display": "2026-11-08",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-06"
+    },
+    {
+      "title": "命理師才預言蔣萬安運勢略勝！驚喜同台沈伯洋 他自抽選戰牌翻出「死神」",
+      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFByQ0xkVldMN2FaTHRFWEJrNEktc3pvZ051ZEx0YUhVMDYyVE5xSjZuelZBcGowMS1qM1BDYVhaS2RNY3NNNGgtNmZCR280OWk4bXhwZWlOaTRoYVJKanp6RmVsUG4?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "TVBS新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-11-08",
+      "published_display": "2026-11-08",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-07"
+    },
+    {
+      "title": "今天立冬快把握！命理師曝6招「開運秘訣」 財運、福氣一次集齊",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE81YzltSzQtN0p3VnhoVlRXRk5nVFJBSml0cmRRTmticFdkeGNxeGk4MHJjQjZFNWhhZkdWY3pPa1F0M2ZTRGRnVtIBTEFVX3lxTE8waUV4VVdHSGFMQlBfVU92QTNfal9Pd2FBTHowZGJvYkMxY2pzbVhyTHhXUGZtRE4tR25LenNNX0JBZFBGcnoyREd2a08?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞網SETN.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -344,7 +382,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-08"
     },
     {
       "title": "神準！韓命理師3個月前預言台股「這時段」震盪 網驚：以後不分析、直接算命",
@@ -361,44 +399,6 @@
         "命理",
         "命理師",
         "算命"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-07"
-    },
-    {
-      "title": "明天立冬逢丙午年「火氣爆棚」！命理師揭開運法：這方位放1物事業大翻身",
-      "summary": "来自 自由時報 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tak1kc1I4endhZXd3WUctS2M3QmF4Mk1OdzNKU3Y0aWpkUFYxdGVyZFhaemtjTGJYbm5hN2pUTTdEc1paaXJ0M2xKTVd1QUJqRWMzbHFJb3ZsMk8zRkU0SEJMNXPSAWpBVV95cUxOTlh1VDhwMFJOOUdIRzYtSTVyZXAtR2pLV1FpenZSdXB4ckFkMmNfNDNVcXpwUHdjdVNJODdXTjFCd2F4QUdkaE9RTC0tZVZNOWttSnZqMVMxNzViZzJvaVJBYmxIYXEtY25R?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "自由時報 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-11-06",
-      "published_display": "2026-11-06",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-08"
-    },
-    {
-      "title": "選戰藏變數？超正命理師剖析蔣萬安、沈伯洋星盤運勢 驚喊：包裝時代結束了",
-      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBiS2lTeDNIZGcwR1NzcTlHTkdwVmV4MlZIcUV4c01UOWNJdWVINGswVW40T1R0dGhKS0htU3hMZE94V3g0Y3lwZUtEWXB2czhjQmlhS09xdG5keml30gFiQVVfeXFMTmdfeTZ0TmhQeE12NXhXWFA5VUtUZjZsSFl4eGhaV3ZOSmpVbmpZanVNd3VsbjVqQTFEV0g1VEhFTVlDN2xMbkF3SjBsUlIwT01ycmtUY3lzeE5lNmNFampBYkE?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "自由娛樂 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-11-06",
-      "published_display": "2026-11-06",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-09"

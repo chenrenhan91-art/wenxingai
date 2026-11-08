@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-11-08T11:09:53.264317+08:00",
-  "ran_at_display": "2026年11月8日 11:09",
+  "ran_at": "2026-11-08T21:08:14.622763+08:00",
+  "ran_at_display": "2026年11月8日 21:08",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "3f7600dd4e40faba73ec72ce8068c9beb672ce35",
-  "new_signature": "b65065b7788c07435991e586bcb44e5dfe007df1",
+  "previous_signature": "b65065b7788c07435991e586bcb44e5dfe007df1",
+  "new_signature": "55f26c0370d8e5497c880de03e4c5997b280844b",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -25,10 +25,10 @@
     "有人問我 「老師 我八字財星很多」 「是不是代表我很有錢？」 我看了一下命盤 再看了一下他 突然不知道該怎麼回答🤣 因為八字裡 財星多 不代表銀行存款就一定多 財星在十神中 除了與金錢有關 也可以延伸到 資源、經營、現實責任 以及對財物的掌握 但財星能不能為自",
     "[問卦] 中醫 是醫學還是玄學？",
     "2026立冬運勢全解析！翻轉財運3大關鍵、事業人際洗牌，命理師教你拜拜開運色穿搭",
-    "今天立冬快把握！命理師曝6招「開運秘訣」 財運、福氣一次集齊"
+    "11月8至14日生肖運勢 命理師點名3生肖有望賺進大筆財富"
   ],
   "added_titles": [
-    "今天立冬快把握！命理師曝6招「開運秘訣」 財運、福氣一次集齊"
+    "11月8至14日生肖運勢 命理師點名3生肖有望賺進大筆財富"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
@@ -41,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月8日 11:10"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月8日 21:08"
     },
     {
       "script": "generate_daily_content.py",
