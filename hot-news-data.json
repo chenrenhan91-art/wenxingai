@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07",
-  "updated_at_display": "2026年11月7日 21:09",
+  "updated_at": "2026-11-08",
+  "updated_at_display": "2026年11月8日 11:10",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-11-07T21:09:08.247925+08:00",
+    "fetched_at": "2026-11-08T11:10:27.535958+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -268,7 +268,7 @@
         "运势"
       ],
       "score": 16.75,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "有人問我 「老師 我八字財星很多」 「是不是代表我很有錢？」 我看了一下命盤 再看了一下他 突然不知道該怎麼回答🤣 因為八字裡 財星多 不代表銀行存款就一定多 財星在十神中 除了與金錢有關 也可以延伸到 資源、經營、現實責任 以及對財物的掌握 但財星能不能為自",
@@ -287,7 +287,7 @@
         "十神"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-85"
+      "event_cluster": "event-86"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -325,7 +325,26 @@
         "運勢"
       ],
       "score": 16.95,
-      "event_cluster": "event-02"
+      "event_cluster": "event-03"
+    },
+    {
+      "title": "今天立冬快把握！命理師曝6招「開運秘訣」 財運、福氣一次集齊",
+      "summary": "来自 Yahoo新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxOQTRQSG5NcVNoX3R3X3dZYjFZUVVGQVJLcDYxRmRfZ013R1F1TU5nYnlOek82VE5ubHVyYlRlYUJ3bzhBU0p6M1dwaGp6cEF0bTJmOGk5bWhHYzhFTUtPeXJsTUppaXlaaVZxa0tJdkpDWHJyUG9iT1JBT1dQTXdmcS00c256aVJFU2pFeWtiRDRzejdzVHJTb05iUWlpblhUUjhRQXVPV2tXZzNUNXJ1T0lzSWpjZmYtc3dldHdIMjlSelVpY3NIOC1SSG9FLUE3eko4TlhNd3VBMloyQlpsaG1Od0t4SnVSZjdvQnVkX3dLbEp0RGJJaVlrN1k3WXN3cXVvXzRwUU5LZUE3N1QxRjNNbWRyNkRVbTB3dnpjT2lDemZ6Z2xCclU2MUxGNGVJcW5sclVuLUV6eWNwa2hZQ2ZvdHdObWs3MEE?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "Yahoo新聞 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-11-07",
+      "published_display": "2026-11-07",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-06"
     },
     {
       "title": "神準！韓命理師3個月前預言台股「這時段」震盪 網驚：以後不分析、直接算命",
@@ -344,7 +363,7 @@
         "算命"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-07"
     },
     {
       "title": "明天立冬逢丙午年「火氣爆棚」！命理師揭開運法：這方位放1物事業大翻身",
@@ -363,7 +382,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-08"
     },
     {
       "title": "選戰藏變數？超正命理師剖析蔣萬安、沈伯洋星盤運勢 驚喊：包裝時代結束了",
@@ -382,26 +401,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
-    },
-    {
-      "title": "蔣萬安恐「陰溝翻船」、沈伯洋運勢大加分！命理師曝北市選情：洋流是真的",
-      "summary": "来自 民視新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9MWWtaa3dzeDlOZ1FoUVM3YTdMbGxzcWFOX19yTGh1UWNsUUFtUTdnQW1RVlhCMXc1VEVpNFVkcEVJX0Z5R1BDOHRZd3NHSlFPYUlZaWgwZy1YVksxa0lGUw?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "民視新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-11-06",
-      "published_display": "2026-11-06",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-08"
+      "event_cluster": "event-09"
     }
   ]
 }
