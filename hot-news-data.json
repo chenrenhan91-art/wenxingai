@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-09",
-  "updated_at_display": "2026年11月9日 11:11",
+  "updated_at_display": "2026年11月9日 21:12",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-11-09T11:11:43.255644+08:00",
+    "fetched_at": "2026-11-09T21:12:14.272204+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -192,7 +192,7 @@
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 5,
+        "picked_items": 4,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -227,7 +227,7 @@
       },
       "youtube_search": {
         "status": "ok",
-        "picked_items": 1,
+        "picked_items": 2,
         "failures": 0
       },
       "x_recent_search": {
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
@@ -268,7 +268,7 @@
         "运势"
       ],
       "score": 16.75,
-      "event_cluster": "event-05"
+      "event_cluster": "event-04"
     },
     {
       "title": "有人問我 「老師 我八字財星很多」 「是不是代表我很有錢？」 我看了一下命盤 再看了一下他 突然不知道該怎麼回答🤣 因為八字裡 財星多 不代表銀行存款就一定多 財星在十神中 除了與金錢有關 也可以延伸到 資源、經營、現實責任 以及對財物的掌握 但財星能不能為自",
@@ -287,7 +287,7 @@
         "十神"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-98"
+      "event_cluster": "event-97"
     },
     {
       "title": "[問卦] 中醫 是醫學還是玄學？",
@@ -309,23 +309,23 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "2026立冬運勢全解析！翻轉財運3大關鍵、事業人際洗牌，命理師教你拜拜開運色穿搭",
-      "summary": "来自 Marie Claire 美麗佳人 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UOU14ZjdDMEhMMl80WkR2bjNPMFJiNTlxOEVxRVhGRHk3Uks2dkZPcEw5aXVEX09YbXVkSlJNbExuYWJSWU5kRXhENGpXNmZjY2tvX1VpZjg0c29UalFKYQ?oc=5",
+      "title": "命理師算出黃仁勳有「戀愛腦」運勢恐一路衰退至2030年",
+      "summary": "来自 中時新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBCT2hwMElDeWxqR1ZBd2J5djFtZV9oZVlpRHpNcXhZeXBxUmw4TVNVY0d5cXFLMVBxNm9rekt6QUlfUThjbDlsYnItR2czNUdNUlBMZ3BPMmluNGdPTDRJSmVLVTBnb2psaG4xdWVR?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "Marie Claire 美麗佳人 · Google News",
+      "source": "中時新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-11-05",
-      "published_display": "2026-11-05",
+      "published": "2026-11-09",
+      "published_display": "2026-11-09",
       "matched_keywords": [
         "命理",
         "命理師",
         "運勢"
       ],
-      "score": 16.95,
-      "event_cluster": "event-03"
+      "score": 14.750000000000002,
+      "event_cluster": "event-05"
     },
     {
       "title": "11月8至14日生肖運勢 命理師點名3生肖有望賺進大筆財富",
@@ -347,6 +347,25 @@
       "event_cluster": "event-06"
     },
     {
+      "title": "命理師才預言蔣萬安運勢略勝！驚喜同台沈伯洋 他自抽選戰牌翻出「死神」",
+      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFByQ0xkVldMN2FaTHRFWEJrNEktc3pvZ051ZEx0YUhVMDYyVE5xSjZuelZBcGowMS1qM1BDYVhaS2RNY3NNNGgtNmZCR280OWk4bXhwZWlOaTRoYVJKanp6RmVsUG4?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "TVBS新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-11-08",
+      "published_display": "2026-11-08",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-07"
+    },
+    {
       "title": "今天立冬快把握！命理師曝6招「開運秘訣」 財運、福氣一次集齊",
       "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE81YzltSzQtN0p3VnhoVlRXRk5nVFJBSml0cmRRTmticFdkeGNxeGk4MHJjQjZFNWhhZkdWY3pPa1F0M2ZTRGRnVtIBTEFVX3lxTE8waUV4VVdHSGFMQlBfVU92QTNfal9Pd2FBTHowZGJvYkMxY2pzbVhyTHhXUGZtRE4tR25LenNNX0JBZFBGcnoyREd2a08?oc=5",
@@ -363,44 +382,25 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
-    },
-    {
-      "title": "神準！韓命理師3個月前預言台股「這時段」震盪 網驚：以後不分析、直接算命",
-      "summary": "来自 Yahoo股市 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQZ1JocWJoTWtfc1BKX2JYT21jajIwckNKbmFvWEhEQVRYdnZPblo2RVhmdlpMb0dZZFRvYzJWQmdvOGRvWS1NT1JTZ09TMVFVYkZabFpTNTlhWkFMdGdMbVJpODVDTnplTzJzTExncGRvR1M0d3pjQmU4Tm5aNlFTYk1Wck1DWFAzWGVZRFJuYWU4TDc5eWhlckVWaDlCclloSjE4elBPYVJReHM1WGl6TjRNMmQteDlGd0RWcEFuWE5HamF4WW9oVzBhVDFKUFdpYU9ONWMtVFExOFl1UDdhNzNLU1EwckJmcXJtLU8yQnRNbjJrTEZ1ZlI5SU94VUl4RVVEY1dyTlZfd1BJbFhmaTRwMWFucGpzUWZScnhTNkFoeGNQdDFCMG53OXNrNjFkVUNOM1dhcWMyajlDRW9HejFOWjltaWpCaXpYSGpnMHZRUQ?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "Yahoo股市 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-11-06",
-      "published_display": "2026-11-06",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "算命"
-      ],
-      "score": 14.750000000000002,
       "event_cluster": "event-08"
     },
     {
-      "title": "選戰藏變數？超正命理師剖析蔣萬安、沈伯洋星盤運勢 驚喊：包裝時代結束了",
-      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBiS2lTeDNIZGcwR1NzcTlHTkdwVmV4MlZIcUV4c01UOWNJdWVINGswVW40T1R0dGhKS0htU3hMZE94V3g0Y3lwZUtEWXB2czhjQmlhS09xdG5keml30gFiQVVfeXFMTmdfeTZ0TmhQeE12NXhXWFA5VUtUZjZsSFl4eGhaV3ZOSmpVbmpZanVNd3VsbjVqQTFEV0g1VEhFTVlDN2xMbkF3SjBsUlIwT01ycmtUY3lzeE5lNmNFampBYkE?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "自由娛樂 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-11-06",
-      "published_display": "2026-11-06",
+      "title": "【紫微斗數】大限、流年、流月怎麼看？新手看盤最容易搞混的順序，一次說清楚！# 紫微斗數#大限流年#斗數入門#命盤解讀#命理乾貨#斗數教學#玄學 #人生運勢#斗數基礎#命理知識",
+      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HMlZqNFJCM1U2eEU1QzJyWnI1SVZMMGM1bmVGSFJZYXBjWG9CbHBmTkd2alJZMWxSRjBxbWdlQ1BJczZucVEwV3JoZzhSaWQzVlpYdHRB?oc=5",
+      "source_id": "youtube_search",
+      "source": "YouTube · Google News",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "video",
+      "category": "八字紫微",
+      "published": "2026-11-08",
+      "published_display": "2026-11-08",
       "matched_keywords": [
+        "紫微斗數",
         "命理",
-        "命理師",
-        "運勢"
+        "流年"
       ],
-      "score": 14.750000000000002,
+      "score": 14.55,
       "event_cluster": "event-09"
     }
   ]

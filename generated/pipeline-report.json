@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-11-09T11:11:09.109748+08:00",
-  "ran_at_display": "2026年11月9日 11:11",
+  "ran_at": "2026-11-09T21:11:39.399326+08:00",
+  "ran_at_display": "2026年11月9日 21:11",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "55f26c0370d8e5497c880de03e4c5997b280844b",
-  "new_signature": "aac505014b2f56588d4985b33f4b8c2906d8cd8b",
+  "previous_signature": "aac505014b2f56588d4985b33f4b8c2906d8cd8b",
+  "new_signature": "00526cc77ec2144c444699c1fddb5dcb0ebc44ae",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -24,12 +24,14 @@
     "【紫微斗数】天相星落在哪裏更容易遇到貴人？從紫微命盤看你的人脈與資源變現機會！#紫微斗数#天相星#贵人运#命盘解析#十二宫#事业运势#命理科普#紫微教学#印星#流年运势",
     "有人問我 「老師 我八字財星很多」 「是不是代表我很有錢？」 我看了一下命盤 再看了一下他 突然不知道該怎麼回答🤣 因為八字裡 財星多 不代表銀行存款就一定多 財星在十神中 除了與金錢有關 也可以延伸到 資源、經營、現實責任 以及對財物的掌握 但財星能不能為自",
     "[問卦] 中醫 是醫學還是玄學？",
-    "2026立冬運勢全解析！翻轉財運3大關鍵、事業人際洗牌，命理師教你拜拜開運色穿搭",
+    "命理師算出黃仁勳有「戀愛腦」運勢恐一路衰退至2030年",
     "11月8至14日生肖運勢 命理師點名3生肖有望賺進大筆財富"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "命理師算出黃仁勳有「戀愛腦」運勢恐一路衰退至2030年"
+  ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -39,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月9日 11:11"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月9日 21:12"
     },
     {
       "script": "generate_daily_content.py",
