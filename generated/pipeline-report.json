@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-11-08T21:08:14.622763+08:00",
-  "ran_at_display": "2026年11月8日 21:08",
+  "ran_at": "2026-11-09T11:11:09.109748+08:00",
+  "ran_at_display": "2026年11月9日 11:11",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "b65065b7788c07435991e586bcb44e5dfe007df1",
-  "new_signature": "55f26c0370d8e5497c880de03e4c5997b280844b",
+  "previous_signature": "55f26c0370d8e5497c880de03e4c5997b280844b",
+  "new_signature": "aac505014b2f56588d4985b33f4b8c2906d8cd8b",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,9 +27,7 @@
     "2026立冬運勢全解析！翻轉財運3大關鍵、事業人際洗牌，命理師教你拜拜開運色穿搭",
     "11月8至14日生肖運勢 命理師點名3生肖有望賺進大筆財富"
   ],
-  "added_titles": [
-    "11月8至14日生肖運勢 命理師點名3生肖有望賺進大筆財富"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
@@ -41,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月8日 21:08"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月9日 11:11"
     },
     {
       "script": "generate_daily_content.py",
