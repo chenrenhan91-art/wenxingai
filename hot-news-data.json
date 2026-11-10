@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-10",
-  "updated_at_display": "2026年11月10日 11:10",
+  "updated_at_display": "2026年11月10日 21:10",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-11-10T11:10:02.039370+08:00",
+    "fetched_at": "2026-11-10T21:10:24.327562+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "items": [
     {
@@ -268,7 +268,7 @@
         "运势"
       ],
       "score": 16.75,
-      "event_cluster": "event-04"
+      "event_cluster": "event-05"
     },
     {
       "title": "有人問我 「老師 我八字財星很多」 「是不是代表我很有錢？」 我看了一下命盤 再看了一下他 突然不知道該怎麼回答🤣 因為八字裡 財星多 不代表銀行存款就一定多 財星在十神中 除了與金錢有關 也可以延伸到 資源、經營、現實責任 以及對財物的掌握 但財星能不能為自",
@@ -287,25 +287,25 @@
         "十神"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-98"
+      "event_cluster": "event-102"
     },
     {
-      "title": "[問卦] 中醫 是醫學還是玄學？",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「玄學」展开讨论，推文热度 54，作者 a111111。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1786796489.A.EEA.html",
+      "title": "[新聞] 命理專家「握沈伯洋手」驚呆！感應到「",
+      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 52，作者 asppsa。",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1794286188.A.165.html",
       "source_id": "ptt_gossiping",
       "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E7%8E%84%E5%AD%B8",
+      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
       "source_group": "community",
-      "category": "社区热议",
-      "published": "2026-08-15",
-      "published_display": "2026-08-15",
+      "category": "命理新闻",
+      "published": "2026-11-10",
+      "published_display": "2026-11-10",
       "matched_keywords": [
-        "玄學",
+        "命理",
         "热议",
         "讨论"
       ],
-      "score": 28.95,
+      "score": 26.083333333333332,
       "event_cluster": "event-01"
     },
     {
@@ -325,14 +325,14 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
       "title": "今天立冬快把握！命理師曝6招「開運秘訣」 財運、福氣一次集齊",
-      "summary": "来自 三立新聞 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE81YzltSzQtN0p3VnhoVlRXRk5nVFJBSml0cmRRTmticFdkeGNxeGk4MHJjQjZFNWhhZkdWY3pPa1F0M2ZTRGRnVtIBTEFVX3lxTE8waUV4VVdHSGFMQlBfVU92QTNfal9Pd2FBTHowZGJvYkMxY2pzbVhyTHhXUGZtRE4tR25LenNNX0JBZFBGcnoyREd2a08?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞 · Google News",
+      "source": "三立新聞網SETN.com · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
@@ -344,7 +344,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     },
     {
       "title": "神準！韓命理師3個月前預言台股「這時段」震盪 網驚：以後不分析、直接算命",
@@ -363,7 +363,7 @@
         "算命"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-08"
+      "event_cluster": "event-09"
     },
     {
       "title": "【紫微斗數】大限、流年、流月怎麼看？新手看盤最容易搞混的順序，一次說清楚！# 紫微斗數#大限流年#斗數入門#命盤解讀#命理乾貨#斗數教學#玄學 #人生運勢#斗數基礎#命理知識",
@@ -382,7 +382,7 @@
         "流年"
       ],
       "score": 14.55,
-      "event_cluster": "event-07"
+      "event_cluster": "event-08"
     },
     {
       "title": "選戰藏變數？超正命理師剖析蔣萬安、沈伯洋星盤運勢 驚喊：包裝時代結束了",
@@ -401,7 +401,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-09"
+      "event_cluster": "event-10"
     }
   ]
 }
