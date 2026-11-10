@@ -1,9 +1,9 @@
-# 问星AI 内容自动化运行报告 2026年11月9日 21:11
+# 问星AI 内容自动化运行报告 2026年11月10日 11:09
 
 - 总体状态：failed_generate
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：00526cc77ec2144c444699c1fddb5dcb0ebc44ae
+- 变更签名：673db0f4520864d99087df448869d89875b7aa59
 - Gemini 是否执行：是
 - Gemini 审校是否执行：否
 - 规则质检是否执行：否
@@ -17,10 +17,10 @@
 - 有人問我 「老師 我八字財星很多」 「是不是代表我很有錢？」 我看了一下命盤 再看了一下他 突然不知道該怎麼回答🤣 因為八字裡 財星多 不代表銀行存款就一定多 財星在十神中 除了與金錢有關 也可以延伸到 資源、經營、現實責任 以及對財物的掌握 但財星能不能為自
 - [問卦] 中醫 是醫學還是玄學？
 - 命理師算出黃仁勳有「戀愛腦」運勢恐一路衰退至2030年
-- 11月8至14日生肖運勢 命理師點名3生肖有望賺進大筆財富
+- 今天立冬快把握！命理師曝6招「開運秘訣」 財運、福氣一次集齊
 
 ## 新增标题
-- 命理師算出黃仁勳有「戀愛腦」運勢恐一路衰退至2030年
+- 今天立冬快把握！命理師曝6招「開運秘訣」 財運、福氣一次集齊
 
 ## 次日运营建议
 - 明日优先延展「命理新闻」相关选题（当前占比 4/8）。
@@ -30,7 +30,7 @@
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年11月9日 21:12
+updated 8 hot news items at 2026年11月10日 11:10
 - generate_daily_content.py | failed | [warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {"error":{"message":"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.","type":"invalid_request_error","param":null,...
 [warn] DashScope model qwen3.6-flash-2026-04-16 failed; trying qwen3.5-flash. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
 [warn] DashScope model qwen3.5-flash failed; trying qwen3.5-35b-a3b. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
