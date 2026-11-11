@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-11-11T11:09:22.681078+08:00",
-  "ran_at_display": "2026年11月11日 11:09",
+  "ran_at": "2026-11-11T21:10:03.260569+08:00",
+  "ran_at_display": "2026年11月11日 21:10",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "1d7a970ae9bad1bbba4cc4db92c2eb44c7eef773",
-  "new_signature": "0df69b9809cea21dffee92eb25011b339593f633",
+  "previous_signature": "0df69b9809cea21dffee92eb25011b339593f633",
+  "new_signature": "3519eb0a242d7c0da6d924ce221ed34870968380",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -23,15 +23,15 @@
   "new_titles": [
     "【紫微斗数】天相星落在哪裏更容易遇到貴人？從紫微命盤看你的人脈與資源變現機會！#紫微斗数#天相星#贵人运#命盘解析#十二宫#事业运势#命理科普#紫微教学#印星#流年运势",
     "有人問我 「老師 我八字財星很多」 「是不是代表我很有錢？」 我看了一下命盤 再看了一下他 突然不知道該怎麼回答🤣 因為八字裡 財星多 不代表銀行存款就一定多 財星在十神中 除了與金錢有關 也可以延伸到 資源、經營、現實責任 以及對財物的掌握 但財星能不能為自",
-    "[新聞] 命理專家「握沈伯洋手」驚呆！感應到「",
+    "[新聞] 神機妙算！沈伯洋塔羅牌抽「死神牌」有反",
     "桃園市長選戰！命理師綜合運勢、姓名、生肖分析：小心行險招- 生活",
     "命理師算出黃仁勳有「戀愛腦」運勢恐一路衰退至2030年"
   ],
   "added_titles": [
-    "桃園市長選戰！命理師綜合運勢、姓名、生肖分析：小心行險招- 生活"
+    "[新聞] 神機妙算！沈伯洋塔羅牌抽「死神牌」有反"
   ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -41,7 +41,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月11日 11:09"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月11日 21:10"
     },
     {
       "script": "generate_daily_content.py",

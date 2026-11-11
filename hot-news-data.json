@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-11",
-  "updated_at_display": "2026年11月11日 11:09",
+  "updated_at_display": "2026年11月11日 21:10",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-11-11T11:09:57.320394+08:00",
+    "fetched_at": "2026-11-11T21:10:36.765901+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
@@ -268,7 +268,7 @@
         "运势"
       ],
       "score": 16.75,
-      "event_cluster": "event-05"
+      "event_cluster": "event-06"
     },
     {
       "title": "有人問我 「老師 我八字財星很多」 「是不是代表我很有錢？」 我看了一下命盤 再看了一下他 突然不知道該怎麼回答🤣 因為八字裡 財星多 不代表銀行存款就一定多 財星在十神中 除了與金錢有關 也可以延伸到 資源、經營、現實責任 以及對財物的掌握 但財星能不能為自",
@@ -287,25 +287,25 @@
         "十神"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-98"
+      "event_cluster": "event-99"
     },
     {
-      "title": "[新聞] 命理專家「握沈伯洋手」驚呆！感應到「",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「命理」展开讨论，推文热度 54，作者 asppsa。",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1794286188.A.165.html",
+      "title": "[新聞] 神機妙算！沈伯洋塔羅牌抽「死神牌」有反",
+      "summary": "来自 PTT Gossiping 的热议帖，围绕「塔羅」展开讨论，推文热度 61，作者 au4g3wk4k。",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1794377113.A.F68.html",
       "source_id": "ptt_gossiping",
       "source": "PTT Gossiping",
-      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%91%BD%E7%90%86",
+      "source_url": "https://www.ptt.cc/bbs/Gossiping/search?page=1&q=%E5%A1%94%E7%BE%85",
       "source_group": "community",
-      "category": "命理新闻",
-      "published": "2026-11-10",
-      "published_display": "2026-11-10",
+      "category": "塔罗星象",
+      "published": "2026-11-11",
+      "published_display": "2026-11-11",
       "matched_keywords": [
-        "命理",
+        "塔羅",
         "热议",
         "讨论"
       ],
-      "score": 26.75,
+      "score": 29.083333333333332,
       "event_cluster": "event-01"
     },
     {
@@ -325,7 +325,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     },
     {
       "title": "命理師算出黃仁勳有「戀愛腦」運勢恐一路衰退至2030年",
@@ -344,7 +344,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-08"
     },
     {
       "title": "今天立冬快把握！命理師曝6招「開運秘訣」 財運、福氣一次集齊",
@@ -363,7 +363,7 @@
         "開運"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-08"
+      "event_cluster": "event-10"
     },
     {
       "title": "【紫微斗數】大限、流年、流月怎麼看？新手看盤最容易搞混的順序，一次說清楚！# 紫微斗數#大限流年#斗數入門#命盤解讀#命理乾貨#斗數教學#玄學 #人生運勢#斗數基礎#命理知識",
@@ -371,18 +371,18 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HMlZqNFJCM1U2eEU1QzJyWnI1SVZMMGM1bmVGSFJZYXBjWG9CbHBmTkd2alJZMWxSRjBxbWdlQ1BJczZucVEwV3JoZzhSaWQzVlpYdHRB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
       "category": "八字紫微",
       "published": "2026-11-08",
       "published_display": "2026-11-08",
       "matched_keywords": [
-        "紫微斗數",
         "命理",
-        "流年"
+        "流年",
+        "運勢"
       ],
       "score": 14.55,
-      "event_cluster": "event-10"
+      "event_cluster": "event-11"
     },
     {
       "title": "神準！韓命理師3個月前預言台股「這時段」震盪 網驚：以後不分析、直接算命",
@@ -401,7 +401,7 @@
         "算命"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-11"
+      "event_cluster": "event-12"
     }
   ]
 }
