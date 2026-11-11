@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-10T21:10:31.069782+08:00",
-  "generated_at_display": "2026-11-10 21:10 CST",
+  "generated_at": "2026-11-11T11:10:05.142984+08:00",
+  "generated_at_display": "2026-11-11 11:10 CST",
   "site_positioning": "问星AI是面向全球华语用户的AI命理应用，核心覆盖紫微斗数、四柱八字、周易六爻、合盘分析、大运流年与玄学热点解读。",
   "hot_news": {
-    "updated_at": "2026-11-10",
+    "updated_at": "2026-11-11",
     "titles": [
       "【紫微斗数】天相星落在哪裏更容易遇到貴人？從紫微命盤看你的人脈與資源變現機會！#紫微斗数#天相星#贵人运#命盘解析#十二宫#事业运势#命理科普#紫微教学#印星#流年运势",
       "有人問我 「老師 我八字財星很多」 「是不是代表我很有錢？」 我看了一下命盤 再看了一下他 突然不知道該怎麼回答🤣 因為八字裡 財星多 不代表銀行存款就一定多 財星在十神中 除了與金錢有關 也可以延伸到 資源、經營、現實責任 以及對財物的掌握 但財星能不能為自",
       "[新聞] 命理專家「握沈伯洋手」驚呆！感應到「",
+      "桃園市長選戰！命理師綜合運勢、姓名、生肖分析：小心行險招- 生活",
       "命理師算出黃仁勳有「戀愛腦」運勢恐一路衰退至2030年",
       "今天立冬快把握！命理師曝6招「開運秘訣」 財運、福氣一次集齊",
-      "神準！韓命理師3個月前預言台股「這時段」震盪 網驚：以後不分析、直接算命",
       "【紫微斗數】大限、流年、流月怎麼看？新手看盤最容易搞混的順序，一次說清楚！# 紫微斗數#大限流年#斗數入門#命盤解讀#命理乾貨#斗數教學#玄學 #人生運勢#斗數基礎#命理知識",
-      "選戰藏變數？超正命理師剖析蔣萬安、沈伯洋星盤運勢 驚喊：包裝時代結束了"
+      "神準！韓命理師3個月前預言台股「這時段」震盪 網驚：以後不分析、直接算命"
     ],
     "keywords": [
       [
@@ -60,11 +60,11 @@
         1
       ],
       [
-        "算命",
+        "紫微斗數",
         1
       ],
       [
-        "紫微斗數",
+        "算命",
         1
       ]
     ],
@@ -118,6 +118,42 @@
       "automation_cadence": "weekly"
     },
     {
+      "id": "xuanxue-hot-news",
+      "name": "玄学热点与命理新闻",
+      "score": 122,
+      "priority": 76,
+      "hot_matches": [
+        "运势",
+        "生肖",
+        "流年"
+      ],
+      "article_coverage": [],
+      "missing_pages": [],
+      "primary_keywords": [
+        "玄学",
+        "命理新闻",
+        "命理热点",
+        "塔罗占卜",
+        "运势"
+      ],
+      "target_questions": [
+        "最近玄学热点有哪些？",
+        "命理新闻为什么容易引发讨论？",
+        "如何理性看待生肖运势和塔罗占卜？"
+      ],
+      "preferred_pages": [
+        "/mingli-xuanxue-news.html",
+        "/articles/",
+        "/glossary.html"
+      ],
+      "content_angles": [
+        "用每日热点做新鲜度",
+        "把新闻转成理性命理解释",
+        "避免娱乐化过度预言"
+      ],
+      "automation_cadence": "daily"
+    },
+    {
       "id": "ai-mingli",
       "name": "AI命理与AI算命",
       "score": 110,
@@ -149,41 +185,6 @@
         "用问星AI案例说明可验证性"
       ],
       "automation_cadence": "weekly"
-    },
-    {
-      "id": "xuanxue-hot-news",
-      "name": "玄学热点与命理新闻",
-      "score": 110,
-      "priority": 76,
-      "hot_matches": [
-        "运势",
-        "流年"
-      ],
-      "article_coverage": [],
-      "missing_pages": [],
-      "primary_keywords": [
-        "玄学",
-        "命理新闻",
-        "命理热点",
-        "塔罗占卜",
-        "运势"
-      ],
-      "target_questions": [
-        "最近玄学热点有哪些？",
-        "命理新闻为什么容易引发讨论？",
-        "如何理性看待生肖运势和塔罗占卜？"
-      ],
-      "preferred_pages": [
-        "/mingli-xuanxue-news.html",
-        "/articles/",
-        "/glossary.html"
-      ],
-      "content_angles": [
-        "用每日热点做新鲜度",
-        "把新闻转成理性命理解释",
-        "避免娱乐化过度预言"
-      ],
-      "automation_cadence": "daily"
     },
     {
       "id": "ziwei-ai",
@@ -343,32 +344,6 @@
       "angle": "把大运流年解释为周期观察"
     },
     {
-      "cluster_id": "ai-mingli",
-      "cluster_name": "AI命理与AI算命",
-      "action": "new_article",
-      "primary_keyword": "AI命理",
-      "target_question": "AI命理和传统算命有什么区别？",
-      "suggested_title": "AI命理怎么理解？问星AI的理性命理观察",
-      "suggested_h2": [
-        "AI命理的搜索意图是什么",
-        "问星AI如何解释AI命理",
-        "传统命理与AI趋势分析的边界",
-        "可引用事实与常见问题"
-      ],
-      "internal_links": [
-        "/facts/wenxing-ai.html",
-        "/geo-answers.html",
-        "/glossary.html",
-        "/mingli-xuanxue-news.html"
-      ],
-      "hot_context": [
-        "【紫微斗数】天相星落在哪裏更容易遇到貴人？從紫微命盤看你的人脈與資源變現機會！#紫微斗数#天相星#贵人运#命盘解析#十二宫#事业运势#命理科普#紫微教学#印星#流年运势",
-        "有人問我 「老師 我八字財星很多」 「是不是代表我很有錢？」 我看了一下命盤 再看了一下他 突然不知道該怎麼回答🤣 因為八字裡 財星多 不代表銀行存款就一定多 財星在十神中 除了與金錢有關 也可以延伸到 資源、經營、現實責任 以及對財物的掌握 但財星能不能為自",
-        "[新聞] 命理專家「握沈伯洋手」驚呆！感應到「"
-      ],
-      "angle": "理性解释AI命理边界"
-    },
-    {
       "cluster_id": "xuanxue-hot-news",
       "cluster_name": "玄学热点与命理新闻",
       "action": "new_article",
@@ -393,6 +368,32 @@
         "[新聞] 命理專家「握沈伯洋手」驚呆！感應到「"
       ],
       "angle": "用每日热点做新鲜度"
+    },
+    {
+      "cluster_id": "ai-mingli",
+      "cluster_name": "AI命理与AI算命",
+      "action": "new_article",
+      "primary_keyword": "AI命理",
+      "target_question": "AI命理和传统算命有什么区别？",
+      "suggested_title": "AI命理怎么理解？问星AI的理性命理观察",
+      "suggested_h2": [
+        "AI命理的搜索意图是什么",
+        "问星AI如何解释AI命理",
+        "传统命理与AI趋势分析的边界",
+        "可引用事实与常见问题"
+      ],
+      "internal_links": [
+        "/facts/wenxing-ai.html",
+        "/geo-answers.html",
+        "/glossary.html",
+        "/mingli-xuanxue-news.html"
+      ],
+      "hot_context": [
+        "【紫微斗数】天相星落在哪裏更容易遇到貴人？從紫微命盤看你的人脈與資源變現機會！#紫微斗数#天相星#贵人运#命盘解析#十二宫#事业运势#命理科普#紫微教学#印星#流年运势",
+        "有人問我 「老師 我八字財星很多」 「是不是代表我很有錢？」 我看了一下命盤 再看了一下他 突然不知道該怎麼回答🤣 因為八字裡 財星多 不代表銀行存款就一定多 財星在十神中 除了與金錢有關 也可以延伸到 資源、經營、現實責任 以及對財物的掌握 但財星能不能為自",
+        "[新聞] 命理專家「握沈伯洋手」驚呆！感應到「"
+      ],
+      "angle": "理性解释AI命理边界"
     },
     {
       "cluster_id": "ziwei-ai",
