@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-12",
-  "updated_at_display": "2026年11月12日 11:10",
+  "updated_at_display": "2026年11月12日 21:10",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-11-12T11:10:09.961011+08:00",
+    "fetched_at": "2026-11-12T21:10:21.735003+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -271,23 +271,22 @@
       "event_cluster": "event-06"
     },
     {
-      "title": "有人問我 「老師 我八字財星很多」 「是不是代表我很有錢？」 我看了一下命盤 再看了一下他 突然不知道該怎麼回答🤣 因為八字裡 財星多 不代表銀行存款就一定多 財星在十神中 除了與金錢有關 也可以延伸到 資源、經營、現實責任 以及對財物的掌握 但財星能不能為自",
+      "title": "晚上洗澡時，突然想起來前幾天在threads上看到有人說，如果沈伯洋要當選的話，一定要女性的幫助。 剛剛花了一點時間找到這一篇，結果發文的人晚上也再po文了。 雖然我看不懂紫微命盤，但是應該可以和小英這篇文做連結吧？ 空安應該沒想過小英實實文章的力量",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wYlhNaWdPY2c3cmcycVZWVl9fM2laeENPZjhiOUtCR25mTmJQMERuc2ZlcE1Ta0tKUXJHdW5LUE5oWjlOcXA3UkFuVW1ER3NMeENid0pocklOSHJCaUJRVlZoUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jd0xyNTE4eGtib3RpMGwxdG5aaG50RVFvenk1NU51QnNTaTRaNlFQeTJab2pNaWZjVDRkTU4xOHlfZl9rbVRkYVVTaXVxbkhlWk9lZDEyMmFuMllfYWllZHhUakZjWmdJRmNiMF9UWHY?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E5%91%BD%E7%90%86%E5%B8%AB%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E7%B4%AB%E5%BE%AE%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "八字紫微",
-      "published": "2026-11-06",
-      "published_display": "2026-11-06",
+      "published": "2026-11-12",
+      "published_display": "2026-11-12",
       "matched_keywords": [
-        "八字",
-        "命盤",
-        "十神"
+        "紫微",
+        "命盤"
       ],
-      "score": 12.149999999999999,
-      "event_cluster": "event-105"
+      "score": 9.95,
+      "event_cluster": "event-136"
     },
     {
       "title": "[新聞] 神機妙算！沈伯洋塔羅牌抽「死神牌」有反",
@@ -309,25 +308,6 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "桃園市長選戰！命理師綜合運勢、姓名、生肖分析：小心行險招- 生活",
-      "summary": "来自 中時新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVMkswQldYOTNXUUVyZHVreXFIRl91Tl85cGR0MUlJWTFyaGNWOU40ZFJUU0RmTXo3c2JOMGQzOXlyS21zZTlsY3BtcTZiWVRVTTU5UWhVaXJOQjBINGhUMW5iY0xDSjh3Ui1KNFlR?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "中時新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-11-11",
-      "published_display": "2026-11-11",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-07"
-    },
-    {
       "title": "命理師算出黃仁勳有「戀愛腦」運勢恐一路衰退至2030年",
       "summary": "来自 中時新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBCT2hwMElDeWxqR1ZBd2J5djFtZV9oZVlpRHpNcXhZeXBxUmw4TVNVY0d5cXFLMVBxNm9rekt6QUlfUThjbDlsYnItR2czNUdNUlBMZ3BPMmluNGdPTDRJSmVLVTBnb2psaG4xdWVR?oc=5",
@@ -344,7 +324,26 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-08"
+      "event_cluster": "event-07"
+    },
+    {
+      "title": "11月8至14日生肖運勢 命理師點名3生肖有望賺進大筆財富",
+      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWMWxKVlpsdzR5TU8tTG1mWVEzaXBJRHZQRWpIcW9KNURwMzB1X290clVZcmgxNWV1TU5sX2hpTmktem1MUzQ2Y2tyelJSVi02WkI5SkdYTDdOdWhx?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "自由娛樂 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-11-08",
+      "published_display": "2026-11-08",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-09"
     },
     {
       "title": "今天立冬快把握！命理師曝6招「開運秘訣」 財運、福氣一次集齊",
