@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-11",
-  "updated_at_display": "2026年11月11日 21:10",
+  "updated_at": "2026-11-12",
+  "updated_at_display": "2026年11月12日 11:10",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-11-11T21:10:36.765901+08:00",
+    "fetched_at": "2026-11-12T11:10:09.961011+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,11 +287,11 @@
         "十神"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-99"
+      "event_cluster": "event-105"
     },
     {
       "title": "[新聞] 神機妙算！沈伯洋塔羅牌抽「死神牌」有反",
-      "summary": "来自 PTT Gossiping 的热议帖，围绕「塔羅」展开讨论，推文热度 61，作者 au4g3wk4k。",
+      "summary": "来自 PTT Gossiping 的热议帖，围绕「塔羅」展开讨论，推文热度 62，作者 au4g3wk4k。",
       "url": "https://www.ptt.cc/bbs/Gossiping/M.1794377113.A.F68.html",
       "source_id": "ptt_gossiping",
       "source": "PTT Gossiping",
@@ -305,7 +305,7 @@
         "热议",
         "讨论"
       ],
-      "score": 29.083333333333332,
+      "score": 29.416666666666668,
       "event_cluster": "event-01"
     },
     {
