@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-13",
-  "updated_at_display": "2026年11月13日 21:10",
+  "updated_at": "2026-11-14",
+  "updated_at_display": "2026年11月14日 11:09",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-11-13T21:10:16.827312+08:00",
+    "fetched_at": "2026-11-14T11:09:35.232955+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -192,7 +192,7 @@
     "by_source": {
       "google_news_mingli_tw": {
         "status": "ok",
-        "picked_items": 4,
+        "picked_items": 5,
         "failures": 0
       },
       "google_news_xuanxue_tw": {
@@ -227,7 +227,7 @@
       },
       "youtube_search": {
         "status": "ok",
-        "picked_items": 2,
+        "picked_items": 1,
         "failures": 0
       },
       "x_recent_search": {
@@ -248,7 +248,7 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
   "items": [
     {
@@ -268,25 +268,26 @@
         "八字"
       ],
       "score": 14.55,
-      "event_cluster": "event-08"
+      "event_cluster": "event-09"
     },
     {
-      "title": "晚上洗澡時，突然想起來前幾天在threads上看到有人說，如果沈伯洋要當選的話，一定要女性的幫助。 剛剛花了一點時間找到這一篇，結果發文的人晚上也再po文了。 雖然我看不懂紫微命盤，但是應該可以和小英這篇文做連結吧？ 空安應該沒想過小英實實文章的力量",
+      "title": "@Baoliaogeming64 2027 丁未年「破財消災」（65 歲丁未年）紫微流年「巨門化忌」衝動戊午身宮，八字又是「丁未歲運并臨」。這代表 2027 年他將面臨輝達股價暴跌後引發的股東集體民事訴訟、SEC（美國證交會）資訊揭露調查，以及個人婚姻與家族信託的巨額財產重整，",
       "summary": "来自 X · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jd0xyNTE4eGtib3RpMGwxdG5aaG50RVFvenk1NU51QnNTaTRaNlFQeTJab2pNaWZjVDRkTU4xOHlfZl9rbVRkYVVTaXVxbkhlWk9lZDEyMmFuMllfYWllZHhUakZjWmdJRmNiMF9UWHY?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HVk9tSXBoVkF0Rks1NTFlbG1VR1NRLUt2N1JvV1B3REJJNlY1dkRpZk9GNkFrN2dmSjltOUtDUndUWGthYzREd2x2Mzdod3gwYzMyZ3JLOTF3MHdkdkVMVFdR?oc=5",
       "source_id": "x_recent_search",
       "source": "X · Google News",
       "source_url": "https://news.google.com/rss/search?q=site%3Ax.com%20%E7%B4%AB%E5%BE%AE%20when%3A14d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "community",
       "category": "八字紫微",
-      "published": "2026-11-12",
-      "published_display": "2026-11-12",
+      "published": "2026-11-14",
+      "published_display": "2026-11-14",
       "matched_keywords": [
-        "紫微",
-        "命盤"
+        "流年",
+        "八字",
+        "紫微"
       ],
-      "score": 9.95,
-      "event_cluster": "event-139"
+      "score": 12.149999999999999,
+      "event_cluster": "event-37"
     },
     {
       "title": "[新聞] 神機妙算！沈伯洋塔羅牌抽「死神牌」有反",
@@ -327,6 +328,25 @@
       "event_cluster": "event-06"
     },
     {
+      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞網SETN.com · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-11-12",
+      "published_display": "2026-11-12",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-07"
+    },
+    {
       "title": "桃園市長選戰！命理師綜合運勢、姓名、生肖分析：小心行險招- 生活",
       "summary": "来自 中時新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVMkswQldYOTNXUUVyZHVreXFIRl91Tl85cGR0MUlJWTFyaGNWOU40ZFJUU0RmTXo3c2JOMGQzOXlyS21zZTlsY3BtcTZiWVRVTTU5UWhVaXJOQjBINGhUMW5iY0xDSjh3Ui1KNFlR?oc=5",
@@ -343,7 +363,26 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-08"
+    },
+    {
+      "title": "桃園市長選戰倒數18天！張善政、黃世杰同屬馬命理師揭運勢玄機| 星座命理| 生活",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAyN2dVRjRZS0Z3RWhXbTJCTWtWS2w1WWN0R2xfSUR1aWE0RW1DVkROMl9KeGs2Yi1neVpQeEVNQWxFWXV1NS1QcEFVMFJsczNo?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "UDN · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "塔罗星象",
+      "published": "2026-11-10",
+      "published_display": "2026-11-10",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-10"
     },
     {
       "title": "命理師算出黃仁勳有「戀愛腦」運勢恐一路衰退至2030年",
@@ -362,45 +401,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-09"
-    },
-    {
-      "title": "2026年11月11日生肖運勢大公開！滿日逢玉堂！正北聚財、東北迎喜，鼠雞蛇有合，羊馬狗逢沖害刑，今天怎麼做？#生肖運勢#十二生肖#財神方位#生肖命理#流年運勢#玉堂黃道#易曉點開運",
-      "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3bWlXeTFjNzRzT3NmY0tUU01mM1FzV2dUSnhHUy10bllsNl82T0xMdm1wTUFsVHo1ekFScGVKSTQ3dDZtUWhNZG5wS2RKWjVPSElOc0RR?oc=5",
-      "source_id": "youtube_search",
-      "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "video",
-      "category": "命理新闻",
-      "published": "2026-11-10",
-      "published_display": "2026-11-10",
-      "matched_keywords": [
-        "命理",
-        "流年",
-        "運勢"
-      ],
-      "score": 14.55,
-      "event_cluster": "event-10"
-    },
-    {
-      "title": "命理師才預言蔣萬安運勢略勝！驚喜同台沈伯洋 他自抽選戰牌翻出「死神」",
-      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFByQ0xkVldMN2FaTHRFWEJrNEktc3pvZ051ZEx0YUhVMDYyVE5xSjZuelZBcGowMS1qM1BDYVhaS2RNY3NNNGgtNmZCR280OWk4bXhwZWlOaTRoYVJKanp6RmVsUG4?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "TVBS新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-11-08",
-      "published_display": "2026-11-08",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-12"
+      "event_cluster": "event-11"
     }
   ]
 }
