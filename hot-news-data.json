@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-15",
-  "updated_at_display": "2026年11月15日 11:10",
+  "updated_at_display": "2026年11月15日 21:09",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-11-15T11:10:07.951568+08:00",
+    "fetched_at": "2026-11-15T21:09:07.801464+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -287,7 +287,7 @@
         "紫微"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-38"
+      "event_cluster": "event-39"
     },
     {
       "title": "[新聞] 神機妙算！沈伯洋塔羅牌抽「死神牌」有反",
@@ -367,10 +367,10 @@
     },
     {
       "title": "桃園市長選戰倒數18天！張善政、黃世杰同屬馬命理師揭運勢玄機| 星座命理| 生活",
-      "summary": "来自 udn · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAyN2dVRjRZS0Z3RWhXbTJCTWtWS2w1WWN0R2xfSUR1aWE0RW1DVkROMl9KeGs2Yi1neVpQeEVNQWxFWXV1NS1QcEFVMFJsczNo?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "udn · Google News",
+      "source": "UDN · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "塔罗星象",

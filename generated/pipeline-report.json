@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-11-15T11:09:33.685939+08:00",
-  "ran_at_display": "2026年11月15日 11:09",
+  "ran_at": "2026-11-15T21:08:33.252451+08:00",
+  "ran_at_display": "2026年11月15日 21:08",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "e0abe26908b02d4096c54bfae04dde7b61287d1b",
-  "new_signature": "3df91b36c283657683fc0b45cb766bc8b4042307",
+  "previous_signature": "3df91b36c283657683fc0b45cb766bc8b4042307",
+  "new_signature": "fdb48ad069c7965c5dbe32c52f34eced04aea7c7",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -27,9 +27,7 @@
     "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
     "小雪逢水官大帝聖誕！命理師曝4招開運解厄 家中「1狀況」恐大漏財"
   ],
-  "added_titles": [
-    "小雪逢水官大帝聖誕！命理師曝4招開運解厄 家中「1狀況」恐大漏財"
-  ],
+  "added_titles": [],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
   ],
@@ -41,7 +39,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月15日 11:10"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月15日 21:09"
     },
     {
       "script": "generate_daily_content.py",
