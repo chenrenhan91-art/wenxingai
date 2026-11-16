@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-11-15T21:08:33.252451+08:00",
-  "ran_at_display": "2026年11月15日 21:08",
+  "ran_at": "2026-11-16T11:11:22.689589+08:00",
+  "ran_at_display": "2026年11月16日 11:11",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "3df91b36c283657683fc0b45cb766bc8b4042307",
-  "new_signature": "fdb48ad069c7965c5dbe32c52f34eced04aea7c7",
+  "previous_signature": "fdb48ad069c7965c5dbe32c52f34eced04aea7c7",
+  "new_signature": "4d03618adc9f1cc59b4597be7f7d017da5d028a5",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,18 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "江𤒹生Anson Kong 八字命盤分析︱2027大運流年相沖，小心出事？ 2031年起事業上高峰！︱陳俊燊師傅【陳俊燊風水命理EP240】",
+    "你有沒有多想？他對你是不是真的有感覺？想和你怎麼發展？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
     "@Baoliaogeming64 2027 丁未年「破財消災」（65 歲丁未年）紫微流年「巨門化忌」衝動戊午身宮，八字又是「丁未歲運并臨」。這代表 2027 年他將面臨輝達股價暴跌後引發的股東集體民事訴訟、SEC（美國證交會）資訊揭露調查，以及個人婚姻與家族信託的巨額財產重整，",
     "[新聞] 神機妙算！沈伯洋塔羅牌抽「死神牌」有反",
-    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
-    "小雪逢水官大帝聖誕！命理師曝4招開運解厄 家中「1狀況」恐大漏財"
+    "小雪罕逢下元宜開運…命理師：別急著求財 這4字才是關鍵",
+    "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光"
   ],
-  "added_titles": [],
+  "added_titles": [
+    "你有沒有多想？他對你是不是真的有感覺？想和你怎麼發展？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
+    "小雪罕逢下元宜開運…命理師：別急著求財 這4字才是關鍵"
+  ],
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 4/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
   ],
   "failed_scripts": [
     "generate_daily_content.py"
@@ -39,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月15日 21:09"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月16日 11:11"
     },
     {
       "script": "generate_daily_content.py",
