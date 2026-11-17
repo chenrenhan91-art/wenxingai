@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-17",
-  "updated_at_display": "2026年11月17日 11:10",
+  "updated_at_display": "2026年11月17日 21:10",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-11-17T11:10:18.660263+08:00",
+    "fetched_at": "2026-11-17T21:10:44.033538+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -248,27 +248,27 @@
     }
   },
   "ops_hints": [
-    "明日优先延展「命理新闻」相关选题（当前占比 5/8）。"
+    "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
   ],
   "items": [
     {
-      "title": "黃仁勳命盤深度解碼——當「最重視婚姻的宮位」撞上「最危險的情感黑洞」AI教父的致命宿命論：這不是單純的出軌！紫微斗數揭開黃仁勳命盤世紀矛盾：靈魂最在乎的避風港，偏偏被內心深處的執念親手撕裂！",
+      "title": "你和他誰更喜歡對方？誰對誰更重要？|曖昧|愛情|戀愛|桃花|塔羅占卜|",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4bTlidE1Ycmt0dms0ejBETVJWZjl4SnNpZzVmbUZhdHhLbW5rMGNSZlJsOXZYVHNCWllTZ09mOWNMTmtQZHNnMnl3d2xTVDZYLXAxY05B?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4WC1fS0VBa3NaTGFzejV1RVcyWWRWZU5CbVRMY0lpMFpIR3dZc0Y0cHdzeWdadmlyLTAzYWFBYlp6UzV2bTJvcF9COXJBdjY0Y2dFLVVB?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%A1%94%E7%BE%85%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "八字紫微",
-      "published": "2026-11-11",
-      "published_display": "2026-11-11",
+      "category": "塔罗星象",
+      "published": "2026-11-14",
+      "published_display": "2026-11-14",
       "matched_keywords": [
-        "紫微斗數",
-        "紫微",
-        "斗數"
+        "塔羅",
+        "占卜",
+        "桃花"
       ],
-      "score": 12.35,
-      "event_cluster": "event-56"
+      "score": 14.55,
+      "event_cluster": "event-17"
     },
     {
       "title": "怎樣學好算命？是這樣的，我講個故事給你聽。 以前，有位飛星派的命理師，跟老師學了好多年，也就記下了一些口訣，根本不太會算。 但有一次，自己欠了巨額的債，完全還不上，債主到處找他，他每天東躲西藏，活得提心吊膽。那時，他想起自己學過算命，就每天躲在什",
@@ -287,7 +287,7 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-32"
+      "event_cluster": "event-40"
     },
     {
       "title": "[新聞] 神機妙算！沈伯洋塔羅牌抽「死神牌」有反",
@@ -309,35 +309,35 @@
       "event_cluster": "event-01"
     },
     {
-      "title": "小雪罕逢下元宜開運…命理師：別急著求財 這4字才是關鍵",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE90R1h6NTZCNVVGYW1Hanp0dWllbDNCZy1la1g5YjBUVHNoak1nSVo4T2pJdFNRQ2I3aWtzWlA3QVI0VXZRTTdyUXVtRU1WMWpn0gFWQVVfeXFMT291NFVkZmFVRjRtZk93UGpiOXVCcnJVaERuUDdFdjAxbFo3dXdHeVk3TklNdFZETzZiM2VkcU8xV1Q3eThNMm5WbE0zeFU1VU9US3gwOWc?oc=5",
+      "title": "女生名字別取這10個字！命理師點名影響運勢「易晚年孤獨」，亭、 貞也上榜",
+      "summary": "来自 風傳媒 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1IbmFvM1ZCbFRoR3VmSEo0R2h0bmJtZUY1cFhxN0t0VnoyQmJ6Nlh1Rlc3Y1NIVXFZUF9wRmY3UW16VS1vS3o4a1dUY1V2c1Jp?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
+      "source": "風傳媒 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-11-16",
-      "published_display": "2026-11-16",
+      "published": "2026-11-17",
+      "published_display": "2026-11-17",
       "matched_keywords": [
         "命理",
         "命理師",
-        "開運"
+        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-06"
     },
     {
-      "title": "今年小雪巧逢下元節 命理師揭開運秘訣：整理居家化解困境",
-      "summary": "来自 中天新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAtUHBEWVFXODY1Qm90ZEMyZzFvOUtTb280WEtDcE5CSFg0VzkyYlpzeWpnTzJBaGl2NDNlNDVTZlQ3UU93c3NIV2ZSSkdGeGxxcGZn?oc=5",
+      "title": "小雪節氣巧逢下元節 命理師示警「別急著求財」 教4招開運秘訣",
+      "summary": "来自 香港01 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxQNHZXaDIzdWFTUzdBRHI1eUU1SFhJcUVrYmtEb2tKUUZaaFJQeWU5dGdFNTNGMURrdFBtVjc4X1hoSlRpYW93dVYzaVBuYk9TcHhJa0xVZ1FzMDNvc29zR0FWTXVkTG9pZUctZFdNNDN2Q2V0elRRajV4dUNVY1FkSXd2UlN4anpMTEk5bjFlZmY1ZnJqS3hOOTEzLVA4Y0kyRTF0SGI0MHNzVFBnb0RkMVZnTll2ZExXU3Y3ZE9NTFJSMGduM2FDUmZNQm1zMkdhTXoxZDJHc0RPdG1uc2FweDBOaUtlLTVYYzY4TFBKVC1oU2tjWWhJM29EWHR2Y0NoeHcybDRTSVdYRnYzRjg4Z0VRZ3lmeWJfNFZpb0hwR2JwYnB5TlliN0hZQ1E1NTZnQ2ZrcktUaDY3eHM1dldpOXo3cTljLTVkcldkck8xenItZ0xYckdNZkVrUGptYWROR2dVWVJvdldBSlllMzBodERZUFBFVE4zM3lhUndZdW91bzVPNGZ2MTE4bDYtZE0?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "中天新聞網 · Google News",
+      "source": "香港01 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-11-16",
-      "published_display": "2026-11-16",
+      "published": "2026-11-17",
+      "published_display": "2026-11-17",
       "matched_keywords": [
         "命理",
         "命理師",
@@ -347,61 +347,61 @@
       "event_cluster": "event-07"
     },
     {
-      "title": "小雪罕逢下元宜開運...命理師：別急著求財這4字才是關鍵| 星座命理| 生活",
-      "summary": "来自 UDN · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBITnhIUlBSSE9FVVdfcDVTWUdmRnJHckRUN2t6Z0FkTVZDTmpyWnNYQTNhcmFIUHNTNFpWMjYxWFpTWEpnZkM3M1pOa0NuR1ZZbWw0b0N4X1FBZXVqSW00cVRVN1JiX3YwSFQ1UzMtRmZkbFE?oc=5",
+      "title": "分析黃仁勳面相命理師大膽預言晚年運勢- 娛樂",
+      "summary": "来自 中時新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE50TXVzR3J6dVhFS0h3SVF6SVhFOXJIaEptTnc4OUtrWmVNdlNraUZMaFgyNFR6allYVm81Yy1aVE5FY0J5VGlEQm1qVXNoQVZDR1lhX3ZUY1BYaE5HY2h6LXM0OWJvQ2llZzk1cW53?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "UDN · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "塔罗星象",
-      "published": "2026-11-16",
-      "published_display": "2026-11-16",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-06"
-    },
-    {
-      "title": "國曆12月16日天赦日遇「子午沖」 命理師曝開運關鍵",
-      "summary": "来自 自由娛樂 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51cktVNlhnMmZfaVZCcXNPdEZRUWlERXdLd1RJWDd6TEozZU5TaEFneDBZZ3YzdXk2UFV5S0oxUjBLSHJlZkl6V0pUeXpUNGw2UEhkNU1ETTB5QjlQ?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "自由娛樂 · Google News",
+      "source": "中時新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-11-16",
-      "published_display": "2026-11-16",
+      "published": "2026-11-17",
+      "published_display": "2026-11-17",
       "matched_keywords": [
         "命理",
         "命理師",
-        "開運"
+        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-08"
     },
     {
-      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
-      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
+      "title": "11/23「超級發財日」別錯過！命理師曝1招求財補庫 2027賺整年",
+      "summary": "来自 TVBS新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE02UFFDakJpeExtcFFjbDh3ZUFIYmp1WlUyMkNLVFZJRWZOYUtpWGRXZUlXcWRVTHNaazV4SE1tLVdLenFoMEFkdWpyM3kzZw?oc=5",
       "source_id": "google_news_mingli_tw",
-      "source": "三立新聞網SETN.com · Google News",
+      "source": "TVBS新聞網 · Google News",
       "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "news",
       "category": "命理新闻",
-      "published": "2026-11-14",
-      "published_display": "2026-11-14",
+      "published": "2026-11-17",
+      "published_display": "2026-11-17",
       "matched_keywords": [
         "命理",
         "命理師",
-        "開運"
+        "補庫"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-09"
+    },
+    {
+      "title": "黃仁勳桃色風波延燒 命理師揭晚年運勢兩極",
+      "summary": "来自 壹蘋新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcU5yN2pKQ0JaNmhZcXgySEdvYkNVUE03dFpjZHRHb0NDYWxaSXRHcl93ZUlzYTk5MjA0cmQyM2VCcjQ5VXBMcVprcGdxZzB1Wkpyc1Z3bGFnaUp0dTctY3ZnYmF5bVZlbVQ0Z01FMmRfNTR1U2VFSEMwRlZKQWRkRjQtbkVpNkhySlE?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "壹蘋新聞網 · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-11-17",
+      "published_display": "2026-11-17",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "運勢"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-10"
     }
   ]
 }
