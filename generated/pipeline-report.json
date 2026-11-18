@@ -1,10 +1,10 @@
 {
-  "ran_at": "2026-11-18T11:09:47.971330+08:00",
-  "ran_at_display": "2026年11月18日 11:09",
+  "ran_at": "2026-11-18T21:09:54.510373+08:00",
+  "ran_at_display": "2026年11月18日 21:09",
   "overall_status": "failed_generate",
   "force_refresh": true,
-  "previous_signature": "49a546169981ec98dce79bbe137c810e91c593d6",
-  "new_signature": "ef8407d2f950be339db66c0b67ae1a60b63c7219",
+  "previous_signature": "ef8407d2f950be339db66c0b67ae1a60b63c7219",
+  "new_signature": "e2273101d75ff070935d60cc1599df07d59f4631",
   "content_changed": true,
   "gemini_ran": true,
   "review_ran": false,
@@ -21,15 +21,15 @@
     "articles": "skipped"
   },
   "new_titles": [
-    "【無時限】ta接下來準備做什麼？對於你，ta有多少沒說出來的想法？|曖昧|愛情|戀愛|桃花|塔羅占卜",
+    "小雪節氣「3生肖」運勢拉警報！命理師示警「這生肖」最要小心！ #shorts #手面相#風水 #紫微#星座 #命理 #開運",
     "怎樣學好算命？是這樣的，我講個故事給你聽。 以前，有位飛星派的命理師，跟老師學了好多年，也就記下了一些口訣，根本不太會算。 但有一次，自己欠了巨額的債，完全還不上，債主到處找他，他每天東躲西藏，活得提心吊膽。那時，他想起自己學過算命，就每天躲在什",
     "[新聞] 神機妙算！沈伯洋塔羅牌抽「死神牌」有反",
     "黃仁勳桃花劫 命理師解析面相「晚年運勢」大分歧",
-    "女生名字別取這10個字！命理師點名影響運勢「易晚年孤獨」，亭、 貞也上榜"
+    "獨家／週末小雪下元節接力來！3生肖年底運勢拉警報 命理師1招求平安"
   ],
   "added_titles": [
-    "【無時限】ta接下來準備做什麼？對於你，ta有多少沒說出來的想法？|曖昧|愛情|戀愛|桃花|塔羅占卜",
-    "黃仁勳桃花劫 命理師解析面相「晚年運勢」大分歧"
+    "小雪節氣「3生肖」運勢拉警報！命理師示警「這生肖」最要小心！ #shorts #手面相#風水 #紫微#星座 #命理 #開運",
+    "獨家／週末小雪下元節接力來！3生肖年底運勢拉警報 命理師1招求平安"
   ],
   "ops_hints": [
     "明日优先延展「命理新闻」相关选题（当前占比 6/8）。"
@@ -42,7 +42,7 @@
       "script": "update_hot_news.py",
       "returncode": 0,
       "ok": true,
-      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月18日 11:10"
+      "output": "[warn] failed to fetch Reddit Search: HTTP Error 403: Blocked\nupdated 8 hot news items at 2026年11月18日 21:10"
     },
     {
       "script": "generate_daily_content.py",
