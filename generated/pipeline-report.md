@@ -1,9 +1,9 @@
-# 问星AI 内容自动化运行报告 2026年11月17日 21:10
+# 问星AI 内容自动化运行报告 2026年11月18日 11:09
 
 - 总体状态：failed_generate
 - 本轮是否强制刷新：是
 - 热点是否变化：是
-- 变更签名：49a546169981ec98dce79bbe137c810e91c593d6
+- 变更签名：ef8407d2f950be339db66c0b67ae1a60b63c7219
 - Gemini 是否执行：是
 - Gemini 审校是否执行：否
 - 规则质检是否执行：否
@@ -13,16 +13,15 @@
 - 阶段状态：抓取=ok, 生成=failed, 审校=blocked, 质检=blocked, 分发=blocked, 文章=skipped
 
 ## 本轮热点标题
-- 你和他誰更喜歡對方？誰對誰更重要？|曖昧|愛情|戀愛|桃花|塔羅占卜|
+- 【無時限】ta接下來準備做什麼？對於你，ta有多少沒說出來的想法？|曖昧|愛情|戀愛|桃花|塔羅占卜
 - 怎樣學好算命？是這樣的，我講個故事給你聽。 以前，有位飛星派的命理師，跟老師學了好多年，也就記下了一些口訣，根本不太會算。 但有一次，自己欠了巨額的債，完全還不上，債主到處找他，他每天東躲西藏，活得提心吊膽。那時，他想起自己學過算命，就每天躲在什
 - [新聞] 神機妙算！沈伯洋塔羅牌抽「死神牌」有反
+- 黃仁勳桃花劫 命理師解析面相「晚年運勢」大分歧
 - 女生名字別取這10個字！命理師點名影響運勢「易晚年孤獨」，亭、 貞也上榜
-- 小雪節氣巧逢下元節 命理師示警「別急著求財」 教4招開運秘訣
 
 ## 新增标题
-- 你和他誰更喜歡對方？誰對誰更重要？|曖昧|愛情|戀愛|桃花|塔羅占卜|
-- 女生名字別取這10個字！命理師點名影響運勢「易晚年孤獨」，亭、 貞也上榜
-- 小雪節氣巧逢下元節 命理師示警「別急著求財」 教4招開運秘訣
+- 【無時限】ta接下來準備做什麼？對於你，ta有多少沒說出來的想法？|曖昧|愛情|戀愛|桃花|塔羅占卜
+- 黃仁勳桃花劫 命理師解析面相「晚年運勢」大分歧
 
 ## 次日运营建议
 - 明日优先延展「命理新闻」相关选题（当前占比 6/8）。
@@ -32,7 +31,7 @@
 
 ## 脚本结果
 - update_hot_news.py | ok | [warn] failed to fetch Reddit Search: HTTP Error 403: Blocked
-updated 8 hot news items at 2026年11月17日 21:10
+updated 8 hot news items at 2026年11月18日 11:10
 - generate_daily_content.py | failed | [warn] DashScope model qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b failed; trying qwen3.6-flash-2026-04-16. Reason: HTTP 404: {"error":{"message":"The model `qwen3.5-flash,qwen3.6-flash-2026-04-16,qwen3.5-27b` does not exist or you do not have access to it.","type":"invalid_request_error","param":null,...
 [warn] DashScope model qwen3.6-flash-2026-04-16 failed; trying qwen3.5-flash. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
 [warn] DashScope model qwen3.5-flash failed; trying qwen3.5-35b-a3b. Reason: HTTP 400: {"error":{"message":"Access denied, please make sure your account is in good standing. For details, see: https://help.aliyun.com/zh/model-studio/error-code#overdue-payment","typ...
