@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-19",
-  "updated_at_display": "2026年11月19日 11:10",
+  "updated_at_display": "2026年11月19日 21:10",
   "sources": [
     {
       "id": "google_news_mingli_tw",
@@ -168,7 +168,7 @@
     }
   ],
   "source_health": {
-    "fetched_at": "2026-11-19T11:10:06.089075+08:00",
+    "fetched_at": "2026-11-19T21:10:09.588125+08:00",
     "failed_sources": [
       {
         "source_id": "reddit_search",
@@ -252,20 +252,20 @@
   ],
   "items": [
     {
-      "title": "小雪節氣「3生肖」運勢拉警報！命理師示警「這生肖」最要小心！ #shorts #手面相#風水 #紫微#星座 #命理 #開運",
+      "title": "2027立春八字預言︱紫微斗數四化講流年吉凶︱全球命運預測恐有大水災︱太陰化祿、天同化權、天機化科、巨門化忌︱招懿芳師傅【紫微揭秘EP76】",
       "summary": "来自 YouTube · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GMHJfeV9PWVJHTVRkWkJoRnl3YzBCQU1JLXlveVJBcG5kVlhqNUxMaHMwYlV6cGFCdWFNd0xmYjZSbHZfMTA0ZUYyVlBZbTB6UXExTXJn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pMjlmMDFQMkFtR2YwSEtmOHF4RUZZZnFwODFWcHdOdHlwU0lzTWtYTl9QWGFoOURXR1pUNy1pSUloYk1oLUgwV203TG1mSFFMWDFrTThn?oc=5",
       "source_id": "youtube_search",
       "source": "YouTube · Google News",
-      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%91%BD%E7%90%86%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_url": "https://news.google.com/rss/search?q=site%3Ayoutube.com%20%E5%85%AB%E5%AD%97%20when%3A30d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
       "source_group": "video",
-      "category": "风水玄学",
+      "category": "八字紫微",
       "published": "2026-11-16",
       "published_display": "2026-11-16",
       "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
+        "流年",
+        "八字",
+        "紫微"
       ],
       "score": 14.55,
       "event_cluster": "event-16"
@@ -287,7 +287,7 @@
         "算命"
       ],
       "score": 12.149999999999999,
-      "event_cluster": "event-46"
+      "event_cluster": "event-52"
     },
     {
       "title": "[新聞] 神機妙算！沈伯洋塔羅牌抽「死神牌」有反",
@@ -309,6 +309,25 @@
       "event_cluster": "event-01"
     },
     {
+      "title": "寒露要來了！命理師示警2生肖和「這類人」恐出事 開運招曝光",
+      "summary": "来自 三立新聞網SETN.com · Google News 的台湾繁体媒体报道，点击可查看原文。",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPSlc5amFNektnOFRiclZMZHAyUjRsYjVENHI2TFN5U2pqR2hDemVyRUxvSkl5dVpvS1lMTWJ3a0FpbXNUQW10RdIBTEFVX3lxTFBiSjJZV2Y3STRfb19sMGJwNDBLLXVsbVpLR3BscnBVYXBBb2RnaXU4dWl4NDRjZDgzTGt1WjN1cndDSG5qWERmUkNlc20?oc=5",
+      "source_id": "google_news_mingli_tw",
+      "source": "三立新聞網SETN.com · Google News",
+      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+      "source_group": "news",
+      "category": "命理新闻",
+      "published": "2026-11-19",
+      "published_display": "2026-11-19",
+      "matched_keywords": [
+        "命理",
+        "命理師",
+        "開運"
+      ],
+      "score": 14.750000000000002,
+      "event_cluster": "event-06"
+    },
+    {
       "title": "黃仁勳桃花劫 命理師解析面相「晚年運勢」大分歧",
       "summary": "来自 ETtoday新聞雲 · Google News 的台湾繁体媒体报道，点击可查看原文。",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14Tm5iVThnOHlwbTRRYjRkNXFPTWJFN0wwRW42QmFlRlZ6MkMyb09jV0E5b3g2aUs5V0VrbGltdWlMMjM5UGxuZU5DdDg3Q0kwYTV0aVdjalNvWVM3WHfSAUtBVV95cUxQU1A0ZUxaNUZjWGxGTHFVSnVDWFdxLVRpY0lSMGFjOEt1ZDltT2FnRTNRTWpDaVFHUU9wTmlFcDdJMmRNUmVFb1Jjc3M?oc=5",
@@ -325,7 +344,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-06"
+      "event_cluster": "event-07"
     },
     {
       "title": "獨家／週末小雪下元節接力來！3生肖年底運勢拉警報 命理師1招求平安",
@@ -344,7 +363,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-07"
+      "event_cluster": "event-08"
     },
     {
       "title": "女生名字別取這10個字！命理師點名影響運勢「易晚年孤獨」，亭、 貞也上榜",
@@ -363,7 +382,7 @@
         "運勢"
       ],
       "score": 14.750000000000002,
-      "event_cluster": "event-08"
+      "event_cluster": "event-09"
     },
     {
       "title": "小雪節氣巧逢下元節 命理師示警「別急著求財」 教4招開運秘訣",
@@ -380,25 +399,6 @@
         "命理",
         "命理師",
         "開運"
-      ],
-      "score": 14.750000000000002,
-      "event_cluster": "event-09"
-    },
-    {
-      "title": "分析黃仁勳面相命理師大膽預言晚年運勢- 娛樂",
-      "summary": "来自 中時新聞網 · Google News 的台湾繁体媒体报道，点击可查看原文。",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE50TXVzR3J6dVhFS0h3SVF6SVhFOXJIaEptTnc4OUtrWmVNdlNraUZMaFgyNFR6allYVm81Yy1aVE5FY0J5VGlEQm1qVXNoQVZDR1lhX3ZUY1BYaE5HY2h6LXM0OWJvQ2llZzk1cW53?oc=5",
-      "source_id": "google_news_mingli_tw",
-      "source": "中時新聞網 · Google News",
-      "source_url": "https://news.google.com/rss/search?q=%E5%91%BD%E7%90%86+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
-      "source_group": "news",
-      "category": "命理新闻",
-      "published": "2026-11-17",
-      "published_display": "2026-11-17",
-      "matched_keywords": [
-        "命理",
-        "命理師",
-        "運勢"
       ],
       "score": 14.750000000000002,
       "event_cluster": "event-10"
